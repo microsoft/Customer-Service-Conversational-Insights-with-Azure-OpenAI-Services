@@ -1,0 +1,44 @@
+@using CognitiveSearch.UI.Configuration
+@inject AppConfig AppConfig
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-bg">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="navbar-header">
+                <a class="navbar-brand-logo" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logo.png" height="35" id="navbar-img" alt="@AppConfig.Organization.Name logo" title="@AppConfig.Organization.Name logo" class="logo-container logo-sgv" asp-append-version="true" />
+                </a>
+            </div>
+            @if (AppConfig.Customizable)
+            {
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="navbar-text navbar-text-color" asp-area="" asp-controller="Home" asp-action="Search">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="customize-page" class="navbar-text navbar-text-color" asp-area="" asp-controller="Admin" asp-action="Customize">Customize</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="upload-data-page" class="navbar-text navbar-text-color" asp-area="" asp-controller="Admin" asp-action="UploadData">Upload Files</a>
+                        </li>
+                    </ul>
+                </div>
+            }
+        </div>
+
+    </div>
+</nav>
+
+@if (!string.IsNullOrWhiteSpace(ViewBag.Message))
+{
+    @if (!string.IsNullOrWhiteSpace(ViewBag.Style))
+    {
+        <div class="alert @ViewBag.Style  mb-2 mt-5 mr-5 ml-5">@ViewBag.Message</div>
+    }
+    else
+    {
+        <div class="alert alert-info  mb-2 mt-5 mr-5 ml-5">@ViewBag.Message</div>
+    }
+}

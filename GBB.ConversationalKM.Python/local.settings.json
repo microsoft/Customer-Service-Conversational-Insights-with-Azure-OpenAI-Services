@@ -1,0 +1,16 @@
+{
+  "IsEncrypted":  false,
+  "Values":  {
+                 "AzureWebJobsStorage":  "YOUR_BLOB_STORAGE_CONNECTION_STRING",
+                 "FUNCTIONS_WORKER_RUNTIME":  "python",
+                 "dimensions":  "scenario,channel,entities.intent,entities.dst_city,entities.or_city,entities.n_adults,entities.NO_RESULT,entities.seat,entities.downtown,entities.breakfast,entities.category",
+                 "defined_events":  "IntentRecognized",
+                 "conversationalkm_STORAGE":  "YOUR_BLOB_STORAGE_CONNECTION_STRING",
+                 "telemetry_processed":  "conversationkm-raw",
+                 "COGNITIVE_SERVICES_API":  "YOUR_COGNITIVE_SERVICES_API",
+                 "profanity_lang":  "eng",
+                 "cognitive_services_region":  "westus",
+                 "ner_hotel_file":  "https://zbotconversationalkm.blob.core.windows.net/ner-config/ner_hotel.csv?sp=r\u0026st=2020-05-25T12:26:17Z\u0026se=9999-12-31T21:26:17Z\u0026spr=https\u0026sv=2019-10-10\u0026sr=b\u0026sig=rJqlpMgYTZaDDdqs%2FH9jAyf77%2BWBAPsU3dh5mlJO75o%3D",
+                 "table_sample_data" : "botconvevals"
+             }
+}

@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GBB.ConversationalKM/.vs/
+/LUISSchemaSerializationTool/.vs
+/LUISSchemaSerializationTool/LUISSchemaSerializationTool/bin
+/LUISSchemaSerializationTool/LUISSchemaSerializationTool/obj
+/SearchUI/.vs/GBB.ConversationalKM.SearchUI
+/SearchUI/CognitiveSearch.UI/bin/Debug/netcoreapp2.0
+/SearchUI/CognitiveSearch.UI/obj
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/bin
+/GBB.ConversationalKM.WebUI/.vs
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/obj
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/appsettings.Development.json

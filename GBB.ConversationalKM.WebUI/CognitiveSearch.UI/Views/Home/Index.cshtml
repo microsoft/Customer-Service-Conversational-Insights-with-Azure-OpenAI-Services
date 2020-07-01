@@ -1,0 +1,45 @@
+﻿<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+     Licensed under the MIT License. -->
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+<div class="home-page-background">
+    <div class="content">
+        <form method="get" asp-controller="Home" asp-action="Search">
+            <div class="form-group">
+                <label id="search-label">Search</label>
+                <div id="search-input-group" class="input-group">
+                    <input type="text" class="form-control advancedAutoComplete" name="q" id="index-search-input" placeholder="What are you searching for today?" autocomplete="off">
+                    <span class="input-group-btn">
+                        <button id="index-search-submit" class="btn btn-default" type="submit"><span class="ms-Icon ms-Icon--Search"></span></button>
+                    </span>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="content row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+        <h5>LEARN MORE</h5>
+        <div style="font-size:16px;">
+            <a href="https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search">Azure Cognitive Search</a>
+        </div>
+        <div style="font-size:16px;">
+            <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/Welcome">Cognitive Services</a>
+        </div>
+        <div style="font-size:16px;">
+            <a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/azure-machine-learning?view=azure-devops&tabs=yaml">Azure Machine Learning</a>
+        </div>
+        <div style="font-size:16px;">
+            <a href="https://azure.microsoft.com/en-us/resources/knowledge-mining-the-next-wave-of-artificial-intelligence-led-transformation/">Knowledge Mining</a>
+        </div>
+    </div>
+</div>

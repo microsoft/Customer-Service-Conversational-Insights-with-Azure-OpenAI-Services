@@ -1,0 +1,155 @@
+﻿<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+     Licensed under the MIT License. -->
+@model CognitiveSearch.UI.Models.SearchResultViewModel
+
+@{
+    ViewData["Title"] = "Search Results";
+    ViewData["Path"] = "Home / Search Results";
+}
+
+<!-- Pass controller data to view -->
+<script>
+    aspViewModel = @Html.Raw(Json.Serialize(Model));
+    q = @Html.Raw(Json.Serialize(Model.query));
+    searchId = @Html.Raw(Json.Serialize((Model.searchId)));
+    applicationInstrumentationKey = @Html.Raw(Json.Serialize(Model.applicationInstrumentationKey));
+</script>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+
+<!--Details Modal-->
+<div class="modal" id="details-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div id="details-modal-body" class="modal-body">
+                <div class="row" style="height: 100%;">
+                    <div class="modal-control-group">
+                        <span id="close-control" class="modal-control" data-dismiss="modal"><i class="ms-Icon ms-Icon--Clear"></i></span>
+                    </div>
+                    <div id="details-pivot" class="ms-Pivot col-md-8">
+                        <ul id="details-pivot-links" class="ms-Pivot-links"></ul>
+                        <div id="details-pivot-content">
+                        </div>
+                    </div>
+                    <div id="tags-panel" class="col-md-4">
+                        <div id="transcript-search-box" class="ms-SearchBox">
+                            <input class="ms-SearchBox-field" type="text" value="" id="transcript-search-input" placeholder="Search...">
+                            <label class="ms-SearchBox-label">
+                                <i class="ms-SearchBox-icon ms-Icon ms-Icon--Search"></i>
+                            </label>
+                            <div class="ms-CommandButton ms-SearchBox-clear ms-CommandButton--noLabel">
+                                <button class="ms-CommandButton-button">
+                                    <span class="ms-CommandButton-icon"><i class="ms-Icon ms-Icon--Clear"></i></span>
+                                    <span class="ms-CommandButton-label"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="details-viewer" style="display:none"></div>
+                        <div id="tag-viewer"></div>
+                        <hr />
+                        <div id="reference-viewer"></div>
+                    </div>
+                    <input id="result-id" type="hidden" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Search, Filters, and Facets-->
+<div id="results-container" class="row content-results">
+    <div class="col-md-2">
+        <div id="search-input-group" class="input-group">
+            <input type="text" class="form-control advancedAutoComplete" name="q" id="q" placeholder="Search..." autocomplete="off">
+            <span class="input-group-btn">
+                <button id="search-button" class="btn btn-default" onclick="Search();"><span class="ms-Icon ms-Icon--Search"></span></button>
+            </span>
+        </div>
+        <br />
+        <button style="width:100%" class="btn btn-default" onclick="EntityMapClick()">View Entity Map</button>
+        <br />
+        <br />
+        Start Date
+        <input type="date" class="form-control advancedAutoComplete" name="startdate" id="startdate" placeholder="Start Date" autocomplete="off">
+        End Date
+        <input type="date" class="form-control advancedAutoComplete" name="enddate" id="enddate" placeholder="End Date" autocomplete="off">
+        <br />
+        <div>
+            <div id="filterReset"></div>
+            <div class="widget-content">
+                <div id="facet-nav" class="facet-nav"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Results-->
+    <div class="col-md-10">
+        <div style="margin:0 10px 10px 10px;">
+            <h2 id="doc-count" style="margin-top:-10px; font-size:14px; display:inline"></h2>
+            <div id="maps-viewer"></div>
+            <div style="display:inline;position: relative;top:-10px;left:10px;">
+                <span id="loading-indicator" class="ms-Spinner ms-Spinner--large" style="display:none;"></span>
+            </div>
+        </div>
+        <div id="doc-details-div">
+        </div>
+        <div class="clearfix">
+            <ul id="paginationFooter" class="pagination pull-right"></ul>
+        </div>
+    </div>
+</div>
+
+<div id="entity-map" style="display:none">
+    <div id="results-container" class="row content-results">
+        <div class="col-md-2">
+            <div id="search-input-group" class="input-group">
+                <input type="text" class="form-control" name="e" id="e" placeholder="Search...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" onclick="SearchEntities();"><span class="ms-Icon ms-Icon--Search"></span></button>
+                </span>
+
+                <div style="display:inline;position: relative;top:-10px;left:10px;">
+                    <span id="entity-loading-indicator" class="ms-Spinner ms-Spinner--large" style="display:none;"></span>
+                </div>
+            </div>
+
+            <br />
+            <button style="width:100%" class="btn btn-default" onclick="EntityMapClick()">Return to Search Results</button>
+        </div>
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+            <label for="slider-currentMaxNodes">Max Levels</label>
+            <label id="lbl-currentMaxLevels" style="float:right">0</label>
+            <input type="range" class="custom-range" min="1" max="5" id="slider-currentMaxLevels" oninput="changeMaxLevels(this.value, false)" onchange="changeMaxLevels(this.value, true)">
+        </div>
+        <div class="col-md-2">
+            <label for="slider-currentMaxNodes">Max Nodes</label>
+            <label id="lbl-currentMaxNodes" style="float:right">0</label>
+            <input type="range" class="custom-range" min="3" max="30" id="slider-currentMaxNodes" oninput="changeMaxNodes(this.value, false)" onchange="changeMaxNodes(this.value, true)">
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-default dropdown-toggle" type="button"
+                    id="dropdownMenu1" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true"
+                    float="right">
+                <strong>Select Facets</strong>
+                <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu checkbox-menu allow-focus dropdown-graphfields">
+                @foreach (var f in Model.facetableFields)
+                {
+                    <li>
+                        <label>
+                            <input value="@f" type="checkbox"> @f
+                        </label>
+                    </li>
+                }
+            </ul>
+        </div>
+        <div class="col-md-10">
+            <svg height="600px"></svg>
+        </div>
+    </div>
+</div>
+
+

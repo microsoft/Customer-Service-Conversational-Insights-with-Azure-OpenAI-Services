@@ -1,0 +1,26 @@
+{
+    "values": [
+        {
+            "recordId": "e1",
+            "data":
+            {
+                "Messages": 
+                [
+                    {"CustomProperties": "{\"mainScenario\":\"Welcome\",\"currentScenario\":\"Welcome\"}"},
+                    {"CustomProperties": "{\"mainScenario\":\"Welcome\",\"currentScenario\":\"Welcome2\"}"},
+                    {"CustomProperties": "{\"isAuthenticated\":\"false\",\"channel\":\"app\"}"}
+                ]
+            }
+        },
+        {
+            "recordId": "e2",
+            "data": 
+            {
+                "Messages" :
+                [
+                    {"CustomProperties": "{\"isAuthenticated\":\"false\",\"channel\":\"app\"}"}
+                ]
+            }
+        }
+    ]
+}

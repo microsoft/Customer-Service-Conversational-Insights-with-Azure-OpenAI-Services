@@ -1,0 +1,5 @@
+azure-functions
+azure-cosmosdb-table
+pandas
+azure-storage-blob==12.3.0
+requests

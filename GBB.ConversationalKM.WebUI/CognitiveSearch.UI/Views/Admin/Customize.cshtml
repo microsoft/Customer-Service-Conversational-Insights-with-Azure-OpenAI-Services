@@ -1,0 +1,45 @@
+@model CognitiveSearch.UI.Models.CustomizeViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <main role="main">
+        <div class="card m-5">
+            <h4 class="card-header">Customize the navigation bar</h4>
+            <div class="card-body">
+                <p>
+                    Using the options below, you can upload your own logo, as well as set the background and text colors for the navigation bar.
+                </p>
+                <form asp-controller="Admin" asp-action="CustomizeNavBar" asp-antiforgery="false"
+                      id="CustomizeNavBar" enctype="multipart/form-data" method="post">
+                    <div class="fallback">
+                        <label>Select a background color</label>
+                        <input name="navbar-bg" type="color" value="@Model.NavBar.BackgroundColor" />
+                        <br />
+                        <label>Select a text color</label>
+                        <input name="navbar-text" type="color" value="@Model.NavBar.TextColor" />
+                        <br />
+                        <label>Select an image to use as the NavBar logo (only support .png)</label>
+                        <input name="file" type="file" />
+                    </div>
+                    <br />
+                    <input type="submit" value="Save NavBar Settings" class="btn btn-primary" />
+                </form>
+            </div>
+        </div>
+    </main>
+
+<script type="text/javascript">
+
+
+    $(document).ready(function () {
+
+        if (customizable === 'False') {
+            window.location.replace("/Admin/NotAvailable");
+        }
+
+    });
+</script>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />

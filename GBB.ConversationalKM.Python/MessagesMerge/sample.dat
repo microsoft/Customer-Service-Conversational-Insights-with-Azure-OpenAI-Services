@@ -1,0 +1,52 @@
+{
+    "values": [
+        {
+            "recordId": "e1",
+            "data":
+            {
+                "Messages": [
+                     {
+                        'ConversationId': 'CONVERSATION_ID_1',
+                        'Value': "TEXT_MESSAGE",
+                        'UserId': 'BOT_ID',
+                        'EventType': 'MessageFromBotOrAgent',
+                        'EventTime': '2020-04-18T10:05:40.6008649+00:00',
+                        'CustomProperties': {}
+                    },
+                    {
+                        'ConversationId': 'CONVERSATION_ID_1',
+                        'Value': "TEXT_MESSAGE",
+                        'UserId': 'USER_ID',
+                        'EventType': 'MessageFromUser',
+                        'EventTime': '2020-04-18T10:05:40.6008649+00:00',
+                        'CustomProperties': {}
+                    },
+                ]
+            }
+        },
+                {
+            "recordId": "e2",
+            "data":
+            {
+                "Messages": [
+                     {
+                        'ConversationId': 'CONVERSATION_ID_2',
+                        'Value': "TEXT_MESSAGE",
+                        'UserId': 'BOT_ID',
+                        'EventType': 'MessageFromBotOrAgent',
+                        'EventTime': '2020-04-18T10:05:40.6008649+00:00',
+                        'CustomProperties': {}
+                    },
+                    {
+                        'ConversationId': 'CONVERSATION_ID_2',
+                        'Value': "TEXT_MESSAGE",
+                        'UserId': 'USER_ID',
+                        'EventType': 'MessageFromUser',
+                        'EventTime': '2020-04-18T10:05:40.6008649+00:00',
+                        'CustomProperties': {}
+                    },
+                ]
+            }
+        }
+    ]
+}

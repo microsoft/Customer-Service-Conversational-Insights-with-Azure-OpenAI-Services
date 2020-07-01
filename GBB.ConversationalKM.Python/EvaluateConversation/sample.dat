@@ -1,0 +1,23 @@
+{
+    "values": [
+        {
+            "recordId": "e1",
+            "data":
+            {
+                "Messages": [
+                     {'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': "Ciao sono Angie, l'Assistente Virtuale di TIM! Farò del mio meglio per darti assistenza sulle tue linee.", 'UserId': 'prod-timva-co-botservice@fSBWhysm57U', 'EventType': 'MessageFromBotOrAgent', 'EventTime': '2020-04-18T10:05:40.6008649+00:00', 'CustomProperties': {'mainScenario': 'Welcome', 'currentScenario': 'Welcome'}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': 'Buongiorno. Una informazione. Per il pagamento delle bollette effettuato con app mytim, è possibile avere una ricevuta di pagamento?', 'UserId': 'fa6693c60c2d5458c79216042f8942a0cc0e84227d213a80e2e4b181b54e7902', 'EventType': 'MessageFromUser', 'EventTime': '2020-04-18T10:05:46.2675361+00:00', 'CustomProperties': {'isAuthenticated': 'false', 'channel': 'app', 'sentiment' : '0.99'}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': 'hopagato', 'UserId': None, 'EventType': 'IntentRecognized', 'EventTime': '2020-04-18T10:05:46.2675361+00:00', 'CustomProperties': {}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': 'Ho controllato i nostri sistemi e ti confermo che la linea 062311280 risulta attiva e i pagamenti regolari', 'UserId': 'prod-timva-co-botservice@fSBWhysm57U', 'EventType': 'MessageFromBotOrAgent', 'EventTime': '2020-04-18T10:05:47.36841+00:00', 'CustomProperties': {'mainScenario': 'CO_Estremi_StatoPagamenti_StatoLinea_FISSO_N', 'currentScenario': 'CO_Estremi_StatoPagamenti_StatoLinea_FISSO_Auth_N', 'sentiment' : '0.99'}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': "Per migliorare e imparare sempre cose nuove, vorrei chiederti un'opinione...", 'UserId': 'prod-timva-co-botservice@fSBWhysm57U', 'EventType': 'MessageFromBotOrAgent', 'EventTime': '2020-04-18T10:05:47.7463481+00:00', 'CustomProperties': {'mainScenario': 'CO_Estremi_StatoPagamenti_StatoLinea_FISSO_N', 'currentScenario': 'ALL_Arrivederci'}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': 'Quanto sono stata utile? 1 - Inutile 2 - Poco 3 - Indifferente 4 - Molto 5 - Utilissimo', 'UserId': 'prod-timva-co-botservice@fSBWhysm57U', 'EventType': 'MessageFromBotOrAgent', 'EventTime': '2020-04-18T10:05:48.9189946+00:00', 'CustomProperties': {'mainScenario': 'CO_Estremi_StatoPagamenti_StatoLinea_FISSO_N', 'currentScenario': 'Feedback Dialog'}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': '1', 'UserId': 'fa6693c60c2d5458c79216042f8942a0cc0e84227d213a80e2e4b181b54e7902', 'EventType': 'MessageFromUser', 'EventTime': '2020-04-18T10:07:10.4764096+00:00', 'CustomProperties': {'isAuthenticated': 'true', 'channel': 'app', 'currentScenario' : 'Feedback Dialog'}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': 'none', 'UserId': None, 'EventType': 'IntentRecognized', 'EventTime': '2020-04-18T10:07:10.4764096+00:00', 'CustomProperties': {}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': 'Mi dispiace, sono un’assistente virtuale ancora giovane, ma imparo in fretta! Spero di riuscire ad esserti utile la prossima volta.', 'UserId': 'prod-timva-co-botservice@fSBWhysm57U', 'EventType': 'MessageFromBotOrAgent', 'EventTime': '2020-04-18T10:07:10.6197122+00:00', 'CustomProperties': {'mainScenario': 'CO_Estremi_StatoPagamenti_StatoLinea_FISSO_N', 'currentScenario': 'Feedback Dialog'}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': 'Ricordati che puoi farmi altre richieste in ogni momento', 'UserId': 'prod-timva-co-botservice@fSBWhysm57U', 'EventType': 'MessageFromBotOrAgent', 'EventTime': '2020-04-18T10:07:10.6558337+00:00', 'CustomProperties': {'mainScenario': 'CO_Estremi_StatoPagamenti_StatoLinea_FISSO_N', 'currentScenario': 'Feedback Dialog'}}
+                    ,{'ConversationId': '10Knnz7KCzF5co4pRTWMSq-p', 'Value': 'Ricordati che puoi farmi altre richieste in ogni momento', 'UserId': 'prod-timva-co-botservice@fSBWhysm57U', 'EventType': 'MessageFromBotOrAgent', 'EventTime': '2020-04-18T10:07:10.6558337+00:00', 'CustomProperties': {'mainScenario': 'CO_Estremi_StatoPagamenti_StatoLinea_FISSO_N', 'currentScenario': 'Default Dialog', 'isLeaf':True}}
+                ]
+            }
+        }
+    ]
+}
