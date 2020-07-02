@@ -15,7 +15,7 @@ Demo site is build on hotel and travel booking conversations. Search for city na
 
 ## Video Setup Guide
 
-[<img src="images/setup-guide/video.PNG">](https://www.videoindexer.ai/embed/player/97c3ad1a-f467-4870-83df-7b21ac3470fc/fb17fb17ac/?locale=en&location=Trial&accessToken=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJBY2NvdW50SWQiOiI5N2MzYWQxYS1mNDY3LTQ4NzAtODNkZi03YjIxYWMzNDcwZmMiLCJWaWRlb0lkIjoiZmIxN2ZiMTdhYyIsIkFsbG93RWRpdCI6IkZhbHNlIiwiRXh0ZXJuYWxVc2VySWQiOiI4OUNFOEQ2QkNGQUM0QjQ4OEEzNzBDRUE4N0M1QkI4QyIsIlVzZXJUeXBlIjoiTWljcm9zb2Z0Q29ycEFhZCIsIklzc3VlckxvY2F0aW9uIjoiVHJpYWwiLCJuYmYiOjE1OTM2MjU4MTcsImV4cCI6MTU5MzYyOTcxNywiaXNzIjoiaHR0cHM6Ly9hcGkudmlkZW9pbmRleGVyLmFpLyIsImF1ZCI6Imh0dHBzOi8vYXBpLnZpZGVvaW5kZXhlci5haS8ifQ._rFPVrxBTPlLPPEPX36K9KSxcjPorm_H7Z6IPzHU5SU)
+[<img src="images/setup-guide/video.PNG">](https://www.videoindexer.ai/embed/player/97c3ad1a-f467-4870-83df-7b21ac3470fc/fb17fb17ac/?locale=en&location=Trial)
 
 Click on any of the following images to skip to the related section in the video setup guide.
 
