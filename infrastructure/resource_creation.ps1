@@ -66,7 +66,7 @@ az functionapp create --resource-group $resource_group --os-type Linux --consump
 
 # Cognitive Services
     # Create Cognitive Services
-    az cognitiveservices account create --kind $cognitive_services_kind --location $location --name $cognitive_services --resource-group $resource_group --sku S0
+    az cognitiveservices account create --kind $cognitive_services_kind --location $location --name $cognitive_services --resource-group $resource_group --sku S0 --yes
 
     $cognitive_services_key = az cognitiveservices account keys list --resource-group $resource_group --name $cognitive_services --query key1 -o tsv
 
