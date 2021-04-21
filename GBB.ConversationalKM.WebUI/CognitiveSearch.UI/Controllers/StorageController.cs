@@ -5,11 +5,12 @@ using System;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using Microsoft.WindowsAzure.Storage.Blob;
-using Microsoft.WindowsAzure.Storage.Auth;
 using System.Threading.Tasks;
 using System.IO;
 using System.Web;
+using Azure.Storage.Blobs;
+using Azure.Storage;
+using Azure.Storage.Blobs.Models;
 
 namespace CognitiveSearch.UI.Controllers
 {
@@ -35,8 +36,10 @@ namespace CognitiveSearch.UI.Controllers
                 {
                     if (formFile.Length > 0)
                     {
-                        var cloudBlockBlob = container.GetBlockBlobReference(formFile.FileName);
-                        await cloudBlockBlob.UploadFromStreamAsync(formFile.OpenReadStream());
+                        var blob = container.GetBlobClient(formFile.FileName);
+                        var blobHttpHeader = new BlobHttpHeaders();
+                        blobHttpHeader.ContentType = formFile.ContentType;
+                        await blob.UploadAsync(formFile.OpenReadStream(), blobHttpHeader);
                     }
                 }
             }
@@ -59,16 +62,17 @@ namespace CognitiveSearch.UI.Controllers
         {
             var decodedFilename = HttpUtility.UrlDecode(fileName);
             var container = GetStorageContainer(storageIndex);
-            var cloudBlockBlob = container.GetBlockBlobReference(decodedFilename);
+            var blob = container.GetBlobClient(decodedFilename);
             using (var ms = new MemoryStream())
             {
-                await cloudBlockBlob.DownloadToStreamAsync(ms);
+                var downlaodInfo = await blob.DownloadAsync();
+                await downlaodInfo.Value.Content.CopyToAsync(ms);
                 Response.Headers.Add("Content-Disposition", "inline; filename=" + decodedFilename);
                 return File(ms.ToArray(), HttpUtility.UrlDecode(mimeType));
             }
         }
 
-        private CloudBlobContainer GetStorageContainer(int storageIndex)
+        private BlobContainerClient GetStorageContainer(int storageIndex)
         {
             string accountName = _configuration.GetSection("StorageAccountName")?.Value;
             string accountKey = _configuration.GetSection("StorageAccountKey")?.Value;
@@ -78,7 +82,7 @@ namespace CognitiveSearch.UI.Controllers
                 containerKey += (storageIndex+1).ToString();
             var containerAddress = _configuration.GetSection(containerKey)?.Value.ToLower();
 
-            var container = new CloudBlobContainer(new Uri(containerAddress), new StorageCredentials(accountName, accountKey));
+            var container = new BlobContainerClient(new Uri(containerAddress), new StorageSharedKeyCredential(accountName, accountKey));
             return container;
         }
     }

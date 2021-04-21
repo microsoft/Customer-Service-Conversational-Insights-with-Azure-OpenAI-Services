@@ -24,9 +24,6 @@ function GetTagsHTML(result) {
                         }
                 }
             });
-            if (dedupedEntities.length > 0) {
-                tagsHTML += "<br/>";
-            }
         }
     });
 

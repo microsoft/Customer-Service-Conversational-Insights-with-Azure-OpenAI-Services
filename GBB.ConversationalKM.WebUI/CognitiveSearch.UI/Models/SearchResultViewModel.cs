@@ -13,6 +13,8 @@
         public string searchId { get; set; }
 
         public string applicationInstrumentationKey { get; set; }
+        public string searchServiceName { get; set; }
+        public string indexName { get; set; }
 
         public string[] facetableFields { get; set; }
     }

@@ -122,8 +122,8 @@ function AddMapPoints(results) {
                     var properties = e.shapes[0].getProperties();
                     var id = properties.id;
                     var popupTemplate = `<div class="customInfobox">
-                                         <div class="name" onclick="ShowDocument('${id}');" >{name}</div>
-                                         <div onclick="ShowDocument('${id}');">{description}</div>
+                                         <div class="name" onclick="ShowDocument('${id}', ${0});" >{name}</div>
+                                         <div onclick="ShowDocument('${id}', ${0});">{description}</div>
                                          </div>`;
                     content = popupTemplate.replace(/{name}/g, properties.name).replace(/{description}/g, properties.description);
                     coordinate = e.shapes[0].getCoordinates();
@@ -168,10 +168,10 @@ function UpdatePOIs(results, dataSource) {
     var coordinates;
     for (var i = 0; i < results.length; i++) {
         var result = results[i].document;
-        var latlon = result.geoLocation;
-        if (latlon !== null) {
-            if (latlon.isEmpty === false) {
-                coordinates = [latlon.longitude, latlon.latitude];
+        var latlon = result?.geoLocation;
+        if (latlon !== null && typeof latlon !== 'undefined') {
+            if (latlon.coordinates !== null) {
+                coordinates = [latlon.coordinates[0], latlon.coordinates[1]]; // longitude, latitude
                 //Add the symbol to the data source.
                 dataSource.add(new atlas.data.Feature(new atlas.data.Point(coordinates), {
                     name: result.metadata_storage_name,
@@ -224,7 +224,7 @@ function UpdateResults(data) {
             content = "";
         }
 
-        var icon = " ms-Icon--CannedChat";
+        var icon = " ms-Icon--Page";
         var id = document[data.idField]; 
         var tags = GetTagsHTML(document);
         var path;
@@ -256,18 +256,87 @@ function UpdateResults(data) {
             if (i === 0) classList += "results-sizer";
 
             var firstMessage = document.Messages.find(m => m.EventType == "MessageFromUser");
-                     
-            resultsHtml += `<div class="${classList}" onclick="ShowDocument('${id}', '${q}');">
+
+
+            var pathLower = path.toLowerCase();
+
+            if (pathLower.includes(".pdf")) {
+                icon = "ms-Icon--PDF";
+            }
+            else if (pathLower.includes(".htm")) {
+                icon = "ms-Icon--FileHTML";
+            }
+            else if (pathLower.includes(".xml")) {
+                icon = "ms-Icon--FileCode";
+            }
+            else if (pathLower.includes(".doc")) {
+                icon = "ms-Icon--WordDocument";
+            }
+            else if (pathLower.includes(".ppt")) {
+                icon = "ms-Icon--PowerPointDocument";
+            }
+            else if (pathLower.includes(".xls")) {
+                icon = "ms-Icon--ExcelDocument";
+            }
+
+            var resultContent = "";
+            var imageContent = "";
+
+            if (pathLower.includes(".jpg") || pathLower.includes(".png")) {
+                icon = "ms-Icon--FileImage";
+                imageContent = `<img class="img-result" style='max-width:100%;' src="${path}"/>`;
+            }
+            else if (pathLower.includes(".mp3") || pathLower.includes(".m4a")) {
+                icon = "ms-Icon--CannedChat";
+                resultContent = `<div class="audio-result-div">
+                                    <audio controls>
+                                        <source src="${path}" type="audio/mp3">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>`;
+            }
+            else if (pathLower.includes(".mp4")) {
+                icon = "ms-Icon--Video";
+                resultContent = `<div class="video-result-div">
+                                    <video controls class="video-result">
+                                        <source src="${path}" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>`;
+            }
+
+            var tagsContent = tags ? `<div class="results-body">
+                                        <div id="tagdiv${i}" class="tag-container max-lines" style="margin-top:10px;">${tags}</div>
+                                    </div>` : "";
+            // display:none
+            // <div class="col-md-1"><img id="tagimg${i}" src="/images/expand.png" height="30px" onclick="event.stopPropagation(); ShowHideTags(${i});"></div>
+
+            var contentPreview = content ? `<p class="max-lines">${content}</p>` : "";
+
+            previewAllContent = `
+                            <h4>${title}</h4>
+                            ${ contentPreview }
+                            <h5>${name}</h5>
+                            ${ tagsContent }
+                            ${ resultContent}`
+
+            if (pathLower.includes(".mp3") || pathLower.includes(".json") || pathLower.includes(".m4a")) {
+                previewAllContent = `
+                    <h5>${firstMessage.Value}</h5>
+                    <b>${moment(document.StartTime).format("LLL")}</b>
+                    <div style="margin-top:10px;">${tags}</div>`
+            }
+
+            resultsHtml += `<div id="resultdiv${i}" class="${classList}" onclick="ShowDocument('${id}', ${i + 1});">
                                     <div class="search-result">
-                                       <div class="results-icon col-md-1">
+                                        ${imageContent}
+                                        <div class="results-icon col-md-1">
                                             <div class="ms-CommandButton-icon">
-                                                <i class="html-icon ms-Icon ${icon}"></i>
+                                                <i class="html-icon ms-Icon ${icon}" style="font-size: 26px;"></i>
                                             </div>
                                         </div>
                                         <div class="results-body col-md-11">
-                                            <h5>${firstMessage.Value}</h5>
-                                            <b>${moment(document.StartTime).format("LLL")}</b>
-                                            <div style="margin-top:10px;">${tags}</div>
+                                            ${previewAllContent}
                                         </div>
                                     </div>
                                 </div>`;

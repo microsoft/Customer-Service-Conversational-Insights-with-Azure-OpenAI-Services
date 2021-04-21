@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 // Details
-function ShowDocument(id) {
+function ShowDocument(id, index) {
     $.post('/home/getdocumentbyid',
         {
             id: id
@@ -100,7 +100,7 @@ function ShowDocument(id) {
             }
 
             //Log Click Events
-            LogClickAnalytics(result.metadata_storage_name, 0);
+            LogClickAnalytics(result.metadata_storage_name, index);
             GetSearchReferences(q);
         });
 }
@@ -114,9 +114,9 @@ function AuthenticateMap(result) {
 
             if (latlon) {
 
-                if (latlon.isEmpty === false) {
+                if (latlon.coordinates !== null) {
 
-                    var coordinates = [latlon.longitude, latlon.latitude];
+                    var coordinates = [latlon.coordinates[0], latlon.coordinates[1]]; // longitude, latitude
 
                     // Authenticate the map using the key 
                     var map = new atlas.Map('myMap', {
@@ -180,6 +180,64 @@ function GetFileHTML(data, result) {
         if (pathLower.includes(".json")) {
             var txtHtml = JSON.stringify(result.Messages, null, 2);
             fileContainerHTML = `<ul class="timeline"> ${getTimelineHtml(data)} </ul>`;
+        }
+        else if (pathLower.includes(".pdf")) {
+              fileContainerHTML =
+                `<object class="file-container" data="${path}" type="application/pdf">
+                    <iframe class="file-container" src="${path}" type="application/pdf">
+                        This browser does not support PDFs. Please download the XML to view it: <a href="${path}">Download PDF</a>"
+                    </iframe>
+                </object>`;
+        }
+        else if (pathLower.includes(".txt")) {
+            var txtHtml = htmlDecode(result.content.trim());
+            fileContainerHTML = `<pre id="file-viewer-pre"> ${txtHtml} </pre>`;
+        }
+        else if (pathLower.includes(".las")) {
+            fileContainerHTML = 
+            `<iframe id="d1" width="100%" height="100%" src="${path}"><p>Your browser does not support iframes.</p></iframe>`;
+        }
+        else if (pathLower.includes(".jpg") || pathLower.includes(".jpeg") || pathLower.includes(".gif") || pathLower.includes(".png")) {
+            fileContainerHTML =
+                `<div class="file-container">
+                    <img style='max-width:100%;' src="${path}"/>
+                </div>`;
+        }
+        else if (pathLower.includes(".xml")) {
+            fileContainerHTML =
+                `<iframe class="file-container" src="${path}" type="text/xml">
+                    This browser does not support XMLs. Please download the XML to view it: <a href="${path}">Download XML</a>"
+                </iframe>`;
+        }
+        else if (pathLower.includes(".htm")) {
+            var srcPrefixArr = result.metadata_storage_path.split('/');
+            srcPrefixArr.splice(-1, 1);
+            var srcPrefix = srcPrefixArr.join('/');
+
+            var htmlContent = result.content.replace(/src=\"/gi, `src="${srcPrefix}/`);
+
+            fileContainerHTML =
+                `${htmlContent}`;
+        }
+        else if (pathLower.includes(".mp3")) {
+            fileContainerHTML =
+                `<audio controls>
+                  <source src="${path}" type="audio/mp3">
+                  Your browser does not support the audio tag.
+                </audio>`;
+        }
+        else if (pathLower.includes(".mp4")) {
+            fileContainerHTML =
+                `<video controls class="video-result">
+                        <source src="${path}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>`;
+        }
+        else if (pathLower.includes(".doc") || pathLower.includes(".ppt") || pathLower.includes(".xls")) {
+            var src = "https://view.officeapps.live.com/op/view.aspx?src=" + encodeURIComponent(path);
+
+            fileContainerHTML =
+                `<iframe class="file-container" src="${src}"></iframe>`;
         }
         else {
             fileContainerHTML =

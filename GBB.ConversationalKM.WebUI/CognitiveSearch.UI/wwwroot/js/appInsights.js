@@ -38,10 +38,10 @@ function AppInsights() {
 
 function LogSearchAnalytics(docCount = 0) {
     AppInsights();
-    if (docCount != null) {
+    if (docCount !== null) {
         var recordedQuery = q;
-        if (q == undefined || q == null) {
-            var recordedQuery = "*";
+        if (q === undefined || q === null) {
+            recordedQuery = "*";
         }
 
         appInsights.trackEvent("Search", {

@@ -9,8 +9,6 @@ var selectedFacets = [];
 var token = "";
 var currentPage = 1;
 var searchId;
-var searchServiceName = "";
-var indexName = "";
 var scoringProfile = "";
 var resultsMap = null;
 var mapDataSource = null;
@@ -76,8 +74,8 @@ function UpdateResultsView() {
             searchFacets: selectedFacets,
             currentPage: currentPage,
             polygonString: polygonString,
-            startDate : startDate,
-            endDate : endDate
+            startDate: startDate,
+            endDate: endDate
         },
         function (viewModel) {
             $('#loading-indicator').css("display", "none");
@@ -182,7 +180,7 @@ function UpdatePagination(docCount) {
         htmlString = `<li><a href="javascript:void(0)" onclick="GoToPage('${backPage}')" class="ms-Icon ms-Icon--ChevronLeftMed"></a></li>`;
     }
 
-    htmlString += '<li class="active"><a href="#">' + currentPage + ' of ' + totalPages + '</a></li>';
+    htmlString += '<li class="active"><a href="#">' + currentPage + '</a></li>';
 
     if (currentPage <= totalPages) {
         htmlString += `<li><a href="javascript:void(0)" onclick="GoToPage('${forwardPage}')" class="ms-Icon ms-Icon--ChevronRightMed"></a></li>`;

@@ -1,8 +1,10 @@
-﻿using Microsoft.Azure.Search.Models;
-using Newtonsoft.Json.Linq;
+﻿using Azure.Search.Documents.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace CognitiveSearch.UI
@@ -32,10 +34,9 @@ namespace CognitiveSearch.UI
             _searchHelper = searchClient;
         }
 
-        public JObject GetFacetGraphNodes(string q, List<string> facetNames, int maxLevels, int maxNodes)
+        public string GetFacetGraphNodes(string q, List<string> facetNames, int maxLevels, int maxNodes)
         {
-            // Calculate nodes for N levels
-            JObject dataset = new JObject();
+            // Calculate nodes for N levels 
             int CurrentNodes = 0;
             int originalDistance = 100;
 
@@ -84,7 +85,7 @@ namespace CognitiveSearch.UI
                     {
                         facetsToGrab = maxNodes;
                     }
-                    DocumentSearchResult<Document> response = _searchHelper.GetFacets(t, facetNames, facetsToGrab);
+                    SearchResults<SearchDocument> response = _searchHelper.GetFacets(t, facetNames, facetsToGrab);
                     if (response != null)
                     {
                         int facetColor = 0;
@@ -97,6 +98,7 @@ namespace CognitiveSearch.UI
                             foreach (FacetResult facet in facetVals)
                             {
                                 var facetValue = facet.Value.ToString();
+
                                 NodeInfo nodeInfo = new NodeInfo(-1, -1);
                                 if (NodeMap.TryGetValue(facetValue, out nodeInfo) == false)
                                 {
@@ -143,30 +145,42 @@ namespace CognitiveSearch.UI
             }
 
             // Create nodes
-            JArray nodes = new JArray();
-            foreach (KeyValuePair<string, NodeInfo> entry in NodeMap)
+            var options = new JsonWriterOptions
             {
-                nodes.Add(JObject.FromObject(new
+                Indented = true
+            };
+            using (var stream = new MemoryStream())
+            {
+                using (var writer = new Utf8JsonWriter(stream, options))
                 {
-                    name = entry.Key,
-                    id = entry.Value.Index,
-                    color = entry.Value.ColorId,
-                    layer = entry.Value.Layer,
-                    cornerStone = entry.Value.LayerCornerStone
-                }));
+                    writer.WriteStartObject();
+                    writer.WritePropertyName("links");
+                    writer.WriteStartArray();
+                    foreach (FDGraphEdges entry in FDEdgeList)
+                    {
+                        var jsonDocument = JsonDocument.Parse(JsonSerializer.Serialize(entry));
+                        jsonDocument.RootElement.WriteTo(writer);
+                    }
+                    writer.WriteEndArray();
+                    writer.WritePropertyName("nodes");
+                    writer.WriteStartArray();
+                    foreach (KeyValuePair<string, NodeInfo> entry in NodeMap)
+                    {
+                        var jsonDocument = JsonDocument.Parse(JsonSerializer.Serialize(new
+                        {
+                            name = entry.Key,
+                            id = entry.Value.Index,
+                            color = entry.Value.ColorId,
+                            layer = entry.Value.Layer,
+                            cornerStone = entry.Value.LayerCornerStone
+                        }));
+                        jsonDocument.RootElement.WriteTo(writer);
+                    }
+                    writer.WriteEndArray();
+                    writer.WriteEndObject();
+                }
+                return Encoding.UTF8.GetString(stream.ToArray());
             }
-
-            // Create edges
-            JArray edges = new JArray();
-            foreach (FDGraphEdges entry in FDEdgeList)
-            {
-                edges.Add(JObject.FromObject(entry));
-            }
-
-            dataset.Add(new JProperty("links", edges));
-            dataset.Add(new JProperty("nodes", nodes));
-
-            return dataset;
         }
 
         public class FDGraphEdges

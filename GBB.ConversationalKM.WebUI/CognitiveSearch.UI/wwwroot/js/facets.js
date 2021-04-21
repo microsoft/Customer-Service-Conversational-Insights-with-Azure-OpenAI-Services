@@ -39,18 +39,14 @@ function UpdateFilterReset() {
 }
 
 function RemoveFilter(facet, value) {
-    // Remove a facet
-    var result = selectedFacets.filter(function (f) { return f.key === facet; })[0];
+    var result = selectedFacets.filter(function (f) { return f.key === facet; });
+    if (result.length > 0) {
+        //Remove the facet value
+        result[0].value = result[0].value.filter(v => v !== value);
 
-    if (result) { // if that facet exists
-        var idx = selectedFacets.indexOf(result);
-
-        if (result.value.length <= 1) {
-            selectedFacets.pop(result);
-        }
-        else {
-            result.value.pop(value);
-        }
+        //Remove facet if there is no value
+        if (result[0].value.length === 0)
+            selectedFacets = selectedFacets.filter(v => v.key !== facet);
     }
 
     Search();

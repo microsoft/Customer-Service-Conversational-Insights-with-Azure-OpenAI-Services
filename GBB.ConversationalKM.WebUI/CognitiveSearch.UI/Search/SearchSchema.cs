@@ -1,7 +1,9 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-using Microsoft.Azure.Search.Models;
+using Azure.Search.Documents.Indexes.Models;
+using Azure.Search.Documents.Models;
+using Microsoft.Spatial;
 using System;
 using System.Collections.Generic;
 
@@ -18,7 +20,7 @@ namespace CognitiveSearch.UI
         public bool IsFacetable;
         public bool IsFilterable;
         public bool IsKey;
-        public bool IsRetrievable;
+        public bool IsHidden;
         public bool IsSearchable;
         public bool IsSortable;
 
@@ -38,27 +40,27 @@ namespace CognitiveSearch.UI
 
     public static partial class Extensions
     {
-        public static SearchField ToSearchField(this Field field)
+        public static SearchField ToSearchField(this Azure.Search.Documents.Indexes.Models.SearchField field)
         {
             Type type;
-            if (field.Type == DataType.Boolean) type = typeof(Boolean);
-            else if (field.Type == DataType.DateTimeOffset) type = typeof(DateTime);
-            else if (field.Type == DataType.Double) type = typeof(double);
-            else if (field.Type == DataType.Int32) type = typeof(Int32);
-            else if (field.Type == DataType.Int64) type = typeof(Int64);
-            else if (field.Type == DataType.String) type = typeof(string);
-            else if (field.Type == DataType.GeographyPoint) type = typeof(Microsoft.Spatial.GeographyPoint);
+            if (field.Type == SearchFieldDataType.Boolean) type = typeof(Boolean);
+            else if (field.Type == SearchFieldDataType.DateTimeOffset) type = typeof(DateTime);
+            else if (field.Type == SearchFieldDataType.Double) type = typeof(double);
+            else if (field.Type == SearchFieldDataType.Int32) type = typeof(Int32);
+            else if (field.Type == SearchFieldDataType.Int64) type = typeof(Int64);
+            else if (field.Type == SearchFieldDataType.String) type = typeof(string);
+            else if (field.Type == SearchFieldDataType.GeographyPoint) type = typeof(GeographyPoint);
    
-            // Azure Search DataType objects don't follow value comparisons, so use overloaded string conversion operator to be a consistent representation
-            else if ((string)field.Type == (string)DataType.Collection(DataType.String)) type = typeof(string[]);
-            else if (field.Type == DataType.Complex) type = typeof(string);
-            else if (field.Type == DataType.Collection(DataType.Complex)) type = typeof(string[]);
-            else if ((string)field.Type == (string)DataType.Collection(DataType.DateTimeOffset)) type = typeof(DateTime[]);
-            else if ((string)field.Type == (string)DataType.Collection(DataType.GeographyPoint)) type = typeof(Microsoft.Spatial.GeographyPoint[]);
-            else if ((string)field.Type == (string)DataType.Collection(DataType.Double)) type = typeof(double[]);
-            else if ((string)field.Type == (string)DataType.Collection(DataType.Boolean)) type = typeof(Boolean[]);
-            else if ((string)field.Type == (string)DataType.Collection(DataType.Int64)) type = typeof(Int32[]);
-            else if ((string)field.Type == (string)DataType.Collection(DataType.Int64)) type = typeof(Int64[]);
+            // Azure Search SearchFieldDataType objects don't follow value comparisons, so use overloaded string conversion operator to be a consistent representation
+            else if (field.Type.ToString() == SearchFieldDataType.Collection(SearchFieldDataType.String).ToString()) type = typeof(string[]);
+            else if (field.Type == SearchFieldDataType.Complex) type = typeof(string);
+            else if (field.Type == SearchFieldDataType.Collection(SearchFieldDataType.Complex)) type = typeof(string[]);
+            else if (field.Type.ToString() == SearchFieldDataType.Collection(SearchFieldDataType.DateTimeOffset).ToString()) type = typeof(DateTime[]);
+            else if (field.Type.ToString() == SearchFieldDataType.Collection(SearchFieldDataType.GeographyPoint).ToString()) type = typeof(Microsoft.Spatial.GeographyPoint[]);
+            else if (field.Type.ToString() == SearchFieldDataType.Collection(SearchFieldDataType.Double).ToString()) type = typeof(double[]);
+            else if (field.Type.ToString() == SearchFieldDataType.Collection(SearchFieldDataType.Boolean).ToString()) type = typeof(Boolean[]);
+            else if (field.Type.ToString() == SearchFieldDataType.Collection(SearchFieldDataType.Int64).ToString()) type = typeof(Int32[]);
+            else if (field.Type.ToString() == SearchFieldDataType.Collection(SearchFieldDataType.Int64).ToString()) type = typeof(Int64[]);
             else
             {
                 throw new ArgumentException($"Cannot map {field.Type} to a C# type");
@@ -70,13 +72,13 @@ namespace CognitiveSearch.UI
                 IsFacetable = field.IsFacetable ?? false,
                 IsFilterable = field.IsFilterable ?? false,
                 IsKey = field.IsKey ?? false,
-                IsRetrievable = field.IsRetrievable ?? false,
+                IsHidden = field.IsHidden ?? false,
                 IsSearchable = field.IsSearchable ?? false,
                 IsSortable = field.IsSortable ?? false
             };
         }
 
-        public static SearchSchema AddFields(this SearchSchema schema, IEnumerable<Field> fields)
+        public static SearchSchema AddFields(this SearchSchema schema, IList<Azure.Search.Documents.Indexes.Models.SearchField> fields)
         {
             foreach (var field in fields)
             {
