@@ -44,6 +44,7 @@ namespace CognitiveSearch.UI
         // this should match the default value used in appsettings.json.  
         private static string defaultContainerUriValue = "https://{storage-account-name}.blob.core.windows.net/{container-name}";
 
+        public string AudioContainer { get; set; }
 
         public DocumentSearchClient(IConfiguration configuration)
         {
@@ -56,6 +57,7 @@ namespace CognitiveSearch.UI
                 IndexerName = configuration.GetSection("SearchIndexerName")?.Value;
                 idField = configuration.GetSection("KeyField")?.Value;
                 telemetryClient.InstrumentationKey = configuration.GetSection("InstrumentationKey")?.Value;
+                AudioContainer = configuration.GetSection("AudioContainer")?.Value;
 
                 // Create an HTTP reference to the catalog index
                 _searchClient = new SearchServiceClient(searchServiceName, new SearchCredentials(apiKey));
@@ -429,6 +431,14 @@ namespace CognitiveSearch.UI
 
             int storageIndex;
             string tokenToUse = GetToken(decodedPath, out storageIndex);
+
+            if (AudioContainer != null) {
+                Uri blobUri = new Uri(decodedPath);
+                string audioPath = AudioContainer + "/" + String.Join("", blobUri.Segments[2..]);
+                audioPath = blobUri.Scheme + "://" + blobUri.Host + "/" + audioPath.Replace(".json", "");
+                string audioToken = GetToken(audioPath, out int x);
+                response.Add("audioPath", audioPath + audioToken);
+            }
 
             var result = new DocumentResult
             {

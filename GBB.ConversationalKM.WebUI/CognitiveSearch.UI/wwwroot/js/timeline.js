@@ -19,6 +19,10 @@ function getTimelineHtml(data) {
                 var messageText = messages[i].Value;
                 var customProperties = JSON.parse(messages[i].CustomProperties);
 
+                var starTime = customProperties.offsetInTicks / 10000000;
+                var endTime = starTime + (customProperties.durationInTicks / 10000000);
+                var audioPath = data.result.audioPath;
+                
                 var referenceId = messages[i].ReferenceId;
                 var userMessageObject = messages.filter(x => x.Id === referenceId);
                 var userMessage = null;
@@ -33,7 +37,13 @@ function getTimelineHtml(data) {
                             <span class="flag">${sender}</span>
                             <span class="time-wrapper"><span class="time">${messageTime}</span></span>
                         </div>
-                        <div id="${messages[i].Id}" class="desc">${messageText}</div>`;
+                        
+                        <div id="${messages[i].Id}" class="desc">
+                            ${messageText}
+                            <audio controls preload="none">
+                                <source type="audio/wav" src="${audioPath}#t=${starTime},${endTime}">
+                            </audio>
+                        </div>`;
                    
                 result += item;
 
