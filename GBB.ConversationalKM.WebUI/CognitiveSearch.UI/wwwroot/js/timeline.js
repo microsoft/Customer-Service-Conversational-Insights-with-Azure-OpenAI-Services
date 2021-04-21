@@ -39,12 +39,17 @@ function getTimelineHtml(data) {
                         </div>
                         
                         <div id="${messages[i].Id}" class="desc">
-                            ${messageText}
+                            ${messageText}`;
+
+                if (audioPath !== undefined) {
+                    item += `
                             <audio controls preload="none">
                                 <source type="audio/wav" src="${audioPath}#t=${starTime},${endTime}">
-                            </audio>
+                            </audio>`;
+                }
+                item +=`
                         </div>`;
-                   
+                                     
                 result += item;
 
 

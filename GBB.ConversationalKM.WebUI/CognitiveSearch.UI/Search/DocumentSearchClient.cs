@@ -432,7 +432,7 @@ namespace CognitiveSearch.UI
             int storageIndex;
             string tokenToUse = GetToken(decodedPath, out storageIndex);
 
-            if (AudioContainer != null) {
+            if (AudioContainer != "") {
                 Uri blobUri = new Uri(decodedPath);
                 string audioPath = AudioContainer + "/" + String.Join("", blobUri.Segments[2..]);
                 audioPath = blobUri.Scheme + "://" + blobUri.Host + "/" + audioPath.Replace(".json", "");
