@@ -1,0 +1,12 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+      {
+        "name": "myblob",
+        "type": "blobTrigger",
+        "direction": "in",
+        "path": "json-result-output/{name}",
+        "connection": "conversationalkm_STORAGE"
+      }
+    ]
+  }
