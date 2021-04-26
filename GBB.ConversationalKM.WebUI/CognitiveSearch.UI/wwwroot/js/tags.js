@@ -12,18 +12,24 @@ function GetTagsHTML(result) {
 
         if (Array.isArray(result[name])) {
             result[name].forEach(function (tagValue, i, tagArray) {
+                if (i == 0) {
+                    tagsHTML += `${name}: `;
+                }
                 if (i <= 10) {
                     if ($.inArray(tagValue, dedupedEntities) === -1) { //! in array
                         dedupedEntities.push(tagValue);
-                            if (tagValue.length > 30) { // check tag name length
-                                // create substring of tag name length if too long
-                                tagValue = tagValue.substring(0, 30);
-                            }
-                            tagsHTML += `<button class="tag tag-${name}" onclick="HighlightTag(event)">${tagValue}</button>`;
-                            i++;
+                        if (tagValue.length > 30) { // check tag name length
+                            // create substring of tag name length if too long
+                            tagValue = tagValue.substring(0, 30);
                         }
+                        tagsHTML += `<button class="tag tag-${name}" onclick="HighlightTag(event)">${tagValue}</button>`;
+                        i++;
+                    }
                 }
             });
+            if (dedupedEntities.length > 0) {
+                tagsHTML += "<br/>";
+            }
         }
     });
 

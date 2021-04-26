@@ -481,6 +481,7 @@ pre {
 .tag.tag-parts {
     background-color: #4A4A4A;
 }
+
 .tag.tag-parts_descriptions {
     background-color: #202020;
 }
@@ -516,6 +517,18 @@ pre {
     text-decoration: none;
     transition: all .15s ease-in-out;
     white-space: nowrap;
+}
+
+.tag-DestCity {
+    background-color: #0a7900;
+}
+
+.tag-OriginCity {
+    background-color: #038394;
+}
+
+.tag-keyphrases {
+    background-color: #b78400;
 }
 
 #tags-panel {
@@ -664,11 +677,11 @@ body {
     font-size: 12px;
 }
 
-.customInfobox .name {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
+    .customInfobox .name {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
 
 .dropdown-graphfields {
     width: 200px;

@@ -63,15 +63,15 @@ function AuthenticateResultsMap(results) {
 
             //Wait until the map resources are ready.
             resultsMap.events.add('ready', function () {
-  
+
                 /* Construct a zoom control*/
                 var zoomControl = new atlas.control.ZoomControl();
-      
+
                 /* Add the zoom control to the map*/
                 resultsMap.controls.add(zoomControl, {
                     position: "bottom-right"
-                    });
                 });
+            });
 
             AddMapPoints(results);
 
@@ -96,7 +96,7 @@ function AddMapPoints(results) {
         //Create a data source to add it to the map 
         mapDataSource = new atlas.source.DataSource();
         coordinates = UpdatePOIs(results, mapDataSource);
-        
+
         //Wait until the map resources are ready for first set up.
         resultsMap.events.add('ready', function () {
 
@@ -113,7 +113,7 @@ function AddMapPoints(results) {
                 pixelOffset: [0, -18],
                 closeButton: false
             });
-            
+
             //Add a hover event to the symbol layer.
             resultsMap.events.add('click', symbolLayer, function (e) {
                 //Make sure that the point exists.
@@ -224,8 +224,8 @@ function UpdateResults(data) {
             content = "";
         }
 
-        var icon = " ms-Icon--Page";
-        var id = document[data.idField]; 
+        var icon = " ms-Icon--CannedChat";
+        var id = document[data.idField];
         var tags = GetTagsHTML(document);
         var path;
 
@@ -240,7 +240,7 @@ function UpdateResults(data) {
         if (document["metadata_storage_name"] !== undefined) {
             name = document.metadata_storage_name.split(".")[0];
         }
-        
+
         if (document["metadata_title"] !== undefined && document["metadata_title"] !== null) {
             title = document.metadata_title;
         }
@@ -330,7 +330,7 @@ function UpdateResults(data) {
             resultsHtml += `<div id="resultdiv${i}" class="${classList}" onclick="ShowDocument('${id}', ${i + 1});">
                                     <div class="search-result">
                                         ${imageContent}
-                                        <div class="results-icon col-md-1">
+                                       <div class="results-icon col-md-1">
                                             <div class="ms-CommandButton-icon">
                                                 <i class="html-icon ms-Icon ${icon}" style="font-size: 26px;"></i>
                                             </div>
@@ -348,7 +348,7 @@ function UpdateResults(data) {
                                             <h4>Could not get metadata_storage_path for this result.</h4>
                                         </div>
                                     </div>
-                                </div>`; 
+                                </div>`;
         }
     }
 

@@ -485,10 +485,18 @@ namespace CognitiveSearch.UI
 
             if (AudioContainer != "") { 
                 Uri blobUri = new Uri(decodedPath);
-                string audioPath = AudioContainer + "/" + String.Join("", blobUri.Segments[2..]);
-                audioPath = blobUri.Scheme + "://" + blobUri.Host + "/" + audioPath.Replace(".json", "");
-                string audioToken = GetToken(audioPath, out int x);
-                response.Add("audioPath", audioPath + audioToken);
+                if (blobUri.AbsolutePath.Contains(".mp3") || blobUri.AbsolutePath.Contains(".wav") || blobUri.AbsolutePath.Contains(".m4a"))
+                {
+                    string audioPath = AudioContainer + "/" + String.Join("", blobUri.Segments[2..]);
+                    audioPath = blobUri.Scheme + "://" + blobUri.Host + "/" + audioPath.Replace(".json", "");
+                    string audioToken = GetToken(audioPath, out int x);
+                    response.Add("audioPath", audioPath + audioToken);
+                }
+                else
+                {
+                    response.Add("audioPath", null);
+                }
+
             }
 
             var result = new DocumentResult

@@ -35,6 +35,9 @@ namespace CognitiveSearch.UI
             "StartTime",
             "EndTime",
             "keyphrases",
+            "DestCity",
+            "OriginCity",
+            "hotels",
 
             // Add fields needed to display results cards
 
