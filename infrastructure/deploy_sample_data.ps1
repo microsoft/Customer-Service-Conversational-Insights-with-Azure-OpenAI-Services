@@ -13,7 +13,7 @@ $storage_connection_string = az storage account show-connection-string -n $stora
 # Deploy Sample Data
 If($config.deploy_sample_data){
 
-    $blob_sour = "https://conversationalinsights.blob.core.windows.net/conversationkm-raw"
+    $blob_sour = "https://csciblob.blob.core.windows.net/conversationkm-raw"
     $blob_dest = 'https://' + $storage_account + '.blob.core.windows.net/' + $telemetry_raw_data_container
     az storage copy -s $blob_sour -d $blob_dest --recursive
 
