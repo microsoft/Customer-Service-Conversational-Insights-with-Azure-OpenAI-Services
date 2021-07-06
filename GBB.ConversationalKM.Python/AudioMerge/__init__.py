@@ -30,14 +30,15 @@ def get_transcript(blob, blob_service_client, container):
 
     timestamp = transcript['timeStamp']
     recognizedPhrases = transcript['recognizedPhrases']
-    phrases = list(map(lambda x: extract_data(x, timestamp), recognizedPhrases))
+    single_channel = True if len(set(map(lambda x: x['channel'], recognizedPhrases))) == 1 else False
+    phrases = list(map(lambda x: extract_data(x, timestamp, single_channel), recognizedPhrases))
 
     save_conversation(transcript_id, phrases, blob_service_client, container)
 
 # Extract date from Speech Data
-def extract_data(x, timestamp):
+def extract_data(x, timestamp, single_channel):
     return {
-        "speaker" : x['channel'],
+        "speaker" : x['channel'] if not single_channel else x['speaker'] if x['speaker'] == 1 else 0,
         "phrase" : x['nBest'][0]['display'],
         "offset" : x['offset'],
         "duration": x['duration'],
