@@ -483,7 +483,7 @@ namespace CognitiveSearch.UI
             int storageIndex;
             string tokenToUse = GetToken(decodedPath, out storageIndex);
 
-            if (AudioContainer != "") { 
+            if (AudioContainer != "" && AudioContainer != null) { 
                 Uri blobUri = new Uri(decodedPath);
                 if (blobUri.AbsolutePath.Contains(".mp3") || blobUri.AbsolutePath.Contains(".wav") || blobUri.AbsolutePath.Contains(".m4a"))
                 {
