@@ -1,0 +1,566 @@
+{
+    "name": "YOUR_SKILLSET",
+    "description": "",
+    "skills": [
+        {
+            "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+            "name": "KeyPhraseExtractionSkill",
+            "description": null,
+            "context": "/document/merged_content_user",
+            "defaultLanguageCode": "en",
+            "maxKeyPhraseCount": null,
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/merged_content_user"
+                },
+                {
+                    "name": "languageCode",
+                    "source": "/document/language"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "keyPhrases",
+                    "targetName": "keyphrases"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.LanguageDetectionSkill",
+            "name": "LanguageDetectionSkill",
+            "description": null,
+            "context": "/document",
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/merged_content"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "languageCode",
+                    "targetName": "language"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.TranslationSkill",
+            "name": "TranslationSkill",
+            "description": null,
+            "context": "/document/merged_content",
+            "defaultFromLanguageCode": null,
+            "defaultToLanguageCode": "en",
+            "suggestedFrom": "en",
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/merged_content"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "translatedText",
+                    "targetName": "translated_text"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Util.ShaperSkill",
+            "name": "ShaperSkillObjects",
+            "description": null,
+            "context": "/document",
+            "inputs": [
+                {
+                    "name": "metadata_storage_content_type",
+                    "source": "/document/metadata_storage_content_type"
+                },
+                {
+                    "name": "metadata_storage_size",
+                    "source": "/document/metadata_storage_size"
+                },
+                {
+                    "name": "metadata_storage_last_modified",
+                    "source": "/document/metadata_storage_last_modified"
+                },
+                {
+                    "name": "metadata_storage_content_md5",
+                    "source": "/document/metadata_storage_content_md5"
+                },
+                {
+                    "name": "metadata_storage_name",
+                    "source": "/document/metadata_storage_name"
+                },
+                {
+                    "name": "metadata_storage_path",
+                    "source": "/document/metadata_storage_path"
+                },
+                {
+                    "name": "metadata_content_encoding",
+                    "source": "/document/metadata_content_encoding"
+                },
+                {
+                    "name": "metadata_content_type",
+                    "source": "/document/metadata_content_type"
+                },
+                {
+                    "name": "metadata_language",
+                    "source": "/document/metadata_language"
+                },
+                {
+                    "name": "merged_content",
+                    "source": "/document/merged_content"
+                },
+                {
+                    "name": "merged_content_user",
+                    "source": "/document/merged_content_user"
+                },
+                {
+                    "name": "keyPhrases",
+                    "source": "/document/merged_content_user/keyphrases/*"
+                },
+                {
+                    "name": "languageCode",
+                    "source": "/document/language"
+                },
+                {
+                    "name": "translatedText",
+                    "source": "/document/merged_content/translated_text"
+                },
+                {
+                    "name": "Messages",
+                    "sourceContext": "/document/Messages/*",
+                    "inputs": [
+                        {
+                            "name": "Id",
+                            "source": "/document/Messages/*/Id"
+                        },
+                        {
+                            "name": "ReferenceId",
+                            "source": "/document/Messages/*/ReferenceId"
+                        },
+                        {
+                            "name": "Value",
+                            "source": "/document/Messages/*/Value"
+                        },
+                        {
+                            "name": "UserId",
+                            "source": "/document/Messages/*/UserId"
+                        },
+                        {
+                            "name": "EventType",
+                            "source": "/document/Messages/*/EventType"
+                        },
+                        {
+                            "name": "CustomProperties",
+                            "source": "/document/Messages/*/CustomProperties"
+                        },
+                        {
+                            "name": "EventTime",
+                            "source": "/document/Messages/*/EventTime"
+                        }
+                    ]
+                },
+                {
+                    "name": "scenario",
+                    "source": "/document/scenario"
+                },
+                {
+                    "name": "channelId",
+                    "source": "/document/channelId"
+                },
+                {
+                    "name": "intent",
+                    "source": "/document/intent"
+                },
+                {
+                    "name": "ConversationId",
+                    "source": "/document/ConversationId"
+                },
+                {
+                    "name": "StartTime",
+                    "source": "/document/StartTime"
+                },
+                {
+                    "name": "EndTime",
+                    "source": "/document/EndTime"
+                },
+                {
+                    "name": "Feedback",
+                    "source": "/document/feedback"
+                },
+                {
+                    "name": "Leaf",
+                    "source": "/document/Leaf"
+                },
+                {
+                    "name": "AvgSentiment",
+                    "source": "/document/avg_sentiment"
+                },
+                {
+                    "name": "EvaluationScore",
+                    "source": "/document/evaluation_score"
+                },
+                {
+                    "name": "Profanity",
+                    "source": "/document/profanity"
+                },
+                {
+                    "name": "ConversationQuality",
+                    "source": "/document/conversation_quality"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "output",
+                    "targetName": "objectprojection"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Util.ShaperSkill",
+            "name": "ShaperSkillTable",
+            "description": null,
+            "context": "/document",
+            "inputs": [
+                {
+                    "name": "metadata_storage_content_type",
+                    "source": "/document/metadata_storage_content_type"
+                },
+                {
+                    "name": "metadata_storage_size",
+                    "source": "/document/metadata_storage_size"
+                },
+                {
+                    "name": "metadata_storage_last_modified",
+                    "source": "/document/metadata_storage_last_modified"
+                },
+                {
+                    "name": "metadata_storage_content_md5",
+                    "source": "/document/metadata_storage_content_md5"
+                },
+                {
+                    "name": "metadata_storage_name",
+                    "source": "/document/metadata_storage_name"
+                },
+                {
+                    "name": "metadata_storage_path",
+                    "source": "/document/metadata_storage_path"
+                },
+                {
+                    "name": "metadata_content_encoding",
+                    "source": "/document/metadata_content_encoding"
+                },
+                {
+                    "name": "metadata_content_type",
+                    "source": "/document/metadata_content_type"
+                },
+                {
+                    "name": "metadata_language",
+                    "source": "/document/metadata_language"
+                },
+                {
+                    "name": "merged_content",
+                    "source": "/document/merged_content"
+                },
+                {
+                    "name": "merged_content_user",
+                    "source": "/document/merged_content_user"
+                },
+                {
+                    "name": "keyPhrases",
+                    "source": "/document/merged_content_user/keyphrases/*"
+                },
+                {
+                    "name": "languageCode",
+                    "source": "/document/language"
+                },
+                {
+                    "name": "translatedText",
+                    "source": "/document/merged_content/translated_text"
+                },
+                {
+                    "name": "scenario",
+                    "source": "/document/scenario"
+                },
+                {
+                    "name": "channelId",
+                    "source": "/document/channelId"
+                },
+                {
+                    "name": "intent",
+                    "source": "/document/intent"
+                },
+                {
+                    "name": "ConversationId",
+                    "source": "/document/ConversationId"
+                },
+                {
+                    "name": "StartTime",
+                    "source": "/document/StartTime"
+                },
+                {
+                    "name": "EndTime",
+                    "source": "/document/EndTime"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "output",
+                    "targetName": "tableprojection"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+            "name": "MessagesMerge",
+            "description": "Collapse meessages from bot and users in merged_content",
+            "context": "/document",
+            "uri": "https://{function_name}.azurewebsites.net/api/MessagesMerge?code={code}",
+            "httpMethod": "POST",
+            "timeout": "PT30S",
+            "batchSize": 1,
+            "degreeOfParallelism": 1,
+            "inputs": [
+                {
+                    "name": "Messages",
+                    "source": "/document/Messages"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "merged_content",
+                    "targetName": "merged_content"
+                },
+                {
+                    "name": "merged_content_user",
+                    "targetName": "merged_content_user"
+                },
+                {
+                    "name": "StartTime",
+                    "targetName": "StartTime"
+                },
+                {
+                    "name": "EndTime",
+                    "targetName": "EndTime"
+                }
+            ],
+            "httpHeaders": {}
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+            "name": "CustomDimensions",
+            "description": "Extract Custom Dimensions from bot telemetry",
+            "context": "/document",
+            "uri": "https://{function_name}.azurewebsites.net/api/CustomDimensions?code={code}",
+            "httpMethod": "POST",
+            "timeout": "PT30S",
+            "batchSize": 1,
+            "degreeOfParallelism": 1,
+            "inputs": [
+                {
+                    "name": "Messages",
+                    "source": "/document/Messages"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "scenario",
+                    "targetName": "scenario"
+                },
+                {
+                    "name": "channelId",
+                    "targetName": "channelId"
+                },
+                {
+                    "name": "intent",
+                    "targetName": "intent"
+                },
+                {
+                    "name": "dst_city",
+                    "targetName": "dst_city"
+                },
+                {
+                    "name": "or_city",
+                    "targetName": "or_city"
+                },
+                {
+                    "name": "n_adults",
+                    "targetName": "n_adults"
+                },
+                {
+                    "name": "NO_RESULT",
+                    "targetName": "NO_RESULT"
+                },
+                {
+                    "name": "seat",
+                    "targetName": "seat"
+                },
+                {
+                    "name": "downtown",
+                    "targetName": "downtown"
+                },
+                {
+                    "name": "breakfast",
+                    "targetName": "breakfast"
+                },
+                {
+                    "name": "category",
+                    "targetName": "category"
+                }
+            ],
+            "httpHeaders": {}
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+            "name": "EvaluateConversation",
+            "description": "Evaluate Conversation on different criterias",
+            "context": "/document",
+            "uri": "https://{function_name}.azurewebsites.net/api/EvaluateConversation?code={code}",
+            "httpMethod": "POST",
+            "timeout": "PT30S",
+            "batchSize": 1,
+            "degreeOfParallelism": 1,
+            "inputs": [
+                {
+                    "name": "ConversationId",
+                    "source": "/document/ConversationId"
+                },
+                {
+                    "name": "Messages",
+                    "source": "/document/Messages"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "default_dialog",
+                    "targetName": "default_dialog"
+                },
+                {
+                    "name": "feedback",
+                    "targetName": "feedback"
+                },
+                {
+                    "name": "Leaf",
+                    "targetName": "Leaf"
+                },
+                {
+                    "name": "avg_sentiment",
+                    "targetName": "avg_sentiment"
+                },
+                {
+                    "name": "evaluation_score",
+                    "targetName": "evaluation_score"
+                },
+                {
+                    "name": "profanity",
+                    "targetName": "profanity"
+                },
+                {
+                    "name": "conversation_quality",
+                    "targetName": "conversation_quality"
+                }
+            ],
+            "httpHeaders": {}
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.CustomEntityLookupSkill",
+            "name": "Named Entity Recognition",
+            "description": "",
+            "context": "/document",
+            "defaultLanguageCode": "en",
+            "entitiesDefinitionUri": "https://csciblob.blob.core.windows.net/deploy/ner_hotel.csv",
+            "globalDefaultCaseSensitive": false,
+            "globalDefaultAccentSensitive": false,
+            "globalDefaultFuzzyEditDistance": 1,
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/merged_content"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "entities",
+                    "targetName": "hotels"
+                }
+            ],
+            "inlineEntitiesDefinition": []
+        }
+    ],
+    "cognitiveServices": {
+        "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+        "description": "",
+        "key": "YOUR_COGNITIVE_SERVICES_KEY"
+    },
+    "knowledgeStore": {
+        "storageConnectionString": "YOUR_STORAGE_ACCOUNT_CONNECTION_STRING",
+        "projections": [
+            {
+                "tables": [
+                    {
+                        "tableName": "YOUR_DOCUMENTS_TABLE",
+                        "referenceKeyName": null,
+                        "generatedKeyName": "Documentid",
+                        "source": "/document/tableprojection",
+                        "sourceContext": null,
+                        "inputs": []
+                    },
+                    {
+                        "tableName": "YOUR_KEYPHRASES_TABLE",
+                        "referenceKeyName": null,
+                        "generatedKeyName": "KeyPhrasesid",
+                        "source": null,
+                        "sourceContext": "/document/tableprojection/keyPhrases/*",
+                        "inputs": [
+                            {
+                                "name": "keyphrases",
+                                "source": "/document/tableprojection/keyPhrases/*",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "ConversationId",
+                                "source": "/document/ConversationId",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "StartTime",
+                                "source": "/document/StartTime",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "EndTime",
+                                "source": "/document/EndTime",
+                                "sourceContext": null,
+                                "inputs": []
+                            }
+                        ]
+                    }
+                ],
+                "objects": [
+                    {
+                        "storageContainer": "YOUR_CONTAINER",
+                        "referenceKeyName": null,
+                        "generatedKeyName": null,
+                        "source": "/document/objectprojection",
+                        "sourceContext": null,
+                        "inputs": []
+                    }
+                ],
+                "files": [
+                    {
+                        "storageContainer": "YOUR_CONTAINER_FILES",
+                        "referenceKeyName": null,
+                        "generatedKeyName": "imagepath",
+                        "source": "/document/tableprojection/Images/*/imgdata",
+                        "sourceContext": null,
+                        "inputs": []
+                    }
+                ]
+            }
+        ]
+    }
+}

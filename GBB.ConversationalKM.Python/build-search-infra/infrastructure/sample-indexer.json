@@ -91,7 +91,7 @@
       "targetFieldName": "ConversationQuality"
     },
     {
-      "sourceFieldName": "/document/hotels",
+      "sourceFieldName": "/document/hotels/*/name",
       "targetFieldName": "hotels"
     },
     {

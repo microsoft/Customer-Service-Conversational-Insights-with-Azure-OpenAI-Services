@@ -1,9 +1,0 @@
-{
-    "azureFunctions.deploySubpath": "GBB.ConversationalKM.Python",
-    "azureFunctions.scmDoBuildDuringDeployment": true,
-    "azureFunctions.pythonVenv": ".venv",
-    "azureFunctions.projectLanguage": "Python",
-    "azureFunctions.projectRuntime": "~3",
-    "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.projectSubpath": "GBB.ConversationalKM.Python"
-}

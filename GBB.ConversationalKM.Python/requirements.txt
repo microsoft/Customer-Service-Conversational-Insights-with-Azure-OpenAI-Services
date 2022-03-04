@@ -1,6 +1,5 @@
 azure-functions
 azure-cosmosdb-table==1.0.6
-pandas==1.2.4
 azure-storage-blob==12.3.0
 requests==2.25.1
 isodate==0.6.0

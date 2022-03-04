@@ -1,7 +1,0 @@
-{
-    "ConversationId" : "1",
-    "MessageId" : "2",
-    "Message" : "this is a Message",
-    "Intent" : "none",
-    "SelectedIntent" : "better"
-}

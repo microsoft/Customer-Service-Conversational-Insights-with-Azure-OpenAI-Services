@@ -1,0 +1,419 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceGroupName": {
+            "defaultValue": "[resourceGroup().name]",
+            "type": "string"
+        },
+        "location": {
+            "defaultValue": "[resourceGroup().location]",
+            "type": "string"
+        },
+        "storageAccountName": {
+            "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]",
+            "type": "String"
+        },
+        "functionName": {
+            "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]",
+            "type": "String"
+        },
+        "searchServicesName": {
+            "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]",
+            "type": "String"
+        },
+        "applicationInsightsName": {
+            "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]",
+            "type": "String"
+        },
+        "webUiName": {
+            "type": "string",
+            "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-ui')]"
+        },
+        "hostingPlanName": {
+            "type": "string",
+            "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-asp')]"
+        },
+        "cognitiveServiceName": {
+            "type": "string",
+            "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]"
+        },
+        "servicePlanName": {
+            "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Search/searchServices",
+            "apiVersion": "2021-04-01-preview",
+            "name": "[parameters('searchServicesName')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "standard"
+            },
+            "properties": {
+                "replicaCount": 1,
+                "partitionCount": 1,
+                "hostingMode": "Default",
+                "publicNetworkAccess": "Enabled",
+                "networkRuleSet": {
+                    "ipRules": [],
+                    "bypass": "None"
+                },
+                "encryptionWithCmk": {
+                    "enforcement": "Unspecified"
+                },
+                "disableLocalAuth": false,
+                "authOptions": {
+                    "apiKeyOnly": {}
+                },
+                "disabledDataExfiltrationOptions": [],
+                "semanticSearch": "disabled"
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-08-01",
+            "name": "[parameters('storageAccountName')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "Standard_RAGRS",
+                "tier": "Standard"
+            },
+            "kind": "StorageV2",
+            "properties": {
+                "defaultToOAuthAuthentication": false,
+                "allowCrossTenantReplication": true,
+                "minimumTlsVersion": "TLS1_2",
+                "allowBlobPublicAccess": true,
+                "allowSharedKeyAccess": true,
+                "networkAcls": {
+                    "bypass": "AzureServices",
+                    "virtualNetworkRules": [],
+                    "ipRules": [],
+                    "defaultAction": "Allow"
+                },
+                "supportsHttpsTrafficOnly": true,
+                "encryption": {
+                    "requireInfrastructureEncryption": false,
+                    "services": {
+                        "file": {
+                            "keyType": "Account",
+                            "enabled": true
+                        },
+                        "blob": {
+                            "keyType": "Account",
+                            "enabled": true
+                        }
+                    },
+                    "keySource": "Microsoft.Storage"
+                },
+                "accessTier": "Hot"
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices",
+            "apiVersion": "2021-08-01",
+            "name": "[concat(parameters('storageAccountName'), '/default')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+            ],
+            "sku": {
+                "name": "Standard_RAGRS",
+                "tier": "Standard"
+            },
+            "properties": {
+                "changeFeed": {
+                    "enabled": false
+                },
+                "restorePolicy": {
+                    "enabled": false
+                },
+                "containerDeleteRetentionPolicy": {
+                    "enabled": true,
+                    "days": 7
+                },
+                "cors": {
+                    "corsRules": []
+                },
+                "deleteRetentionPolicy": {
+                    "enabled": true,
+                    "days": 7
+                },
+                "isVersioningEnabled": false
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+            "apiVersion": "2021-08-01",
+            "name": "[concat(parameters('storageAccountName'), '/default/scm-releases')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccountName'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+            ],
+            "properties": {
+                "immutableStorageWithVersioning": {
+                    "enabled": false
+                },
+                "defaultEncryptionScope": "$account-encryption-key",
+                "denyEncryptionScopeOverride": false,
+                "publicAccess": "None"
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+            "apiVersion": "2021-08-01",
+            "name": "[concat(parameters('storageAccountName'), '/default/conversationkm-full')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccountName'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+            ],
+            "properties": {
+                "immutableStorageWithVersioning": {
+                    "enabled": false
+                },
+                "defaultEncryptionScope": "$account-encryption-key",
+                "denyEncryptionScopeOverride": false,
+                "publicAccess": "None"
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+            "apiVersion": "2021-08-01",
+            "name": "[concat(parameters('storageAccountName'), '/default/conversationkm-raw')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccountName'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+            ],
+            "properties": {
+                "immutableStorageWithVersioning": {
+                    "enabled": false
+                },
+                "defaultEncryptionScope": "$account-encryption-key",
+                "denyEncryptionScopeOverride": false,
+                "publicAccess": "None"
+            }
+        },
+        {
+            "type": "Microsoft.Insights/components",
+            "apiVersion": "2020-02-02",
+            "name": "[parameters('applicationInsightsName')]",
+            "location": "[parameters('location')]",
+            "tags": {
+                "[concat('hidden-link:', resourceId('Microsoft.Web/sites', parameters('applicationInsightsName')))]": "Resource"
+            },
+            "properties": {
+                "Application_Type": "web"
+            },
+            "kind": "web"
+        },
+        {
+            "apiVersion": "2020-06-01",
+            "name": "[parameters('hostingPlanName')]",
+            "type": "Microsoft.Web/serverfarms",
+            "location": "[parameters('location')]",
+            "properties": {
+                "name": "[parameters('hostingPlanName')]",
+                "workerSizeId": "1",
+                "reserved": true,
+                "numberOfWorkers": "1"
+            },
+            "sku": {
+                "Tier": "Standard",
+                "Name": "S1"
+            },
+            "kind": "linux"
+        },
+        {
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2021-03-01",
+            "name": "[parameters('servicePlanName')]",
+            "location": "[parameters('location')]",
+            "sku": {
+            "name": "Y1",
+            "tier": "Dynamic",
+            "size": "Y1",
+            "family": "Y",
+            "capacity": 0
+            },
+            "kind": "functionapp",
+            "properties": {
+            "perSiteScaling": false,
+            "elasticScaleEnabled": false,
+            "maximumElasticWorkerCount": 1,
+            "isSpot": false,
+            "reserved": true,
+            "isXenon": false,
+            "hyperV": false,
+            "targetWorkerCount": 0,
+            "targetWorkerSizeId": 0,
+            "zoneRedundant": false
+            }
+            },
+        {
+            "type": "Microsoft.Web/sites",
+            "apiVersion": "2021-03-01",
+            "name": "[parameters('functionName')]",
+            "location": "[parameters('location')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/serverfarms', parameters('servicePlanName'))]",
+                "[resourceId('Microsoft.Insights/components', parameters('applicationInsightsName'))]"
+            ],
+            "identity": {
+                "type": "SystemAssigned"
+            },
+            "kind": "functionapp,linux",
+            "properties": {
+                "enabled": true,
+                "hostNameSslStates": [
+                    {
+                        "name": "[concat(parameters('functionName'), '.azurewebsites.net')]",
+                        "sslState": "Disabled",
+                        "hostType": "Standard"
+                    },
+                    {
+                        "name": "[concat(parameters('functionName'), '.scm.azurewebsites.net')]",
+                        "sslState": "Disabled",
+                        "hostType": "Repository"
+                    }
+                ],
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('servicePlanName'))]",
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "siteConfig": {
+                    "numberOfWorkers": 1,
+                    "linuxFxVersion": "Python|3.8",
+                    "acrUseManagedIdentityCreds": false,
+                    "alwaysOn": false,
+                    "http20Enabled": false,
+                    "functionAppScaleLimit": 200,
+                    "minimumElasticInstanceCount": 0,
+                    "appSettings": [
+                        {
+                            "name": "AzureWebJobsStorage",
+                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]"
+                        },
+                        {
+                            "name": "FUNCTIONS_EXTENSION_VERSION",
+                            "value": "~3"
+                        },
+                        {
+                            "name": "FUNCTIONS_WORKER_RUNTIME",
+                            "value": "python"
+                        },
+                        {
+                            "name": "WEBSITE_RUN_FROM_PACKAGE",
+                            "value": "https://csciblob.blob.core.windows.net/deploy/20220304065732-ab1bad46-b9ac-4f17-ab19-019b98517032.squashfs"
+                        }
+                    ]
+                },
+                "scmSiteAlsoStopped": false,
+                "clientAffinityEnabled": false,
+                "clientCertEnabled": false,
+                "clientCertMode": "Required",
+                "hostNamesDisabled": false,
+                "customDomainVerificationId": "368FC673F884D479178EAA3E86A207CEE6277CB01005D1F653B2DAF0A3B2614D",
+                "containerSize": 1536,
+                "dailyMemoryTimeQuota": 0,
+                "httpsOnly": false,
+                "redundancyMode": "None",
+                "storageAccountRequired": false,
+                "keyVaultReferenceIdentity": "SystemAssigned"
+            }
+        },
+        {
+            "type": "Microsoft.CognitiveServices/accounts",
+            "apiVersion": "2017-04-18",
+            "name": "[parameters('cognitiveServiceName')]",
+            "location": "[parameters('location')]",
+            "sku": {
+              "name": "S0"
+            },
+            "kind": "CognitiveServices",
+            "properties": {
+              "statisticsEnabled": false
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites/config",
+            "apiVersion": "2021-03-01",
+            "name": "[format('{0}/{1}', parameters('functionName'), 'appsettings')]",
+            "kind": "string",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/sites', parameters('functionName'))]"
+            ],
+            "properties": {
+                "APPINSIGHTS_INSTRUMENTATIONKEY": "[reference(resourceId('Microsoft.Insights/components', parameters('applicationInsightsName')), '2015-05-01').InstrumentationKey]",
+                "AzureWebJobsStorage": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
+                "dimensions": "scenario,channelId,entities.intent,entities.dst_city,entities.or_city,entities.n_adults,entities.NO_RESULT,entities.seat,entities.downtown,entities.breakfast,entities.category",
+                "defined_events": "IntentRecognized",
+                "conversationalkm_STORAGE": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
+                "telemetry_processed" : "conversationkm-full",
+                "profanity_lang" : "eng",
+                "cognitive_services_region" : "[parameters('location')]",
+                "table_sample_data": "botconvevals",
+                "cognitive_services_key" : "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]",
+                "search_account": "[parameters('searchServicesName')]",
+                "search_api_key": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
+                "search_api_version" : "2021-04-30-preview",
+                "search_data_source" : "[parameters('storageAccountName')]",
+                "search_index" : "conversational-index",
+                "search_skillset" : "conversational-skillset",
+                "search_indexer" : "conversational-km-indexer",
+                "connection_string": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
+                "cognitive_search_data_source_container" : "conversationkm-full",
+                "cognitive_search_knowledge_store_container_object" : "knowledge-store",
+                "cognitive_search_knowledge_store_container_files" : "knowledge-store-images",
+                "cognitive_search_knowledge_store_table_document" : "documentstable",
+                "cognitive_search_knowledge_store_table_keyphrases" : "keyphrasestable",
+                "FUNCTIONS_EXTENSION_VERSION": "~3",
+                "FUNCTIONS_WORKER_RUNTIME": "python",
+                "WEBSITE_RUN_FROM_PACKAGE": "https://csciblob.blob.core.windows.net/deploy/20220304065732-ab1bad46-b9ac-4f17-ab19-019b98517032.squashfs",
+                "function_name" : "[parameters('functionName')]",
+                "function_key" : "[listkeys(concat(resourceId('Microsoft.Web/sites', parameters('functionName')), '/host/default/'),'2016-08-01').functionKeys.default]",
+                "deployment_type" : "sample"          
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites",
+            "name": "[parameters('webUiName')]",
+            "apiVersion": "2020-06-01",
+            "location": "[parameters('location')]",
+            "identity": {
+                "type": "SystemAssigned"
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
+            ],
+            "properties": {
+                "siteConfig": {
+                    "linuxFxVersion": "DOCKER|videokm.azurecr.io/csci-ui:latest"
+                },
+                "name": "[parameters('webUiName')]",
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites/config",
+            "apiVersion": "2021-03-01",
+            "name": "[format('{0}/{1}', parameters('webUiName'), 'appsettings')]",
+            "kind": "string",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/sites', parameters('webUiName'))]"
+            ],
+            "properties": {
+                "SearchServiceName": "[parameters('searchServicesName')]",
+                "SearchApiKey": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
+                "SearchIndexName": "conversational-index",
+                "StorageAccountName": "[parameters('storageAccountName')]",
+                "StorageAccountKey": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value]",
+                "StorageContainerAddress": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/video-knowledge-mining')]",
+                "KeyField": "metadata_storage_path",
+                "IsPathBase64Encoded": true
+            }
+        }
+    ]
+}

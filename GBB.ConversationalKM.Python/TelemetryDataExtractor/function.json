@@ -5,7 +5,7 @@
       "name": "myblob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "conversation/{name}",
+      "path": "conversationkm-raw/{name}",
       "connection": "conversationalkm_STORAGE"
     }
   ]

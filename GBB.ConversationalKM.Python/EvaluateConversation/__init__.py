@@ -172,7 +172,7 @@ def get_profanity(msg):
     # Call Cognitive Services Moderator API
     headers = {
         'Content-Type': 'text/plain',
-        'Ocp-Apim-Subscription-Key': os.environ['COGNITIVE_SERVICES_API']
+        'Ocp-Apim-Subscription-Key': os.environ['cognitive_services_key']
     }
 
     url = f"https://{os.environ['cognitive_services_region']}.api.cognitive.microsoft.com/contentmoderator/moderate/v1.0/ProcessText/Screen?language={os.environ['profanity_lang']}"
