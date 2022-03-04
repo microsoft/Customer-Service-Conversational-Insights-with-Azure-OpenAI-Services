@@ -28,7 +28,7 @@ The template builds on top of the [Ingestion Client for Speech service](https://
 Please check here for detailed parameters explainations: [Getting started with the Ingestion Client](https://github.com/Azure-Samples/cognitive-services-speech-sdk/blob/master/samples/ingestion/ingestion-client/Setup/guide.md)
 
 ### Architecture
-![alt text](images/audio-architecture.png.PNG "Conversational Knowledge Mining Architecture")
+![alt text](images/audio-architecture.png "Conversational Knowledge Mining Architecture")
 
 ## Bot Telemetry with sample data
 To deploy the full solution with Bot sample data and the Web Application, select the following button:
@@ -42,5 +42,5 @@ Once the deployment is completed, start processing your Bot telemetry by exporti
 To navigate the Web Ui, check the "App Service" resource in your "Resource Group".
 
 ### Architecture
-![alt text](images/chat-architecture.png.PNG "Conversational Knowledge Mining Architecture")
+![alt text](images/chat-architecture.png "Conversational Knowledge Mining Architecture")
 
