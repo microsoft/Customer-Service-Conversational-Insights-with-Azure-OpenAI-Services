@@ -440,7 +440,7 @@
                     "numberOfWorkers": 1,
                     "linuxFxVersion": "Python|3.8",
                     "acrUseManagedIdentityCreds": false,
-                    "alwaysOn": false,
+                    "alwaysOn": true,
                     "http20Enabled": false,
                     "functionAppScaleLimit": 200,
                     "minimumElasticInstanceCount": 0,
