@@ -41,6 +41,10 @@ The Azure portal displays a pane that allows you to easily provide parameter val
 Once the deployment is completed, start processing your Bot telemetry by exporting in the "conversational-km-raw" container in the "storage account" in your "Resource Group". 
 To navigate the Web Ui, check the "App Service" resource in your "Resource Group".
 
+OPTIONAL:
+You can also download a sample dataset [here](https://csciblob.blob.core.windows.net/deploy/sample-data-unprocessed.zip)
+Unzip it and upload it in the "conversational-km-raw" container in the "storage account" in your "Resource Group".
+
 ### Architecture
 ![alt text](images/chat-architecture.png "Conversational Knowledge Mining Architecture")
 
