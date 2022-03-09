@@ -459,7 +459,7 @@
                         },
                         {
                             "name": "WEBSITE_RUN_FROM_PACKAGE",
-                            "value": "https://csciblob.blob.core.windows.net/deploy/20220304095251.zip"
+                            "value": "https://csciblob.blob.core.windows.net/deploy/csci-audio-dep.zip"
                         }
                     ]
                 },
@@ -512,7 +512,7 @@
                 "cognitive_search_knowledge_store_table_keyphrases": "keyphrasestable",
                 "FUNCTIONS_EXTENSION_VERSION": "~3",
                 "FUNCTIONS_WORKER_RUNTIME": "python",
-                "WEBSITE_RUN_FROM_PACKAGE": "https://csciblob.blob.core.windows.net/deploy/20220304095251.zip",
+                "WEBSITE_RUN_FROM_PACKAGE": "https://csciblob.blob.core.windows.net/deploy/csci-audio-dep.zip",
                 "function_name": "[parameters('functionName')]",
                 "function_key": "[listkeys(concat(resourceId('Microsoft.Web/sites', parameters('functionName')), '/host/default/'),'2016-08-01').functionKeys.default]",
                 "deployment_type" : "audio"

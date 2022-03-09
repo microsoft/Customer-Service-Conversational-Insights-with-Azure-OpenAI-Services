@@ -5,7 +5,9 @@
     "skillsetName": "YOUR_SKILLSET_NAME",
     "targetIndexName": "YOUR_INDEX_NAME",
     "disabled": null,
-    "schedule": null,
+    "schedule": {
+      "interval": "PT5M"
+    },
     "parameters": {
       "batchSize": null,
       "maxFailedItems": 0,
