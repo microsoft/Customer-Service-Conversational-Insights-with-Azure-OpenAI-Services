@@ -38,6 +38,10 @@
             "type": "string",
             "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]"
         },
+        "speechServiceName": {
+            "type": "string",
+            "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), 'speech')]"
+        },
         "speechAudioLocale": {
             "defaultValue": "en-US | English (United States)",
             "type": "string"
@@ -157,11 +161,22 @@
             }
         },
         {
+            "type": "Microsoft.CognitiveServices/accounts",
+            "apiVersion": "2021-04-30",
+            "name": "[parameters('speechServiceName')]",
+            "location": "[parameters('location')]",
+            "kind": "SpeechServices",
+            "sku": {
+                "name": "S0"
+            }
+        },
+        {
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2021-04-01",
             "name": "linkedTemplate",
             "dependsOn": [
-                "[resourceId('Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName'))]"
+                "[resourceId('Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName'))]",
+                "[resourceId('Microsoft.CognitiveServices/accounts', parameters('speechServiceName'))]"
             ],
             "properties": {
                 "mode": "Incremental",
@@ -180,7 +195,7 @@
                         "value" : "[parameters('speechCustomModelId')]"
                     },
                     "AzureSpeechServicesKey" : {
-                        "value" : "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]"
+                        "value" : "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('speechServiceName')), '2017-04-18').key1]"
                     },
                     "AzureSpeechServicesRegion" : {
                         "value" : "[parameters('location')]"
