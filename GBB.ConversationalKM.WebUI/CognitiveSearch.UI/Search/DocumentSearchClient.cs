@@ -33,6 +33,9 @@ namespace CognitiveSearch.UI
         private string IndexName { get; set; }
         private string IndexerName { get; set; }
 
+        private string QueryLanguage { get; set; }
+        private string SemanticConfiguration { get; set; }
+
         private string idField { get; set; }
 
         // Client logs all searches in Application Insights
@@ -64,10 +67,11 @@ namespace CognitiveSearch.UI
                 apiKey = configuration.GetSection("SearchApiKey")?.Value;
                 IndexName = configuration.GetSection("SearchIndexName")?.Value;
                 IndexerName = configuration.GetSection("SearchIndexerName")?.Value;
+                QueryLanguage = configuration.GetSection("QueryLanguage")?.Value;
+                SemanticConfiguration = configuration.GetSection("SemanticConfiguration")?.Value;
                 idField = configuration.GetSection("KeyField")?.Value;
                 telemetryClient.InstrumentationKey = configuration.GetSection("InstrumentationKey")?.Value;
                 AudioContainer = configuration.GetSection("AudioContainer")?.Value;
-
 
                 // Options used to get a search id for reporting
                 SearchClientOptions clientOptions = new SearchClientOptions();
@@ -91,11 +95,11 @@ namespace CognitiveSearch.UI
             }
         }
 
-        public SearchResults<SearchDocument> Search(string searchText, SearchFacet[] searchFacets = null, string[] selectFilter = null, int currentPage = 1, string polygonString = null, string startDate = null, string endDate = null)
+        public SearchResults<SearchDocument> Search(string searchText, SearchFacet[] searchFacets = null, string[] selectFilter = null, int currentPage = 1, string polygonString = null, string startDate = null, string endDate = null, SearchQueryType queryType = SearchQueryType.Semantic)
         {
             try
             {
-                SearchOptions options = GenerateSearchOptions(searchFacets, selectFilter, currentPage, polygonString, startDate, endDate);
+                SearchOptions options = GenerateSearchOptions(searchFacets, selectFilter, currentPage, polygonString, startDate, endDate, queryType);
 
                 //if (!string.IsNullOrEmpty(telemetryClient.InstrumentationKey))
                 //{
@@ -127,18 +131,25 @@ namespace CognitiveSearch.UI
             return null;
         }
 
-        public SearchOptions GenerateSearchOptions(SearchFacet[] searchFacets = null, string[] selectFilter = null, int currentPage = 1, string polygonString = null, string startDate = null, string endDate = null)
+        public SearchOptions GenerateSearchOptions(SearchFacet[] searchFacets = null, string[] selectFilter = null, int currentPage = 1, string polygonString = null, string startDate = null, string endDate = null, SearchQueryType queryType = SearchQueryType.Full)
         {
             SearchOptions options = new SearchOptions()
             {
-                SearchMode = SearchMode.All,
+                SearchMode = SearchMode.Any,
                 Size = 10,
                 Skip = (currentPage - 1) * 10,
                 IncludeTotalCount = true,
-                QueryType = SearchQueryType.Full,
+                QueryType = queryType,
                 HighlightPreTag = "<b>",
                 HighlightPostTag = "</b>"
             };
+
+            if (queryType == SearchQueryType.Semantic)
+            {
+                options.QueryLanguage = QueryLanguage;
+                options.QueryAnswer = "extractive";
+                options.SemanticConfigurationName = SemanticConfiguration;
+            }
 
             foreach (string s in selectFilter)
             {
@@ -192,7 +203,7 @@ namespace CognitiveSearch.UI
                 }
             }
 
-            if(!string.IsNullOrEmpty(startDate))
+            if (!string.IsNullOrEmpty(startDate))
             {
                 if (string.IsNullOrEmpty(filter))
                     filter = $"StartTime ge {startDate}T00:00:00.000Z";
@@ -214,14 +225,14 @@ namespace CognitiveSearch.UI
             if (polygonString != null && polygonString.Length > 0)
             {
                 string geoQuery = "geo.intersects(geoLocation, geography'POLYGON((" + polygonString + "))')";
-                
+
                 if (options.Filter != null && options.Filter.Length > 0)
-                { 
-                    options.Filter += " and " + geoQuery; 
+                {
+                    options.Filter += " and " + geoQuery;
                 }
                 else
-                { 
-                    options.Filter = geoQuery; 
+                {
+                    options.Filter = geoQuery;
                 }
             }
 
@@ -308,9 +319,9 @@ namespace CognitiveSearch.UI
         {
             var facets = new List<String>();
 
-            foreach (var facet in facetNames) 
+            foreach (var facet in facetNames)
             {
-                 facets.Add($"{facet}, count:{maxCount}");
+                facets.Add($"{facet}, count:{maxCount}");
             }
 
             // Execute search based on query string
@@ -327,7 +338,7 @@ namespace CognitiveSearch.UI
                 {
                     options.Facets.Add(s);
                 }
-                
+
                 return _searchIndexClient.GetSearchClient(IndexName).Search<SearchDocument>(searchText, options);
             }
             catch (Exception ex)
@@ -337,18 +348,18 @@ namespace CognitiveSearch.UI
             return null;
         }
 
-        public DocumentResult GetDocuments(string q, SearchFacet[] searchFacets, int currentPage, string polygonString = null, string startDate = null, string endDate = null)
+        public DocumentResult GetDocuments(string q, SearchFacet[] searchFacets, int currentPage, string polygonString = null, string startDate = null, string endDate = null, SearchQueryType queryType = SearchQueryType.Full)
         {
             GetContainerSasUris();
 
             var selectFilter = Model.SelectFilter;
 
-            if (!string.IsNullOrEmpty(q))
-            {
-                q = q.Replace("?", "");
-            }
+            //if (!string.IsNullOrEmpty(q))
+            //{
+            //    q = q.Replace("?", "");
+            //}
 
-            var response = Search(q, searchFacets, selectFilter, currentPage, polygonString, startDate, endDate);
+            var response = Search(q, searchFacets, selectFilter, currentPage, polygonString, startDate, endDate, queryType);
             var searchId = GetSearchId().ToString();
             var facetResults = new List<Facet>();
             var tagsResults = new List<object>();
@@ -388,11 +399,24 @@ namespace CognitiveSearch.UI
                 SearchId = searchId,
                 IdField = idField,
                 Token = s_tokens[0],
-                IsPathBase64Encoded = _isPathBase64Encoded
+                IsPathBase64Encoded = _isPathBase64Encoded,
+                Answer = response.Answers != null && response.Answers.Count() > 0 ? response.Answers[0].Highlights : null,
+                Captions = new List<Caption>()
             };
 
             string json = JsonConvert.SerializeObject(facetResults);
 
+            foreach (var x in result.Results)
+            { // response.GetResults() 
+                if (x.Captions != null)
+                {
+                    Caption c = new Caption();
+                    c.metadata_storage_name = x.Document.GetString("metadata_storage_name");
+                    c.text = x.Captions[0]?.Text;
+
+                    result.Captions.Add(c);
+                }
+            }
 
             return result;
         }
@@ -449,7 +473,8 @@ namespace CognitiveSearch.UI
             {
                 s_containerAddressesLength--;
             }
-            for (int i = 0; i < s_containerAddressesLength; i++) {
+            for (int i = 0; i < s_containerAddressesLength; i++)
+            {
                 BlobContainerClient container = new BlobContainerClient(new Uri(s_containerAddresses[i]), new StorageSharedKeyCredential(accountName, accountKey));
                 var policy = new BlobSasBuilder
                 {
@@ -462,10 +487,12 @@ namespace CognitiveSearch.UI
                 };
                 policy.SetPermissions(BlobSasPermissions.Read);
                 var sas = policy.ToSasQueryParameters(storageSharedKeyCredential);
-                BlobUriBuilder  sasUri = new BlobUriBuilder(container.Uri);
+                BlobUriBuilder sasUri = new BlobUriBuilder(container.Uri);
                 sasUri.Sas = sas;
 
                 s_tokens[i] = "?" + sasUri.Sas.ToString();
+
+
             }
         }
 
@@ -483,7 +510,8 @@ namespace CognitiveSearch.UI
             int storageIndex;
             string tokenToUse = GetToken(decodedPath, out storageIndex);
 
-            if (AudioContainer != "" && AudioContainer != null) { 
+            if (AudioContainer != "" && AudioContainer != null)
+            {
                 Uri blobUri = new Uri(decodedPath);
                 if (blobUri.AbsolutePath.Contains(".mp3") || blobUri.AbsolutePath.Contains(".wav") || blobUri.AbsolutePath.Contains(".m4a"))
                 {
@@ -573,7 +601,7 @@ namespace CognitiveSearch.UI
                 {
                     if (element.Values.ToString().Length >= 4)
                     {
-                       
+
                         cleanValues.Add(new FacetValue() { value = element.Value.ToString(), count = element.Count });
                     }
                 }

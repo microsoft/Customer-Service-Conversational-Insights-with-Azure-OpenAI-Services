@@ -23,6 +23,10 @@ function ShowDocument(id, index) {
 
             // Transcript Tab Content
             var transcriptContainerHTML = GetTranscriptHTML(result);
+            if (data.decodedPath.toLowerCase().includes(".htm")) {
+                fileContainerHTML = GetTranscriptHTML(result);
+            }
+
 
             // Metadata Tab Content 
             var metadataContainerHTML = GetMetadataHTML(result);
@@ -79,7 +83,7 @@ function ShowDocument(id, index) {
 
             pivotLinksHTML += '<li id="metadata-pivot-link" class="ms-Pivot-link" data-content="metadata" title="Metadata" tabindex="1">Metadata</li>';
 
-            if (result.geoLocation !== null) {
+            if (result.geoLocation !== undefined && result.geoLocation !== null) {
                 pivotLinksHTML += '<li id="maps-pivot-link" class="ms-Pivot-link" data-content="maps" title="Maps" tabindex="1">Maps</li>';
             }
 
@@ -128,7 +132,7 @@ function AuthenticateMap(result) {
                         language: 'en-US',
                         authOptions: {
                             authType: 'subscriptionKey',
-                            subscriptionKey: data.mapKey 
+                            subscriptionKey: data.mapKey
                         }
                     });
 
@@ -182,7 +186,7 @@ function GetFileHTML(data, result) {
             fileContainerHTML = `<ul class="timeline"> ${getTimelineHtml(data)} </ul>`;
         }
         else if (pathLower.includes(".pdf")) {
-              fileContainerHTML =
+            fileContainerHTML =
                 `<object class="file-container" data="${path}" type="application/pdf">
                     <iframe class="file-container" src="${path}" type="application/pdf">
                         This browser does not support PDFs. Please download the XML to view it: <a href="${path}">Download PDF</a>"
@@ -194,8 +198,8 @@ function GetFileHTML(data, result) {
             fileContainerHTML = `<pre id="file-viewer-pre"> ${txtHtml} </pre>`;
         }
         else if (pathLower.includes(".las")) {
-            fileContainerHTML = 
-            `<iframe id="d1" width="100%" height="100%" src="${path}"><p>Your browser does not support iframes.</p></iframe>`;
+            fileContainerHTML =
+                `<iframe id="d1" width="100%" height="100%" src="${path}"><p>Your browser does not support iframes.</p></iframe>`;
         }
         else if (pathLower.includes(".jpg") || pathLower.includes(".jpeg") || pathLower.includes(".gif") || pathLower.includes(".png")) {
             fileContainerHTML =
@@ -282,7 +286,7 @@ function GetTranscriptHTML(result) {
 
     if (full_content === null || full_content === "")
     {
-      // not much to display
+        // not much to display
         return null;
     }
 
@@ -333,7 +337,7 @@ function GetMetadataHTML(result) {
                     value = result[key];
 
                     if (key === "metadata_storage_path") {
-                            value = Base64Decode(value);
+                        value = Base64Decode(value);
                     }
 
                     if (key === "people" || key === "organizations" || key === "locations") {

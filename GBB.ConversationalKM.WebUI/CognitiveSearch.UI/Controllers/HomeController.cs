@@ -8,6 +8,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using CognitiveSearch.UI.Models;
+using Azure.Search.Documents.Models;
 
 namespace CognitiveSearch.UI.Controllers
 {
@@ -65,7 +66,7 @@ namespace CognitiveSearch.UI.Controllers
 
         }
 
-        public IActionResult Search([FromQuery]string q, [FromQuery]string facets = "", [FromQuery]int page = 1)
+        public IActionResult Search([FromQuery]string q, [FromQuery]string facets = "", [FromQuery]int page = 1, [FromQuery]string queryType = "Full")
         {
             // Split the facets.
             //  Expected format: &facets=key1_val1,key1_val2,key2_val1
@@ -80,11 +81,19 @@ namespace CognitiveSearch.UI.Controllers
                 .Select(g => new SearchFacet { Key = g.Key, Value = g.Select(f => f[1]).ToArray() })
                 .ToArray();
 
+            // Set queryType
+            SearchQueryType searchQueryType = SearchQueryType.Full;
+            if (queryType == "Semantic")
+            {
+                searchQueryType = SearchQueryType.Semantic;
+            }
+
             var viewModel = SearchView(new SearchOptions
             {
                 q = q,
                 searchFacets = searchFacets,
-                currentPage = page
+                currentPage = page,
+                queryType = searchQueryType
             });
 
             return View(viewModel);
@@ -98,6 +107,7 @@ namespace CognitiveSearch.UI.Controllers
             public string polygonString { get; set; }
             public string startDate { get; set; }
             public string endDate { get; set; }
+            public SearchQueryType queryType { get; set; }
         }
 
         [HttpPost]
@@ -117,7 +127,7 @@ namespace CognitiveSearch.UI.Controllers
 
             var viewModel = new SearchResultViewModel
             {
-                documentResult = _docSearch.GetDocuments(searchParams.q, searchParams.searchFacets, searchParams.currentPage, searchParams.polygonString, searchParams.startDate, searchParams.endDate),
+                documentResult = _docSearch.GetDocuments(searchParams.q, searchParams.searchFacets, searchParams.currentPage, searchParams.polygonString, searchParams.startDate, searchParams.endDate, searchParams.queryType),
                 query = searchParams.q,
                 selectedFacets = searchParams.searchFacets,
                 currentPage = searchParams.currentPage,
@@ -125,8 +135,12 @@ namespace CognitiveSearch.UI.Controllers
                 applicationInstrumentationKey = _configuration.GetSection("InstrumentationKey")?.Value,
                 searchServiceName = _configuration.GetSection("SearchServiceName")?.Value,
                 indexName = _configuration.GetSection("SearchIndexName")?.Value,
-                facetableFields = _docSearch.Model.Facets.Select(k => k.Name).ToArray()
+                facetableFields = _docSearch.Model.Facets.Select(k => k.Name).ToArray(),
+                answer = "",
+                semanticEnabled = (_configuration.GetSection("SemanticConfiguration")?.Value != "")
             };
+            viewModel.answer = viewModel.documentResult.Answer;
+            viewModel.captions = viewModel.documentResult.Captions;
             return viewModel;
         }
 

@@ -18,12 +18,22 @@ namespace CognitiveSearch.UI
         public Pageable<SearchResult<SearchDocument>> Results { get; set; }
         public int? Count { get; set; }
         public string Token { get; set; }
-        public int StorageIndex { get; set; }        
+        public int StorageIndex { get; set; }
         public string DecodedPath { get; set; }
         public List<object> Tags { get; set; }
         public string SearchId { get; set; }
         public string IdField { get; set; }
         public bool IsPathBase64Encoded { get; set; }
+
+        public string Answer { get; set; }
+
+        public List<Caption> Captions { get; set; }
+    }
+
+    public class Caption
+    {
+        public string metadata_storage_name { get; set; }
+        public string text { get; set; }
     }
 
     public class Facet

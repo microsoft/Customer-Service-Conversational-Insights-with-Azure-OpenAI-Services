@@ -1,4 +1,6 @@
-﻿namespace CognitiveSearch.UI.Models
+﻿using System.Collections.Generic;
+
+namespace CognitiveSearch.UI.Models
 {
     public class SearchResultViewModel
     {
@@ -17,5 +19,13 @@
         public string indexName { get; set; }
 
         public string[] facetableFields { get; set; }
+
+        public string answer { get; set; }
+
+        public List<Caption> captions { get; set; }
+
+        public string queryType { get; set; }
+
+        public bool semanticEnabled { get; set; }
     }
 }
