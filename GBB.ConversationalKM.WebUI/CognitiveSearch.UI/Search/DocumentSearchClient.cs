@@ -56,6 +56,7 @@ namespace CognitiveSearch.UI
         // this should match the default value used in appsettings.json.  
         private static string defaultContainerUriValue = "https://{storage-account-name}.blob.core.windows.net/{container-name}";
 
+        public string AudioContainer { get; set; }
 
         public DocumentSearchClient(IConfiguration configuration)
         {
@@ -93,11 +94,11 @@ namespace CognitiveSearch.UI
             }
         }
 
-        public SearchResults<SearchDocument> Search(string searchText, SearchFacet[] searchFacets = null, string[] selectFilter = null, int currentPage = 1, string polygonString = null, SearchQueryType queryType = SearchQueryType.Semantic)
+        public SearchResults<SearchDocument> Search(string searchText, SearchFacet[] searchFacets = null, string[] selectFilter = null, int currentPage = 1, string polygonString = null, string startDate = null, string endDate = null, SearchQueryType queryType = SearchQueryType.Semantic)
         {
             try
             {
-                SearchOptions options = GenerateSearchOptions(searchFacets, selectFilter, currentPage, polygonString, queryType);
+                SearchOptions options = GenerateSearchOptions(searchFacets, selectFilter, currentPage, polygonString, startDate, endDate, queryType);
 
                 //if (!string.IsNullOrEmpty(telemetryClient.InstrumentationKey))
                 //{
@@ -129,7 +130,7 @@ namespace CognitiveSearch.UI
             return null;
         }
 
-        public SearchOptions GenerateSearchOptions(SearchFacet[] searchFacets = null, string[] selectFilter = null, int currentPage = 1, string polygonString = null, SearchQueryType queryType = SearchQueryType.Full)
+        public SearchOptions GenerateSearchOptions(SearchFacet[] searchFacets = null, string[] selectFilter = null, int currentPage = 1, string polygonString = null, string startDate = null, string endDate = null, SearchQueryType queryType = SearchQueryType.Full)
         {
             SearchOptions options = new SearchOptions()
             {
@@ -199,6 +200,22 @@ namespace CognitiveSearch.UI
                         // TODO: Date filters
                     }
                 }
+            }
+
+            if (!string.IsNullOrEmpty(startDate))
+            {
+                if (string.IsNullOrEmpty(filter))
+                    filter = $"StartTime ge {startDate}T00:00:00.000Z";
+                else
+                    filter += $" and StartTime ge {startDate}T00:00:00.000Z";
+            }
+
+            if (!string.IsNullOrEmpty(endDate))
+            {
+                if (string.IsNullOrEmpty(filter))
+                    filter = $"StartTime le {endDate}T00:00:00.000Z";
+                else
+                    filter += $" and StartTime le {endDate}T00:00:00.000Z";
             }
 
             options.Filter = filter;
@@ -330,7 +347,7 @@ namespace CognitiveSearch.UI
             return null;
         }
 
-        public DocumentResult GetDocuments(string q, SearchFacet[] searchFacets, int currentPage, string polygonString = null, SearchQueryType queryType = SearchQueryType.Full)
+        public DocumentResult GetDocuments(string q, SearchFacet[] searchFacets, int currentPage, string polygonString = null, string startDate = null, string endDate = null, SearchQueryType queryType = SearchQueryType.Full)
         {
             GetContainerSasUris();
 
@@ -341,7 +358,7 @@ namespace CognitiveSearch.UI
             //    q = q.Replace("?", "");
             //}
 
-            var response = Search(q, searchFacets, selectFilter, currentPage, polygonString, queryType);
+            var response = Search(q, searchFacets, selectFilter, currentPage, polygonString, startDate, endDate, queryType);
             var searchId = GetSearchId().ToString();
             var facetResults = new List<Facet>();
             var tagsResults = new List<object>();
@@ -473,6 +490,8 @@ namespace CognitiveSearch.UI
                 sasUri.Sas = sas;
 
                 s_tokens[i] = "?" + sasUri.Sas.ToString();
+
+
             }
         }
 
@@ -489,6 +508,23 @@ namespace CognitiveSearch.UI
 
             int storageIndex;
             string tokenToUse = GetToken(decodedPath, out storageIndex);
+
+            if (AudioContainer != "" && AudioContainer != null)
+            {
+                Uri blobUri = new Uri(decodedPath);
+                if (blobUri.AbsolutePath.Contains(".mp3") || blobUri.AbsolutePath.Contains(".wav") || blobUri.AbsolutePath.Contains(".m4a"))
+                {
+                    string audioPath = AudioContainer + "/" + String.Join("", blobUri.Segments[2..]);
+                    audioPath = blobUri.Scheme + "://" + blobUri.Host + "/" + audioPath.Replace(".json", "");
+                    string audioToken = GetToken(audioPath, out int x);
+                    response.Add("audioPath", audioPath + audioToken);
+                }
+                else
+                {
+                    response.Add("audioPath", null);
+                }
+
+            }
 
             var result = new DocumentResult
             {

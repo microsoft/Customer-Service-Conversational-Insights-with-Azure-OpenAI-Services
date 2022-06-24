@@ -14,6 +14,9 @@ var resultsMap = null;
 var mapDataSource = null;
 var showMap = true;
 
+var startDate = null;
+var endDate = null;
+
 // variables related to polygon selection on map
 var drawingTools;
 var mapPolygon = null;
@@ -42,6 +45,9 @@ function Search() {
     }
     q = $("#q").val();
     $("#e").val(q);
+
+    startDate = $("#startdate").val();
+    endDate = $("#enddate").val();
 
     UpdateResultsView();
 }
@@ -78,6 +84,8 @@ function UpdateResultsView() {
             searchFacets: selectedFacets,
             currentPage: currentPage,
             polygonString: polygonString,
+            startDate: startDate,
+            endDate: endDate,
             queryType: queryType
         },
         function (viewModel) {

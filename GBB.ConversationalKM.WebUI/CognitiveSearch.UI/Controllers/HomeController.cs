@@ -125,7 +125,7 @@ namespace CognitiveSearch.UI.Controllers
 
             var viewModel = new SearchResultViewModel
             {
-                documentResult = _docSearch.GetDocuments(searchParams.q, searchParams.searchFacets, searchParams.currentPage, searchParams.polygonString, searchParams.queryType),
+                documentResult = _docSearch.GetDocuments(searchParams.q, searchParams.searchFacets, searchParams.currentPage, searchParams.polygonString, searchParams.startDate, searchParams.endDate, searchParams.queryType),
                 query = searchParams.q,
                 selectedFacets = searchParams.searchFacets,
                 currentPage = searchParams.currentPage,

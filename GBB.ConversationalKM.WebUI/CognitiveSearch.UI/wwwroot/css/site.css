@@ -519,6 +519,18 @@ pre {
     white-space: nowrap;
 }
 
+.tag-DestCity {
+    background-color: #0a7900;
+}
+
+.tag-OriginCity {
+    background-color: #038394;
+}
+
+.tag-keyphrases {
+    background-color: #b78400;
+}
+
 #tags-panel {
     margin-top: 60px;
 }
