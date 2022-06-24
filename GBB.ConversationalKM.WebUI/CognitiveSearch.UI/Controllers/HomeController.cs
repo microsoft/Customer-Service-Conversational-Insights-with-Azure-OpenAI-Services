@@ -105,6 +105,8 @@ namespace CognitiveSearch.UI.Controllers
             public SearchFacet[] searchFacets { get; set; }
             public int currentPage { get; set; }
             public string polygonString { get; set; }
+            public string startDate { get; set; }
+            public string endDate { get; set; }
             public SearchQueryType queryType { get; set; }
         }
 

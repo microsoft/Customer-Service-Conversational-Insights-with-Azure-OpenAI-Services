@@ -71,6 +71,7 @@ namespace CognitiveSearch.UI
                 SemanticConfiguration = configuration.GetSection("SemanticConfiguration")?.Value;
                 idField = configuration.GetSection("KeyField")?.Value;
                 telemetryClient.InstrumentationKey = configuration.GetSection("InstrumentationKey")?.Value;
+                AudioContainer = configuration.GetSection("AudioContainer")?.Value;
 
                 // Options used to get a search id for reporting
                 SearchClientOptions clientOptions = new SearchClientOptions();
