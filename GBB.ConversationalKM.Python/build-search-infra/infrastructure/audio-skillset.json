@@ -362,7 +362,35 @@
                 }
             ],
             "httpHeaders": {}
-        }
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+            "name": "#2",
+            "description": "",
+            "context": "/document",
+            "uri": "https://{openai_function_name}.azurewebsites.net/api/StartProcessing?code={openai_function_key}",
+            "httpMethod": "POST",
+            "timeout": "PT30S",
+            "batchSize": 1,
+            "degreeOfParallelism": 1,
+            "inputs": [
+              {
+                "name": "metadata_storage_path",
+                "source": "/document/metadata_storage_path"
+              },
+              {
+                "name": "text",
+                "source": "/document/full_conversation"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "status",
+                "targetName": "/document/status"
+              }
+            ],
+            "httpHeaders": {}
+          }
     ],
     "cognitiveServices": {
         "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",

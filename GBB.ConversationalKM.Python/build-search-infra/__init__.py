@@ -61,7 +61,22 @@ def create_index():
 
         body['name'] = os.getenv('search_index')
 
+        if len(os.getenv('OPENAI_PROMPT_KEYS', [])) > 0:
+            for field in os.getenv('OPENAI_PROMPT_KEYS').replace(' ','').split(','):
+                body["fields"].append({
+                    "name": field.split(':')[0],
+                    "type": field.split(':')[1],
+                    "key": False,
+                    "retrievable": True,
+                    "searchable": True,
+                    "filterable": True,
+                    "sortable": True,
+                    "facetable": True if field.split(':')[2].lower() == 'true' else False,
+                    "analyzer": "standard.lucene"
+                })
+
         r = requests.put(url, headers=headers, json=body)
+        logging.info(r.json())
 
     else:
         logging.info(f"Index set up done. {r.status_code}")
@@ -101,8 +116,10 @@ def create_skillset():
         for skill in body['skills']:
             if skill["@odata.type"] == "#Microsoft.Skills.Custom.WebApiSkill":
                 skill["uri"] = skill["uri"].replace('{function_name}', os.getenv('function_name')).replace('{code}', os.getenv('function_key'))
+                skill["uri"] = skill["uri"].replace('{openai_function_name}', os.getenv('openai_function_name')).replace('{openai_function_key}', os.getenv('openai_function_key'))
 
         r = requests.put(url, headers=headers, json=body)
+        logging.info(r.json())
 
     else:
         logging.info(f"Skillset set up done. {r.status_code}")
@@ -137,6 +154,7 @@ def create_indexer():
         body['targetIndexName'] = os.getenv('search_index')
 
         r = requests.put(url, headers=headers, json=body)
+        logging.info(r.json())
 
     else:
         logging.info(f"Indexer set up done. {r.status_code}")

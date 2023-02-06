@@ -70,7 +70,10 @@ def transform_value(value):
         data["merged_content"] = " ".join(list(filter(None, map(lambda x: x['Value'] if x['EventType'] in EventType else None, msg))))
         EventType = ["MessageFromUser"]
         data["merged_content_user"] = " ".join(list(filter(None, map(lambda x: x['Value'] if x['EventType'] in EventType else None, msg))))
-    
+        EventTypeUser = ["MessageFromUser"]
+        EventTypeBotOrAgent = ["MessageFromBotOrAgent"]
+        data["full_conversation"] = "\n".join(list(filter(None, map(lambda x: "User: " + x['Value'] if x['EventType'] in EventTypeUser else"Agent: " + x['Value'] if x['EventType'] in EventTypeBotOrAgent else None, msg))))
+
 
         # Extract Min and Max EventTime for conversation
         data["StartTime"] = min(list(map(lambda x: x['EventTime'], msg)))

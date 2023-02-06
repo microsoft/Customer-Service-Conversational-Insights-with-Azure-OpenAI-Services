@@ -38,6 +38,8 @@ namespace CognitiveSearch.UI
             "DestCity",
             "OriginCity",
             "hotels",
+            "summary",
+            "satisfied",
 
             // Add fields needed to display results cards
 

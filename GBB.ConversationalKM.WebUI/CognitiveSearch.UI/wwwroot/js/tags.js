@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 function GetTagsHTML(result) {
-    var tagsHTML = `<div class="panel-scroll">`;
+    var tagsHTML = `<div>`;
 
     var i = 0;
 

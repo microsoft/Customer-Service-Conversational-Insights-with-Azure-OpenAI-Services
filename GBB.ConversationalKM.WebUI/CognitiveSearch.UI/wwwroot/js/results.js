@@ -342,6 +342,8 @@ function UpdateResults(data, answer) {
                 previewAllContent = `
                     <h5>${firstMessage.Value}</h5>
                     <b>${moment(document.StartTime).format("LLL")}</b>
+                    <h4>Summary: ${document.summary}</h4>
+                    <h4>Customer satisfied: ${document.satisfied}</h4>
                     <div style="margin-top:10px;">${tags}</div>`
             }
 
