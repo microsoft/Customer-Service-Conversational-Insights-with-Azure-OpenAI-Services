@@ -87,11 +87,14 @@ def save_conversation(conversation_id, messages, blob_service_client, container)
     data["StartTime"] = min(list(map(lambda x: x['EventTime'], data['Messages'])))
     data["EndTime"]   = max(list(map(lambda x: x['EventTime'], data['Messages'])))
 
-    data["merged_content"]         = "".join(list(filter(None, map(lambda x: x['Value'] , data['Messages']))))
-    data["merged_content_user"]    = "".join(list(filter(None, map(lambda x: x['Value'] if x['UserId'] == 1 else None, data['Messages']))))
-    data["merged_content_agent"]   = "".join(list(filter(None, map(lambda x: x['Value'] if x['UserId'] == 0 else None, data['Messages']))))
 
-    data["full_conversation"] = "\n".join(list(filter(None, map(lambda x: "User: " + x['Value'] if x['UserId'] == 1 else"Agent: " + x['Value'] if x['UserId'] == 0 else None, data['Messages']))))
+    audio_user_channel = int(os.getenv('audio_user_channel', 1))
+    audio_agent_channel = 0 if audio_user_channel == 1 else 1
+    data["merged_content"]         = "".join(list(filter(None, map(lambda x: x['Value'] , data['Messages']))))
+    data["merged_content_user"]    = "".join(list(filter(None, map(lambda x: x['Value'] if x['UserId'] == audio_user_channel else None, data['Messages']))))
+    data["merged_content_agent"]   = "".join(list(filter(None, map(lambda x: x['Value'] if x['UserId'] == audio_agent_channel else None, data['Messages']))))
+
+    data["full_conversation"] = "\n".join(list(filter(None, map(lambda x: "User: " + x['Value'] if x['UserId'] == audio_user_channel else"Agent: " + x['Value'] if x['UserId'] == audio_agent_channel else None, data['Messages']))))
 
     # Write results on Azure Blob Storage
     blob_client.upload_blob(json.dumps(data), overwrite=True)

@@ -139,6 +139,17 @@
                 "description": "A value indicating whether word level timestamps are requested."
             }
         },
+        "audio_user_channel": {
+            "defaultValue": "1",
+            "type": "String",
+            "allowedValues": [
+                "0",
+                "1"
+            ],
+            "metadata": {
+                "description": "For stereo recording, input channel of user's audio."
+            }
+        },
         "speechSentimentAnalysis": {
             "defaultValue": "None",
             "type": "String",
@@ -721,7 +732,8 @@
                 "openai_function_name": "[variables('openAIFunctionName')]",
                 "openai_function_key": "[variables('clientKey')]",
                 "deployment_type": "audio",
-                "OPENAI_PROMPT_KEYS": "[parameters('OPENAI_PROMPT_KEYS')]"
+                "OPENAI_PROMPT_KEYS": "[parameters('OPENAI_PROMPT_KEYS')]",
+                "audio_user_channel": "[parameters('audio_user_channel')]"
             }
         },
         {
