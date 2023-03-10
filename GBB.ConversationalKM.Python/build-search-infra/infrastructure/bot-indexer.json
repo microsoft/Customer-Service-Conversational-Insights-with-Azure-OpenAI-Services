@@ -1,0 +1,64 @@
+{
+  "name": "YOUR_INDEXER_NAME",
+  "description": "",
+  "dataSourceName": "YOUR_DATASOURCE_NAME",
+  "skillsetName": "YOUR_SKILLSET_NAME",
+  "targetIndexName": "YOUR_INDEX_NAME",
+  "disabled": null,
+  "schedule": {
+    "interval": "PT5M"
+  },
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": 0,
+    "maxFailedItemsPerBatch": 0,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "json"
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "metadata_storage_path",
+      "targetFieldName": "metadata_storage_path",
+      "mappingFunction": {
+        "name": "base64Encode"
+      }
+    }
+  ],
+  "outputFieldMappings": [
+    {
+      "sourceFieldName": "/document/merged_content_user/keyphrases",
+      "targetFieldName": "keyphrases"
+    },
+    {
+      "sourceFieldName": "/document/language",
+      "targetFieldName": "language"
+    },
+    {
+      "sourceFieldName": "/document/merged_content/translated_text",
+      "targetFieldName": "translated_text"
+    },
+    {
+      "sourceFieldName": "/document/merged_content",
+      "targetFieldName": "merged_content"
+    },
+    {
+      "sourceFieldName": "/document/merged_content_user",
+      "targetFieldName": "merged_content_user"
+    },
+    {
+      "sourceFieldName": "/document/StartTime",
+      "targetFieldName": "StartTime"
+    },
+    {
+      "sourceFieldName": "/document/EndTime",
+      "targetFieldName": "EndTime"
+    },
+    {
+      "sourceFieldName": "/document/full_conversation",
+      "targetFieldName": "full_conversation"
+    }
+  ]
+}
