@@ -630,6 +630,10 @@
                         {
                             "name": "AZURE_SEARCH_API_VERSION",
                             "value": "2020-06-30-Preview"
+                        },
+                        {
+                            "name": "OPENAI_MODEL_TYPE",
+                            "value": "chat"
                         }
                     ],
                     "cors": {
@@ -639,7 +643,7 @@
                     },
                     "use32BitWorkerProcess": false,
                     "ftpsState": "FtpsOnly",
-                    "linuxFxVersion": "DOCKER|fruocco/acs-oai-async:preview",
+                    "linuxFxVersion": "DOCKER|fruocco/acs-oai-async:latest",
                     "appCommandLine": "",
                     "alwaysOn": true
                 },
