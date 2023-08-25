@@ -217,14 +217,14 @@
         },
         "OPENAI_DEPLOYMENT_NAME": {
             "type": "string",
-            "defaultValue": "text-davinci-003",
+            "defaultValue": "gpt-35-turbo",
             "metadata": {
                 "description": "The name of the OpenAI deployment to use"
             }
         },
         "OPENAI_TEMPERATURE": {
             "type": "string",
-            "defaultValue": "0",
+            "defaultValue": "0.7",
             "metadata": {
                 "description": "The temperature to use for the OpenAI API"
             }
@@ -238,7 +238,7 @@
         },
         "OPENAI_TOP_P": {
             "type": "string",
-            "defaultValue": "1",
+            "defaultValue": "0.95",
             "metadata": {
                 "description": "The top_p to use for the OpenAI API"
             }
@@ -893,6 +893,10 @@
                         {
                             "name": "AZURE_SEARCH_API_VERSION",
                             "value": "2021-04-30-preview"
+                        },
+                        {
+                            "name": "OPENAI_MODEL_TYPE",
+                            "value": "chat"
                         }
                     ],
                     "cors": {
