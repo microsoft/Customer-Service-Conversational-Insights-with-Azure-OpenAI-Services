@@ -185,6 +185,6 @@ def main(mytimer: func.TimerRequest) -> None:
     create_index()
     create_skillset()
     create_indexer()
-    push_sample_data()
+    # push_sample_data()
 
     logging.info('Python timer trigger function ran at %s', utc_timestamp)
