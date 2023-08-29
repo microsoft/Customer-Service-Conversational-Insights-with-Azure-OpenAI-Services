@@ -420,7 +420,7 @@
                 "openai_function_name": "[variables('openAIFunctionName')]",
                 "openai_function_key": "[variables('clientKey')]",
                 "deployment_type": "bot",
-                "OPENAI_PROMPT_KEYS": "[parameters('OPENAI_PROMPT_KEYS')]",
+                "OPENAI_PROMPT_KEYS": "[parameters('OPENAI_PROMPT_KEYS')]"
             }
         },
         {
