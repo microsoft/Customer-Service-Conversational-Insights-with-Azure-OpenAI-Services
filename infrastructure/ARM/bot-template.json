@@ -66,6 +66,16 @@
                 "description": "The name of the OpenAI deployment to use"
             }
         },
+        "OPENAI_MODEL_TYPE":{
+            "type": "string",
+            "allowedValues": [
+                "chat",
+                "text"
+            ],
+            "metadata": {
+                "description": "Use chat for Chat completion models (like gpt-35-turbo) or text for Text completion models (like text-davinci-003)"
+            }
+        },
         "OPENAI_TEMPERATURE": {
             "type": "string",
             "defaultValue": "0.7",
@@ -633,7 +643,7 @@
                         },
                         {
                             "name": "OPENAI_MODEL_TYPE",
-                            "value": "chat"
+                            "value": "[parameters('OPENAI_MODEL_TYPE')]"
                         }
                     ],
                     "cors": {
