@@ -28,6 +28,6 @@ jobs:
         cd "GBB.ConversationalKM.Python";
         docker pull ${{ secrets.ACR_LOGIN_SERVER }}/csci-python-func:latest || true;
         docker build . --file Docker/Dockerfile --cache-from ${{ secrets.ACR_LOGIN_SERVER }}/csci-python-func:latest --tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-python-func:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
-        docker tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-python-func:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER ${{ secrets.ACR_LOGIN_SERVER }}/csci-python-func:latest
+        docker tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-python-func:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER ${{ secrets.ACR_LOGIN_SERVER }}/csci-python-func:latest;
         docker push ${{ secrets.ACR_LOGIN_SERVER }}/csci-python-func:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
         docker push ${{ secrets.ACR_LOGIN_SERVER }}/csci-python-func:latest
