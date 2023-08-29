@@ -118,15 +118,6 @@ def create_skillset():
                 skill["uri"] = skill["uri"].replace('{function_name}', os.getenv('function_name')).replace('{code}', os.getenv('function_key'))
                 skill["uri"] = skill["uri"].replace('{openai_function_name}', os.getenv('openai_function_name')).replace('{openai_function_key}', os.getenv('openai_function_key'))
 
-        if len(os.getenv('OPENAI_PROMPT_KEYS', [])) > 0:
-            for field in os.getenv('OPENAI_PROMPT_KEYS').replace(' ','').split(','):
-                open_ai_skill['outputs'].append(
-                    {
-                        "name": field.split(':')[0],
-                        "targetName": field.split(':')[0]
-                    }
-                )
-
         r = requests.put(url, headers=headers, json=body)
         logging.info(r.json())
 
