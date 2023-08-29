@@ -4,9 +4,6 @@ on:
   push:
     branches:
     - master
-  pull_request:
-    branches:
-    - master
 
 jobs:
 
@@ -29,6 +26,9 @@ jobs:
     - name: Build the Docker image
       run: 
         cd "GBB.ConversationalKM.WebUI";
-        docker build . --file Docker/Dockerfile --tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest;
+        docker pull ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest || true;
+        docker build . --file Docker/Dockerfile --cache-from ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest --tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
+        docker tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest:latest;      
+        docker push ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
         docker push ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest
-      
+        
