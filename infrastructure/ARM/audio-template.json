@@ -269,14 +269,14 @@
         },
         "OPENAI_PROMPT": {
             "type": "string",
-            "defaultValue": "Execute these tasks:\n-  Summarize the conversation, key: summary\n-   Customer budget none if not detected, key: budget\n-  Is the customer satisfied with the interaction with the agent, key: satisfied\n-  Did the customer booked a trip, key: booked\nAnswer in JSON machine-readable format, using the keys from above.\nFormat the ouput as JSON object called 'results'. Pretty print the JSON and make sure that is properly closed at the end.\n",
+            "defaultValue": "You are a JSON formatter for extracting information out of a single chat conversation.\n\nSummarize the conversation, key: summary\nIs the customer satisfied with the agent interaction (Yes or No), key: satisfied\n\nAnswer in JSON machine-readable format, using the keys from above.\nPretty print the JSON and make sure that it is properly closed at the end and do not generate any other content.",
             "metadata": {
                 "description": "The prompt to use for the OpenAI API"
             }
         },
         "OPENAI_PROMPT_KEYS": {
             "type": "string",
-            "defaultValue": "summary:Edm.String:False,budget:Edm.String:True,satisfied:Edm.String:True,booked:Edm.String:True",
+            "defaultValue": "summary:Edm.String:False,satisfied:Edm.String:True",
             "metadata": {
                 "description": "The prompt keys to use for the OpenAI API. Format: key,SearchType,Facetable e.g. key1:Edm.String:False,key2:Edm.String:True,key3:Edm.String:True"
             }

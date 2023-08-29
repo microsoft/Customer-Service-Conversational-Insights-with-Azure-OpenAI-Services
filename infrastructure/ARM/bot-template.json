@@ -113,7 +113,7 @@
         },
         "OPENAI_PROMPT": {
             "type": "string",
-            "defaultValue": "Execute these tasks:\n-  Summarize the conversation, key: summary\n-  Is the customer satisfied with the interaction with the agent, key: satisfied\n Answer in JSON machine-readable format, using the keys from above.\n Format the ouput as JSON object called 'results'. Pretty print the JSON and make sure that is properly closed at the end.\n",
+            "defaultValue": "You are a JSON formatter for extracting information out of a single chat conversation.\n\nSummarize the conversation, key: summary\nIs the customer satisfied with the agent interaction (Yes or No), key: satisfied\n\nAnswer in JSON machine-readable format, using the keys from above.\nPretty print the JSON and make sure that it is properly closed at the end and do not generate any other content.",
             "metadata": {
                 "description": "The prompt to use for the OpenAI API"
             }
