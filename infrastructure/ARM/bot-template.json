@@ -357,7 +357,7 @@
                     },
                     "use32BitWorkerProcess": false,
                     "ftpsState": "FtpsOnly",
-                    "linuxFxVersion": "DOCKER|fruocco/csci-python-func:latest",
+                    "linuxFxVersion": "DOCKER|fruoccopublic.azurecr.io/csci-python-func:latest",
                     "appCommandLine": "",
                     "alwaysOn": true
                 },

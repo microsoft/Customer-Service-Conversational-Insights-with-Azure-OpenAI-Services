@@ -28,7 +28,7 @@ jobs:
         cd "GBB.ConversationalKM.WebUI";
         docker pull ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest || true;
         docker build . --file Docker/Dockerfile --cache-from ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest --tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
-        docker tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest:latest;      
+        docker tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest
         docker push ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
         docker push ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui:latest
         
