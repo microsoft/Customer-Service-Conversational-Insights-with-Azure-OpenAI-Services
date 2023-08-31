@@ -340,7 +340,7 @@ function UpdateResults(data, answer) {
 
             if (pathLower.includes(".mp3") || pathLower.includes(".json") || pathLower.includes(".m4a")) {
                 previewAllContent = `
-                    <h5>${firstMessage.Value}</h5>
+                    <h5>${firstMessage?.Value}</h5>
                     <b>${moment(document.StartTime).format("LLL")}</b>
                     <h4>Summary: ${document.summary}</h4>
                     <h4>Customer satisfied: ${document.satisfied}</h4>
