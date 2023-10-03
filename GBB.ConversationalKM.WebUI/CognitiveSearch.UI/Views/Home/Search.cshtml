@@ -7,6 +7,7 @@
     ViewData["Path"] = "Home / Search Results";
 }
 
+
 <!-- Pass controller data to view -->
 <script>
     aspViewModel = @Html.Raw(Json.Serialize(Model));
@@ -17,7 +18,7 @@
     indexName = @Html.Raw(Json.Serialize(Model.indexName));
     semanticEnabled = @Html.Raw(Json.Serialize(Model.semanticEnabled));
 </script>
-<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+<!--link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" /-->
 
 <!--Details Modal-->
 <div class="modal" id="details-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -61,27 +62,14 @@
 <!--Search, Filters, and Facets-->
 <div id="results-container" class="row content-results">
     <div class="col-md-2">
-        <div id="search-input-group" class="input-group">
-            <input type="text" class="form-control advancedAutoComplete" name="q" id="q" placeholder="Search..." autocomplete="off">
-            <span class="input-group-btn">
-                <button id="search-button" class="btn btn-default" onclick="Search();"><span class="ms-Icon ms-Icon--Search"></span></button>
-            </span>
-        </div>
+        
         <div class="input-group" style="@(Model.semanticEnabled?"display:block":"display:none")">
-            Semantic Search
+            <h5 style="display: inline-block; padding-right: 5px;">Semantic Search</h5>
             <label class="switch"> <input name="queryType" id="semantic-toogle" type="checkbox"><span class="slider round"></span> </label>
         </div>
-        <br />
-        <br />
-        <button style="width:100%" class="btn btn-default" onclick="EntityMapClick()">View Entity Map</button>
-        <br />
-        <br />
-        Start Date
-        <input type="date" class="form-control advancedAutoComplete" name="startdate" id="startdate" placeholder="Start Date" autocomplete="off">
-        End Date
-        <input type="date" class="form-control advancedAutoComplete" name="enddate" id="enddate" placeholder="End Date" autocomplete="off">
-        <br />
+        <hr style="height:1px;border-width:0;background-color:#EDEBE9;margin-top:10px;margin-bottom:16px;">
         <div>
+            <h4 style="margin-bottom: 16px;">Filter</h4>
             <div id="filterReset"></div>
             <div class="widget-content">
                 <div id="facet-nav" class="facet-nav"></div>
@@ -89,8 +77,25 @@
         </div>
     </div>
 
-    <!--Results-->
-    <div class="col-md-10">
+    <div class="col-md-10 results-container">
+
+        <div class="card-body" style="text-align: right">
+            <br />
+            <h5 style="display: inline-block">Start Date</h5>
+            <input type="date" class="form-control advancedAutoComplete" name="startdate" id="startdate" placeholder="Start Date" autocomplete="off">
+            <h5 style="display: inline-block">End Date</h5>
+            <input type="date" class="form-control advancedAutoComplete" name="enddate" id="enddate" placeholder="End Date" autocomplete="off">
+            <a asp-action="UploadData" asp-controller="Admin" class="fluent-button"> Upload file</a>
+            <button style="font-weight: 600; border: 1px solid lightgrey; background: white; color: black; margin-right: 10px" class="fluent-button" onclick="EntityMapClick()">View entity Map</button>
+            <a asp-action="Customize" asp-controller="Admin"> Customize</a>
+        </div>
+
+
+        <div class="card-container">
+
+
+        </div>
+
         <div style="margin:0 10px 10px 10px;">
             <h2 id="query-div" style="margin-top:-10px; font-size:14px;" class="alert info"></h2>
             <h2 id="answer-div" style="margin-top:-10px; font-size:14px;" class="alert info"></h2>

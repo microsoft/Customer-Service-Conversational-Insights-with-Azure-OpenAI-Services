@@ -1,27 +1,33 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
+using Azure.Data.Tables;
+using Azure.Search.Documents.Models;
+using CognitiveSearch.UI.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using CognitiveSearch.UI.Models;
-using Azure.Search.Documents.Models;
 
 namespace CognitiveSearch.UI.Controllers
 {
     public class HomeController : Controller
     {
+        private TableServiceClient serviceClient;
+
         private IConfiguration _configuration { get; set; }
         private DocumentSearchClient _docSearch { get; set; }
+
+        private TableService _tableService { get; set; }
         private string _configurationError { get; set; }
 
         public HomeController(IConfiguration configuration)
         {
             _configuration = configuration;
             InitializeDocSearch();
+            //InitializeTableService();
         }
 
         private void InitializeDocSearch()
@@ -36,11 +42,6 @@ namespace CognitiveSearch.UI.Controllers
             }
         }
 
-        /// <summary>
-        /// Checks that the search client was intiailized successfully.
-        /// If not, it will add the error reason to the ViewBag alert.
-        /// </summary>
-        /// <returns>A value indicating whether the search client was initialized succesfully.</returns>
         public bool CheckDocSearchInitialized()
         {
             if (_docSearch == null)
@@ -56,9 +57,83 @@ namespace CognitiveSearch.UI.Controllers
         public IActionResult Index()
         {
             CheckDocSearchInitialized();
+            //CheckTableServiceInitialized();
 
-            return View();
+            var viewModel = SearchView(new SearchOptions
+            {
+                q = "*",
+                // initialize searchFacets to empty array to avoid null reference errors
+                searchFacets = new SearchFacet[0],
+                currentPage = 1,
+                queryType = SearchQueryType.Full
+            });
+
+            return View("Search", viewModel);
         }
+
+        private void InitializeTableService()
+        {
+            try
+            {
+                _tableService = new TableService(_configuration);
+            }
+            catch (Exception e)
+            {
+                _configurationError = $"The application settings are possibly incorrect. The server responded with this message: " + e.Message.ToString();
+            }
+        }
+
+        public bool CheckTableServiceInitialized()
+        {
+            if (_tableService == null)
+            {
+                ViewBag.Style = "alert-warning";
+                ViewBag.Message = _configurationError;
+                return false;
+            }
+
+            return true;
+        }
+
+        public CustomerSatisfactionTableViewModel CustomerSatisfactionTable()
+        {
+
+            var tableResult = _tableService.GetSatisfactionTableData("customersatisfactiontable", "1", "1");
+            var viewModel = new CustomerSatisfactionTableViewModel
+            {
+                RowKey = tableResult.RowKey,
+                PartitionKey = tableResult.PartitionKey,
+                SatisfiedCustomers = tableResult.SatisfiedCustomers,
+                UnSatisfiedCustomers = tableResult.UnSatisfiedCustomers,
+                Complaint1 = tableResult.Complaint1,
+                Complaint2 = tableResult.Complaint2,
+                Complaint3 = tableResult.Complaint3,
+                Complaint4 = tableResult.Complaint4,
+                Complaint5 = tableResult.Complaint5
+            };
+
+            return viewModel;
+        }
+
+        public AvgCloseRateTableViewModel AvgCloseRateTable()
+        {
+
+            var tableRes = _tableService.GetAvgCloseRateTableData("avgcloseratetable", "1", "1");
+            var viewModel = new AvgCloseRateTableViewModel
+            {
+                RowKey = tableRes.RowKey,
+                PartitionKey = tableRes.PartitionKey,
+                AllRegions = tableRes.AllRegions,
+                TopRegions = tableRes.TopRegions,
+                SatisfactionTrend1 = tableRes.SatisfactionTrend1,
+                SatisfactionTrend2 = tableRes.SatisfactionTrend2,
+                SatisfactionTrend3 = tableRes.SatisfactionTrend3,
+                SatisfactionTrend4 = tableRes.SatisfactionTrend4,
+                SatisfactionTrend5 = tableRes.SatisfactionTrend5
+            };
+            return viewModel;
+        }
+
 
         public IActionResult Error()
         {
@@ -66,7 +141,7 @@ namespace CognitiveSearch.UI.Controllers
 
         }
 
-        public IActionResult Search([FromQuery]string q, [FromQuery]string facets = "", [FromQuery]int page = 1, [FromQuery]string queryType = "Full")
+        public IActionResult Search([FromQuery]string q = "*", [FromQuery]string facets = "", [FromQuery]int page = 1, [FromQuery]string queryType = "Full")
         {
             // Split the facets.
             //  Expected format: &facets=key1_val1,key1_val2,key2_val1
@@ -111,7 +186,7 @@ namespace CognitiveSearch.UI.Controllers
         }
 
         [HttpPost]
-        public SearchResultViewModel SearchView([FromForm]SearchOptions searchParams)
+        public SearchResultViewModel SearchView([FromForm] SearchOptions searchParams)
         {
             if (searchParams.q == null)
                 searchParams.q = "*";
@@ -138,6 +213,8 @@ namespace CognitiveSearch.UI.Controllers
                 facetableFields = _docSearch.Model.Facets.Select(k => k.Name).ToArray(),
                 answer = "",
                 semanticEnabled = (_configuration.GetSection("SemanticConfiguration")?.Value != "")
+                //customerSatisfactionTableResult = CustomerSatisfactionTable(),
+                //avgCloseRateTableResult = AvgCloseRateTable()
             };
             viewModel.answer = viewModel.documentResult.Answer;
             viewModel.captions = viewModel.documentResult.Captions;

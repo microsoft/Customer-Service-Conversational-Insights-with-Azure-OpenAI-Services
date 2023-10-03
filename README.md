@@ -23,7 +23,7 @@ Please note that you need to have access to an Azure OpenAI resource and have al
 To deploy the full solution with audio files transcription and the Web Application, select the following button:
 <br>
 <br>
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights%2Fmaster%2Finfrastructure%2FARM%2Faudio-template.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frturknett%2FConversationalAIDev%2Frturknett-arm-template-update%2Finfrastructure%2FARM%2Faudio-template.json)
 
 The Azure portal displays a pane that allows you to easily provide parameter values. The parameters are pre-filled with the default values from the template.
 
@@ -43,7 +43,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 To deploy the full solution for Text based Conversations and the Web Application, select the following button:
 <br>
 <br>
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights%2Fmaster%2Finfrastructure%2FARM%2Fbot-template.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frturknett%2FCustomer-Service-Conversational-Insights%2Fmaster%2Finfrastructure%2FARM%2Fbot-template.json)
 
 
 The Azure portal displays a pane that allows you to easily provide parameter values. The parameters are pre-filled with the default values from the template.

@@ -1,7 +1,10 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
+*.env
+*.venv
+*.vscode
+*.vs
 /GBB.ConversationalKM/.vs/
 /LUISSchemaSerializationTool/.vs
 /LUISSchemaSerializationTool/LUISSchemaSerializationTool/bin

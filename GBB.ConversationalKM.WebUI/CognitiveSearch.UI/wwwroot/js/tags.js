@@ -14,7 +14,7 @@ function GetTagsHTML(result) {
             result[name].forEach(function (tagValue, i, tagArray) {
                 name = name.replace("_clean", "");
                 if (i == 0) {
-                    tagsHTML += `${name}: `;
+                    tagsHTML += `<h5 class="tag-title">${name}:</h5> `;
                 }
                 if (i <= 100) {
                     if ($.inArray(tagValue, dedupedEntities) === -1) { //! in array

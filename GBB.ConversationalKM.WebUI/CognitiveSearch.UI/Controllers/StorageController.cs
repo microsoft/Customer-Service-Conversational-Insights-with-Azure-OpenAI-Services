@@ -30,12 +30,18 @@ namespace CognitiveSearch.UI.Controllers
         {
             if (Request.Form.Files.Any())
             {
-                var container = GetStorageContainer(0);
+                var audioContainer = GetStorageContainer(0);
+                var textContainer = GetStorageContainer(1);
 
                 foreach (var formFile in Request.Form.Files)
                 {
                     if (formFile.Length > 0)
                     {
+                        // Get extension of uploaded file and if json, set container to use the text container, otherwise use the audio container
+                        var fileExt = System.IO.Path.GetExtension(formFile.FileName).ToLower();
+                        var container = fileExt == ".json" ? textContainer : audioContainer;
+
+                        // Upload file to the selected container
                         var blob = container.GetBlobClient(formFile.FileName);
                         var blobHttpHeader = new BlobHttpHeaders();
                         blobHttpHeader.ContentType = formFile.ContentType;

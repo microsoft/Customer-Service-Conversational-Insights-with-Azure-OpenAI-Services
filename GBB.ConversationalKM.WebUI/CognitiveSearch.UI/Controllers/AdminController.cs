@@ -49,7 +49,7 @@ namespace CognitiveSearch.UI.Controllers
                     var fi = new FileInfo(file.FileName);
 
                     var webPath = _hostingEnvironment.WebRootPath;
-                    var path = Path.Combine("", webPath + @"\images\logo.png");
+                    var path = Path.Combine("", webPath + @"/images/logo.png");
 
                     using (var stream = new FileStream(path, FileMode.Create))
                     {
@@ -93,7 +93,7 @@ namespace CognitiveSearch.UI.Controllers
         private async Task WriteCss(string fileName, string fileContent)
         {
             var webPath = _hostingEnvironment.WebRootPath;
-            var path = Path.Combine("", webPath + $"\\css\\{fileName}.css");
+            var path = Path.Combine("", webPath + $"/css/{fileName}.css");
 
             await System.IO.File.WriteAllTextAsync(path, fileContent);
         }
@@ -101,7 +101,7 @@ namespace CognitiveSearch.UI.Controllers
         private async Task<string> ReadCssImageNameProperty(string fileName)
         {
             var webPath = _hostingEnvironment.WebRootPath;
-            var path = Path.Combine("", webPath + $"\\css\\{fileName}.css");
+            var path = Path.Combine("", webPath + $"/css/{fileName}.css");
 
             var fileText = await System.IO.File.ReadAllTextAsync(path);
             
@@ -118,7 +118,7 @@ namespace CognitiveSearch.UI.Controllers
         {
             var colorSettings = new ColorSettings();
             var webPath = _hostingEnvironment.WebRootPath;
-            var path = Path.Combine("", webPath + $"\\css\\{section}.css");
+            var path = Path.Combine("", webPath + $"/css/{section}.css");
 
             var css = await System.IO.File.ReadAllTextAsync(path);
             var parts = css.Split($"{section}-", StringSplitOptions.RemoveEmptyEntries);
@@ -143,7 +143,7 @@ namespace CognitiveSearch.UI.Controllers
         public async Task<IActionResult> DownloadCustomCss()
         {
             var webPath = _hostingEnvironment.WebRootPath;
-            var path = Path.Combine("", webPath + @"\css\custom.css");
+            var path = Path.Combine("", webPath + @"/css/custom.css");
 
             var memory = new MemoryStream();
             using(var stream = new FileStream(path, FileMode.Open))
@@ -162,7 +162,7 @@ namespace CognitiveSearch.UI.Controllers
                 if (file.Length > 0)
                 {
                     var webPath = _hostingEnvironment.WebRootPath;
-                    var path = Path.Combine("", webPath + @"\css\custom.css");
+                    var path = Path.Combine("", webPath + @"/css/custom.css");
 
                     using (var stream = new FileStream(path, FileMode.Create))
                     {
