@@ -27,5 +27,9 @@ namespace CognitiveSearch.UI.Models
         public string queryType { get; set; }
 
         public bool semanticEnabled { get; set; }
+
+        public CustomerSatisfactionTableViewModel customerSatisfactionTableResult { get; set; }
+
+        public AvgCloseRateTableViewModel avgCloseRateTableResult { get; set; }
     }
 }

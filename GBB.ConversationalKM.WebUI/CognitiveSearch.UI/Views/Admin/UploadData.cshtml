@@ -8,22 +8,26 @@
 <script type="text/javascript" src="~/lib/dropzone/dist/js/dropzone-amd-module.min.js"></script>
 <link rel="stylesheet" href="~/lib/dropzone/dist/css/basic.min.css" />
 <link rel="stylesheet" href="~/lib/dropzone/dist/css/dropzone.min.css" />
-<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
 
 <main role="main">
 
-    <div class="card mb-2 mt-5 mr-5 ml-5">
-        <h4 class="card-header">Upload your files to Blob Storage</h4>
+    <fluent-card class="uploadcard">
+        <img class="img-upload" src ="/../../images/arrow-upload.png" alt="arrow upload" />
+        <h1 style="text-align: center;">Upload your audio or json files for analysis</h1>
         <div class="card-body">
-            <p>
-                You can used the area below to upload files into your Azure Blob Storage account. Once uploaded, the files will be indexed by Azure Search, and within a few minutes will be available for searching using this tool.
-            </p>
-            <div id="upload-dropzone" class="justify-content-center">Drag and drop files into this zone to add them to the upload list, or click anywhere in this block to open a file dialog.</div>
+            <h3 style="text-align: center; font-weight: 400">
+                You can use the area below to upload files into your Azure Storage account. Once uploaded, the files will be indexed by Azure Search, and within a few minutes will be available for searching using this tool.
+            </h3>
+            <div class="card mb-2 mt-5 mr-5 ml-5">
+                <div id="upload-message" class="alert alert-success mb-2 mt-2 mr-5 ml-5" style="display:none;"></div>
+            </div>
+            <div id="upload-dropzone" class="justify-content-center" style="text-align: center;">
+                <img class="img-mini-upload" src="~/images/mini-upload.png" alt="min arrow upload" />
+                <h3 style="font-weight: 400; text-indent: 5px">  Drag and drop files here or click to browse</h3>
+            </div>
 
         </div>
-    </div>
-
-    <div id="upload-message" class="alert alert-success mb-2 mt-2 mr-5 ml-5" style="display:none;"></div>
+    </fluent-card>
 
 </main>
 
@@ -35,7 +39,6 @@
             window.location.replace("/Admin/NotAvailable");
         }
 
-
         $('#upload-dropzone').dropzone({
             url: '/upload', //'https://localhost:44311/api/Documents/upload',
             method: 'POST',
@@ -43,6 +46,10 @@
             maxFilesize: 50, // MB
             uploadMultiple: true,
             maxFiles: 10,
+            sending: function (file, xhr, formData) {
+                var $message = $('#upload-message');
+                $message.attr('style', 'display:none;');
+            },
             success: function (file, response) {
                 file.previewElement.classList.add('dz-success');
                 var $message = $('#upload-message');
@@ -52,9 +59,9 @@
             error: function (file, response) {
                 file.previewElement.classList.add('dz-error');
                 var $message = $('#upload-message');
-                $message.text("Files uploaded successfully.");
+                $message.text("File upload failed");
                 $message.removeClass('alert-success');
-                $message.addClass('alert-warning');
+                $message.addClass('alert-danger');
                 $message.attr('style', 'display:block;');
             }
         });
