@@ -779,8 +779,8 @@
                 "SearchIndexName": "conversational-index",
                 "StorageAccountName": "[parameters('storageAccountName')]",
                 "StorageAccountKey": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value]",
-                "StorageContainerAddress": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/audio-input)']",
-                "StorageContainerAddress2": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/conversationkm-full)']",
+                "StorageContainerAddress": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/audio-input')]",
+                "StorageContainerAddress2": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/conversationkm-full')]",
                 "KeyField": "metadata_storage_path",
                 "IsPathBase64Encoded": true
             }
