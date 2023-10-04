@@ -341,17 +341,6 @@ function UpdateResults(data, answer) {
             if (pathLower.includes(".mp3") || pathLower.includes(".json") || pathLower.includes(".m4a")) {
                 previewAllContent = `
                     
-                <div class="result-item-with-date">
-                    <div class="result-item">
-                        <img src="images/0002-chat-l-standard-96x96.png"/>
-                        <div class="result-item-text">
-                            <h5>Customer question</h5>
-                            <div>${firstMessage.Value}</div>
-                        </div>
-                    </div>
-                    <div class="result-date">${moment(document.StartTime).format("LLL")}</div>
-                </div>
-                    
                 <div class="result-item">
                     <img src="images/0394-ai-lightbulb-l-standard-96x96.png"/>
                     <div class="result-item-text">
