@@ -1,16 +1,8 @@
 # Conversation Knowledge Mining
 
 <p align="center">
-
-  <img src="https://github.com/netdata/netdata/assets/2662304/a62997fb-d75d-42df-b188-b804cd034a70#gh-light-mode-only" alt="Netdata" width="300"/>
-
-<a href="https://www.netdata.cloud#gh-dark-mode-only">
-  <img src="https://github.com/netdata/netdata/assets/2662304/95ea1560-5e83-44d3-ad33-7980f8298b65#gh-dark-mode-only" alt="Netdata" width="300"/>
-</a>
+  <img src="https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/images/readMe/image.png?raw=true" alt=""/>
 </p>
-
-
-![image](/images/readMe/image.png)
 
 <hr class="solid">
 
