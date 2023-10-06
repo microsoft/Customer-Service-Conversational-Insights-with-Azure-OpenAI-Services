@@ -1,6 +1,6 @@
 # Conversation Knowledge Mining
 
-![](/media/image.png){width="6.5in" height="2.9583333333333335in"}
+![image](/images/readMe/image.png){width="6.5in" height="2.9583333333333335in"}
 
 **Visit the [\[Conversation Knowledge
 Mining\]](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)
@@ -40,7 +40,7 @@ staffing allocation for maximum efficiency.
 
 **Below are image stills from the accelerator**\
 \
-![](/media/image2.png){width="5.0in" height="2.5625in"}
+![image](/images/readMe/image2.png){width="5.0in" height="2.5625in"}
 
 *For a step by step user journey of the dashboard, visit [this
 link](https://microsoft.sharepoint.com/:p:/t/IndustrySolutionsCTOTeam/Ef1m7iZaHrFPi9NLfxNn2HgBF67j1p5aBn1z2bgwhvgbUA?e=G1B0YI)
@@ -96,7 +96,7 @@ from original repo\]
 
     -   OPENAI_MODEL_TYPE - this should be set to chat
 
-![](/media/image3.png){width="6.5in" height="1.65625in"}
+![image](/images/readMe/image3.png){width="6.5in" height="1.65625in"}
 
 -   Click \'review and create\' to start the deployment. The deployment
     can take up to 15 minutes to complete.
@@ -106,7 +106,7 @@ from original repo\]
     clicking on the default domain. You should bookmark this url to have
     quick access to your deployed application.
 
-![](/media/image4.png){width="6.3419192913385825in"
+![image](/images/readMe/image4.png){width="6.3419192913385825in"
 height="3.510437445319335in"}
 
 ### **(Optional) Azure Cognitive Search - Enabling Semantic Search** 
@@ -134,15 +134,13 @@ Use the following steps to enable and configure semantic search:
     left menu and select the "conversational-index" from the list of
     indexes that was created when you deployed.\
     \
-    ![A screenshot of a computer Description automatically
-    generated](/media/image5.png){width="6.5in"
+    ![image](/images/readMe/image5.png){width="6.5in"
     height="3.1145833333333335in"}
 
 -   Select the tab labeled "Semantic configurations" and then click "Add
     semantic configuration"\
     \
-    ![A screenshot of a computer Description automatically
-    generated](/media/image6.png){width="6.0625in"
+    ![image](/images/readMe/image6.png){width="6.0625in"
     height="2.9583333333333335in"}
 
 -   Fill out the configuration blade to match your requirements or us
@@ -154,9 +152,7 @@ Use the following steps to enable and configure semantic search:
 
     -   **Content fields:** text, merged_content, summary
 
-    -   **Keyword fields:** keyphrases![A screenshot of a computer
-        Description automatically
-        generated](/media/image7.png){width="6.45833552055993in"
+    -   **Keyword fields:** keyphrases![image](/images/readMe/image7.png){width="6.45833552055993in"
         height="7.58333552055993in"}
 
 -   Click save on the panel and then save at the top of the page to
@@ -165,8 +161,7 @@ Use the following steps to enable and configure semantic search:
 -   Navigate to the App Service resource in your resource group -- this
     ends in "-ui".\
     \
-    ![A screenshot of a computer Description automatically
-    generated](/media/image8.png){width="6.5in"
+    ![image](/images/readMe/image8.png){width="6.5in"
     height="1.9583333333333333in"}
 
 -   Click "Configuration" from the Settings menu on the left and then
@@ -186,7 +181,7 @@ Use the following steps to enable and configure semantic search:
 -   Navigate to Overview in the left menu and then click "Stop" and then
     "Start" for these configuration changes to take effect.\
     \
-    ![](/media/image9.png){width="6.5in" height="0.6041666666666666in"}
+    ![image](/images/readMe/image9.png){width="6.5in" height="0.6041666666666666in"}
 
 -   You should now be able to toggle the Semantic Search radio button on
     and off and see a different order of relevant results on the list of
@@ -194,8 +189,7 @@ Use the following steps to enable and configure semantic search:
     changes to your semantic configuration to change how the relevancy
     of your results are displayed here.\
     \
-    ![A screenshot of a computer Description automatically
-    generated](/media/image10.png){width="6.5in"
+    ![image](/images/readMe/image10.png){width="6.5in"
     height="2.2291666666666665in"}
 
 > If you plan to not utilize sementic search on the web UI, you can
@@ -203,8 +197,7 @@ Use the following steps to enable and configure semantic search:
 > setting "SemanticConfiguration" on the App Service \> Settings \>
 > Configuration page to an empty string:
 >
-> ![A screenshot of a computer Description automatically
-> generated](/media/image11.png){width="6.5in" height="3.5625in"}
+> ![image](/images/readMe/image11.png){width="6.5in" height="3.5625in"}
 
 **Integrate your OpenAI Prompt**
 
@@ -248,7 +241,7 @@ choosing the app service resource, and clicking on the default domain.
 On the first launch, your application will not show any summaries. You
 will need to add data to see summarized results of conversations.
 
-![](/media/image12.png){width="5.0in" height="2.5625in"}
+![image](/images/readMe/image12.png){width="5.0in" height="2.5625in"}
 
 -   To upload files, click the \'Upload file\' button. Here you can
     upload .wav files of conversations, or conversations that have been
@@ -291,9 +284,9 @@ documentation.
 
 -   From the home page, click on the customize button.
 
-![](/media/image13png){width="5.0in" height="2.5625in"}
+![image](/images/readMe/image13png){width="5.0in" height="2.5625in"}
 
-![](/media/image14.png){width="5.0in" height="2.75in"}
+![image](/images/readMe/image14.png){width="5.0in" height="2.75in"}
 
 -   Select the rectangle next to background color to use the color
     picker to select a new background color for the header.
@@ -301,12 +294,12 @@ documentation.
 -   Select the rectangle next to text color to use the color picker to
     select a new footer text color.
 
-![Inserting image\...](/media/image15.png){width="6.003788276465442in"
+![image](/images/readMe/image15.png){width="6.003788276465442in"
 height="3.3020833333333335in"}
 
 -   Select the choose file button to upload a new image.
 
-![](/media/image16.png){width="6.015325896762905in"
+![image](/images/readMe/image16.png){width="6.015325896762905in"
 height="3.2708333333333335in"}
 
 -   Click save to apply the updates.
