@@ -6,8 +6,8 @@
 Mining\]](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)
 Repository**
 
-MENU: \| [**GETTING STARTED**](bookmark://_Getting_Started_ENG) \|
-[**HOW TO USE THE TOOL**](bookmark://_How_to_use) \| Documentation
+MENU: \| [**GETTING STARTED**](#getting-started) \| \| [**Audio data**](#audio-data)
+[**HOW TO USE THE TOOL**](#how-to-use-the-tool) \| 
 
 **USE CASE OVERVIEW:**
 
@@ -126,7 +126,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 ### **(Optional) Azure Cognitive Search - Enabling Semantic Search** 
 
-<details><summary>Click for detailed steps for Enabling Semantic Search </summary>
+<details><summary>Click to see detailed steps for Enabling Semantic Search </summary>
 &nbsp;<br/>
 
 After deploying the solution, you can optionally enable the semantic
@@ -213,7 +213,7 @@ Use the following steps to enable and configure semantic search:
 > ![image](/images/readMe/image11.png)
 </details>
 
-## Integrate your OpenAI Prompt
+### Integrate your OpenAI Prompt
 You can add your Azure OpenAI prompt to extract specific entities in the template parameter OPENAI_PROMPT.
 <br>
 The defined keys have to be added in the OPENAI_PROMPT_KEYS parameter as well, to enable the data Push to the Azure Cognitive Search index.
@@ -229,7 +229,7 @@ Please be sure to set up both parameters accordingly to your entities name.
 
 You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
 
-### **How to use the tool** 
+## **How to use the tool** 
 
 Launch the application by navigating to your Azure resource group,
 choosing the app service resource, and clicking on the default domain.
