@@ -126,6 +126,9 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 ### **(Optional) Azure Cognitive Search - Enabling Semantic Search** 
 
+<details><summary>Click for detailed steps for Enabling Semantic Search </summary>
+&nbsp;<br/>
+
 After deploying the solution, you can optionally enable the semantic
 search capability on your Azure Cognitive Search Index. In Azure
 Cognitive Search, semantic search measurably improves search relevance
@@ -208,6 +211,7 @@ Use the following steps to enable and configure semantic search:
 > Configuration page to an empty string:
 >
 > ![image](/images/readMe/image11.png)
+</details>
 
 ## Integrate your OpenAI Prompt
 You can add your Azure OpenAI prompt to extract specific entities in the template parameter OPENAI_PROMPT.
@@ -275,7 +279,7 @@ documentation.
 
 -   From the home page, click on the customize button.
 
-![image](/images/readMe/image13png)
+![image](/images/readMe/image13.png)
 
 ![image](/images/readMe/image14.png)
 
