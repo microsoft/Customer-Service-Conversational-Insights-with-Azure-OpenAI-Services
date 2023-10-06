@@ -1,4 +1,4 @@
-### **Conversation Knowledge Mining**
+# Conversation Knowledge Mining
 
 ![](/media/image.png){width="6.5in" height="2.9583333333333335in"}
 
