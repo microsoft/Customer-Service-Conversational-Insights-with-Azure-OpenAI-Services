@@ -11,10 +11,10 @@
     -   Open the GBB.ConversationalKM.sln file in Visual studio
 
     -   Click the play button with IIS
-        Express![](/media/image.png){width="5.0in" height="0.3125in"}
+        Express![](/images/image.png){width="5.0in" height="0.3125in"}
 
     -   On first launch local host type thisissafe on keyboard anywhere
-        on page![](/media/image2.png){width="5.0in" height="4.875in"}
+        on page![](/images/image2.png){width="5.0in" height="4.875in"}
 
 -   Why are my customer summaries showing up null?
 

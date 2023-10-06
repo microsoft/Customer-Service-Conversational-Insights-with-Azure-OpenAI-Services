@@ -3,7 +3,7 @@
 ![](/media/image.png){width="6.5in" height="2.9583333333333335in"}
 
 **Visit the [\[Conversation Knowledge
-Mining\]](https://github.com/aldunson_microsoft/ConversationalAIDev)
+Mining\]](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)
 Repository**
 
 MENU: \| [**GETTING STARTED**](bookmark://_Getting_Started_ENG) \|
@@ -195,7 +195,7 @@ Use the following steps to enable and configure semantic search:
     of your results are displayed here.\
     \
     ![A screenshot of a computer Description automatically
-    generated](/media/imagea.png){width="6.5in"
+    generated](/media/image10.png){width="6.5in"
     height="2.2291666666666665in"}
 
 > If you plan to not utilize sementic search on the web UI, you can
@@ -204,7 +204,7 @@ Use the following steps to enable and configure semantic search:
 > Configuration page to an empty string:
 >
 > ![A screenshot of a computer Description automatically
-> generated](/media/imageb.png){width="6.5in" height="3.5625in"}
+> generated](/media/image11.png){width="6.5in" height="3.5625in"}
 
 **Integrate your OpenAI Prompt**
 
@@ -248,7 +248,7 @@ choosing the app service resource, and clicking on the default domain.
 On the first launch, your application will not show any summaries. You
 will need to add data to see summarized results of conversations.
 
-![](/media/imagec.png){width="5.0in" height="2.5625in"}
+![](/media/image12.png){width="5.0in" height="2.5625in"}
 
 -   To upload files, click the \'Upload file\' button. Here you can
     upload .wav files of conversations, or conversations that have been
@@ -291,9 +291,9 @@ documentation.
 
 -   From the home page, click on the customize button.
 
-![](/media/imaged.png){width="5.0in" height="2.5625in"}
+![](/media/image13png){width="5.0in" height="2.5625in"}
 
-![](/media/imagee.png){width="5.0in" height="2.75in"}
+![](/media/image14.png){width="5.0in" height="2.75in"}
 
 -   Select the rectangle next to background color to use the color
     picker to select a new background color for the header.
@@ -301,12 +301,12 @@ documentation.
 -   Select the rectangle next to text color to use the color picker to
     select a new footer text color.
 
-![Inserting image\...](/media/imagef.png){width="6.003788276465442in"
+![Inserting image\...](/media/image15.png){width="6.003788276465442in"
 height="3.3020833333333335in"}
 
 -   Select the choose file button to upload a new image.
 
-![](/media/image10.png){width="6.015325896762905in"
+![](/media/image16.png){width="6.015325896762905in"
 height="3.2708333333333335in"}
 
 -   Click save to apply the updates.
