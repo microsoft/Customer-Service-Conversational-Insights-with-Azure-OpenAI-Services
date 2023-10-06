@@ -92,6 +92,9 @@ Please check here for detailed parameters explanations: [Getting started with th
 
 Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-openai-prompt)
 
+### Architecture
+![alt text](images/audio-architecture.png "Conversational Knowledge Mining Architecture")
+
 ### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/aldunson_microsoft/ConversationalAIDev)✌️**
 
 -   Click the \'Deploy to Azure\' button.
