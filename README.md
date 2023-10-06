@@ -6,8 +6,8 @@
 Mining\]](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)
 Repository**
 
-MENU: \| [**GETTING STARTED**](#getting-started) \| \| [**Audio data**](#audio-data)
-[**HOW TO USE THE TOOL**](#how-to-use-the-tool) \| 
+MENU: \| [**GETTING STARTED**](#getting-started) \| [**Audio data**](#audio-data) \|
+[**HOW TO USE THE TOOL**](#how-to-use-the-tool)  
 
 **USE CASE OVERVIEW:**
 
