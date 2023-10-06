@@ -1,7 +1,6 @@
 ### **Solution Architecture Walkthrough**
 
-![](/media/image2.png "Inserting image..."){width="6.454545056867891in"
-height="3.604174321959755in"}
+![image](/images/readMe/image4.png "Inserting image...")
 
 Call and text recordings are uploaded to the web application. Those
 recordings are stored in a storage account and processed and have meta
