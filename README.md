@@ -75,9 +75,22 @@ These requirements must be met before the accelerator is installed.
 -   The user deploying the template must have permission to create
     resources and resource groups.
 
-\[Insert [Audio
-data](https://github.com/aldunson_microsoft/ConversationalAIDev#audio-data)
-from original repo\]
+## Audio data
+To deploy the full solution with audio files transcription and the Web Application, select the following button:
+<br>
+<br>
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frturknett%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmaster%2Finfrastructure%2FARM%2Faudio-template.json)
+
+The Azure portal displays a pane that allows you to easily provide parameter values. The parameters are pre-filled with the default values from the template.
+
+Once the deployment is completed, start processing your audio files by adding them to the "audio-input" container in the "storage account" in your "Resource Group". 
+To navigate the Web Ui, check the "App Service" resource in your "Resource Group".
+
+
+The template builds on top of the [Ingestion Client for Speech service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/ingestion-client).
+Please check here for detailed parameters explanations: [Getting started with the Ingestion Client](https://github.com/Azure-Samples/cognitive-services-speech-sdk/blob/master/samples/ingestion/ingestion-client/Setup/guide.md)
+
+Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-openai-prompt)
 
 ### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/aldunson_microsoft/ConversationalAIDev)✌️**
 
@@ -193,40 +206,21 @@ Use the following steps to enable and configure semantic search:
 >
 > ![image](/images/readMe/image11.png)
 
-**Integrate your OpenAI Prompt**
+## Integrate your OpenAI Prompt
+You can add your Azure OpenAI prompt to extract specific entities in the template parameter OPENAI_PROMPT.
+<br>
+The defined keys have to be added in the OPENAI_PROMPT_KEYS parameter as well, to enable the data Push to the Azure Cognitive Search index.
+<br>
+Please be sure to set up both parameters accordingly to your entities name.
 
-You can add your Azure OpenAI prompt to extract specific entities in the
-template parameter OPENAI_PROMPT.\
-The defined keys have to be added in the OPENAI_PROMPT_KEYS parameter as
-well, to enable the data Push to the Azure Cognitive Search index.\
-Please be sure to set up both parameters accordingly to your entities
-name.
+| Environment variable | Default value | Note |
+|--|--|--|
+|OPENAI_PROMPT | Execute these tasks:<br>-  Summarize the conversation, key: summary<br>-  Is the customer satisfied with the interaction with the agent, key: satisfied<br> Answer in JSON machine-readable format, using the keys from above.<br> Format the ouput as JSON object called 'results'. Pretty print the JSON and make sure that is properly closed at the end.<br>| The prompt to be used with OpenAI, please define the keys in the setting below as well |
+|OPENAI_PROMPT_KEYS | summary:Edm.String:False,satisfied:Edm.String:True|The prompt keys to use for the OpenAI API. Format: key,SearchType,Facetable e.g. key1:Edm.String:False,key2:Edm.String:True,key3:Edm.String:True | 
 
-  -------------------------------------------------------------------------------------------------------------------------------------------
-  **Environment        **Default value**                                    **Note**
-  variable**                                                                
-  -------------------- ---------------------------------------------------- -----------------------------------------------------------------
-  OPENAI_PROMPT        Execute these tasks:\                                The prompt to be used with OpenAI, please define the keys in the
-                       - Summarize the conversation, key: summary\          setting below as well
-                       - Is the customer satisfied with the interaction     
-                       with the agent, key: satisfied\                      
-                       Answer in JSON machine-readable format, using the    
-                       keys from above.\                                    
-                       Format the ouput as JSON object called \'results\'.  
-                       Pretty print the JSON and make sure that is properly 
-                       closed at the end.                                   
+### Modify the prompt after deployment
 
-  OPENAI_PROMPT_KEYS   summary:Edm.String:False,satisfied:Edm.String:True   The prompt keys to use for the OpenAI API. Format:
-                                                                            key,SearchType,Facetable e.g.
-                                                                            key1:Edm.String:False,key2:Edm.String:True,key3:Edm.String:True
-  -------------------------------------------------------------------------------------------------------------------------------------------
-
-**Modify the prompt after deployment**
-
-You can modify the Azure OpenAI prompt after the deployment by modifying
-the Azure Function application settings (\"OPENAI_PROMPT\",
-\"OPENAI_PROMPT_KEYS\") and creating the required field in the Azure
-Cognitive Search index.
+You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
 
 ### **How to use the tool** 
 

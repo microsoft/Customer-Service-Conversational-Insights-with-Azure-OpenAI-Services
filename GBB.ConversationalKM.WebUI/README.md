@@ -38,9 +38,10 @@ This file contains a mix of required and optional fields described below.
 4. **SearchIndexerName** - The name of your Azure Cognitive Search indexer
 5. **StorageAccountName** - The name of your Azure Blob Storage Account
 6. **StorageAccountKey** - The key for your Azure Blob Storage Account
-7. **StorageContainerAddress** - The URL to the storage container where your documents are stored. This should be in the following format: *https://*storageaccountname*.blob.core.windows.net/*containername**
-8. **KeyField** - They key field for your search index. This should be set to the field specified as a key document Id in the index. By default this is *metadata_storage_path*.
-9. **IsPathBase64Encoded** - By default, metadata_storage_path is the key, and it gets base64 encoded so this is set to true by default. If your key is not encoded, set this to false.
+7. **StorageContainerAddress** - The URL to the storage container where your audio files are stored. This should be in the following format: *https://*storageaccountname*.blob.core.windows.net/*containername**
+8. **StorageContainerAddress2** - The URL to the storage container where your documents are stored. This should be in the following format: *https://*storageaccountname*.blob.core.windows.net/*containername**
+9. **KeyField** - They key field for your search index. This should be set to the field specified as a key document Id in the index. By default this is *metadata_storage_path*.
+10. **IsPathBase64Encoded** - By default, metadata_storage_path is the key, and it gets base64 encoded so this is set to true by default. If your key is not encoded, set this to false.
 
 ### Optional Fields
 
@@ -51,7 +52,6 @@ While some fields are optional, we recommend not removing them from *appsettings
   "InstrumentationKey": "",
 
   // Optional container addresses if using more than one indexer:
-  "StorageContainerAddress2": "https://{storage-account-name}.blob.core.windows.net/{container-name}",
   "StorageContainerAddress3": "https://{storage-account-name}.blob.core.windows.net/{container-name}",
 
   // Optional key to an Azure Maps account if you would like to display the geoLocation field in a map
@@ -97,6 +97,19 @@ This template serves as a great baseline for a Cognitive Search solution, howeve
 We have a special behavior if you have a field called *translated_text*. The UI will automatically show the original text and the translated text in the UI. This can be handy. If you would like to change this behavior (disable it, or change the name of the field), you can do that at details.js (GetTranscriptHTML method).
 
 ![geolocation](../images/translated.png)
+
+ ## 4. How do I run this locally?
+
+    -   To run the UI locally you must install .NET Core 3.1 (NOTE: this
+        is not the latest version and must be installed explicitly)
+
+    -   Open the GBB.ConversationalKM.sln file in Visual studio
+
+    -   Click the play button with IIS
+        Express![image](/images/image.png)
+
+    -   On first launch local host type thisissafe on keyboard anywhere
+        on page![image](/images/image2.png)
 
 ### Key Files
 
