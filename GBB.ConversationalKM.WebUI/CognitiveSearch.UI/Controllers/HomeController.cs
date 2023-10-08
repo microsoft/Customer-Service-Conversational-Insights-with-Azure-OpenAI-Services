@@ -212,7 +212,7 @@ namespace CognitiveSearch.UI.Controllers
                 indexName = _configuration.GetSection("SearchIndexName")?.Value,
                 facetableFields = _docSearch.Model.Facets.Select(k => k.Name).ToArray(),
                 answer = "",
-                semanticEnabled = (_configuration.GetSection("SemanticConfiguration")?.Value != "")
+                semanticEnabled = !String.IsNullOrEmpty(_configuration.GetSection("SemanticConfiguration")?.Value)
                 //customerSatisfactionTableResult = CustomerSatisfactionTable(),
                 //avgCloseRateTableResult = AvgCloseRateTable()
             };
