@@ -62,12 +62,13 @@
 <!--Search, Filters, and Facets-->
 <div id="results-container" class="row content-results">
     <div class="col-md-2">
-        
-        <div class="input-group" style="@(Model.semanticEnabled?"display:block":"display:none")">
-            <h5 style="display: inline-block; padding-right: 5px;">Semantic Search</h5>
-            <label class="switch"> <input name="queryType" id="semantic-toogle" type="checkbox"><span class="slider round"></span> </label>
+        <div style="@(Model.semanticEnabled ? "display:block" : "display:none")">
+            <div class="input-group">
+                <h5 style="display: inline-block; padding-right: 5px;">Semantic Search</h5>
+                <label class="switch"> <input name="queryType" id="semantic-toogle" type="checkbox"><span class="slider round"></span> </label>
+            </div>
+            <hr style="height:1px;border-width:0;background-color:#EDEBE9;margin-top:10px;margin-bottom:16px;" />
         </div>
-        <hr style="height:1px;border-width:0;background-color:#EDEBE9;margin-top:10px;margin-bottom:16px;">
         <div>
             <h4 style="margin-bottom: 16px;">Filter</h4>
             <div id="filterReset"></div>
