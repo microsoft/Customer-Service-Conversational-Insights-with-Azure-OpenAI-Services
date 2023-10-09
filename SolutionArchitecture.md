@@ -21,27 +21,21 @@ contains the following resources:
 -   Application Insights - this resource gives details on application
     usage
 
--   App Service Plan
+-   App Service Plan - there will be two of these resources in you resource group. These resources define a set of compute resources for a web app to run. You should not have to make any changes to these resources after deployment.
 
 -   Azure AI service multi-service account - this is a cognitive
     services API. You should not have to make any updates to this
     resource after deployment.
 
--   Application insights - there is a second one for some reason
+-   Application insights - there will be two of these resources in your resource group. These application are performace managment services for your web application. 
 
 -   Search service - this resource holds all of the information required
-    to surface the search results in the UI. It contains the index and
-    indexers that aid in creating the search results. You can go here to
-    configure your skillsets, add fields to the search index, and debug
+    to surface the search results in the UI. It contains the index (named conversational-index) and
+    indexers (named conversational-km-indexer) that aid in creating the search results. You can go here to
+    configure your skillsets and semantic search, add fields to the search index, and debug
     input processing errors.
 
-    -   INCLUDE INDEXES
-
-    -   INCLUDE INDEXER
-
-    -   SEMANTIC SEARCH (OPTIONAL)
-
--   Service Bus Namespace -- This is a scoping container for addressing
+-   Service Bus Namespace - There will be two of these resources in your resource group. These resources are a scoping container for addressing
     Service Bus resources within your application. You should not have
     to make any updates to this resource after deployment.
 
@@ -89,30 +83,23 @@ contains the following resources:
     -   Start Transcription - converts .wav files into the expected
         .json format.
 
-    -   Fetch Transcription - kicks off audio transcription
+    -   Fetch Transcription - kicks off audio transcription process
 
--   Event Grid System Topic -- You should not have to make any updates
+-   Event Grid System Topic - a type of topic that represents events published by Azure services. You should not have to make any updates
     to this resource after deployment.
-
--   App service plan - a second one of these as well
 
 -   App service - hosts and contains the domain for your instance of
     this accelerator. clicking here will allow you to interact with the
     solution and search your conversations.
 
--   Speech Service- transcribes audio files
+-   Speech Service- provides text to speech, speech translation, and speaker recognition features. You should not have to make any updates to this resource. 
 
--   SQL Database - holds information about each conversation and us used
+-   SQL Database - holds information about each conversation and is used
     to populate the aggregate analytics
 
--   Failure Anomolies - appinsights -
+-   Failure Anomolies - There will be two of these resources in your resource group. This is an automatic alert rule created by Azure when you enable application insights for your App Service. It's montiors your application for unusual or abnormal behavior related to failures. 
 
--   failure anomalies - description. You should not have to make any
-    updates to this resource after deployment.
-
--   Key Vault - safely stores keys
-
--   Service Bus Namespace - You should not have to make any updates to
+-   Key Vault - a cloud service for securley storing and accessing secrets, keys, and certificates. You should not have to make any updates to
     this resource after deployment.
 
--   SQLServer - server for the SQL database
+-   SQLServer - a relational database management system. You should not have to make any updates to this resource after deployment. 
