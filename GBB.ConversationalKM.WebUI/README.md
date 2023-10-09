@@ -5,7 +5,7 @@ The Cognitive Search Template contains a .NET Core MVC Web app used as a Templat
 
 In just a few steps, you can configure this template UI to query your search index. This template will render a web page similar to the following:
 
-![web user interface](../images/WebUI.jpg)
+![web user interface](/images/readMe/image2.png)
 
 ## Prerequisites
 
@@ -72,7 +72,6 @@ While some fields are optional, we recommend not removing them from *appsettings
 1. **InstrumentationKey** - Optional instumentation key for Application Insights. The instrumentation key connects the web app to Application Inisghts in order to populate the Power BI reports.
 2. **StorageContainerAddress2** & **StorageContainerAddress3** - Optional container addresses if using more than one indexer
 3. **AzureMapsSubscriptionKey** - You have the option to provide an Azure Maps account if you would like to display a geographic point in a map in the document details. The code expects a field called *geolocation* of type Edm.GeographyPoint. If your wish to change this behavior (for instance if you would like to use a different field), you can modify details.js.
-![geolocation](../images/geolocation.png)
 4. **GraphFacet** - The GraphFacet is used for generating the relationship graph. This can now be edited in the UI.
 5. **Customizable** - Determines if user is allowed to *customize* the web app. Customizations include uploading documents and changing the colors/logo of the web app. **OrganizationName**,  **OrganizationLogo**, and **OrganizationWebSiteUrl** are additional fields that also allow you to do light customization.
 
@@ -95,8 +94,6 @@ If you would like to further customize the UI, you can update the following fiel
 This template serves as a great baseline for a Cognitive Search solution, however, you may want to make additional updates depending on your use case.
 
 We have a special behavior if you have a field called *translated_text*. The UI will automatically show the original text and the translated text in the UI. This can be handy. If you would like to change this behavior (disable it, or change the name of the field), you can do that at details.js (GetTranscriptHTML method).
-
-![geolocation](../images/translated.png)
 
  ## 4. How do I run this locally?
   1. To run the UI locally you must install .NET Core 3.1 (NOTE: this
