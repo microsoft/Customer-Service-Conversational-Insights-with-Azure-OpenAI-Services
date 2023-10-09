@@ -4,19 +4,14 @@
 
 Call and text recordings are uploaded to the web application. Those
 recordings are stored in a storage account and processed and have meta
-data applied to them using a set of azure functions. Once those are
+data applied to them using a set of Azure functions. Once those are
 processed, they leave the storage account and are pushed to the search
-index. In parallel, an azure function runs to make a call to the Azure
+index. In parallel, an Azure function runs to make a call to the Azure
 OpenAI Service to generate summarizations of the phone calls and other
 key conversation points. These results are surfaced in the app service
 where users can view the complete collections of calls with the
 summaries, customer satisfaction score, and keyphrases extracted from
 the conversation.
-
-Those recordings are saved and processed using containers in the storage
-account.
-
-An azure function runs to convert the
 
 ### **Resource Group Walkthrough**
 
