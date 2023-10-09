@@ -99,17 +99,16 @@ We have a special behavior if you have a field called *translated_text*. The UI 
 ![geolocation](../images/translated.png)
 
  ## 4. How do I run this locally?
-
-    -   To run the UI locally you must install .NET Core 3.1 (NOTE: this
+  1. To run the UI locally you must install .NET Core 3.1 (NOTE: this
         is not the latest version and must be installed explicitly)
 
-    -   Open the GBB.ConversationalKM.sln file in Visual studio
+  2. Open the GBB.ConversationalKM.sln file in Visual studio
 
-    -   Click the play button with IIS
-        Express![image](/images/image.png)
+  3. Click the play button with IIS
+        Express![image](/images/Troubleshooting/image.png)
 
-    -   On first launch local host type thisissafe on keyboard anywhere
-        on page![image](/images/image2.png)
+  4. On first launch on local host type thisissafe on keyboard anywhere on the page               
+        ![image](/images/Troubleshooting/image2.png)
 
 ### Key Files
 
