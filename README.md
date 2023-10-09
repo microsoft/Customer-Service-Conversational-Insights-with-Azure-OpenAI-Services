@@ -306,6 +306,6 @@ documentation.
 
 -   [Updating the UI](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/SolutionArchitecture.md)
 
--   Future Extensions of this accelerator
+-   [Future Extensions of this accelerator](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md)
 
 -   [Troubleshooting](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
