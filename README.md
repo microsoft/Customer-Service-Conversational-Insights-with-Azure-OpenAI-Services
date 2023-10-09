@@ -95,7 +95,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 ### Architecture
 ![alt text](images/audio-architecture.png "Conversational Knowledge Mining Architecture")
 
-### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)✌️**
+### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
 
 -   Click the \'Deploy to Azure\' button.
 
@@ -304,7 +304,7 @@ documentation.
 
 -   [Resource Group Walkthrough](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/SolutionArchitecture.md#resource-group-walkthrough)
 
--   [Updating the UI](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/SolutionArchitecture.md)
+-   [Updating the UI](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/tree/readMe-updates/GBB.ConversationalKM.WebUI)
 
 -   [Future Extensions of this accelerator](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md)
 

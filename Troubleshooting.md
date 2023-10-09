@@ -9,3 +9,6 @@
         ran out of quota for the gpt-35-turbo model we were using.
 
     -   **Solution:** Increase your rate limits on your GPT model
+
+- To delete deployed resources
+    - https://learn.microsoft.com/en-us/rest/api/searchservice/addupdate-or-delete-documents
