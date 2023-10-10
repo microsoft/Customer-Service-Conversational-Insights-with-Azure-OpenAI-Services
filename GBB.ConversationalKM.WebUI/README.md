@@ -81,8 +81,6 @@ At this point, your web app is configured and is ready to run. By default, all f
 
 If you would like to further customize the UI, you can update the following fields in *Search\SearchModel.cs*. You can select the filters that you are able to facet on, the tags shown with the results, as well as the fields returned by the search.
 
-![searchmodel](../images/SearchModel.png)
-
 **Facets** - Defines which facetable fields will show up as selectable filters in the UI. By default all facetable fields are included.
 
 **Tags** - Defines which fields will be added to the results card and details view as buttons. By default all facetable fields are included.
@@ -99,7 +97,7 @@ We have a special behavior if you have a field called *translated_text*. The UI 
   1. To run the UI locally you must install .NET Core 3.1 (NOTE: this
         is not the latest version and must be installed explicitly)
 
-  2. Open the GBB.ConversationalKM.sln file in Visual studio
+  2. Open the GBB.ConversationalKM.sln file in Visual Studio
 
   3. Click the play button with IIS
         Express![image](/images/Troubleshooting/image.png)
