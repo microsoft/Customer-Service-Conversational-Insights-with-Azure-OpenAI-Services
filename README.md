@@ -1,9 +1,9 @@
 # Conversation Knowledge Mining
 
-MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**AUDIO DATA**](#audio-data) \|
+MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**DEPLOY ACCELERATOR**](#accelerator-deployment) \|
 [**HOW TO USE**](#how-to-use-the-tool) \| [**TROUBLESHOOTING**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
 
-## USE CASE OVERVIEW
+## Use Case Overview
 
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
@@ -16,7 +16,7 @@ This accelerator allows customers to quickly deploy an integrated
 platform and immediately start extracting insights from customer or
 employees\' conversations.
 
-**KEY FEATURES:**
+**Key Features:**
 
 Azure Cognitive Search Service and Azure OpenAI Service drive huge cost
 saving in call center operations while improving call center efficiency
@@ -68,8 +68,8 @@ These requirements must be met before the accelerator is installed.
 -   The user deploying the template must have permission to create
     resources and resource groups.
 
-## Audio data
-To deploy the full solution with audio file transcription and the Web Application, select the following button:
+## Accelerator Deployment
+To deploy the accelerator select the following button:
 <br>
 <br>
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frturknett%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2FreadMe-updates%2Finfrastructure%2FARM%2Fdeployment-template.json)
@@ -85,7 +85,7 @@ Please check here for detailed parameters explanations: [Getting started with th
 
 Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-openai-prompt)
 
-### Solution Architecture
+### Accelerator Architecture
 ![image](/images/readMe/image4.png)
 
 ### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
