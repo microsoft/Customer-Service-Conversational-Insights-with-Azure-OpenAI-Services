@@ -94,12 +94,8 @@ contains the following resources:
 
 -   Speech Service- provides text to speech, speech translation, and speaker recognition features. You should not have to make any updates to this resource. 
 
--   SQL Database - holds information about each conversation and is used
-    to populate the aggregate analytics
-
 -   Failure Anomolies - There will be two of these resources in your resource group. This is an automatic alert rule created by Azure when you enable application insights for your App Service. It's montiors your application for unusual or abnormal behavior related to failures. 
 
 -   Key Vault - a cloud service for securley storing and accessing secrets, keys, and certificates. You should not have to make any updates to
     this resource after deployment.
 
--   SQLServer - a relational database management system. You should not have to make any updates to this resource after deployment. 
