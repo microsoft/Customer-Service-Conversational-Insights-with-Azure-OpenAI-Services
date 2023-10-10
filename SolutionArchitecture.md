@@ -103,7 +103,7 @@ contains the following resources:
 
 -   Failure Anomalies - There will be two of these resources in your resource group. 
     These are automatic alert rules created by Azure when you enable application insights for your App Service. 
-    They montior your application for unusual or abnormal behavior related to failures. 
+    They monitor your application for unusual or abnormal behavior related to failures. 
 
 -   Key vault - A cloud service for securley storing and accessing secrets, keys, and certificates. 
     You should not have to make any updates to
