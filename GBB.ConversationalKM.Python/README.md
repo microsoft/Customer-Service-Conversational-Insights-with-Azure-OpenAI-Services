@@ -1,4 +1,4 @@
-# GBB Conversational Knowledge Mining Architecture
+# Conversational Knowledge Mining Architecture
 
 PREPROCESSING:  
 
