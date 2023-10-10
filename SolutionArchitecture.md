@@ -47,24 +47,26 @@ contains the following resources:
     have to make any updates to any folders in this resource besides
     conversationkm-full and audio-input.
 
--   Azure Function Apps - There will be (4) function apps in your
-    resource group
+-   Azure Function Apps - There will be four (4) function apps in your
+    resource group:
 
-    -   generatedresourcegroupname - holds (6) functions that help
+    -   generatedresourcegroupname - contains multiple functions that help
         process the conversation files. No updates are expected to be
         made to resource.
 
-        -   AudioMerge - take from Fabrizio repo
+        - AudioMerge - Performs batch speech transcription.
 
-        -   build-search-infra - creates the index for the search
+        - build-search-infra - Creates the index for the search,
 
-        -   CustomDimensions - take from Fabrizio repo
+        - CustomDimensions - Extract CustomProperties from conversation messages.
 
-        -   EvaluateConversation - take from Fabrizio repo
+        - EvaluateConversation - Evaluate conversation on different parameters, starting from its messages.
 
-        -   MessagesMerge - take from Fabrizio repo
+        - MessagesMerge - Collapse all text messages from Bot / Agent and User to a single field.
 
-        -   TelemetryDataExtractor - take from Fabrizio repo
+        - TelemetryDataExtractor - Azure Function to extract Bot Telemetry data, collapsing all messages in a single JSON file for any conversation .
+
+        - Named Entity Extracor - Extract named entity extraction.
 
     -   generatedresourcegroupname-openai - holds the three functions
         necessary to summarize the pull information from the uploladed

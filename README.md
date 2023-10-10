@@ -1,7 +1,7 @@
 # Conversation Knowledge Mining
 
 MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**AUDIO DATA**](#audio-data) \|
-[**HOW TO USE**](#how-to-use) \| [**TROUBLESHOOTING**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
+[**HOW TO USE**](#how-to-use-the-tool) \| [**TROUBLESHOOTING**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
 
 ## **USE CASE OVERVIEW:**
 
@@ -24,13 +24,10 @@ saving in call center operations while improving call center efficiency
 better customer experiences, increased satisfaction, and improved
 staffing allocation for maximum efficiency.
 
--   Feature 1
-
--   Feature 2
-
--   Feature 3
-
--   Feature 4
+- Conversation Summarization and Key Phrase Extraction: Summarize long conversations into a short paragraph and pull out key phrases that are relevant to the conversation.
+- Batch speech-to-text using Azure Speech: Transcribe large amounts of audio files asynchronously including speaker diarizationand is typically used in post-call analytics scenarios. Diarizationis the process of recognizing and separating speakers in mono channel audio data.
+- Sensitive information extraction and redaction: Identify, categorize, and redact sensitive information in conversation transcription.
+- Sentiment analysis and opinion mining: Analyze transcriptions and associate positive, neutral, or negative sentiment at the utterance and conversation-level.
 
 **Below are image stills from the accelerator**\
 \
@@ -70,7 +67,7 @@ These requirements must be met before the accelerator is installed.
     resources and resource groups.
 
 ## Audio data
-To deploy the full solution with audio files transcription and the Web Application, select the following button:
+To deploy the full solution with audio file transcription and the Web Application, select the following button:
 <br>
 <br>
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frturknett%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmaster%2Finfrastructure%2FARM%2Fdeployment-template.json)
@@ -86,8 +83,8 @@ Please check here for detailed parameters explanations: [Getting started with th
 
 Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-openai-prompt)
 
-### Architecture
-![alt text](images/audio-architecture.png "Conversational Knowledge Mining Architecture")
+### Solution Architecture
+![image](/images/readMe/image4.png)
 
 ### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
 
@@ -116,7 +113,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
     clicking on the default domain. You should bookmark this url to have
     quick access to your deployed application.
 
-![image](/images/readMe/image4.png)
+
 
 ### **Azure Cognitive Search - Enabling Semantic Search (Optional)** 
 
@@ -223,7 +220,7 @@ Please be sure to set up both parameters accordingly to your entities name.
 
 You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
 
-## **How to use** 
+## **How to use the tool** 
 
 Launch the application by navigating to your Azure resource group,
 choosing the app service resource, and clicking on the default domain.

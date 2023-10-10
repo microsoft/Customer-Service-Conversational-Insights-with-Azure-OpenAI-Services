@@ -1,6 +1,7 @@
 ## **Troubleshooting** 
 
--   The UI is deployed from an azure container that is updated by GitHub
+-   How is the UI deployed?
+    - The UI is deployed from an azure container that is updated by GitHub
     actions
 
 -   Why are my customer summaries showing up null?
@@ -10,5 +11,5 @@
 
     -   **Solution:** Increase your rate limits on your GPT model
 
-- To delete deployed resources
-    - https://learn.microsoft.com/en-us/rest/api/searchservice/addupdate-or-delete-documents
+- How do I delete documents from the search service?
+    -  To delete documents from the search service follow the instructions here: https://learn.microsoft.com/en-us/rest/api/searchservice/addupdate-or-delete-documents
