@@ -3,7 +3,7 @@
 MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**AUDIO DATA**](#audio-data) \|
 [**HOW TO USE**](#how-to-use-the-tool) \| [**TROUBLESHOOTING**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
 
-## **USE CASE OVERVIEW:**
+## USE CASE OVERVIEW
 
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
@@ -16,7 +16,7 @@ This accelerator allows customers to quickly deploy an integrated
 platform and immediately start extracting insights from customer or
 employees\' conversations.
 
-**KEY FEATURES**:
+**KEY FEATURES:**
 
 Azure Cognitive Search Service and Azure OpenAI Service drive huge cost
 saving in call center operations while improving call center efficiency
@@ -29,17 +29,19 @@ staffing allocation for maximum efficiency.
 - Sensitive information extraction and redaction: Identify, categorize, and redact sensitive information in conversation transcription.
 - Sentiment analysis and opinion mining: Analyze transcriptions and associate positive, neutral, or negative sentiment at the utterance and conversation-level.
 
-**Below are image stills from the accelerator**\
+**Below are image stills from the accelerator.**\
 \
 ![image](/images/readMe/image2.png)
 
+You can view a live demo of the accelerator [here](https://conversational-knowledge-mining.azurewebsites.net/).
+
 *For a step by step user journey of the dashboard, visit [this
 link](https://microsoft.sharepoint.com/:p:/t/IndustrySolutionsCTOTeam/Ef1m7iZaHrFPi9NLfxNn2HgBF67j1p5aBn1z2bgwhvgbUA?e=G1B0YI)
-(internal microsoft only)*
+(Internal Microsoft only)*
 
-## **Getting Started**
+## Getting Started
 
-### **Prerequisites**
+### Prerequisites
 
 These requirements must be met before the accelerator is installed.
 
@@ -52,7 +54,7 @@ These requirements must be met before the accelerator is installed.
 
     -   Tokens per Minute: 22K
 
-### **Products used/licenses required**
+### Products used/licenses required
 
 -   Azure Cognitive Search
 
@@ -115,7 +117,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 
 
-### **Azure Cognitive Search - Enabling Semantic Search (Optional)** 
+### Azure Cognitive Search - Enabling Semantic Search (Optional)
 
 <details><summary>Click to see detailed steps for Enabling Semantic Search </summary>
 &nbsp;<br/>
@@ -220,7 +222,7 @@ Please be sure to set up both parameters accordingly to your entities name.
 
 You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
 
-## **How to use the tool** 
+## How to use the tool
 
 Launch the application by navigating to your Azure resource group,
 choosing the app service resource, and clicking on the default domain.
@@ -261,7 +263,7 @@ will need to add data to see summarized results of conversations.
     map\' button. Here you will choose a Facet and number of nodes and
     be able to view the relationships between the phrases.
 
-### **How to make updates to the UI**
+### How to make updates to the UI
 
 Using the options on the customize page, you can upload your own logo
 and set the background and text colors for the navigation bar. For
