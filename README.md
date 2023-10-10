@@ -1,15 +1,9 @@
 # Conversation Knowledge Mining
 
-<p align="center">
-  <img src="https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/images/readMe/image.png?raw=true" alt=""/>
-</p>
+MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**AUDIO DATA**](#audio-data) \|
+[**HOW TO USE**](#how-to-use) \| [**TROUBLESHOOTING**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
 
-<hr class="solid">
-
-MENU: \| [**GETTING STARTED**](#getting-started) \| [**AUDIO DATA**](#audio-data) \|
-[**HOW TO USE THE TOOL**](#how-to-use-the-tool)  
-
-**USE CASE OVERVIEW:**
+## **USE CASE OVERVIEW:**
 
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
@@ -97,11 +91,11 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 ### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
 
--   Click the \'Deploy to Azure\' button.
+1.  Click the \'Deploy to Azure\' button.
 
--   Create a new resource group with any name.
+2.  Create a new resource group with any name.
 
--   Most fields will have a default name set already. You will need to
+3.  Most fields will have a default name set already. You will need to
     update the following settings:
 
     -   OPENAI_API_BASE - the endpoint to your openai resource
@@ -114,17 +108,17 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 ![image](/images/readMe/image3.png)
 
--   Click \'review and create\' to start the deployment. The deployment
+4.  Click \'review and create\' to start the deployment. The deployment
     can take up to 15 minutes to complete.
 
--   When deployment is complete, launch the application by navigating to
+5.   When deployment is complete, launch the application by navigating to
     your Azure resource group, choosing the app service resource, and
     clicking on the default domain. You should bookmark this url to have
     quick access to your deployed application.
 
 ![image](/images/readMe/image4.png)
 
-### **(Optional) Azure Cognitive Search - Enabling Semantic Search** 
+### **Azure Cognitive Search - Enabling Semantic Search (Optional)** 
 
 <details><summary>Click to see detailed steps for Enabling Semantic Search </summary>
 &nbsp;<br/>
@@ -222,14 +216,14 @@ Please be sure to set up both parameters accordingly to your entities name.
 
 | Environment variable | Default value | Note |
 |--|--|--|
-|OPENAI_PROMPT | Execute these tasks:<br>-  Summarize the conversation, key: summary<br>-  Is the customer satisfied with the interaction with the agent, key: satisfied<br> Answer in JSON machine-readable format, using the keys from above.<br> Format the ouput as JSON object called 'results'. Pretty print the JSON and make sure that is properly closed at the end.<br>| The prompt to be used with OpenAI, please define the keys in the setting below as well |
+|OPENAI_PROMPT | Execute these tasks:<br>&#8226; Summarize the conversation, key: summary<br>&#8226; Is the customer satisfied with the interaction with the agent, key: satisfied<br> Answer in JSON machine-readable format, using the keys from above.<br> Format the ouput as JSON object called 'results'. Pretty print the JSON and make sure that is properly closed at the end.<br>| The prompt to be used with OpenAI, please define the keys in the setting below as well |
 |OPENAI_PROMPT_KEYS | summary:Edm.String:False,satisfied:Edm.String:True|The prompt keys to use for the OpenAI API. Format: key,SearchType,Facetable e.g. key1:Edm.String:False,key2:Edm.String:True,key3:Edm.String:True | 
 
 ### Modify the prompt after deployment
 
 You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
 
-## **How to use the tool** 
+## **How to use** 
 
 Launch the application by navigating to your Azure resource group,
 choosing the app service resource, and clicking on the default domain.
