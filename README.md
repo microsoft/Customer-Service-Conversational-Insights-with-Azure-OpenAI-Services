@@ -35,10 +35,6 @@ staffing allocation for maximum efficiency.
 
 You can view a live demo of the accelerator [here](https://conversational-knowledge-mining.azurewebsites.net/).
 
-*For a step by step user journey of the dashboard, visit [this
-link](https://microsoft.sharepoint.com/:p:/t/IndustrySolutionsCTOTeam/Ef1m7iZaHrFPi9NLfxNn2HgBF67j1p5aBn1z2bgwhvgbUA?e=G1B0YI)
-(Internal Microsoft only)*
-
 ## Getting Started
 
 ### Prerequisites
