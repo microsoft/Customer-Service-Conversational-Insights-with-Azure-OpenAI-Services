@@ -7,7 +7,7 @@ MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-start
 
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
-post-call center transcripts for intelligent call center scenarios. It
+post-contact center transcripts for intelligent call center scenarios. It
 shows how raw transcripts are converted into simplified customer call
 summaries to extract valuable insights around product and service
 performance.
@@ -25,11 +25,11 @@ better customer experiences, increased satisfaction, and improved
 staffing allocation for maximum efficiency.
 
 - Conversation Summarization and Key Phrase Extraction: Summarize long conversations into a short paragraph and pull out key phrases that are relevant to the conversation.
-- Batch speech-to-text using Azure Speech: Transcribe large amounts of audio files asynchronously including speaker diarizationand is typically used in post-call analytics scenarios. Diarizationis the process of recognizing and separating speakers in mono channel audio data.
+- Batch speech-to-text using Azure Speech: Transcribe large amounts of audio files asynchronously including speaker diarization and is typically used in post-call analytics scenarios. Diarizations the process of recognizing and separating speakers in mono channel audio data.
 - Sensitive information extraction and redaction: Identify, categorize, and redact sensitive information in conversation transcription.
 - Sentiment analysis and opinion mining: Analyze transcriptions and associate positive, neutral, or negative sentiment at the utterance and conversation-level.
 
-**Below are image stills from the accelerator.**\
+**Below is an image still from the accelerator.**\
 \
 ![image](/images/readMe/image2.png)
 
@@ -58,9 +58,6 @@ These requirements must be met before the accelerator is installed.
 
 -   Azure storage account
 
--   \[should we include al the products here and at what tier they\'re
-    configured since most of them are consumption based?\]
-
 -   The user deploying the template must have permission to create
     resources and resource groups.
 
@@ -73,7 +70,7 @@ To deploy the accelerator select the following button:
 The Azure portal displays a pane that allows you to easily provide parameter values. The parameters are pre-filled with the default values from the template.
 
 Once the deployment is completed, start processing your audio files by adding them to the "audio-input" container in the "storage account" in your "Resource Group". 
-To navigate the Web Ui, check the "App Service" resource in your "Resource Group".
+To navigate the Web UI, check the "App Service" resource in your "Resource Group".
 
 
 The template builds on top of the [Ingestion Client for Speech service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/ingestion-client).
@@ -223,7 +220,7 @@ You can modify the Azure OpenAI prompt after the deployment by modifying the Azu
 Launch the application by navigating to your Azure resource group,
 choosing the app service resource, and clicking on the default domain.
 On the first launch, your application will not show any summaries. You
-will need to add data to see summarized results of conversations.
+will need to upload your data files in the correct format (instructions available below the following image) to see summarized results of conversations.
 
 ![image](/images/readMe/image12.png)
 
@@ -231,7 +228,7 @@ will need to add data to see summarized results of conversations.
     upload .wav files of conversations, or conversations that have been
     formatted to the specified JSON format. After uploading, allow 10
     minutes for the files to fully process and appear on the Call
-    Summaries page.
+    summaries page.
 
     -   Files can also be uploaded directly to the blob storage. Audio
         files should be uploaded to the audio-input folder, JSON files
@@ -295,6 +292,6 @@ Click save to apply the updates.
 
 -   [Updating the UI](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/tree/readMe-updates/GBB.ConversationalKM.WebUI)
 
--   [Future Extensions of this accelerator](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md)
+-   [Future Extensibility](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md)
 
 -   [Troubleshooting](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
