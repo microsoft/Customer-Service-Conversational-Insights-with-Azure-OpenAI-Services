@@ -61,7 +61,7 @@ namespace CognitiveSearch.UI.Controllers
 
             var viewModel = SearchView(new SearchOptions
             {
-                q = "*",
+                q = "",
                 // initialize searchFacets to empty array to avoid null reference errors
                 searchFacets = new SearchFacet[0],
                 currentPage = 1,
@@ -141,7 +141,7 @@ namespace CognitiveSearch.UI.Controllers
 
         }
 
-        public IActionResult Search([FromQuery]string q = "*", [FromQuery]string facets = "", [FromQuery]int page = 1, [FromQuery]string queryType = "Full")
+        public IActionResult Search([FromQuery]string q = "", [FromQuery]string facets = "", [FromQuery]int page = 1, [FromQuery]string queryType = "Full")
         {
             // Split the facets.
             //  Expected format: &facets=key1_val1,key1_val2,key2_val1
@@ -189,7 +189,7 @@ namespace CognitiveSearch.UI.Controllers
         public SearchResultViewModel SearchView([FromForm] SearchOptions searchParams)
         {
             if (searchParams.q == null)
-                searchParams.q = "*";
+                searchParams.q = "";
             if (searchParams.searchFacets == null)
                 searchParams.searchFacets = new SearchFacet[0];
             if (searchParams.currentPage == 0)
