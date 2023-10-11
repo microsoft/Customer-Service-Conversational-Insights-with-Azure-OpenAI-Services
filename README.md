@@ -7,7 +7,7 @@ MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-start
 
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
-post-call center transcripts for intelligent call center scenarios. It
+post-contact center transcripts for intelligent contact center scenarios. It
 shows how raw transcripts are converted into simplified customer call
 summaries to extract valuable insights around product and service
 performance.
@@ -19,21 +19,21 @@ employees\' conversations.
 **Key Features:**
 
 Azure Cognitive Search Service and Azure OpenAI Service drive huge cost
-saving in call center operations while improving call center efficiency
+saving in contact center operations while improving contact center efficiency
 & customer satisfaction. Post-call insights inform actions, leading to
 better customer experiences, increased satisfaction, and improved
 staffing allocation for maximum efficiency.
 
-- Conversation Summarization and Key Phrase Extraction: Summarize long conversations into a short paragraph and pull out key phrases that are relevant to the conversation.
-- Batch speech-to-text using Azure Speech: Transcribe large amounts of audio files asynchronously including speaker diarizationand is typically used in post-call analytics scenarios. Diarizationis the process of recognizing and separating speakers in mono channel audio data.
-- Sensitive information extraction and redaction: Identify, categorize, and redact sensitive information in conversation transcription.
-- Sentiment analysis and opinion mining: Analyze transcriptions and associate positive, neutral, or negative sentiment at the utterance and conversation-level.
+- **Conversation Summarization and Key Phrase Extraction:** Summarize long conversations into a short paragraph and pull out key phrases that are relevant to the conversation.
+- **Batch speech-to-text using Azure Speech:** Transcribe large amounts of audio files asynchronously including speaker diarizationand is typically used in post-call analytics scenarios. Diarizationis the process of recognizing and separating speakers in mono channel audio data.
+- **Sensitive information extraction and redaction:** Identify, categorize, and redact sensitive information in conversation transcription.
+- **Sentiment analysis and opinion mining:** Analyze transcriptions and associate positive, neutral, or negative sentiment at the utterance and conversation-level.
 
-**Below are image stills from the accelerator.**\
+**Below are image stills from the accelerator:**\
 \
 ![image](/images/readMe/image2.png)
 
-You can view a live demo of the accelerator [here](https://conversational-knowledge-mining.azurewebsites.net/).
+You can view a live demo of the accelerator **[here](https://conversational-knowledge-mining.azurewebsites.net/).**
 
 ## Getting Started
 
