@@ -105,6 +105,12 @@ We have a special behavior if you have a field called *translated_text*. The UI 
   4. On first launch on local host type thisissafe on keyboard anywhere on the page               
         ![image](/images/Troubleshooting/image2.png)
 
+ ## 5. How do I deploy my local changes?
+  1. To automatically deploy changes when pushing to GitHub you must enable GitHub actions
+  2. Create a container registry in Azure
+  3. Store your container credentials in GitHub secrets 
+  4. You now should be able to utilize docker-image-web-ui.yml workflow to deploy recent changes to master branch
+
 ### Key Files
 
 Much of the UI is rendered dynamically by javascript. Some important files to know when making changes to the UI are:
