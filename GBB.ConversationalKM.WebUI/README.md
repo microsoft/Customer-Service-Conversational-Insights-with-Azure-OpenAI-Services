@@ -109,7 +109,7 @@ We have a special behavior if you have a field called *translated_text*. The UI 
   1. To automatically deploy changes when pushing to GitHub you must enable GitHub actions
   2. Create a container registry in Azure
   3. Store your container credentials in GitHub secrets 
-  4. You now should be able to utilize docker-image-web-ui.yml workflow to deploy recent changes to master branch
+  4. You now should be able to utilize docker-image-web-ui.yml workflow to deploy recent master branch changes to your container
 
 ### Key Files
 
