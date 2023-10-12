@@ -20,11 +20,9 @@ employees\' conversations.
 
 **Key Features:**
 
-Azure Cognitive Search Service and Azure OpenAI Service drive huge cost
-saving in contact center operations while improving contact center efficiency
-& customer satisfaction. Post-call insights inform actions, leading to
-better customer experiences, increased satisfaction, and improved
-staffing allocation for maximum efficiency.
+Azure Cognitive Search and Azure OpenAI can enable new and 
+innovative ways to run contact center operations. Post call insights 
+can inform data driven actions to drive decisions around staffing and operations.
 
 - **Conversation Summarization and Key Phrase Extraction:** Summarize long conversations into a short paragraph and pull out key phrases that are relevant to the conversation.
 - **Batch speech-to-text using Azure Speech:** Transcribe large amounts of audio files asynchronously including speaker diarization and is typically used in post-call analytics scenarios. Diarizations the process of recognizing and separating speakers in mono channel audio data.
