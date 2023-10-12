@@ -1,6 +1,6 @@
 # Conversation Knowledge Mining
 
-MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**DEPLOY ACCELERATOR**](#accelerator-deployment) \|
+MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**DEPLOY**](#accelerator-deployment) \|
 [**HOW TO USE**](#how-to-use-the-tool) \| [**TROUBLESHOOTING**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
 
 ## Use Case Overview
@@ -15,6 +15,8 @@ performance.
 This accelerator allows customers to quickly deploy an integrated
 platform and immediately start extracting insights from customer or
 employees\' conversations.
+
+## [To view a live demo of the accelerator [click here]](https://conversational-knowledge-mining.azurewebsites.net/)
 
 **Key Features:**
 
@@ -32,8 +34,6 @@ staffing allocation for maximum efficiency.
 **Below is an image still from the accelerator.**\
 \
 ![image](/images/readMe/image2.png)
-
-You can view a live demo of the accelerator **[here](https://conversational-knowledge-mining.azurewebsites.net/).**
 
 ## Getting Started
 
