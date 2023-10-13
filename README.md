@@ -254,7 +254,7 @@ will need to upload your data files in the correct format (instructions availabl
     map\' button. Here you will choose a Facet and number of nodes and
     be able to view the relationships between the phrases.
 
-### How to make updates to the UI
+### How to customize the UI
 
 Using the options on the customize page, you can upload your own logo
 and set the background and text colors for the navigation bar. For
