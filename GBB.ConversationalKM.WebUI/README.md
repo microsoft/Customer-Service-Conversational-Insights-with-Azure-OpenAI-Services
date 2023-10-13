@@ -5,7 +5,7 @@ The Cognitive Search Template contains a .NET Core MVC Web app used as a Templat
 
 In just a few steps, you can configure this template UI to query your search index. This template will render a web page similar to the following:
 
-![web user interface](../images/WebUI.jpg)
+![web user interface](/images/readMe/image2.png)
 
 ## Prerequisites
 
@@ -38,9 +38,10 @@ This file contains a mix of required and optional fields described below.
 4. **SearchIndexerName** - The name of your Azure Cognitive Search indexer
 5. **StorageAccountName** - The name of your Azure Blob Storage Account
 6. **StorageAccountKey** - The key for your Azure Blob Storage Account
-7. **StorageContainerAddress** - The URL to the storage container where your documents are stored. This should be in the following format: *https://*storageaccountname*.blob.core.windows.net/*containername**
-8. **KeyField** - They key field for your search index. This should be set to the field specified as a key document Id in the index. By default this is *metadata_storage_path*.
-9. **IsPathBase64Encoded** - By default, metadata_storage_path is the key, and it gets base64 encoded so this is set to true by default. If your key is not encoded, set this to false.
+7. **StorageContainerAddress** - The URL to the storage container where your audio files are stored. This should be in the following format: *https://*storageaccountname*.blob.core.windows.net/*containername**
+8. **StorageContainerAddress2** - The URL to the storage container where your documents are stored. This should be in the following format: *https://*storageaccountname*.blob.core.windows.net/*containername**
+9. **KeyField** - They key field for your search index. This should be set to the field specified as a key document Id in the index. By default this is *metadata_storage_path*.
+10. **IsPathBase64Encoded** - By default, metadata_storage_path is the key, and it gets base64 encoded so this is set to true by default. If your key is not encoded, set this to false.
 
 ### Optional Fields
 
@@ -51,7 +52,6 @@ While some fields are optional, we recommend not removing them from *appsettings
   "InstrumentationKey": "",
 
   // Optional container addresses if using more than one indexer:
-  "StorageContainerAddress2": "https://{storage-account-name}.blob.core.windows.net/{container-name}",
   "StorageContainerAddress3": "https://{storage-account-name}.blob.core.windows.net/{container-name}",
 
   // Optional key to an Azure Maps account if you would like to display the geoLocation field in a map
@@ -72,7 +72,6 @@ While some fields are optional, we recommend not removing them from *appsettings
 1. **InstrumentationKey** - Optional instumentation key for Application Insights. The instrumentation key connects the web app to Application Inisghts in order to populate the Power BI reports.
 2. **StorageContainerAddress2** & **StorageContainerAddress3** - Optional container addresses if using more than one indexer
 3. **AzureMapsSubscriptionKey** - You have the option to provide an Azure Maps account if you would like to display a geographic point in a map in the document details. The code expects a field called *geolocation* of type Edm.GeographyPoint. If your wish to change this behavior (for instance if you would like to use a different field), you can modify details.js.
-![geolocation](../images/geolocation.png)
 4. **GraphFacet** - The GraphFacet is used for generating the relationship graph. This can now be edited in the UI.
 5. **Customizable** - Determines if user is allowed to *customize* the web app. Customizations include uploading documents and changing the colors/logo of the web app. **OrganizationName**,  **OrganizationLogo**, and **OrganizationWebSiteUrl** are additional fields that also allow you to do light customization.
 
@@ -81,8 +80,6 @@ While some fields are optional, we recommend not removing them from *appsettings
 At this point, your web app is configured and is ready to run. By default, all facets, tags, and fields will be used in the UI.
 
 If you would like to further customize the UI, you can update the following fields in *Search\SearchModel.cs*. You can select the filters that you are able to facet on, the tags shown with the results, as well as the fields returned by the search.
-
-![searchmodel](../images/SearchModel.png)
 
 **Facets** - Defines which facetable fields will show up as selectable filters in the UI. By default all facetable fields are included.
 
@@ -96,7 +93,23 @@ This template serves as a great baseline for a Cognitive Search solution, howeve
 
 We have a special behavior if you have a field called *translated_text*. The UI will automatically show the original text and the translated text in the UI. This can be handy. If you would like to change this behavior (disable it, or change the name of the field), you can do that at details.js (GetTranscriptHTML method).
 
-![geolocation](../images/translated.png)
+ ## 4. How do I run this locally?
+  1. To run the UI locally you must install .NET Core 3.1 (NOTE: this
+        is not the latest version and must be installed explicitly)
+
+  2. Open the GBB.ConversationalKM.sln file in Visual Studio
+
+  3. Click the play button with IIS
+        Express![image](/images/Troubleshooting/image.png)
+
+  4. On first launch on local host type thisissafe on keyboard anywhere on the page               
+        ![image](/images/Troubleshooting/image2.png)
+
+ ## 5. How do I deploy my local changes?
+  1. To automatically deploy changes when pushing to GitHub you must enable GitHub actions
+  2. Create a container registry in Azure
+  3. Store your container credentials in GitHub secrets 
+  4. You now should be able to utilize docker-image-web-ui.yml workflow to deploy recent master branch changes to your container
 
 ### Key Files
 
