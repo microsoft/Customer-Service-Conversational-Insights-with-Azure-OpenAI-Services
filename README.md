@@ -290,6 +290,6 @@ Click save to apply the updates.
 
 -   [Updating the UI](GBB.ConversationalKM.WebUI)
 
--   [Future Extensibility](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md)
+-   [Future Extensibility](Extensibility.md)
 
 -   [Troubleshooting](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
