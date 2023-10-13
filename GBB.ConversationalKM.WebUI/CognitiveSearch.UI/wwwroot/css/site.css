@@ -584,11 +584,13 @@ pre {
     color: #717171;
     margin-top: 3px;
     margin-left: 15px;
+    text-wrap: nowrap;
 }
 
 .result-item-text div {
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
 }
 
 #transcript-search-box {
