@@ -284,7 +284,7 @@ Click save to apply the updates.
 **More Documentation**
 
 -   [Solution
-    Architecture](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/SolutionArchitecture.md)
+    Architecture](SolutionArchitecture.md)
 
 -   [Resource Group Walkthrough](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/SolutionArchitecture.md#resource-group-walkthrough)
 
