@@ -292,4 +292,4 @@ Click save to apply the updates.
 
 -   [Future Extensibility](Extensibility.md)
 
--   [Troubleshooting](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
+-   [Troubleshooting](Troubleshooting.md)
