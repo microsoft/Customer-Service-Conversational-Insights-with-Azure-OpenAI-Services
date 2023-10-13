@@ -286,7 +286,7 @@ Click save to apply the updates.
 -   [Solution
     Architecture](SolutionArchitecture.md)
 
--   [Resource Group Walkthrough](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/SolutionArchitecture.md#resource-group-walkthrough)
+-   [Resource Group Walkthrough](SolutionArchitecture.md#resource-group-walkthrough)
 
 -   [Updating the UI](GBB.ConversationalKM.WebUI)
 
