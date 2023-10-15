@@ -91,6 +91,74 @@
             <a asp-action="Customize" asp-controller="Admin"> Customize</a>
         </div>
 
+        <div class="card-container" style="display:flex; flex-direction: row; justify-content:space-between;">
+            <fluent-card class="fluent-card-custom">
+
+                <div class="stats-rect pink-gradient">
+                    <h4>
+                        Average customer satisfaction
+                        <span class="card-container">
+                            <div class="stat-box">
+                                <h5>Satisfied Customers</h5>
+                                <span>@(Math.Round(Model.customerSatisfactionInsights.KeyInsightPercent1, 1))%</span>
+                            </div>
+                            <div class="stat-box">
+                                <h5>Unsatisfied Customers</h5>
+                                <span>@(Math.Round(Model.customerSatisfactionInsights.KeyInsightPercent2, 1))%</span>
+                            </div>
+                        </span>
+                    </h4>
+                </div>
+                <div class="stats-rect data">
+                    <fluent-data-grid id="complaintgrid">
+                        <fluent-data-grid-column column-name="Top 5 negative customer complaint trends"></fluent-data-grid-column>
+                        <fluent-data-grid-column column-name="More info"></fluent-data-grid-column>
+                    </fluent-data-grid>
+                    <script>
+                        document.getElementById("complaintgrid").rowsData = [
+                        @foreach (var item in Model.customerSatisfactionInsights.TopInsights)
+                        {
+                            @:{ "Top 5 negative customer complaint trends": "@item" },
+                        }
+                        ];
+                    </script>
+                </div>
+
+            </fluent-card>
+
+            <fluent-card class="fluent-card-custom">
+                <div class="stats-rect blue-gradient">
+                    <h4>
+                        Average close rate
+                        <span class="card-container">
+                            <div class="stat-box">
+                                <h5>All regions</h5>
+                                <span>@(Math.Round(Model.avgCloseRateInsights.KeyInsightPercent1, 1))</span>
+                            </div>
+                            <div class="stat-box">
+                                <h5>Top region</h5>
+                                <span>@(Math.Round(Model.avgCloseRateInsights.KeyInsightPercent2, 1))</span>
+                            </div>
+                        </span>
+                    </h4>
+                </div>
+
+                <div class="stats-rect data">
+                    <fluent-data-grid id="repgrid">
+                        <fluent-data-grid-column column-name="Top 5 customer satisfaction trends"></fluent-data-grid-column>
+                        <fluent-data-grid-column column-name="More info"></fluent-data-grid-column>
+                    </fluent-data-grid>
+                    <script>
+                        document.getElementById("repgrid").rowsData = [
+                        @foreach (var item in Model.avgCloseRateInsights.TopInsights)
+                        {
+                            @:{ "Top 5 customer satisfaction trends": "@(item)" },
+                        }                            
+                        ];
+                    </script>
+                </div>
+            </fluent-card>
+        </div>
 
         <div class="card-container">
 
@@ -113,6 +181,7 @@
         </div>
     </div>
 </div>
+
 
 <div id="entity-map" style="display:none">
     <div id="results-container" class="row content-results">

@@ -1,13 +1,14 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-using Azure.Data.Tables;
 using Azure.Search.Documents.Models;
 using CognitiveSearch.UI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics;
 using System.Linq;
 
@@ -15,19 +16,17 @@ namespace CognitiveSearch.UI.Controllers
 {
     public class HomeController : Controller
     {
-        private TableServiceClient serviceClient;
-
         private IConfiguration _configuration { get; set; }
         private DocumentSearchClient _docSearch { get; set; }
 
-        private TableService _tableService { get; set; }
+        private DbService _dbService { get; set; }
         private string _configurationError { get; set; }
 
         public HomeController(IConfiguration configuration)
         {
             _configuration = configuration;
             InitializeDocSearch();
-            //InitializeTableService();
+            InitializeDbService();
         }
 
         private void InitializeDocSearch()
@@ -57,7 +56,7 @@ namespace CognitiveSearch.UI.Controllers
         public IActionResult Index()
         {
             CheckDocSearchInitialized();
-            //CheckTableServiceInitialized();
+            CheckDbServiceInitialized();
 
             var viewModel = SearchView(new SearchOptions
             {
@@ -71,11 +70,11 @@ namespace CognitiveSearch.UI.Controllers
             return View("Search", viewModel);
         }
 
-        private void InitializeTableService()
+        private void InitializeDbService()
         {
             try
             {
-                _tableService = new TableService(_configuration);
+                _dbService = new DbService(_configuration);
             }
             catch (Exception e)
             {
@@ -83,9 +82,9 @@ namespace CognitiveSearch.UI.Controllers
             }
         }
 
-        public bool CheckTableServiceInitialized()
+        public bool CheckDbServiceInitialized()
         {
-            if (_tableService == null)
+            if (_dbService == null)
             {
                 ViewBag.Style = "alert-warning";
                 ViewBag.Message = _configurationError;
@@ -95,47 +94,7 @@ namespace CognitiveSearch.UI.Controllers
             return true;
         }
 
-        public CustomerSatisfactionTableViewModel CustomerSatisfactionTable()
-        {
-
-            var tableResult = _tableService.GetSatisfactionTableData("customersatisfactiontable", "1", "1");
-            var viewModel = new CustomerSatisfactionTableViewModel
-            {
-                RowKey = tableResult.RowKey,
-                PartitionKey = tableResult.PartitionKey,
-                SatisfiedCustomers = tableResult.SatisfiedCustomers,
-                UnSatisfiedCustomers = tableResult.UnSatisfiedCustomers,
-                Complaint1 = tableResult.Complaint1,
-                Complaint2 = tableResult.Complaint2,
-                Complaint3 = tableResult.Complaint3,
-                Complaint4 = tableResult.Complaint4,
-                Complaint5 = tableResult.Complaint5
-            };
-
-            return viewModel;
-        }
-
-        public AvgCloseRateTableViewModel AvgCloseRateTable()
-        {
-
-            var tableRes = _tableService.GetAvgCloseRateTableData("avgcloseratetable", "1", "1");
-            var viewModel = new AvgCloseRateTableViewModel
-            {
-                RowKey = tableRes.RowKey,
-                PartitionKey = tableRes.PartitionKey,
-                AllRegions = tableRes.AllRegions,
-                TopRegions = tableRes.TopRegions,
-                SatisfactionTrend1 = tableRes.SatisfactionTrend1,
-                SatisfactionTrend2 = tableRes.SatisfactionTrend2,
-                SatisfactionTrend3 = tableRes.SatisfactionTrend3,
-                SatisfactionTrend4 = tableRes.SatisfactionTrend4,
-                SatisfactionTrend5 = tableRes.SatisfactionTrend5
-            };
-            return viewModel;
-        }
-
-
-        public IActionResult Error()
+    public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 
@@ -212,9 +171,9 @@ namespace CognitiveSearch.UI.Controllers
                 indexName = _configuration.GetSection("SearchIndexName")?.Value,
                 facetableFields = _docSearch.Model.Facets.Select(k => k.Name).ToArray(),
                 answer = "",
-                semanticEnabled = !String.IsNullOrEmpty(_configuration.GetSection("SemanticConfiguration")?.Value)
-                //customerSatisfactionTableResult = CustomerSatisfactionTable(),
-                //avgCloseRateTableResult = AvgCloseRateTable()
+                semanticEnabled = !String.IsNullOrEmpty(_configuration.GetSection("SemanticConfiguration")?.Value),
+                customerSatisfactionInsights = _dbService.GetSatisfactionInsights(5),
+                avgCloseRateInsights = _dbService.GetAvgCloseRateInsights(5)
             };
             viewModel.answer = viewModel.documentResult.Answer;
             viewModel.captions = viewModel.documentResult.Captions;
