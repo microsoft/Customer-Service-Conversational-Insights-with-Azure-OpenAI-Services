@@ -200,7 +200,7 @@ function UpdateMap(data) {
 function UpdateResults(data, answer) {
     var resultsHtml = '';
 
-    $("#doc-count").html(`<h4>Call summaries</h4> Showing ${data.results.length} of ${data.count} results`);
+    $("#doc-count").html(`<div id="results-title"><h4>Call summaries</h4><div id="disclaimer">AI-generated content may be incorrect</div></div>Showing ${data.results.length} of ${data.count} results`);
 
     if (data.answer !== undefined && data.answer !== null) {
 
