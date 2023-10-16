@@ -230,7 +230,8 @@ will need to upload your data files in the correct format (instructions availabl
 
     -   Files can also be uploaded directly to the blob storage. Audio
         files should be uploaded to the audio-input folder, JSON files
-        should be uploaded to the conversationkm-full folder in this [format](ConversationalDataFormat.md).
+        should be uploaded to the conversationkm-full folder. When uploading
+        please follow this [format](ConversationalDataFormat.md).
 
     -   If 10 minutes have passed and you still do not see results,
         empty your cache and do a hard refresh on your browser.
