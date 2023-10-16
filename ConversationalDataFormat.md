@@ -11,7 +11,10 @@
             "Value": "I need to book a flight to find my last Pokemon. I would need to leave from Montreal and go to Hiroshima. I will also need to leave on August 19th. Im with 4 other adults as well.",
             "UserId": "U2709166N",
             "CustomProperties": {
-               "any_property" : "any_value"
+               "offset": "",
+                "duration": "",
+                "offsetInTicks": 0,
+                "durationInTicks": 0
             }
         },
         {
