@@ -211,6 +211,21 @@ h1, h2, h3, h4, h5 {
     color: #4A4A4A;
 }
 
+#results-title {
+    display: flex;
+    align-items: flex-start;
+}
+
+#disclaimer {
+    display: inline-block;
+    font-size: 10pt;
+    color: #797775;
+    border: 2px solid #797775;
+    border-radius: 7pt;
+    padding: 5px;
+    margin-left: 15px;
+}
+
 .highlight {
     background-color: rgb(160, 197, 232);
     padding: 0 2px;
