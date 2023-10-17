@@ -101,11 +101,11 @@
                         <span class="card-container">
                             <div class="stat-box">
                                 <h5>Satisfied Customers</h5>
-                                <span>@(Math.Round(Model.customerSatisfactionInsights.KeyInsightPercent1, 1))%</span>
+                                <span>@Model.customerSatisfactionInsights.KeyInsight1</span>
                             </div>
                             <div class="stat-box">
                                 <h5>Unsatisfied Customers</h5>
-                                <span>@(Math.Round(Model.customerSatisfactionInsights.KeyInsightPercent2, 1))%</span>
+                                <span>@Model.customerSatisfactionInsights.KeyInsight2</span>
                             </div>
                         </span>
                     </h4>
@@ -130,15 +130,15 @@
             <fluent-card class="fluent-card-custom">
                 <div class="stats-rect blue-gradient">
                     <h4>
-                        Average close rate
+                        Top discussed cities
                         <span class="card-container">
                             <div class="stat-box">
-                                <h5>All regions</h5>
-                                <span>@(Math.Round(Model.avgCloseRateInsights.KeyInsightPercent1, 1))%</span>
+                                <h5>Origin city</h5>
+                                <span>@Model.avgCloseRateInsights.KeyInsight1</span>
                             </div>
                             <div class="stat-box">
-                                <h5>Top region</h5>
-                                <span>@(Math.Round(Model.avgCloseRateInsights.KeyInsightPercent2, 1))%</span>
+                                <h5>Destination city</h5>
+                                <span>@Model.avgCloseRateInsights.KeyInsight2</span>
                             </div>
                         </span>
                     </h4>

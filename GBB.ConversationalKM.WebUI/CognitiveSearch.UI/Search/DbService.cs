@@ -33,11 +33,6 @@ namespace CognitiveSearch.UI
                 sqlDatabase = _configuration.GetSection("SqlDatabase")?.Value;
                 sqlUser = _configuration.GetSection("SqlUser")?.Value;
                 sqlPassword = _configuration.GetSection("SqlPassword")?.Value;
-
-
-
-
-
             }
             catch (Exception ex)
             {
@@ -63,8 +58,8 @@ namespace CognitiveSearch.UI
                     var satisfied = Convert.ToDouble(keyInsightReader["Satisfied"]);
                     var unsatisfied = Convert.ToDouble(keyInsightReader["Unsatisfied"]);
 
-                    viewModel.KeyInsightPercent1 = satisfied / totalCount * 100;
-                    viewModel.KeyInsightPercent2 = unsatisfied / totalCount * 100;
+                    viewModel.KeyInsight1 = Math.Round(satisfied / totalCount * 100, 1) + "%";
+                    viewModel.KeyInsight2 = Math.Round(unsatisfied / totalCount * 100, 1) + "%";
                 }
             }
 
@@ -87,26 +82,50 @@ namespace CognitiveSearch.UI
             return viewModel;
         }
 
-        public AggregateInsightViewModel GetAvgCloseRateInsights(int numberOfTopInsights)
+        public AggregateInsightViewModel GetTopCityInsights(int numberOfTopInsights)
         {
             var viewModel = new AggregateInsightViewModel();
 
-            // query for top percentages
+            // query for top origin city
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
 
-                SqlCommand cmdKey = new SqlCommand("SELECT COUNT(*) AS TotalCount, SUM(CASE WHEN Satisfied = 'yes' THEN 1 ELSE 0 END) AS Satisfied, SUM(CASE WHEN Satisfied = 'no' THEN 1 ELSE 0 END) AS Unsatisfied FROM ConversationIndexData", conn);
+                SqlCommand cmdKey = new SqlCommand("SELECT TOP 1 OriginCity, 'TotalCount'=count(*) FROM ConversationIndexData WHERE OriginCity NOT IN ('','None','N/A','Not mentioned','Unknown') GROUP BY OriginCity ORDER BY count(*) DESC", conn);
                 var keyInsightReader = cmdKey.ExecuteReader();
 
                 while (keyInsightReader.Read())
                 {
-                    var totalCount = Convert.ToDouble(keyInsightReader["TotalCount"]);
-                    var satisfied = Convert.ToDouble(keyInsightReader["Satisfied"]);
-                    var unsatisfied = Convert.ToDouble(keyInsightReader["Unsatisfied"]);
+                    try
+                    {
+                        viewModel.KeyInsight2 = Convert.ToString(keyInsightReader["OriginCity"]);
+                    }
+                    catch (Exception ex)
+                    {
+                        viewModel.KeyInsight1 = "No value";
+                    }
+                }
+            }
 
-                    viewModel.KeyInsightPercent1 = 0; // satisfied / totalCount * 100;
-                    viewModel.KeyInsightPercent2 = 0; // unsatisfied / totalCount * 100;
+            // query for top destination city
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+
+                SqlCommand cmdKey = new SqlCommand("SELECT TOP 1 DestinationCity, 'TotalCount'=count(*) FROM ConversationIndexData WHERE DestinationCity NOT IN ('','None','N/A','Not mentioned','Unknown') GROUP BY DestinationCity ORDER BY count(*) DESC", conn);
+                var keyInsightReader = cmdKey.ExecuteReader();
+
+                while (keyInsightReader.Read())
+                {
+                    try
+                    {
+                        viewModel.KeyInsight1 = Convert.ToString(keyInsightReader["DestinationCity"]);
+                    }
+                    catch (Exception ex)
+                    {
+                        viewModel.KeyInsight2 = "No value";
+                    }
+
                 }
             }
 

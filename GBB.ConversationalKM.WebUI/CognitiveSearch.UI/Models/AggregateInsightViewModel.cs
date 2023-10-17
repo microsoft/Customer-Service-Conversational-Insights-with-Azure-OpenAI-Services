@@ -6,8 +6,8 @@ namespace CognitiveSearch.UI.Models
 {
     public class AggregateInsightViewModel 
     {
-        public double KeyInsightPercent1 { get; set; }
-        public double KeyInsightPercent2 { get; set; }
+        public string KeyInsight1 { get; set; }
+        public string KeyInsight2 { get; set; }
 
         public List<string> TopInsights { get; set; }
 

@@ -173,7 +173,7 @@ namespace CognitiveSearch.UI.Controllers
                 answer = "",
                 semanticEnabled = !String.IsNullOrEmpty(_configuration.GetSection("SemanticConfiguration")?.Value),
                 customerSatisfactionInsights = _dbService.GetSatisfactionInsights(5),
-                avgCloseRateInsights = _dbService.GetAvgCloseRateInsights(5)
+                avgCloseRateInsights = _dbService.GetTopCityInsights(5)
             };
             viewModel.answer = viewModel.documentResult.Answer;
             viewModel.captions = viewModel.documentResult.Captions;
