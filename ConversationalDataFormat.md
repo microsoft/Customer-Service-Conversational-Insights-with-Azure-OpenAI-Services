@@ -7,6 +7,7 @@ We have seen successful transcription of files up to 15MB in size but some very 
 
 
 ### JSON File Format
+Contact center conversations may be uploaded directly as text provided they are in the proper JSON file format. Below is a sample structure of an abbreviated conversation file. Each sentence or phrase is an individual node followed by summary information for the entire call. These format conversation files are smaller size, less costly to process, and faster to process.
 ```json
 {
    "ConversationId":"190d77d6-6227-49bd-8eec-da8ebfb37d4a",
