@@ -1,9 +1,9 @@
 # Conversation Knowledge Mining
 
-MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**DEPLOY**](#accelerator-deployment) \|
-[**HOW TO USE**](#how-to-use-the-tool) \| [**TROUBLESHOOTING**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
+MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started)  \| [**DEPLOY**](#accelerator-deployment) \|
+[**HOW TO USE**](#how-to-use-the-tool) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**TROUBLESHOOTING**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
 
-## Use Case Overview
+## Overview
 
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
@@ -59,7 +59,7 @@ These requirements must be met before the accelerator is installed.
 -   The user deploying the template must have permission to create
     resources and resource groups.
 
-## Accelerator Deployment
+## Deploy
 To deploy the accelerator select the following button:
 <br>
 <br>
@@ -213,7 +213,7 @@ Please be sure to set up both parameters accordingly to your entities name.
 
 You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
 
-## How to use the tool
+## How to use
 
 Launch the application by navigating to your Azure resource group,
 choosing the app service resource, and clicking on the default domain.
@@ -282,7 +282,7 @@ documentation.
 
 Click save to apply the updates.
 
-**More Documentation**
+**More Info**
 
 -   [Solution
     Architecture](SolutionArchitecture.md)
