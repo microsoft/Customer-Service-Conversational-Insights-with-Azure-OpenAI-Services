@@ -1,7 +1,7 @@
 # Conversation Knowledge Mining
 
 MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started)  \| [**DEPLOY**](#accelerator-deployment) \|
-[**HOW TO USE**](#how-to-use-the-tool) \| [**EXTENSIBILITY**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Extensibility.md) \| [**TROUBLESHOOTING**](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/readMe-updates/Troubleshooting.md)
+[**HOW TO USE**](#how-to-use-the-tool) \| [**EXTENSIBILITY**](#extensibility) \| [**TROUBLESHOOTING**](#troubleshooting) \| [**MORE INFO**](#more-info)
 
 ## Overview
 
@@ -18,7 +18,7 @@ employees\' conversations.
 
 ## [To view a live demo of the accelerator [click here]](https://conversational-knowledge-mining.azurewebsites.net/)
 
-**Key Features:**
+**Key features:**
 
 Azure Cognitive Search and Azure OpenAI can enable new and 
 innovative ways to run contact center operations. Post call insights 
@@ -33,7 +33,7 @@ can inform data driven actions to drive decisions around staffing and operations
 \
 ![image](/images/readMe/image2.png)
 
-## Getting Started
+## Getting started
 
 ### Prerequisites
 
@@ -76,7 +76,7 @@ Please check here for detailed parameters explanations: [Getting started with th
 
 Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-openai-prompt)
 
-### Accelerator Architecture
+### Accelerator architecture
 ![image](/images/readMe/image4.png)
 
 ### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
@@ -108,7 +108,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 
 
-### Azure Cognitive Search - Enabling Semantic Search (Optional)
+### Azure Cognitive Search - enabling Semantic Search (Optional)
 
 <details><summary>Click to see detailed steps for Enabling Semantic Search </summary>
 &nbsp;<br/>
@@ -282,7 +282,15 @@ documentation.
 
 Click save to apply the updates.
 
-**More Info**
+## Extensibility
+
+-   [Future Extensibility](Extensibility.md)
+
+## Troubleshooting
+
+-   [Troubleshooting](Troubleshooting.md)
+
+## More info
 
 -   [Solution
     Architecture](SolutionArchitecture.md)
@@ -290,7 +298,5 @@ Click save to apply the updates.
 -   [Resource Group Walkthrough](SolutionArchitecture.md#resource-group-walkthrough)
 
 -   [Updating the UI](GBB.ConversationalKM.WebUI)
-
--   [Future Extensibility](Extensibility.md)
 
 -   [Troubleshooting](Troubleshooting.md)
