@@ -298,5 +298,3 @@ Click save to apply the updates.
 -   [Resource Group Walkthrough](SolutionArchitecture.md#resource-group-walkthrough)
 
 -   [Updating the UI](GBB.ConversationalKM.WebUI)
-
--   [Troubleshooting](Troubleshooting.md)
