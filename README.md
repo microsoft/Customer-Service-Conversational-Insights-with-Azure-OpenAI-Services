@@ -1,7 +1,7 @@
 # Conversation Knowledge Mining
 
-MENU: [**OVERVIEW**](#use-case-overview) \| [**GETTING STARTED**](#getting-started)  \| [**DEPLOY**](#accelerator-deployment) \|
-[**HOW TO USE**](#how-to-use-the-tool) \| [**EXTENSIBILITY**](#extensibility) \| [**TROUBLESHOOTING**](#troubleshooting) \| [**MORE INFO**](#more-info)
+MENU: [**OVERVIEW**](#overview) \| [**GETTING STARTED**](#getting-started)  \| [**DEPLOY**](#deploy) \|
+[**HOW TO USE**](#how-to-use) \| [**EXTENSIBILITY**](#extensibility) \| [**TROUBLESHOOTING**](#troubleshooting) \| [**MORE INFO**](#more-info)
 
 ## Overview
 
