@@ -222,8 +222,12 @@ h1, h2, h3, h4, h5 {
     color: #797775;
     border: 2px solid #797775;
     border-radius: 7pt;
-    padding: 5px;
+    padding: 5px 9px;
     margin-left: 15px;
+    line-height: 11pt;
+    font-weight: normal;
+    position: relative;
+    bottom: -6px;
 }
 
 .highlight {
