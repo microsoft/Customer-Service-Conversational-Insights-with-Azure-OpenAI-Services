@@ -28,8 +28,8 @@ namespace CognitiveSearch.UI.Models
 
         public bool semanticEnabled { get; set; }
 
-        public AggregateInsightViewModel customerSatisfactionInsights { get; set; }
+        public AggregateInsightViewModel Insight1 { get; set; }
 
-        public AggregateInsightViewModel avgCloseRateInsights { get; set; }
+        public AggregateInsightViewModel Insight2 { get; set; }
     }
 }

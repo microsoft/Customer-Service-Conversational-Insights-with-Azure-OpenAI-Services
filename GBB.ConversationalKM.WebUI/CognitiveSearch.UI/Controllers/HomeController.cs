@@ -19,14 +19,12 @@ namespace CognitiveSearch.UI.Controllers
         private IConfiguration _configuration { get; set; }
         private DocumentSearchClient _docSearch { get; set; }
 
-        private DbService _dbService { get; set; }
         private string _configurationError { get; set; }
 
         public HomeController(IConfiguration configuration)
         {
             _configuration = configuration;
             InitializeDocSearch();
-            InitializeDbService();
         }
 
         private void InitializeDocSearch()
@@ -53,10 +51,146 @@ namespace CognitiveSearch.UI.Controllers
             return true;
         }
 
+        private bool StringHasValue(string value)
+        {
+            var noValueMatches = new string[] { "n/a", "none", "", "not mentioned", "unknown", "no complaint", "no compliment" };
+            return !noValueMatches.Contains(value.ToLower());
+        }
+        public AggregateInsightViewModel GetCustomerSatisfactionInsights(DocumentResult documentResult)
+        {
+            var viewModel = new AggregateInsightViewModel();
+            var satisfiedCount = 0.0;
+            var unsatisfiedCount = 0.0;
+            var totalCount = 0.0;
+
+            // get satisfied values to determine percentage
+            try
+            {
+                // set the number of satisfied customers
+                var satisfied = documentResult.Facets
+                        .Where(x => x.key.ToLower() == "satisfied")
+                        .SelectMany(x => x.value)
+                        .Where(x => x.value.ToLower() == "yes")
+                        .Select(x=>x.count)
+                        .FirstOrDefault();
+
+                // calculate percentage by using total count from search
+                satisfiedCount = (double)satisfied.Value;
+               
+            } catch(Exception ex)
+            {
+                viewModel.KeyInsight1 = "n/a";
+            }
+
+            // get unsatisfied values to determine percentage
+            try
+            {
+                // set the number of unsatisfied customers
+                var unsatisfied = documentResult.Facets
+                        .Where(x => x.key.ToLower() == "satisfied")
+                        .SelectMany(x => x.value)
+                        .Where(x => x.value.ToLower() != "yes")
+                        .Select(x => x.count)
+                        .FirstOrDefault();
+
+                // calculate percentage by using total count from search
+
+                unsatisfiedCount = (double)unsatisfied.Value;
+
+            }
+            catch (Exception ex)
+            {
+                viewModel.KeyInsight2 = "n/a";
+            }
+
+            // calculate percentages and set values to display
+            if (satisfiedCount + unsatisfiedCount > 0)
+            {
+                totalCount = satisfiedCount + unsatisfiedCount;
+
+                viewModel.KeyInsight1 = Math.Round(satisfiedCount / totalCount * 100, 1) + "%";
+                viewModel.KeyInsight2 = Math.Round(unsatisfiedCount / totalCount * 100, 1) + "%";
+            }
+
+            // set the top compliments from the base search
+            try
+            {
+                viewModel.TopInsights = documentResult.Facets
+                    .Where(x => x.key.ToLower() == "compliment")
+                    .SelectMany(x => x.value)
+                    .Where(x => StringHasValue(x.value))
+                    .OrderByDescending(x => x.count)
+                    .Select(x => x.value)
+                    .Take(5)
+                    .ToList();
+            } catch(Exception e) {
+                viewModel.TopInsights.Add("n/a");
+            }
+            
+            
+            return viewModel;
+        }
+
+        public AggregateInsightViewModel GetCityInsights(DocumentResult documentResult)
+        {
+            var viewModel = new AggregateInsightViewModel();
+
+            // set the top origin city based on facet count
+            try
+            {
+                viewModel.KeyInsight1 = documentResult.Facets
+                    .Where(x => x.key.ToLower() == "origincity")
+                    .SelectMany(x => x.value)
+                    .Where(x => StringHasValue(x.value))
+                    .OrderByDescending(x => x.count)
+                    .Select(x => x.value)
+                    .Take(1)
+                    .FirstOrDefault();
+            }
+            catch (Exception ex) {
+                viewModel.KeyInsight1 = "n/a"; 
+            }
+
+            // set the top destination city based on facet count
+            try
+            {
+                viewModel.KeyInsight2 = documentResult.Facets
+                    .Where(x => x.key.ToLower() == "destinationcity")
+                    .SelectMany(x => x.value)
+                    .Where(x => StringHasValue(x.value))
+                    .OrderByDescending(x => x.count)
+                    .Select(x => x.value)
+                    .Take(1)
+                    .FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                viewModel.KeyInsight2 = "n/a";
+            }
+
+            // set the top compliments from the search
+            try
+            {
+                viewModel.TopInsights = documentResult.Facets
+                    .Where(x => x.key.ToLower() == "complaint")
+                    .SelectMany(x => x.value)
+                    .Where(x => StringHasValue(x.value))
+                    .OrderByDescending(x => x.count)
+                    .Select(x => x.value)
+                    .Take(5)
+                    .ToList();
+
+            }
+            catch (Exception e) {
+                viewModel.TopInsights.Add("n/a");
+            }
+
+            return viewModel;
+        }
+        
         public IActionResult Index()
         {
             CheckDocSearchInitialized();
-            CheckDbServiceInitialized();
 
             var viewModel = SearchView(new SearchOptions
             {
@@ -70,35 +204,11 @@ namespace CognitiveSearch.UI.Controllers
             return View("Search", viewModel);
         }
 
-        private void InitializeDbService()
-        {
-            try
+        public IActionResult Error()
             {
-                _dbService = new DbService(_configuration);
+                return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+
             }
-            catch (Exception e)
-            {
-                _configurationError = $"The application settings are possibly incorrect. The server responded with this message: " + e.Message.ToString();
-            }
-        }
-
-        public bool CheckDbServiceInitialized()
-        {
-            if (_dbService == null)
-            {
-                ViewBag.Style = "alert-warning";
-                ViewBag.Message = _configurationError;
-                return false;
-            }
-
-            return true;
-        }
-
-    public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-
-        }
 
         public IActionResult Search([FromQuery]string q = "", [FromQuery]string facets = "", [FromQuery]int page = 1, [FromQuery]string queryType = "Full")
         {
@@ -159,9 +269,13 @@ namespace CognitiveSearch.UI.Controllers
             if (CheckDocSearchInitialized())
                 searchidId = _docSearch.GetSearchId().ToString();
 
+            // build aggregate insights
+            var documentResult = _docSearch.GetDocuments(searchParams.q, searchParams.searchFacets, searchParams.currentPage, searchParams.polygonString, searchParams.startDate, searchParams.endDate, searchParams.queryType);
+            
+            
             var viewModel = new SearchResultViewModel
             {
-                documentResult = _docSearch.GetDocuments(searchParams.q, searchParams.searchFacets, searchParams.currentPage, searchParams.polygonString, searchParams.startDate, searchParams.endDate, searchParams.queryType),
+                documentResult = documentResult,
                 query = searchParams.q,
                 selectedFacets = searchParams.searchFacets,
                 currentPage = searchParams.currentPage,
@@ -172,8 +286,8 @@ namespace CognitiveSearch.UI.Controllers
                 facetableFields = _docSearch.Model.Facets.Select(k => k.Name).ToArray(),
                 answer = "",
                 semanticEnabled = !String.IsNullOrEmpty(_configuration.GetSection("SemanticConfiguration")?.Value),
-                customerSatisfactionInsights = _dbService.GetSatisfactionInsights(5),
-                avgCloseRateInsights = _dbService.GetTopCityInsights(5)
+                Insight1 = GetCustomerSatisfactionInsights(documentResult),
+                Insight2 = GetCityInsights(documentResult)
             };
             viewModel.answer = viewModel.documentResult.Answer;
             viewModel.captions = viewModel.documentResult.Captions;
