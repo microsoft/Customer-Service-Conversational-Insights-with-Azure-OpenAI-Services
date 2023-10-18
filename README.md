@@ -1,7 +1,7 @@
 # Conversation Knowledge Mining
 
 MENU: [**OVERVIEW**](#overview) \| [**GETTING STARTED**](#getting-started)  \| [**DEPLOY**](#deploy) \|
-[**HOW TO USE**](#how-to-use) \| [**EXTENSIBILITY**](#extensibility) \| [**TROUBLESHOOTING**](#troubleshooting) \| [**MORE INFO**](#more-info)
+[**HOW TO USE**](#how-to-use) \| [**TROUBLESHOOTING**](#troubleshooting) \| [**EXTENSIBILITY**](#extensibility) \| [**MORE INFO**](#more-info)
 
 ## Overview
 
@@ -282,13 +282,13 @@ documentation.
 
 Click save to apply the updates.
 
-## Extensibility
-
--   [Future Extensibility](Extensibility.md)
-
 ## Troubleshooting
 
 -   [Troubleshooting](Troubleshooting.md)
+  
+## Extensibility
+
+-   [Future Extensibility](Extensibility.md)
 
 ## More info
 
