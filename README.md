@@ -288,13 +288,13 @@ Click save to apply the updates.
   
 ## Extensibility
 
--   [Future Extensibility](Extensibility.md)
+-   [Future extensibility](Extensibility.md)
 
 ## More info
 
 -   [Solution
-    Architecture](SolutionArchitecture.md)
+    architecture](SolutionArchitecture.md)
 
--   [Resource Group Walkthrough](SolutionArchitecture.md#resource-group-walkthrough)
+-   [Resource group walkthrough](SolutionArchitecture.md#resource-group-walkthrough)
 
 -   [Updating the UI](GBB.ConversationalKM.WebUI)
