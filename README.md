@@ -189,7 +189,7 @@ Use the following steps to enable and configure semantic search:
     \
     ![image](/images/readMe/image10.png)
 
-If you plan to not utilize sementic search on the web UI, you can
+If you plan to not utilize Semantic Search on the web UI, you can
 remove the radio button from the search by updating the application
 setting "SemanticConfiguration" on the App Service \> Settings \>
 Configuration page to an empty string:
