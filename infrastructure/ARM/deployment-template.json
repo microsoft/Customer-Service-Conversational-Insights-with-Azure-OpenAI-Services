@@ -269,14 +269,14 @@
         },
         "OPENAI_PROMPT": {
             "type": "string",
-            "defaultValue": "You are a JSON formatter for extracting information out of a single chat conversation.\n\nSummarize the conversation, key: summary\nIs the customer satisfied with the agent interaction (Yes or No), key: satisfied\n\nAnswer in JSON machine-readable format, using the keys from above.\nPretty print the JSON and make sure that it is properly closed at the end and do not generate any other content.",
+            "defaultValue": "You are a JSON formatter for extracting information out of a single chat conversation. Summarize the conversation, key: summary . Is the customer satisfied with the agent interaction (Yes or No), key: satisfied . Identify the origin city of travel,key: OriginCity . Identify the destination city of travel,key : DestinationCity . Identify the single primary complaint of the conversation in 6 words or less,key: Complaint . Identify the single primary compliment of the conversation in 6 words or less,key: Compliment . Identify the name of hotel that was mentioned,key: Hotel . Identify the name of airline if mentioned,key: Airline . Identify the name of the agent,key: AgentName . Answer in JSON machine-readable format, using the keys from above. Pretty print the JSON and make sure that it is properly closed at the end and do not generate any other content.",
             "metadata": {
                 "description": "The prompt to use for the OpenAI API"
             }
         },
         "OPENAI_PROMPT_KEYS": {
             "type": "string",
-            "defaultValue": "summary:Edm.String:False,satisfied:Edm.String:True",
+            "defaultValue": "summary:Edm.String:False,satisfied:Edm.String:True,OriginCity:Edm.String:False,DestinationCity:Edm.String:False, Complaint:Edm.String:False, Compliment:Edm.String:False,Hotel:Edm.String:False,Airline:Edm.String:False,AgentName:Edm.String:False",
             "metadata": {
                 "description": "The prompt keys to use for the OpenAI API. Format: key,SearchType,Facetable e.g. key1:Edm.String:False,key2:Edm.String:True,key3:Edm.String:True"
             }
