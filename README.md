@@ -288,7 +288,7 @@ Click save to apply the updates.
   
 ## Extensibility
 
--   [Future extensibility](Extensibility.md)
+-   [Future extensibility documentation](Extensibility.md)
 
 ## More info
 
