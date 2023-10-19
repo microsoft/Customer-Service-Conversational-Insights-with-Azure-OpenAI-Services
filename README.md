@@ -284,7 +284,7 @@ Click save to apply the updates.
 
 ## Troubleshooting
 
--   [Troubleshooting](Troubleshooting.md)
+-   [Troubleshooting documentation](Troubleshooting.md)
   
 ## Extensibility
 
