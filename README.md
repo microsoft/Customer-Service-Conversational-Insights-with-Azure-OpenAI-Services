@@ -3,7 +3,9 @@
 MENU: [**OVERVIEW**](#overview) \| [**GETTING STARTED**](#getting-started)  \| [**DEPLOY**](#deploy) \|
 [**HOW TO USE**](#how-to-use) \| [**TROUBLESHOOTING**](#troubleshooting) \| [**EXTENSIBILITY**](#extensibility) \| [**MORE INFO**](#more-info)
 
-## Overview
+
+<h2><img src="/images/readMe/0332-backpack-l-standard-96x96.webp" width="64"><br/>Overview</h2>
+
 
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
