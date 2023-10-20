@@ -1063,6 +1063,7 @@ body {
     border-radius: calc(var(--layer-corner-radius) * 1px);
     background-image: none;
     background-color: #FFF;
+    white-space: nowrap;
 }
 
 /* Define a class for the fluent button */
