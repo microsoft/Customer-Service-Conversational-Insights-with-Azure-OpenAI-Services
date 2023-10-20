@@ -4,7 +4,10 @@ MENU: [**OVERVIEW**](#overview) \| [**GETTING STARTED**](#getting-started)  \| [
 [**HOW TO USE**](#how-to-use) \| [**TROUBLESHOOTING**](#troubleshooting) \| [**EXTENSIBILITY**](#extensibility) \| [**MORE INFO**](#more-info)
 
 
-<h2><img src="/images/readMe/0332-backpack-l-standard-96x96.webp" width="64"><br/>Overview</h2>
+<h2><img src="/images/readMe/0332-backpack-l-standard-96x96.webp" width="64">
+<br/>
+Overview
+</h2>
 
 
 This is a solution accelerator built on top of Azure Cognitive Search
@@ -18,7 +21,7 @@ This accelerator allows customers to quickly deploy an integrated
 platform and immediately start extracting insights from customer or
 employees\' conversations.
 
-## [To view a live demo of the accelerator [click here]](https://conversational-knowledge-mining.azurewebsites.net/)
+[![Click here to view live demo](/images/readMe/Demo_Button.png)](https://conversational-knowledge-mining.azurewebsites.net/)
 
 **Key features:**
 
@@ -35,7 +38,10 @@ can inform data driven actions to drive decisions around staffing and operations
 \
 ![image](/images/readMe/image2.png)
 
-## Getting started
+<h2><img src="/images/readMe/Note.png" width="64">
+<br/>
+Getting Started
+</h2>
 
 ### Prerequisites
 
@@ -61,7 +67,11 @@ These requirements must be met before the accelerator is installed.
 -   The user deploying the template must have permission to create
     resources and resource groups.
 
-## Deploy
+<h2><img src="/images/readMe/0376-firework-l-standard-96x96.webp" width="64">
+<br/>
+Deploy
+</h2>
+
 To deploy the accelerator select the following button:
 <br>
 <br>
@@ -215,7 +225,10 @@ Please be sure to set up both parameters accordingly to your entities name.
 
 You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
 
-## How to use
+<h2><img src="/images/readMe/0022-tasks-l-standard-96x96.webp" width="64">
+<br/>
+How to use
+</h2>
 
 Launch the application by navigating to your Azure resource group,
 choosing the app service resource, and clicking on the default domain.
@@ -284,15 +297,24 @@ documentation.
 
 Click save to apply the updates.
 
-## Troubleshooting
+<h2><img src="/images/readMe/0374-web-bug-l-standard-96x96.webp" width="64">
+<br/>
+Troubleshooting
+</h2>
 
 -   [Troubleshooting documentation](Troubleshooting.md)
   
-## Extensibility
+<h2><img src="/images/readMe/0528-add-edit-share-l-standard-96x96.webp" width="64">
+<br/>
+Extensibility
+</h2>
 
 -   [Future extensibility documentation](Extensibility.md)
 
-## More info
+<h2><img src="/images/readMe/0214-document-category-l-standard-96x96.webp" width="64">
+<br/>
+More info
+</h2>
 
 -   [Solution
     architecture](SolutionArchitecture.md)
