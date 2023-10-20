@@ -60,10 +60,6 @@ These requirements must be met before the accelerator is installed.
     resources and resource groups.
 
 ## Deploy
-To deploy the accelerator select the following button:
-<br>
-<br>
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frturknett%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2FreadMe-updates%2Finfrastructure%2FARM%2Fdeployment-template.json)
 
 The Azure portal displays a pane that allows you to easily provide parameter values. The parameters are pre-filled with the default values from the template.
 
@@ -81,7 +77,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 ### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
 
-1.  Click the \'Deploy to Azure\' button.
+1.  Follow the instructions [here](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal#edit-and-deploy-the-template) to create and deploy an ARM template. When you get to step 4 under Edit and deploy the template, paste in the contents of the latest deployment-template.json from our GitHub repo 
 
 2.  Create a new resource group with any name.
 
