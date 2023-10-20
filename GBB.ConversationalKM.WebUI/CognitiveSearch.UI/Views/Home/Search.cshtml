@@ -93,7 +93,7 @@
         </div>
 
         <div style="margin:0 10px 10px 10px;">
-        <div id="results-title"><h4>Performance overview</h4><div id="disclaimer">AI-generated content may be incorrect</div></div>
+        <div id="results-title"><h4>Performance Overview</h4><div id="disclaimer">AI-generated content may be incorrect</div></div>
         </div>
         <div class="card-container" style="display:flex; flex-direction: row; justify-content:space-between;">
             <fluent-card class="fluent-card-custom">
@@ -123,7 +123,7 @@
                         document.getElementById("complaintgrid").rowsData = [
                         @foreach (var item in Model.Insight1.TopInsights)
                         {
-                            @:{ "Top 5 customer satisfaction trends": "@Html.Raw(WebUtility.HtmlDecode(item))" },
+                            @:{ "Top 5 negative customer complaint trends": "@Html.Raw(WebUtility.HtmlDecode(item))" },
                         }
                         ];
                     </script>
@@ -150,14 +150,14 @@
 
                 <div class="stats-rect data">
                     <fluent-data-grid id="repgrid">
-                        <fluent-data-grid-column column-name="Top 5 negative customer complaint trends"></fluent-data-grid-column>
+                        <fluent-data-grid-column column-name="Top 5 negative hotel trends"></fluent-data-grid-column>
                         <fluent-data-grid-column column-name="More info"></fluent-data-grid-column>
                     </fluent-data-grid>
                     <script>
                         document.getElementById("repgrid").rowsData = [
                         @foreach (var item in Model.Insight2.TopInsights)
                         {
-                            @:{ "Top 5 negative customer complaint trends": "@Html.Raw(WebUtility.HtmlDecode(item))" },
+                            @:{ "Top 5 negative hotel trends": "@Html.Raw(WebUtility.HtmlDecode(item))" },
                         }                            
                         ];
                     </script>

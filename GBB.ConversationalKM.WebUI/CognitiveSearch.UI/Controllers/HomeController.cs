@@ -1,12 +1,14 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
+using Azure.Search.Documents;
 using Azure.Search.Documents.Models;
 using CognitiveSearch.UI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
@@ -89,7 +91,7 @@ namespace CognitiveSearch.UI.Controllers
                 var unsatisfied = documentResult.Facets
                         .Where(x => x.key.ToLower() == "satisfied")
                         .SelectMany(x => x.value)
-                        .Where(x => x.value.ToLower() != "yes")
+                        .Where(x => x.value.ToLower() != "yes")// double check with design on if just not "no" or just "no"
                         .Select(x => x.count)
                         .FirstOrDefault();
 
@@ -112,22 +114,25 @@ namespace CognitiveSearch.UI.Controllers
                 viewModel.KeyInsight2 = Math.Round(unsatisfiedCount / totalCount * 100, 1) + "%";
             }
 
-            // set the top compliments from the base search
+            // set the top complaints from the search
             try
             {
                 viewModel.TopInsights = documentResult.Facets
-                    .Where(x => x.key.ToLower() == "compliment")
+                    .Where(x => x.key.ToLower() == "complaint")
                     .SelectMany(x => x.value)
                     .Where(x => StringHasValue(x.value))
                     .OrderByDescending(x => x.count)
                     .Select(x => x.value)
                     .Take(5)
                     .ToList();
-            } catch(Exception e) {
+
+            }
+            catch (Exception e)
+            {
                 viewModel.TopInsights.Add("n/a");
             }
-            
-            
+
+
             return viewModel;
         }
 
@@ -168,11 +173,11 @@ namespace CognitiveSearch.UI.Controllers
                 viewModel.KeyInsight2 = "n/a";
             }
 
-            // set the top compliments from the search
+            // set the top hotels from compliments from the search
             try
             {
                 viewModel.TopInsights = documentResult.Facets
-                    .Where(x => x.key.ToLower() == "complaint")
+                    .Where(x => x.key.ToLower() == "hotel")
                     .SelectMany(x => x.value)
                     .Where(x => StringHasValue(x.value))
                     .OrderByDescending(x => x.count)
