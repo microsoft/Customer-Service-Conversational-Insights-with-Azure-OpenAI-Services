@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Upload your data";
+    //ViewData["UploadDisclaimer"];
 }
 
 <script type="text/javascript" src="~/lib/dropzone/dist/js/dropzone.min.js"></script>
@@ -27,8 +28,12 @@
             </div>
 
         </div>
+        @if(!String.IsNullOrEmpty(Model.UploadDisclaimer))
+        {
+        <div style="text-align: center; font-size: 11pt; color: #797775;">@Model.UploadDisclaimer</div>
+        }
+        
     </fluent-card>
-
 </main>
 
 <script type="text/javascript">

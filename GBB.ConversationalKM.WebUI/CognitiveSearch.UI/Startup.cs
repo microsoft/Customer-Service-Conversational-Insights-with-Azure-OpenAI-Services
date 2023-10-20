@@ -50,7 +50,8 @@ namespace CognitiveSearch.UI
             {
                 ApiConfig = apiConfig,
                 Organization = orgConfig,
-                Customizable = Configuration["Customizable"].Equals("true", StringComparison.InvariantCultureIgnoreCase)
+                Customizable = Configuration["Customizable"].Equals("true", StringComparison.InvariantCultureIgnoreCase),
+                UploadDisclaimer = Configuration["UploadDisclaimer"] != null ? Configuration["UploadDisclaimer"] : ""
             };
             services.AddSingleton(appConfig);
 
