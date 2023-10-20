@@ -8,5 +8,7 @@ namespace CognitiveSearch.UI.Configuration
         public OrganizationConfig Organization { get; set; }
 
         public bool Customizable { get; set; }
+
+        public string UploadDisclaimer { get; set; }
     }
 }
