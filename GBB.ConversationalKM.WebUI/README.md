@@ -87,13 +87,33 @@ If you would like to further customize the UI, you can update the following fiel
 
 **ResultFields** - Defines which fields will be returned in the results view. Only fields that are used for the UI should be included here to reduce latency caused by larger documents. By default all fields are included.
 
-## 3. Add additional customization
+## 3. Aggregated Analytics 
+There are two insight cards at the top of the home page search, one called Average Customer Satisfaction and the other called Top Discussed Cities. These cards provide insights & analysis across the various conversations uploaded and stored in Azure Cognitive Search index.
+
+The Average Customer Satisfaction card provides two percentages, percentage of satisfied customers & percentage of unsatisfied customers, as well as the top 5 negative customer complaint trends. The Top Discussed Cities card provides two fields, the top origin city and the top destination city, as well as the top 5 negative hotel trends. 
+
+These insights show a sample of what could be derived from the content stored in the Azure Cognitive Search index and can be easily customized and extended based on the available data and facets.
+
+**Added Functionality** 
+
+The insights shown in the cards include data that has been processed in our HomeController, from a query against an Azure Cognitive Search Index. Our Azure Cognitive Search Index contains all uploaded conversations and have processing applied via Azure OpenAI and cognitive skills. Shown below is query result displaying attributes for a single processed conversation. ![image](/images/UpdatingUI/searchIndex.png)
+
+Using the Azure Cognitive Search API, the search index is queried within the HomeController. The returned data include Facets that are already available from the index content and these are used to generate insights across the conversations. Each depending on the insight, that is being generated, different facets should be looked to. In our example, aggregated insights around customer sentiment are compared to the positive and negative sentiment that was calculated in that Facet. These calculated values are then passed to the view model that will be displayed on the Search.cshtml view. The model is shown below. ![image](/images/UpdatingUI/model.png)
+
+Below is a snippet of the function for retrieving customer satisfaction insights by utilizing the Facets.
+![image](/images/UpdatingUI/function.png)
+
+
+
+
+
+## 4. Add additional customization
 
 This template serves as a great baseline for a Cognitive Search solution, however, you may want to make additional updates depending on your use case.
 
 We have a special behavior if you have a field called *translated_text*. The UI will automatically show the original text and the translated text in the UI. This can be handy. If you would like to change this behavior (disable it, or change the name of the field), you can do that at details.js (GetTranscriptHTML method).
 
- ## 4. How do I run this locally?
+ ## 5. How do I run this locally?
   1. To run the UI locally you must install .NET Core 3.1 (NOTE: this
         is not the latest version and must be installed explicitly)
 
@@ -105,7 +125,7 @@ We have a special behavior if you have a field called *translated_text*. The UI 
   4. On first launch on local host type thisissafe on keyboard anywhere on the page               
         ![image](/images/Troubleshooting/image2.png)
 
- ## 5. How do I deploy my local changes?
+ ## 6. How do I deploy my local changes?
   1. To automatically deploy changes when pushing to GitHub you must enable GitHub actions
   2. Create a container registry in Azure
   3. Store your container credentials in GitHub secrets 
