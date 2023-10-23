@@ -258,9 +258,9 @@ and set the background and text colors for the navigation bar. For
 information on how to make other customizations, refer to the UI
 documentation.
 
--   From the home page, click on the customize button.
+-   From the home page, click on the customize button located in the upper right hand corner of the page.
 
-![image](/images/readMe/image13.png)
+![image](/images/readMe/image10.png)
 
 ![image](/images/readMe/image14.png)
 
