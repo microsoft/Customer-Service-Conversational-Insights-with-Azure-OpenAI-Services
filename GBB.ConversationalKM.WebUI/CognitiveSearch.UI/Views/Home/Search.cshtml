@@ -150,14 +150,14 @@
 
                 <div class="stats-rect data">
                     <fluent-data-grid id="repgrid">
-                        <fluent-data-grid-column column-name="Top 5 negative hotel trends"></fluent-data-grid-column>
+                        <fluent-data-grid-column column-name="Top 5 mentioned hotels"></fluent-data-grid-column>
                         <fluent-data-grid-column column-name="More info"></fluent-data-grid-column>
                     </fluent-data-grid>
                     <script>
                         document.getElementById("repgrid").rowsData = [
                         @foreach (var item in Model.Insight2.TopInsights)
                         {
-                            @:{ "Top 5 negative hotel trends": "@Html.Raw(WebUtility.HtmlDecode(item))" },
+                            @:{ "Top 5 mentioned hotels": "@Html.Raw(WebUtility.HtmlDecode(item))" },
                         }                            
                         ];
                     </script>
