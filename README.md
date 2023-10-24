@@ -21,7 +21,7 @@ This accelerator allows customers to quickly deploy an integrated
 platform and immediately start extracting insights from customer or
 employees\' conversations.
 
-[![Click here to view live demo](/images/readMe/Demo_Button.png)](https://conversational-knowledge-mining.azurewebsites.net/)
+[![Click here to view live demo](/images/readMe/Demo_Button.png)](https://cscilelulu-ui.azurewebsites.net/)
 
 **Key features:**
 
