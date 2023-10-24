@@ -1014,6 +1014,10 @@ body {
     box-shadow: none;
 }
 
+.stats-rect .card-container {
+    margin: 20px 0px 0px 0px;
+}
+
 .pink-gradient {
     background-image: linear-gradient(to top left, #d69cf2, #b6d6f4a3);
 }
@@ -1054,7 +1058,7 @@ body {
     --card-width: 200px;
     --card-height: 100px;
     width: 50%;
-    margin: 10px;
+    margin: 0px;
     display: block;
     padding: 20px;
     align-items: center;
