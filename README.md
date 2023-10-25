@@ -5,16 +5,21 @@ MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)
 
 <h2><img src="/images/readMe/0332-backpack-l-standard-96x96.webp" width="64">
 <br/>
-Overview
+User Story
 </h2>
 
-
+**Accelerator overview**
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
 post-contact center transcripts for intelligent contact center scenarios. It
 shows how raw transcripts are converted into simplified customer call
 summaries to extract valuable insights around product and service
 performance.
+
+**Scenario**
+This scenario shows how a data professional within a travel company contact
+center can use AI to quickly analyze call logs and analytics to identify areas 
+for improvement.
 
 This accelerator allows customers to quickly deploy an integrated
 platform and immediately start extracting insights from customer or
@@ -39,7 +44,7 @@ can inform data driven actions to drive decisions around staffing and operations
 
 <h2><img src="/images/readMe/Note.png" width="64">
 <br/>
-Getting Started
+One-click deploy
 </h2>
 
 ### Prerequisites
@@ -70,6 +75,8 @@ These requirements must be met before the accelerator is installed.
 <br/>
 Deploy
 </h2>
+
+**Deploy**
 
 The Azure portal displays a pane that allows you to easily provide parameter values. The parameters are pre-filled with the default values from the template.
 
@@ -221,7 +228,7 @@ You can modify the Azure OpenAI prompt after the deployment by modifying the Azu
 
 <h2><img src="/images/readMe/0022-tasks-l-standard-96x96.webp" width="64">
 <br/>
-How to use
+Supporting documents
 </h2>
 
 Launch the application by navigating to your Azure resource group,
@@ -331,3 +338,8 @@ You acknowledge that the Software and Microsoft Products and Services (1) are no
 You acknowledge the Software is not subject to SOC 1 and SOC 2 compliance audits. No Microsoft technology, nor any of its component technologies, including the Software, is intended or made available as a substitute for the professional advice, opinion, or judgement of a certified financial services professional. Do not use the Software to replace, substitute, or provide professional financial advice or judgment.  
 
 BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DESIGNED OR INTENDED TO SUPPORT ANY USE IN WHICH A SERVICE INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE COULD RESULT IN THE DEATH OR SERIOUS BODILY INJURY OF ANY PERSON OR IN PHYSICAL OR ENVIRONMENTAL DAMAGE (COLLECTIVELY, “HIGH-RISK USE”), AND THAT YOU WILL ENSURE THAT, IN THE EVENT OF ANY INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE, THE SAFETY OF PEOPLE, PROPERTY, AND THE ENVIRONMENT ARE NOT REDUCED BELOW A LEVEL THAT IS REASONABLY, APPROPRIATE, AND LEGAL, WHETHER IN GENERAL OR IN A SPECIFIC INDUSTRY. BY ACCESSING THE SOFTWARE, YOU FURTHER ACKNOWLEDGE THAT YOUR HIGH-RISK USE OF THE SOFTWARE IS AT YOUR OWN RISK.  
+
+<h2><img src="/images/readMe/0214-document-category-l-standard-96x96.webp" width="64">
+<br/>
+Customer Truth
+</h2>
