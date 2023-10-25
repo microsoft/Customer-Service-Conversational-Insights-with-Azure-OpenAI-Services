@@ -23,10 +23,6 @@ This scenario shows how a data professional within a travel company contact
 center can use AI to quickly analyze call logs and analytics to identify areas 
 for improvement.
 
-This accelerator allows customers to quickly deploy an integrated
-platform and immediately start extracting insights from customer or
-employees\' conversations.
-
 [![Click here to view live demo](/images/readMe/Demo_Button.png)](https://conversational-knowledge-mining.azurewebsites.net/)
 
 **Key features:**
@@ -339,9 +335,3 @@ BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DES
 Customer Truth
 </h2>
 We’ve prioritized this accelerator based on customer signal and have created these assets to continue to address customer use cases. 
-
-Stay tuned for win stories
-
-(OR) 
-
-This accelerator has been successful with over 5 customer across 2 industries.
