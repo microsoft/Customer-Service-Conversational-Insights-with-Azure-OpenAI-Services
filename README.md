@@ -23,7 +23,7 @@ This scenario shows how a data professional within a travel company contact
 center can use AI to quickly analyze call logs and analytics to identify areas 
 for improvement.
 
-[![Click here to view live demo](/images/readMe/Demo_Button.png)](https://conversational-knowledge-mining.azurewebsites.net/)
+[![Click here to view live demo](/images/readMe/Demo_Button.png)](https://cscilelulu-ui.azurewebsites.net/)
 
 **Key features:**
 
