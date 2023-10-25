@@ -334,4 +334,4 @@ BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DES
 <br/>
 Customer Truth
 </h2>
-Customer stories coming soon. For early access, contact:fabrizio.ruocco@microsoft.com
+Customer stories coming soon. For early access, contact: fabrizio.ruocco@microsoft.com
