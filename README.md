@@ -42,7 +42,7 @@ can inform data driven actions to drive decisions around staffing and operations
 \
 ![image](/images/readMe/image2.png)
 
-<h2><img src="/images/readMe/oneClickDeploy" width="64">
+<h2><img src="/images/readMe/oneClickDeploy.png" width="64">
 <br/>
 One-click deploy
 </h2>
@@ -71,10 +71,6 @@ These requirements must be met before the accelerator is installed.
 -   The user deploying the template must have permission to create
     resources and resource groups.
 
-<h2><img src="/images/readMe/0376-firework-l-standard-96x96.webp" width="64">
-<br/>
-Deploy
-</h2>
 
 **Deploy**
 
@@ -332,7 +328,7 @@ You acknowledge the Software is not subject to SOC 1 and SOC 2 compliance audits
 
 BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DESIGNED OR INTENDED TO SUPPORT ANY USE IN WHICH A SERVICE INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE COULD RESULT IN THE DEATH OR SERIOUS BODILY INJURY OF ANY PERSON OR IN PHYSICAL OR ENVIRONMENTAL DAMAGE (COLLECTIVELY, “HIGH-RISK USE”), AND THAT YOU WILL ENSURE THAT, IN THE EVENT OF ANY INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE, THE SAFETY OF PEOPLE, PROPERTY, AND THE ENVIRONMENT ARE NOT REDUCED BELOW A LEVEL THAT IS REASONABLY, APPROPRIATE, AND LEGAL, WHETHER IN GENERAL OR IN A SPECIFIC INDUSTRY. BY ACCESSING THE SOFTWARE, YOU FURTHER ACKNOWLEDGE THAT YOUR HIGH-RISK USE OF THE SOFTWARE IS AT YOUR OWN RISK.  
 
-<h2><img src="/images/readMe/customerTruth" width="64">
+<h2><img src="/images/readMe/customerTruth.png" width="64">
 <br/>
 Customer Truth
 </h2>
