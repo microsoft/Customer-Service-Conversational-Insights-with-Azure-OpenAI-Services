@@ -5,7 +5,7 @@ MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)
 
 <h2><img src="/images/readMe/userStory.png" width="64">
 <br/>
-User Story
+User story
 </h2>
 
 **Accelerator overview**
@@ -332,6 +332,6 @@ BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DES
 
 <h2><img src="/images/readMe/customerTruth.png" width="64">
 <br/>
-Customer Truth
+Customer truth
 </h2>
 Customer stories coming soon. For early access, contact: fabrizio.ruocco@microsoft.com
