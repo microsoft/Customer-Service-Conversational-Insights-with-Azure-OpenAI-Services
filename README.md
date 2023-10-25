@@ -315,6 +315,18 @@ Click save to apply the updates.
 
 -   [Updating the UI](GBB.ConversationalKM.WebUI)
 
+<h2><img src="/images/readMe/customerTruth.png" width="64">
+<br/>
+Customer truth
+</h2>
+Customer stories coming soon. For early access, contact: fabrizio.ruocco@microsoft.com
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+---
 
 ## Disclaimers
 
@@ -329,9 +341,3 @@ You acknowledge that the Software and Microsoft Products and Services (1) are no
 You acknowledge the Software is not subject to SOC 1 and SOC 2 compliance audits. No Microsoft technology, nor any of its component technologies, including the Software, is intended or made available as a substitute for the professional advice, opinion, or judgement of a certified financial services professional. Do not use the Software to replace, substitute, or provide professional financial advice or judgment.  
 
 BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DESIGNED OR INTENDED TO SUPPORT ANY USE IN WHICH A SERVICE INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE COULD RESULT IN THE DEATH OR SERIOUS BODILY INJURY OF ANY PERSON OR IN PHYSICAL OR ENVIRONMENTAL DAMAGE (COLLECTIVELY, “HIGH-RISK USE”), AND THAT YOU WILL ENSURE THAT, IN THE EVENT OF ANY INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE, THE SAFETY OF PEOPLE, PROPERTY, AND THE ENVIRONMENT ARE NOT REDUCED BELOW A LEVEL THAT IS REASONABLY, APPROPRIATE, AND LEGAL, WHETHER IN GENERAL OR IN A SPECIFIC INDUSTRY. BY ACCESSING THE SOFTWARE, YOU FURTHER ACKNOWLEDGE THAT YOUR HIGH-RISK USE OF THE SOFTWARE IS AT YOUR OWN RISK.  
-
-<h2><img src="/images/readMe/customerTruth.png" width="64">
-<br/>
-Customer truth
-</h2>
-Customer stories coming soon. For early access, contact: fabrizio.ruocco@microsoft.com
