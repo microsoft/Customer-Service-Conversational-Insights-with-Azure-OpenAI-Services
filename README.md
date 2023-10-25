@@ -3,7 +3,7 @@
 MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)  \| [**SUPPORTING DOCUMENTS**](#supporting-documents) \|
 [**CUSTOMER TRUTH**](#customer-truth) \|
 
-<h2><img src="/images/readMe/0332-backpack-l-standard-96x96.webp" width="64">
+<h2><img src="/images/readMe/userStory.png" width="64">
 <br/>
 User Story
 </h2>
@@ -42,7 +42,7 @@ can inform data driven actions to drive decisions around staffing and operations
 \
 ![image](/images/readMe/image2.png)
 
-<h2><img src="/images/readMe/Note.png" width="64">
+<h2><img src="/images/readMe/oneClickDeploy" width="64">
 <br/>
 One-click deploy
 </h2>
@@ -226,7 +226,7 @@ Please be sure to set up both parameters accordingly to your entities name.
 
 You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
 
-<h2><img src="/images/readMe/0022-tasks-l-standard-96x96.webp" width="64">
+<h2><img src="/images/readMe/supportingDocuments.png" width="64">
 <br/>
 Supporting documents
 </h2>
@@ -297,26 +297,19 @@ documentation.
 ![image](/images/readMe/image16.png)
 
 Click save to apply the updates.
-
-<h2><img src="/images/readMe/0374-web-bug-l-standard-96x96.webp" width="64">
+<br>
 <br/>
-Troubleshooting
-</h2>
+<br>
+<br/>
 
+**Troubleshooting**
 -   [Troubleshooting documentation](Troubleshooting.md)
   
-<h2><img src="/images/readMe/0528-add-edit-share-l-standard-96x96.webp" width="64">
-<br/>
-Extensibility
-</h2>
+**Extensibility**
 
 -   [Future extensibility documentation](Extensibility.md)
 
-<h2><img src="/images/readMe/0214-document-category-l-standard-96x96.webp" width="64">
-<br/>
-More info
-</h2>
-
+**More info**
 -   [Solution
     architecture](SolutionArchitecture.md)
 
@@ -339,7 +332,14 @@ You acknowledge the Software is not subject to SOC 1 and SOC 2 compliance audits
 
 BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DESIGNED OR INTENDED TO SUPPORT ANY USE IN WHICH A SERVICE INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE COULD RESULT IN THE DEATH OR SERIOUS BODILY INJURY OF ANY PERSON OR IN PHYSICAL OR ENVIRONMENTAL DAMAGE (COLLECTIVELY, “HIGH-RISK USE”), AND THAT YOU WILL ENSURE THAT, IN THE EVENT OF ANY INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE, THE SAFETY OF PEOPLE, PROPERTY, AND THE ENVIRONMENT ARE NOT REDUCED BELOW A LEVEL THAT IS REASONABLY, APPROPRIATE, AND LEGAL, WHETHER IN GENERAL OR IN A SPECIFIC INDUSTRY. BY ACCESSING THE SOFTWARE, YOU FURTHER ACKNOWLEDGE THAT YOUR HIGH-RISK USE OF THE SOFTWARE IS AT YOUR OWN RISK.  
 
-<h2><img src="/images/readMe/0214-document-category-l-standard-96x96.webp" width="64">
+<h2><img src="/images/readMe/customerTruth" width="64">
 <br/>
 Customer Truth
 </h2>
+We’ve prioritized this accelerator based on customer signal and have created these assets to continue to address customer use cases. 
+
+Stay tuned for win stories
+
+(OR) 
+
+This accelerator has been successful with over 5 customer across 2 industries.
