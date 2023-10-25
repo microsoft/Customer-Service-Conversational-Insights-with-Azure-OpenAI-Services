@@ -1,8 +1,7 @@
 # Conversation Knowledge Mining
 
-MENU: [**OVERVIEW**](#overview) \| [**GETTING STARTED**](#getting-started)  \| [**DEPLOY**](#deploy) \|
-[**HOW TO USE**](#how-to-use) \| [**TROUBLESHOOTING**](#troubleshooting) \| [**EXTENSIBILITY**](#extensibility) \| [**MORE INFO**](#more-info)
-
+MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)  \| [**SUPPORTING DOCUMENTS**](#supporting-documents) \|
+[**CUSTOMER TRUTH**](#customer-truth) \|
 
 <h2><img src="/images/readMe/0332-backpack-l-standard-96x96.webp" width="64">
 <br/>
