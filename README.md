@@ -9,6 +9,7 @@ User Story
 </h2>
 
 **Accelerator overview**
+
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
 post-contact center transcripts for intelligent contact center scenarios. It
@@ -17,6 +18,7 @@ summaries to extract valuable insights around product and service
 performance.
 
 **Scenario**
+
 This scenario shows how a data professional within a travel company contact
 center can use AI to quickly analyze call logs and analytics to identify areas 
 for improvement.
@@ -71,6 +73,10 @@ These requirements must be met before the accelerator is installed.
 -   The user deploying the template must have permission to create
     resources and resource groups.
 
+<br>
+<br/>
+<br>
+<br/>
 
 **Deploy**
 
