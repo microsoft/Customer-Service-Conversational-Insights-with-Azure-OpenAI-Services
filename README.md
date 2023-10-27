@@ -1,7 +1,7 @@
 # Conversation Knowledge Mining
 
 MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)  \| [**SUPPORTING DOCUMENTS**](#supporting-documents) \|
-[**CUSTOMER TRUTH**](#customer-truth) \|
+[**CUSTOMER TRUTH**](#customer-truth)
 
 <h2><img src="/images/readMe/userStory.png" width="64">
 <br/>
