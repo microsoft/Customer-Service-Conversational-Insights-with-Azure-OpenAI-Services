@@ -28,6 +28,17 @@ $("#q").keyup(function (e) {
     }
 });
 
+$("#startdate").keyup(function (e) {
+    if (e.keyCode == 13) {
+        Search();
+    }
+});
+$("#enddate").keyup(function (e) {
+    if (e.keyCode == 13) {
+        Search();
+    }
+});
+
 $("#transcript-search-input").keyup(function (e) {
     if (e.keyCode === 13) {
         SearchTranscript($('#transcript-search-input').val());
