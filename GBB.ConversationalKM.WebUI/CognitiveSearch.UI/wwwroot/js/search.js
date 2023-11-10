@@ -28,15 +28,12 @@ $("#q").keyup(function (e) {
     }
 });
 
-$("#startdate").keyup(function (e) {
-    if (e.keyCode == 13) {
-        Search();
-    }
+$('#startdate').change(function () {
+    Search();
 });
-$("#enddate").keyup(function (e) {
-    if (e.keyCode == 13) {
-        Search();
-    }
+
+$('#enddate').change(function () {
+    Search();
 });
 
 $("#transcript-search-input").keyup(function (e) {
