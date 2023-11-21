@@ -116,7 +116,10 @@ function Update(viewModel) {
     data.captions = viewModel.captions;
 
     //Facets
-    UpdateFacets();
+    //UpdateFacets();
+
+    //Accordions
+    UpdateAccordion();
 
     //Results List
     UpdateResults(data, answer);

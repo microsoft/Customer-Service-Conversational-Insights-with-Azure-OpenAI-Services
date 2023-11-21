@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk" DefaultTargets="BuildProjects">
+    <Import Project="dependencies.props" />
+    
+    <ItemGroup>
+        <VersionFile Include="version.props"/>
+    </ItemGroup>
+    <PropertyGroup>
+        <NuspecPath>Microsoft.jQuery.Unobtrusive.Validation.nuspec</NuspecPath>
+        <DistDir>$(MSBuildThisFileDirectory)dist\</DistDir>
+        <ArtifactsDir>$(MSBuildThisFileDirectory)artifacts\build\</ArtifactsDir>
+        <WebPackTestDir>$(MSBuildThisFileDirectory)test\webpacktest\</WebPackTestDir>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <DistDirFiles Include="$(DistDir)*.*;"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(Sign)' == 'true'">
+        <PackageReference Include="Microsoft.DotNet.SignTool" Version="$(MicrosoftDotNetSignToolVersion)"/>
+        <PackageReference Include="vswhere" Version="$(VSWhereVersion)"/>
+        <PackageReference Include="sn" Version="$(SNVersion)"/>
+        <PackageReference Include="MicroBuild.Core" Version="$(MicroBuildCoreVersion)"/>
+    </ItemGroup>
+
+    <Target Name="BuildProjects">
+        <ReadLinesFromFile File="@(VersionFile)">
+            <Output TaskParameter="Lines" PropertyName="PackageVersion"/>
+        </ReadLinesFromFile>
+        <Exec Command="npm install" />
+        <Exec Command="npm version --no-git-tag-version --allow-same-version $(PackageVersion)" />
+        <Exec Command="$(MSBuildThisFileDirectory)node_modules\.bin\gulp" />
+        <MakeDir Directories="$(ArtifactsDir)" />
+        <Copy
+            SourceFiles="@(DistDirFiles)"
+            DestinationFolder="$(ArtifactsDir)" OverwriteReadOnlyFiles="true"/>
+        <Exec Command="npm pack $(MSBuildThisFileDirectory)" WorkingDirectory="$(ArtifactsDir)" />
+        <Exec Command="nuget pack $(NuspecPath) -Version $(PackageVersion) -OutputDirectory $(ArtifactsDir)" />
+
+        <MSBuild Projects ="$(MSBuildProjectFullPath)"
+            Properties="PackageVersion=$(PackageVersion)"
+            Targets="Test" />
+
+        <Message Text="Signing files..." Importance="High" Condition="'$(Sign)' == 'true'"/>
+        <MSBuild Projects="Sign.proj"
+         Targets="Sign"
+         Properties="ArtifactsDir=$(ArtifactsDir);DotNetSignType=$(SignType)"
+         Condition="'$(Sign)' == 'true'"/>
+    </Target>
+
+    <Target Name="Test">
+        <Message Text="Testing Webpack build..." />
+        <Exec Command="npm init -y" WorkingDirectory="$(WebPackTestDir)" />
+        <Exec Command="npm install $(ArtifactsDir)jquery-validation-unobtrusive-$(PackageVersion).tgz --save-dev --force" WorkingDirectory="$(WebPackTestDir)" />
+        <Exec Command="npm install webpack webpack-cli --save-dev" WorkingDirectory="$(WebPackTestDir)" />
+        <Exec Command="npx webpack" WorkingDirectory="$(WebPackTestDir)" />
+    </Target>
+</Project>

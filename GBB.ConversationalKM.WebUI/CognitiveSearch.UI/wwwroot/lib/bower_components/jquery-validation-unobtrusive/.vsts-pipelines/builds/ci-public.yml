@@ -1,0 +1,19 @@
+trigger:
+  branches:
+    include:
+    - 'main'
+    - 'release/*'
+    - 'internal/release/*'
+# Run PR validation on all branches
+pr:
+  branches:
+    include:
+    - '*'
+
+phases:
+  - template: ../templates/default-build.yml
+    parameters:
+      agentOs: Windows
+      codeSign: true
+      ${{ if eq(variables['System.TeamProject'], 'internal') }}:
+        buildArgs: '/p:OfficialBuild=true /p:Sign=true'

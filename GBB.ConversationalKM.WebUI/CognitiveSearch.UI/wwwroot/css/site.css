@@ -300,6 +300,11 @@ h3{
     height: 100% !important;
 }
 
+.modal-header {
+    color: #0078d7 !important;
+    border-bottom: none;
+}
+
 .modal-control-group {
     position: absolute !important;
     top: 15px !important;
@@ -1111,3 +1116,27 @@ body {
         /* Use another inset box-shadow to create a subtle border effect on the bottom edge of the button */
         inset 0 -2px 4px rgba(0,0,0,0.1);
     }
+
+.card h4 {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.card {
+    border-radius: unset;
+    margin-bottom: 20px;
+}
+
+.card li.list-group-item {
+    border: none;
+}
+.accordion-button {
+    background-color: #f5f5f5;
+    font-weight: inherit;
+}
+
+
+
+div.accordion {
+    margin-top: 5px;
+}

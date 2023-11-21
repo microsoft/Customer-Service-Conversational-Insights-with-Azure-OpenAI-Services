@@ -1,0 +1,10 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <MicroBuildCoreVersion Condition="'$(MicroBuildCoreVersion)' == ''">0.2.0</MicroBuildCoreVersion>
+        <MicrosoftDotNetSignToolVersion>6.0.0-beta.20630.2</MicrosoftDotNetSignToolVersion>
+        <SNVersion Condition="'$(SNVersion)' == ''">1.0.0</SNVersion>
+        <VSWhereVersion Condition="'$(VSWhereVersion)' == ''">2.6.7</VSWhereVersion>
+    </PropertyGroup>
+
+</Project>
