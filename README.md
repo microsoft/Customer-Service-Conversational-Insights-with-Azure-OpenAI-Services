@@ -1,4 +1,4 @@
-# Conversation Knowledge Mining
+# Conversation knowledge mining solution accelerator
 
 MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)  \| [**SUPPORTING DOCUMENTS**](#supporting-documents) \|
 [**CUSTOMER TRUTH**](#customer-truth)
@@ -8,7 +8,7 @@ MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)
 User story
 </h2>
 
-**Accelerator overview**
+**Solution accelerator overview**
 
 This is a solution accelerator built on top of Azure Cognitive Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
@@ -25,7 +25,7 @@ for improvement.
 
 [![Click here to view live demo](/images/readMe/Demo_Button.png)](https://cscilelulu-ui.azurewebsites.net/)
 
-**Key features:**
+**Key features**
 
 Azure Cognitive Search and Azure OpenAI can enable new and 
 innovative ways to run contact center operations. Post call insights 
@@ -33,10 +33,10 @@ can inform data driven actions to drive decisions around staffing and operations
 
 - **Conversation Summarization and Key Phrase Extraction:** Summarize long conversations into a short paragraph and pull out key phrases that are relevant to the conversation.
 - **Batch speech-to-text using Azure Speech:** Transcribe large amounts of audio files asynchronously including speaker diarization and is typically used in post-call analytics scenarios. Diarizations the process of recognizing and separating speakers in mono channel audio data.
-- **Sensitive information extraction and redaction:** Identify, categorize, and redact sensitive information in conversation transcription.
+- **Sensitive information extraction and redaction:** Identify, categorize, and redact sensitive information in conversation transcription
 - **Sentiment analysis and opinion mining:** Analyze transcriptions and associate positive, neutral, or negative sentiment at the utterance and conversation-level.
 
-**Below is an image still from the accelerator.**\
+**Below is an image of the solution accelerator.**\
 \
 ![image](/images/readMe/image2.png)
 
@@ -47,7 +47,7 @@ One-click deploy
 
 ### Prerequisites
 
-These requirements must be met before the accelerator is installed.
+These requirements must be met before the solution accelerator is installed.
 
 -   Azure OpenAI resource with a deployed model that has the following
     settings:
@@ -69,12 +69,8 @@ These requirements must be met before the accelerator is installed.
 -   The user deploying the template must have permission to create
     resources and resource groups.
 
-<br>
-<br/>
-<br>
-<br/>
 
-**Deploy**
+### Deploy
 
 The Azure portal displays a pane that allows you to easily provide parameter values. The parameters are pre-filled with the default values from the template.
 
@@ -87,12 +83,12 @@ Please check here for detailed parameters explanations: [Getting started with th
 
 Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-openai-prompt)
 
-### Accelerator architecture
+### Solution accelerator architecture
 ![image](/images/readMe/image4.png)
 
-### **Instructions on how to Install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
+### **How to install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
 
-1.  Follow the instructions [here](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal#edit-and-deploy-the-template) to create and deploy an ARM template. When you get to step 4 under Edit and deploy the template, paste in the contents of the latest deployment-template.json from our GitHub repo 
+1.  Follow the instructions [here](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal#edit-and-deploy-the-template) to create and deploy an ARM template. When you get to step 4 under Edit and deploy the template, paste in the contents of the latest deployment-template.json from our GitHub repo.
 
 2.  Create a new resource group with any name.
 
@@ -124,12 +120,11 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 <details><summary>Click to see detailed steps for Enabling Semantic Search </summary>
 &nbsp;<br/>
 
-After deploying the solution, you can optionally enable the semantic
+After deploying the solution accelerator, you can optionally enable the semantic
 search capability on your Azure Cognitive Search Index. In Azure
 Cognitive Search, semantic search measurably improves search relevance
-by using language understanding to rerank search results and can enable
-more relevant and meaningful results while searching the mined insights
-in this solution.\
+by using language understanding to re-rank search results and can enable
+more relevant and meaningful results while searching the mined insights.\
 \
 Note: This capability is in Public Preview and is not available in all
 regions. Additional charges may be applicable if you enable this
@@ -141,7 +136,7 @@ Use the following steps to enable and configure semantic search:
 
 -   Enable semantic search by [following these
     steps](https://learn.microsoft.com/en-us/azure/search/semantic-how-to-enable-disable?tabs=enable-portal)
-    on your Azure Cognitive Search resource in Azure
+    on your Azure Cognitive Search resource in Azure.
 
 -   On the same Azure Cognitive Search resource, click "Indexes" in the
     left menu and select the "conversational-index" from the list of
@@ -150,7 +145,7 @@ Use the following steps to enable and configure semantic search:
     ![image](/images/readMe/image5.png)
 
 -   Select the tab labeled "Semantic configurations" and then click "Add
-    semantic configuration"\
+    semantic configuration".\
     \
     ![image](/images/readMe/image6.png)
 
@@ -315,13 +310,14 @@ Click save to apply the updates.
 
 -   [Updating the UI](GBB.ConversationalKM.WebUI)
 
-<h2><img src="/images/readMe/customerTruth.png" width="64">
 <br/>
+<br>
+<h2><img src="/images/readMe/customerTruth.png" width="64">
+</br>
 Customer truth
 </h2>
 Customer stories coming soon. For early access, contact: fabrizio.ruocco@microsoft.com
 
-<br/>
 <br/>
 <br/>
 <br/>
