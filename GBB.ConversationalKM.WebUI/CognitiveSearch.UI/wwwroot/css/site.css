@@ -303,12 +303,14 @@ h3{
 .modal-header {
     color: #0078d7 !important;
     border-bottom: none;
+    justify-content: right;
 }
 
 .modal-control-group {
-    position: absolute !important;
-    top: 15px !important;
-    right: 15px !important;
+    /*position: absolute !important;*/
+    /*top: 15px !important;
+    right: 15px !important;*/
+    text-align: right;
 }
 
 .modal-control {
@@ -316,6 +318,8 @@ h3{
     cursor: pointer !important;
     margin: 5px !important;
     color: #0078d7 !important;
+    border: none;
+    background: none;
 }
 
 .form-control {
@@ -580,6 +584,11 @@ pre {
     margin-top: 10px;
 }
 
+.results-body a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
 .result-item {
     display: flex;
     align-items: start;
@@ -791,6 +800,14 @@ ul.breadcrumb li {
     line-height: 1;
 }
 
+.ms-Icon--ChevronRightMed, .ms-Icon--ChevronLeftMed {
+    height: 100%;
+}
+
+.ms-Icon--ChevronRightMed::before, .ms-Icon--ChevronLeftMed::before {
+    vertical-align: middle;
+}
+
 .node {
 }
 
@@ -830,6 +847,10 @@ body {
     background-color: lightgray;
     border: 2px dotted gray;
     margin-bottom: 10px;
+}
+
+.upload-button {
+    text-decoration: none;
 }
 
 .dropzone {

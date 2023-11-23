@@ -25,13 +25,10 @@
 <div class="modal" id="details-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content" style="width:inherit">
-            <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
             <div id="details-modal-body" class="modal-body">
                 <div class="row" style="height: 100%;">
                     <div class="modal-control-group">
-                        <span id="close-control" class="modal-control" data-dismiss="modal"><i class="ms-Icon ms-Icon--Clear"></i></span>
+                        <span id="close-control" class="modal-control" data-bs-dismiss="modal"><i class="ms-Icon ms-Icon--Clear"></i></span>
                     </div>
                     <div id="details-pivot" class="ms-Pivot col-md-8">
                         <ul id="details-pivot-links" class="ms-Pivot-links"></ul>
@@ -71,7 +68,7 @@
                 <h5 style="display: inline-block; padding-right: 5px;">Semantic Search</h5>
                 <label class="switch"> <input name="queryType" id="semantic-toogle" type="checkbox"><span class="slider round"></span> </label>
             </div>
-            <hr style="height:1px;border-width:0;background-color:#EDEBE9;margin-top:10px;margin-bottom:16px;" />
+            <hr style="height:1px;background-color:#EDEBE9;margin-top:10px;margin-bottom:16px;" />
         </div>
         <div>
             <h4 style="margin-bottom: 16px;">Filter</h4>
@@ -90,9 +87,9 @@
             <input type="date" class="form-control advancedAutoComplete" name="startdate" id="startdate" placeholder="Start Date" autocomplete="off" style="width:17%">
             <h5 style="display: inline-block" style="padding-right:15px;">End Date</h5>
             <input type="date" class="form-control advancedAutoComplete" name="enddate" id="enddate" placeholder="End Date" autocomplete="off" style="width:17%">
-            <a asp-action="UploadData" asp-controller="Admin" class="fluent-button"> Upload file</a>
+            <a asp-action="UploadData" asp-controller="Admin" class="fluent-button upload-button"> Upload file</a>
             <button style="font-weight: 600; border: 1px solid lightgrey; background: white; color: black; margin-right: 10px" class="fluent-button" onclick="EntityMapClick()">View entity Map</button>
-            <a asp-action="Customize" asp-controller="Admin"> Customize</a>
+            <a style="text-decoration:none; color:#337ab7;" asp-action="Customize" asp-controller="Admin"> Customize</a>
         </div>
 
         <div style="margin:0 10px 10px 10px;">
@@ -185,7 +182,7 @@
         <div id="doc-details-div">
         </div>
         <div class="clearfix">
-            <ul id="paginationFooter" class="pagination pull-right"></ul>
+            <ul id="paginationFooter" class="pagination justify-content-end"></ul>
         </div>
     </div>
 </div>
@@ -206,7 +203,7 @@
             </div>
 
             <br />
-            <button style="width:100%" class="btn btn-default" onclick="EntityMapClick()">Return to Search Results</button>
+            <button style="width:100%; border-color:#ccc" class="btn btn-default" onclick="EntityMapClick()">Return to Search Results</button>
         </div>
         <div class="col-md-5"></div>
         <div class="col-md-2">
@@ -221,7 +218,7 @@
         </div>
         <div class="col-md-1">
             <button class="btn btn-default dropdown-toggle" type="button"
-                    id="dropdownMenu1" data-toggle="dropdown"
+                    id="dropdownMenu1" data-bs-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="true"
                     float="right">
                 <strong>Select Facets</strong>

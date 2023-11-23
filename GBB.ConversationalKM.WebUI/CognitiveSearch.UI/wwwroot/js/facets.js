@@ -135,7 +135,8 @@ function UpdateAccordion() {
 
     facets.sort((a, b) => a.key.localeCompare(b.key));
 
-    var facetResultsHTML = `<div class="panel-group" id="accordion">`;
+    var facetResultsHTML = `<div class="panel-group" id="accordion">
+                                <div class="accordion" id="mainAccordion">`;
     facets.forEach(function (item, index, array) {
         var name = item.key;
         var data = item.value;
@@ -161,20 +162,18 @@ function UpdateAccordion() {
             //                        </h4>
             //                    </div>`;
 
-            facetResultsHTML += `<div class="accordion" id="mainAccordion">
-                                    <div class="accordion-item" style="border-radius:0px;">
-                                        <h4 class="accordion-header" id="${name}-facets">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#${name}">${title}</button>
-                                        </h4>
-                                    </div>
-                                </div>`;
+            facetResultsHTML += `<div class="accordion-item" style="border-radius:0px;">
+                                    <h4 class="accordion-header" id="${name}-facets">
+                                        <button id="${name}-facets-button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${name}" aria-controls="${name}" href="#${name}">${title}</button>
+                                    </h4>`;
+                                    
             if (index === 0) {
-                facetResultsHTML += `<div id="${name}" class="panel-collapse collapse in">
-                <div class="panel-body panel-scroll">`;
+                facetResultsHTML += `<div id="${name}" class="accordion-collapse collapse in" aria-labelledby="${name}" data-bs-parent="#mainAccordion">
+                <div class="accordion-body panel-scroll">`;
             }
             else {
-                facetResultsHTML += `<div id="${name}" class="panel-collapse collapse">
-                <div class="panel-body panel-scroll">`;
+                facetResultsHTML += `<div id="${name}" class="accordion-collapse collapse" aria-labelledby="${name}" data-bs-parent="#mainAccordion">
+                <div class="accordion-body panel-scroll">`;
             }
 
             if (data !== null) {
@@ -191,11 +190,11 @@ function UpdateAccordion() {
             }
 
             facetResultsHTML += `</div>
-                        </div>
-                    </div>`;
+                                </div>
+                                </div>`;
         }
     });
-    facetResultsHTML += `</div>`;
+    facetResultsHTML += `</div></div>`;
     $("#facet-nav").append(facetResultsHTML);
 
 }
