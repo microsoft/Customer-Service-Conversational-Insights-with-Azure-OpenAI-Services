@@ -16,4 +16,8 @@
 /GBB.ConversationalKM.WebUI/.vs
 /GBB.ConversationalKM.WebUI/CognitiveSearch.UI/obj
 /GBB.ConversationalKM.WebUI/CognitiveSearch.UI/appsettings.Development.json
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/wwwroot/lib/bootstrap
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/wwwroot/lib/jquery
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/wwwroot/lib/jquery-validate
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/wwwroot/lib/jquery-validation-unobtrusive
 /GBB.ConversationalKM.Python/.venv
