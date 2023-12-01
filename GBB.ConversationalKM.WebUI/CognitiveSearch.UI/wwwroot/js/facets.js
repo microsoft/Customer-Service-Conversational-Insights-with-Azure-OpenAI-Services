@@ -178,7 +178,7 @@ function UpdateAccordion() {
 
             if (data !== null) {
                 for (var j = 0; j < data.length; j++) {
-                    if (data[j].value.toString().length < 100) {
+                    if (data[j].value.toString().length < 100 && data[j].value.toString().length > 0) {
                         facetResultsHTML += `<div class="ms-CheckBox">
                                             <input tabindex="-1" type="checkbox" class="ms-CheckBox-input" onclick="ChooseFacet('${name}','${data[j].value}', '${j}');">
                                             <label id="${name}_${j}" role="checkbox" class="ms-CheckBox-field" tabindex="0" aria-checked="false" name="checkboxa">
