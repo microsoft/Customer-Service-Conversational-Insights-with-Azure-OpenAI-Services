@@ -34,7 +34,7 @@ function ShowDocument(id, index) {
             var fileName = "File";
 
             var pivotsHTML = '          <div id="file-pivot" class="ms-Pivot-content" data-content="file"> ';
-            pivotsHTML += '                 <div id="file-viewer" style="height: 100%;"></div> ';
+            pivotsHTML += '                 <div id="file-viewer" style="height: 95%;"></div> ';
             pivotsHTML += '             </div> ';
 
             if (transcriptContainerHTML !== null) {
@@ -45,7 +45,7 @@ function ShowDocument(id, index) {
             }
 
             pivotsHTML += '             <div id="metadata-pivot" class="ms-Pivot-content" data-content="metadata"> ';
-            pivotsHTML += '                 <div id="metadata-viewer" style="height: 100%;overflow-y:scroll;"> ';
+            pivotsHTML += '                 <div id="metadata-viewer" style="height: 95%;overflow-y:scroll;"> ';
             pivotsHTML += '                 </div> ';
             pivotsHTML += '             </div>';
 

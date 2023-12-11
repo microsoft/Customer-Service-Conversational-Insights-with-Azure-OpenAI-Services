@@ -9,12 +9,23 @@ function UpdateFilterReset() {
 
     if (selectedFacets && selectedFacets.length > 0) {
 
-        htmlString += `<div class="panel panel-default">
-                            <div class="panel-heading">
+        //htmlString += `<div class="panel panel-default">
+        //                    <div class="panel-heading">
+        //                        <h4 class="panel-title">Current Filters</h4>
+        //                    </div>
+        //                    <div>
+        //                        <div class="panel-body panel-scroll">`;
+        htmlString += `<div class="card" style="padding:unset">
+                            <div class="card-header">
                                 <h4 class="panel-title">Current Filters</h4>
                             </div>
-                            <div>
-                                <div class="panel-body panel-scroll">`;
+                            <div class="card-body">
+                                <div class="panel-body panel-scroll">
+                                <ul class="list-group last-group-flush">`;
+                            
+                              //</ul>
+                           // </div>
+                   // </div>`;
 
         selectedFacets.forEach(function (item, index, array) { // foreach facet with a selected value
             var name = item.key;
@@ -27,13 +38,17 @@ function UpdateFilterReset() {
                     }
                     )[0]);
 
-                    htmlString += item2 + ` <a href="javascript:void(0)" onclick="RemoveFilter(\'${name}\', \'${item2}'\)"><span class="ms-Icon ms-Icon--Clear"></span></a><br>`;
+                    //htmlString += item2 + ` <a href="javascript:void(0)" onclick="RemoveFilter(\'${name}\', \'${item2}'\)"><span class="ms-Icon ms-Icon--Clear"></span></a><br>`;
+                    htmlString += `<li class="list-group-item"> ${item2} <a href="javascript:void(0)" onclick="RemoveFilter(\'${name}\', \'${item2}'\)"><span class="ms-Icon ms-Icon--Clear"></span></a><br></li>`;
                     $('#' + name + '_' + idx).addClass('is-checked');
+                    
                 });
             }
         });
 
-        htmlString += `</div></div></div>`;
+        
+        //htmlString += `</div></div></div>`;
+        htmlString += `</ul></div></div>`;
     }
     $("#filterReset").html(htmlString);
 }
@@ -111,6 +126,75 @@ function UpdateFacets() {
         }
     });
     facetResultsHTML += `</div>`;
+    $("#facet-nav").append(facetResultsHTML);
+
+}
+
+function UpdateAccordion() {
+    $("#facet-nav").html("");
+
+    facets.sort((a, b) => a.key.localeCompare(b.key));
+
+    var facetResultsHTML = `<div class="panel-group" id="accordion">
+                                <div class="accordion" id="mainAccordion">`;
+    facets.forEach(function (item, index, array) {
+        var name = item.key;
+        var data = item.value;
+
+        if (data !== null && data.length > 0) {
+
+            var title = name.replace(/([A-Z])/g, ' $1').replace(/^./, function (str) { return str.toUpperCase(); })
+
+            if (title == "Metadata_storage_file_extension") {
+                title = "File Extension"
+            }
+
+            if (title == "Metadata_author") {
+                title = "File Author";
+            }
+
+            title = title.replace("_clean", "");
+
+            //facetResultsHTML += `<div class="panel panel-default">
+            //                    <div class="panel-heading">
+            //                        <h4 class="panel-title" id="${name}-facets">
+            //                            <a data-toggle="collapse" data-parent="#accordion" href="#${name}">${title}</a>
+            //                        </h4>
+            //                    </div>`;
+
+            facetResultsHTML += `<div class="accordion-item" style="border-radius:0px;">
+                                    <h4 class="accordion-header" id="${name}-facets">
+                                        <button id="${name}-facets-button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${name}" aria-controls="${name}" href="#${name}">${title}</button>
+                                    </h4>`;
+                                    
+            if (index === 0) {
+                facetResultsHTML += `<div id="${name}" class="accordion-collapse collapse in" aria-labelledby="${name}" data-bs-parent="#mainAccordion">
+                <div class="accordion-body panel-scroll">`;
+            }
+            else {
+                facetResultsHTML += `<div id="${name}" class="accordion-collapse collapse" aria-labelledby="${name}" data-bs-parent="#mainAccordion">
+                <div class="accordion-body panel-scroll">`;
+            }
+
+            if (data !== null) {
+                for (var j = 0; j < data.length; j++) {
+                    if (data[j].value.toString().length < 100 && data[j].value.toString().length > 0) {
+                        facetResultsHTML += `<div class="ms-CheckBox">
+                                            <input tabindex="-1" type="checkbox" class="ms-CheckBox-input" onclick="ChooseFacet('${name}','${data[j].value}', '${j}');">
+                                            <label id="${name}_${j}" role="checkbox" class="ms-CheckBox-field" tabindex="0" aria-checked="false" name="checkboxa">
+                                                <span class="ms-Label">${data[j].value} (${data[j].count})</span> 
+                                            </label>
+                                        </div>`;
+                    }
+                }
+            }
+
+            facetResultsHTML += `</div>
+                                </div>
+                                </div>`;
+        }
+    });
+    facetResultsHTML += `</div></div>`;
     $("#facet-nav").append(facetResultsHTML);
 
 }
