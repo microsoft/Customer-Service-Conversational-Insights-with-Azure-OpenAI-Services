@@ -27,5 +27,9 @@ namespace CognitiveSearch.UI.Models
         public string queryType { get; set; }
 
         public bool semanticEnabled { get; set; }
+
+        public AggregateInsightViewModel Insight1 { get; set; }
+
+        public AggregateInsightViewModel Insight2 { get; set; }
     }
 }

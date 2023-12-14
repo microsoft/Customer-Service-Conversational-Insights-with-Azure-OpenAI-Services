@@ -28,6 +28,14 @@ $("#q").keyup(function (e) {
     }
 });
 
+$('#startdate').change(function () {
+    Search();
+});
+
+$('#enddate').change(function () {
+    Search();
+});
+
 $("#transcript-search-input").keyup(function (e) {
     if (e.keyCode === 13) {
         SearchTranscript($('#transcript-search-input').val());
@@ -116,7 +124,10 @@ function Update(viewModel) {
     data.captions = viewModel.captions;
 
     //Facets
-    UpdateFacets();
+    //UpdateFacets();
+
+    //Accordions
+    UpdateAccordion();
 
     //Results List
     UpdateResults(data, answer);
@@ -193,13 +204,13 @@ function UpdatePagination(docCount) {
 
     var htmlString = "";
     if (currentPage > 1) {
-        htmlString = `<li><a href="javascript:void(0)" onclick="GoToPage('${backPage}')" class="ms-Icon ms-Icon--ChevronLeftMed"></a></li>`;
+        htmlString = `<li class="page-item"><a href="javascript:void(0)" onclick="GoToPage('${backPage}')" class=" page-link ms-Icon ms-Icon--ChevronLeftMed"></a></li>`;
     }
 
-    htmlString += '<li class="active"><a href="#">' + currentPage + '</a></li>';
+    htmlString += '<li class="active page-item"><a class="page-link" href="#">' + currentPage + '</a></li>';
 
     if (currentPage <= totalPages) {
-        htmlString += `<li><a href="javascript:void(0)" onclick="GoToPage('${forwardPage}')" class="ms-Icon ms-Icon--ChevronRightMed"></a></li>`;
+        htmlString += `<li class="page-item"><a href="javascript:void(0)" onclick="GoToPage('${forwardPage}')" class="page-link ms-Icon ms-Icon--ChevronRightMed"></a></li>`;
     }
     $("#pagination").html(htmlString);
     $("#paginationFooter").html(htmlString);

@@ -1,29 +1,29 @@
 @using CognitiveSearch.UI.Configuration
 @inject AppConfig AppConfig
 
-<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-bg">
+@{
+    // Check if the current view is Search
+    String action = ViewContext.RouteData.Values["action"].ToString();
+    bool isSearchView = action == "Index";
+}
+
+<!--link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" /-->
+<nav class="navbar navbar-expand-lg navbar navbar-bg">
     <div class="container-fluid">
         <div class="content">
             <div class="navbar-header">
                 <a class="navbar-brand-logo" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/images/logo.png" height="35" id="navbar-img" alt="@AppConfig.Organization.Name logo" title="@AppConfig.Organization.Name logo" class="logo-container logo-sgv" asp-append-version="true" />
+                    <img src="~/images/logo.png" height="48" id="navbar-img" alt="@AppConfig.Organization.Name logo" title="@AppConfig.Organization.Name logo" class="logo-container logo-sgv" asp-append-version="true" />
                 </a>
             </div>
             @if (AppConfig.Customizable)
             {
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="navbar-text navbar-text-color" asp-area="" asp-controller="Home" asp-action="Search">Search</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="customize-page" class="navbar-text navbar-text-color" asp-area="" asp-controller="Admin" asp-action="Customize">Customize</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="upload-data-page" class="navbar-text navbar-text-color" asp-area="" asp-controller="Admin" asp-action="UploadData">Upload Files</a>
-                        </li>
-                    </ul>
+                    @if (isSearchView)
+                    {
+                    // Render the search input
+                        <input type="text" class="form-control navbar-search advancedAutoComplete" name="q" id="q" placeholder="What do you want to search (e.g. satisfaction, intent, quality)" autocomplete="off">
+                    }
                 </div>
             }
         </div>

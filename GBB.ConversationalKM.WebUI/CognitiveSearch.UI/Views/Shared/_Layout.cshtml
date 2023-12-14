@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.2.0/css/fabric.components.min.css" />
     <link rel="stylesheet" href="~/lib/fabric-ui/fabric.css" />
     <link rel="stylesheet" href="~/lib/fabric-ui/fabric-9.4.0.scoped.css" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css" type="text/css">
@@ -24,17 +24,18 @@
     <link rel="stylesheet" href="~/css/colors.css" />
     <link rel="stylesheet" href="~/css/timeline.css" />
 
-    <script src="~/lib/jquery/dist/jquery.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.js"></script>
 
     <script src="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.2.0/js/fabric.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-selection-multi.v1.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 
     <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+    <script type="module" src="https://unpkg.com/%40fluentui/web-components"></script>
 </head>
 <body>
     @await Html.PartialAsync("_Header")
@@ -50,7 +51,6 @@
         $.widget.bridge('uitooltip', $.ui.tooltip);
         $.widget.bridge('uibutton', $.ui.button);
     </script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 
     <script src="~/js/tags.js"></script>
     <script src="~/js/details.js"></script>
@@ -61,7 +61,7 @@
     <script src="~/js/site.js"></script>
     <script src="~/js/entityMap.js"></script>
     <script src="~/js/PolygonDrawingTool.js"></script>
-    <script src="~/js/moment.js"></script>
+    <script src="~/lib/moment/moment.min.js"></script>
     <script src="~/js/timeline.js"></script>
 
     <script>
@@ -78,6 +78,11 @@
         customizable = '@AppConfig.Customizable';
     </script>
 
+
+
+
     @RenderSection("Scripts", required: false)
+
+    <script type="module" src="https://unpkg.com/%40fluentui/web-components"></script>
 </body>
 </html>

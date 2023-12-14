@@ -1,7 +1,10 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
+*.env
+*.venv
+*.vscode
+*.vs
 /GBB.ConversationalKM/.vs/
 /LUISSchemaSerializationTool/.vs
 /LUISSchemaSerializationTool/LUISSchemaSerializationTool/bin
@@ -13,4 +16,9 @@
 /GBB.ConversationalKM.WebUI/.vs
 /GBB.ConversationalKM.WebUI/CognitiveSearch.UI/obj
 /GBB.ConversationalKM.WebUI/CognitiveSearch.UI/appsettings.Development.json
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/wwwroot/lib/bootstrap
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/wwwroot/lib/jquery
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/wwwroot/lib/jquery-validate
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/wwwroot/lib/jquery-validation-unobtrusive
+/GBB.ConversationalKM.WebUI/CognitiveSearch.UI/wwwroot/lib/moment
 /GBB.ConversationalKM.Python/.venv

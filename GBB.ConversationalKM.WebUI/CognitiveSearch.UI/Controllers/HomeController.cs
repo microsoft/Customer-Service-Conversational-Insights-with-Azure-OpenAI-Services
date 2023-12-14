@@ -1,14 +1,18 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
+using Azure.Search.Documents;
+using Azure.Search.Documents.Models;
+using CognitiveSearch.UI.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics;
 using System.Linq;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using CognitiveSearch.UI.Models;
-using Azure.Search.Documents.Models;
 
 namespace CognitiveSearch.UI.Controllers
 {
@@ -16,6 +20,7 @@ namespace CognitiveSearch.UI.Controllers
     {
         private IConfiguration _configuration { get; set; }
         private DocumentSearchClient _docSearch { get; set; }
+
         private string _configurationError { get; set; }
 
         public HomeController(IConfiguration configuration)
@@ -36,11 +41,6 @@ namespace CognitiveSearch.UI.Controllers
             }
         }
 
-        /// <summary>
-        /// Checks that the search client was intiailized successfully.
-        /// If not, it will add the error reason to the ViewBag alert.
-        /// </summary>
-        /// <returns>A value indicating whether the search client was initialized succesfully.</returns>
         public bool CheckDocSearchInitialized()
         {
             if (_docSearch == null)
@@ -53,20 +53,169 @@ namespace CognitiveSearch.UI.Controllers
             return true;
         }
 
+        private bool StringHasValue(string value)
+        {
+            var noValueMatches = new string[] { "n/a", "none", "", "not mentioned", "unknown", "no complaint", "no compliment" };
+            return !noValueMatches.Contains(value.ToLower());
+        }
+        public AggregateInsightViewModel GetCustomerSatisfactionInsights(DocumentResult documentResult)
+        {
+            var viewModel = new AggregateInsightViewModel();
+            var satisfiedCount = 0.0;
+            var unsatisfiedCount = 0.0;
+            var totalCount = 0.0;
+
+            // get satisfied values to determine percentage
+            try
+            {
+                // set the number of satisfied customers
+                var satisfied = documentResult.Facets
+                        .Where(x => x.key.ToLower() == "satisfied")
+                        .SelectMany(x => x.value)
+                        .Where(x => x.value.ToLower() == "yes")
+                        .Select(x=>x.count)
+                        .FirstOrDefault();
+
+                // calculate percentage by using total count from search
+                satisfiedCount = (double)satisfied.Value;
+               
+            } catch(Exception ex)
+            {
+                viewModel.KeyInsight1 = "n/a";
+            }
+
+            // get unsatisfied values to determine percentage
+            try
+            {
+                // set the number of unsatisfied customers
+                var unsatisfied = documentResult.Facets
+                        .Where(x => x.key.ToLower() == "satisfied")
+                        .SelectMany(x => x.value)
+                        .Where(x => x.value.ToLower() != "yes")// double check with design on if just not "no" or just "no"
+                        .Select(x => x.count)
+                        .FirstOrDefault();
+
+                // calculate percentage by using total count from search
+
+                unsatisfiedCount = (double)unsatisfied.Value;
+
+            }
+            catch (Exception ex)
+            {
+                viewModel.KeyInsight2 = "n/a";
+            }
+
+            // calculate percentages and set values to display
+            if (satisfiedCount + unsatisfiedCount > 0)
+            {
+                totalCount = satisfiedCount + unsatisfiedCount;
+
+                viewModel.KeyInsight1 = Math.Round(satisfiedCount / totalCount * 100, 1) + "%";
+                viewModel.KeyInsight2 = Math.Round(unsatisfiedCount / totalCount * 100, 1) + "%";
+            }
+
+            // set the top complaints from the search
+            try
+            {
+                viewModel.TopInsights = documentResult.Facets
+                    .Where(x => x.key.ToLower() == "complaint")
+                    .SelectMany(x => x.value)
+                    .Where(x => StringHasValue(x.value))
+                    .OrderByDescending(x => x.count)
+                    .Select(x => x.value)
+                    .Take(5)
+                    .ToList();
+
+            }
+            catch (Exception e)
+            {
+                viewModel.TopInsights.Add("n/a");
+            }
+
+
+            return viewModel;
+        }
+
+        public AggregateInsightViewModel GetCityInsights(DocumentResult documentResult)
+        {
+            var viewModel = new AggregateInsightViewModel();
+
+            // set the top origin city based on facet count
+            try
+            {
+                viewModel.KeyInsight1 = documentResult.Facets
+                    .Where(x => x.key.ToLower() == "origincity")
+                    .SelectMany(x => x.value)
+                    .Where(x => StringHasValue(x.value))
+                    .OrderByDescending(x => x.count)
+                    .Select(x => x.value)
+                    .Take(1)
+                    .FirstOrDefault();
+            }
+            catch (Exception ex) {
+                viewModel.KeyInsight1 = "n/a"; 
+            }
+
+            // set the top destination city based on facet count
+            try
+            {
+                viewModel.KeyInsight2 = documentResult.Facets
+                    .Where(x => x.key.ToLower() == "destinationcity")
+                    .SelectMany(x => x.value)
+                    .Where(x => StringHasValue(x.value))
+                    .OrderByDescending(x => x.count)
+                    .Select(x => x.value)
+                    .Take(1)
+                    .FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                viewModel.KeyInsight2 = "n/a";
+            }
+
+            // set the top hotels from compliments from the search
+            try
+            {
+                viewModel.TopInsights = documentResult.Facets
+                    .Where(x => x.key.ToLower() == "hotel")
+                    .SelectMany(x => x.value)
+                    .Where(x => StringHasValue(x.value))
+                    .OrderByDescending(x => x.count)
+                    .Select(x => x.value)
+                    .Take(5)
+                    .ToList();
+
+            }
+            catch (Exception e) {
+                viewModel.TopInsights.Add("n/a");
+            }
+
+            return viewModel;
+        }
+        
         public IActionResult Index()
         {
             CheckDocSearchInitialized();
 
-            return View();
+            var viewModel = SearchView(new SearchOptions
+            {
+                q = "",
+                // initialize searchFacets to empty array to avoid null reference errors
+                searchFacets = new SearchFacet[0],
+                currentPage = 1,
+                queryType = SearchQueryType.Full
+            });
+
+            return View("Search", viewModel);
         }
 
         public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            {
+                return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 
-        }
+            }
 
-        public IActionResult Search([FromQuery]string q, [FromQuery]string facets = "", [FromQuery]int page = 1, [FromQuery]string queryType = "Full")
+        public IActionResult Search([FromQuery]string q = "", [FromQuery]string facets = "", [FromQuery]int page = 1, [FromQuery]string queryType = "Full")
         {
             // Split the facets.
             //  Expected format: &facets=key1_val1,key1_val2,key2_val1
@@ -111,10 +260,10 @@ namespace CognitiveSearch.UI.Controllers
         }
 
         [HttpPost]
-        public SearchResultViewModel SearchView([FromForm]SearchOptions searchParams)
+        public SearchResultViewModel SearchView([FromForm] SearchOptions searchParams)
         {
             if (searchParams.q == null)
-                searchParams.q = "*";
+                searchParams.q = "";
             if (searchParams.searchFacets == null)
                 searchParams.searchFacets = new SearchFacet[0];
             if (searchParams.currentPage == 0)
@@ -125,9 +274,13 @@ namespace CognitiveSearch.UI.Controllers
             if (CheckDocSearchInitialized())
                 searchidId = _docSearch.GetSearchId().ToString();
 
+            // build aggregate insights
+            var documentResult = _docSearch.GetDocuments(searchParams.q, searchParams.searchFacets, searchParams.currentPage, searchParams.polygonString, searchParams.startDate, searchParams.endDate, searchParams.queryType);
+            
+            
             var viewModel = new SearchResultViewModel
             {
-                documentResult = _docSearch.GetDocuments(searchParams.q, searchParams.searchFacets, searchParams.currentPage, searchParams.polygonString, searchParams.startDate, searchParams.endDate, searchParams.queryType),
+                documentResult = documentResult,
                 query = searchParams.q,
                 selectedFacets = searchParams.searchFacets,
                 currentPage = searchParams.currentPage,
@@ -137,7 +290,9 @@ namespace CognitiveSearch.UI.Controllers
                 indexName = _configuration.GetSection("SearchIndexName")?.Value,
                 facetableFields = _docSearch.Model.Facets.Select(k => k.Name).ToArray(),
                 answer = "",
-                semanticEnabled = (_configuration.GetSection("SemanticConfiguration")?.Value != "")
+                semanticEnabled = !String.IsNullOrEmpty(_configuration.GetSection("SemanticConfiguration")?.Value),
+                Insight1 = GetCustomerSatisfactionInsights(documentResult),
+                Insight2 = GetCityInsights(documentResult)
             };
             viewModel.answer = viewModel.documentResult.Answer;
             viewModel.captions = viewModel.documentResult.Captions;

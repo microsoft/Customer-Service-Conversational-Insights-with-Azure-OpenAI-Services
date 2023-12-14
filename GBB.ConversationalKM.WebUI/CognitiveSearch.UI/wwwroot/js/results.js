@@ -200,7 +200,7 @@ function UpdateMap(data) {
 function UpdateResults(data, answer) {
     var resultsHtml = '';
 
-    $("#doc-count").html(` Available Results: ${data.count}`);
+    $("#doc-count").html(`<div id="results-title"><h4>Call summaries</h4><div id="disclaimer">AI-generated content may be incorrect</div></div>Showing ${data.results.length} of ${data.count} results`);
 
     if (data.answer !== undefined && data.answer !== null) {
 
@@ -340,22 +340,35 @@ function UpdateResults(data, answer) {
 
             if (pathLower.includes(".mp3") || pathLower.includes(".json") || pathLower.includes(".m4a")) {
                 previewAllContent = `
-                    <h5>${firstMessage?.Value}</h5>
-                    <b>${moment(document.StartTime).format("LLL")}</b>
-                    <h4>Summary: ${document.summary}</h4>
-                    <h4>Customer satisfied: ${document.satisfied}</h4>
-                    <div style="margin-top:10px;">${tags}</div>`
+                    
+                <div class="result-item-with-date">
+                    <div class="result-item">
+                        <img src="images/0394-ai-lightbulb-l-standard-96x96.png"/>
+                        <div class="result-item-text">
+                            <h5>Call summary</h5>
+                            <div>${document.summary}</div>
+                        </div>
+                        <div class="result-date">${moment(document.StartTime).format("LL<br>LT")}</div>
+                    </div>
+                </div>
+
+                <div class="result-item">
+                    <img src="images/0238-feedback-l-standard-96x96.png"/>
+                    <div class="result-item-text">
+                        <h5>Customer satisfaction</h5>
+                        <div>${document.satisfied}</div>
+                    </div>
+                </div>
+                <hr style="height:1px;border-width:0;background-color:#EDEBE9">
+                <div style="margin-top:10px;margin-bottom:20px;">${tags}</div>
+                <a href="#" onclick="ShowDocument('${id}', ${i + 1});">View more details</a>`
             }
 
             resultsHtml += `<div id="resultdiv${i}" class="${classList}" onclick="ShowDocument('${id}', ${i + 1});">
                                     <div class="search-result">
                                         ${imageContent}
-                                        <div class="results-icon col-md-1">
-                                            <div class="ms-CommandButton-icon">
-                                                <i class="html-icon ms-Icon ${icon}" style="font-size: 26px;"></i>
-                                            </div>
-                                        </div>
-                                        <div class="results-body col-md-11">
+
+                                        <div class="results-body">
                                             ${previewAllContent}
                                         </div>
                                     </div>
