@@ -20,12 +20,11 @@
       "provider": "cdnjs",
       "library": "jquery-validation-unobtrusive@4.0.0",
       "destination": "wwwroot/lib/jquery-validation-unobtrusive/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "moment.js@2.29.4",
+      "destination": "wwwroot/lib/moment/"
     }
-  ,
-{
-  "provider": "cdnjs",
-  "library": "moment.js@2.29.4",
-  "destination": "wwwroot/lib/moment/"
-}
-]
+  ]
 }
