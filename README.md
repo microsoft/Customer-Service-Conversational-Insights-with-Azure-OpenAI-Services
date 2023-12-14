@@ -88,11 +88,11 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 ### **How to install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
 
-1.  Follow the instructions [here](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal#edit-and-deploy-the-template) to create and deploy an ARM template. When you get to step 4 under Edit and deploy the template, paste in the contents of the latest deployment-template.json from our GitHub repo.
+1. Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
 
-2.  Create a new resource group with any name.
+   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frturknett%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2FreadMe-updates%2Finfrastructure%2FARM%2Fdeployment-template.json)
 
-3.  Most fields will have a default name set already. You will need to
+1.  Most fields will have a default name set already. You will need to
     update the following settings:
 
     -   OPENAI_API_BASE - the endpoint to your openai resource
@@ -102,13 +102,12 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
     -   OPENAI_DEPLOYMENT_NAME - this should be set to gpt-35-turbo
 
     -   OPENAI_MODEL_TYPE - this should be set to chat
+    -   ![image](/images/readMe/image3.png)
 
-![image](/images/readMe/image3.png)
-
-4.  Click \'review and create\' to start the deployment. The deployment
+1.  Click \'review and create\' to start the deployment. The deployment
     can take up to 15 minutes to complete.
 
-5.   When deployment is complete, launch the application by navigating to
+1.   When deployment is complete, launch the application by navigating to
     your Azure resource group, choosing the app service resource, and
     clicking on the default domain. You should bookmark this url to have
     quick access to your deployed application.
