@@ -276,7 +276,7 @@
         },
         "OPENAI_PROMPT_KEYS": {
             "type": "string",
-            "defaultValue": "summary:Edm.String:False,satisfied:Edm.String:True,OriginCity:Edm.String:False,DestinationCity:Edm.String:False, Complaint:Edm.String:False, Compliment:Edm.String:False,Hotel:Edm.String:False,Airline:Edm.String:False,AgentName:Edm.String:False",
+            "defaultValue": "summary:Edm.String:True,satisfied:Edm.String:True,OriginCity:Edm.String:True,DestinationCity:Edm.String:True, Complaint:Edm.String:True, Compliment:Edm.String:True,Hotel:Edm.String:True,Airline:Edm.String:True,AgentName:Edm.String:True",
             "metadata": {
                 "description": "The prompt keys to use for the OpenAI API. Format: key,SearchType,Facetable e.g. key1:Edm.String:False,key2:Edm.String:True,key3:Edm.String:True"
             }
