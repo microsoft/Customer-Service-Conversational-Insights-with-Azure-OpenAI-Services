@@ -90,7 +90,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 1. Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
 
-   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frturknett%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2FreadMe-updates%2Finfrastructure%2FARM%2Fdeployment-template.json)
+   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmaster%2Finfrastructure%2FARM%2Fdeployment-template.json)
 
 1.  Most fields will have a default name set already. You will need to
     update the following settings:
