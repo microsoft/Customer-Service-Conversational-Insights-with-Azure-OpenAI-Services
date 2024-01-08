@@ -115,8 +115,10 @@ We have a special behavior if you have a field called *translated_text*. The UI 
 
  ## 5. How do I run this locally?
   1. To run the UI locally you must install .NET Core 3.1 (NOTE: this
-        is not the latest version and must be installed explicitly)
-
+        is not the latest version and must be installed explicitly. Find the official .NET 3.1 download webpage at https://dotnet.microsoft.com/en-us/download/dotnet).
+        > Troubleshooting note:     
+          - Nuget installation of .NET dependencies are not a suitable replacement for this step.<br/>
+          - Errors will result from failing to select the .official NET SDK and runtime installation links that match the machine’s Operating System and System Type. Details on locating System Type (for Windows users) can be found at [32-bit (x86) and 64-bit (x64) Windows: Frequently asked questions](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
   2. Open the GBB.ConversationalKM.sln file in Visual Studio
 
   3. Click the play button with IIS
