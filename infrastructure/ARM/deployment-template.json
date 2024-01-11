@@ -275,7 +275,7 @@
         },
         "OPENAI_PROMPT_KEYS": {
             "type": "string",
-            "defaultValue": "summary:Edm.String:True,satisfied:Edm.String:True,OriginCity:Edm.String:True,DestinationCity:Edm.String:True, Complaint:Edm.String:True, Compliment:Edm.String:True,Hotel:Edm.String:True,Airline:Edm.String:True,AgentName:Edm.String:True",
+            "defaultValue": "summary:Edm.String:false,satisfied:Edm.String:True,OriginCity:Edm.String:True,DestinationCity:Edm.String:True, Complaint:Edm.String:True, Compliment:Edm.String:True,Hotel:Edm.String:True,Airline:Edm.String:True,AgentName:Edm.String:True",
             "metadata": {
                 "description": "The prompt keys to use for the OpenAI API. Format: key,SearchType,Facetable e.g. key1:Edm.String:False,key2:Edm.String:True,key3:Edm.String:True"
             }
@@ -756,7 +756,7 @@
             ],
             "properties": {
                 "siteConfig": {
-                    "linuxFxVersion": "DOCKER|cscicontainer.azurecr.io/csci-ui:latest"
+                    "linuxFxVersion": "DOCKER|fruoccopublic.azurecr.io/csci-ui:latest"
                 },
                 "name": "[parameters('webUiName')]",
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
