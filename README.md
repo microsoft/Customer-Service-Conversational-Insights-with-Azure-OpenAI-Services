@@ -23,8 +23,6 @@ This scenario shows how a data professional within a travel company contact
 center can use AI to quickly analyze call logs and analytics to identify areas 
 for improvement.
 
-[![Click here to view live demo](/images/readMe/Demo_Button.png)](https://cscilelulu-ui.azurewebsites.net/)
-
 **Key features**
 
 Azure Cognitive Search and Azure OpenAI can enable new and 
@@ -86,7 +84,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 ### Solution accelerator architecture
 ![image](/images/readMe/image4.png)
 
-### **How to install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
+### **How to install/deploy**
 
 1. Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
 
