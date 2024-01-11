@@ -84,7 +84,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 ### Solution accelerator architecture
 ![image](/images/readMe/image4.png)
 
-### **How to install/deploy** **[Conversation Knowledge Mining](https://github.com/rturknett/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)**
+### **How to install/deploy**
 
 1. Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
 
