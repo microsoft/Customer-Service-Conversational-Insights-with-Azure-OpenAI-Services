@@ -101,7 +101,7 @@ function EntityMapClick() {
         LoadEntityMap();
     }
     else {
-        UnloadEntityMap();
+        window.location.reload();
     }
 }
 

@@ -68,67 +68,6 @@ function RemoveFilter(facet, value) {
 }
 
 // Facets
-function UpdateFacets() {
-    $("#facet-nav").html("");
-
-    facets.sort((a, b) => a.key.localeCompare(b.key));
-
-    var facetResultsHTML = `<div class="panel-group" id="accordion">`;
-    facets.forEach(function (item, index, array) {
-        var name = item.key;
-        var data = item.value;
-
-        if (data !== null && data.length > 0) {
-
-            var title = name.replace(/([A-Z])/g, ' $1').replace(/^./, function (str) { return str.toUpperCase(); })
-
-            if (title == "Metadata_storage_file_extension") {
-                title = "File Extension"
-            }
-
-            if (title == "Metadata_author") {
-                title = "File Author";
-            }
-
-            title = title.replace("_clean", "");
-
-            facetResultsHTML += `<div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title" id="${name}-facets">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#${name}">${title}</a>
-                                    </h4>
-                                </div>`;
-            if (index === 0) {
-                facetResultsHTML += `<div id="${name}" class="panel-collapse collapse in">
-                <div class="panel-body panel-scroll">`;
-            }
-            else {
-                facetResultsHTML += `<div id="${name}" class="panel-collapse collapse">
-                <div class="panel-body panel-scroll">`;
-            }
-
-            if (data !== null) {
-                for (var j = 0; j < data.length; j++) {
-                    if (data[j].value.toString().length < 100) {
-                        facetResultsHTML += `<div class="ms-CheckBox">
-                                            <input tabindex="-1" type="checkbox" class="ms-CheckBox-input" onclick="ChooseFacet('${name}','${data[j].value}', '${j}');">
-                                            <label id="${name}_${j}" role="checkbox" class="ms-CheckBox-field" tabindex="0" aria-checked="false" name="checkboxa">
-                                                <span class="ms-Label">${data[j].value} (${data[j].count})</span> 
-                                            </label>
-                                        </div>`;
-                    }
-                }
-            }
-
-            facetResultsHTML += `</div>
-                        </div>
-                    </div>`;
-        }
-    });
-    facetResultsHTML += `</div>`;
-    $("#facet-nav").append(facetResultsHTML);
-
-}
 
 function UpdateAccordion() {
     $("#facet-nav").html("");
@@ -141,7 +80,7 @@ function UpdateAccordion() {
         var name = item.key;
         var data = item.value;
 
-        if (data !== null && data.length > 0) {
+        if (data !== null) {
 
             var title = name.replace(/([A-Z])/g, ' $1').replace(/^./, function (str) { return str.toUpperCase(); })
 
@@ -154,13 +93,6 @@ function UpdateAccordion() {
             }
 
             title = title.replace("_clean", "");
-
-            //facetResultsHTML += `<div class="panel panel-default">
-            //                    <div class="panel-heading">
-            //                        <h4 class="panel-title" id="${name}-facets">
-            //                            <a data-toggle="collapse" data-parent="#accordion" href="#${name}">${title}</a>
-            //                        </h4>
-            //                    </div>`;
 
             facetResultsHTML += `<div class="accordion-item" style="border-radius:0px;">
                                     <h4 class="accordion-header" id="${name}-facets">
