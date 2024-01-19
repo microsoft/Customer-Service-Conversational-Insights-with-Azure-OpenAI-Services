@@ -30,7 +30,8 @@ namespace CognitiveSearch.UI.Controllers
         {
             var model = new CustomizeViewModel
             {
-                NavBar = await ReadCssColorProperties("navbar")
+                NavBar = await ReadCssColorProperties("navbar"),
+                LogoUploadDisclaimer = _appConfig.UploadDisclaimer
             };
             return View(model);
         }

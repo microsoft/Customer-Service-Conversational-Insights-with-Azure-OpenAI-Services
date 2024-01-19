@@ -20,9 +20,15 @@
                         <label>Select a text color</label>
                         <input name="navbar-text" type="color" value="@Model.NavBar.TextColor" />
                         <br />
-                        <label>Select an image to use as the NavBar logo (only support .png)</label>
+                    <label>Select an image to use as the NavBar logo (only support .png).<br /></label>           
+                    <br/>
                         <input name="file" type="file" />
-                    </div>
+                    <br />
+                    @if (!String.IsNullOrEmpty(Model.LogoUploadDisclaimer))
+                    {
+                        <strong>@Model.LogoUploadDisclaimer</strong>
+                    }
+                </div>
                     <br />
                     <input type="submit" value="Save NavBar Settings" class="btn btn-primary" />
                 </form>
