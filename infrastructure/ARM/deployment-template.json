@@ -756,7 +756,7 @@
             ],
             "properties": {
                 "siteConfig": {
-                    "linuxFxVersion": "DOCKER|ckmuicontainer.azurecr.io/csci-ui:latest"
+                    "linuxFxVersion": "DOCKER|fruoccopublic.azurecr.io/csci-ui:latest"
                 },
                 "name": "[parameters('webUiName')]",
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
