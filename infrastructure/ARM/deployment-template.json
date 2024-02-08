@@ -423,6 +423,9 @@
                     "TextAnalyticsKey": {
                         "value": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]"
                     },
+                    "TextAnalyticsEndpoint": {
+                        "value": "[parameters('location')]"
+                    },
                     "SentimentAnalysis": {
                         "value": "[parameters('speechSentimentAnalysis')]"
                     },
