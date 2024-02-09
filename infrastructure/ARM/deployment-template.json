@@ -423,8 +423,8 @@
                     "TextAnalyticsKey": {
                         "value": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]"
                     },
-                    "TextAnalyticsRegion": {
-                        "value": "[parameters('location')]"
+                    "TextAnalyticsEndpoint": {
+                        "value": "[concat('https://', parameters('location'), '.api.cognitive.microsoft.com/')]"
                     },
                     "SentimentAnalysis": {
                         "value": "[parameters('speechSentimentAnalysis')]"
