@@ -19,19 +19,19 @@ jobs:
       uses: Azure/docker-login@v1
       with:
         # Container registry username
-        username: ${{ secrets.ACR_USERNAME }}
+        username: ${{ secrets.DEMO_USERNAME }}
         # Container registry password
-        password: ${{ secrets.ACR_PASSWORD }}
+        password: ${{ secrets.DEMO_PASSWORD }}
         # Container registry server url
-        login-server: ${{ secrets.ACR_LOGIN_SERVER }}
+        login-server: ${{ secrets.DEMO_LOGIN_SERVER }}
         
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: 
         cd "GBB.ConversationalKM.WebUI";
-        docker pull ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui-dev:latest || true;
-        docker build . --file Docker/Dockerfile --cache-from ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui-dev:latest --tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui-dev:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
-        docker tag ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui-dev:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui-dev:latest;
-        docker push ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui-dev:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
-        docker push ${{ secrets.ACR_LOGIN_SERVER }}/csci-ui-dev:latest
+        docker pull ${{ secrets.DEMO_LOGIN_SERVER }}/ckm-ui-dev:latest || true;
+        docker build . --file Docker/Dockerfile --cache-from ${{ secrets.DEMO_LOGIN_SERVER }}/ckm-ui-dev:latest --tag ${{ secrets.DEMO_LOGIN_SERVER }}/ckm-ui-dev:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
+        docker tag ${{ secrets.DEMO_LOGIN_SERVER }}/ckm-ui-dev:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER ${{ secrets.DEMO_LOGIN_SERVER }}/ckm-ui-dev:latest;
+        docker push ${{ secrets.DEMO_LOGIN_SERVER }}/ckm-ui-dev:$(date +'%Y-%m-%d')_$GITHUB_RUN_NUMBER;
+        docker push ${{ secrets.DEMO_LOGIN_SERVER }}/ckm-ui-dev:latest
         
