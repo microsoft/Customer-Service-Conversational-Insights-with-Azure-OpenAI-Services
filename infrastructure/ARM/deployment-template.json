@@ -2,6 +2,16 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
+        "openAIFunctionName":{
+            "type": "string"
+        },
+        "newOrExistingOpenAIResource":{
+            "type": "string",
+            "allowedValues" : [
+                "new",
+                "existing"
+            ]
+        },
         "resourceGroupName": {
             "defaultValue": "[resourceGroup().name]",
             "type": "string"
@@ -286,7 +296,6 @@
         }
     },
     "variables": {
-        "openAIFunctionName": "[concat(parameters('functionName'),'-openai')]",
         "clientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]"
     },
     "resources": [
@@ -810,6 +819,7 @@
             }
         },
         {
+            "condition": "[equals(parameters('newOrExistingOpenAIResource'), 'new')]",
             "apiVersion": "2018-11-01",
             "name": "[parameters('openAIFunctionName')]",
             "type": "Microsoft.Web/sites",
