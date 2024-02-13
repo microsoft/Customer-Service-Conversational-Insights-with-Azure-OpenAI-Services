@@ -704,7 +704,7 @@
             "kind": "string",
             "dependsOn": [
                 "[resourceId('Microsoft.Web/sites', parameters('functionName'))]",
-                "[resourceId('Microsoft.Web/sites', variables('openAIFunctionName'))]",
+                "[resourceId('Microsoft.Web/sites', parameters('openAIFunctionName'))]",
                 "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
             ],
             "properties": {
@@ -736,7 +736,7 @@
                 "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/master/infrastructure/deploy/csci-audio-dep.zip",
                 "function_name": "[parameters('functionName')]",
                 "function_key": "[variables('clientKey')]",
-                "openai_function_name": "[variables('openAIFunctionName')]",
+                "openai_function_name": "[parameters('openAIFunctionName')]",
                 "openai_function_key": "[variables('clientKey')]",
                 "deployment_type": "audio",
                 "OPENAI_PROMPT_KEYS": "[parameters('OPENAI_PROMPT_KEYS')]",
@@ -799,9 +799,9 @@
         {
             "type": "Microsoft.Web/sites/host/functionKeys",
             "apiVersion": "2018-11-01",
-            "name": "[concat(variables('openAIFunctionName'), '/default/clientKey')]",
+            "name": "[concat(parameters('openAIFunctionName'), '/default/clientKey')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', variables('openAIFunctionName'))]",
+                "[resourceId('Microsoft.Web/sites', parameters('openAIFunctionName'))]",
                 "WaitFunctionDeploymentSection"
             ],
             "properties": {
@@ -811,7 +811,7 @@
         },
         {
             "apiVersion": "2018-11-01",
-            "name": "[variables('openAIFunctionName')]",
+            "name": "[parameters('openAIFunctionName')]",
             "type": "Microsoft.Web/sites",
             "kind": "functionapp,linux",
             "location": "[resourceGroup().location]",
@@ -822,7 +822,7 @@
                 "[concat('Microsoft.ServiceBus/namespaces/', parameters('serviceBusName'))]"
             ],
             "properties": {
-                "name": "[variables('openAIFunctionName')]",
+                "name": "[parameters('openAIFunctionName')]",
                 "siteConfig": {
                     "appSettings": [
                         {
@@ -930,7 +930,7 @@
             "name": "WaitFunctionDeploymentSection",
             "location": "[resourceGroup().location]",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', variables('openAIFunctionName'))]"
+                "[resourceId('Microsoft.Web/sites', parameters('openAIFunctionName'))]"
             ],
             "properties": {
                 "azPowerShellVersion": "3.0",
