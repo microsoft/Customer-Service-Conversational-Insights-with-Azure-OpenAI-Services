@@ -10,7 +10,7 @@
       "defaultValue": "[resourceGroup().location]",
       "type": "string"
     },
-    "newOrExisting": {
+    "newOrExistingOpenAIResource": {
       "type": "string",
       "defaultValue": "existing",
       "allowedValues": [
@@ -20,7 +20,7 @@
     },
     "cognitiveServicesApiVersion": {
       "type": "string",
-      "defaultValue": "[if(equals(parameters('newOrExisting'), 'new'), '2021-10-01', '2017-04-18')]"
+      "defaultValue": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'), '2021-10-01', '2017-04-18')]"
     },
     "AzureOpenAIGPTModel": {
       "type": "string",
@@ -94,9 +94,9 @@
     },
     "cognitiveServiceName": {
       "type": "string",
-      "defaultValue": "[if(equals(parameters('newOrExisting'), 'new'), concat(variables('prefix'), substring(uniqueString(resourceGroup().id),0,6), '-open-ai-account-new-', uniqueString(resourceGroup().id)), concat(variables('prefix'), 'openaiaccount-existing'))]",
+      "defaultValue": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'), concat(variables('prefix'), substring(uniqueString(resourceGroup().id),0,6), '-open-ai-account-new-', uniqueString(resourceGroup().id)), concat(variables('prefix'), 'openaiaccount-existing'))]",
       "metadata": {
-        "description": "The name of the Cognitive Service. If 'newOrExisting' is 'new', this will be the name of the new Azure OpenAI resource. If 'newOrExisting' is 'existing', this will be a unique string based on the resource group's ID."
+        "description": "The name of the Cognitive Service. If 'newOrExistingOpenAIResource' is 'new', this will be the name of the new Azure OpenAI resource. If 'newOrExistingOpenAIResource' is 'existing', this will be a unique string based on the resource group's ID."
       }
     },
     "speechServiceName": {
@@ -366,7 +366,7 @@
       "type": "Microsoft.CognitiveServices/accounts",
       "apiVersion": "2021-10-01",
       "name": "[parameters('cognitiveServiceName')]",
-      "location": "[parameters('Location')]",
+      "location": "[parameters('location')]",
       "kind": "OpenAI",
       "sku": {
         "name": "S0"
@@ -377,12 +377,12 @@
       "identity": {
         "type": "SystemAssigned"
       },
-      "condition": "[equals(parameters('newOrExisting'), 'new')]"
+      "condition": "[equals(parameters('newOrExistingOpenAIResource'), 'new')]"
     },
     {
       "type": "Microsoft.CognitiveServices/accounts/deployments",
       "apiVersion": "2023-05-01",
-      "name": "[format('{0}/{1}', parameters('cognitiveServiceName'), parameters('AzureOpenAIGPTModelName'))]",
+      "name": "[format('{0}/{1}', parameters('cognitiveServiceName'), parameters('OPENAI_DEPLOYMENT_NAME'))]",
       "properties": {
         "model": {
           "format": "OpenAI",
@@ -397,7 +397,7 @@
       "dependsOn": [
         "[resourceId('Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName'))]"
       ],
-      "condition": "[equals(parameters('newOrExisting'), 'new')]"
+      "condition": "[equals(parameters('newOrExistingOpenAIResource'), 'new')]"
     },
     {
       "type": "Microsoft.ServiceBus/namespaces",
@@ -472,7 +472,9 @@
       "properties": {
         "statisticsEnabled": false
       },
-      "condition": "[equals(parameters('newOrExisting'), 'existing')]"
+      "condition": "[equals(parameters('newOrExistingOpenAIResource'), 'existing')]",
+      "comments": "This resource represents a Cognitive Services account. ."
+
     },
     {
       "type": "Microsoft.CognitiveServices/accounts",
@@ -827,7 +829,7 @@
         "profanity_lang": "eng",
         "cognitive_services_region": "[parameters('location')]",
         "table_sample_data": "botconvevals",
-        "cognitive_services_key": "[if(equals(parameters('newOrExisting'), 'new'), listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), parameters('cognitiveServicesApiVersion')).key1, parameters('OPENAI_API_KEY'))]",
+        "cognitive_services_key": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'), listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), parameters('cognitiveServicesApiVersion')).key1, parameters('OPENAI_API_KEY'))]",
         "search_account": "[parameters('searchServicesName')]",
         "search_api_key": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
         "search_api_version": "2021-04-30-preview",
@@ -961,11 +963,11 @@
             },
             {
               "name": "OPENAI_API_BASE",
-              "value": "[if(equals(parameters('newOrExisting'), 'new'), concat('https://',parameters('cognitiveServiceName'),'.openai.azure.com/'), parameters('OPENAI_API_BASE'))]"
+              "value": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'), concat('https://',parameters('cognitiveServiceName'),'.openai.azure.com/'), parameters('OPENAI_API_BASE'))]"
             },
             {
               "name": "OPENAI_API_KEY",
-              "value": "[if(equals(parameters('newOrExisting'), 'new'), listKeys(resourceId('Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2023-05-01').key1, parameters('OPENAI_API_KEY'))]"
+              "value": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'), listKeys(resourceId('Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2023-05-01').key1, parameters('OPENAI_API_KEY'))]"
             },
             {
               "name": "OPENAI_DEPLOYMENT_NAME",
