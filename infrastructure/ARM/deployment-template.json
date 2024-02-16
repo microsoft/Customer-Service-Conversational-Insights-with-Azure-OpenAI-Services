@@ -12,6 +12,7 @@
     },
     "newOrExisting": {
       "type": "string",
+      "defaultValue": "new",
       "allowedValues": [
         "new",
         "existing"
@@ -100,8 +101,11 @@
     },
     "cognitiveServiceName": {
       "type": "string",
-      "defaultValue": "[if(equals(parameters('newOrExisting'), 'new'), parameters('NewAzureOpenAIResource'), concat('csci', substring(uniqueString(resourceGroup().id),0,6)))]"
-    },
+      "defaultValue": "[if(equals(parameters('newOrExisting'), 'new'), parameters('NewAzureOpenAIResource'), concat('csci', substring(uniqueString(resourceGroup().id),0,6)))]",
+      "metadata": {
+        "description": "The name of the Cognitive Service. If 'newOrExisting' is 'new', this will be the name of the new Azure OpenAI resource. If 'newOrExisting' is 'existing', this will be a unique string based on the resource group's ID."
+      }
+    }
     "speechServiceName": {
       "type": "string",
       "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), 'speech')]"
@@ -350,20 +354,20 @@
   },
   "variables": {
     "openAIFunctionName": "[concat(parameters('functionName'),'-openai-function')]",
-    "clientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]",
+    "clientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]"
   },
   "resources": [
     {
       "type": "Microsoft.CognitiveServices/accounts",
       "apiVersion": "2021-10-01",
-      "name": "[parameters('NewAzureOpenAIResource')]",
+      "name": "[parameters('cognitiveServiceName')]",
       "location": "[parameters('Location')]",
       "kind": "OpenAI",
       "sku": {
         "name": "S0"
       },
       "properties": {
-        "customSubDomainName": "[parameters('NewAzureOpenAIResource')]"
+        "customSubDomainName": "[parameters('cognitiveServiceName')]",
       },
       "identity": {
         "type": "SystemAssigned"
@@ -819,7 +823,7 @@
         "cognitive_services_region": "[parameters('location')]",
         "table_sample_data": "botconvevals",
         "cognitive_services_key": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), parameters('cognitiveServicesApiVersion')).key1]",
-        "search_account": "[parameters('searchServicesName')",
+        "search_account": "[parameters('searchServicesName')]",
         "search_api_key": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
         "search_api_version": "2021-04-30-preview",
         "search_data_source": "[parameters('storageAccountName')]",
