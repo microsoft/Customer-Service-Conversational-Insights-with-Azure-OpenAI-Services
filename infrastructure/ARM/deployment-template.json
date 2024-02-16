@@ -283,6 +283,17 @@
         "description": "The name of the OpenAI deployment to use"
       }
     },
+    "OPENAI_MODEL_TYPE": {
+      "type": "string",
+      "defaultValue": "chat",
+      "allowedValues": [
+        "chat",
+        "text"
+      ],
+      "metadata": {
+        "description": "Use chat for Chat completion models (like gpt-35-turbo) or text for Text completion models (like text-davinci-003)"
+      }
+    },
     "OPENAI_TEMPERATURE": {
       "type": "string",
       "defaultValue": "0.7",
@@ -1003,6 +1014,10 @@
             {
               "name": "AZURE_SEARCH_API_VERSION",
               "value": "2021-04-30-preview"
+            },
+            {
+              "name": "OPENAI_MODEL_TYPE",
+              "value": "[parameters('OPENAI_MODEL_TYPE')]"
             },
             {
               "name": "AZURE_OPENAI_MODEL",
