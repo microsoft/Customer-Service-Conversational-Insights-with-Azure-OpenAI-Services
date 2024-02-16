@@ -10,18 +10,18 @@
       "defaultValue": "[resourceGroup().location]",
       "type": "string"
     },
-    "webUiDockerImageReference": {
+    "webUIDockerImageReference": {
       "type": "string",
       "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-ui-dev:latest",
       "metadata": {
-        "description": "The reference to the Docker image for the Linux App Service Plan"
+        "description": "The reference to the WebUI Docker image for the Linux App Service Plan"
       }
     },
-    "openAiFunctionDockerImageReference": {
+    "openAIFunctionDockerImageReference": {
       "type": "string",
       "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-acs-oai-async:latest",
       "metadata": {
-        "description": "The reference to the Docker image for the Linux App Service Plan"
+        "description": "The reference to the OpenAI Function Docker image for the Linux App Service Plan"
       }
     },
     "storageAccountName": {
@@ -771,7 +771,7 @@
       ],
       "properties": {
         "siteConfig": {
-          "linuxFxVersion": "[parameters('webUiDockerImageReference')]"
+          "linuxFxVersion": "[parameters('webUIDockerImageReference')]"
         },
         "name": "[parameters('webUiName')]",
         "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
@@ -928,7 +928,7 @@
           },
           "use32BitWorkerProcess": false,
           "ftpsState": "FtpsOnly",
-          "linuxFxVersion": "[parameters('openAiFunctionDockerImageReference')]",
+          "linuxFxVersion": "[parameters('openAIFunctionDockerImageReference')]",
           "appCommandLine": "",
           "alwaysOn": true
         },
