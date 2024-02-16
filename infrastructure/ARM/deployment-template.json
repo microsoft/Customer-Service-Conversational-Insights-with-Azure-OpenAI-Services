@@ -10,11 +10,22 @@
       "defaultValue": "[resourceGroup().location]",
       "type": "string"
     },
-    "AzureOpenAIResource": {
+    "useExistingOrNewOpenAIAccount": {
       "type": "string",
-      "defaultValue": "[format('{0}oai', 'ckm')]",
+      "allowedValues": [
+        "existing",
+        "new"
+      ]
+    },
+    "cognitiveServicesApiVersion": {
+      "type": "string",
+      "defaultValue": "[if(equals(parameters('useExistingOrNewOpenAIAccount'), 'new'), '2021-10-01', '2017-04-18')]"
+    },
+    "NewAzureOpenAIResource": {
+      "type": "string",
+      "defaultValue": "[concat(resourceGroup().name, '-open-ai-account')]",
       "metadata": {
-        "description": "Name of Azure OpenAI Resource"
+        "description": "Name of New Azure OpenAI Resource to be created if an existing one is not selected instead."
       }
     },
     "AzureOpenAIGPTModel": {
@@ -64,19 +75,19 @@
       }
     },
     "storageAccountName": {
-      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]",
+      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-storage')]",
       "type": "String"
     },
     "functionName": {
-      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]",
+      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-function')]",
       "type": "String"
     },
     "searchServicesName": {
-      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]",
+      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-search')]",
       "type": "String"
     },
     "applicationInsightsName": {
-      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]",
+      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-applicationInsights')]",
       "type": "String"
     },
     "webUiName": {
@@ -89,7 +100,7 @@
     },
     "cognitiveServiceName": {
       "type": "string",
-      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6))]"
+      "defaultValue": "[if(equals(parameters('useExistingOrNewOpenAIAccount'), 'new'), parameters('NewAzureOpenAIResource'), concat('csci', substring(uniqueString(resourceGroup().id),0,6)))]"
     },
     "speechServiceName": {
       "type": "string",
@@ -275,16 +286,6 @@
         "description": "The name of the OpenAI deployment to use"
       }
     },
-    "OPENAI_MODEL_TYPE": {
-      "type": "string",
-      "allowedValues": [
-        "chat",
-        "text"
-      ],
-      "metadata": {
-        "description": "Use chat for Chat completion models (like gpt-35-turbo) or text for Text completion models (like text-davinci-003)"
-      }
-    },
     "OPENAI_TEMPERATURE": {
       "type": "string",
       "defaultValue": "0.7",
@@ -348,30 +349,32 @@
     }
   },
   "variables": {
-    "openAIFunctionName": "[concat(parameters('functionName'),'-openai')]",
-    "clientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]"
+    "openAIFunctionName": "[concat(parameters('functionName'),'-openai-function')]",
+    "clientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]",
+    "cognitiveServicesKey": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), parameters('cognitiveServicesApiVersion')).key1]"
   },
   "resources": [
     {
       "type": "Microsoft.CognitiveServices/accounts",
       "apiVersion": "2021-10-01",
-      "name": "[parameters('AzureOpenAIResource')]",
+      "name": "[parameters('NewAzureOpenAIResource')]",
       "location": "[parameters('Location')]",
       "kind": "OpenAI",
       "sku": {
         "name": "S0"
       },
       "properties": {
-        "customSubDomainName": "[parameters('AzureOpenAIResource')]"
+        "customSubDomainName": "[parameters('NewAzureOpenAIResource')]"
       },
       "identity": {
         "type": "SystemAssigned"
-      }
+      },
+      "condition": "[equals(parameters('useExistingOrNewOpenAIAccount'), 'new')]"
     },
     {
       "type": "Microsoft.CognitiveServices/accounts/deployments",
       "apiVersion": "2023-05-01",
-      "name": "[format('{0}/{1}', parameters('AzureOpenAIResource'), parameters('AzureOpenAIGPTModelName'))]",
+      "name": "[format('{0}/{1}', parameters('NewAzureOpenAIResource'), parameters('AzureOpenAIGPTModelName'))]",
       "properties": {
         "model": {
           "format": "OpenAI",
@@ -384,8 +387,9 @@
         "capacity": 30
       },
       "dependsOn": [
-        "[resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource'))]"
-      ]
+        "[resourceId('Microsoft.CognitiveServices/accounts', parameters('NewAzureOpenAIResource'))]"
+      ],
+      "condition": "[equals(parameters('useExistingOrNewOpenAIAccount'), 'new')]"
     },
     {
       "type": "Microsoft.ServiceBus/namespaces",
@@ -459,7 +463,8 @@
       "kind": "CognitiveServices",
       "properties": {
         "statisticsEnabled": false
-      }
+      },
+      "condition": "[equals(parameters('useExistingOrNewOpenAIAccount'), 'existing')]"
     },
     {
       "type": "Microsoft.CognitiveServices/accounts",
@@ -518,7 +523,7 @@
             "value": "[parameters('speechAddWordLevelTimestamps')]"
           },
           "TextAnalyticsKey": {
-            "value": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]"
+            "value": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), parameters('cognitiveServicesApiVersion')).key1]"
           },
           "TextAnalyticsEndpoint": {
             "value": "[concat('https://', parameters('location'), '.api.cognitive.microsoft.com/')]"
@@ -814,8 +819,8 @@
         "profanity_lang": "eng",
         "cognitive_services_region": "[parameters('location')]",
         "table_sample_data": "botconvevals",
-        "cognitive_services_key": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]",
-        "search_account": "[parameters('searchServicesName')]",
+        "cognitive_services_key": "[variables('cognitiveServicesKey')]",
+        "search_account": "[parameters('searchServicesName')",
         "search_api_key": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
         "search_api_version": "2021-04-30-preview",
         "search_data_source": "[parameters('storageAccountName')]",
@@ -948,11 +953,11 @@
             },
             {
               "name": "OPENAI_API_BASE",
-              "value": "[if(equals(parameters('authType'), 'keys'), concat('https://',parameters('AzureOpenAIResource'),'.openai.azure.com/'), parameters('OPENAI_API_BASE'))]"
+              "value": "[if(equals(parameters('useExistingOrNewOpenAIAccount'), 'new'), concat('https://',parameters('NewAzureOpenAIResource'),'.openai.azure.com/'), parameters('OPENAI_API_BASE'))]"
             },
             {
               "name": "OPENAI_API_KEY",
-              "value": "[if(equals(parameters('authType'), 'keys'), listKeys(resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource')), '2023-05-01').key1, parameters('OPENAI_API_KEY'))]"
+              "value": "[if(equals(parameters('useExistingOrNewOpenAIAccount'), 'new'), listKeys(resourceId('Microsoft.CognitiveServices/accounts', parameters('NewAzureOpenAIResource')), '2023-05-01').key1, parameters('OPENAI_API_KEY'))]"
             },
             {
               "name": "OPENAI_DEPLOYMENT_NAME",
@@ -1003,10 +1008,6 @@
               "value": "2021-04-30-preview"
             },
             {
-              "name": "OPENAI_MODEL_TYPE",
-              "value": "[parameters('OPENAI_MODEL_TYPE')]"
-            },
-            {
               "name": "AZURE_OPENAI_MODEL",
               "value": "[parameters('AzureOpenAIGPTModel')]"
             },
@@ -1017,7 +1018,7 @@
             {
               "name": "ORCHESTRATION_STRATEGY",
               "value": "[parameters('OrchestrationStrategy')]"
-            },
+            }
           ],
           "cors": {
             "allowedOrigins": [
