@@ -351,7 +351,6 @@
   "variables": {
     "openAIFunctionName": "[concat(parameters('functionName'),'-openai-function')]",
     "clientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]",
-    "cognitiveServicesKey": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), parameters('cognitiveServicesApiVersion')).key1]"
   },
   "resources": [
     {
@@ -819,7 +818,7 @@
         "profanity_lang": "eng",
         "cognitive_services_region": "[parameters('location')]",
         "table_sample_data": "botconvevals",
-        "cognitive_services_key": "[variables('cognitiveServicesKey')]",
+        "cognitive_services_key": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), parameters('cognitiveServicesApiVersion')).key1]",
         "search_account": "[parameters('searchServicesName')",
         "search_api_key": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
         "search_api_version": "2021-04-30-preview",
