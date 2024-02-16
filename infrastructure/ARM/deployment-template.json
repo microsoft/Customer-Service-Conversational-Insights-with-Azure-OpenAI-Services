@@ -19,7 +19,7 @@
     },
     "openAiFunctionDockerImageReference": {
       "type": "string",
-      "defaultValue": "DOCKER|fruocco/acs-oai-async:latest",
+      "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-acs-oai-async:latest",
       "metadata": {
         "description": "The reference to the Docker image for the Linux App Service Plan"
       }
