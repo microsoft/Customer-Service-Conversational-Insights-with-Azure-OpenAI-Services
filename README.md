@@ -102,6 +102,8 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
     -   OPENAI_MODEL_TYPE - this should be set to chat
     -   ![image](/images/readMe/image3.png)
 
+1.  Optionally, you may also update the **Web UI Docker Image Reference** and the **OpenAI Function Docker Image Reference** to point to your own container images instead of the images that we host (this would be necessary if you want to test your own changes to the Web UI or OpenAI Function code).
+ 
 1.  Click \'review and create\' to start the deployment. The deployment
     can take up to 15 minutes to complete.
 
