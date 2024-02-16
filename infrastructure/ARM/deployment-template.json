@@ -10,6 +10,34 @@
       "defaultValue": "[resourceGroup().location]",
       "type": "string"
     },
+    "AzureOpenAIResource": {
+      "type": "string",
+      "defaultValue": "[format('{0}oai', 'ckm')]",
+      "metadata": {
+        "description": "Name of Azure OpenAI Resource"
+      }
+    },
+    "AzureOpenAIGPTModel": {
+      "type": "string",
+      "defaultValue": "gpt-35-turbo",
+      "metadata": {
+        "description": "Azure OpenAI GPT Model Deployment Name"
+      }
+    },
+    "AzureOpenAIGPTModelName": {
+      "type": "string",
+      "defaultValue": "gpt-35-turbo",
+      "metadata": {
+        "description": "Azure OpenAI GPT Model Name"
+      }
+    },
+    "AzureOpenAIGPTModelVersion": {
+      "type": "string",
+      "defaultValue": "0613",
+      "metadata": {
+        "description": "Azure OpenAI GPT Model Version"
+      }
+    },
     "webUiDockerImageReference": {
       "type": "string",
       "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-ui-dev:latest",
@@ -22,6 +50,17 @@
       "defaultValue": "DOCKER|fruocco/acs-oai-async:latest",
       "metadata": {
         "description": "The reference to the Docker image for the Linux App Service Plan"
+      }
+    },
+    "OrchestrationStrategy": {
+      "type": "string",
+      "allowedValues": [
+        "openai_function",
+        "langchain"
+      ],
+      "defaultValue": "openai_function",
+      "metadata": {
+        "description": "Orchestration strategy: openai_function or langchain str. If you use a old version of turbo (0301), plese select langchain. Otherwise this value should be openai_function."
       }
     },
     "storageAccountName": {
@@ -298,6 +337,14 @@
     "newGuid": {
       "type": "string",
       "defaultValue": "[newGuid()]"
+    },
+    "authType": {
+      "type": "string",
+      "defaultValue": "keys",
+      "allowedValues": [
+        "keys",
+        "rbac"
+      ]
     }
   },
   "variables": {
@@ -305,6 +352,41 @@
     "clientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]"
   },
   "resources": [
+    {
+      "type": "Microsoft.CognitiveServices/accounts",
+      "apiVersion": "2021-10-01",
+      "name": "[parameters('AzureOpenAIResource')]",
+      "location": "[parameters('Location')]",
+      "kind": "OpenAI",
+      "sku": {
+        "name": "S0"
+      },
+      "properties": {
+        "customSubDomainName": "[parameters('AzureOpenAIResource')]"
+      },
+      "identity": {
+        "type": "SystemAssigned"
+      }
+    },
+    {
+      "type": "Microsoft.CognitiveServices/accounts/deployments",
+      "apiVersion": "2023-05-01",
+      "name": "[format('{0}/{1}', parameters('AzureOpenAIResource'), parameters('AzureOpenAIGPTModelName'))]",
+      "properties": {
+        "model": {
+          "format": "OpenAI",
+          "name": "[parameters('AzureOpenAIGPTModel')]",
+          "version": "[parameters('AzureOpenAIGPTModelVersion')]"
+        }
+      },
+      "sku": {
+        "name": "Standard",
+        "capacity": 30
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource'))]"
+      ]
+    },
     {
       "type": "Microsoft.ServiceBus/namespaces",
       "apiVersion": "2018-01-01-preview",
@@ -861,12 +943,16 @@
               "value": "[listKeys(resourceId('Microsoft.ServiceBus/namespaces/AuthorizationRules', parameters('serviceBusName'),'RootManageSharedAccessKey'),'2015-08-01').primaryConnectionString]"
             },
             {
+              "name": "AZURE_AUTH_TYPE",
+              "value": "[parameters('authType')]"
+            },
+            {
               "name": "OPENAI_API_BASE",
-              "value": "[parameters('OPENAI_API_BASE')]"
+              "value": "[if(equals(parameters('authType'), 'keys'), concat('https://',parameters('AzureOpenAIResource'),'.openai.azure.com/'), parameters('OPENAI_API_BASE'))]"
             },
             {
               "name": "OPENAI_API_KEY",
-              "value": "[parameters('OPENAI_API_KEY')]"
+              "value": "[if(equals(parameters('authType'), 'keys'), listKeys(resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource')), '2023-05-01').key1, parameters('OPENAI_API_KEY'))]"
             },
             {
               "name": "OPENAI_DEPLOYMENT_NAME",
@@ -919,7 +1005,19 @@
             {
               "name": "OPENAI_MODEL_TYPE",
               "value": "[parameters('OPENAI_MODEL_TYPE')]"
-            }
+            },
+            {
+              "name": "AZURE_OPENAI_MODEL",
+              "value": "[parameters('AzureOpenAIGPTModel')]"
+            },
+            {
+              "name": "AZURE_OPENAI_MODEL_NAME",
+              "value": "[parameters('AzureOpenAIGPTModelName')]"
+            },
+            {
+              "name": "ORCHESTRATION_STRATEGY",
+              "value": "[parameters('OrchestrationStrategy')]"
+            },
           ],
           "cors": {
             "allowedOrigins": [
