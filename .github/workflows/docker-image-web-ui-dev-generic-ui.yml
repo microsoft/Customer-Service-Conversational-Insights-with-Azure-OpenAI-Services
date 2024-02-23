@@ -1,4 +1,4 @@
-name: DEV WebUI Docker Image CI
+name: DEV WebUI Docker Image CI Generic Demo
 
 on:
   push:
