@@ -331,63 +331,63 @@
     },
     "UiInsight1TopField": {
       "type": "string",
-      "defaultValue": ["complaint"],
+      "defaultValue": "complaint",
       "metadata": {
         "description": "The key field used to display top insights on left tile in UI."
       }
     },
     "UiInsight1TopFieldLabel": {
       "type": "string",
-      "defaultValue": ["Top 5 negative customer complaint trends"],
+      "defaultValue": "Top 5 negative customer complaint trends",
       "metadata": {
         "description": "The key field label used to display top insights on left tile in UI."
       }
     },
     "UiInsight2KeyField1": {
       "type": "string",
-      "defaultValue": ["origincity"],
+      "defaultValue": "origincity",
       "metadata": {
         "description": "The key field used to display Key insights 2 on right tile in UI."
       }
     },
     "UiInsight2KeyField1Label": {
       "type": "string",
-      "defaultValue": ["Origin City"],
+      "defaultValue": "Origin City",
       "metadata": {
         "description": "The key field label used to display Key insights 2 label on right tile in UI."
       }
     },
     "UiInsight2KeyField2": {
       "type": "string",
-      "defaultValue": ["destinationcity"],
+      "defaultValue": "destinationcity",
       "metadata": {
         "description": "The key field used to display Key insights 2 on right tile in UI."
       }
     },
     "UiInsight2KeyField2Label": {
       "type": "string",
-      "defaultValue": ["Destination City"],
+      "defaultValue": "Destination City",
       "metadata": {
         "description": "The key field label used to display Key insights 2 label on right tile in UI."
       }
     },
     "UiInsight2TopField": {
       "type": "string",
-      "defaultValue": ["hotel"],
+      "defaultValue": "hotel",
       "metadata": {
         "description": "The key field used to display top insights on right tile in UI."
       }
     },
     "UiInsight2TopFieldLabel": {
       "type": "string",
-      "defaultValue": ["Top 5 mentioned hotels"],
+      "defaultValue": "Top 5 mentioned hotels",
       "metadata": {
         "description": "The key field label used to display top insights on right tile in UI."
       }
     },
     "UiInsights2Title": {
       "type": "string",
-      "defaultValue": ["Top discussed cities"],
+      "defaultValue": "Top discussed cities",
       "metadata": {
         "description": "The title of key insights 2 on right tile in UI."
       }
