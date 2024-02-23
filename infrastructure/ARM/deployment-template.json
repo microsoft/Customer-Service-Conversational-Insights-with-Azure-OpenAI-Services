@@ -12,7 +12,7 @@
     },
     "webUiDockerImageReference": {
       "type": "string",
-      "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-ui-dev:latest",
+      "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-ui-dev-generic:latest",
       "metadata": {
         "description": "The reference to the Docker image for the Linux App Service Plan"
       }
