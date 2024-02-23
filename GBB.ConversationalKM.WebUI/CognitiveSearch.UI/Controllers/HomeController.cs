@@ -65,6 +65,11 @@ namespace CognitiveSearch.UI.Controllers
             var unsatisfiedCount = 0.0;
             var totalCount = 0.0;
 
+            string insight1TopField = _configuration.GetSection("Insight1TopField")?.Value;
+            string insight1TopFieldLabel = _configuration.GetSection("Insight1TopFieldLabel").Value;
+
+            viewModel.TopInsightsLabel = insight1TopFieldLabel;
+
             // get satisfied values to determine percentage
             try
             {
@@ -118,7 +123,7 @@ namespace CognitiveSearch.UI.Controllers
             try
             {
                 viewModel.TopInsights = documentResult.Facets
-                    .Where(x => x.key.ToLower() == "complaint")
+                    .Where(x => x.key.ToLower() == insight1TopField)
                     .SelectMany(x => x.value)
                     .Where(x => StringHasValue(x.value))
                     .OrderByDescending(x => x.count)
@@ -136,15 +141,33 @@ namespace CognitiveSearch.UI.Controllers
             return viewModel;
         }
 
-        public AggregateInsightViewModel GetCityInsights(DocumentResult documentResult)
+        public AggregateInsightViewModel GetInsights2(DocumentResult documentResult)
         {
             var viewModel = new AggregateInsightViewModel();
 
-            // set the top origin city based on facet count
+            string insight2KeyField1 = _configuration.GetSection("Insight2KeyField1")?.Value;
+            string insight2KeyField1Label  = _configuration.GetSection("Insight2KeyField1Label")?.Value;
+            string insight2KeyField2 = _configuration.GetSection("Insight2KeyField2")?.Value;
+            string insight2KeyField2Label = _configuration.GetSection("Insight2KeyField2Label")?.Value;
+            string insight2TopField = _configuration.GetSection("Insight2TopField")?.Value;
+            string insight2TopFieldLabel = _configuration.GetSection("Insight2TopFieldLabel")?.Value;
+            string insights2TitleLabel = _configuration.GetSection("Insights2Title")?.Value;
+
+
+
+            //set Insight labels
+
+            viewModel.Insights2Title = insights2TitleLabel;
+            viewModel.KeyInsight1Label = insight2KeyField1Label;
+            viewModel.KeyInsight2Label = insight2KeyField2Label;
+            viewModel.TopInsightsLabel = insight2TopFieldLabel;
+
+
+            // set keyinsight1 based on facet count
             try
             {
                 viewModel.KeyInsight1 = documentResult.Facets
-                    .Where(x => x.key.ToLower() == "origincity")
+                    .Where(x => x.key.ToLower() == insight2KeyField1)
                     .SelectMany(x => x.value)
                     .Where(x => StringHasValue(x.value))
                     .OrderByDescending(x => x.count)
@@ -160,7 +183,7 @@ namespace CognitiveSearch.UI.Controllers
             try
             {
                 viewModel.KeyInsight2 = documentResult.Facets
-                    .Where(x => x.key.ToLower() == "destinationcity")
+                    .Where(x => x.key.ToLower() == insight2KeyField2)
                     .SelectMany(x => x.value)
                     .Where(x => StringHasValue(x.value))
                     .OrderByDescending(x => x.count)
@@ -177,7 +200,7 @@ namespace CognitiveSearch.UI.Controllers
             try
             {
                 viewModel.TopInsights = documentResult.Facets
-                    .Where(x => x.key.ToLower() == "hotel")
+                    .Where(x => x.key.ToLower() == insight2TopField)
                     .SelectMany(x => x.value)
                     .Where(x => StringHasValue(x.value))
                     .OrderByDescending(x => x.count)
@@ -292,7 +315,7 @@ namespace CognitiveSearch.UI.Controllers
                 answer = "",
                 semanticEnabled = !String.IsNullOrEmpty(_configuration.GetSection("SemanticConfiguration")?.Value),
                 Insight1 = GetCustomerSatisfactionInsights(documentResult),
-                Insight2 = GetCityInsights(documentResult)
+                Insight2 = GetInsights2(documentResult)
             };
             viewModel.answer = viewModel.documentResult.Answer;
             viewModel.captions = viewModel.documentResult.Captions;
