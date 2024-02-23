@@ -328,6 +328,69 @@
         "keys",
         "rbac"
       ]
+    },
+    "UiInsight1TopField": {
+      "type": "string",
+      "defaultValue": ["complaint"],
+      "metadata": {
+        "description": "The key field used to display top insights on left tile in UI."
+      }
+    },
+    "UiInsight1TopFieldLabel": {
+      "type": "string",
+      "defaultValue": ["Top 5 negative customer complaint trends"],
+      "metadata": {
+        "description": "The key field label used to display top insights on left tile in UI."
+      }
+    },
+    "UiInsight2KeyField1": {
+      "type": "string",
+      "defaultValue": ["origincity"],
+      "metadata": {
+        "description": "The key field used to display Key insights 2 on right tile in UI."
+      }
+    },
+    "UiInsight2KeyField1Label": {
+      "type": "string",
+      "defaultValue": ["Origin City"],
+      "metadata": {
+        "description": "The key field label used to display Key insights 2 label on right tile in UI."
+      }
+    },
+    "UiInsight2KeyField2": {
+      "type": "string",
+      "defaultValue": ["destinationcity"],
+      "metadata": {
+        "description": "The key field used to display Key insights 2 on right tile in UI."
+      }
+    },
+    "UiInsight2KeyField2Label": {
+      "type": "string",
+      "defaultValue": ["Destination City"],
+      "metadata": {
+        "description": "The key field label used to display Key insights 2 label on right tile in UI."
+      }
+    },
+    "UiInsight2TopField": {
+      "type": "string",
+      "defaultValue": ["hotel"],
+      "metadata": {
+        "description": "The key field used to display top insights on right tile in UI."
+      }
+    },
+    "UiInsight2TopFieldLabel": {
+      "type": "string",
+      "defaultValue": ["Top 5 mentioned hotels"],
+      "metadata": {
+        "description": "The key field label used to display top insights on right tile in UI."
+      }
+    },
+    "UiInsights2Title": {
+      "type": "string",
+      "defaultValue": ["Top discussed cities"],
+      "metadata": {
+        "description": "The title of key insights 2 on right tile in UI."
+      }
     }
   },
   "variables": {
@@ -865,15 +928,15 @@
               "StorageContainerAddress2": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/conversationkm-full')]",
               "KeyField": "metadata_storage_path",
               "IsPathBase64Encoded": true,
-              "Insight1TopField": "complaint",
-              "Insight1TopFieldLabel": "Top 5 negative customer complaint trends",
-              "Insight2KeyField1": "origincity",
-              "Insight2KeyField1Label": "Origin City",
-              "Insight2KeyField2": "destinationcity",
-              "Insight2KeyField2Label": "Destination City",
-              "Insight2TopField": "hotel",
-              "Insight2TopFieldLabel": "Top 5 mentioned hotels",
-              "Insights2Title": "Top discussed cities"
+              "Insight1TopField": "[parameters('UiInsight1TopField')]",
+              "Insight1TopFieldLabel": "[parameters('UiInsight1TopFieldLabel')]",
+              "Insight2KeyField1": "[parameters('UiInsight2KeyField1')]",
+              "Insight2KeyField1Label": "[parameters('UiInsight2KeyField1Label')]",
+              "Insight2KeyField2": "[parameters('UiInsight2KeyField2')]",
+              "Insight2KeyField2Label": "[parameters('UiInsight2KeyField2Label')]",
+              "Insight2TopField": "[parameters('UiInsight2TopField')]",
+              "Insight2TopFieldLabel": "[parameters('UiInsight2TopFieldLabel')]",
+              "Insights2Title": "[parameters('UiInsights2Title')]"
           }
       },
       {
