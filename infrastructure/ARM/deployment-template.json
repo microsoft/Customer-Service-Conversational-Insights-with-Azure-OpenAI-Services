@@ -225,7 +225,7 @@
     },
     "AzureOpenAIResource": {
       "type": "string",
-      "defaultValue": "OpenAI",
+      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-openai')]",
       "metadata": {
         "description": "The name of the Azure OpenAI resource"
       }
@@ -935,11 +935,11 @@
                 },
                 {
                   "name": "OPENAI_API_BASE",
-                  "value": "[parameters('OPENAI_API_BASE')]"
+                  "value": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'), reference(resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource')), '2021-04-30').properties.endpoint, parameters('OPENAI_API_BASE'))]"
                 },
                 {
                   "name": "OPENAI_API_KEY",
-                  "value": "[parameters('OPENAI_API_KEY')]"
+                  "value": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'),listKeys(resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource')), '2021-04-30').key1, parameters('OPENAI_API_KEY'))]"
                 },
                 {
                   "name": "OPENAI_DEPLOYMENT_NAME",
