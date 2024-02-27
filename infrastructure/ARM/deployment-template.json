@@ -903,7 +903,9 @@
           "dependsOn": [
               "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]",
               "[concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountName'))]",
-              "[concat('Microsoft.ServiceBus/namespaces/', parameters('serviceBusName'))]"
+              "[concat('Microsoft.ServiceBus/namespaces/', parameters('serviceBusName'))]",
+              "[resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource'))]"
+
           ],
           "properties": {
               "name": "[variables('openAIFunctionName')]",
