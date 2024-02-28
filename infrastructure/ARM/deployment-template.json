@@ -935,7 +935,7 @@
                 },
                 {
                   "name": "OPENAI_API_BASE",
-                  "value": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'), reference(resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource')), '2021-04-30').properties.endpoint, parameters('OPENAI_API_BASE'))]"
+                  "value": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'), reference(resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource')), '2021-04-30').endpoint, parameters('OPENAI_API_BASE'))]"
                 },
                 {
                   "name": "OPENAI_API_KEY",
