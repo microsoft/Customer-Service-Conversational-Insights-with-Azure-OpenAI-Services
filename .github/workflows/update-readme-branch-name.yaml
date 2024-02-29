@@ -1,0 +1,26 @@
+name: Update README with Branch Name
+
+on: push
+  branches:
+    - '*'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Update README
+        run: |
+          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+          sed -i "s|https://raw.githubusercontent.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/CURRENT_BRANCH/infrastructure/ARM/deployment-template.json|https://raw.githubusercontent.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/$BRANCH_NAME/infrastructure/ARM/deployment-template.json|g" README.md
+
+
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README with current branch name" || exit 0  # Exit gracefully if no changes
+          git push
