@@ -221,7 +221,10 @@
       "allowedValues": [
         "new",
         "existing"
-      ]
+      ],
+      "metadata": {
+                "description": "Specifies whether to create a new Azure Open AI resource or use an existing one within the deployment."
+            }
     },
     "AzureOpenAIResource": {
       "type": "string",
