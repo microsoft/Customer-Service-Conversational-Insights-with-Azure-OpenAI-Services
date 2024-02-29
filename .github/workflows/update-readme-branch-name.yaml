@@ -1,7 +1,7 @@
 name: Update README with Branch Name
 
 on: push
-  branches:
+    branches:
     - '*'
 
 jobs:
