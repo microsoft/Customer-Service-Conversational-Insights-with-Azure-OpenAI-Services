@@ -90,8 +90,9 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmaster%2Finfrastructure%2FARM%2Fdeployment-template.json)
 
-1.  Most fields will have a default name set already. You will need to
+2.  Most fields will have a default name set already. You will need to
     update the following settings:
+    Azure OpenAI related fields:
 
     -   OPENAI_API_BASE - the endpoint to your openai resource
 
@@ -99,13 +100,25 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
     -   OPENAI_DEPLOYMENT_NAME - this should be set to gpt-35-turbo
 
-    -   OPENAI_MODEL_TYPE - this should be set to chat
-    -   ![image](/images/readMe/image3.png)
+    -   OPENAI_MODEL_TYPE - this should be set to chat\
+        ![image](/images/readMe/image3.png)
+    -   newOrExistingOpenAIResource - Determines whether to create a new Azure Open AI resource or use an existing on within the deployment. \
 
-1.  Click \'review and create\' to start the deployment. The deployment
+        - **existing**: Select this option if you already have an Azure Open AI resource that you want to use. You will need to provide your own Azure OpenAI configuration information.
+            - OPENAI_API_BASE
+            - OPENAI_API_KEY
+            - OPENAI_DEPLOYMENT_NAME
+        - **new**:      Choose this option if you want to create a new Azure Open AI resource as part of this deployment. The template will provision a new resource with the specified configuration settings. With this option, no need to populate the OPENAI_API_BASE, OPEN_API_KEY_OPENAI_DEPLOYMENT_NAME fields.
+  
+        **Note:** The default value for this field is existing.\
+        
+        ![image of new or existing OpenAI resource field](image.png)
+        
+
+3.  Click \'review and create\' to start the deployment. The deployment
     can take up to 15 minutes to complete.
 
-1.   When deployment is complete, launch the application by navigating to
+4.   When deployment is complete, launch the application by navigating to
     your Azure resource group, choosing the app service resource, and
     clicking on the default domain. You should bookmark this url to have
     quick access to your deployed application.
