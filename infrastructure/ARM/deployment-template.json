@@ -217,7 +217,7 @@
     },
     "newOrExistingOpenAIResource": {
       "type": "string",
-      "defaultValue": "new",
+      "defaultValue": "existing",
       "allowedValues": [
         "new",
         "existing"
