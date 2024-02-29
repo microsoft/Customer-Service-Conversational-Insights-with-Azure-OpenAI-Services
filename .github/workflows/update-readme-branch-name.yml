@@ -1,8 +1,9 @@
 name: Update README with Branch Name
 
-on: push
+on:
+  push:
     branches:
-    - 'brittneek'
+    - '*'
 
 jobs:
   update-readme:
