@@ -1,6 +1,6 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-    "contentVersion": "1.0.0.0",
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
   "parameters": {
     "resourceGroupName": {
       "defaultValue": "[resourceGroup().name]",
@@ -10,18 +10,18 @@
       "defaultValue": "[resourceGroup().location]",
       "type": "string"
     },
-    "webUiDockerImageReference": {
+    "webUIDockerImageReference": {
       "type": "string",
       "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-ui-dev:latest",
       "metadata": {
-        "description": "The reference to the Docker image for the Linux App Service Plan"
+        "description": "The reference to the WebUI Docker image for the Linux App Service Plan"
       }
     },
-    "openAiFunctionDockerImageReference": {
+    "openAIFunctionDockerImageReference": {
       "type": "string",
       "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-acs-oai-async:latest",
       "metadata": {
-        "description": "The reference to the Docker image for the Linux App Service Plan"
+        "description": "The reference to the OpenAI Function Docker image for the Linux App Service Plan"
       }
     },
     "storageAccountName": {
