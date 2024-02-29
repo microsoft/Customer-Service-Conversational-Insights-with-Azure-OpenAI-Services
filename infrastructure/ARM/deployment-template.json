@@ -225,7 +225,7 @@
     },
     "AzureOpenAIResource": {
       "type": "string",
-      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-openai')]",
+      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-azure-oai')]",
       "metadata": {
         "description": "The name of the Azure OpenAI resource"
       }
@@ -356,7 +356,7 @@
   {
     "type": "Microsoft.CognitiveServices/accounts/deployments",
     "apiVersion": "2023-05-01",
-    "name": "[concat(parameters('AzureOpenAIResource'), '/', parameters('OPENAI_DEPLOYMENT_NAME'), '-deployment')]",
+    "name": "[concat(parameters('AzureOpenAIResource'), '/', parameters('OPENAI_DEPLOYMENT_NAME'))]",
     "properties": {
       "model": {
         "format": "OpenAI",
