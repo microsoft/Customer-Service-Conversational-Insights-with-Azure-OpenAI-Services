@@ -47,7 +47,7 @@ One-click deploy
 
 These requirements must be met before the solution accelerator is installed.
 
--   Azure OpenAI resource with a deployed model that has the following
+-   If you would like to use an **existing** OpenAI resource in your Azure tenant (instead of opting to create a new one), you'll need an Azure OpenAI resource with a deployed model that has the following
     settings:
 
     -   Model: gpt-35-turbo
@@ -90,7 +90,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmaster%2Finfrastructure%2FARM%2Fdeployment-template.json)
 
-2.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:\:
+2.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:
 
     -   newOrExistingOpenAIResource - Determines whether to create a new Azure Open AI resource or use an existing resource within the deployment. 
         - **existing**: Select this option if you already have an Azure Open AI resource that you want to use.
@@ -318,7 +318,7 @@ Click save to apply the updates.
 </br>
 Customer truth
 </h2>
-Customer stories coming soon. For early access, contact: fabrizio.ruocco@microsoft.com
+Customer stories coming soon. For early access, contact: nfelton@microsoft.com
 
 <br/>
 <br/>
