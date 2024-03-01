@@ -215,6 +215,31 @@
         "description": "The name of the Service Bus namespace to use."
       }
     },
+    "newOrExistingOpenAIResource": {
+      "type": "string",
+      "defaultValue": "existing",
+      "allowedValues": [
+        "new",
+        "existing"
+      ],
+      "metadata": {
+                "description": "Specifies whether to create a new Azure Open AI resource or use an existing one within the deployment."
+            }
+    },
+    "AzureOpenAIResource": {
+      "type": "string",
+      "defaultValue": "[concat('csci', substring(uniqueString(resourceGroup().id),0,6), '-azure-oai')]",
+      "metadata": {
+        "description": "The name of the Azure OpenAI resource"
+      }
+    },
+    "AzureOpenAIGPTModelVersion": {
+      "type": "string",
+      "defaultValue": "0301",
+      "metadata": {
+        "description": "Azure OpenAI GPT Model Version"
+      }
+    },
     "OPENAI_API_BASE": {
       "type": "string",
       "defaultValue": "https://YOUR_OPENAI_RESOURCE_NAME.openai.azure.com/",
@@ -298,661 +323,712 @@
     "newGuid": {
       "type": "string",
       "defaultValue": "[newGuid()]"
+    },
+    "authType": {
+      "type": "string",
+      "defaultValue": "keys",
+      "allowedValues": [
+        "keys",
+        "rbac"
+      ]
     }
   },
   "variables": {
-    "openAIFunctionName": "[concat(parameters('functionName'),'-openai')]",
-    "clientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]"
+      "openAIFunctionName": "[concat(parameters('functionName'),'-openai')]",
+      "clientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]"
   },
   "resources": [
-    {
-      "type": "Microsoft.ServiceBus/namespaces",
-      "apiVersion": "2018-01-01-preview",
-      "name": "[parameters('ServiceBusName')]",
-      "location": "[resourceGroup().location]",
-      "sku": {
-        "name": "Standard",
-        "tier": "Standard"
-      },
-      "properties": {
-        "zoneRedundant": false
+  {
+    "type": "Microsoft.CognitiveServices/accounts",
+    "apiVersion": "2021-10-01",
+    "name": "[parameters('AzureOpenAIResource')]",
+    "location": "[parameters('location')]",
+    "kind": "OpenAI",
+    "sku": {
+      "name": "S0"
+    },
+    "properties": {
+      "customSubDomainName": "[parameters('AzureOpenAIResource')]"
+    },
+    "identity": {
+      "type": "SystemAssigned"
+    },
+    "condition": "[equals(parameters('newOrExistingOpenAIResource'), 'new')]",
+    "comments": "Creates a new resource for the Azure 'OpenAI' Service."
+  },
+  {
+    "type": "Microsoft.CognitiveServices/accounts/deployments",
+    "apiVersion": "2023-05-01",
+    "name": "[concat(parameters('AzureOpenAIResource'), '/', parameters('OPENAI_DEPLOYMENT_NAME'))]",
+    "properties": {
+      "model": {
+        "format": "OpenAI",
+        "name": "[parameters('OPENAI_DEPLOYMENT_NAME')]",
+        "version": "[parameters('AzureOpenAIGPTModelVersion')]"
       }
     },
-    {
-      "type": "Microsoft.ServiceBus/namespaces/queues",
-      "apiVersion": "2017-04-01",
-      "name": "[concat(parameters('ServiceBusName'), '/openai_queue')]",
-      "location": "[resourceGroup().location]",
-      "dependsOn": [
-        "[resourceId('Microsoft.ServiceBus/namespaces', parameters('ServiceBusName'))]"
-      ],
-      "properties": {
-        "lockDuration": "PT4M",
-        "maxSizeInMegabytes": 5120,
-        "requiresDuplicateDetection": false,
-        "requiresSession": false,
-        "defaultMessageTimeToLive": "P10675199DT2H48M5.4775807S",
-        "deadLetteringOnMessageExpiration": false,
-        "enableBatchedOperations": false,
-        "duplicateDetectionHistoryTimeWindow": "PT10M",
-        "maxDeliveryCount": 1,
-        "status": "Active",
-        "autoDeleteOnIdle": "P10675199DT2H48M5.4775807S",
-        "enablePartitioning": false,
-        "enableExpress": false
-      }
+    "sku": {
+      "name": "Standard",
+      "capacity": 30
     },
-    {
-      "type": "Microsoft.ServiceBus/namespaces/queues",
-      "apiVersion": "2017-04-01",
-      "name": "[concat(parameters('ServiceBusName'), '/openai_results_queue')]",
-      "location": "[resourceGroup().location]",
-      "dependsOn": [
-        "[resourceId('Microsoft.ServiceBus/namespaces', parameters('ServiceBusName'))]"
-      ],
-      "properties": {
-        "lockDuration": "PT4M",
-        "maxSizeInMegabytes": 5120,
-        "requiresDuplicateDetection": false,
-        "requiresSession": false,
-        "defaultMessageTimeToLive": "P10675199DT2H48M5.4775807S",
-        "deadLetteringOnMessageExpiration": false,
-        "enableBatchedOperations": false,
-        "duplicateDetectionHistoryTimeWindow": "PT10M",
-        "maxDeliveryCount": 1,
-        "status": "Active",
-        "autoDeleteOnIdle": "P10675199DT2H48M5.4775807S",
-        "enablePartitioning": false,
-        "enableExpress": false
-      }
-    },
-    {
-      "type": "Microsoft.CognitiveServices/accounts",
-      "apiVersion": "2017-04-18",
-      "name": "[parameters('cognitiveServiceName')]",
-      "location": "[parameters('location')]",
-      "sku": {
-        "name": "S0"
-      },
-      "kind": "CognitiveServices",
-      "properties": {
-        "statisticsEnabled": false
-      }
-    },
-    {
-      "type": "Microsoft.CognitiveServices/accounts",
-      "apiVersion": "2021-04-30",
-      "name": "[parameters('speechServiceName')]",
-      "location": "[parameters('location')]",
-      "kind": "SpeechServices",
-      "sku": {
-        "name": "S0"
-      },
-      "properties": {}
-    },
-    {
-      "type": "Microsoft.Resources/deployments",
-      "apiVersion": "2021-04-01",
-      "name": "linkedTemplate",
-      "dependsOn": [
-        "[resourceId('Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName'))]",
-        "[resourceId('Microsoft.CognitiveServices/accounts', parameters('speechServiceName'))]"
-      ],
-      "properties": {
-        "mode": "Incremental",
-        "templateLink": {
-          "uri": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-speech-sdk/master/samples/ingestion/ingestion-client/Setup/ArmTemplateBatch.json",
-          "contentVersion": "1.0.0.0"
-        },
-        "parameters": {
-          "StorageAccount": {
-            "value": "[parameters('storageAccountName')]"
+    "dependsOn": [
+      "[resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource'))]"
+    ],
+    "condition": "[equals(parameters('newOrExistingOpenAIResource'), 'new')]",
+    "comments": "Deploys the OpenAI model ('kind OpenAI') to the Azure Cognitive Services account."
+  },
+      {
+          "type": "Microsoft.ServiceBus/namespaces",
+          "apiVersion": "2018-01-01-preview",
+          "name": "[parameters('ServiceBusName')]",
+          "location": "[resourceGroup().location]",
+          "sku": {
+              "name": "Standard",
+              "tier": "Standard"
           },
-          "Locale": {
-            "value": "[parameters('speechAudioLocale')]"
-          },
-          "CustomModelId": {
-            "value": "[parameters('speechCustomModelId')]"
-          },
-          "AzureSpeechServicesKey": {
-            "value": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('speechServiceName')), '2017-04-18').key1]"
-          },
-          "AzureSpeechServicesRegion": {
-            "value": "[parameters('location')]"
-          },
-          "CustomEndpoint": {
-            "value": "[parameters('speechCustomEndpoint')]"
-          },
-          "ProfanityFilterMode": {
-            "value": "[parameters('speechProfanityFilterMode')]"
-          },
-          "PunctuationMode": {
-            "value": "[parameters('speechPunctuationMode')]"
-          },
-          "AddDiarization": {
-            "value": "[parameters('speechAddDiarization')]"
-          },
-          "AddWordLevelTimestamps": {
-            "value": "[parameters('speechAddWordLevelTimestamps')]"
-          },
-          "TextAnalyticsKey": {
-            "value": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]"
-          },
-          "TextAnalyticsEndpoint": {
-            "value": "[concat('https://', parameters('location'), '.api.cognitive.microsoft.com/')]"
-          },
-          "SentimentAnalysis": {
-            "value": "[parameters('speechSentimentAnalysis')]"
-          },
-          "PiiRedaction": {
-            "value": "[parameters('speechPiiRedaction')]"
-          },
-          "SqlAdministratorLogin": {
-            "value": "[parameters('speechSqlAdministratorLogin')]"
-          },
-          "SqlAdministratorLoginPassword": {
-            "value": "[parameters('speechSqlAdministratorLoginPassword')]"
-          },
-          "DeploymentId": {
-            "value": "[parameters('speechDeploymentId')]"
+          "properties": {
+              "zoneRedundant": false
           }
-        }
-      }
-    },
-    {
-      "type": "Microsoft.Search/searchServices",
-      "apiVersion": "2021-04-01-preview",
-      "name": "[parameters('searchServicesName')]",
-      "location": "[parameters('location')]",
-      "sku": {
-        "name": "standard"
       },
-      "properties": {
-        "replicaCount": 1,
-        "partitionCount": 1,
-        "hostingMode": "Default",
-        "publicNetworkAccess": "Enabled",
-        "networkRuleSet": {
-          "ipRules": [],
-          "bypass": "None"
-        },
-        "encryptionWithCmk": {
-          "enforcement": "Unspecified"
-        },
-        "disableLocalAuth": false,
-        "authOptions": {
-          "apiKeyOnly": {}
-        },
-        "disabledDataExfiltrationOptions": [],
-        "semanticSearch": "disabled"
-      }
-    },
-    {
-      "type": "Microsoft.Storage/storageAccounts",
-      "apiVersion": "2021-08-01",
-      "name": "[parameters('storageAccountName')]",
-      "location": "[parameters('location')]",
-      "sku": {
-        "name": "Standard_RAGRS",
-        "tier": "Standard"
-      },
-      "kind": "StorageV2",
-      "properties": {
-        "defaultToOAuthAuthentication": false,
-        "allowCrossTenantReplication": true,
-        "minimumTlsVersion": "TLS1_2",
-        "allowBlobPublicAccess": true,
-        "allowSharedKeyAccess": true,
-        "networkAcls": {
-          "bypass": "AzureServices",
-          "virtualNetworkRules": [],
-          "ipRules": [],
-          "defaultAction": "Allow"
-        },
-        "supportsHttpsTrafficOnly": true,
-        "encryption": {
-          "requireInfrastructureEncryption": false,
-          "services": {
-            "file": {
-              "keyType": "Account",
-              "enabled": true
-            },
-            "blob": {
-              "keyType": "Account",
-              "enabled": true
-            }
-          },
-          "keySource": "Microsoft.Storage"
-        },
-        "accessTier": "Hot"
-      }
-    },
-    {
-      "type": "Microsoft.Storage/storageAccounts/blobServices",
-      "apiVersion": "2021-08-01",
-      "name": "[concat(parameters('storageAccountName'), '/default')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
-      ],
-      "sku": {
-        "name": "Standard_RAGRS",
-        "tier": "Standard"
-      },
-      "properties": {
-        "changeFeed": {
-          "enabled": false
-        },
-        "restorePolicy": {
-          "enabled": false
-        },
-        "containerDeleteRetentionPolicy": {
-          "enabled": true,
-          "days": 7
-        },
-        "cors": {
-          "corsRules": []
-        },
-        "deleteRetentionPolicy": {
-          "enabled": true,
-          "days": 7
-        },
-        "isVersioningEnabled": false
-      }
-    },
-    {
-      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
-      "apiVersion": "2021-08-01",
-      "name": "[concat(parameters('storageAccountName'), '/default/scm-releases')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccountName'), 'default')]",
-        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
-      ],
-      "properties": {
-        "immutableStorageWithVersioning": {
-          "enabled": false
-        },
-        "defaultEncryptionScope": "$account-encryption-key",
-        "denyEncryptionScopeOverride": false,
-        "publicAccess": "None"
-      }
-    },
-    {
-      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
-      "apiVersion": "2021-08-01",
-      "name": "[concat(parameters('storageAccountName'), '/default/conversationkm-full')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccountName'), 'default')]",
-        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
-      ],
-      "properties": {
-        "immutableStorageWithVersioning": {
-          "enabled": false
-        },
-        "defaultEncryptionScope": "$account-encryption-key",
-        "denyEncryptionScopeOverride": false,
-        "publicAccess": "None"
-      }
-    },
-    {
-      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
-      "apiVersion": "2021-08-01",
-      "name": "[concat(parameters('storageAccountName'), '/default/conversationkm-raw')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccountName'), 'default')]",
-        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
-      ],
-      "properties": {
-        "immutableStorageWithVersioning": {
-          "enabled": false
-        },
-        "defaultEncryptionScope": "$account-encryption-key",
-        "denyEncryptionScopeOverride": false,
-        "publicAccess": "None"
-      }
-    },
-    {
-      "type": "Microsoft.Insights/components",
-      "apiVersion": "2020-02-02",
-      "name": "[parameters('applicationInsightsName')]",
-      "location": "[parameters('location')]",
-      "tags": {
-        "[concat('hidden-link:', resourceId('Microsoft.Web/sites', parameters('applicationInsightsName')))]": "Resource"
-      },
-      "properties": {
-        "Application_Type": "web"
-      },
-      "kind": "web"
-    },
-    {
-      "apiVersion": "2020-06-01",
-      "name": "[parameters('hostingPlanName')]",
-      "type": "Microsoft.Web/serverfarms",
-      "location": "[parameters('location')]",
-      "properties": {
-        "name": "[parameters('hostingPlanName')]",
-        "workerSizeId": "1",
-        "reserved": true,
-        "numberOfWorkers": "1"
-      },
-      "sku": {
-        "Tier": "Standard",
-        "Name": "S1"
-      },
-      "kind": "linux"
-    },
-    {
-      "type": "Microsoft.Web/sites",
-      "apiVersion": "2021-03-01",
-      "name": "[parameters('functionName')]",
-      "location": "[parameters('location')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]",
-        "[resourceId('Microsoft.Insights/components', parameters('applicationInsightsName'))]"
-      ],
-      "identity": {
-        "type": "SystemAssigned"
-      },
-      "kind": "functionapp,linux",
-      "properties": {
-        "enabled": true,
-        "hostNameSslStates": [
-          {
-            "name": "[concat(parameters('functionName'), '.azurewebsites.net')]",
-            "sslState": "Disabled",
-            "hostType": "Standard"
-          },
-          {
-            "name": "[concat(parameters('functionName'), '.scm.azurewebsites.net')]",
-            "sslState": "Disabled",
-            "hostType": "Repository"
-          }
-        ],
-        "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]",
-        "reserved": true,
-        "isXenon": false,
-        "hyperV": false,
-        "siteConfig": {
-          "numberOfWorkers": 1,
-          "linuxFxVersion": "Python|3.8",
-          "acrUseManagedIdentityCreds": false,
-          "alwaysOn": true,
-          "http20Enabled": false,
-          "functionAppScaleLimit": 200,
-          "minimumElasticInstanceCount": 0,
-          "appSettings": [
-            {
-              "name": "AzureWebJobsStorage",
-              "value": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]"
-            },
-            {
-              "name": "FUNCTIONS_EXTENSION_VERSION",
-              "value": "~4"
-            },
-            {
-              "name": "FUNCTIONS_WORKER_RUNTIME",
-              "value": "python"
-            },
-            {
-              "name": "WEBSITE_RUN_FROM_PACKAGE",
-              "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/master/infrastructure/deploy/csci-audio-dep.zip"
-            }
-          ]
-        },
-        "scmSiteAlsoStopped": false,
-        "clientAffinityEnabled": false,
-        "clientCertEnabled": false,
-        "clientCertMode": "Required",
-        "hostNamesDisabled": false,
-        "customDomainVerificationId": "368FC673F884D479178EAA3E86A207CEE6277CB01005D1F653B2DAF0A3B2614D",
-        "containerSize": 1536,
-        "dailyMemoryTimeQuota": 0,
-        "httpsOnly": false,
-        "redundancyMode": "None",
-        "storageAccountRequired": false,
-        "keyVaultReferenceIdentity": "SystemAssigned"
-      }
-    },
-    {
-      "type": "Microsoft.Web/sites/config",
-      "apiVersion": "2021-03-01",
-      "name": "[format('{0}/{1}', parameters('functionName'), 'appsettings')]",
-      "kind": "string",
-      "dependsOn": [
-        "[resourceId('Microsoft.Web/sites', parameters('functionName'))]",
-        "[resourceId('Microsoft.Web/sites', variables('openAIFunctionName'))]",
-        "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
-      ],
-      "properties": {
-        "APPINSIGHTS_INSTRUMENTATIONKEY": "[reference(resourceId('Microsoft.Insights/components', parameters('applicationInsightsName')), '2015-05-01').InstrumentationKey]",
-        "AzureWebJobsStorage": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
-        "dimensions": "scenario,channelId,entities.intent,entities.dst_city,entities.or_city,entities.n_adults,entities.NO_RESULT,entities.seat,entities.downtown,entities.breakfast,entities.category",
-        "defined_events": "IntentRecognized",
-        "conversationalkm_STORAGE": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
-        "telemetry_processed": "conversationkm-full",
-        "profanity_lang": "eng",
-        "cognitive_services_region": "[parameters('location')]",
-        "table_sample_data": "botconvevals",
-        "cognitive_services_key": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]",
-        "search_account": "[parameters('searchServicesName')]",
-        "search_api_key": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
-        "search_api_version": "2021-04-30-preview",
-        "search_data_source": "[parameters('storageAccountName')]",
-        "search_index": "conversational-index",
-        "search_skillset": "conversational-skillset",
-        "search_indexer": "conversational-km-indexer",
-        "connection_string": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
-        "cognitive_search_data_source_container": "conversationkm-full",
-        "cognitive_search_knowledge_store_container_object": "knowledge-store",
-        "cognitive_search_knowledge_store_container_files": "knowledge-store-images",
-        "cognitive_search_knowledge_store_table_document": "documentstable",
-        "cognitive_search_knowledge_store_table_keyphrases": "keyphrasestable",
-        "FUNCTIONS_EXTENSION_VERSION": "~4",
-        "FUNCTIONS_WORKER_RUNTIME": "python",
-        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/master/infrastructure/deploy/csci-audio-dep.zip",
-        "function_name": "[parameters('functionName')]",
-        "function_key": "[variables('clientKey')]",
-        "openai_function_name": "[variables('openAIFunctionName')]",
-        "openai_function_key": "[variables('clientKey')]",
-        "deployment_type": "audio",
-        "OPENAI_PROMPT_KEYS": "[parameters('OPENAI_PROMPT_KEYS')]",
-        "audio_user_channel": "[parameters('audio_user_channel')]"
-      }
-    },
-    {
-      "type": "Microsoft.Web/sites",
-      "name": "[parameters('webUiName')]",
-      "apiVersion": "2020-06-01",
-      "location": "[parameters('location')]",
-      "identity": {
-        "type": "SystemAssigned"
-      },
-      "dependsOn": [
-        "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
-      ],
-      "properties": {
-        "siteConfig": {
-          "linuxFxVersion": "[parameters('webUIDockerImageReference')]"
-        },
-        "name": "[parameters('webUiName')]",
-        "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
-      }
-    },
-    {
-      "type": "Microsoft.Web/sites/config",
-      "apiVersion": "2021-03-01",
-      "name": "[format('{0}/{1}', parameters('webUiName'), 'appsettings')]",
-      "kind": "string",
-      "dependsOn": [
-        "[resourceId('Microsoft.Web/sites', parameters('webUiName'))]"
-      ],
-      "properties": {
-        "SearchServiceName": "[parameters('searchServicesName')]",
-        "SearchApiKey": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
-        "SearchIndexName": "conversational-index",
-        "SearchIndexerName": "conversational-km-indexer",
-        "StorageAccountName": "[parameters('storageAccountName')]",
-        "StorageAccountKey": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value]",
-        "StorageContainerAddress": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/audio-input')]",
-        "StorageContainerAddress2": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/conversationkm-full')]",
-        "KeyField": "metadata_storage_path",
-        "IsPathBase64Encoded": true
-      }
-    },
-    {
-      "type": "Microsoft.Web/sites/host/functionKeys",
-      "apiVersion": "2018-11-01",
-      "name": "[concat(parameters('functionName'), '/default/clientKey')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Web/sites', parameters('functionName'))]",
-        "WaitFunctionDeploymentSection"
-      ],
-      "properties": {
-        "name": "clientKey",
-        "value": "[variables('clientKey')]"
-      }
-    },
-    {
-      "type": "Microsoft.Web/sites/host/functionKeys",
-      "apiVersion": "2018-11-01",
-      "name": "[concat(variables('openAIFunctionName'), '/default/clientKey')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Web/sites', variables('openAIFunctionName'))]",
-        "WaitFunctionDeploymentSection"
-      ],
-      "properties": {
-        "name": "clientKey",
-        "value": "[variables('clientKey')]"
-      }
-    },
-    {
-      "apiVersion": "2018-11-01",
-      "name": "[variables('openAIFunctionName')]",
-      "type": "Microsoft.Web/sites",
-      "kind": "functionapp,linux",
-      "location": "[resourceGroup().location]",
-      "tags": {},
-      "dependsOn": [
-        "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]",
-        "[concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountName'))]",
-        "[concat('Microsoft.ServiceBus/namespaces/', parameters('serviceBusName'))]"
-      ],
-      "properties": {
-        "name": "[variables('openAIFunctionName')]",
-        "siteConfig": {
-          "appSettings": [
-            {
-              "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
-              "value": "[reference(resourceId('Microsoft.Insights/components', parameters('applicationInsightsName')), '2015-05-01').InstrumentationKey]"
-            },
-            {
-              "name": "FUNCTIONS_EXTENSION_VERSION",
-              "value": "~4"
-            },
-            {
-              "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
-              "value": "false"
-            },
-            {
-              "name": "AzureWebJobsStorage",
-              "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',parameters('storageAccountName'),';AccountKey=',listKeys(resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-06-01').keys[0].value,';EndpointSuffix=','core.windows.net')]"
-            },
-            {
-              "name": "AzureServiceBusConnectionString",
-              "value": "[listKeys(resourceId('Microsoft.ServiceBus/namespaces/AuthorizationRules', parameters('serviceBusName'),'RootManageSharedAccessKey'),'2015-08-01').primaryConnectionString]"
-            },
-            {
-              "name": "OPENAI_API_BASE",
-              "value": "[parameters('OPENAI_API_BASE')]"
-            },
-            {
-              "name": "OPENAI_API_KEY",
-              "value": "[parameters('OPENAI_API_KEY')]"
-            },
-            {
-              "name": "OPENAI_DEPLOYMENT_NAME",
-              "value": "[parameters('OPENAI_DEPLOYMENT_NAME')]"
-            },
-            {
-              "name": "OPENAI_TEMPERATURE",
-              "value": "[parameters('OPENAI_TEMPERATURE')]"
-            },
-            {
-              "name": "OPENAI_MAX_TOKENS",
-              "value": "[parameters('OPENAI_MAX_TOKENS')]"
-            },
-            {
-              "name": "OPENAI_TOP_P",
-              "value": "[parameters('OPENAI_TOP_P')]"
-            },
-            {
-              "name": "OPENAI_FREQUENCY_PENALTY",
-              "value": "[parameters('OPENAI_FREQUENCY_PENALTY')]"
-            },
-            {
-              "name": "OPENAI_PRESENCE_PENALTY",
-              "value": "[parameters('OPENAI_PRESENCE_PENALTY')]"
-            },
-            {
-              "name": "OPENAI_PROMPT",
-              "value": "[parameters('OPENAI_PROMPT')]"
-            },
-            {
-              "name": "OPENAI_PROMPT_KEYS",
-              "value": "[parameters('OPENAI_PROMPT_KEYS')]"
-            },
-            {
-              "name": "AZURE_SEARCH_SERVICE_NAME",
-              "value": "[parameters('searchServicesName')]"
-            },
-            {
-              "name": "AZURE_SEARCH_INDEX_NAME",
-              "value": "conversational-index"
-            },
-            {
-              "name": "AZURE_SEARCH_API_KEY",
-              "value": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]"
-            },
-            {
-              "name": "AZURE_SEARCH_API_VERSION",
-              "value": "2021-04-30-preview"
-            },
-            {
-              "name": "OPENAI_MODEL_TYPE",
-              "value": "[parameters('OPENAI_MODEL_TYPE')]"
-            }
+      {
+          "type": "Microsoft.ServiceBus/namespaces/queues",
+          "apiVersion": "2017-04-01",
+          "name": "[concat(parameters('ServiceBusName'), '/openai_queue')]",
+          "location": "[resourceGroup().location]",
+          "dependsOn": [
+              "[resourceId('Microsoft.ServiceBus/namespaces', parameters('ServiceBusName'))]"
           ],
-          "cors": {
-            "allowedOrigins": [
-              "https://portal.azure.com"
-            ]
+          "properties": {
+              "lockDuration": "PT4M",
+              "maxSizeInMegabytes": 5120,
+              "requiresDuplicateDetection": false,
+              "requiresSession": false,
+              "defaultMessageTimeToLive": "P10675199DT2H48M5.4775807S",
+              "deadLetteringOnMessageExpiration": false,
+              "enableBatchedOperations": false,
+              "duplicateDetectionHistoryTimeWindow": "PT10M",
+              "maxDeliveryCount": 1,
+              "status": "Active",
+              "autoDeleteOnIdle": "P10675199DT2H48M5.4775807S",
+              "enablePartitioning": false,
+              "enableExpress": false
+          }
+      },
+      {
+          "type": "Microsoft.ServiceBus/namespaces/queues",
+          "apiVersion": "2017-04-01",
+          "name": "[concat(parameters('ServiceBusName'), '/openai_results_queue')]",
+          "location": "[resourceGroup().location]",
+          "dependsOn": [
+              "[resourceId('Microsoft.ServiceBus/namespaces', parameters('ServiceBusName'))]"
+          ],
+          "properties": {
+              "lockDuration": "PT4M",
+              "maxSizeInMegabytes": 5120,
+              "requiresDuplicateDetection": false,
+              "requiresSession": false,
+              "defaultMessageTimeToLive": "P10675199DT2H48M5.4775807S",
+              "deadLetteringOnMessageExpiration": false,
+              "enableBatchedOperations": false,
+              "duplicateDetectionHistoryTimeWindow": "PT10M",
+              "maxDeliveryCount": 1,
+              "status": "Active",
+              "autoDeleteOnIdle": "P10675199DT2H48M5.4775807S",
+              "enablePartitioning": false,
+              "enableExpress": false
+          }
+      },
+      {
+          "type": "Microsoft.CognitiveServices/accounts",
+          "apiVersion": "2017-04-18",
+          "name": "[parameters('cognitiveServiceName')]",
+          "location": "[parameters('location')]",
+          "sku": {
+              "name": "S0"
           },
-          "use32BitWorkerProcess": false,
-          "ftpsState": "FtpsOnly",
-          "linuxFxVersion": "[parameters('openAIFunctionDockerImageReference')]",
-          "appCommandLine": "",
-          "alwaysOn": true
-        },
-        "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]",
-        "clientAffinityEnabled": false,
-        "virtualNetworkSubnetId": null,
-        "httpsOnly": true
+          "kind": "CognitiveServices",
+          "properties": {
+              "statisticsEnabled": false
+          }
+      },
+      {
+          "type": "Microsoft.CognitiveServices/accounts",
+          "apiVersion": "2021-04-30",
+          "name": "[parameters('speechServiceName')]",
+          "location": "[parameters('location')]",
+          "kind": "SpeechServices",
+          "sku": {
+              "name": "S0"
+          },
+          "properties": {}
+      },
+      {
+          "type": "Microsoft.Resources/deployments",
+          "apiVersion": "2021-04-01",
+          "name": "linkedTemplate",
+          "dependsOn": [
+              "[resourceId('Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName'))]",
+              "[resourceId('Microsoft.CognitiveServices/accounts', parameters('speechServiceName'))]"
+          ],
+          "properties": {
+              "mode": "Incremental",
+              "templateLink": {
+                  "uri": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-speech-sdk/master/samples/ingestion/ingestion-client/Setup/ArmTemplateBatch.json",
+                  "contentVersion": "1.0.0.0"
+              },
+              "parameters": {
+                  "StorageAccount": {
+                      "value": "[parameters('storageAccountName')]"
+                  },
+                  "Locale": {
+                      "value": "[parameters('speechAudioLocale')]"
+                  },
+                  "CustomModelId": {
+                      "value": "[parameters('speechCustomModelId')]"
+                  },
+                  "AzureSpeechServicesKey": {
+                      "value": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('speechServiceName')), '2017-04-18').key1]"
+                  },
+                  "AzureSpeechServicesRegion": {
+                      "value": "[parameters('location')]"
+                  },
+                  "CustomEndpoint": {
+                      "value": "[parameters('speechCustomEndpoint')]"
+                  },
+                  "ProfanityFilterMode": {
+                      "value": "[parameters('speechProfanityFilterMode')]"
+                  },
+                  "PunctuationMode": {
+                      "value": "[parameters('speechPunctuationMode')]"
+                  },
+                  "AddDiarization": {
+                      "value": "[parameters('speechAddDiarization')]"
+                  },
+                  "AddWordLevelTimestamps": {
+                      "value": "[parameters('speechAddWordLevelTimestamps')]"
+                  },
+                  "TextAnalyticsKey": {
+                      "value": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]"
+                  },
+                  "TextAnalyticsEndpoint": {
+                      "value": "[concat('https://', parameters('location'), '.api.cognitive.microsoft.com/')]"
+                  },
+                  "SentimentAnalysis": {
+                      "value": "[parameters('speechSentimentAnalysis')]"
+                  },
+                  "PiiRedaction": {
+                      "value": "[parameters('speechPiiRedaction')]"
+                  },
+                  "SqlAdministratorLogin": {
+                      "value": "[parameters('speechSqlAdministratorLogin')]"
+                  },
+                  "SqlAdministratorLoginPassword": {
+                      "value": "[parameters('speechSqlAdministratorLoginPassword')]"
+                  },
+                  "DeploymentId": {
+                      "value": "[parameters('speechDeploymentId')]"
+                  }
+              }
+          }
+      },
+      {
+          "type": "Microsoft.Search/searchServices",
+          "apiVersion": "2021-04-01-preview",
+          "name": "[parameters('searchServicesName')]",
+          "location": "[parameters('location')]",
+          "sku": {
+              "name": "standard"
+          },
+          "properties": {
+              "replicaCount": 1,
+              "partitionCount": 1,
+              "hostingMode": "Default",
+              "publicNetworkAccess": "Enabled",
+              "networkRuleSet": {
+                  "ipRules": [],
+                  "bypass": "None"
+              },
+              "encryptionWithCmk": {
+                  "enforcement": "Unspecified"
+              },
+              "disableLocalAuth": false,
+              "authOptions": {
+                  "apiKeyOnly": {}
+              },
+              "disabledDataExfiltrationOptions": [],
+              "semanticSearch": "disabled"
+          }
+      },
+      {
+          "type": "Microsoft.Storage/storageAccounts",
+          "apiVersion": "2021-08-01",
+          "name": "[parameters('storageAccountName')]",
+          "location": "[parameters('location')]",
+          "sku": {
+              "name": "Standard_RAGRS",
+              "tier": "Standard"
+          },
+          "kind": "StorageV2",
+          "properties": {
+              "defaultToOAuthAuthentication": false,
+              "allowCrossTenantReplication": true,
+              "minimumTlsVersion": "TLS1_2",
+              "allowBlobPublicAccess": true,
+              "allowSharedKeyAccess": true,
+              "networkAcls": {
+                  "bypass": "AzureServices",
+                  "virtualNetworkRules": [],
+                  "ipRules": [],
+                  "defaultAction": "Allow"
+              },
+              "supportsHttpsTrafficOnly": true,
+              "encryption": {
+                  "requireInfrastructureEncryption": false,
+                  "services": {
+                      "file": {
+                          "keyType": "Account",
+                          "enabled": true
+                      },
+                      "blob": {
+                          "keyType": "Account",
+                          "enabled": true
+                      }
+                  },
+                  "keySource": "Microsoft.Storage"
+              },
+              "accessTier": "Hot"
+          }
+      },
+      {
+          "type": "Microsoft.Storage/storageAccounts/blobServices",
+          "apiVersion": "2021-08-01",
+          "name": "[concat(parameters('storageAccountName'), '/default')]",
+          "dependsOn": [
+              "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+          ],
+          "sku": {
+              "name": "Standard_RAGRS",
+              "tier": "Standard"
+          },
+          "properties": {
+              "changeFeed": {
+                  "enabled": false
+              },
+              "restorePolicy": {
+                  "enabled": false
+              },
+              "containerDeleteRetentionPolicy": {
+                  "enabled": true,
+                  "days": 7
+              },
+              "cors": {
+                  "corsRules": []
+              },
+              "deleteRetentionPolicy": {
+                  "enabled": true,
+                  "days": 7
+              },
+              "isVersioningEnabled": false
+          }
+      },
+      {
+          "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+          "apiVersion": "2021-08-01",
+          "name": "[concat(parameters('storageAccountName'), '/default/scm-releases')]",
+          "dependsOn": [
+              "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccountName'), 'default')]",
+              "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+          ],
+          "properties": {
+              "immutableStorageWithVersioning": {
+                  "enabled": false
+              },
+              "defaultEncryptionScope": "$account-encryption-key",
+              "denyEncryptionScopeOverride": false,
+              "publicAccess": "None"
+          }
+      },
+      {
+          "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+          "apiVersion": "2021-08-01",
+          "name": "[concat(parameters('storageAccountName'), '/default/conversationkm-full')]",
+          "dependsOn": [
+              "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccountName'), 'default')]",
+              "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+          ],
+          "properties": {
+              "immutableStorageWithVersioning": {
+                  "enabled": false
+              },
+              "defaultEncryptionScope": "$account-encryption-key",
+              "denyEncryptionScopeOverride": false,
+              "publicAccess": "None"
+          }
+      },
+      {
+          "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+          "apiVersion": "2021-08-01",
+          "name": "[concat(parameters('storageAccountName'), '/default/conversationkm-raw')]",
+          "dependsOn": [
+              "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccountName'), 'default')]",
+              "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
+          ],
+          "properties": {
+              "immutableStorageWithVersioning": {
+                  "enabled": false
+              },
+              "defaultEncryptionScope": "$account-encryption-key",
+              "denyEncryptionScopeOverride": false,
+              "publicAccess": "None"
+          }
+      },
+      {
+          "type": "Microsoft.Insights/components",
+          "apiVersion": "2020-02-02",
+          "name": "[parameters('applicationInsightsName')]",
+          "location": "[parameters('location')]",
+          "tags": {
+              "[concat('hidden-link:', resourceId('Microsoft.Web/sites', parameters('applicationInsightsName')))]": "Resource"
+          },
+          "properties": {
+              "Application_Type": "web"
+          },
+          "kind": "web"
+      },
+      {
+          "apiVersion": "2020-06-01",
+          "name": "[parameters('hostingPlanName')]",
+          "type": "Microsoft.Web/serverfarms",
+          "location": "[parameters('location')]",
+          "properties": {
+              "name": "[parameters('hostingPlanName')]",
+              "workerSizeId": "1",
+              "reserved": true,
+              "numberOfWorkers": "1"
+          },
+          "sku": {
+              "Tier": "Standard",
+              "Name": "S1"
+          },
+          "kind": "linux"
+      },
+      {
+          "type": "Microsoft.Web/sites",
+          "apiVersion": "2021-03-01",
+          "name": "[parameters('functionName')]",
+          "location": "[parameters('location')]",
+          "dependsOn": [
+              "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]",
+              "[resourceId('Microsoft.Insights/components', parameters('applicationInsightsName'))]"
+          ],
+          "identity": {
+              "type": "SystemAssigned"
+          },
+          "kind": "functionapp,linux",
+          "properties": {
+              "enabled": true,
+              "hostNameSslStates": [
+                  {
+                      "name": "[concat(parameters('functionName'), '.azurewebsites.net')]",
+                      "sslState": "Disabled",
+                      "hostType": "Standard"
+                  },
+                  {
+                      "name": "[concat(parameters('functionName'), '.scm.azurewebsites.net')]",
+                      "sslState": "Disabled",
+                      "hostType": "Repository"
+                  }
+              ],
+              "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]",
+              "reserved": true,
+              "isXenon": false,
+              "hyperV": false,
+              "siteConfig": {
+                  "numberOfWorkers": 1,
+                  "linuxFxVersion": "Python|3.8",
+                  "acrUseManagedIdentityCreds": false,
+                  "alwaysOn": true,
+                  "http20Enabled": false,
+                  "functionAppScaleLimit": 200,
+                  "minimumElasticInstanceCount": 0,
+                  "appSettings": [
+                      {
+                          "name": "AzureWebJobsStorage",
+                          "value": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]"
+                      },
+                      {
+                          "name": "FUNCTIONS_EXTENSION_VERSION",
+                          "value": "~4"
+                      },
+                      {
+                          "name": "FUNCTIONS_WORKER_RUNTIME",
+                          "value": "python"
+                      },
+                      {
+                          "name": "WEBSITE_RUN_FROM_PACKAGE",
+                          "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/master/infrastructure/deploy/csci-audio-dep.zip"
+                      }
+                  ]
+              },
+              "scmSiteAlsoStopped": false,
+              "clientAffinityEnabled": false,
+              "clientCertEnabled": false,
+              "clientCertMode": "Required",
+              "hostNamesDisabled": false,
+              "customDomainVerificationId": "368FC673F884D479178EAA3E86A207CEE6277CB01005D1F653B2DAF0A3B2614D",
+              "containerSize": 1536,
+              "dailyMemoryTimeQuota": 0,
+              "httpsOnly": false,
+              "redundancyMode": "None",
+              "storageAccountRequired": false,
+              "keyVaultReferenceIdentity": "SystemAssigned"
+          }
+      },
+      {
+          "type": "Microsoft.Web/sites/config",
+          "apiVersion": "2021-03-01",
+          "name": "[format('{0}/{1}', parameters('functionName'), 'appsettings')]",
+          "kind": "string",
+          "dependsOn": [
+              "[resourceId('Microsoft.Web/sites', parameters('functionName'))]",
+              "[resourceId('Microsoft.Web/sites', variables('openAIFunctionName'))]",
+              "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
+          ],
+          "properties": {
+              "APPINSIGHTS_INSTRUMENTATIONKEY": "[reference(resourceId('Microsoft.Insights/components', parameters('applicationInsightsName')), '2015-05-01').InstrumentationKey]",
+              "AzureWebJobsStorage": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
+              "dimensions": "scenario,channelId,entities.intent,entities.dst_city,entities.or_city,entities.n_adults,entities.NO_RESULT,entities.seat,entities.downtown,entities.breakfast,entities.category",
+              "defined_events": "IntentRecognized",
+              "conversationalkm_STORAGE": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
+              "telemetry_processed": "conversationkm-full",
+              "profanity_lang": "eng",
+              "cognitive_services_region": "[parameters('location')]",
+              "table_sample_data": "botconvevals",
+              "cognitive_services_key": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.CognitiveServices/accounts', parameters('cognitiveServiceName')), '2017-04-18').key1]",
+              "search_account": "[parameters('searchServicesName')]",
+              "search_api_key": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
+              "search_api_version": "2021-04-30-preview",
+              "search_data_source": "[parameters('storageAccountName')]",
+              "search_index": "conversational-index",
+              "search_skillset": "conversational-skillset",
+              "search_indexer": "conversational-km-indexer",
+              "connection_string": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageAccountName'), ';AccountKey=', listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
+              "cognitive_search_data_source_container": "conversationkm-full",
+              "cognitive_search_knowledge_store_container_object": "knowledge-store",
+              "cognitive_search_knowledge_store_container_files": "knowledge-store-images",
+              "cognitive_search_knowledge_store_table_document": "documentstable",
+              "cognitive_search_knowledge_store_table_keyphrases": "keyphrasestable",
+              "FUNCTIONS_EXTENSION_VERSION": "~4",
+              "FUNCTIONS_WORKER_RUNTIME": "python",
+              "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/master/infrastructure/deploy/csci-audio-dep.zip",
+              "function_name": "[parameters('functionName')]",
+              "function_key": "[variables('clientKey')]",
+              "openai_function_name": "[variables('openAIFunctionName')]",
+              "openai_function_key": "[variables('clientKey')]",
+              "deployment_type": "audio",
+              "OPENAI_PROMPT_KEYS": "[parameters('OPENAI_PROMPT_KEYS')]",
+              "audio_user_channel": "[parameters('audio_user_channel')]"
+          }
+      },
+      {
+          "type": "Microsoft.Web/sites",
+          "name": "[parameters('webUiName')]",
+          "apiVersion": "2020-06-01",
+          "location": "[parameters('location')]",
+          "identity": {
+              "type": "SystemAssigned"
+          },
+          "dependsOn": [
+              "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
+          ],
+        "properties": {
+          "siteConfig": {
+            "linuxFxVersion": "[parameters('webUiDockerImageReference')]"
+          },
+          "name": "[parameters('webUiName')]",
+          "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
+        }
+      },
+      {
+          "type": "Microsoft.Web/sites/config",
+          "apiVersion": "2021-03-01",
+          "name": "[format('{0}/{1}', parameters('webUiName'), 'appsettings')]",
+          "kind": "string",
+          "dependsOn": [
+              "[resourceId('Microsoft.Web/sites', parameters('webUiName'))]"
+          ],
+          "properties": {
+              "SearchServiceName": "[parameters('searchServicesName')]",
+              "SearchApiKey": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
+              "SearchIndexName": "conversational-index",
+              "SearchIndexerName": "conversational-km-indexer",
+              "StorageAccountName": "[parameters('storageAccountName')]",
+              "StorageAccountKey": "[listKeys(resourceId(parameters('resourceGroupName'),'Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-04-01').keys[0].value]",
+              "StorageContainerAddress": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/audio-input')]",
+              "StorageContainerAddress2": "[concat('https://', parameters('storageAccountName') ,'.blob.core.windows.net/conversationkm-full')]",
+              "KeyField": "metadata_storage_path",
+              "IsPathBase64Encoded": true
+          }
+      },
+      {
+          "type": "Microsoft.Web/sites/host/functionKeys",
+          "apiVersion": "2018-11-01",
+          "name": "[concat(parameters('functionName'), '/default/clientKey')]",
+          "dependsOn": [
+              "[resourceId('Microsoft.Web/sites', parameters('functionName'))]",
+              "WaitFunctionDeploymentSection"
+          ],
+          "properties": {
+              "name": "clientKey",
+              "value": "[variables('clientKey')]"
+          }
+      },
+      {
+          "type": "Microsoft.Web/sites/host/functionKeys",
+          "apiVersion": "2018-11-01",
+          "name": "[concat(variables('openAIFunctionName'), '/default/clientKey')]",
+          "dependsOn": [
+              "[resourceId('Microsoft.Web/sites', variables('openAIFunctionName'))]",
+              "WaitFunctionDeploymentSection"
+          ],
+          "properties": {
+              "name": "clientKey",
+              "value": "[variables('clientKey')]"
+          }
+      },
+      {
+          "apiVersion": "2018-11-01",
+          "name": "[variables('openAIFunctionName')]",
+          "type": "Microsoft.Web/sites",
+          "kind": "functionapp,linux",
+          "location": "[resourceGroup().location]",
+          "tags": {},
+          "dependsOn": [
+              "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]",
+              "[concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountName'))]",
+              "[concat('Microsoft.ServiceBus/namespaces/', parameters('serviceBusName'))]"
+          ],
+          "properties": {
+              "name": "[variables('openAIFunctionName')]",
+            "siteConfig": {
+              "appSettings": [
+                {
+                  "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
+                  "value": "[reference(resourceId('Microsoft.Insights/components', parameters('applicationInsightsName')), '2015-05-01').InstrumentationKey]"
+                },
+                {
+                  "name": "FUNCTIONS_EXTENSION_VERSION",
+                  "value": "~4"
+                },
+                {
+                  "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+                  "value": "false"
+                },
+                {
+                  "name": "AzureWebJobsStorage",
+                  "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',parameters('storageAccountName'),';AccountKey=',listKeys(resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName')), '2019-06-01').keys[0].value,';EndpointSuffix=','core.windows.net')]"
+                },
+                {
+                  "name": "AzureServiceBusConnectionString",
+                  "value": "[listKeys(resourceId('Microsoft.ServiceBus/namespaces/AuthorizationRules', parameters('serviceBusName'),'RootManageSharedAccessKey'),'2015-08-01').primaryConnectionString]"
+                },
+                {
+                  "name": "AZURE_AUTH_TYPE",
+                  "value": "[parameters('authType')]"
+                },
+                {
+                  "name": "OPENAI_API_BASE",
+                  "value": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'), reference(resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource')), '2021-04-30').endpoint, parameters('OPENAI_API_BASE'))]"
+                },
+                {
+                  "name": "OPENAI_API_KEY",
+                  "value": "[if(equals(parameters('newOrExistingOpenAIResource'), 'new'),listKeys(resourceId('Microsoft.CognitiveServices/accounts', parameters('AzureOpenAIResource')), '2021-04-30').key1, parameters('OPENAI_API_KEY'))]"
+                },
+                {
+                  "name": "OPENAI_DEPLOYMENT_NAME",
+                  "value": "[parameters('OPENAI_DEPLOYMENT_NAME')]"
+                },
+                {
+                  "name": "OPENAI_TEMPERATURE",
+                  "value": "[parameters('OPENAI_TEMPERATURE')]"
+                },
+                {
+                  "name": "OPENAI_MAX_TOKENS",
+                  "value": "[parameters('OPENAI_MAX_TOKENS')]"
+                },
+                {
+                  "name": "OPENAI_TOP_P",
+                  "value": "[parameters('OPENAI_TOP_P')]"
+                },
+                {
+                  "name": "OPENAI_FREQUENCY_PENALTY",
+                  "value": "[parameters('OPENAI_FREQUENCY_PENALTY')]"
+                },
+                {
+                  "name": "OPENAI_PRESENCE_PENALTY",
+                  "value": "[parameters('OPENAI_PRESENCE_PENALTY')]"
+                },
+                {
+                  "name": "OPENAI_PROMPT",
+                  "value": "[parameters('OPENAI_PROMPT')]"
+                },
+                {
+                  "name": "OPENAI_PROMPT_KEYS",
+                  "value": "[parameters('OPENAI_PROMPT_KEYS')]"
+                },
+                {
+                  "name": "AZURE_SEARCH_SERVICE_NAME",
+                  "value": "[parameters('searchServicesName')]"
+                },
+                {
+                  "name": "AZURE_SEARCH_INDEX_NAME",
+                  "value": "conversational-index"
+                },
+                {
+                  "name": "AZURE_SEARCH_API_KEY",
+                  "value": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]"
+                },
+                {
+                  "name": "AZURE_SEARCH_API_VERSION",
+                  "value": "2021-04-30-preview"
+                },
+                {
+                  "name": "OPENAI_MODEL_TYPE",
+                  "value": "[parameters('OPENAI_MODEL_TYPE')]"
+                }
+              ],
+              "cors": {
+                "allowedOrigins": [
+                  "https://portal.azure.com"
+                ]
+              },
+              "use32BitWorkerProcess": false,
+              "ftpsState": "FtpsOnly",
+              "linuxFxVersion": "[parameters('openAiFunctionDockerImageReference')]",
+              "appCommandLine": "",
+              "alwaysOn": true
+            },
+              "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]",
+              "clientAffinityEnabled": false,
+              "virtualNetworkSubnetId": null,
+              "httpsOnly": true
+          }
+      },
+      {
+          "type": "Microsoft.Resources/deploymentScripts",
+          "apiVersion": "2020-10-01",
+          "kind": "AzurePowerShell",
+          "name": "WaitFunctionDeploymentSection",
+          "location": "[resourceGroup().location]",
+          "dependsOn": [
+              "[resourceId('Microsoft.Web/sites', variables('openAIFunctionName'))]"
+          ],
+          "properties": {
+              "azPowerShellVersion": "3.0",
+              "scriptContent": "start-sleep -Seconds 300",
+              "cleanupPreference": "Always",
+              "retentionInterval": "PT1H"
+          }
       }
-    },
-    {
-      "type": "Microsoft.Resources/deploymentScripts",
-      "apiVersion": "2020-10-01",
-      "kind": "AzurePowerShell",
-      "name": "WaitFunctionDeploymentSection",
-      "location": "[resourceGroup().location]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Web/sites', variables('openAIFunctionName'))]"
-      ],
-      "properties": {
-        "azPowerShellVersion": "3.0",
-        "scriptContent": "start-sleep -Seconds 300",
-        "cleanupPreference": "Always",
-        "retentionInterval": "PT1H"
-      }
-    }
   ]
 }

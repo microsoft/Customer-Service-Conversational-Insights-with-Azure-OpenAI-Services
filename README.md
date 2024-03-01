@@ -47,7 +47,7 @@ One-click deploy
 
 These requirements must be met before the solution accelerator is installed.
 
--   Azure OpenAI resource with a deployed model that has the following
+-   If you would like to use an **existing** OpenAI resource in your Azure tenant (instead of opting to create a new one), you'll need an Azure OpenAI resource with a deployed model that has the following
     settings:
 
     -   Model: gpt-35-turbo
@@ -90,24 +90,31 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmaster%2Finfrastructure%2FARM%2Fdeployment-template.json)
 
-1.  Most fields will have a default name set already. You will need to
-    update the following settings:
+2.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:
 
-    -   OPENAI_API_BASE - the endpoint to your openai resource
+    -   newOrExistingOpenAIResource - Determines whether to create a new Azure Open AI resource or use an existing resource within the deployment. 
+        - **existing**: Select this option if you already have an Azure Open AI resource that you want to use.
+        - **new**:      Choose this option if you want to create a new Azure Open AI resource as part of this deployment. The template will provision a new resource with the specified configuration settings.
+  
+        **Note:** The default value for this field is **existing**.
+        
+        ![image of new or existing OpenAI resource field](image.png)
+    
 
-    -   OPENAI_API_KEY - the key to your openai resource
+    -   OPENAI_API_BASE - the endpoint to your openai resource. This will be ignored if newOrExistingOpenAIResource is set to **new**.
 
-    -   OPENAI_DEPLOYMENT_NAME - this should be set to gpt-35-turbo
+    -   OPENAI_API_KEY - the key to your openai resource. This will be ignored if newOrExistingOpenAIResource is set to **new**.
+   
+    -   OPENAI_DEPLOYMENT_NAME - for the sample app this should be set to gpt-35-turbo
 
-    -   OPENAI_MODEL_TYPE - this should be set to chat
-    -   ![image](/images/readMe/image3.png)
-
+    -   OPENAI_MODEL_TYPE - for the sample app this should be set to chat\
+        ![OpenAI Fields](image-1.png)
+        
 1.  Optionally, you may also update the **Web UI Docker Image Reference** and the **OpenAI Function Docker Image Reference** to point to your own container images instead of the images that we host (this would be necessary if you want to test your own changes to the Web UI or OpenAI Function code).
  
-1.  Click \'review and create\' to start the deployment. The deployment
-    can take up to 15 minutes to complete.
+2.  Click \'review and create\' to start the deployment. The deployment can take up to 15 minutes to complete.
 
-1.   When deployment is complete, launch the application by navigating to
+3.   When deployment is complete, launch the application by navigating to
     your Azure resource group, choosing the app service resource, and
     clicking on the default domain. You should bookmark this url to have
     quick access to your deployed application.
@@ -311,7 +318,7 @@ Click save to apply the updates.
 </br>
 Customer truth
 </h2>
-Customer stories coming soon. For early access, contact: fabrizio.ruocco@microsoft.com
+Customer stories coming soon. For early access, contact: nfelton@microsoft.com
 
 <br/>
 <br/>
