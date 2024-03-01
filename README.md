@@ -318,7 +318,7 @@ Click save to apply the updates.
 </br>
 Customer truth
 </h2>
-Customer stories coming soon. For early access, contact: fabrizio.ruocco@microsoft.com
+Customer stories coming soon. For early access, contact: nfelton@microsoft.com
 
 <br/>
 <br/>
