@@ -1,1 +1,16 @@
-.navbar-bg{background-color:#092c47}.footer-bg{background-color:#092c47}.navbar-text-color{color:#ffffff}
+.navbar-bg {
+    background-color: #fff;
+    box-shadow: 0 0 6px 5px rgb(0 0 0 / 8%);
+}
+
+.footer-bg{
+    background-color:#092c47;
+}
+                                 
+.navbar-text-color{
+    color:#000;
+}
+
+.footer-text-color {
+    color: #fff;
+}
