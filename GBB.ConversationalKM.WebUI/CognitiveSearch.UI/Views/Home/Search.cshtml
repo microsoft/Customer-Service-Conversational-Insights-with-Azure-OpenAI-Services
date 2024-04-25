@@ -62,7 +62,7 @@
 
 <!--Search, Filters, and Facets-->
 <div id="results-container" class="row content-results">
-    <div class="col-md-2">
+    <div class="col-md-3 panel-bg">
         <div style="@(Model.semanticEnabled ? "display:block" : "display:none")">
             <div class="input-group">
                 <h5 style="display: inline-block; padding-right: 5px;">Semantic Search</h5>
@@ -71,7 +71,11 @@
             <hr style="height:1px;background-color:#EDEBE9;margin-top:10px;margin-bottom:16px;" />
         </div>
         <div>
-            <h4 style="margin-bottom: 16px;">Filter</h4>
+            <h4 style="margin-bottom: 16px;margin-left: 1.7rem;
+    color: #fff;
+    padding-top: 1rem;font-size:20px">
+                Filter
+            </h4>
             <div id="filterReset"></div>
             <div class="widget-content">
                 <div id="facet-nav" class="facet-nav"></div>
@@ -79,42 +83,50 @@
         </div>
     </div>
 
-    <div class="col-md-10 results-container">
+    <div class="col-md-9 results-container ">
 
-        <div class="card-body" style="text-align: right">
-            <br />
-            <h5 style="display: inline-block" style="padding-right:15px;">Start Date</h5>
-            <input type="date" class="form-control advancedAutoComplete" name="startdate" id="startdate" placeholder="Start Date" autocomplete="off" style="width:17%">
-            <h5 style="display: inline-block" style="padding-right:15px;">End Date</h5>
-            <input type="date" class="form-control advancedAutoComplete" name="enddate" id="enddate" placeholder="End Date" autocomplete="off" style="width:17%">
-            <a asp-action="UploadData" asp-controller="Admin" class="fluent-button upload-button"> Upload file</a>
-            <button style="font-weight: 600; border: 1px solid lightgrey; background: white; color: black; margin-right: 10px" class="fluent-button" onclick="EntityMapClick()">View entity Map</button>
-            <a style="text-decoration:none; color:#337ab7;" asp-action="Customize" asp-controller="Admin"> Customize</a>
-        </div>
+       
 
         <div style="margin:0 10px 10px 10px;">
-        <div id="results-title"><h4>Performance Overview</h4><div id="disclaimer">AI-generated content may be incorrect</div></div>
+        <div id="results-title"><h4 class="overview-title">Performance Overview</h4><div id="disclaimer">AI-generated content may be incorrect</div></div>
+            <div class="card-body" style="display:flex;justify-content:space-between">
+                <div>
+
+                    <h5 class="date-control" style="display: inline-block" style="padding-right:15px;font-size:14px;">Start Date</h5>
+                    <input type="date" class="form-control-date advancedAutoComplete" name="startdate" id="startdate" placeholder="Start Date" autocomplete="off">
+                    <h5 class="date-control" style="display: inline-block;margin-left: 1rem;" style="padding-right:15px;">End Date</h5>
+                    <input type="date" class="form-control-date advancedAutoComplete" name="enddate" id="enddate" placeholder="End Date" autocomplete="off">
+                </div>
+                <div>
+
+                    <a asp-action="UploadData" asp-controller="Admin" class="fluent-button upload-button"> Upload file</a>
+                    <button style="font-weight: 600; border: 1px solid lightgrey; background: white; color: black; margin-right: 10px" class="fluent-button" onclick="EntityMapClick()">View entity Map</button>
+                    <a style="text-decoration:none; color:#337ab7;" asp-action="Customize" asp-controller="Admin"> Customize</a>
+                </div>
+            </div>
         </div>
+      
         <div class="card-container" style="display:flex; flex-direction: row; justify-content:space-between;">
             <fluent-card class="fluent-card-custom">
 
-                <div class="stats-rect pink-gradient">
+                <div class="stats-rect">
                     <h4>
-                        Average customer satisfaction
+                        <p class ="card-header">Average customer satisfaction</p>
                         <span class="card-container">
                             <div class="stat-box">
-                                <h5>Satisfied Customers</h5>
-                                <span>@Model.Insight1.KeyInsight1</span>
+                                <h5 style="color:#52AD3B;">Satisfied Customers</h5>
+                                <span class="insight-value" style="color:#52AD3B;">@Model.Insight1.KeyInsight1</span>
                             </div>
                             <div class="stat-box">
-                                <h5>Unsatisfied Customers</h5>
-                                <span>@Model.Insight1.KeyInsight2</span>
+                                <h5 style="color:#D25342;">Unsatisfied Customers</h5>
+                                <span class="insight-value" style="color:#D25342;">@Model.Insight1.KeyInsight2</span>
                             </div>
                         </span>
                     </h4>
                 </div>
 
-                <div class="stats-rect data">
+                <div class="stats-rect data" style="height: 90px;
+    overflow-y: auto;">
                     <fluent-data-grid id="complaintgrid">
                         <fluent-data-grid-column column-name="Top 5 customer satisfaction trends"></fluent-data-grid-column>
                         <fluent-data-grid-column column-name="More info"></fluent-data-grid-column>
@@ -131,24 +143,27 @@
 
             </fluent-card>
 
-            <fluent-card class="fluent-card-custom">
-                <div class="stats-rect blue-gradient">
+            <fluent-card class="fluent-card-custom-top-cities">
+                <div class="stats-rect">
                     <h4>
-                        Top discussed cities
+                        <p class="card-header" style="background: linear-gradient(to right, #24538D, #23CAFF);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;">Top discussed cities</p>
                         <span class="card-container">
-                            <div class="stat-box">
+                            <div class="top-discussed-stat-box">
                                 <h5>Origin city</h5>
-                                <span>@Model.Insight2.KeyInsight1</span>
+                                <span class="insight-value">@Model.Insight2.KeyInsight1</span>
                             </div>
-                            <div class="stat-box">
+                            <div class="top-discussed-stat-box">
                                 <h5>Destination city</h5>
-                                <span>@Model.Insight2.KeyInsight2</span>
+                                <span class="insight-value">@Model.Insight2.KeyInsight2</span>
                             </div>
                         </span>
                     </h4>
                 </div>
 
-                <div class="stats-rect data">
+                <div class="stats-rect data" style="height: 90px;
+    overflow-y: auto;">
                     <fluent-data-grid id="repgrid">
                         <fluent-data-grid-column column-name="Top 5 mentioned hotels"></fluent-data-grid-column>
                         <fluent-data-grid-column column-name="More info"></fluent-data-grid-column>

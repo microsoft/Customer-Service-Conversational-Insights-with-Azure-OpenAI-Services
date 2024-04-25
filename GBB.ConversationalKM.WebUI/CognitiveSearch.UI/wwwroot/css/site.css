@@ -1,15 +1,18 @@
-﻿html {
+﻿@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
     /*position: relative;*/
     min-height: 100%;
     /*max-width: 100%;*/
 }
 
 body {
-    font-family: "Poppins";
+    font-family: "Raleway", sans-serif !important;
     font-size: 14px;
     min-height: 100vh;
     position: relative;
     padding-bottom: 6rem;
+    background:#f4f4f4;
 }
 
 .area-list {
@@ -69,6 +72,9 @@ audio {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+.body-container {
+    background: #f4f4f4;
+}
 
 .recentsearch {
     color: #4A4A4A;
@@ -121,26 +127,20 @@ audio {
 }
 
 .content {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     position: relative;
     height: 100%;
     width: 100%;
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 }
 
 .content-results {
     padding-top: 25px;
-    padding-left: 5%;
-    padding-right: 5%;
     position: relative;
     height: 100%;
     width: 100%;
-}
-
-.results-container {
-    background-image: linear-gradient(to top, #FAF9F8, #fff);
 }
 
 .copyright {
@@ -216,12 +216,11 @@ h1, h2, h3, h4, h5 {
 #results-title {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 1rem;
 }
 
 #disclaimer {
     display: inline-block;
-    font-size: 10pt;
-    color: #797775;
     border: 2px solid #797775;
     border-radius: 7pt;
     padding: 5px 9px;
@@ -229,7 +228,13 @@ h1, h2, h3, h4, h5 {
     line-height: 11pt;
     font-weight: normal;
     position: relative;
-    bottom: -6px;
+
+    font-size: 10px;
+    color: #797775;
+    border: 1px solid #c3c3c3;
+    border-radius: 20px;
+    line-height: 10pt;
+    bottom: 0px;
 }
 
 .highlight {
@@ -341,9 +346,23 @@ h3{
     -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
+.form-control-date {
+    display: inline-block;
+    width: 33%;
+    height: 28px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    border: 1px solid #bcbcbc;
+    background-image: none;
+    border-radius: 8px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
 .form-control:focus {
-        background: #f4f4f4;
-        box-shadow: none;
+    background: #f4f4f4;
+    box-shadow: none;
 }
 
 .modal-dialog {
@@ -485,7 +504,7 @@ h3{
 }
 
 pre {
-    font-family: 'Poppins';
+    font-family: 'Raleway',sans-serif !important;
     font-size: 14px;
     white-space: pre-line;
     word-break: keep-all;
@@ -555,6 +574,10 @@ pre {
     text-transform: uppercase;
 }
 
+.accordion-butt{
+
+}
+
 #search-input-group {
     box-shadow: 2px 2px #5858584f;
 }
@@ -582,7 +605,11 @@ pre {
     overflow: hidden;
     padding: 10px;
     text-align: left;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 2%);
+}
+
+
 }
 
 .search-result a {
@@ -590,8 +617,9 @@ pre {
 }
 
 .results-body a {
-    color: #337ab7;
+    color: #092c47;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .result-item {
@@ -1002,11 +1030,20 @@ input:checked + .slider:before {
     }
 
 body {
-    font-family: "Poppins";
+    font-family: "Raleway",sans-serif !important;
 }
 
 .fluent-card-custom {
-    border-radius: 0;
+    border-radius: 8px;
+    background: linear-gradient(#fff 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    border: 1.4px solid transparent;
+}
+.fluent-card-custom-top-cities {
+    border-radius: 8px;
+    background: linear-gradient(#fff 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #24538D, #23CAFF) border-box;
+    border: 1.4px solid transparent;
 }
 
 .custom {
@@ -1099,6 +1136,22 @@ body {
     border-radius: calc(var(--layer-corner-radius) * 1px);
     background-image: none;
     background-color: #FFF;
+    border: 1px solid #c4c4c4;
+    white-space: nowrap;
+}
+.top-discussed-stat-box {
+    --card-width: 200px;
+    --card-height: 100px;
+    width: 50%;
+    margin: 0px;
+    display: block;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: calc(var(--layer-corner-radius) * 1px);
+    background-image: none;
+    background-color: rgba(173, 217, 249, 0.23);
     white-space: nowrap;
 }
 
@@ -1107,21 +1160,21 @@ body {
     /* Use display: inline-block to make the button fit its content */
     display: inline-block;
     /* Add some padding for the button text */
-    padding: 6px 14px;
+    padding: 4px 8px;
     /* Remove the default border */
     border: none;
     /* Add some border-radius for a rounded shape */
     border-radius: 4px;
     /* Use a linear-gradient background for a smooth color transition */
-    background: #0078d4;
+    background: #092c47;
     /* Use white color for the button text */
     color: white;
     /* Use a font-size of 16px */
-    font-size: 16px;
+    font-size: 14px;
     /* Change the cursor to a pointer when hovering over the button */
     cursor: pointer;
-
     margin-left: 10px;
+    font-weight: 600;
 }
 
     /* Define the hover state for the fluent button */
@@ -1148,6 +1201,14 @@ body {
     font-size: 16px;
     font-weight: 500px;
 }
+.panel-bg {
+    background: #092c47;
+    border-top-right-radius: 8px;
+}
+
+--bs-accordion-btn-icon{
+    color:#fff;
+    }
 
 .card {
     border-radius: unset;
@@ -1158,12 +1219,78 @@ body {
     border: none;
 }
 .accordion-button {
-    background-color: #f5f5f5;
+    background-color: #092c47;
+    color: #fff;
     font-weight: inherit;
+    height: 44px;
 }
 
+.accordion-header {
+    border-bottom: 1px solid rgb(255 255 255 / 22%);
+    margin-left: 0.4rem;
+}
 
+.accordion-item{
+    background:none;
+    border:none;
+}
 
 div.accordion {
     margin-top: 5px;
+    --bs-accordion-border-color: #f4f4f4;
+}
+
+    .accordion-button.collapsed::after {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+.accordion-body panel-scroll{
+    color:#fff;
+}
+.ms-Label {
+    color: #fff;
+    font-family: 'Raleway',sans-serif !important;
+}
+.ms-CheckBox-field:focus .ms-Label, .ms-CheckBox-field:hover .ms-Label {
+    color: #cfe2ff;
+    font-family:'Raleway',sans-serif !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    height: 44px;
+    font-weight: 600;
+}
+.accordion-button:focus {
+    border-color: #ffffff;
+    box-shadow: none;
+}
+@media (width<= 1272px) {
+    .accordion-button {
+        font-size: 14px;
+    }
+    h5{
+        font-size:1rem;
+    }
+    h4{
+        font-size:20px;
+    }
+    .card-header {
+        font-size: 18px;
+        font-weight: 600;
+        color: #000;
+        background: linear-gradient(to right, #9c20aa, #fb3570);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .overview-title {
+        font-size: 20px;
+        margin: 0;
+        font-weight: bold;
+    }
+    .insight-value {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .date-control{
+        font-size:14px;
+    }
 }

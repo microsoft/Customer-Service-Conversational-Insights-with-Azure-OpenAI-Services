@@ -200,7 +200,7 @@ function UpdateMap(data) {
 function UpdateResults(data, answer) {
     var resultsHtml = '';
 
-    $("#doc-count").html(`<div id="results-title"><h4>Call summaries</h4><div id="disclaimer">AI-generated content may be incorrect</div></div>Showing ${data.results.length} of ${data.count} results`);
+    $("#doc-count").html(`<div id="results-title"><h4 class='overview-title'>Call summaries</h4><div id="disclaimer">AI-generated content may be incorrect</div></div>Showing ${data.results.length} of ${data.count} results`);
 
     if (data.answer !== undefined && data.answer !== null) {
 
@@ -360,7 +360,7 @@ function UpdateResults(data, answer) {
                     </div>
                 </div>
                 <hr style="height:1px;border-width:0;background-color:#EDEBE9">
-                <div style="margin-top:10px;margin-bottom:20px;">${tags}</div>
+                <div style="margin-top:10px;margin-bottom:20px;padding:4px">${tags}</div>
                 <a href="#" onclick="ShowDocument('${id}', ${i + 1});">View more details</a>`
             }
 

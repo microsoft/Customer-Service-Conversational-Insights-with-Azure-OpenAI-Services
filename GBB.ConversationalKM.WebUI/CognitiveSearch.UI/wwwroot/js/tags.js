@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 function GetTagsHTML(result) {
-    var tagsHTML = `<div>`;
+    var tagsHTML = `<div style="padding:4px;">`;
 
     var i = 0;
 

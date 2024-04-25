@@ -1,9 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
+@@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-  font-family: 'Poppins', sans-serif;
-  color: #333;
+body {
+    font-family: "Raleway",sans-serif !important;
+    color: #333;
 }
+
 
 header h1{
   text-align: center;
