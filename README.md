@@ -1,4 +1,4 @@
-# Conversation knowledge mining solution accelerator
+# Quadra CKMS Accelerator
 
 MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)  \| [**SUPPORTING DOCUMENTS**](#supporting-documents) \|
 [**CUSTOMER TRUTH**](#customer-truth)
