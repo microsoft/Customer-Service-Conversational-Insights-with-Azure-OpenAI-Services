@@ -134,13 +134,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .dz-success-mark{
-    border-radius: 55% !important;
+    border-radius: 50% !important;
     background-color: #0E700E !important;
+    height: 56px !important;
 }
 
 .dropzone .dz-preview .dz-success-mark svg{
-    width: 58px !important;
-    height: 58px !important;
+    width: 54px !important;
+    height: 54px !important;
 }
 /*.BtnBack {
     font-size: large !important;
