@@ -17,7 +17,7 @@
 <main role="main">
 
     <fluent-card class="uploadcard">
-        <img class="img-upload" src="/../../images/arrow-upload.png" alt="arrow upload" />
+        <img class="img-upload" src="/../../images/Arrow-Upload.svg" alt="arrow upload" />
         <h1 style="text-align: center;">Upload your audio or json files for analysis</h1>
         <div class="card-body">
             <h3 style="text-align: center; font-weight: 400">
@@ -27,8 +27,8 @@
             </h3>
             <div class="card mb-2 mt-5 mr-5 ml-5" style="border:none">
                 <div id="upload-message" class="alert alert-success mb-2 mt-2 mr-5 ml-5" style="display:none;">
-                    <img src='~/images/success.png' alt='successIcon' class="icons successIcon" />
-                    <img src='~/images/fail.png' alt='failIcon' class="icons failIcon" />
+                    <img src='~/images/Success.svg' alt='successIcon' class="icons successIcon" />
+                    <img src='~/images/Error.svg' alt='failIcon' class="icons failIcon" />
                     <div class='message'></div>
 
                 </div>
@@ -260,7 +260,7 @@
                 $message.addClass('alert-danger');
                 $message.removeClass('hide').addClass('showBannerMsg');
                 $('#click-Browser').removeClass('enableLink').addClass('disableLink')
-                $message.find('.message').text("File exceeds the maximum size of 50MB.");
+                $message.find('.message').text("File exceed the maximum size of 50MB.");
                 //$('#upload-dropzone').addClass('dropzoneDisable').removeClass('dropzoneEnable')
 
             }

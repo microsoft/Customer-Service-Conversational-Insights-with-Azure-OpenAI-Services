@@ -30,7 +30,7 @@
 .icons {
     float: left;
     padding-right: 11px;
-    width: 2.7%;
+    width: 2rem;
 }
 
 .enableUpload {
@@ -50,10 +50,10 @@
     pointer-events: auto !important;
 }
 
-    .dropzone .dz-preview .dz-error-mark svg {
-        background: #DA3B01 !important;
-        border-radius: 68% !important;
-    }
+.dropzone .dz-preview .dz-error-mark svg {
+    background: #DA3B01 !important;
+    border-radius: 68% !important;
+}
 
 .dz-error-message {
     display: none !important;
@@ -131,6 +131,17 @@ h1, h2, h3, h4, h5 {
 .dropzoneEnable {
     pointer-events: none !important;
     
+}
+
+.dz-success-mark{
+    border-radius: 50% !important;
+    background-color: #0E700E !important;
+    height: 56px !important;
+}
+
+.dropzone .dz-preview .dz-success-mark svg{
+    width: 54px !important;
+    height: 54px !important;
 }
 /*.BtnBack {
     font-size: large !important;
