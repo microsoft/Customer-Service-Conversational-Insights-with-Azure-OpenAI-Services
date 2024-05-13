@@ -97,7 +97,7 @@ ViewData["Title"] = "Upload your data";
                for(var i = 0; i <= this.files.length; i++) {
                    $('.dz-preview').eq(i).removeClass('dz-error dz-complete')
                }
-               if (this.files.length+1 <= numberOfFiles) {
+               if (this.files.length <= numberOfFiles) {
                    btnUpload.removeClass('disableUpload').addClass('enableUpload');
                    btnContainer.addClass('showBtn').removeClass('hide'); 
                    $message.addClass('alert-success').removeClass('alert-danger');
