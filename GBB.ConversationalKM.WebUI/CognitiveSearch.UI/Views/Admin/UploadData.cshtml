@@ -8,6 +8,7 @@ ViewData["Title"] = "Upload your data";
 <link rel="stylesheet" href="~/lib/dropzone/dist/css/basic.min.css" />
 <link rel="stylesheet" href="~/lib/dropzone/dist/css/dropzone.min.css" />
 <link rel="stylesheet" href="~/css/dropzone.css" asp-append-version="true" />
+<script type="text/javascript" src="~/js/constants.js"></script>
 <style></style>
 <main role="main">
    <fluent-card class="uploadcard">
@@ -66,7 +67,7 @@ ViewData["Title"] = "Upload your data";
 </main>
 <script type="text/javascript">
    $(document).ready(function () {
-       var numberOfFiles = 10;
+    var flag = 0;
        var totalFilesize = 0;
        var fileCount = 0;
        var btnUpload = $('#btnUpload');
@@ -91,14 +92,12 @@ ViewData["Title"] = "Upload your data";
            maxFiles: numberOfFiles,
            autoProcessQueue: false,
            removedfile: function (file) {
-               console.log("removed files::",this.files.length)
-               this.getQueuedFiles(file)
                $('.dz-progress').attr('style', 'display: none !important;');
-            //    remove any file then automatically remove class 
+               //remove any file then automatically remove class 
                for(var i = 0; i <= this.files.length; i++) {
                    $('.dz-preview').eq(i).removeClass('dz-error dz-complete')
                }
-               if (this.files.length <= numberOfFiles) {
+               if (this.files.length+1 <= numberOfFiles) {
                    btnUpload.removeClass('disableUpload').addClass('enableUpload');
                    btnContainer.addClass('showBtn').removeClass('hide'); 
                    $message.addClass('alert-success').removeClass('alert-danger');
@@ -110,18 +109,12 @@ ViewData["Title"] = "Upload your data";
                    btnUpload.addClass('disableUpload').removeClass('enableUpload');
                    btnContainer.addClass('showBtn').removeClass('hide'); 
                    $message.removeClass('alert-success').addClass('alert-danger');
-                   $message.find('.message').text(`Up to 10 files can be uploaded at a time.`);
+                   $message.find('.message').text(ErrMaxNumberfiles);
                    $message.removeClass('hide').addClass('showBannerMsg');
                    CalculateTotalFileSize(myDropZone.files)
                    CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
-   
                }
-               if (this.files.length == 0) {
-                   $message.removeClass('hide').addClass('showBannerMsg');
-                   btnContainer.addClass('hide').removeClass('showBtn'); 
-               }
-               var _ref;
-               return (_ref = file.previewElement) != null ? _ref.parentNode.removeChild(file.previewElement) : void 0;
+
            },
            sending: function (file, xhr, formData) {
                 $message.addClass('hide').removeClass('showBannerMsg');
@@ -129,50 +122,45 @@ ViewData["Title"] = "Upload your data";
            success: function (file, response) {
                file.previewElement.classList.add('dz-success');
                btnContainer.removeClass('showBtn').addClass('hide'); 
-               console.log("res::", response)
-             
-              
                $('.successIcon').addClass('show').removeClass('hide'); 
                $('.failIcon').addClass('hide').removeClass('show'); 
                $message.removeClass('alert-danger'); 
                $message.removeClass('hide').addClass('showBannerMsg');
-               $message.find('.message').text("You have successfully uploaded the files.");
                Dropzone.forElement('#upload-dropzone').removeAllFiles(true);
                btnContainer.addClass('hide').removeClass('showBtn'); 
-               $message.find('.message').text("You have successfully uploaded the files.");
+               $message.find('.message').text(SuccessMsg);
            },
            error: function (file, response) {
+               file.previewElement.classList.add('dz-error');
                $('.failIcon').addClass('show').removeClass('hide');
                $('.successIcon').addClass('hide').removeClass('show');
-               btnUpload.addClass('disableUpload').removeClass('enableUpload');
-               btnContainer.addClass('showBtn').removeClass('hide'); 
-               console.log('error msg::', response)
-               file.previewElement.classList.add('dz-error');
-   
+              
+              btnUpload.addClass('disableUpload').removeClass('enableUpload');
+              btnContainer.addClass('showBtn').removeClass('hide'); 
            },
        });
    
-       $('#upload-dropzone').addClass('dropzone');
+      $('#upload-dropzone').addClass('dropzone');
       
       $('#btnUpload').on('click', function () {
-           btnContainer.addClass('hide').removeClass('showBtn'); 
-           $('.dz-progress').attr('style', 'display: inline-block !important;');
-           myDropZone.processQueue();
-           console.log(myDropZone.files.length)
-           if (myDropZone.files.length <= numberOfFiles) {
-               myDropZone.processQueue();
-               setTimeout(() => {
-                   for (var i = 0; i <= myDropZone.files.length; i++) {
-                       $('.dz-preview').eq(i).find('.dz-progress').find('span').attr('style', 'width:100%');
-                       $('.dz-preview').eq(i).addClass('dz-processing dz-success dz-complete');
-                   }
-                   $message.removeClass('alert-danger'); //
-                   $message.removeClass('hide').addClass('showBannerMsg');
-                   $('.successIcon').addClass('show').removeClass('hide'); //
-                   $('.failIcon').addClass('hide').removeClass('show'); //
-                       $message.find('.message').text("You have successfully uploaded the files."); //
-               }, 500);
-               $('.dz-remove').attr('style', 'display:none !important');
+       
+            btnContainer.addClass('hide').removeClass('showBtn'); 
+            $('.dz-progress').attr('style', 'display: inline-block !important;');
+            if (myDropZone.files.length <= numberOfFiles) {
+                myDropZone.processQueue();
+                    setTimeout(() => {
+                        for (var i = 0; i <= myDropZone.files.length; i++) {
+                            $('.dz-preview').eq(i).find('.dz-progress').find('span').attr('style', 'width:100%');
+                            $('.dz-preview').eq(i).addClass('dz-processing dz-success dz-complete');
+                        }
+                        $message.removeClass('alert-danger'); //
+                        $message.removeClass('hide').addClass('showBannerMsg');
+                        $('.successIcon').addClass('show').removeClass('hide'); //
+                        $('.failIcon').addClass('hide').removeClass('show'); //
+                            $message.find('.message').text(SuccessMsg); //
+                    }, 500);
+                    $('.dz-remove').attr('style', 'display:none !important');
+                
            }
        });
 
@@ -188,7 +176,7 @@ ViewData["Title"] = "Upload your data";
                }
            } else {
                btnUpload.addClass('disableUpload').removeClass('enableUpload');
-               $message.find('.message').text(`Up to 10 files can be uploaded at a time.`);
+               $message.find('.message').text(ErrMaxNumberfiles);
                $message.removeClass('alert-success');
                $message.addClass('alert-danger');
                 $message.removeClass('hide').addClass('showBannerMsg')
@@ -203,12 +191,6 @@ ViewData["Title"] = "Upload your data";
            $message.addClass('hide').removeClass('showBannerMsg')
            $('.dz-progress').attr('style', 'display:none !important;');
            btnContainer.addClass('showBtn').removeClass('hide'); 
-           console.log(myDropZone.files);
-       });
-   
-       myDropZone.on("selectedfiles", function (listFiles) {
-           cont_files = listFiles.length;
-           console.log('cont_files::', cont_files);
        });
 
        $('#btnCancel').on('click', function () {
@@ -219,7 +201,7 @@ ViewData["Title"] = "Upload your data";
        });
    
        function CalculateFiles(file, Count, CallFrom) {
-           if (totalFilesize > 52428800 && Count > numberOfFiles) {
+           if (totalFilesize > maxfileSize && Count > numberOfFiles) {
                btnUpload.addClass('disableUpload').removeClass('enableUpload');
                $('.failIcon').addClass('show').removeClass('hide');
                $('.successIcon').addClass('hide').removeClass('show');
@@ -227,10 +209,10 @@ ViewData["Title"] = "Upload your data";
                $message.addClass('alert-danger');
                $message.removeClass('hide').addClass('showBannerMsg');
                $('#click-Browser').removeClass('enableLink').addClass('disableLink');
-               $message.find('.message').text("The files exceed the maximum size of 50 MB and limit of 10. Please choose smaller files.");
+               $message.find('.message').text(ErrMaxFileSizeAndNumber);
    
            }
-           else if (totalFilesize > 52428800 && Count <= numberOfFiles) {
+           else if (totalFilesize > maxfileSize && Count <= numberOfFiles) {
                btnUpload.addClass('disableUpload').removeClass('enableUpload');
                $('.failIcon').addClass('show').removeClass('hide');
                $('.successIcon').addClass('hide').removeClass('show');
@@ -239,10 +221,10 @@ ViewData["Title"] = "Upload your data";
                $message.addClass('alert-danger');
                $message.removeClass('hide').addClass('showBannerMsg');
                $('#click-Browser').removeClass('enableLink').addClass('disableLink')
-               $message.find('.message').text("File exceed the maximum size of 50MB.");
+               $message.find('.message').text(ErrMaxFileSize);
    
            }
-           else if (Count > numberOfFiles && totalFilesize <= 52428800) {
+           else if (Count > numberOfFiles && totalFilesize <= maxfileSize) {
                btnUpload.addClass('disableUpload').removeClass('enableUpload');
                $('.failIcon').addClass('show').removeClass('hide');
                $('.successIcon').addClass('hide').removeClass('show');
@@ -250,7 +232,7 @@ ViewData["Title"] = "Upload your data";
                $message.addClass('alert-danger');
                $message.removeClass('hide').addClass('showBannerMsg');
                $('#click-Browser').removeClass('enableLink').addClass('disableLink')
-               $message.find('.message').text("Up to 10 files can be uploaded at a time.");
+               $message.find('.message').text(ErrMaxNumberfiles);
            }
            else {
                btnUpload.removeClass('disableUpload').addClass('enableUpload');
@@ -265,9 +247,7 @@ ViewData["Title"] = "Upload your data";
            totalFilesize = 0;
            for (let i = 0; i < files.length; i++) {
                totalFilesize += files[i].size;
-               console.log("Total-File-Size " + totalFilesize + " and Total-Files " + files.length)
-           }
+              }
        }
-   
    });
 </script>

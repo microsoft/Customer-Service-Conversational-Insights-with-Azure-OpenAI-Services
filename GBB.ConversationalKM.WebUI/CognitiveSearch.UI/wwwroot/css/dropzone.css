@@ -126,15 +126,6 @@ h1, h2, h3, h4, h5 {
     display: flex !important;
     align-items: center;
 }
-.dropzoneDisable {
-    pointer-events: none !important;
-    
-}
-
-.dropzoneEnable {
-    pointer-events: none !important;
-    
-}
 
 .dz-success-mark{
     border-radius: 50% !important;
