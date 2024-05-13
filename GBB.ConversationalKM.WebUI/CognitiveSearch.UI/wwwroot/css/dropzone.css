@@ -1,0 +1,141 @@
+.fluent-button {
+    text-decoration: none;
+}
+
+.show {
+    display: inline-block !important;
+}
+
+.showBtn {
+    display: block !important;
+}
+
+.hide {
+    display: none;
+}
+
+.disableUpload {
+    pointer-events: none;
+    opacity: .6;
+    color: #F0F0F0 !important;
+    background-color: #BDBDBD !important;
+}
+
+.cancelBtn {
+    color: #242424 !important;
+    background-color: #FFFFFF !important;
+    border: 1px solid #D1D1D1 !important; /* new */
+}
+
+.icons {
+    float: left;
+    padding-right: 11px;
+    width: 2.7%;
+}
+
+.enableUpload {
+    /* display: inline-block !important;*/
+    pointer-events: auto;
+    opacity: 1;
+    color: #FFFFFF !important;
+    background-color: #0F6CBD !important;
+}
+
+.dropzone .dz-preview.dz-image-preview {
+    background: transparent !important;
+}
+
+.dropzone .dz-preview .dz-error-mark {
+    display: none !important;
+    pointer-events: auto !important;
+}
+
+    .dropzone .dz-preview .dz-error-mark svg {
+        background: #DA3B01 !important;
+        border-radius: 68% !important;
+    }
+
+.dz-error-message {
+    display: none !important;
+}
+
+.dz-remove {
+    color: #555555 !important;
+}
+
+.dropzone .dz-preview .dz-success-mark, .dropzone .dz-preview .dz-error-mark {
+    top: 40% !important;
+}
+
+.dz-progress {
+    display: none;
+}
+
+.card {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+a {
+    color: #10738E !important;
+    text-decoration: underline;
+}
+#upload-dropzone {
+    background-color: #F3F2F1 !important;
+    border: 2px dotted #A19F9D !important;
+    
+}
+
+.enableLink {
+    pointer-events: auto;
+    color: blue;
+}
+
+.disableLink {
+    pointer-events: none;
+    color: #252423 !important;
+}
+h3, .h3 {
+    font-size: 1.4rem !important;
+}
+.message {
+    font-weight: 500 !important;
+    color: black !important;
+    font-size: 1rem !important;
+}
+.cancelBtn {
+    font-weight: 500 !important;
+}
+.enableUpload {
+    font-weight: 500 !important;
+}
+.alert-danger {
+    background-color: #FDF3F4 !important;   
+    border: 2px solid #EEACB2 !important
+}
+.alert-success {
+    background-color: #F1FAF1 !important;
+    border: 2px solid #9FD89F !important;
+}
+h1, h2, h3, h4, h5 {
+    color: #252423;
+}
+.showBannerMsg {
+    display: flex !important;
+    align-items: center;
+}
+.dropzoneDisable {
+    pointer-events: none !important;
+    
+}
+
+.dropzoneEnable {
+    pointer-events: none !important;
+    
+}
+/*.BtnBack {
+    font-size: large !important;
+    margin-left: 1% !important;
+    text-decoration: none !important;
+    color: #10738E !important;
+}*/
+
