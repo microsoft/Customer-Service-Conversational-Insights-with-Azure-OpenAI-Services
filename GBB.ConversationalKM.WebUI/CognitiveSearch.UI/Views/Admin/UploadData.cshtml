@@ -92,6 +92,7 @@ ViewData["Title"] = "Upload your data";
            maxFiles: numberOfFiles,
            autoProcessQueue: false,
            removedfile: function (file) {
+               this.getQueuedFiles(file)
                $('.dz-progress').attr('style', 'display: none !important;');
                //remove any file then automatically remove class 
                for(var i = 0; i <= this.files.length; i++) {
@@ -113,8 +114,10 @@ ViewData["Title"] = "Upload your data";
                    $message.removeClass('hide').addClass('showBannerMsg');
                    CalculateTotalFileSize(myDropZone.files)
                    CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
+   
                }
-
+               var _ref;
+               return (_ref = file.previewElement) != null ? _ref.parentNode.removeChild(file.previewElement) : void 0;
            },
            sending: function (file, xhr, formData) {
                 $message.addClass('hide').removeClass('showBannerMsg');
