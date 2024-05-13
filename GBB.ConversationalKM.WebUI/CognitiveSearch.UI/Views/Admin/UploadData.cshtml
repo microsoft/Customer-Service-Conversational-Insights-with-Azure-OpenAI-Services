@@ -67,7 +67,6 @@ ViewData["Title"] = "Upload your data";
 </main>
 <script type="text/javascript">
    $(document).ready(function () {
-    var flag = 0;
        var totalFilesize = 0;
        var fileCount = 0;
        var btnUpload = $('#btnUpload');
@@ -94,6 +93,7 @@ ViewData["Title"] = "Upload your data";
            removedfile: function (file) {
                this.getQueuedFiles(file)
                $('.dz-progress').attr('style', 'display: none !important;');
+
                //remove any file then automatically remove class 
                for(var i = 0; i <= this.files.length; i++) {
                    $('.dz-preview').eq(i).removeClass('dz-error dz-complete')
@@ -116,6 +116,11 @@ ViewData["Title"] = "Upload your data";
                    CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
    
                }
+
+                //all file removed from dropzone then button are not visible
+                if (this.files.length == 0) {
+                    btnContainer.addClass('hide').removeClass('showBtn'); //new
+                }
                var _ref;
                return (_ref = file.previewElement) != null ? _ref.parentNode.removeChild(file.previewElement) : void 0;
            },
@@ -170,8 +175,8 @@ ViewData["Title"] = "Upload your data";
        myDropZone.on("addedfile", function (file) {
            $('.dz-progress').attr('style', 'display:none !important;');
             if (myDropZone.files.length <= 10) {
-                btnUpload.addClass('enableUpload').removeClass('disableUpload');
-                $('.dz-remove').attr('style', 'display:block !important');
+               btnUpload.addClass('enableUpload').removeClass('disableUpload');
+               $('.dz-remove').attr('style', 'display:block !important');
                $message.addClass('hide').removeClass('showBannerMsg')
                btnContainer.addClass('showBtn').removeClass('hide'); 
                for (var i = 0; i < numberOfFiles; i++) {
