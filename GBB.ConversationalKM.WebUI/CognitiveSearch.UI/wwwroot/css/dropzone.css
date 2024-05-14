@@ -30,12 +30,9 @@
 .icons {
     float: left;
     padding-right: 11px;
-    width: 2.2rem;
+    width: 2rem;
 }
 
-.img-upload{
-    width: 5rem !important;
-}
 .enableUpload {
     /* display: inline-block !important;*/
     pointer-events: auto;
@@ -63,7 +60,7 @@
 }
 
 .dz-remove {
-    color: #616161  !important;
+    color: #555555 !important;
 }
 
 .dropzone .dz-preview .dz-success-mark, .dropzone .dz-preview .dz-error-mark {
@@ -95,7 +92,7 @@ a {
 
 .disableLink {
     pointer-events: none;
-    color: #8A8886 !important;
+    color: #252423 !important;
 }
 h3, .h3 {
     font-size: 1.4rem !important;
@@ -103,7 +100,7 @@ h3, .h3 {
 .message {
     font-weight: 500 !important;
     color: black !important;
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
 }
 .cancelBtn {
     font-weight: 500 !important;
@@ -126,20 +123,25 @@ h1, h2, h3, h4, h5 {
     display: flex !important;
     align-items: center;
 }
+.dropzoneDisable {
+    pointer-events: none !important;
+    
+}
+
+.dropzoneEnable {
+    pointer-events: none !important;
+    
+}
 
 .dz-success-mark{
     border-radius: 50% !important;
-    background-color: #9FD89F !important;
+    background-color: #0E700E !important;
     height: 56px !important;
 }
 
 .dropzone .dz-preview .dz-success-mark svg{
     width: 54px !important;
     height: 54px !important;
-}
-
-.mt-5 {
-    margin-top: 1rem !important;
 }
 /*.BtnBack {
     font-size: large !important;
