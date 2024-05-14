@@ -69,6 +69,7 @@
     $(document).ready(function () {
         var totalFilesize = 0;
         var fileCount = 0;
+        var IsSuccess = false;
         var btnUpload = $('#btnUpload');
         var btnCancel = $('#btnCancel');
         var btnContainer = $('.btnContainer');
@@ -91,6 +92,7 @@
             maxFiles: numberOfFiles,
             autoProcessQueue: false,
             removedfile: function (file) {
+
                 this.getQueuedFiles(file)
                 $('.dz-progress').attr('style', 'display: none !important;');
 
@@ -119,7 +121,17 @@
 
                 //all file removed from dropzone then button are not visible
                 if (this.files.length == 0) {
-                    btnContainer.addClass('hide').removeClass('showBtn'); //new
+                    if (IsSuccess == true) {
+                        $message.removeClass('hide').addClass('showBannerMsg');
+                        IsSuccess = false;
+                    }
+                    else {
+
+                        btnContainer.addClass('hide').removeClass('showBtn');
+                        $message.addClass('hide').removeClass('showBannerMsg');
+                    }
+
+
                 }
                 var _ref;
                 return (_ref = file.previewElement) != null ? _ref.parentNode.removeChild(file.previewElement) : void 0;
@@ -128,6 +140,7 @@
                 $message.addClass('hide').removeClass('showBannerMsg');
             },
             success: function (file, response) {
+                IsSuccess = true;
                 file.previewElement.classList.add('dz-success');
                 btnContainer.removeClass('showBtn').addClass('hide');
                 $('.successIcon').addClass('show').removeClass('hide');
@@ -173,11 +186,11 @@
         });
 
         myDropZone.on("addedfile", function (file) {
+            $message.addClass('hide').removeClass('showBannerMsg')
             $('.dz-progress').attr('style', 'display:none !important;');
             if (myDropZone.files.length <= 10) {
                 btnUpload.addClass('enableUpload').removeClass('disableUpload');
-                $('.dz-remove').attr('style', 'display:block !important');
-                $message.addClass('hide').removeClass('showBannerMsg')
+                $('.dz-remove').attr('style', 'display:block !important');               
                 btnContainer.addClass('showBtn').removeClass('hide');
                 for (var i = 0; i < numberOfFiles; i++) {
                     $('#upload-dropzone').find('.dz-preview').eq(i).find('a').css({ "color": "green !important" })
