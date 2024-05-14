@@ -161,11 +161,11 @@ ViewData["Title"] = "Upload your data";
                             $('.dz-preview').eq(i).find('.dz-progress').find('span').attr('style', 'width:100%');
                             $('.dz-preview').eq(i).addClass('dz-processing dz-success dz-complete');
                         }
-                        $message.removeClass('alert-danger'); //
+                        $message.removeClass('alert-danger');
                         $message.removeClass('hide').addClass('showBannerMsg');
-                        $('.successIcon').addClass('show').removeClass('hide'); //
-                        $('.failIcon').addClass('hide').removeClass('show'); //
-                            $message.find('.message').text(SuccessMsg); //
+                        $('.successIcon').addClass('show').removeClass('hide');
+                        $('.failIcon').addClass('hide').removeClass('show');
+                            $message.find('.message').text(SuccessMsg);
                     }, 500);
                     $('.dz-remove').attr('style', 'display:none !important');
                 
