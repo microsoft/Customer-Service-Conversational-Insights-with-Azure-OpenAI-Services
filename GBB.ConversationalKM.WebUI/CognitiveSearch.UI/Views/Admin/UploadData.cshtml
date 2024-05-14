@@ -1,26 +1,21 @@
 ﻿@model CognitiveSearch.UI.Configuration.AppConfig
-
 @{
     ViewData["Title"] = "Upload your data";
-    //ViewData["UploadDisclaimer"];
 }
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript" src="~/lib/dropzone/dist/js/dropzone.min.js"></script>
 <script type="text/javascript" src="~/lib/dropzone/dist/js/dropzone-amd-module.min.js"></script>
 <link rel="stylesheet" href="~/lib/dropzone/dist/css/basic.min.css" />
 <link rel="stylesheet" href="~/lib/dropzone/dist/css/dropzone.min.css" />
-@* <link rel="stylesheet" href="~/css/dropzone.css" asp-append-version="true" /> *@
 <link rel="stylesheet" href="~/css/dropzone.css" asp-append-version="true" />
-<style>
-</style>
-@* <a href="~/Home/index" style="font-size:large;" class="BtnBack"><-Back</a> *@
+<script type="text/javascript" src="~/js/constants.js"></script>
+<style></style>
 <main role="main">
-
     <fluent-card class="uploadcard">
         <img class="img-upload" src="/../../images/Arrow-Upload.svg" alt="arrow upload" />
-        <h1 style="text-align: center;">Upload your audio or json files for analysis</h1>
+        <h1 style="text-align: center;">Upload your audio or json files for analysis</h1><br>
         <div class="card-body">
-            <h3 style="text-align: center; font-weight: 400">
+            <h3 style="text-align: center; font-weight: 400;line-height: 1.5;">
                 You can use the area below to upload files into your Azure Storage account. Once uploaded, the files
                 will be indexed by Azure Search, and within a few minutes will be available for searching using this
                 tool.
@@ -30,63 +25,48 @@
                     <img src='~/images/Success.svg' alt='successIcon' class="icons successIcon" />
                     <img src='~/images/Error.svg' alt='failIcon' class="icons failIcon" />
                     <div class='message'></div>
-
                 </div>
             </div>
-
             <div id="upload-dropzone" class="justify-content-center" style="text-align: center;">
-                <div class="loader"></div>
-
-                @*   <img class="img-mini-upload" src="~/images/mini-upload.png" alt="min arrow upload" />
-                <h3 style="font-weight: 400; text-indent: 5px; display:block;color:#252423">
-                Drag and drop files here or
-                <a href="#" onclick="document.getElementById('upload-dropzone').click();
-                return false;" class="justify-content-center" id="click-Browser"> click to browse</a>
-
-                </h3> *@
-
-                <div style="
-">
-                    <div style="
-    display: inline-flex;
-">
-                        <img class="img-mini-upload" src="/images/mini-upload.png" alt="min arrow upload">
+                <!-- <div class="loader"></div> -->
+                <div class="dragdropContainer" style="margin-top: 2%;">
+                    <div>
+                        <div style="
+               display: inline-flex;
+               ">
+                            <img class="img-mini-upload" src="/images/mini-upload.png" alt="min arrow upload">
+                        </div>
+                        <div style="
+               display: inline-block;
+               ">
+                            <h3 style="font-weight: 400; text-indent: 5px; display:block">
+                                Drag and drop files here or <span>
+                                    <a href="#" onclick="document.getElementById('upload-dropzone').click();
+                     return false;" class="justify-content-center" id="click-Browser"> click to browse</a>
+                                </span>
+                            </h3>
+                        </div>
                     </div>
-                    <div style="
-    display: inline-block;
-">
-                        <h3 style="font-weight: 400; text-indent: 5px; display:block">
-                            Drag and drop files here or <span>
-                                <a href="#" onclick="document.getElementById('upload-dropzone').click();
-                return false;" class="justify-content-center" id="click-Browser"> click to browse</a>
-                            </span>
-                        </h3>
-                    </div>
+                    <h5 style="color:#8A8886 !important; font-weight: 400; color:dimgrey;font-family: Segoe UI, sans-serif !important;">
+                        Select up to 10 files, max file size 50 MB
+                    </h5>
                 </div>
-
-                <h5 style="font-weight: 400; color:dimgrey;" text-indent: 5px; display:block">
-                    Select up to 10 files, max file size 50 MB
-                </h5>
             </div>
-
-            @* upload and Cancel button *@
+            <!-- @* upload and Cancel button *@ -->
             @if (!String.IsNullOrEmpty(Model.UploadDisclaimer))
             {
-                <div style="text-align: center; font-size: 11pt; color: #797775;">@Model.UploadDisclaimer</div>
+                <div style="text-align: center; font-size: 11pt; color: #918F8D;">@Model.UploadDisclaimer</div>
             }
-            <br />@* test *@
+            <br />
+            <!-- @* test *@ -->
             <div style="direction: rtl;" class="btnContainer">
                 <a id="btnUpload" class="fluent-button button disableUpload">Upload</a>
                 <a id="btnCancel" class="fluent-button button cancelBtn">Cancel</a>
             </div>
-
-
     </fluent-card>
 </main>
-
 <script type="text/javascript">
     $(document).ready(function () {
-        var numberOfFiles = 10;
         var totalFilesize = 0;
         var fileCount = 0;
         var btnUpload = $('#btnUpload');
@@ -98,7 +78,7 @@
             window.location.replace("/Admin/NotAvailable");
         }
 
-        btnContainer.addClass('hide').removeClass('showBtn'); //new
+        btnContainer.addClass('hide').removeClass('showBtn');
 
         Dropzone.autoDiscover = false;
         var myDropZone = new Dropzone('#upload-dropzone', {
@@ -111,31 +91,33 @@
             maxFiles: numberOfFiles,
             autoProcessQueue: false,
             removedfile: function (file) {
-                console.log(this.files.length)
                 this.getQueuedFiles(file)
                 $('.dz-progress').attr('style', 'display: none !important;');
-    @* remove any file then automatically remove class *@
-                            for (var i = 0; i <= this.files.length; i++) {
+
+                //remove any file then automatically remove class
+                for (var i = 0; i <= this.files.length; i++) {
                     $('.dz-preview').eq(i).removeClass('dz-error dz-complete')
                 }
                 if (this.files.length <= numberOfFiles) {
                     btnUpload.removeClass('disableUpload').addClass('enableUpload');
-                    btnContainer.addClass('showBtn').removeClass('hide'); //new
-                    $('#upload-message').addClass('alert-success').removeClass('alert-danger');
-                    $('#upload-message').attr('style', 'display:none');
+                    btnContainer.addClass('showBtn').removeClass('hide');
+                    $message.addClass('alert-success').removeClass('alert-danger');
+                    $message.addClass('hide').removeClass('showBannerMsg');
                     CalculateTotalFileSize(myDropZone.files)
                     CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
 
                 } else {
                     btnUpload.addClass('disableUpload').removeClass('enableUpload');
-                    btnContainer.addClass('showBtn').removeClass('hide'); //new
-                    $('#upload-message').removeClass('alert-success').addClass('alert-danger');
-                    $('#upload-message').find('.message').text(`Up to 10 files can be uploaded at a time.`);
-                    $('#upload-message').attr('style', 'display:flex !important');
+                    btnContainer.addClass('showBtn').removeClass('hide');
+                    $message.removeClass('alert-success').addClass('alert-danger');
+                    $message.find('.message').text(ErrMaxNumberfiles);
+                    $message.removeClass('hide').addClass('showBannerMsg');
                     CalculateTotalFileSize(myDropZone.files)
                     CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
 
                 }
+
+                //all file removed from dropzone then button are not visible
                 if (this.files.length == 0) {
                     btnContainer.addClass('hide').removeClass('showBtn'); //new
                 }
@@ -143,36 +125,35 @@
                 return (_ref = file.previewElement) != null ? _ref.parentNode.removeChild(file.previewElement) : void 0;
             },
             sending: function (file, xhr, formData) {
-                $message.attr('style', 'display:none !important');
+                $message.addClass('hide').removeClass('showBannerMsg');
             },
             success: function (file, response) {
-                btnContainer.removeClass('showBtn').addClass('hide'); //new
-                console.log("res::", response)
-                $message.removeClass('alert-danger'); //
                 file.previewElement.classList.add('dz-success');
+                btnContainer.removeClass('showBtn').addClass('hide');
+                $('.successIcon').addClass('show').removeClass('hide');
+                $('.failIcon').addClass('hide').removeClass('show');
+                $message.removeClass('alert-danger');
                 $message.removeClass('hide').addClass('showBannerMsg');
-                $('.successIcon').addClass('show').removeClass('hide'); //
-                $('.failIcon').addClass('hide').removeClass('show'); //
-                $message.find('.message').text("You have successfully uploaded the files.");
                 Dropzone.forElement('#upload-dropzone').removeAllFiles(true);
-                btnContainer.addClass('hide').removeClass('showBtn'); //new
+                btnContainer.addClass('hide').removeClass('showBtn');
+                $message.find('.message').text(SuccessMsg);
             },
             error: function (file, response) {
+                file.previewElement.classList.add('dz-error');
                 $('.failIcon').addClass('show').removeClass('hide');
                 $('.successIcon').addClass('hide').removeClass('show');
-                btnUpload.addClass('disableUpload').removeClass('enableUpload');
-                btnContainer.addClass('showBtn').removeClass('hide'); //new
-                console.log('error msg::', response)
-                file.previewElement.classList.add('dz-error');
 
+                btnUpload.addClass('disableUpload').removeClass('enableUpload');
+                btnContainer.addClass('showBtn').removeClass('hide');
             },
         });
 
         $('#upload-dropzone').addClass('dropzone');
+
         $('#btnUpload').on('click', function () {
-            btnContainer.addClass('hide').removeClass('showBtn'); //new
+
+            btnContainer.addClass('hide').removeClass('showBtn');
             $('.dz-progress').attr('style', 'display: inline-block !important;');
-            console.log(myDropZone.files.length)
             if (myDropZone.files.length <= numberOfFiles) {
                 myDropZone.processQueue();
                 setTimeout(() => {
@@ -184,117 +165,97 @@
                     $message.removeClass('hide').addClass('showBannerMsg');
                     $('.successIcon').addClass('show').removeClass('hide'); //
                     $('.failIcon').addClass('hide').removeClass('show'); //
-    @* Dropzone.forElement('#upload-dropzone').removeAllFiles(true); *@
-                        $message.find('.message').text("Files uploaded successfully."); //
+                    $message.find('.message').text(SuccessMsg); //
                 }, 500);
                 $('.dz-remove').attr('style', 'display:none !important');
+
             }
         });
+
         myDropZone.on("addedfile", function (file) {
             $('.dz-progress').attr('style', 'display:none !important;');
-    @* console.log("addedfile::",myDropZone.files.length) *@
-    @* If user remove first uploaded files and trying to upload more files then error display*@
-                        if (myDropZone.files.length > 10) {
-                btnUpload.addClass('disableUpload').removeClass('enableUpload');
-                $message.find('.message').text(`Up to 10 files can be uploaded at a time.`);
-                $message.removeClass('alert-success');
-                $message.addClass('alert-danger');
-                $message.attr('style', 'display:flex;');
-            } else {
+            if (myDropZone.files.length <= 10) {
                 btnUpload.addClass('enableUpload').removeClass('disableUpload');
-    @* $('.dz-progress').attr('style', 'display:none !important;'); *@
-                    $('.dz-remove').attr('style', 'display:block !important');
-                // $('#upload-message').attr('style', 'display:none')
-                $('#upload-message').addClass('hide').removeClass('showBannerMsg')
-                btnContainer.addClass('showBtn').removeClass('hide'); //new
+                $('.dz-remove').attr('style', 'display:block !important');
+                $message.addClass('hide').removeClass('showBannerMsg')
+                btnContainer.addClass('showBtn').removeClass('hide');
                 for (var i = 0; i < numberOfFiles; i++) {
                     $('#upload-dropzone').find('.dz-preview').eq(i).find('a').css({ "color": "green !important" })
                 }
+            } else {
+                btnUpload.addClass('disableUpload').removeClass('enableUpload');
+                $message.find('.message').text(ErrMaxNumberfiles);
+                $message.removeClass('alert-success');
+                $message.addClass('alert-danger');
+                $message.removeClass('hide').addClass('showBannerMsg')
             }
             CalculateTotalFileSize(myDropZone.files)
             CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
         });
+
         myDropZone.on("drop", function (event) {
             btnUpload.addClass('enableUpload').removeClass('disableUpload');
             var count = myDropZone.getAcceptedFiles().length;
-            $('#upload-message').addClass('hide').removeClass('showBannerMsg')
+            $message.addClass('hide').removeClass('showBannerMsg')
             $('.dz-progress').attr('style', 'display:none !important;');
-            btnContainer.addClass('showBtn').removeClass('hide'); //new
-            console.log(myDropZone.files);
+            btnContainer.addClass('showBtn').removeClass('hide');
         });
 
-        myDropZone.on("complete", function (event) {
-        });
-        myDropZone.on("selectedfiles", function (listFiles) {
-            cont_files = listFiles.length;
-            console.log('cont_files::', cont_files);
-        });
         $('#btnCancel').on('click', function () {
             fileCount = 0;
             Dropzone.forElement('#upload-dropzone').removeAllFiles(true);
-            $('#upload-message').attr('style', 'display:none');
-            btnContainer.removeClass('showBtn').addClass('hide'); //new
-            $message.attr('style', 'display:none;');
+            $message.addClass('hide').removeClass('showBannerMsg');
+            btnContainer.removeClass('showBtn').addClass('hide');
         });
 
         function CalculateFiles(file, Count, CallFrom) {
-            if (totalFilesize > 52428800 && Count > numberOfFiles) {
+            if (totalFilesize > maxfileSize && Count > numberOfFiles) {
                 btnUpload.addClass('disableUpload').removeClass('enableUpload');
                 $('.failIcon').addClass('show').removeClass('hide');
                 $('.successIcon').addClass('hide').removeClass('show');
-                var $message = $('#upload-message');
                 $message.removeClass('alert-success');
                 $message.addClass('alert-danger');
                 $message.removeClass('hide').addClass('showBannerMsg');
                 $('#click-Browser').removeClass('enableLink').addClass('disableLink');
-               // $('#upload-dropzone').addClass('dropzoneDisable').removeClass('dropzoneEnable')
-                $message.find('.message').text("The files exceed the maximum size of 50 MB and limit of 10. Please choose smaller files.");
+                $message.find('.message').text(ErrMaxFileSizeAndNumber);
 
             }
-            else if (totalFilesize > 52428800 && Count <= numberOfFiles) {
+            else if (totalFilesize > maxfileSize && Count <= numberOfFiles) {
                 btnUpload.addClass('disableUpload').removeClass('enableUpload');
                 $('.failIcon').addClass('show').removeClass('hide');
                 $('.successIcon').addClass('hide').removeClass('show');
-                var $message = $('#upload-message');
+
                 $message.removeClass('alert-success');
                 $message.addClass('alert-danger');
                 $message.removeClass('hide').addClass('showBannerMsg');
                 $('#click-Browser').removeClass('enableLink').addClass('disableLink')
-                $message.find('.message').text("File exceed the maximum size of 50MB.");
-                //$('#upload-dropzone').addClass('dropzoneDisable').removeClass('dropzoneEnable')
+                $message.find('.message').text(ErrMaxFileSize);
 
             }
-            else if (Count > numberOfFiles && totalFilesize <= 52428800) {
+            else if (Count > numberOfFiles && totalFilesize <= maxfileSize) {
                 btnUpload.addClass('disableUpload').removeClass('enableUpload');
                 $('.failIcon').addClass('show').removeClass('hide');
                 $('.successIcon').addClass('hide').removeClass('show');
-                var $message = $('#upload-message');
                 $message.removeClass('alert-success');
                 $message.addClass('alert-danger');
                 $message.removeClass('hide').addClass('showBannerMsg');
                 $('#click-Browser').removeClass('enableLink').addClass('disableLink')
-                $message.find('.message').text("Up to 10 files can be uploaded at a time.");
-                //$('#upload-dropzone').addClass('dropzoneDisable').removeClass('dropzoneEnable')
+                $message.find('.message').text(ErrMaxNumberfiles);
             }
             else {
                 btnUpload.removeClass('disableUpload').addClass('enableUpload');
                 btnCancel.attr('style', 'display:inline-block !important');
-                $('#upload-message').addClass('alert-success').removeClass('alert-danger');
-                $('#upload-message').removeClass('showBannerMsg');
-                $('#upload-message').attr('style', 'display:none');
+                $message.addClass('alert-success').removeClass('alert-danger');
+                $message.removeClass('showBannerMsg').addClass('hide');
                 $('#click-Browser').addClass('enableLink').removeClass('disableLink');
-                //$('#upload-dropzone').removeClass('dropzoneDisable').addClass('dropzoneEnable');
             }
         }
-      //remove
+
         function CalculateTotalFileSize(files) {
             totalFilesize = 0;
             for (let i = 0; i < files.length; i++) {
                 totalFilesize += files[i].size;
-                console.log("Total-File-Size " + totalFilesize + " and Total-Files " + files.length)
             }
         }
-
     });
-    ////final
 </script>

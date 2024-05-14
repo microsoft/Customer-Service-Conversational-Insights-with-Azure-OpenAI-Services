@@ -30,7 +30,11 @@
 .icons {
     float: left;
     padding-right: 11px;
-    width: 2rem;
+    width: 2.2rem;
+}
+
+.img-upload {
+    width: 5rem !important;
 }
 
 .enableUpload {
@@ -50,17 +54,17 @@
     pointer-events: auto !important;
 }
 
-.dropzone .dz-preview .dz-error-mark svg {
-    background: #DA3B01 !important;
-    border-radius: 68% !important;
-}
+    .dropzone .dz-preview .dz-error-mark svg {
+        background: #DA3B01 !important;
+        border-radius: 68% !important;
+    }
 
 .dz-error-message {
     display: none !important;
 }
 
 .dz-remove {
-    color: #555555 !important;
+    color: #616161 !important;
 }
 
 .dropzone .dz-preview .dz-success-mark, .dropzone .dz-preview .dz-error-mark {
@@ -75,14 +79,15 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+
 a {
     color: #10738E !important;
     text-decoration: underline;
 }
+
 #upload-dropzone {
     background-color: #F3F2F1 !important;
     border: 2px dotted #A19F9D !important;
-    
 }
 
 .enableLink {
@@ -92,56 +97,59 @@ a {
 
 .disableLink {
     pointer-events: none;
-    color: #252423 !important;
+    color: #8A8886 !important;
 }
+
 h3, .h3 {
     font-size: 1.4rem !important;
 }
+
 .message {
     font-weight: 500 !important;
     color: black !important;
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
 }
+
 .cancelBtn {
     font-weight: 500 !important;
 }
+
 .enableUpload {
     font-weight: 500 !important;
 }
+
 .alert-danger {
-    background-color: #FDF3F4 !important;   
+    background-color: #FDF3F4 !important;
     border: 2px solid #EEACB2 !important
 }
+
 .alert-success {
     background-color: #F1FAF1 !important;
     border: 2px solid #9FD89F !important;
 }
+
 h1, h2, h3, h4, h5 {
     color: #252423;
 }
+
 .showBannerMsg {
     display: flex !important;
     align-items: center;
 }
-.dropzoneDisable {
-    pointer-events: none !important;
-    
-}
 
-.dropzoneEnable {
-    pointer-events: none !important;
-    
-}
-
-.dz-success-mark{
+.dz-success-mark {
     border-radius: 50% !important;
-    background-color: #0E700E !important;
+    background-color: #9FD89F !important;
     height: 56px !important;
 }
 
-.dropzone .dz-preview .dz-success-mark svg{
+.dropzone .dz-preview .dz-success-mark svg {
     width: 54px !important;
     height: 54px !important;
+}
+
+.mt-5 {
+    margin-top: 1rem !important;
 }
 /*.BtnBack {
     font-size: large !important;
