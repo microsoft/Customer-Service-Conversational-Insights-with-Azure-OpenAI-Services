@@ -101,6 +101,7 @@
                     $('.dz-preview').eq(i).removeClass('dz-error dz-complete')
                 }
                 if (this.files.length <= numberOfFiles) {
+                    myDropZone.enable();
                     btnUpload.removeClass('disableUpload').addClass('enableUpload');
                     CalculateTotalFileSize(myDropZone.files)
                     CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
@@ -277,6 +278,7 @@
 
         // Success message function
         function ShowSuccessMsg(SuccessMsg) {
+             myDropZone.enable();
             $('.successIcon').addClass('show').removeClass('hide');
             $('.failIcon').addClass('hide').removeClass('show');
             $message.removeClass('hide').addClass('showBannerMsg');
@@ -286,6 +288,7 @@
 
         // Error message function
         function ShowErrorMsg(ErrorMsg) {
+            myDropZone.disable();
             $('.failIcon').addClass('show').removeClass('hide');
             $('.successIcon').addClass('hide').removeClass('show');
             $message.addClass('alert-danger').removeClass('alert-success');
@@ -297,6 +300,7 @@
 
         // Hide message function
         function HideMsg() {
+             myDropZone.enable();
             $message.removeClass('showBannerMsg').addClass('hide');
         }
     });
