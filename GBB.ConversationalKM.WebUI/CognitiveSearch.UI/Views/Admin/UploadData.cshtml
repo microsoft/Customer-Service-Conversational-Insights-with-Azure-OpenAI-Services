@@ -230,11 +230,18 @@
                 $('#click-Browser').removeClass('enableLink').addClass('disableLink');
                 ShowErrorMsg(ErrMaxFileSizeAndNumber);
             }
-            else if (totalFilesize > maxfileSize && Count <= numberOfFiles) {
+            else if (totalFilesize > maxfileSize && Count <= numberOfFiles && Count > 1) {
                 IsError = true;
                 btnUpload.addClass('disableUpload').removeClass('enableUpload');
                 $('#click-Browser').removeClass('enableLink').addClass('disableLink')
                 ShowErrorMsg(ErrMaxFileSize);
+
+            }
+            else if (totalFilesize > maxfileSize && Count <= numberOfFiles && Count==1) {
+                IsError = true;
+                btnUpload.addClass('disableUpload').removeClass('enableUpload');
+                $('#click-Browser').removeClass('enableLink').addClass('disableLink')
+                ShowErrorMsg(ErrMaxIndiFileSize);
 
             }
             else if (Count > numberOfFiles && totalFilesize <= maxfileSize) {
