@@ -5,4 +5,5 @@ const ErrMaxFileSize = "Files exceed the maximum size of 50MB.";
 const ErrMaxFileSizeAndNumber = "The files exceed the maximum size of 50 MB and limit of 10. Please choose smaller files.";
 const SuccessMsg = "You have successfully uploaded the files.";
 const GenricMsg = "The upload failed because of technical issues. Please try again.";
+const ErrMaxIndiFileSize = "File exceeds the maximum size of 50MB.";
 
