@@ -143,6 +143,7 @@
                 $message.addClass('hide').removeClass('showBannerMsg');
             },
             success: function (file, response) {
+                EnableProgressBar();
                 IsSuccess = true;
                 file.previewElement.classList.add('dz-success');
                 btnContainer.removeClass('showBtn').addClass('hide');
@@ -161,6 +162,7 @@
                 }, 2000);
             },
             error: function (file, response) {
+                DisabledProgressBar();
                 file.previewElement.classList.add('dz-error');
                 btnUpload.addClass('disableUpload').removeClass('enableUpload');
 
@@ -177,8 +179,9 @@
                         ShowErrorMsg(ErrEntityLarge);
                     }
                     else {
-                        $('#click-Browser').removeClass('enableLink').addClass('disableLink');
+                        $('#click-Browser').removeClass('enableLink').addClass('disableLink');                      
                         ShowErrorMsg(GenricMsg);
+                        btnUpload.removeClass('disableUpload').addClass('enableUpload');
                     }
                 }
             },
@@ -305,6 +308,18 @@
         function HideMsg() {
              myDropZone.enable();
             $message.removeClass('showBannerMsg').addClass('hide');
+        }
+
+
+        function DisabledProgressBar() {
+
+            $('.dz-progress').find('span').attr('style', 'display:none !important;');
+
+        }
+        function EnableProgressBar() {
+
+            $('.dz-progress').find('span').attr('style', 'display:inline-block !important;');
+
         }
     });
 </script>
