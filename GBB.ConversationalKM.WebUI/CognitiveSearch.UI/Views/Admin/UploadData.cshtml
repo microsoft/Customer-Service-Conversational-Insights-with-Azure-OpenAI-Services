@@ -173,6 +173,9 @@
                     else if (response.includes('File is too big')) {
                         ShowErrorMsg(ErrMaxFileSize);
                     }
+                    else if (response.includes('Request Entity Too Large')) {
+                        ShowErrorMsg(ErrEntityLarge);
+                    }
                     else {
                         $('#click-Browser').removeClass('enableLink').addClass('disableLink');
                         ShowErrorMsg(GenricMsg);
