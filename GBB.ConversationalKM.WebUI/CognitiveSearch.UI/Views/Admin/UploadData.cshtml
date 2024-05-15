@@ -104,13 +104,13 @@
                     myDropZone.enable();
                     btnUpload.removeClass('disableUpload').addClass('enableUpload');
                     CalculateTotalFileSize(myDropZone.files)
-                    CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
+                    CalculateFiles(myDropZone.files, myDropZone.files.length);
 
                 } else {
                     CalculateTotalFileSize(myDropZone.files)
-                    CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
+                    CalculateFiles(myDropZone.files, myDropZone.files.length);
                 }
-
+                   
                 //all file removed from dropzone then button are not visible
                 if (this.files.length == 0) {
                     if (IsSuccess == true) {
@@ -207,7 +207,7 @@
                 ShowErrorMsg(ErrMaxNumberfiles);
             }
             CalculateTotalFileSize(myDropZone.files)
-            CalculateFiles(myDropZone.files, myDropZone.files.length, 'addfile');
+            CalculateFiles(myDropZone.files, myDropZone.files.length);
         });
 
         myDropZone.on("drop", function (event) {
@@ -227,7 +227,7 @@
         });
 
         // Function to calculate the files count
-        function CalculateFiles(file, Count, CallFrom) {
+        function CalculateFiles(file, Count) {
             if (totalFilesize > maxfileSize && Count > numberOfFiles) {
                 IsError = true;
                 btnUpload.addClass('disableUpload').removeClass('enableUpload');
