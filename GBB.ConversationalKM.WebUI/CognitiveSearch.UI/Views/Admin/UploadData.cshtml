@@ -94,6 +94,7 @@
             addRemoveLinks: true,
             maxFiles: numberOfFiles,
             autoProcessQueue: false,
+            acceptedFiles: '.json, .wav',
             removedfile: function (file) {
                   myDropZone.enable();
                 $('.dz-progress').attr('style', 'display: none !important;');
@@ -175,7 +176,7 @@
                     else if (response.includes('File is too big')) {
                         ShowErrorMsg(ErrMaxFileSize);
                     }
-                    else if (response.includes('Request Entity Too Large')) {
+                    else if (response.includes('Request Entity Too Large') || response.includes('Request body too large')) {
                         ShowErrorMsg(ErrEntityLarge);
                     }
                     else {
