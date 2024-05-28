@@ -176,7 +176,7 @@
                     else if (response.includes('File is too big')) {
                         ShowErrorMsg(ErrMaxFileSize);
                     }
-                    else if (response.includes('Request Entity Too Large') || response.includes('Request body too large')) {
+                    else if (response.includes('Request Entity Too Large')) {
                         ShowErrorMsg(ErrEntityLarge);
                     }
                     else {
