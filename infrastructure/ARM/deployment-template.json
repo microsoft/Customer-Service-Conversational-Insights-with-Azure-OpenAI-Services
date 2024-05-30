@@ -312,6 +312,8 @@
       "metadata": {
         "description": "The prompt to use for the OpenAI API"
       }
+
+      /*"comments": "Reference: -For further details and guidance on how to effectively write metaprompt or system prompts, please refer to https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/system-message . Last Updated: 05/28/2024"*/
     },
     "OPENAI_PROMPT_KEYS": {
       "type": "string",
