@@ -1,0 +1,229 @@
+{
+  "AgentName": "Lucas Thompson",
+  "AgentId": "5B94O0",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-392-7717",
+  "Conversation": {
+    "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+    "Messages": [
+      {
+        "Id": "cbbdbfdf-cc06-466a-9992-14836640e7a6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T22:19:43.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "Thank you for calling. This is Lucas Thompson speaking. How may I assist you?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "70439eb1-851b-46fb-b36e-04517b871565",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T22:19:59.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "Yes, hi. My name is Sarah Johnson and I have a technical issue regarding my flight reservation.",
+        "UserId": "999-392-7717",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e3723467-71c6-4366-8e1b-682650d4edbc",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T22:20:10.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "Sure thing, Sarah. Can you please provide me with your reservation number and the date of your flight?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f40795f3-1656-4453-b2db-70c49d4bfd5a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T22:20:27.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "Yes, my reservation number is 123456 and my flight was from Chicago O'Hare to Los Angeles International on March 30th.",
+        "UserId": "999-392-7717",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "91ee9713-8fd9-4c41-8d3e-7389e0f430e0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T22:20:38.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "I see, what seems to be the issue with your reservation, Sarah?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2574f87b-acc8-4200-9758-5b3a3ab6d703",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T22:20:53.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "My flight was delayed for 3 hours and I missed my connecting flight to Honolulu. This has caused me a lot of inconvenience and I am very unhappy with the service I have received so far.",
+        "UserId": "999-392-7717",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5c1ea77d-bd62-4f13-bb79-fc12b5d7b873",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T22:21:10.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "I am sorry to hear that, Sarah. Let me look into this for you.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4ea61450-b772-4c38-a02b-e1cb6d852776",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T22:21:26.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "Thank you, Lucas. I really hope we can find a solution to this.",
+        "UserId": "999-392-7717",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a5132529-3ece-403f-a15e-7a64a43f4beb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T22:21:38.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "After checking with the airline, Sarah, I have confirmed that your flight was delayed due to air traffic control issues. Unfortunately, this is out of our control but I can help you reschedule your connecting flight to Honolulu.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "755bd0ad-aa26-4229-83db-3438756f56cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T22:21:56.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "It's not good enough, Lucas. I demand a full refund for the inconvenience you have caused me.",
+        "UserId": "999-392-7717",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "97b122df-df08-41ad-90e2-53e27eea1832",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T22:22:06.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "I completely understand your frustration, Sarah, but unfortunately we can not offer a full refund in this situation. However, we can offer you a voucher for future travel or help you reschedule your flight, free of charge. Would you like me to proceed with rescheduling your flight?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "738f1ebf-5bc2-4af1-9cb7-98f77d0aeff2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T22:22:22.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "No, I am very unhappy with this outcome. I want to speak to your supervisor. This is unacceptable.",
+        "UserId": "999-392-7717",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c810b020-848a-4c52-a855-8bf8bbf36470",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T22:22:36.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "Of course, Sarah. Let me transfer you to my supervisor right away.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "71bbd511-2571-44af-bb57-582b38c8d455",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T22:22:46.8020768-06:00",
+        "ConversationId": "3dc4a85f-6612-4751-981e-9f2e6c57eab0",
+        "Value": "Thank you, Lucas.",
+        "UserId": "999-392-7717",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-02-06T22:19:29.8020768-06:00",
+    "EndTime": "2024-02-06T22:22:46.8020768-06:00",
+    "Merged_content": "Thank you for calling. This is Lucas Thompson speaking. How may I assist you?Yes, hi. My name is Sarah Johnson and I have a technical issue regarding my flight reservation.Sure thing, Sarah. Can you please provide me with your reservation number and the date of your flight?Yes, my reservation number is 123456 and my flight was from Chicago O'Hare to Los Angeles International on March 30th.I see, what seems to be the issue with your reservation, Sarah?My flight was delayed for 3 hours and I missed my connecting flight to Honolulu. This has caused me a lot of inconvenience and I am very unhappy with the service I have received so far.I am sorry to hear that, Sarah. Let me look into this for you.Thank you, Lucas. I really hope we can find a solution to this.After checking with the airline, Sarah, I have confirmed that your flight was delayed due to air traffic control issues. Unfortunately, this is out of our control but I can help you reschedule your connecting flight to Honolulu.It's not good enough, Lucas. I demand a full refund for the inconvenience you have caused me.I completely understand your frustration, Sarah, but unfortunately we can not offer a full refund in this situation. However, we can offer you a voucher for future travel or help you reschedule your flight, free of charge. Would you like me to proceed with rescheduling your flight?No, I am very unhappy with this outcome. I want to speak to your supervisor. This is unacceptable.Of course, Sarah. Let me transfer you to my supervisor right away.Thank you, Lucas.",
+    "Merged_content_user": "Yes, hi. My name is Sarah Johnson and I have a technical issue regarding my flight reservation.Yes, my reservation number is 123456 and my flight was from Chicago O'Hare to Los Angeles International on March 30th.My flight was delayed for 3 hours and I missed my connecting flight to Honolulu. This has caused me a lot of inconvenience and I am very unhappy with the service I have received so far.Thank you, Lucas. I really hope we can find a solution to this.It's not good enough, Lucas. I demand a full refund for the inconvenience you have caused me.No, I am very unhappy with this outcome. I want to speak to your supervisor. This is unacceptable.Thank you, Lucas.",
+    "Merged_content_agent": "Thank you for calling. This is Lucas Thompson speaking. How may I assist you?Sure thing, Sarah. Can you please provide me with your reservation number and the date of your flight?I see, what seems to be the issue with your reservation, Sarah?I am sorry to hear that, Sarah. Let me look into this for you.After checking with the airline, Sarah, I have confirmed that your flight was delayed due to air traffic control issues. Unfortunately, this is out of our control but I can help you reschedule your connecting flight to Honolulu.I completely understand your frustration, Sarah, but unfortunately we can not offer a full refund in this situation. However, we can offer you a voucher for future travel or help you reschedule your flight, free of charge. Would you like me to proceed with rescheduling your flight?Of course, Sarah. Let me transfer you to my supervisor right away.",
+    "Full_conversation": "Agent: Thank you for calling. This is Lucas Thompson speaking. How may I assist you?\nCustomer: Yes, hi. My name is Sarah Johnson and I have a technical issue regarding my flight reservation.\nAgent: Sure thing, Sarah. Can you please provide me with your reservation number and the date of your flight?\nCustomer: Yes, my reservation number is 123456 and my flight was from Chicago O'Hare to Los Angeles International on March 30th.\nAgent: I see, what seems to be the issue with your reservation, Sarah?\nCustomer: My flight was delayed for 3 hours and I missed my connecting flight to Honolulu. This has caused me a lot of inconvenience and I am very unhappy with the service I have received so far.\nAgent: I am sorry to hear that, Sarah. Let me look into this for you.\nCustomer: Thank you, Lucas. I really hope we can find a solution to this.\nAgent: After checking with the airline, Sarah, I have confirmed that your flight was delayed due to air traffic control issues. Unfortunately, this is out of our control but I can help you reschedule your connecting flight to Honolulu.\nCustomer: It's not good enough, Lucas. I demand a full refund for the inconvenience you have caused me.\nAgent: I completely understand your frustration, Sarah, but unfortunately we can not offer a full refund in this situation. However, we can offer you a voucher for future travel or help you reschedule your flight, free of charge. Would you like me to proceed with rescheduling your flight?\nCustomer: No, I am very unhappy with this outcome. I want to speak to your supervisor. This is unacceptable.\nAgent: Of course, Sarah. Let me transfer you to my supervisor right away.\nCustomer: Thank you, Lucas.\n"
+  }
+}

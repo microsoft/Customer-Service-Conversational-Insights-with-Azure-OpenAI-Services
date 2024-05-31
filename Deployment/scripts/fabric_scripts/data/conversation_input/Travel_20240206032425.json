@@ -1,0 +1,169 @@
+{
+  "AgentName": "Isabella Taylor",
+  "AgentId": "1OWZ1U",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-751-8385",
+  "Conversation": {
+    "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+    "Messages": [
+      {
+        "Id": "a97a4633-6c4f-4c83-b4c9-a9dbc28902d1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T03:24:44.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "Thank you for calling Travel Co. This is Isabella. How may I assist you today?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d03390b8-dd84-43f5-8afb-ecd63f3650d8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T03:24:57.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "Yes, hi. My name is John Smith. I have been having some technical issues with your website when trying to book my flight to New York from Miami. Can you help me with this?",
+        "UserId": "999-751-8385",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9a854058-e931-4b26-9a06-d1ff8a0853be",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T03:25:13.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "Of course, Mr. Smith. I am sorry to hear that you are having difficulties on our website. Can you provide me with more details on the issue you are experiencing?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "751fc6c4-0c55-494f-95c3-51d0431bfe45",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T03:25:24.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "Yes, every time I try to select my departure and arrival cities, the website does not respond and kicks me out of the booking process.",
+        "UserId": "999-751-8385",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5d1a7a1e-3ec7-4213-8d17-ad11fe052c13",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T03:25:40.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "I am sorry for the inconvenience, Mr. Smith. Let me check on this for you. Please hold for a moment while I investigate the issue.",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3515faa7-dd30-4478-a88d-97bc7adea93c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T03:25:55.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "Sure. I have been trying to book a flight to New York from Miami on March 1st at 10:00 AM. My return flight will be on March 5th at 5:00 PM.",
+        "UserId": "999-751-8385",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bdbe5fa3-c4c0-4f69-85a8-775589383317",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T03:26:10.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "Thank you for providing those details, Mr. Smith. I have checked our system and I can see that the flights you are interested in are still available. However, our website may be experiencing some technical difficulties. In order to assist you better, can you provide me with your email address and I can send you a direct link to the booking?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "07a01d7b-4e15-4023-bc68-c72312f7db20",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T03:26:24.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "This is ridiculous! I shouldn't have to give you my email address to book a flight! Why can't you just fix your website? This is terrible customer service!",
+        "UserId": "999-751-8385",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "685eb8c8-7017-40ab-89bd-e7cee27f950c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-06T03:26:41.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "I am sorry that you feel that way, Mr. Smith. Our website is experiencing some technical difficulties at the moment, and I am just trying to provide you with the best possible solution. If you prefer, I can book the flight for you over the phone. I just need some of your personal information such as your name, birthdate, and payment information.",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4890158c-3c6d-47de-bc0e-f8d0ff367788",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-06T03:27:00.2987635-06:00",
+        "ConversationId": "c72e224d-1a22-43dd-93c7-26a65d1e56a4",
+        "Value": "I don't trust you guys anymore. I will book my flight elsewhere. This is unacceptable.",
+        "UserId": "999-751-8385",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-02-06T03:24:25.2987635-06:00",
+    "EndTime": "2024-02-06T03:27:00.2987635-06:00",
+    "Merged_content": "Thank you for calling Travel Co. This is Isabella. How may I assist you today?Yes, hi. My name is John Smith. I have been having some technical issues with your website when trying to book my flight to New York from Miami. Can you help me with this?Of course, Mr. Smith. I am sorry to hear that you are having difficulties on our website. Can you provide me with more details on the issue you are experiencing?Yes, every time I try to select my departure and arrival cities, the website does not respond and kicks me out of the booking process.I am sorry for the inconvenience, Mr. Smith. Let me check on this for you. Please hold for a moment while I investigate the issue.Sure. I have been trying to book a flight to New York from Miami on March 1st at 10:00 AM. My return flight will be on March 5th at 5:00 PM.Thank you for providing those details, Mr. Smith. I have checked our system and I can see that the flights you are interested in are still available. However, our website may be experiencing some technical difficulties. In order to assist you better, can you provide me with your email address and I can send you a direct link to the booking?This is ridiculous! I shouldn't have to give you my email address to book a flight! Why can't you just fix your website? This is terrible customer service!I am sorry that you feel that way, Mr. Smith. Our website is experiencing some technical difficulties at the moment, and I am just trying to provide you with the best possible solution. If you prefer, I can book the flight for you over the phone. I just need some of your personal information such as your name, birthdate, and payment information.I don't trust you guys anymore. I will book my flight elsewhere. This is unacceptable.",
+    "Merged_content_user": "Yes, hi. My name is John Smith. I have been having some technical issues with your website when trying to book my flight to New York from Miami. Can you help me with this?Yes, every time I try to select my departure and arrival cities, the website does not respond and kicks me out of the booking process.Sure. I have been trying to book a flight to New York from Miami on March 1st at 10:00 AM. My return flight will be on March 5th at 5:00 PM.This is ridiculous! I shouldn't have to give you my email address to book a flight! Why can't you just fix your website? This is terrible customer service!I don't trust you guys anymore. I will book my flight elsewhere. This is unacceptable.",
+    "Merged_content_agent": "Thank you for calling Travel Co. This is Isabella. How may I assist you today?Of course, Mr. Smith. I am sorry to hear that you are having difficulties on our website. Can you provide me with more details on the issue you are experiencing?I am sorry for the inconvenience, Mr. Smith. Let me check on this for you. Please hold for a moment while I investigate the issue.Thank you for providing those details, Mr. Smith. I have checked our system and I can see that the flights you are interested in are still available. However, our website may be experiencing some technical difficulties. In order to assist you better, can you provide me with your email address and I can send you a direct link to the booking?I am sorry that you feel that way, Mr. Smith. Our website is experiencing some technical difficulties at the moment, and I am just trying to provide you with the best possible solution. If you prefer, I can book the flight for you over the phone. I just need some of your personal information such as your name, birthdate, and payment information.",
+    "Full_conversation": "Agent: Thank you for calling Travel Co. This is Isabella. How may I assist you today?\nCustomer: Yes, hi. My name is John Smith. I have been having some technical issues with your website when trying to book my flight to New York from Miami. Can you help me with this?\nAgent: Of course, Mr. Smith. I am sorry to hear that you are having difficulties on our website. Can you provide me with more details on the issue you are experiencing?\nCustomer: Yes, every time I try to select my departure and arrival cities, the website does not respond and kicks me out of the booking process.\nAgent: I am sorry for the inconvenience, Mr. Smith. Let me check on this for you. Please hold for a moment while I investigate the issue.\nCustomer: Sure. I have been trying to book a flight to New York from Miami on March 1st at 10:00 AM. My return flight will be on March 5th at 5:00 PM.\nAgent: Thank you for providing those details, Mr. Smith. I have checked our system and I can see that the flights you are interested in are still available. However, our website may be experiencing some technical difficulties. In order to assist you better, can you provide me with your email address and I can send you a direct link to the booking?\nCustomer: This is ridiculous! I shouldn't have to give you my email address to book a flight! Why can't you just fix your website? This is terrible customer service!\nAgent: I am sorry that you feel that way, Mr. Smith. Our website is experiencing some technical difficulties at the moment, and I am just trying to provide you with the best possible solution. If you prefer, I can book the flight for you over the phone. I just need some of your personal information such as your name, birthdate, and payment information.\nCustomer: I don't trust you guys anymore. I will book my flight elsewhere. This is unacceptable.\n"
+  }
+}

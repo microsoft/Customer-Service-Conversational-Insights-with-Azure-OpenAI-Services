@@ -1,0 +1,109 @@
+{
+  "AgentName": "Aiden Clark",
+  "AgentId": "7J8IBO",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-403-4158",
+  "Conversation": {
+    "ConversationId": "482e5e35-4fa2-4e89-9554-42f17155bba8",
+    "Messages": [
+      {
+        "Id": "a3eacaf2-ecd1-46e9-ab47-196b250d9a32",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-08T09:18:26.53706-06:00",
+        "ConversationId": "482e5e35-4fa2-4e89-9554-42f17155bba8",
+        "Value": "Thank you for calling our travel agency! This is Aiden Clark, how may I assist you?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9df92dc2-34f1-4e52-b69a-fa368bc7062d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-08T09:18:39.53706-06:00",
+        "ConversationId": "482e5e35-4fa2-4e89-9554-42f17155bba8",
+        "Value": "Hi Aiden, my name is Sarah Smith and I just wanted to call and let you know how happy I am with the service I received for my recent trip to New York City.",
+        "UserId": "999-403-4158",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "468509ed-b4e7-4842-b0d7-f621dde449bb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-08T09:18:53.53706-06:00",
+        "ConversationId": "482e5e35-4fa2-4e89-9554-42f17155bba8",
+        "Value": "That's great to hear, Sarah! Can you tell me more about what specifically made your trip enjoyable?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5e236b94-cf3a-40c8-9c34-098c5006c567",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-08T09:19:10.53706-06:00",
+        "ConversationId": "482e5e35-4fa2-4e89-9554-42f17155bba8",
+        "Value": "Sure! I really appreciated the hotel recommendations you gave me. The Marriott Marquis in Times Square was perfect and the reservation process was a breeze. The flights you booked for me on Delta were also very convenient and hassle-free. I had a great time exploring the city and I felt like everything was taken care of!",
+        "UserId": "999-403-4158",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "14d7002f-ca8a-4396-9ca0-925469c3224a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-08T09:19:21.53706-06:00",
+        "ConversationId": "482e5e35-4fa2-4e89-9554-42f17155bba8",
+        "Value": "That's wonderful to hear, Sarah! I'm glad we were able to make your trip to New York City a great experience. Would you be interested in a complimentary promotion for your next trip with us?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c5baf57a-c228-4bac-bac2-59f09dd5f5ba",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-08T09:19:40.53706-06:00",
+        "ConversationId": "482e5e35-4fa2-4e89-9554-42f17155bba8",
+        "Value": "Absolutely, that would be amazing! Thank you so much!",
+        "UserId": "999-403-4158",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-02-08T09:18:16.53706-06:00",
+    "EndTime": "2024-02-08T09:19:40.53706-06:00",
+    "Merged_content": "Thank you for calling our travel agency! This is Aiden Clark, how may I assist you?Hi Aiden, my name is Sarah Smith and I just wanted to call and let you know how happy I am with the service I received for my recent trip to New York City.That's great to hear, Sarah! Can you tell me more about what specifically made your trip enjoyable?Sure! I really appreciated the hotel recommendations you gave me. The Marriott Marquis in Times Square was perfect and the reservation process was a breeze. The flights you booked for me on Delta were also very convenient and hassle-free. I had a great time exploring the city and I felt like everything was taken care of!That's wonderful to hear, Sarah! I'm glad we were able to make your trip to New York City a great experience. Would you be interested in a complimentary promotion for your next trip with us?Absolutely, that would be amazing! Thank you so much!",
+    "Merged_content_user": "Hi Aiden, my name is Sarah Smith and I just wanted to call and let you know how happy I am with the service I received for my recent trip to New York City.Sure! I really appreciated the hotel recommendations you gave me. The Marriott Marquis in Times Square was perfect and the reservation process was a breeze. The flights you booked for me on Delta were also very convenient and hassle-free. I had a great time exploring the city and I felt like everything was taken care of!Absolutely, that would be amazing! Thank you so much!",
+    "Merged_content_agent": "Thank you for calling our travel agency! This is Aiden Clark, how may I assist you?That's great to hear, Sarah! Can you tell me more about what specifically made your trip enjoyable?That's wonderful to hear, Sarah! I'm glad we were able to make your trip to New York City a great experience. Would you be interested in a complimentary promotion for your next trip with us?",
+    "Full_conversation": "Agent: Thank you for calling our travel agency! This is Aiden Clark, how may I assist you?\nCustomer: Hi Aiden, my name is Sarah Smith and I just wanted to call and let you know how happy I am with the service I received for my recent trip to New York City.\nAgent: That's great to hear, Sarah! Can you tell me more about what specifically made your trip enjoyable?\nCustomer: Sure! I really appreciated the hotel recommendations you gave me. The Marriott Marquis in Times Square was perfect and the reservation process was a breeze. The flights you booked for me on Delta were also very convenient and hassle-free. I had a great time exploring the city and I felt like everything was taken care of!\nAgent: That's wonderful to hear, Sarah! I'm glad we were able to make your trip to New York City a great experience. Would you be interested in a complimentary promotion for your next trip with us?\nCustomer: Absolutely, that would be amazing! Thank you so much!\n"
+  }
+}

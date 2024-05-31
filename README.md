@@ -88,122 +88,57 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 1. Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
 
-   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmaster%2Finfrastructure%2FARM%2Fdeployment-template.json)
+   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbrittneek%2Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fckm-v2-dev%2FDeployment%2Fbicep%2Fmain.json)
 
-2.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:
+   1.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:
 
-    -   newOrExistingOpenAIResource - Determines whether to create a new Azure Open AI resource or use an existing resource within the deployment. 
-        - **existing**: Select this option if you already have an Azure Open AI resource that you want to use.
-        - **new**:      Choose this option if you want to create a new Azure Open AI resource as part of this deployment. The template will provision a new resource with the specified configuration settings.
-  
-        **Note:** The default value for this field is **existing**.
-        
-        ![image of new or existing OpenAI resource field](image.png)
-    
+       -  Region - the region where the resoruces will be created in.
 
-    -   OPENAI_API_BASE - the endpoint to your openai resource. This will be ignored if newOrExistingOpenAIResource is set to **new**.
+       -  Solution Prefix - provide a 6 alphanumeric value that will be used to prefix resources
+      
+       -  Location - location of resources, by default it will use the resource group's location
+           
+2.  Create Fabric Workspace
+    1.  Navigate to ([Fabric Workspace](https://app.fabric.microsoft.com/))
+    2.  Click on Workspaces from left Navigation
+        1.  Provide Name of Workspace 
+        2.  Provie Description of Workspace (optional)
+        3.  Click Apply
+    3.  Open Workspace
+    4.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
 
-    -   OPENAI_API_KEY - the key to your openai resource. This will be ignored if newOrExistingOpenAIResource is set to **new**.
-   
-    -   OPENAI_DEPLOYMENT_NAME - for the sample app this should be set to gpt-35-turbo
-
-    -   OPENAI_MODEL_TYPE - for the sample app this should be set to chat\
-        ![OpenAI Fields](image-1.png)
-        
-1.  Optionally, you may also update the **Web UI Docker Image Reference** and the **OpenAI Function Docker Image Reference** to point to your own container images instead of the images that we host (this would be necessary if you want to test your own changes to the Web UI or OpenAI Function code).
- 
-2.  Click \'review and create\' to start the deployment. The deployment can take up to 15 minutes to complete.
-
-3.   When deployment is complete, launch the application by navigating to
-    your Azure resource group, choosing the app service resource, and
-    clicking on the default domain. You should bookmark this url to have
-    quick access to your deployed application.
-
-
-
-### Azure Cognitive Search - enabling Semantic Search
-
-After deploying the solution accelerator, you can optionally enable the semantic
-search capability on your Azure Cognitive Search Index. In Azure
-Cognitive Search, semantic search measurably improves search relevance
-by using language understanding to re-rank search results and can enable
-more relevant and meaningful results while searching the mined insights.\
-\
-Note: This capability is in Public Preview and is not available in all
-regions. Additional charges may be applicable if you enable this
-capability. For more information on capabilities, availability, and
-pricing, please [visit
-here](https://aka.ms/SemanticAvailabilityandpricing).
-
-Use the following steps to enable and configure semantic search:
-
--   Enable semantic search by [following these
-    steps](https://learn.microsoft.com/en-us/azure/search/semantic-how-to-enable-disable?tabs=enable-portal)
-    on your Azure Cognitive Search resource in Azure.
-
--   On the same Azure Cognitive Search resource, click "Indexes" in the
-    left menu and select the "conversational-index" from the list of
-    indexes that was created when you deployed.\
-    \
-    ![image](/images/readMe/image5.png)
-
--   Select the tab labeled "Semantic configurations" and then click "Add
-    semantic configuration".\
-    \
-    ![image](/images/readMe/image6.png)
-
--   Fill out the configuration blade to match your requirements or us
-    this example setup:
-
-    -   **Name:** sc
-
-    -   **Title field:** summary
-
-    -   **Content fields:** text, merged_content, summary
-
-    -   **Keyword fields:** keyphrases![image](/images/readMe/image7.png)
-
--   Click save on the panel and then save at the top of the page to
-    create the new semantic configuration will be applied to your index.
-
--   Navigate to the App Service resource in your resource group -- this
-    ends in "-ui".\
-    \
-    ![image](/images/readMe/image8.png)
-
--   Click "Configuration" from the Settings menu on the left and then
-    click on "New application setting. Add the following two settings:
-
-    -   **Name:** QueryLanguage\
-        **Value:** en-US
-
-    -   **Name:** SemanticConfiguration\
-        **Value:** sc\
-        \
-        Note - if you chose a different name for your semantic
-        configuration created earlier, you can set that here.
-
--   Click Save at the top of the page.
-
--   Navigate to Overview in the left menu and then click "Stop" and then
-    "Start" for these configuration changes to take effect.\
-    \
-    ![image](/images/readMe/image9.png)
-
--   You should now be able to toggle the Semantic Search radio button on
-    and off and see a different order of relevant results on the list of
-    call summaries on the from the web UI. You can make additional
-    changes to your semantic configuration to change how the relevancy
-    of your results are displayed here.\
-    \
-    ![image](/images/readMe/image10.png)
-
-If you plan to not utilize Semantic Search on the web UI, you can
-remove the radio button from the search by updating the application
-setting "SemanticConfiguration" on the App Service \> Settings \>
-Configuration page to an empty string:
-
-![image](/images/readMe/image11.png)
+3.   Deploy Fabric resources and artifacts
+     1.   Navigate to ([Azure Portal](https://portal.azure.com/))
+     2.   Click on Azure Cloud Shell in the top right of navigation Menu (add image)
+     3.   Run the run the following command: 
+          1.   az login
+          2.   rm -rf ./ckm
+          3.   git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/ckm-v2-dev/
+          4.   cd ./ckm-v2-bk/Deployment/scripts/fabric_scripts
+          5.   sh ./run_fabric_items_scripts.sh keyvault_param workspaceid_param solutionprefix_param
+               1.   keyvault_param - the name of the keyvault that was created in Step 1
+               2.   workspaceid_param - the workspaceid created in Step 2
+               3.   solutionprefix_param - prefix used to append to lakehouse upon creation
+     4.  Get Fabric Lakehouse Connection details:
+         1.   Once deployment is complete, navigate to Fabric Workspace
+         2.   Find Lakehouse in workspace (ex.lakehouse_*solutionprefix_param*), click on the SQL Analytics Endpoint
+         3.   Click on Settings icon
+         4.   In right panel, click copy icon for SQL connection String (needed for next step)
+         5.   Copy the Lakehouse name from workspace (needed for next steps)
+    1.   Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
+4.   Deploy Power BI Report
+     1.   Download the .pbix file from repo (link).
+     2.   Open Power BI report in Power BI Dashboard
+     3.   Click on Transform Data menu option from the Task Bar
+     4.   Click Data source settings
+     5.   Click Change Source...
+     6.   Input the Server link (from Fabric Workspace)
+     7.   Input Database name (from Fabric Workspace)
+     8.   Click OK
+     9.   Click Edit Permissions
+     10.  If not signed in, sign in your credentials and proceed to click OK
+     11.  Click Close
+     12.  Report should refresh with need connection.
 
 ### Integrate your OpenAI Prompt
 You can add your Azure OpenAI prompt to extract specific entities in the template parameter OPENAI_PROMPT.
