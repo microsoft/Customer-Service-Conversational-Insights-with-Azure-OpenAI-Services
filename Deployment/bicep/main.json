@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.27.1.19265",
-      "templateHash": "3482387733754031654"
+      "templateHash": "18341150792637916502"
     }
   },
   "parameters": {
@@ -223,7 +223,7 @@
             "_generator": {
               "name": "bicep",
               "version": "0.27.1.19265",
-              "templateHash": "8583233733302628155"
+              "templateHash": "2468126151374369370"
             }
           },
           "parameters": {
@@ -269,7 +269,7 @@
               "name": "[format('{0}/{1}', parameters('accounts_ckm_openai_name'), 'gpt-4')]",
               "sku": {
                 "name": "Standard",
-                "capacity": 30
+                "capacity": 15
               },
               "properties": {
                 "model": {
