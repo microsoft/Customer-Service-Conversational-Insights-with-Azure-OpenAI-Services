@@ -1,6 +1,6 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)  \| [**SUPPORTING DOCUMENTS**](#supporting-documents) \|
+MENU: [**USER STORY**](#user-story) \| [**SIMPLE DEPLOY**](#simple-deploy)  \| [**SUPPORTING DOCUMENTATION**](#supporting-documentation) \|
 [**CUSTOMER TRUTH**](#customer-truth)
 
 <h2><img src="/images/readMe/userStory.png" width="64">
@@ -8,35 +8,67 @@ MENU: [**USER STORY**](#user-story) \| [**ONE-CLICK DEPLOY**](#one-click-deploy)
 User story
 </h2>
 
-**Solution accelerator overview**
+### Overview
 
-This is a solution accelerator built on top of Azure Cognitive Search
-Service and Azure OpenAI Service that leverages LLM to synthesize
-post-contact center transcripts for intelligent contact center scenarios. It
-shows how raw transcripts are converted into simplified customer call
-summaries to extract valuable insights around product and service
+This solution accelerator improves contact center operations by summarizing customer conversations and using AI to identify key phrases. By integrating conversational analytics alongside operational metrics, users can discover corollary insights for targeted business impact.​
 performance.
 
-**Scenario**
-
-This scenario shows how a data professional within a travel company contact
-center can use AI to quickly analyze call logs and analytics to identify areas 
-for improvement.
-
-**Key features**
-
-Azure Cognitive Search and Azure OpenAI can enable new and 
-innovative ways to run contact center operations. Post call insights 
-can inform data driven actions to drive decisions around staffing and operations.
+### Technical key features
 
 - **Conversation Summarization and Key Phrase Extraction:** Summarize long conversations into a short paragraph and pull out key phrases that are relevant to the conversation.
-- **Batch speech-to-text using Azure Speech:** Transcribe large amounts of audio files asynchronously including speaker diarization and is typically used in post-call analytics scenarios. Diarizations the process of recognizing and separating speakers in mono channel audio data.
+- **Speech-to-text using Azure Speech:** Transcribe audio files including speaker diarization that is typically used in post-call analytics scenarios. Diarizations the process of recognizing and separating speakers in mono channel audio data.
 - **Sensitive information extraction and redaction:** Identify, categorize, and redact sensitive information in conversation transcription
 - **Sentiment analysis and opinion mining:** Analyze transcriptions and associate positive, neutral, or negative sentiment at the utterance and conversation-level.
 
-**Below is an image of the solution accelerator.**\
 \
-![image](/images/readMe/image2.png)
+![image](/images/readMe/ckm-v2-ui.png)
+
+### Use case / scenario
+
+A contact center manager reviews contact center performance to ensure resources are being used efficiently. To identify areas for improvement, they need to understand the correlation between conversational and operational data. ​
+
+The contact center manager uses their dashboard to identify how LLM-generated conversational analytics and insights are impacting operations to make an informed decision about how to improve their center’s performance.​
+
+### Target end users
+
+Company personnel (employees, executives) looking to gain conversational insights in correlation with operational Contact Center metrics would leverage this accelerator to find what they need quickly.
+
+Tech administrators can use this accelerator to give their colleagues easy access to internal unstructured company data. Admins can customize the system configurator to tailor responses for the intended audience.
+
+<h2><img src="/images/readMe/oneClickDeploy.png" width="64">
+<br/>
+Simple deploy
+</h2>
+
+### Business value
+#### AI transcript analysis​
+Generative AI analyzes call transcripts, summarizes content, identifies and aggregates key phrases for data visualization​
+#### Operational clarity​
+Relevant metrics such as call volume, handling time, and call resolution are pulled from the same call logs for operational data visualization​
+#### Unified data​
+Unstructured (call transcripts) and structured (operational metrics) data, are both analyzed and visualized within the same application​
+#### Targeted decision enablement​
+Enable agents and managers to achieve glanceable insight recognition, corollary information analysis, and accelerated decision making​
+
+### When to use this repo
+You should use this repo when your scenario customization needs exceed the out-of-the-box experience offered by Azure OpenAI on your data and you don't require to streamline the entire development cycle of your AI application, as you can with Azure Machine Learning prompt flow. The accelerator presented here provides several options, for example:
+
+- The ability to ground a model using both operational and conversation data
+- Advanced keyword tracking
+- LLM based PBI charting for visualization of conversation data
+- Integrating Fabric as the repository for all conversational data
+
+*Have you seen [ChatGPT + Enterprise data with Azure OpenAI and AI Search demo?](https://www.figma.com/design/rWlkqlrf6xNDJZrlIQE4Tj/CKM_accelerator_v2?node-id=1498-398&t=uvREG0WD4PAn8bWd-4) If you would like to experiment: Play with prompts, understanding RAG pattern different implementation approaches, see how different features interact with the RAG pattern and choose the best options for your RAG deployments, take a look at that repo.
+
+Here is a comparison table with a few features offered by Azure, an available GitHub demo sample and this repo, that can provide guidance when you need to decide which one to use:
+
+| Name	| Feature or Sample? |	What is it? | When to use? |
+| ---------|---------|---------|---------|
+|["Chat with your data" Solution Accelerator](https://aka.ms/ChatWithYourDataSolutionAccelerator) - (This repo)	| Azure sample | End-to-end baseline RAG pattern sample that uses Azure AI Search as a retriever.	| This sample should be used by Developers when the  RAG pattern implementations provided by Azure are not able to satisfy business requirements. This sample provides a means to customize the solution. Developers must add their own code to meet requirements, and adapt with best practices according to individual company policies. |
+|[Azure OpenAI on your data](https://learn.microsoft.com/azure/ai-services/openai/concepts/use-your-data) | Azure feature | Azure OpenAI Service offers out-of-the-box, end-to-end RAG implementation that uses a REST API or the web-based interface in the Azure AI Studio to create a solution that connects to your data to enable an enhanced chat experience with Azure OpenAI ChatGPT models and Azure AI Search. | This should be the first option considered for developers that need an end-to-end solution for Azure OpenAI Service with an Azure AI Search retriever. Simply select supported data sources, that ChatGPT model in Azure OpenAI Service , and any other Azure resources needed to configure your enterprise application needs. |
+|[Azure Machine Learning prompt flow](https://learn.microsoft.com/azure/machine-learning/concept-retrieval-augmented-generation)	| Azure feature | RAG in Azure Machine Learning is enabled by integration with Azure OpenAI Service for large language models and vectorization. It includes support for Faiss and Azure AI Search as vector stores, as well as support for open-source offerings, tools, and frameworks such as LangChain for data chunking. Azure Machine Learning prompt flow offers the ability to test data generation, automate prompt creation, visualize prompt evaluation metrics, and integrate RAG workflows into MLOps using pipelines.  | When Developers need more control over processes involved in the development cycle of LLM-based AI applications, they should use Azure Machine Learning prompt flow to create executable flows and evaluate performance through large-scale testing. |
+|[ChatGPT + Enterprise data with Azure OpenAI and AI Search demo](https://github.com/Azure-Samples/azure-search-openai-demo) | Azure sample | RAG pattern demo that uses Azure AI Search as a retriever. | Developers who would like to use or present an end-to-end demonstration of the RAG pattern should use this sample. This includes the ability to deploy and test different retrieval modes, and prompts to support business use cases. |
+|[RAG Experiment Accelerator](https://github.com/microsoft/rag-experiment-accelerator) | Tool |The RAG Experiment Accelerator is a versatile tool that helps you conduct experiments and evaluations using Azure AI Search and RAG pattern. | RAG Experiment Accelerator is to make it easier and faster to run experiments and evaluations of search queries and quality of response from OpenAI. This tool is useful for researchers, data scientists, and developers who want to, Test the performance of different Search and OpenAI related hyperparameters. |
 
 <h2><img src="/images/readMe/oneClickDeploy.png" width="64">
 <br/>
@@ -159,7 +191,7 @@ You can modify the Azure OpenAI prompt after the deployment by modifying the Azu
 
 <h2><img src="/images/readMe/supportingDocuments.png" width="64">
 <br/>
-Supporting documents
+Supporting documentation
 </h2>
 
 Launch the application by navigating to your Azure resource group,
