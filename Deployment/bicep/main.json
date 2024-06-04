@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.27.1.19265",
-      "templateHash": "17680238839185683741"
+      "templateHash": "3482387733754031654"
     }
   },
   "parameters": {
@@ -20,12 +20,6 @@
     "location": {
       "type": "string",
       "defaultValue": "[resourceGroup().location]"
-    },
-    "fabricWorkspaceId": {
-      "type": "string",
-      "metadata": {
-        "description": "Fabric Workspace Id if you have one, else leave it empty. "
-      }
     }
   },
   "variables": {
