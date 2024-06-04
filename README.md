@@ -101,11 +101,12 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 2.  Create Fabric Workspace
     1.  Navigate to ([Fabric Workspace](https://app.fabric.microsoft.com/))
     2.  Click on Workspaces from left Navigation
+    3.  Click on + New Workspace
         1.  Provide Name of Workspace 
-        2.  Provie Description of Workspace (optional)
+        2.  Provide Description of Workspace (optional)
         3.  Click Apply
-    3.  Open Workspace
-    4.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
+    4.  Open Workspace
+    5.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
 
 3.   Deploy Fabric resources and artifacts
      1.   Navigate to ([Azure Portal](https://portal.azure.com/))
@@ -113,7 +114,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
      3.   Run the run the following command: 
           1.   az login
           2.   rm -rf ./ckm
-          3.   git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/ckm-v2-dev/
+          3.   git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services.git
           4.   cd ./ckm-v2-bk/Deployment/scripts/fabric_scripts
           5.   sh ./run_fabric_items_scripts.sh keyvault_param workspaceid_param solutionprefix_param
                1.   keyvault_param - the name of the keyvault that was created in Step 1
