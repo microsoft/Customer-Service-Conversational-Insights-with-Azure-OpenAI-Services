@@ -189,9 +189,6 @@ Please be sure to set up both parameters accordingly to your entities name.
 
 ### Modify the prompt after deployment
 
-You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
-
-<h2><img src="/images/readMe/supportingDocuments.png" width="64">
 <br/>
 Supporting documentation
 </h2>
