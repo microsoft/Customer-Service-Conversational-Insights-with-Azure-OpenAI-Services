@@ -115,7 +115,7 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
           1.   az login
           2.   rm -rf ./ckm
           3.   git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services.git
-          4.   cd ./ckm-v2-bk/Deployment/scripts/fabric_scripts
+          4.   cd ./ckm-v2-dev/Deployment/scripts/fabric_scripts
           5.   sh ./run_fabric_items_scripts.sh keyvault_param workspaceid_param solutionprefix_param
                1.   keyvault_param - the name of the keyvault that was created in Step 1
                2.   workspaceid_param - the workspaceid created in Step 2
