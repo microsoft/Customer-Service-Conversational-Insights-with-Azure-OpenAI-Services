@@ -48,7 +48,7 @@ resource accounts_ckm_openai_name_gpt_4 'Microsoft.CognitiveServices/accounts/de
   name: 'gpt-4'
   sku: {
     name: 'Standard'
-    capacity: 30
+    capacity: 15
   }
   properties: {
     model: {
