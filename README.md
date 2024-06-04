@@ -51,69 +51,33 @@ Unstructured (call transcripts) and structured (operational metrics) data, are b
 Enable agents and managers to achieve glanceable insight recognition, corollary information analysis, and accelerated decision making​
 
 ### When to use this repo
-You should use this repo when your scenario customization needs exceed the out-of-the-box experience offered by [Azure OpenAI on your data](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data?tabs=ai-search) and you don't require to streamline the entire development cycle of your AI application, as you can with [Azure Machine Learning prompt flow](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2). The accelerator presented here provides several options, for example:
-
-- The ability to ground a model using both operational and conversation data
-- Advanced keyword tracking
-- LLM based PBI charting for visualization of conversation data
-- Integrating Fabric as the repository for all conversational data
-
-*Have you seen [ChatGPT + Enterprise data with Azure OpenAI and AI Search demo?](https://github.com/Azure-Samples/azure-search-openai-demo) If you would like to experiment: Play with prompts, understanding RAG pattern different implementation approaches, see how different features interact with the RAG pattern and choose the best options for your RAG deployments, take a look at that repo.
+TBD
 
 Here is a comparison table with a few features offered by Azure, an available GitHub demo sample and this repo, that can provide guidance when you need to decide which one to use:
 
 | Name	| Feature or Sample? |	What is it? | When to use? |
 | ---------|---------|---------|---------|
-|[Conversation Knowledge Mining](https://aka.ms/CSAGoldStandards/ConversationKnowledgeMining) | Azure sample | | |
-|[Build your own AI assistant Solution accelerator](https://aka.ms/CSAGoldStandards/BuildYourOwnAIAssistant) | Azure sample | A customized AI Assistant that accelerates the knowledge gathering and document creation by efficiently identifying specialized data sets, summarizing relevant documents, revealing insights and references, and generating content in a defined format to expedite and assist with document authoring.​ | |
-|["Chat with your data" Solution Accelerator](https://aka.ms/ChatWithYourDataSolutionAccelerator) | Azure sample | End-to-end baseline RAG pattern sample that uses Azure AI Search as a retriever.	| This sample should be used by Developers when the  RAG pattern implementations provided by Azure are not able to satisfy business requirements. This sample provides a means to customize the solution. Developers must add their own code to meet requirements, and adapt with best practices according to individual company policies. |
-|[Azure OpenAI on your data](https://learn.microsoft.com/azure/ai-services/openai/concepts/use-your-data) | Azure feature | Azure OpenAI Service offers out-of-the-box, end-to-end RAG implementation that uses a REST API or the web-based interface in the Azure AI Studio to create a solution that connects to your data to enable an enhanced chat experience with Azure OpenAI ChatGPT models and Azure AI Search. | This should be the first option considered for developers that need an end-to-end solution for Azure OpenAI Service with an Azure AI Search retriever. Simply select supported data sources, that ChatGPT model in Azure OpenAI Service , and any other Azure resources needed to configure your enterprise application needs. |
-|[Azure Machine Learning prompt flow](https://learn.microsoft.com/azure/machine-learning/concept-retrieval-augmented-generation)	| Azure feature | RAG in Azure Machine Learning is enabled by integration with Azure OpenAI Service for large language models and vectorization. It includes support for Faiss and Azure AI Search as vector stores, as well as support for open-source offerings, tools, and frameworks such as LangChain for data chunking. Azure Machine Learning prompt flow offers the ability to test data generation, automate prompt creation, visualize prompt evaluation metrics, and integrate RAG workflows into MLOps using pipelines.  | When Developers need more control over processes involved in the development cycle of LLM-based AI applications, they should use Azure Machine Learning prompt flow to create executable flows and evaluate performance through large-scale testing. |
-|[ChatGPT + Enterprise data with Azure OpenAI and AI Search demo](https://github.com/Azure-Samples/azure-search-openai-demo) | Azure sample | RAG pattern demo that uses Azure AI Search as a retriever. | Developers who would like to use or present an end-to-end demonstration of the RAG pattern should use this sample. This includes the ability to deploy and test different retrieval modes, and prompts to support business use cases. |
-|[RAG Experiment Accelerator](https://github.com/microsoft/rag-experiment-accelerator) | Tool |The RAG Experiment Accelerator is a versatile tool that helps you conduct experiments and evaluations using Azure AI Search and RAG pattern. | RAG Experiment Accelerator is to make it easier and faster to run experiments and evaluations of search queries and quality of response from OpenAI. This tool is useful for researchers, data scientists, and developers who want to, Test the performance of different Search and OpenAI related hyperparameters. |
+|[Conversation Knowledge Mining](https://aka.ms/CSAGoldStandards/ConversationKnowledgeMining) | Azure sample |TBD|TBD|
+|TBD| | | |
+|TBD| | | |
+|TBD| | | |
+|TBD| | | |
 
 <h2><img src="/images/readMe/oneClickDeploy.png" width="64">
 <br/>
 One-click deploy
 </h2>
 
-### Prerequisites
-
-These requirements must be met before the solution accelerator is installed.
-
--   If you would like to use an **existing** OpenAI resource in your Azure tenant (instead of opting to create a new one), you'll need an Azure OpenAI resource with a deployed model that has the following
-    settings:
-
-    -   Model: gpt-35-turbo
-
-    -   Model Version: 0613
-
-    -   Tokens per Minute: 22K
-
 ### Products used/licenses required
 
--   Azure Cognitive Search
+-   Azure Speech Service
 
 -   Azure OpenAI
 
--   Azure storage account
+-   Microsoft Fabric Capacity 
 
 -   The user deploying the template must have permission to create
     resources and resource groups.
-
-
-### Deploy
-
-The Azure portal displays a pane that allows you to easily provide parameter values. The parameters are pre-filled with the default values from the template.
-
-Once the deployment is completed, start processing your audio files by adding them to the "audio-input" container in the "storage account" in your "Resource Group". 
-To navigate the Web UI, check the "App Service" resource in your "Resource Group".
-
-
-The template builds on top of the [Ingestion Client for Speech service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/ingestion-client).
-Please check here for detailed parameters explanations: [Getting started with the Ingestion Client](https://github.com/Azure-Samples/cognitive-services-speech-sdk/blob/master/samples/ingestion/ingestion-client/Setup/guide.md)
-
-Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-openai-prompt)
 
 ### Solution accelerator architecture
 ![image](/images/readMe/image4.png)
@@ -175,19 +139,9 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
      11.  Click Close
      12.  Report should refresh with need connection.
 
-### Integrate your OpenAI Prompt
-You can add your Azure OpenAI prompt to extract specific entities in the template parameter OPENAI_PROMPT.
-<br>
-The defined keys have to be added in the OPENAI_PROMPT_KEYS parameter as well, to enable the data Push to the Azure Cognitive Search index.
-<br>
-Please be sure to set up both parameters accordingly to your entities name.
-
-| Environment variable | Default value | Note |
-|--|--|--|
-|OPENAI_PROMPT | Execute these tasks:<br>&#8226; Summarize the conversation, key: summary<br>&#8226; Is the customer satisfied with the interaction with the agent, key: satisfied<br> Answer in JSON machine-readable format, using the keys from above.<br> Format the ouput as JSON object called 'results'. Pretty print the JSON and make sure that is properly closed at the end.<br>| The prompt to be used with OpenAI, please define the keys in the setting below as well |
-|OPENAI_PROMPT_KEYS | summary:Edm.String:False,satisfied:Edm.String:True|The prompt keys to use for the OpenAI API. Format: key,SearchType,Facetable e.g. key1:Edm.String:False,key2:Edm.String:True,key3:Edm.String:True | 
-
 ### Modify the prompt after deployment
+
+If you'd like to modify the OpenAI prompt after deployment, they can be found in the Fabric notebooks.
 
 <br/>
 Supporting documentation
