@@ -51,14 +51,14 @@ Unstructured (call transcripts) and structured (operational metrics) data, are b
 Enable agents and managers to achieve glanceable insight recognition, corollary information analysis, and accelerated decision making​
 
 ### When to use this repo
-You should use this repo when your scenario customization needs exceed the out-of-the-box experience offered by Azure OpenAI on your data and you don't require to streamline the entire development cycle of your AI application, as you can with Azure Machine Learning prompt flow. The accelerator presented here provides several options, for example:
+You should use this repo when your scenario customization needs exceed the out-of-the-box experience offered by [Azure OpenAI on your data](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data?tabs=ai-search) and you don't require to streamline the entire development cycle of your AI application, as you can with [Azure Machine Learning prompt flow](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2). The accelerator presented here provides several options, for example:
 
 - The ability to ground a model using both operational and conversation data
 - Advanced keyword tracking
 - LLM based PBI charting for visualization of conversation data
 - Integrating Fabric as the repository for all conversational data
 
-*Have you seen [ChatGPT + Enterprise data with Azure OpenAI and AI Search demo?](https://www.figma.com/design/rWlkqlrf6xNDJZrlIQE4Tj/CKM_accelerator_v2?node-id=1498-398&t=uvREG0WD4PAn8bWd-4) If you would like to experiment: Play with prompts, understanding RAG pattern different implementation approaches, see how different features interact with the RAG pattern and choose the best options for your RAG deployments, take a look at that repo.
+*Have you seen [ChatGPT + Enterprise data with Azure OpenAI and AI Search demo?](https://github.com/Azure-Samples/azure-search-openai-demo) If you would like to experiment: Play with prompts, understanding RAG pattern different implementation approaches, see how different features interact with the RAG pattern and choose the best options for your RAG deployments, take a look at that repo.
 
 Here is a comparison table with a few features offered by Azure, an available GitHub demo sample and this repo, that can provide guidance when you need to decide which one to use:
 
