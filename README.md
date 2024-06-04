@@ -16,7 +16,7 @@ performance.
 ### Technical key features
 
 - **Conversation Summarization and Key Phrase Extraction:** Summarize long conversations into a short paragraph and pull out key phrases that are relevant to the conversation.
-- **Speech-to-text using Azure Speech:** Transcribe audio files including speaker diarization that is typically used in post-call analytics scenarios. Diarizations the process of recognizing and separating speakers in mono channel audio data.
+- **Speech-to-text using Azure Speech:** Transcribe audio files including speaker diarization that is typically used in post-call analytics scenarios. Diarization is the process of recognizing and separating speakers in mono channel audio data.
 - **Sensitive information extraction and redaction:** Identify, categorize, and redact sensitive information in conversation transcription
 - **Sentiment analysis and opinion mining:** Analyze transcriptions and associate positive, neutral, or negative sentiment at the utterance and conversation-level.
 
