@@ -152,8 +152,8 @@ Supporting documentation
 
 If you'd like to customize the accelerator, here are some ways you might do that:
 - Modify the Power BI report to use a custom logo
-- Ingest your own JSON conversation files (in the [conversation JSON file format](ConversationalDataFormat.md)) by uploading them into the conversation_input lakehouse folder and run the data pipeline
-- Ingest your own audio conversation files and metadata (in the conversation metadata CSV file format) by uploading them into the audio_input lakehouse folder and run the data pipeline
+- Ingest your own [JSON conversation files](ConversationalDataFormat.md) by uploading them into the `conversation_input` lakehouse folder and run the data pipeline
+- Ingest your own [audio conversation files](ConversationalDataFormat.md) by uploading them into the `audio_input` lakehouse folder and run the data pipeline
 
 **Troubleshooting**
 -   [Troubleshooting documentation](Troubleshooting.md)
