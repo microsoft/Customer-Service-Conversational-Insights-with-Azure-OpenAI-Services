@@ -80,7 +80,7 @@ One-click deploy
     resources and resource groups.
 
 ### Solution accelerator architecture
-![image](/images/readMe/image4.png)
+![image](/images/readMe/ckm-v2-sa.png)
 
 ### **How to install/deploy**
 
