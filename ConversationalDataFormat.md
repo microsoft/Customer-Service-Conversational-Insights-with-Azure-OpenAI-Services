@@ -5,7 +5,7 @@ Azure AI Speech Service is utilized for transcription of conversation audio file
 
 We have seen successful transcription of files up to 15MB in size but some very large files may experience processing challenges.
 
-Contact center conversations may be uploaded directly as audio to the `audio_input` folder in the Fabric lakehouse along with an associated metadata file. Below is a sample structure of a conversation audio metadata file:
+Contact center conversations may be uploaded directly as audio to the `audio_input` folder in the Fabric lakehouse along with an associated conversation audio metadata file. Below is a sample structure of a conversation audio metadata file:
 ```csv
 ConversationId,StartTime,EndTime,CallerId,CallReason,ResolutionStatus,AgentId,AgentName,Team,FileName
 19d35564-fbc7-4491-8c77-57ec63c5be75,4/7/2024 14:28, 4/7/2024 2:30:36 PM,999-304-5535,Tech Support,Unresolved,Q8BBAU,Amelia Hernandez,West, Travel_20240407142802.wav
