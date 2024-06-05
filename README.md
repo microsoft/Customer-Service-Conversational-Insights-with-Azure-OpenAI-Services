@@ -155,16 +155,19 @@ If you'd like to customize the accelerator, here are some ways you might do that
 - Ingest your own [JSON conversation files](ConversationalDataFormat.md) by uploading them into the `conversation_input` lakehouse folder and run the data pipeline
 - Ingest your own [audio conversation files](ConversationalDataFormat.md) by uploading them into the `audio_input` lakehouse folder and run the data pipeline
 
-**Troubleshooting**
+### Troubleshooting
 -   [Troubleshooting documentation](Troubleshooting.md)
+
+### Additional resources
+
+- [Microsoft Fabric documentation - Microsoft Fabric | Microsoft Learn](https://learn.microsoft.com/en-us/fabric/)
+- [Azure OpenAI Service - Documentation, quickstarts, API reference - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data)
+- [Speech service documentation - Tutorials, API Reference - Azure AI services - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/)
   
-**Extensibility**
-
--   [Future extensibility documentation](Extensibility.md)
-
-**More info**
+### More info
 -   [Solution
     architecture](SolutionArchitecture.md)
+-  [Future extensibility documentation](Extensibility.md)
 
 <h2><img src="/images/readMe/customerTruth.png" width="64">
 </br>
