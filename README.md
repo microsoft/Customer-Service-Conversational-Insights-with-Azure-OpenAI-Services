@@ -162,8 +162,6 @@ Supporting documentation
 
 -   [Resource group walkthrough](SolutionArchitecture.md#resource-group-walkthrough)
 
--   [Updating the UI](GBB.ConversationalKM.WebUI)
-
 <br/>
 <br>
 <h2><img src="/images/readMe/customerTruth.png" width="64">
