@@ -166,17 +166,11 @@ If you'd like to customize the accelerator, here are some ways you might do that
 -   [Solution
     architecture](SolutionArchitecture.md)
 
-<br/>
-<br>
 <h2><img src="/images/readMe/customerTruth.png" width="64">
 </br>
 Customer truth
 </h2>
 Customer stories coming soon. For early access, contact: nfelton@microsoft.com
-
-<br/>
-<br/>
-<br/>
 
 ---
 
