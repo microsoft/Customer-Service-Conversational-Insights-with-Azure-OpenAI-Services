@@ -33,7 +33,7 @@ The contact center manager uses their dashboard to identify how LLM-generated co
 
 Company personnel (employees, executives) looking to gain conversational insights in correlation with operational Contact Center metrics would leverage this accelerator to find what they need quickly.
 
-Tech administrators can use this accelerator to give their colleagues easy access to internal unstructured company data. Admins can customize the system configurator to tailor responses for the intended audience.
+TBD
 
 <h2><img src="/images/readMe/oneClickDeploy.png" width="64">
 <br/>
