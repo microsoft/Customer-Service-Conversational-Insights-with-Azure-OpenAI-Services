@@ -1,0 +1,214 @@
+{
+  "AgentName": "Mia Robinson",
+  "AgentId": "PKJSZO",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-322-7413",
+  "Conversation": {
+    "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+    "Messages": [
+      {
+        "Id": "084be488-b464-4c9f-bc09-a8f3d60c28b0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-15T16:50:34.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "Thank you for calling the travel agency, this is Mia Robinson. How may I assist you today?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "743b359d-bc84-4249-8fb6-d2f2a36783b9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-15T16:50:55.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "Hi Mia, my name is John Smith and I have some questions about my upcoming trip to New York City.",
+        "UserId": "999-322-7413",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a7f2102d-3e45-441b-b650-35b9c04a3006",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-15T16:51:34.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "Of course, John. What questions do you have?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4b1a8af1-2044-42ff-95f4-cbfda03fbc7a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-15T16:51:56.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "I'm flying with American Airlines and I received an email that my flight has been delayed. Can you help me with this?",
+        "UserId": "999-322-7413",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5a1ddf27-9494-4a29-b119-d1b3e52d8985",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-15T16:52:16.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "Yes, I can certainly help you with that. Can you provide me with your flight number and departure date and time?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "86b627a5-7bc7-418b-85a5-596702a2fef1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-15T16:52:35.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "Sure, the flight number is AA123 and the departure is on May 15th at 2pm.",
+        "UserId": "999-322-7413",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "93edb202-1c8b-44a3-b306-84c5b6398d2d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-15T16:53:04.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "Thanks for the information. I see that your flight has been delayed by two hours. American Airlines will provide compensation for this delay. Would you like me to contact them to arrange for the compensation?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fdb8ce18-6eda-4171-b0eb-e8258963ebaa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-15T16:53:25.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "Yes, please. That would be great.",
+        "UserId": "999-322-7413",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "43593183-42a6-4bb1-9025-8bf361e11914",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-15T16:54:00.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "I will contact American Airlines on your behalf and arrange for the compensation. Is there anything else I can assist you with today?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1fb5b631-b753-4a3b-8973-6d146769b1e4",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-15T16:54:36.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "Actually, I'm having trouble deciding on a hotel. Can you recommend some options in the Midtown area?",
+        "UserId": "999-322-7413",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "23280b5b-ea6f-4fab-953c-aa47a6f033e9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-15T16:54:59.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "Of course, John. Some options in the Midtown area are the Hilton Times Square, the Millennium Broadway Hotel, and the New York Marriott Marquis. They all have great locations and amenities. Which one are you leaning towards?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e2ccd6a2-111e-40f7-b479-a81e59a60de2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-15T16:55:38.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "I'm not sure yet, I need to think about it. Thank you for your help, Mia.",
+        "UserId": "999-322-7413",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b112b9c2-7075-45fb-a765-674fd6cdef50",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-15T16:55:56.9378783-05:00",
+        "ConversationId": "a50a759b-7267-48f9-937d-d5d92fd440ce",
+        "Value": "You're welcome, John. If you have any more questions, don't hesitate to call us again. Have a great day!",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-15T16:50:06.9378783-05:00",
+    "EndTime": "2024-03-15T16:55:56.9378783-05:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Mia Robinson. How may I assist you today?Hi Mia, my name is John Smith and I have some questions about my upcoming trip to New York City.Of course, John. What questions do you have?I'm flying with American Airlines and I received an email that my flight has been delayed. Can you help me with this?Yes, I can certainly help you with that. Can you provide me with your flight number and departure date and time?Sure, the flight number is AA123 and the departure is on May 15th at 2pm.Thanks for the information. I see that your flight has been delayed by two hours. American Airlines will provide compensation for this delay. Would you like me to contact them to arrange for the compensation?Yes, please. That would be great.I will contact American Airlines on your behalf and arrange for the compensation. Is there anything else I can assist you with today?Actually, I'm having trouble deciding on a hotel. Can you recommend some options in the Midtown area?Of course, John. Some options in the Midtown area are the Hilton Times Square, the Millennium Broadway Hotel, and the New York Marriott Marquis. They all have great locations and amenities. Which one are you leaning towards?I'm not sure yet, I need to think about it. Thank you for your help, Mia.You're welcome, John. If you have any more questions, don't hesitate to call us again. Have a great day!",
+    "Merged_content_user": "Hi Mia, my name is John Smith and I have some questions about my upcoming trip to New York City.I'm flying with American Airlines and I received an email that my flight has been delayed. Can you help me with this?Sure, the flight number is AA123 and the departure is on May 15th at 2pm.Yes, please. That would be great.Actually, I'm having trouble deciding on a hotel. Can you recommend some options in the Midtown area?I'm not sure yet, I need to think about it. Thank you for your help, Mia.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Mia Robinson. How may I assist you today?Of course, John. What questions do you have?Yes, I can certainly help you with that. Can you provide me with your flight number and departure date and time?Thanks for the information. I see that your flight has been delayed by two hours. American Airlines will provide compensation for this delay. Would you like me to contact them to arrange for the compensation?I will contact American Airlines on your behalf and arrange for the compensation. Is there anything else I can assist you with today?Of course, John. Some options in the Midtown area are the Hilton Times Square, the Millennium Broadway Hotel, and the New York Marriott Marquis. They all have great locations and amenities. Which one are you leaning towards?You're welcome, John. If you have any more questions, don't hesitate to call us again. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Mia Robinson. How may I assist you today?\nCustomer: Hi Mia, my name is John Smith and I have some questions about my upcoming trip to New York City.\nAgent: Of course, John. What questions do you have?\nCustomer: I'm flying with American Airlines and I received an email that my flight has been delayed. Can you help me with this?\nAgent: Yes, I can certainly help you with that. Can you provide me with your flight number and departure date and time?\nCustomer: Sure, the flight number is AA123 and the departure is on May 15th at 2pm.\nAgent: Thanks for the information. I see that your flight has been delayed by two hours. American Airlines will provide compensation for this delay. Would you like me to contact them to arrange for the compensation?\nCustomer: Yes, please. That would be great.\nAgent: I will contact American Airlines on your behalf and arrange for the compensation. Is there anything else I can assist you with today?\nCustomer: Actually, I'm having trouble deciding on a hotel. Can you recommend some options in the Midtown area?\nAgent: Of course, John. Some options in the Midtown area are the Hilton Times Square, the Millennium Broadway Hotel, and the New York Marriott Marquis. They all have great locations and amenities. Which one are you leaning towards?\nCustomer: I'm not sure yet, I need to think about it. Thank you for your help, Mia.\nAgent: You're welcome, John. If you have any more questions, don't hesitate to call us again. Have a great day!\n"
+  }
+}

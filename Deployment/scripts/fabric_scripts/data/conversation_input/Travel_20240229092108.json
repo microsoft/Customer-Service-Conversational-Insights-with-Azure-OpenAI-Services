@@ -1,0 +1,184 @@
+{
+  "AgentName": "Isaac Wright",
+  "AgentId": "AFRZLT",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-133-7905",
+  "Conversation": {
+    "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+    "Messages": [
+      {
+        "Id": "5a102e92-eaf0-401d-b44b-23f93eb99124",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T09:21:34.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "Thank you for calling Travel Co, my name is Isaac Wright. How can I assist you today?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "da004da0-24f9-45ab-b945-3d4f7888b5e3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T09:22:10.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "Yes, my name is John Smith and I have a complaint. I recently had a trip planned from New York City to Los Angeles with American Airlines and there was terrible weather that caused a lot of delays. I was very unhappy with how everything was handled and I would like to make a complaint.",
+        "UserId": "999-133-7905",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b384c44e-b393-465c-95cf-33bb69c2c559",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T09:22:45.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "I'm sorry to hear that, John. May I have your confirmation number so that I can look up your reservation and see what happened?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b4717b47-f26a-440e-afc3-afdffd1c6e0c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T09:23:07.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "Yes, it's ABC123 and the flight was on May 23rd at 9am.",
+        "UserId": "999-133-7905",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ef735dd7-f5cd-48e3-81cd-4425767a7fa3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T09:23:27.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "I see that your flight was delayed due to bad weather. Unfortunately, delays and cancellations due to weather are outside of the airline's control. However, were you able to make it to your destination eventually?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f295783d-a8d7-4c39-99a0-5df75f7f6033",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T09:23:56.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "Yes, I did eventually make it to Los Angeles, but I had to wait several hours at the airport and my luggage was lost. I feel that I should be compensated for this inconvenience.",
+        "UserId": "999-133-7905",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3adb9cef-54da-4ad4-9650-7b190bf5d137",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T09:24:27.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "I understand how frustrating that must have been, John. Have you already contacted American Airlines to file a compensation claim?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "facbf0ed-2bd3-44aa-9753-8ff8912186f8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T09:24:50.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "Yes, but they were not very helpful. That's why I'm calling your agency to see if you can do anything for me.",
+        "UserId": "999-133-7905",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2f04032c-f7a7-494b-91a0-0176021af9ee",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T09:25:08.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "I'm sorry to hear that, John. While I cannot guarantee any compensation, I can certainly escalate your complaint to our customer service department and see if there's anything they can do to help. Would you like me to do that for you?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ef21bac8-1e44-4856-8158-b7ee32fb87fe",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T09:25:43.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "Yes, please do that. I feel like that's the least your agency can do for me after all the trouble I went through.",
+        "UserId": "999-133-7905",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "45b3caa4-6aaf-41e3-81c9-ceaf4b5bf411",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T09:26:18.2464595-06:00",
+        "ConversationId": "18272768-207f-40cc-8fac-b22755f48b44",
+        "Value": "Absolutely, John. I will make sure that your complaint is escalated and that our customer service department contacts you as soon as possible. Thank you for bringing this to our attention.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-02-29T09:21:08.2464595-06:00",
+    "EndTime": "2024-02-29T09:26:18.2464595-06:00",
+    "Merged_content": "Thank you for calling Travel Co, my name is Isaac Wright. How can I assist you today?Yes, my name is John Smith and I have a complaint. I recently had a trip planned from New York City to Los Angeles with American Airlines and there was terrible weather that caused a lot of delays. I was very unhappy with how everything was handled and I would like to make a complaint.I'm sorry to hear that, John. May I have your confirmation number so that I can look up your reservation and see what happened?Yes, it's ABC123 and the flight was on May 23rd at 9am.I see that your flight was delayed due to bad weather. Unfortunately, delays and cancellations due to weather are outside of the airline's control. However, were you able to make it to your destination eventually?Yes, I did eventually make it to Los Angeles, but I had to wait several hours at the airport and my luggage was lost. I feel that I should be compensated for this inconvenience.I understand how frustrating that must have been, John. Have you already contacted American Airlines to file a compensation claim?Yes, but they were not very helpful. That's why I'm calling your agency to see if you can do anything for me.I'm sorry to hear that, John. While I cannot guarantee any compensation, I can certainly escalate your complaint to our customer service department and see if there's anything they can do to help. Would you like me to do that for you?Yes, please do that. I feel like that's the least your agency can do for me after all the trouble I went through.Absolutely, John. I will make sure that your complaint is escalated and that our customer service department contacts you as soon as possible. Thank you for bringing this to our attention.",
+    "Merged_content_user": "Yes, my name is John Smith and I have a complaint. I recently had a trip planned from New York City to Los Angeles with American Airlines and there was terrible weather that caused a lot of delays. I was very unhappy with how everything was handled and I would like to make a complaint.Yes, it's ABC123 and the flight was on May 23rd at 9am.Yes, I did eventually make it to Los Angeles, but I had to wait several hours at the airport and my luggage was lost. I feel that I should be compensated for this inconvenience.Yes, but they were not very helpful. That's why I'm calling your agency to see if you can do anything for me.Yes, please do that. I feel like that's the least your agency can do for me after all the trouble I went through.",
+    "Merged_content_agent": "Thank you for calling Travel Co, my name is Isaac Wright. How can I assist you today?I'm sorry to hear that, John. May I have your confirmation number so that I can look up your reservation and see what happened?I see that your flight was delayed due to bad weather. Unfortunately, delays and cancellations due to weather are outside of the airline's control. However, were you able to make it to your destination eventually?I understand how frustrating that must have been, John. Have you already contacted American Airlines to file a compensation claim?I'm sorry to hear that, John. While I cannot guarantee any compensation, I can certainly escalate your complaint to our customer service department and see if there's anything they can do to help. Would you like me to do that for you?Absolutely, John. I will make sure that your complaint is escalated and that our customer service department contacts you as soon as possible. Thank you for bringing this to our attention.",
+    "Full_conversation": "Agent: Thank you for calling Travel Co, my name is Isaac Wright. How can I assist you today?\nCustomer: Yes, my name is John Smith and I have a complaint. I recently had a trip planned from New York City to Los Angeles with American Airlines and there was terrible weather that caused a lot of delays. I was very unhappy with how everything was handled and I would like to make a complaint.\nAgent: I'm sorry to hear that, John. May I have your confirmation number so that I can look up your reservation and see what happened?\nCustomer: Yes, it's ABC123 and the flight was on May 23rd at 9am.\nAgent: I see that your flight was delayed due to bad weather. Unfortunately, delays and cancellations due to weather are outside of the airline's control. However, were you able to make it to your destination eventually?\nCustomer: Yes, I did eventually make it to Los Angeles, but I had to wait several hours at the airport and my luggage was lost. I feel that I should be compensated for this inconvenience.\nAgent: I understand how frustrating that must have been, John. Have you already contacted American Airlines to file a compensation claim?\nCustomer: Yes, but they were not very helpful. That's why I'm calling your agency to see if you can do anything for me.\nAgent: I'm sorry to hear that, John. While I cannot guarantee any compensation, I can certainly escalate your complaint to our customer service department and see if there's anything they can do to help. Would you like me to do that for you?\nCustomer: Yes, please do that. I feel like that's the least your agency can do for me after all the trouble I went through.\nAgent: Absolutely, John. I will make sure that your complaint is escalated and that our customer service department contacts you as soon as possible. Thank you for bringing this to our attention.\n"
+  }
+}

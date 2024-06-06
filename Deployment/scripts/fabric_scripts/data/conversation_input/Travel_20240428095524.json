@@ -1,0 +1,229 @@
+{
+  "AgentName": "Lucas Thompson",
+  "AgentId": "5B94O0",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-517-1714",
+  "Conversation": {
+    "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+    "Messages": [
+      {
+        "Id": "4ee1c78f-89e9-4d0e-b0c3-cd85293b6770",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-28T09:56:02.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "Thank you for calling the travel agency, this is Lucas Thompson, how may I assist you today?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3aac20b6-b534-4131-8b02-4ccdefc2ddf5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-28T09:56:41.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "Hi Lucas, my name is Emily Johnson and I'm having trouble with my American Airlines flight to New York City. I was wondering if you could help me with some options or compensation?",
+        "UserId": "999-517-1714",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fbd8d957-b764-43e3-a4aa-03be0e595f1e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-28T09:57:04.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "Of course, Emily. Can you please provide me with your reservation number and the date of your flight?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4555f42d-152a-4e1a-8f0a-18059bde2af9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-28T09:57:42.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "Yes, my reservation number is 1234567890 and my flight was on March 10th at 2pm.",
+        "UserId": "999-517-1714",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e7f761ff-578b-48db-b2de-790a2f5a276b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-28T09:57:57.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "I see, Emily. I apologize for any inconvenience. Could you please tell me a bit more about what happened during your flight?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ba958761-514a-435b-a32e-b5f105f7a7a5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-28T09:58:30.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "Well, we experienced a lot of delays and there were a lot of crowds at the airport. Additionally, the food options were poor and there wasn't much convenience in terms of amenities.",
+        "UserId": "999-517-1714",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e2269d3a-fe25-4541-9044-0cdc3ee3e71a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-28T09:59:07.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "I understand, Emily. American Airlines apologizes for the inconvenience and we are willing to offer you compensation for the flight. Additionally, I can provide you with some options for a future trip to New York City that may be more to your liking.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fa6a1897-b605-462f-a9d2-dcaafb6b0571",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-28T09:59:24.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "That would be great, Lucas. What options do you have?",
+        "UserId": "999-517-1714",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "92fe4886-eb02-467d-b306-ba65293c5411",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-28T09:59:40.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "Well, we have a flight with Delta Airlines on March 25th at 10am, which is a direct flight from Houston to New York City. Additionally, we have some hotel options that may be more convenient for you, such as the Marriott near Times Square or the Hilton in Midtown.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7912a97f-98e9-4195-ac9f-2f30ba9d762c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-28T10:00:11.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "Those options sound good. How much would those cost?",
+        "UserId": "999-517-1714",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fd0b82c7-10ff-4629-ac6a-c9f5b0ce6463",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-28T10:00:38.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "The Delta Airlines flight would cost $250 and the Marriott hotel would be $150 per night. The Hilton hotel would be $200 per night. Would you like me to book these options for you?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4cf665e6-5607-4aff-829b-6f7d7b40aabe",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-28T10:01:10.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "Yes, please book the Delta Airlines flight and the Marriott hotel for March 25th and 26th.",
+        "UserId": "999-517-1714",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2179bf0e-fa69-4d0f-a9a1-17372e4be350",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-28T10:01:28.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "Great, Emily. I have booked your flight and hotel reservations and sent you an email with all the details. Is there anything else I can assist you with?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3ff19b41-0922-4e89-a62a-5fff9fa41e54",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-28T10:02:05.4783839-05:00",
+        "ConversationId": "bc5394e4-999e-4a8f-baf1-eca89d646353",
+        "Value": "No, that's all. Thank you for your help, Lucas.",
+        "UserId": "999-517-1714",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-28T09:55:24.4783839-05:00",
+    "EndTime": "2024-04-28T10:02:05.4783839-05:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Lucas Thompson, how may I assist you today?Hi Lucas, my name is Emily Johnson and I'm having trouble with my American Airlines flight to New York City. I was wondering if you could help me with some options or compensation?Of course, Emily. Can you please provide me with your reservation number and the date of your flight?Yes, my reservation number is 1234567890 and my flight was on March 10th at 2pm.I see, Emily. I apologize for any inconvenience. Could you please tell me a bit more about what happened during your flight?Well, we experienced a lot of delays and there were a lot of crowds at the airport. Additionally, the food options were poor and there wasn't much convenience in terms of amenities.I understand, Emily. American Airlines apologizes for the inconvenience and we are willing to offer you compensation for the flight. Additionally, I can provide you with some options for a future trip to New York City that may be more to your liking.That would be great, Lucas. What options do you have?Well, we have a flight with Delta Airlines on March 25th at 10am, which is a direct flight from Houston to New York City. Additionally, we have some hotel options that may be more convenient for you, such as the Marriott near Times Square or the Hilton in Midtown.Those options sound good. How much would those cost?The Delta Airlines flight would cost $250 and the Marriott hotel would be $150 per night. The Hilton hotel would be $200 per night. Would you like me to book these options for you?Yes, please book the Delta Airlines flight and the Marriott hotel for March 25th and 26th.Great, Emily. I have booked your flight and hotel reservations and sent you an email with all the details. Is there anything else I can assist you with?No, that's all. Thank you for your help, Lucas.",
+    "Merged_content_user": "Hi Lucas, my name is Emily Johnson and I'm having trouble with my American Airlines flight to New York City. I was wondering if you could help me with some options or compensation?Yes, my reservation number is 1234567890 and my flight was on March 10th at 2pm.Well, we experienced a lot of delays and there were a lot of crowds at the airport. Additionally, the food options were poor and there wasn't much convenience in terms of amenities.That would be great, Lucas. What options do you have?Those options sound good. How much would those cost?Yes, please book the Delta Airlines flight and the Marriott hotel for March 25th and 26th.No, that's all. Thank you for your help, Lucas.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Lucas Thompson, how may I assist you today?Of course, Emily. Can you please provide me with your reservation number and the date of your flight?I see, Emily. I apologize for any inconvenience. Could you please tell me a bit more about what happened during your flight?I understand, Emily. American Airlines apologizes for the inconvenience and we are willing to offer you compensation for the flight. Additionally, I can provide you with some options for a future trip to New York City that may be more to your liking.Well, we have a flight with Delta Airlines on March 25th at 10am, which is a direct flight from Houston to New York City. Additionally, we have some hotel options that may be more convenient for you, such as the Marriott near Times Square or the Hilton in Midtown.The Delta Airlines flight would cost $250 and the Marriott hotel would be $150 per night. The Hilton hotel would be $200 per night. Would you like me to book these options for you?Great, Emily. I have booked your flight and hotel reservations and sent you an email with all the details. Is there anything else I can assist you with?",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Lucas Thompson, how may I assist you today?\nCustomer: Hi Lucas, my name is Emily Johnson and I'm having trouble with my American Airlines flight to New York City. I was wondering if you could help me with some options or compensation?\nAgent: Of course, Emily. Can you please provide me with your reservation number and the date of your flight?\nCustomer: Yes, my reservation number is 1234567890 and my flight was on March 10th at 2pm.\nAgent: I see, Emily. I apologize for any inconvenience. Could you please tell me a bit more about what happened during your flight?\nCustomer: Well, we experienced a lot of delays and there were a lot of crowds at the airport. Additionally, the food options were poor and there wasn't much convenience in terms of amenities.\nAgent: I understand, Emily. American Airlines apologizes for the inconvenience and we are willing to offer you compensation for the flight. Additionally, I can provide you with some options for a future trip to New York City that may be more to your liking.\nCustomer: That would be great, Lucas. What options do you have?\nAgent: Well, we have a flight with Delta Airlines on March 25th at 10am, which is a direct flight from Houston to New York City. Additionally, we have some hotel options that may be more convenient for you, such as the Marriott near Times Square or the Hilton in Midtown.\nCustomer: Those options sound good. How much would those cost?\nAgent: The Delta Airlines flight would cost $250 and the Marriott hotel would be $150 per night. The Hilton hotel would be $200 per night. Would you like me to book these options for you?\nCustomer: Yes, please book the Delta Airlines flight and the Marriott hotel for March 25th and 26th.\nAgent: Great, Emily. I have booked your flight and hotel reservations and sent you an email with all the details. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you for your help, Lucas.\n"
+  }
+}

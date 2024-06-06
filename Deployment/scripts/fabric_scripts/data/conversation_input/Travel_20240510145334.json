@@ -1,0 +1,274 @@
+{
+  "AgentName": "Lily Young",
+  "AgentId": "T4CUGY",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-593-3947",
+  "Conversation": {
+    "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+    "Messages": [
+      {
+        "Id": "3c295c31-3505-4227-aded-4311db63750c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T14:53:52.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Thank you for calling the travel agency, my name is Lily. How can I assist you today?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5bef27c2-bde2-4664-9a1f-88e599962657",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T14:54:15.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Hi Lily, my name is John Smith and I'm having some trouble with my American Airlines flight to New York City.",
+        "UserId": "999-593-3947",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "34a63cbb-22d6-4d2c-88e5-15ff8c178f55",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T14:54:31.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "I'm sorry to hear that, John. Can you provide me with your flight number and departure date?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4757b188-559e-4b20-bba0-152bc622a68b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T14:55:10.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Yes, the flight number is AA1234 and the departure date is October 1st.",
+        "UserId": "999-593-3947",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b00346ff-e784-4089-bc1c-16806093d886",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T14:55:42.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Okay, let me check on that for you. Can you hold on for just a moment?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "00ff559e-06c7-4509-ac36-682be3b85a84",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T14:56:09.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Sure, no problem.",
+        "UserId": "999-593-3947",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6447c2a1-3586-4eb7-b7fc-832199570220",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T14:56:42.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Thank you for holding, John. It looks like there was a delay with your flight due to weather conditions. American Airlines is offering compensation for affected passengers. Would you like to submit a claim for compensation?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fbfd401c-db5b-4489-aa3a-098ac90ef067",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T14:57:09.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "I'm not sure what to do. How much compensation would I be eligible for?",
+        "UserId": "999-593-3947",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "71d2909c-3e4f-4547-98c1-4c686b733fd0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T14:57:32.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "That depends on a few factors such as the length of the delay and the distance of the flight. I can provide you with some options and you can decide what you'd like to do.",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2fdb0bae-88a5-4282-8e19-4501ccf0f6c0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T14:58:11.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Okay, that sounds good.",
+        "UserId": "999-593-3947",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d80d7e72-935e-40cc-8148-686f1947abf9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T14:58:26.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Option 1 is to submit a claim to American Airlines for compensation directly. Option 2 is to have us submit a claim for you on your behalf. Option 3 is to do nothing and forgo any potential compensation. Which option would you like to choose?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5ae2f23e-561b-4f2c-bdd3-75e836e1ebaa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T14:58:58.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "I think I'll go with option 2 and have you submit a claim for me.",
+        "UserId": "999-593-3947",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "943ddc10-7b04-41be-89e6-bf18460e1760",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T14:59:25.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Great, I can help you with that. Can you please provide me with your reservation number and the date of your hotel stay in New York City?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7108334e-4b08-487f-a8a1-dab5e61173e6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T15:00:01.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "My reservation number is 12345678 and the dates of my stay are October 1st through October 7th at the Marriott Marquis in Times Square.",
+        "UserId": "999-593-3947",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1b0e146d-8931-4ec2-9782-0ad960843e94",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T15:00:36.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "Thank you, John. I will submit a claim on your behalf and keep you updated on the status of your compensation. Is there anything else I can assist you with today?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e8e58a77-e2ab-4dbb-9bad-fedeadf2af51",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T15:00:51.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "No, that's all for now. Thank you for your help!",
+        "UserId": "999-593-3947",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "775a72a3-ffd5-430c-a8eb-eba73e75234d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T15:01:18.6272189-05:00",
+        "ConversationId": "5c415b32-1753-4c26-8822-4b19c11aa116",
+        "Value": "You're welcome, John. Have a great day!",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-10T14:53:34.6272189-05:00",
+    "EndTime": "2024-05-10T15:01:18.6272189-05:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Lily. How can I assist you today?Hi Lily, my name is John Smith and I'm having some trouble with my American Airlines flight to New York City.I'm sorry to hear that, John. Can you provide me with your flight number and departure date?Yes, the flight number is AA1234 and the departure date is October 1st.Okay, let me check on that for you. Can you hold on for just a moment?Sure, no problem.Thank you for holding, John. It looks like there was a delay with your flight due to weather conditions. American Airlines is offering compensation for affected passengers. Would you like to submit a claim for compensation?I'm not sure what to do. How much compensation would I be eligible for?That depends on a few factors such as the length of the delay and the distance of the flight. I can provide you with some options and you can decide what you'd like to do.Okay, that sounds good.Option 1 is to submit a claim to American Airlines for compensation directly. Option 2 is to have us submit a claim for you on your behalf. Option 3 is to do nothing and forgo any potential compensation. Which option would you like to choose?I think I'll go with option 2 and have you submit a claim for me.Great, I can help you with that. Can you please provide me with your reservation number and the date of your hotel stay in New York City?My reservation number is 12345678 and the dates of my stay are October 1st through October 7th at the Marriott Marquis in Times Square.Thank you, John. I will submit a claim on your behalf and keep you updated on the status of your compensation. Is there anything else I can assist you with today?No, that's all for now. Thank you for your help!You're welcome, John. Have a great day!",
+    "Merged_content_user": "Hi Lily, my name is John Smith and I'm having some trouble with my American Airlines flight to New York City.Yes, the flight number is AA1234 and the departure date is October 1st.Sure, no problem.I'm not sure what to do. How much compensation would I be eligible for?Okay, that sounds good.I think I'll go with option 2 and have you submit a claim for me.My reservation number is 12345678 and the dates of my stay are October 1st through October 7th at the Marriott Marquis in Times Square.No, that's all for now. Thank you for your help!",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Lily. How can I assist you today?I'm sorry to hear that, John. Can you provide me with your flight number and departure date?Okay, let me check on that for you. Can you hold on for just a moment?Thank you for holding, John. It looks like there was a delay with your flight due to weather conditions. American Airlines is offering compensation for affected passengers. Would you like to submit a claim for compensation?That depends on a few factors such as the length of the delay and the distance of the flight. I can provide you with some options and you can decide what you'd like to do.Option 1 is to submit a claim to American Airlines for compensation directly. Option 2 is to have us submit a claim for you on your behalf. Option 3 is to do nothing and forgo any potential compensation. Which option would you like to choose?Great, I can help you with that. Can you please provide me with your reservation number and the date of your hotel stay in New York City?Thank you, John. I will submit a claim on your behalf and keep you updated on the status of your compensation. Is there anything else I can assist you with today?You're welcome, John. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Lily. How can I assist you today?\nCustomer: Hi Lily, my name is John Smith and I'm having some trouble with my American Airlines flight to New York City.\nAgent: I'm sorry to hear that, John. Can you provide me with your flight number and departure date?\nCustomer: Yes, the flight number is AA1234 and the departure date is October 1st.\nAgent: Okay, let me check on that for you. Can you hold on for just a moment?\nCustomer: Sure, no problem.\nAgent: Thank you for holding, John. It looks like there was a delay with your flight due to weather conditions. American Airlines is offering compensation for affected passengers. Would you like to submit a claim for compensation?\nCustomer: I'm not sure what to do. How much compensation would I be eligible for?\nAgent: That depends on a few factors such as the length of the delay and the distance of the flight. I can provide you with some options and you can decide what you'd like to do.\nCustomer: Okay, that sounds good.\nAgent: Option 1 is to submit a claim to American Airlines for compensation directly. Option 2 is to have us submit a claim for you on your behalf. Option 3 is to do nothing and forgo any potential compensation. Which option would you like to choose?\nCustomer: I think I'll go with option 2 and have you submit a claim for me.\nAgent: Great, I can help you with that. Can you please provide me with your reservation number and the date of your hotel stay in New York City?\nCustomer: My reservation number is 12345678 and the dates of my stay are October 1st through October 7th at the Marriott Marquis in Times Square.\nAgent: Thank you, John. I will submit a claim on your behalf and keep you updated on the status of your compensation. Is there anything else I can assist you with today?\nCustomer: No, that's all for now. Thank you for your help!\nAgent: You're welcome, John. Have a great day!\n"
+  }
+}

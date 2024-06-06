@@ -1,0 +1,154 @@
+{
+  "AgentName": "Charlotte Martinez",
+  "AgentId": "MDQCWU",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-549-3819",
+  "Conversation": {
+    "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+    "Messages": [
+      {
+        "Id": "b0de1805-1c20-4e68-9f0d-46e27d05ea05",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-05T21:19:57.5529372-05:00",
+        "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+        "Value": "Thank you for calling the travel agency. My name is Charlotte Martinez. How may I assist you today?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2c7f24cf-98d3-4193-a99f-eaf8b81a9e14",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-05T21:20:34.5529372-05:00",
+        "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+        "Value": "Yes, hi. My name is John Smith and I'm calling to complain about my recent trip from Atlanta to Los Angeles with American Airlines.",
+        "UserId": "999-549-3819",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5d416b1e-4f41-4b84-8165-3aec4e9bf259",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-05T21:21:04.5529372-05:00",
+        "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+        "Value": "I'm sorry to hear that. What seems to be the problem?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "30d4d5ae-3cc8-41ed-adca-108785e2939c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-05T21:21:25.5529372-05:00",
+        "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+        "Value": "The weather was terrible and the flight was delayed for several hours. I missed my connecting flight and had to spend the night in a hotel. It was a horrible experience and I want some compensation for it.",
+        "UserId": "999-549-3819",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4c15eb6e-7604-406b-b900-ab6734f8cf43",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-05T21:21:49.5529372-05:00",
+        "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+        "Value": "I understand how frustrating that can be. Unfortunately, the weather is beyond our control and we cannot offer compensation for it. However, we can assist you with filing a complaint with American Airlines.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ec58d773-9797-430d-8163-dac009c070ce",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-05T21:22:15.5529372-05:00",
+        "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+        "Value": "I don't care about your policy. I demand compensation for the inconvenience and the terrible service. This is unacceptable.",
+        "UserId": "999-549-3819",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "74e81d1a-4933-4c84-af2b-2a54519dfe5f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-05T21:22:30.5529372-05:00",
+        "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+        "Value": "I'm sorry for any frustration this may have caused. Our policy is to follow the guidelines set by the airline, and unfortunately, compensation for weather-related delays is not always possible. However, I can escalate this to our team for further review and assistance.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f8de0822-93ea-4579-aa5b-6da6ccc414f7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-05T21:22:46.5529372-05:00",
+        "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+        "Value": "I want to speak to your manager. This is ridiculous. I paid a lot of money for this trip and I expect better service.",
+        "UserId": "999-549-3819",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "514db73a-7e84-4b61-8b1c-9d956ce04e19",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-05T21:23:06.5529372-05:00",
+        "ConversationId": "634e8c57-a430-4f4c-bf45-bdbd5fb20131",
+        "Value": "I apologize for any inconvenience caused by this situation. Our management team is not available at the moment, but I can make sure to have someone contact you as soon as possible to discuss your concerns further.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-05T21:19:37.5529372-05:00",
+    "EndTime": "2024-04-05T21:23:06.5529372-05:00",
+    "Merged_content": "Thank you for calling the travel agency. My name is Charlotte Martinez. How may I assist you today?Yes, hi. My name is John Smith and I'm calling to complain about my recent trip from Atlanta to Los Angeles with American Airlines.I'm sorry to hear that. What seems to be the problem?The weather was terrible and the flight was delayed for several hours. I missed my connecting flight and had to spend the night in a hotel. It was a horrible experience and I want some compensation for it.I understand how frustrating that can be. Unfortunately, the weather is beyond our control and we cannot offer compensation for it. However, we can assist you with filing a complaint with American Airlines.I don't care about your policy. I demand compensation for the inconvenience and the terrible service. This is unacceptable.I'm sorry for any frustration this may have caused. Our policy is to follow the guidelines set by the airline, and unfortunately, compensation for weather-related delays is not always possible. However, I can escalate this to our team for further review and assistance.I want to speak to your manager. This is ridiculous. I paid a lot of money for this trip and I expect better service.I apologize for any inconvenience caused by this situation. Our management team is not available at the moment, but I can make sure to have someone contact you as soon as possible to discuss your concerns further.",
+    "Merged_content_user": "Yes, hi. My name is John Smith and I'm calling to complain about my recent trip from Atlanta to Los Angeles with American Airlines.The weather was terrible and the flight was delayed for several hours. I missed my connecting flight and had to spend the night in a hotel. It was a horrible experience and I want some compensation for it.I don't care about your policy. I demand compensation for the inconvenience and the terrible service. This is unacceptable.I want to speak to your manager. This is ridiculous. I paid a lot of money for this trip and I expect better service.",
+    "Merged_content_agent": "Thank you for calling the travel agency. My name is Charlotte Martinez. How may I assist you today?I'm sorry to hear that. What seems to be the problem?I understand how frustrating that can be. Unfortunately, the weather is beyond our control and we cannot offer compensation for it. However, we can assist you with filing a complaint with American Airlines.I'm sorry for any frustration this may have caused. Our policy is to follow the guidelines set by the airline, and unfortunately, compensation for weather-related delays is not always possible. However, I can escalate this to our team for further review and assistance.I apologize for any inconvenience caused by this situation. Our management team is not available at the moment, but I can make sure to have someone contact you as soon as possible to discuss your concerns further.",
+    "Full_conversation": "Agent: Thank you for calling the travel agency. My name is Charlotte Martinez. How may I assist you today?\nCustomer: Yes, hi. My name is John Smith and I'm calling to complain about my recent trip from Atlanta to Los Angeles with American Airlines.\nAgent: I'm sorry to hear that. What seems to be the problem?\nCustomer: The weather was terrible and the flight was delayed for several hours. I missed my connecting flight and had to spend the night in a hotel. It was a horrible experience and I want some compensation for it.\nAgent: I understand how frustrating that can be. Unfortunately, the weather is beyond our control and we cannot offer compensation for it. However, we can assist you with filing a complaint with American Airlines.\nCustomer: I don't care about your policy. I demand compensation for the inconvenience and the terrible service. This is unacceptable.\nAgent: I'm sorry for any frustration this may have caused. Our policy is to follow the guidelines set by the airline, and unfortunately, compensation for weather-related delays is not always possible. However, I can escalate this to our team for further review and assistance.\nCustomer: I want to speak to your manager. This is ridiculous. I paid a lot of money for this trip and I expect better service.\nAgent: I apologize for any inconvenience caused by this situation. Our management team is not available at the moment, but I can make sure to have someone contact you as soon as possible to discuss your concerns further.\n"
+  }
+}

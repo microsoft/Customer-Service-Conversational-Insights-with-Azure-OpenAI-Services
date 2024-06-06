@@ -1,0 +1,199 @@
+{
+  "AgentName": "Ethan James",
+  "AgentId": "MVWR6H",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-116-8428",
+  "Conversation": {
+    "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+    "Messages": [
+      {
+        "Id": "b3548448-0c32-4b3f-96ef-a76d40c40d40",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-27T23:19:30.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "Thank you for calling TravelCo, my name is Ethan James. How may I assist you today?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "54d557b9-d4ee-42b1-9c71-ba9b9bb8a0fa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-27T23:20:08.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "I am very upset with my recent travel with American Airlines from Boston to Miami.",
+        "UserId": "999-116-8428",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f32605e4-2e35-4e2b-90c5-3abafe88badd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-27T23:20:43.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "I apologize for any inconvenience you may have experienced. Can you please tell me what happened on your flight?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8b68c132-42fd-4187-8b02-7d1680589bcf",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-27T23:21:02.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "There was terrible weather on the day of my flight, but the airline did not provide any accommodation or compensation for the delay. I was stuck in the airport for over 12 hours and had to sleep on the floor!",
+        "UserId": "999-116-8428",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2e26c015-62cd-4566-a824-31ac1175ccb2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-27T23:21:38.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "I'm so sorry to hear that. We understand how frustrating it can be when flights are delayed due to bad weather. Did you speak with the airline about compensation?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "409d6b1c-ac89-4faa-bd50-33d608690c55",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-27T23:22:05.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "Yes, I did. But they were not helpful at all and they gave me the runaround.",
+        "UserId": "999-116-8428",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1051d8d5-0ed0-484e-a062-535c0ca6890b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-27T23:22:29.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "I can understand your frustration. Would you like me to reach out to American Airlines to try to help you get compensation or any type of refund?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6b45b4e2-f748-48fc-91c3-39f5c13838ec",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-27T23:23:08.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "Yes, that would be great. I just want some sort of compensation for the terrible experience I had with them.",
+        "UserId": "999-116-8428",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d1243947-725b-4edf-bb59-ea95fe01efa6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-27T23:23:36.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "I will definitely reach out to the airline for you to see if we can get some sort of compensation. Can you please provide me with your reservation number and flight details?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8740dc09-996e-439f-ab8b-59d5514cb9b3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-27T23:24:13.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "My reservation number is XYZ123 and my flight number was AA3456 on May 15th departing Boston at 10am.",
+        "UserId": "999-116-8428",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e68b5677-b6b1-415a-9e67-114705ee7bdf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-27T23:24:47.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "Thank you, I will do my best to assist you with this. I will reach out to you as soon as I have more information from the airline.",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "91ba36a7-eddf-4f14-8e5e-4d281268e6bc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-27T23:25:20.7155925-05:00",
+        "ConversationId": "cbd6ad85-f5d4-49a6-94fb-1f374f812517",
+        "Value": "Thank you so much, I really appreciate your help.",
+        "UserId": "999-116-8428",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-27T23:18:52.7155925-05:00",
+    "EndTime": "2024-05-27T23:25:20.7155925-05:00",
+    "Merged_content": "Thank you for calling TravelCo, my name is Ethan James. How may I assist you today?I am very upset with my recent travel with American Airlines from Boston to Miami.I apologize for any inconvenience you may have experienced. Can you please tell me what happened on your flight?There was terrible weather on the day of my flight, but the airline did not provide any accommodation or compensation for the delay. I was stuck in the airport for over 12 hours and had to sleep on the floor!I'm so sorry to hear that. We understand how frustrating it can be when flights are delayed due to bad weather. Did you speak with the airline about compensation?Yes, I did. But they were not helpful at all and they gave me the runaround.I can understand your frustration. Would you like me to reach out to American Airlines to try to help you get compensation or any type of refund?Yes, that would be great. I just want some sort of compensation for the terrible experience I had with them.I will definitely reach out to the airline for you to see if we can get some sort of compensation. Can you please provide me with your reservation number and flight details?My reservation number is XYZ123 and my flight number was AA3456 on May 15th departing Boston at 10am.Thank you, I will do my best to assist you with this. I will reach out to you as soon as I have more information from the airline.Thank you so much, I really appreciate your help.",
+    "Merged_content_user": "I am very upset with my recent travel with American Airlines from Boston to Miami.There was terrible weather on the day of my flight, but the airline did not provide any accommodation or compensation for the delay. I was stuck in the airport for over 12 hours and had to sleep on the floor!Yes, I did. But they were not helpful at all and they gave me the runaround.Yes, that would be great. I just want some sort of compensation for the terrible experience I had with them.My reservation number is XYZ123 and my flight number was AA3456 on May 15th departing Boston at 10am.Thank you so much, I really appreciate your help.",
+    "Merged_content_agent": "Thank you for calling TravelCo, my name is Ethan James. How may I assist you today?I apologize for any inconvenience you may have experienced. Can you please tell me what happened on your flight?I'm so sorry to hear that. We understand how frustrating it can be when flights are delayed due to bad weather. Did you speak with the airline about compensation?I can understand your frustration. Would you like me to reach out to American Airlines to try to help you get compensation or any type of refund?I will definitely reach out to the airline for you to see if we can get some sort of compensation. Can you please provide me with your reservation number and flight details?Thank you, I will do my best to assist you with this. I will reach out to you as soon as I have more information from the airline.",
+    "Full_conversation": "Agent: Thank you for calling TravelCo, my name is Ethan James. How may I assist you today?\nCustomer: I am very upset with my recent travel with American Airlines from Boston to Miami.\nAgent: I apologize for any inconvenience you may have experienced. Can you please tell me what happened on your flight?\nCustomer: There was terrible weather on the day of my flight, but the airline did not provide any accommodation or compensation for the delay. I was stuck in the airport for over 12 hours and had to sleep on the floor!\nAgent: I'm so sorry to hear that. We understand how frustrating it can be when flights are delayed due to bad weather. Did you speak with the airline about compensation?\nCustomer: Yes, I did. But they were not helpful at all and they gave me the runaround.\nAgent: I can understand your frustration. Would you like me to reach out to American Airlines to try to help you get compensation or any type of refund?\nCustomer: Yes, that would be great. I just want some sort of compensation for the terrible experience I had with them.\nAgent: I will definitely reach out to the airline for you to see if we can get some sort of compensation. Can you please provide me with your reservation number and flight details?\nCustomer: My reservation number is XYZ123 and my flight number was AA3456 on May 15th departing Boston at 10am.\nAgent: Thank you, I will do my best to assist you with this. I will reach out to you as soon as I have more information from the airline.\nCustomer: Thank you so much, I really appreciate your help.\n"
+  }
+}

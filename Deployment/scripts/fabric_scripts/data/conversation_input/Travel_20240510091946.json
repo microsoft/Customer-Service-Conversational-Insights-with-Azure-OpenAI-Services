@@ -1,0 +1,199 @@
+{
+  "AgentName": "Emma Davis",
+  "AgentId": "WVBORA",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-505-6092",
+  "Conversation": {
+    "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+    "Messages": [
+      {
+        "Id": "2ae2d45e-c133-4299-9ed4-17d19594ee39",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T09:20:11.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "Thank you for calling XYZ Travel. This is Emma Davis, how can I assist you today?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "647f4038-66be-49bb-bfc6-520862fb30ca",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T09:20:42.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "Hi Emma, my name is John Smith and I have a complaint.",
+        "UserId": "999-505-6092",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e22f7cdd-2f0c-49c2-af9e-e8e59a231119",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T09:21:19.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "Of course John, what seems to be the problem?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1fc676b1-6b99-4149-8491-e63a195a934d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T09:21:48.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "I just got back from a trip from Atlanta to New York City and I am very unhappy with the service I received from American Airlines.",
+        "UserId": "999-505-6092",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d41bced9-7599-42c4-a6e5-c68a446d8067",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T09:22:17.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "I had major issues with my flight and the bad weather that hit New York City caused me a lot of inconvenience. I want compensation for my troubles.",
+        "UserId": "999-505-6092",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ca0720c1-dcc3-4b9e-b21c-11d293794fe7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T09:22:43.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with more details about the problems you had with your flight?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "df9988c3-b799-4232-863b-6e13eff010aa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T09:23:22.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "Yes, my flight was delayed for several hours and I was stuck in the airport with no clear information or updates. I also had issues with my luggage getting lost and my hotel reservation getting canceled due to the bad weather.",
+        "UserId": "999-505-6092",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fd70a7da-7290-42b2-9bcb-ded8c1e3408f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T09:23:38.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "I understand your frustration, John. Let me see what I can do to help you. Can you provide me with your flight number and date of departure?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d55b3102-289f-4746-8d98-c91d68aef980",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T09:23:59.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "Yes, it was American Airlines flight 123 on August 15th.",
+        "UserId": "999-505-6092",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b363795f-637b-4409-99ee-e478de814d29",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T09:24:27.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "Thank you for the information, John. I will check with American Airlines and see what compensation they may be able to offer you. Can you please give me some time to look into this?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2658211d-f95f-448a-bea6-f0184ea16dc6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T09:24:48.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "I want something done now! This is unacceptable and I want to be compensated immediately!",
+        "UserId": "999-505-6092",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d482660c-9ab8-4a74-93e2-a89d0c4a2b11",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T09:25:12.2982228-05:00",
+        "ConversationId": "05abbd5b-4de1-4341-83e7-55841effbb35",
+        "Value": "I understand that you are upset, John. I will do my best to address your concerns and find a resolution. Please bear with me as I work to resolve this issue for you.",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-10T09:19:46.2982228-05:00",
+    "EndTime": "2024-05-10T09:25:12.2982228-05:00",
+    "Merged_content": "Thank you for calling XYZ Travel. This is Emma Davis, how can I assist you today?Hi Emma, my name is John Smith and I have a complaint.Of course John, what seems to be the problem?I just got back from a trip from Atlanta to New York City and I am very unhappy with the service I received from American Airlines.I had major issues with my flight and the bad weather that hit New York City caused me a lot of inconvenience. I want compensation for my troubles.I'm sorry to hear that, John. Can you please provide me with more details about the problems you had with your flight?Yes, my flight was delayed for several hours and I was stuck in the airport with no clear information or updates. I also had issues with my luggage getting lost and my hotel reservation getting canceled due to the bad weather.I understand your frustration, John. Let me see what I can do to help you. Can you provide me with your flight number and date of departure?Yes, it was American Airlines flight 123 on August 15th.Thank you for the information, John. I will check with American Airlines and see what compensation they may be able to offer you. Can you please give me some time to look into this?I want something done now! This is unacceptable and I want to be compensated immediately!I understand that you are upset, John. I will do my best to address your concerns and find a resolution. Please bear with me as I work to resolve this issue for you.",
+    "Merged_content_user": "Hi Emma, my name is John Smith and I have a complaint.I just got back from a trip from Atlanta to New York City and I am very unhappy with the service I received from American Airlines.I had major issues with my flight and the bad weather that hit New York City caused me a lot of inconvenience. I want compensation for my troubles.Yes, my flight was delayed for several hours and I was stuck in the airport with no clear information or updates. I also had issues with my luggage getting lost and my hotel reservation getting canceled due to the bad weather.Yes, it was American Airlines flight 123 on August 15th.I want something done now! This is unacceptable and I want to be compensated immediately!",
+    "Merged_content_agent": "Thank you for calling XYZ Travel. This is Emma Davis, how can I assist you today?Of course John, what seems to be the problem?I'm sorry to hear that, John. Can you please provide me with more details about the problems you had with your flight?I understand your frustration, John. Let me see what I can do to help you. Can you provide me with your flight number and date of departure?Thank you for the information, John. I will check with American Airlines and see what compensation they may be able to offer you. Can you please give me some time to look into this?I understand that you are upset, John. I will do my best to address your concerns and find a resolution. Please bear with me as I work to resolve this issue for you.",
+    "Full_conversation": "Agent: Thank you for calling XYZ Travel. This is Emma Davis, how can I assist you today?\nCustomer: Hi Emma, my name is John Smith and I have a complaint.\nAgent: Of course John, what seems to be the problem?\nCustomer: I just got back from a trip from Atlanta to New York City and I am very unhappy with the service I received from American Airlines.\nCustomer: I had major issues with my flight and the bad weather that hit New York City caused me a lot of inconvenience. I want compensation for my troubles.\nAgent: I'm sorry to hear that, John. Can you please provide me with more details about the problems you had with your flight?\nCustomer: Yes, my flight was delayed for several hours and I was stuck in the airport with no clear information or updates. I also had issues with my luggage getting lost and my hotel reservation getting canceled due to the bad weather.\nAgent: I understand your frustration, John. Let me see what I can do to help you. Can you provide me with your flight number and date of departure?\nCustomer: Yes, it was American Airlines flight 123 on August 15th.\nAgent: Thank you for the information, John. I will check with American Airlines and see what compensation they may be able to offer you. Can you please give me some time to look into this?\nCustomer: I want something done now! This is unacceptable and I want to be compensated immediately!\nAgent: I understand that you are upset, John. I will do my best to address your concerns and find a resolution. Please bear with me as I work to resolve this issue for you.\n"
+  }
+}

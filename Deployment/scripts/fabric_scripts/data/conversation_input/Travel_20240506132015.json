@@ -1,0 +1,214 @@
+{
+  "AgentName": "Sebastian Harris",
+  "AgentId": "Z82TOA",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-819-1630",
+  "Conversation": {
+    "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+    "Messages": [
+      {
+        "Id": "e7e15fd3-3058-401d-aa81-510dbaf6bc34",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T13:20:41.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "Thank you for calling the travel agency, this is Sebastian Harris, how may I assist you?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9c9a79ab-b7c6-4767-9163-653fe3fa3bd0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T13:21:20.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "Yes, my name is Michael Martinez and I have a complaint.",
+        "UserId": "999-819-1630",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cc19a733-da3a-42da-897b-f25abc11d774",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T13:21:45.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "I'm sorry to hear that, can you please provide me with more details?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d61f7f05-54c3-427c-80c5-12f1e64a7eb5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T13:22:04.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "Yes, I recently flew with American Airlines from New York to Los Angeles and there was bad weather which caused a delay of over 3 hours. This caused me to miss my connecting flight and I had to stay overnight in a hotel. I feel that I deserve compensation for this inconvenience.",
+        "UserId": "999-819-1630",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fe01de4c-79b2-4934-866d-7630e9db6a0b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T13:22:26.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "I understand how frustrating that must have been. Let me pull up your reservation and see what I can do to help.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c9c1d198-ee1d-4c7a-8c83-b7b1fc907520",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T13:22:51.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "Thank you, my reservation number is 1234567 and the flight was on August 15th at 8:00 am.",
+        "UserId": "999-819-1630",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e595264e-3dad-40af-8dfd-0b8d389b9801",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T13:23:21.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "I see that your flight was unfortunately delayed due to bad weather. According to American Airlines' policy, they do not offer compensation for weather-related delays. However, I can assist you in filing a complaint with the airlines in hopes of some kind of resolution.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c5771690-1640-47c2-b970-c277c408f654",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T13:23:42.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "That's not good enough! I demand compensation for my inconvenience. I will not let this go!",
+        "UserId": "999-819-1630",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f7ab3610-f487-4dba-9c8e-8634f2afc11a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T13:24:17.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "I completely understand your frustration, but unfortunately, there is only so much I can do as a travel agent. I am offering to help you file a complaint with the airline. Would you like me to proceed with that?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8be4e30c-9430-4f83-86d5-b84298eef14e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T13:24:50.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "Fine, but this is not the end of this. I will be contacting the airline directly as well.",
+        "UserId": "999-819-1630",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4b10cf42-59d3-4ac4-8087-14dcc80465ad",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T13:25:15.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "I completely understand and I am here to help in any way I can. Is there anything else I can assist you with today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "50aae2af-7880-48f5-8e9f-d4a15623bcf6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T13:25:39.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "No, that will be all.",
+        "UserId": "999-819-1630",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "79338c99-f569-44ce-8b84-cca7ab7d6435",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T13:26:13.1045081-05:00",
+        "ConversationId": "a53ef292-6bde-4a52-b507-c80a22384731",
+        "Value": "Thank you for contacting the travel agency. Have a great day!",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-06T13:20:15.1045081-05:00",
+    "EndTime": "2024-05-06T13:26:13.1045081-05:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Sebastian Harris, how may I assist you?Yes, my name is Michael Martinez and I have a complaint.I'm sorry to hear that, can you please provide me with more details?Yes, I recently flew with American Airlines from New York to Los Angeles and there was bad weather which caused a delay of over 3 hours. This caused me to miss my connecting flight and I had to stay overnight in a hotel. I feel that I deserve compensation for this inconvenience.I understand how frustrating that must have been. Let me pull up your reservation and see what I can do to help.Thank you, my reservation number is 1234567 and the flight was on August 15th at 8:00 am.I see that your flight was unfortunately delayed due to bad weather. According to American Airlines' policy, they do not offer compensation for weather-related delays. However, I can assist you in filing a complaint with the airlines in hopes of some kind of resolution.That's not good enough! I demand compensation for my inconvenience. I will not let this go!I completely understand your frustration, but unfortunately, there is only so much I can do as a travel agent. I am offering to help you file a complaint with the airline. Would you like me to proceed with that?Fine, but this is not the end of this. I will be contacting the airline directly as well.I completely understand and I am here to help in any way I can. Is there anything else I can assist you with today?No, that will be all.Thank you for contacting the travel agency. Have a great day!",
+    "Merged_content_user": "Yes, my name is Michael Martinez and I have a complaint.Yes, I recently flew with American Airlines from New York to Los Angeles and there was bad weather which caused a delay of over 3 hours. This caused me to miss my connecting flight and I had to stay overnight in a hotel. I feel that I deserve compensation for this inconvenience.Thank you, my reservation number is 1234567 and the flight was on August 15th at 8:00 am.That's not good enough! I demand compensation for my inconvenience. I will not let this go!Fine, but this is not the end of this. I will be contacting the airline directly as well.No, that will be all.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Sebastian Harris, how may I assist you?I'm sorry to hear that, can you please provide me with more details?I understand how frustrating that must have been. Let me pull up your reservation and see what I can do to help.I see that your flight was unfortunately delayed due to bad weather. According to American Airlines' policy, they do not offer compensation for weather-related delays. However, I can assist you in filing a complaint with the airlines in hopes of some kind of resolution.I completely understand your frustration, but unfortunately, there is only so much I can do as a travel agent. I am offering to help you file a complaint with the airline. Would you like me to proceed with that?I completely understand and I am here to help in any way I can. Is there anything else I can assist you with today?Thank you for contacting the travel agency. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Sebastian Harris, how may I assist you?\nCustomer: Yes, my name is Michael Martinez and I have a complaint.\nAgent: I'm sorry to hear that, can you please provide me with more details?\nCustomer: Yes, I recently flew with American Airlines from New York to Los Angeles and there was bad weather which caused a delay of over 3 hours. This caused me to miss my connecting flight and I had to stay overnight in a hotel. I feel that I deserve compensation for this inconvenience.\nAgent: I understand how frustrating that must have been. Let me pull up your reservation and see what I can do to help.\nCustomer: Thank you, my reservation number is 1234567 and the flight was on August 15th at 8:00 am.\nAgent: I see that your flight was unfortunately delayed due to bad weather. According to American Airlines' policy, they do not offer compensation for weather-related delays. However, I can assist you in filing a complaint with the airlines in hopes of some kind of resolution.\nCustomer: That's not good enough! I demand compensation for my inconvenience. I will not let this go!\nAgent: I completely understand your frustration, but unfortunately, there is only so much I can do as a travel agent. I am offering to help you file a complaint with the airline. Would you like me to proceed with that?\nCustomer: Fine, but this is not the end of this. I will be contacting the airline directly as well.\nAgent: I completely understand and I am here to help in any way I can. Is there anything else I can assist you with today?\nCustomer: No, that will be all.\nAgent: Thank you for contacting the travel agency. Have a great day!\n"
+  }
+}

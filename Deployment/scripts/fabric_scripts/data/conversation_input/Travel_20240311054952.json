@@ -1,0 +1,304 @@
+{
+  "AgentName": "Isabella Taylor",
+  "AgentId": "1OWZ1U",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-850-8180",
+  "Conversation": {
+    "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+    "Messages": [
+      {
+        "Id": "a324700d-e1e7-4b26-b60b-e44fa16e661f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:50:30.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Thank you for calling our travel agency. My name is Isabella. How may I assist you?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c3e00ba0-e3bd-4f19-ad6d-a05ca4d95fc6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T05:51:01.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Hi Isabella, my name is John Adams. I need some assistance with my American Airlines flight to New York City next week.",
+        "UserId": "999-850-8180",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "57d1b2f5-e9e6-4754-92bd-a9dfb286ec8b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:51:23.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Of course, John. What seems to be the issue?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "20e285c1-ad77-4b45-a819-d5b8fcc184d2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T05:51:38.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "I received notification that my flight has been delayed by 3 hours, and I'm wondering if I'm eligible for compensation.",
+        "UserId": "999-850-8180",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "18404ee0-e101-4c4f-8146-60d3d79b5671",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:52:02.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "I understand your concern, John. Let me check your reservation details to see what we can do.",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a34fe2a2-dcc6-4ddd-b4e8-92227795e523",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T05:52:39.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Thank you.",
+        "UserId": "999-850-8180",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b527e872-f3a1-43c1-a3d1-eacd043b9810",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:53:05.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "It looks like your flight is still scheduled, but there is a possibility of a delay. As for compensation, that would depend on the reason for the delay. Would you like me to look into the details of the delay?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "29bd2f86-4543-4bdd-9dbf-e77fa1a17a49",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T05:53:31.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Yes, please. Also, would you be able to suggest some alternative flights in case the delay is too long?",
+        "UserId": "999-850-8180",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f78e1a66-8675-4b9a-be8b-73d67ebf5b5a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:54:03.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Sure, John. I see that there are a few other American Airlines flights you could take that day, and I could look into some other airline options as well. How flexible are you with your travel plans?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6c4601cd-73e5-4543-8eaf-c86cba7455b8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T05:54:35.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "I'm somewhat flexible, but I would prefer to arrive in New York City by noon that day.",
+        "UserId": "999-850-8180",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5a46c935-0912-4241-8e57-c34aca09a2dd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:55:03.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Okay, John. Let me see what alternatives I can find for you. Please hold while I check.",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fac77cc4-a1b6-4109-8bb6-7734a19f8823",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T05:55:36.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Thank you.",
+        "UserId": "999-850-8180",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "99520c33-951e-428f-9dbf-dc8f4788ac7c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:56:13.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "I apologize for the wait, John. I was able to find a few alternative flights for you that arrive in New York City before noon that day. Would you like me to book one of these flights for you?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "20166428-6435-4887-95d2-af395fb52015",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T05:56:34.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Yes, please. And what about compensation for the delay?",
+        "UserId": "999-850-8180",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d63822ea-9598-4efe-ba2d-7d468d904e13",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:57:10.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "I'm sorry, John. It looks like the delay is due to weather conditions, which is beyond the airline's control. Therefore, they are not able to offer any compensation for this delay. Would you like me to proceed with booking your alternative flight?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1d070226-c82b-4fa9-9120-1d1ffacf3e60",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T05:57:38.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "Yes, please. And thank you for your assistance, Isabella.",
+        "UserId": "999-850-8180",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "97d771e6-5e63-4695-a2b8-76b1a7e21e3e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:57:59.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "You're welcome, John. I have booked your flight with the details I mentioned before. Your confirmation number is AA12345 and your flight departs from Chicago O'Hare International Airport at 8:00 AM on June 1, 2022. You should receive an email with all the details shortly. Is there anything else I can assist you with?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d38c1ab6-5e50-4d6f-93de-0f68903ef338",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T05:58:22.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "No, that's all. Thank you once again, Isabella.",
+        "UserId": "999-850-8180",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "37451ea5-de22-4274-a474-d44ce74f4c0b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T05:58:44.4902242-05:00",
+        "ConversationId": "054caeea-6a6b-4620-8a5e-d4f51c80c02c",
+        "Value": "You're welcome, John. Have a great trip to New York City!",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-11T05:49:52.4902242-05:00",
+    "EndTime": "2024-03-11T05:58:44.4902242-05:00",
+    "Merged_content": "Thank you for calling our travel agency. My name is Isabella. How may I assist you?Hi Isabella, my name is John Adams. I need some assistance with my American Airlines flight to New York City next week.Of course, John. What seems to be the issue?I received notification that my flight has been delayed by 3 hours, and I'm wondering if I'm eligible for compensation.I understand your concern, John. Let me check your reservation details to see what we can do.Thank you.It looks like your flight is still scheduled, but there is a possibility of a delay. As for compensation, that would depend on the reason for the delay. Would you like me to look into the details of the delay?Yes, please. Also, would you be able to suggest some alternative flights in case the delay is too long?Sure, John. I see that there are a few other American Airlines flights you could take that day, and I could look into some other airline options as well. How flexible are you with your travel plans?I'm somewhat flexible, but I would prefer to arrive in New York City by noon that day.Okay, John. Let me see what alternatives I can find for you. Please hold while I check.Thank you.I apologize for the wait, John. I was able to find a few alternative flights for you that arrive in New York City before noon that day. Would you like me to book one of these flights for you?Yes, please. And what about compensation for the delay?I'm sorry, John. It looks like the delay is due to weather conditions, which is beyond the airline's control. Therefore, they are not able to offer any compensation for this delay. Would you like me to proceed with booking your alternative flight?Yes, please. And thank you for your assistance, Isabella.You're welcome, John. I have booked your flight with the details I mentioned before. Your confirmation number is AA12345 and your flight departs from Chicago O'Hare International Airport at 8:00 AM on June 1, 2022. You should receive an email with all the details shortly. Is there anything else I can assist you with?No, that's all. Thank you once again, Isabella.You're welcome, John. Have a great trip to New York City!",
+    "Merged_content_user": "Hi Isabella, my name is John Adams. I need some assistance with my American Airlines flight to New York City next week.I received notification that my flight has been delayed by 3 hours, and I'm wondering if I'm eligible for compensation.Thank you.Yes, please. Also, would you be able to suggest some alternative flights in case the delay is too long?I'm somewhat flexible, but I would prefer to arrive in New York City by noon that day.Thank you.Yes, please. And what about compensation for the delay?Yes, please. And thank you for your assistance, Isabella.No, that's all. Thank you once again, Isabella.",
+    "Merged_content_agent": "Thank you for calling our travel agency. My name is Isabella. How may I assist you?Of course, John. What seems to be the issue?I understand your concern, John. Let me check your reservation details to see what we can do.It looks like your flight is still scheduled, but there is a possibility of a delay. As for compensation, that would depend on the reason for the delay. Would you like me to look into the details of the delay?Sure, John. I see that there are a few other American Airlines flights you could take that day, and I could look into some other airline options as well. How flexible are you with your travel plans?Okay, John. Let me see what alternatives I can find for you. Please hold while I check.I apologize for the wait, John. I was able to find a few alternative flights for you that arrive in New York City before noon that day. Would you like me to book one of these flights for you?I'm sorry, John. It looks like the delay is due to weather conditions, which is beyond the airline's control. Therefore, they are not able to offer any compensation for this delay. Would you like me to proceed with booking your alternative flight?You're welcome, John. I have booked your flight with the details I mentioned before. Your confirmation number is AA12345 and your flight departs from Chicago O'Hare International Airport at 8:00 AM on June 1, 2022. You should receive an email with all the details shortly. Is there anything else I can assist you with?You're welcome, John. Have a great trip to New York City!",
+    "Full_conversation": "Agent: Thank you for calling our travel agency. My name is Isabella. How may I assist you?\nCustomer: Hi Isabella, my name is John Adams. I need some assistance with my American Airlines flight to New York City next week.\nAgent: Of course, John. What seems to be the issue?\nCustomer: I received notification that my flight has been delayed by 3 hours, and I'm wondering if I'm eligible for compensation.\nAgent: I understand your concern, John. Let me check your reservation details to see what we can do.\nCustomer: Thank you.\nAgent: It looks like your flight is still scheduled, but there is a possibility of a delay. As for compensation, that would depend on the reason for the delay. Would you like me to look into the details of the delay?\nCustomer: Yes, please. Also, would you be able to suggest some alternative flights in case the delay is too long?\nAgent: Sure, John. I see that there are a few other American Airlines flights you could take that day, and I could look into some other airline options as well. How flexible are you with your travel plans?\nCustomer: I'm somewhat flexible, but I would prefer to arrive in New York City by noon that day.\nAgent: Okay, John. Let me see what alternatives I can find for you. Please hold while I check.\nCustomer: Thank you.\nAgent: I apologize for the wait, John. I was able to find a few alternative flights for you that arrive in New York City before noon that day. Would you like me to book one of these flights for you?\nCustomer: Yes, please. And what about compensation for the delay?\nAgent: I'm sorry, John. It looks like the delay is due to weather conditions, which is beyond the airline's control. Therefore, they are not able to offer any compensation for this delay. Would you like me to proceed with booking your alternative flight?\nCustomer: Yes, please. And thank you for your assistance, Isabella.\nAgent: You're welcome, John. I have booked your flight with the details I mentioned before. Your confirmation number is AA12345 and your flight departs from Chicago O'Hare International Airport at 8:00 AM on June 1, 2022. You should receive an email with all the details shortly. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you once again, Isabella.\nAgent: You're welcome, John. Have a great trip to New York City!\n"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "AgentName": "Zoe Lewis",
+  "AgentId": "G6HD7J",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-819-4083",
+  "Conversation": {
+    "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+    "Messages": [
+      {
+        "Id": "aceb8ccd-da22-460d-b795-553249f9efdb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T18:18:34.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "Good afternoon, thank you for calling XYZ Travel Agency. My name is Zoe Lewis, how may I assist you today?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ad227d4b-61d5-49eb-bd09-7f7796f64c6c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T18:18:50.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "Hi Zoe, my name is John Smith and I have a complaint about my recent trip from New York to Miami with American Airlines.",
+        "UserId": "999-819-4083",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "56581956-e593-478a-bd1d-7593bf38f58d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T18:19:16.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "I'm sorry to hear that, Mr. Smith. Can you please tell me what happened?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6190859b-a13a-41c2-8b8c-910227bd1106",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T18:19:48.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "Well, we had a layover in Atlanta and our flight got delayed due to bad weather.",
+        "UserId": "999-819-4083",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cb3ab52e-1674-43a8-a077-d2fb9ac4d111",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T18:20:21.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "I see. That can be frustrating. Did you miss your connecting flight?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a98d0c63-581f-486c-b3ad-24ac7348fda0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T18:20:53.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "Yes, we did. And we had to wait for the next flight for almost 6 hours. It was a nightmare. We had to sit at the airport with no meals or any compensation.",
+        "UserId": "999-819-4083",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c3680ab8-e265-4baf-b3d1-ddb5cea285bd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T18:21:18.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "I'm so sorry to hear that. Let me check what we can do to assist you. Can you please provide me with your flight details and reservation number?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d3c70f2d-b281-44d2-9691-3fd8507d17a9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T18:21:45.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "Sure. Our flight was AA120 departing from John F. Kennedy International Airport on January 1st at 10:00AM. Our reservation number is ABC123.",
+        "UserId": "999-819-4083",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a32198e7-9871-49c1-9279-2698d5fcbb99",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T18:22:15.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "Thank you for that information, Mr. Smith. I will contact American Airlines and see what we can do regarding compensation for the inconvenience caused by the weather delay.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "93e6e899-80cf-482a-a06e-10c9c007afc4",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T18:22:45.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "That's great to hear, Zoe. I appreciate your help with this matter.",
+        "UserId": "999-819-4083",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "20668e55-dd10-4df5-9699-a140f5852ea6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T18:23:13.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "You're welcome, Mr. Smith. Is there anything else I can assist you with today?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fa5962ab-f1d3-4be3-8d4a-918f94718b24",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T18:23:48.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "No, that's all. Thank you for your time and assistance.",
+        "UserId": "999-819-4083",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "604f57d9-83ac-46f3-a283-56888a2c59ef",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T18:24:22.1211389-05:00",
+        "ConversationId": "2777e894-8642-4c3d-b316-f56c9d752540",
+        "Value": "You're welcome, Mr. Smith. Have a great day.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-23T18:18:13.1211389-05:00",
+    "EndTime": "2024-05-23T18:24:22.1211389-05:00",
+    "Merged_content": "Good afternoon, thank you for calling XYZ Travel Agency. My name is Zoe Lewis, how may I assist you today?Hi Zoe, my name is John Smith and I have a complaint about my recent trip from New York to Miami with American Airlines.I'm sorry to hear that, Mr. Smith. Can you please tell me what happened?Well, we had a layover in Atlanta and our flight got delayed due to bad weather.I see. That can be frustrating. Did you miss your connecting flight?Yes, we did. And we had to wait for the next flight for almost 6 hours. It was a nightmare. We had to sit at the airport with no meals or any compensation.I'm so sorry to hear that. Let me check what we can do to assist you. Can you please provide me with your flight details and reservation number?Sure. Our flight was AA120 departing from John F. Kennedy International Airport on January 1st at 10:00AM. Our reservation number is ABC123.Thank you for that information, Mr. Smith. I will contact American Airlines and see what we can do regarding compensation for the inconvenience caused by the weather delay.That's great to hear, Zoe. I appreciate your help with this matter.You're welcome, Mr. Smith. Is there anything else I can assist you with today?No, that's all. Thank you for your time and assistance.You're welcome, Mr. Smith. Have a great day.",
+    "Merged_content_user": "Hi Zoe, my name is John Smith and I have a complaint about my recent trip from New York to Miami with American Airlines.Well, we had a layover in Atlanta and our flight got delayed due to bad weather.Yes, we did. And we had to wait for the next flight for almost 6 hours. It was a nightmare. We had to sit at the airport with no meals or any compensation.Sure. Our flight was AA120 departing from John F. Kennedy International Airport on January 1st at 10:00AM. Our reservation number is ABC123.That's great to hear, Zoe. I appreciate your help with this matter.No, that's all. Thank you for your time and assistance.",
+    "Merged_content_agent": "Good afternoon, thank you for calling XYZ Travel Agency. My name is Zoe Lewis, how may I assist you today?I'm sorry to hear that, Mr. Smith. Can you please tell me what happened?I see. That can be frustrating. Did you miss your connecting flight?I'm so sorry to hear that. Let me check what we can do to assist you. Can you please provide me with your flight details and reservation number?Thank you for that information, Mr. Smith. I will contact American Airlines and see what we can do regarding compensation for the inconvenience caused by the weather delay.You're welcome, Mr. Smith. Is there anything else I can assist you with today?You're welcome, Mr. Smith. Have a great day.",
+    "Full_conversation": "Agent: Good afternoon, thank you for calling XYZ Travel Agency. My name is Zoe Lewis, how may I assist you today?\nCustomer: Hi Zoe, my name is John Smith and I have a complaint about my recent trip from New York to Miami with American Airlines.\nAgent: I'm sorry to hear that, Mr. Smith. Can you please tell me what happened?\nCustomer: Well, we had a layover in Atlanta and our flight got delayed due to bad weather.\nAgent: I see. That can be frustrating. Did you miss your connecting flight?\nCustomer: Yes, we did. And we had to wait for the next flight for almost 6 hours. It was a nightmare. We had to sit at the airport with no meals or any compensation.\nAgent: I'm so sorry to hear that. Let me check what we can do to assist you. Can you please provide me with your flight details and reservation number?\nCustomer: Sure. Our flight was AA120 departing from John F. Kennedy International Airport on January 1st at 10:00AM. Our reservation number is ABC123.\nAgent: Thank you for that information, Mr. Smith. I will contact American Airlines and see what we can do regarding compensation for the inconvenience caused by the weather delay.\nCustomer: That's great to hear, Zoe. I appreciate your help with this matter.\nAgent: You're welcome, Mr. Smith. Is there anything else I can assist you with today?\nCustomer: No, that's all. Thank you for your time and assistance.\nAgent: You're welcome, Mr. Smith. Have a great day.\n"
+  }
+}

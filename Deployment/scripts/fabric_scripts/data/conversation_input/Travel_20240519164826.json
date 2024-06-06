@@ -1,0 +1,244 @@
+{
+  "AgentName": "Ethan James",
+  "AgentId": "MVWR6H",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-172-1678",
+  "Conversation": {
+    "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+    "Messages": [
+      {
+        "Id": "40a7ae9e-6b72-458e-bec9-5ad40374433b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-19T16:49:02.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Thank you for calling our travel agency, my name is Ethan James. How may I assist you today?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bf9ac1c7-e360-4838-8e46-5f7b49555798",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-19T16:49:19.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Hi Ethan, My name is Rachel Johnson. I need some assistance with my American Airlines flight to New York City. My flight was delayed for several hours and I'm wondering if I'm eligible for any compensation.",
+        "UserId": "999-172-1678",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1942f5d7-16c7-4b46-850b-30de486401d2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-19T16:49:51.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "I'm sorry to hear that your flight was delayed, Rachel. Let me check on your flight details and see what I can do. Can you please provide me with your flight number and departure date and time?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8515631f-f019-4436-b3a1-059f10e5c03e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-19T16:50:16.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Sure, my flight number is AA123 and it was scheduled to depart from Dallas at 8am on January 8th.",
+        "UserId": "999-172-1678",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fabb3dd7-6d0d-4948-9335-f34843a62574",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-19T16:50:41.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Thank you, Rachel. I see that your flight was delayed for 5 hours due to mechanical issues. According to American Airlines' policy, you may be eligible for compensation. Would you like me to help you file a claim?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e19f2d70-6150-4bb4-90c9-7e2239225ead",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-19T16:51:12.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Yes, please. That would be great. What are my options?",
+        "UserId": "999-172-1678",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1c5d0418-b2b9-443a-960e-edfa78199005",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-19T16:51:33.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "There are a few options, Rachel. You can choose to receive a refund for your flight, a travel voucher for a future flight, or you can file a claim for compensation. The compensation amount varies depending on the length of the delay and the airline's policy. Would you like me to go over the details with you?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8733849c-fa7c-4a30-a90f-941e6e1531bb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-19T16:51:51.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Yes, please. That would be helpful.",
+        "UserId": "999-172-1678",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b4fe9e69-9745-4cd2-92b8-4bbb63beadec",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-19T16:52:14.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "If you choose to file a compensation claim, you will need to provide some documentation such as your flight ticket and boarding pass, and a statement from the airline explaining the cause of the delay. Once you submit the claim, it may take up to 30 days to process. The compensation amount varies depending on the length of the delay and the airline's policy.  Would you like me to help you with the claim process, Rachel?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7569f5e7-7c8d-4448-bdb1-508c94557cf6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-19T16:52:31.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Yes, please. Can you help me file a claim?",
+        "UserId": "999-172-1678",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "74c51952-ae29-43c0-94c3-3a214a6eb611",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-19T16:53:04.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Of course, Rachel. I'll need some information from you, such as your reservation number and flight details. Do you have that handy?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "383a2af9-0018-40d0-825e-988da69c4d37",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-19T16:53:37.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Yes, my reservation number is 1234567 and my flight details are AA123 from Dallas to New York City on January 8th.",
+        "UserId": "999-172-1678",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "637a5c65-dedd-451a-9e80-4f7fae88ee6a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-19T16:53:58.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "Great, thank you, Rachel. I'll get started on the claim process and keep you updated on its progress. Is there anything else I can help you with today?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1d1c4b0f-e79e-4340-899d-069b73754ea2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-19T16:54:23.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "No, that's all. Thank you for your help, Ethan.",
+        "UserId": "999-172-1678",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "27457566-1512-4dcd-97a4-794f28ba2546",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-19T16:54:57.5051063-05:00",
+        "ConversationId": "8d800ec4-6547-43a2-9212-7982423f18cc",
+        "Value": "You're welcome, Rachel. Don't hesitate to contact us if you need any further assistance. Have a great day!",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-19T16:48:26.5051063-05:00",
+    "EndTime": "2024-05-19T16:54:57.5051063-05:00",
+    "Merged_content": "Thank you for calling our travel agency, my name is Ethan James. How may I assist you today?Hi Ethan, My name is Rachel Johnson. I need some assistance with my American Airlines flight to New York City. My flight was delayed for several hours and I'm wondering if I'm eligible for any compensation.I'm sorry to hear that your flight was delayed, Rachel. Let me check on your flight details and see what I can do. Can you please provide me with your flight number and departure date and time?Sure, my flight number is AA123 and it was scheduled to depart from Dallas at 8am on January 8th.Thank you, Rachel. I see that your flight was delayed for 5 hours due to mechanical issues. According to American Airlines' policy, you may be eligible for compensation. Would you like me to help you file a claim?Yes, please. That would be great. What are my options?There are a few options, Rachel. You can choose to receive a refund for your flight, a travel voucher for a future flight, or you can file a claim for compensation. The compensation amount varies depending on the length of the delay and the airline's policy. Would you like me to go over the details with you?Yes, please. That would be helpful.If you choose to file a compensation claim, you will need to provide some documentation such as your flight ticket and boarding pass, and a statement from the airline explaining the cause of the delay. Once you submit the claim, it may take up to 30 days to process. The compensation amount varies depending on the length of the delay and the airline's policy.  Would you like me to help you with the claim process, Rachel?Yes, please. Can you help me file a claim?Of course, Rachel. I'll need some information from you, such as your reservation number and flight details. Do you have that handy?Yes, my reservation number is 1234567 and my flight details are AA123 from Dallas to New York City on January 8th.Great, thank you, Rachel. I'll get started on the claim process and keep you updated on its progress. Is there anything else I can help you with today?No, that's all. Thank you for your help, Ethan.You're welcome, Rachel. Don't hesitate to contact us if you need any further assistance. Have a great day!",
+    "Merged_content_user": "Hi Ethan, My name is Rachel Johnson. I need some assistance with my American Airlines flight to New York City. My flight was delayed for several hours and I'm wondering if I'm eligible for any compensation.Sure, my flight number is AA123 and it was scheduled to depart from Dallas at 8am on January 8th.Yes, please. That would be great. What are my options?Yes, please. That would be helpful.Yes, please. Can you help me file a claim?Yes, my reservation number is 1234567 and my flight details are AA123 from Dallas to New York City on January 8th.No, that's all. Thank you for your help, Ethan.",
+    "Merged_content_agent": "Thank you for calling our travel agency, my name is Ethan James. How may I assist you today?I'm sorry to hear that your flight was delayed, Rachel. Let me check on your flight details and see what I can do. Can you please provide me with your flight number and departure date and time?Thank you, Rachel. I see that your flight was delayed for 5 hours due to mechanical issues. According to American Airlines' policy, you may be eligible for compensation. Would you like me to help you file a claim?There are a few options, Rachel. You can choose to receive a refund for your flight, a travel voucher for a future flight, or you can file a claim for compensation. The compensation amount varies depending on the length of the delay and the airline's policy. Would you like me to go over the details with you?If you choose to file a compensation claim, you will need to provide some documentation such as your flight ticket and boarding pass, and a statement from the airline explaining the cause of the delay. Once you submit the claim, it may take up to 30 days to process. The compensation amount varies depending on the length of the delay and the airline's policy.  Would you like me to help you with the claim process, Rachel?Of course, Rachel. I'll need some information from you, such as your reservation number and flight details. Do you have that handy?Great, thank you, Rachel. I'll get started on the claim process and keep you updated on its progress. Is there anything else I can help you with today?You're welcome, Rachel. Don't hesitate to contact us if you need any further assistance. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling our travel agency, my name is Ethan James. How may I assist you today?\nCustomer: Hi Ethan, My name is Rachel Johnson. I need some assistance with my American Airlines flight to New York City. My flight was delayed for several hours and I'm wondering if I'm eligible for any compensation.\nAgent: I'm sorry to hear that your flight was delayed, Rachel. Let me check on your flight details and see what I can do. Can you please provide me with your flight number and departure date and time?\nCustomer: Sure, my flight number is AA123 and it was scheduled to depart from Dallas at 8am on January 8th.\nAgent: Thank you, Rachel. I see that your flight was delayed for 5 hours due to mechanical issues. According to American Airlines' policy, you may be eligible for compensation. Would you like me to help you file a claim?\nCustomer: Yes, please. That would be great. What are my options?\nAgent: There are a few options, Rachel. You can choose to receive a refund for your flight, a travel voucher for a future flight, or you can file a claim for compensation. The compensation amount varies depending on the length of the delay and the airline's policy. Would you like me to go over the details with you?\nCustomer: Yes, please. That would be helpful.\nAgent: If you choose to file a compensation claim, you will need to provide some documentation such as your flight ticket and boarding pass, and a statement from the airline explaining the cause of the delay. Once you submit the claim, it may take up to 30 days to process. The compensation amount varies depending on the length of the delay and the airline's policy.  Would you like me to help you with the claim process, Rachel?\nCustomer: Yes, please. Can you help me file a claim?\nAgent: Of course, Rachel. I'll need some information from you, such as your reservation number and flight details. Do you have that handy?\nCustomer: Yes, my reservation number is 1234567 and my flight details are AA123 from Dallas to New York City on January 8th.\nAgent: Great, thank you, Rachel. I'll get started on the claim process and keep you updated on its progress. Is there anything else I can help you with today?\nCustomer: No, that's all. Thank you for your help, Ethan.\nAgent: You're welcome, Rachel. Don't hesitate to contact us if you need any further assistance. Have a great day!\n"
+  }
+}

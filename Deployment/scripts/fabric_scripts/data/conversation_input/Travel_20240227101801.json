@@ -1,0 +1,274 @@
+{
+  "AgentName": "Sebastian Harris",
+  "AgentId": "Z82TOA",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-438-2114",
+  "Conversation": {
+    "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+    "Messages": [
+      {
+        "Id": "def731b0-0732-4f2f-92e4-1c1842a374f1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-27T10:18:37.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "Thank you for calling the travel agency, this is Sebastian Harris, how may I assist you today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a23b9731-d0ea-443a-83ee-b4c6c8a5e7fd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-27T10:18:57.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "I need to speak with someone about my recent trip to Miami.",
+        "UserId": "999-438-2114",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "73901e43-769b-4073-84a1-f7e0cf02ce2c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-27T10:19:36.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "I'd be happy to help. What seems to be the issue?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7361caaf-ad12-4303-aecd-fb2f22cd4164",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-27T10:19:56.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "I flew with American Airlines and we encountered some terrible weather conditions. Our flight was delayed by several hours and we had a terrible experience.",
+        "UserId": "999-438-2114",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8cac6ace-25c4-4f04-a7a0-c9ecab104712",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-27T10:20:18.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "I apologize for any inconvenience, ma'am. Let me see what I can do to assist you.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "202ed51e-ad62-4670-92d0-52caa2d59d4d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-27T10:20:37.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "I wasn't happy with the accommodations either. The hotel we stayed at was not what we were promised. The room wasn't clean and there was no hot water.",
+        "UserId": "999-438-2114",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1bc8dc04-f7d7-4c9f-9297-f8314f13a0b1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-27T10:21:12.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "I'm sorry to hear that. Can you provide me with the name of the hotel and your reservation number and date?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "18058522-cd85-42d0-801e-a6e4d74cb864",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-27T10:21:39.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "It was the Oceanfront Hotel and my reservation number was 1234567. We stayed there from February 20th to February 24th.",
+        "UserId": "999-438-2114",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "80fbd397-76ae-423f-a780-014af0b82e4f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-27T10:22:18.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "Thank you for providing that information. I will definitely look into it for you. In regards to the flight, would you like me to see if we can provide any compensation for the delay?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a3123889-8a71-40fe-b4a2-8f58bb6579c2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-27T10:22:52.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "Yes, I definitely think some compensation is in order. It was a terrible experience and I want to be compensated for my time and inconvenience.",
+        "UserId": "999-438-2114",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9140b998-9ffc-4456-9fa9-116c9b0c484b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-27T10:23:28.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "Understood. Let me check with American Airlines and see what we can do. I appreciate your patience while I look into this.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a69e7747-1e36-4eef-865a-96d9a264afcd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-27T10:23:56.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "It's just unacceptable for these types of things to happen. I expect better customer service from the travel agency and airlines.",
+        "UserId": "999-438-2114",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ba47c55c-117b-4dc4-a2d6-88a125ed8e82",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-27T10:24:16.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "I completely understand your frustration, ma'am. We try our best to provide the best service possible, but sometimes unexpected situations like these can arise. Please know that I am doing everything I can to assist you with this issue.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e262c0bb-c615-4705-9a0c-b9fb6bb01535",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-27T10:24:49.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "Thank you for your help. I appreciate you taking the time to look into this matter for me.",
+        "UserId": "999-438-2114",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ac9d6c33-b2d1-4481-bc5a-3b951758201e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-27T10:25:14.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "Not a problem at all. I'm glad I could assist you. Is there anything else I can do for you today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8b488ad4-93a4-42a8-a87e-2c6e2dfaf6a7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-27T10:25:51.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "No, that's all. Thank you again for your help.",
+        "UserId": "999-438-2114",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7f4bbb51-58db-4721-b7da-13445bbef45c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-27T10:26:28.9894968-06:00",
+        "ConversationId": "12148a30-0a0b-4f49-bb9f-5991f4a966a4",
+        "Value": "You're welcome, ma'am. Have a great day!",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-02-27T10:18:01.9894968-06:00",
+    "EndTime": "2024-02-27T10:26:28.9894968-06:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Sebastian Harris, how may I assist you today?I need to speak with someone about my recent trip to Miami.I'd be happy to help. What seems to be the issue?I flew with American Airlines and we encountered some terrible weather conditions. Our flight was delayed by several hours and we had a terrible experience.I apologize for any inconvenience, ma'am. Let me see what I can do to assist you.I wasn't happy with the accommodations either. The hotel we stayed at was not what we were promised. The room wasn't clean and there was no hot water.I'm sorry to hear that. Can you provide me with the name of the hotel and your reservation number and date?It was the Oceanfront Hotel and my reservation number was 1234567. We stayed there from February 20th to February 24th.Thank you for providing that information. I will definitely look into it for you. In regards to the flight, would you like me to see if we can provide any compensation for the delay?Yes, I definitely think some compensation is in order. It was a terrible experience and I want to be compensated for my time and inconvenience.Understood. Let me check with American Airlines and see what we can do. I appreciate your patience while I look into this.It's just unacceptable for these types of things to happen. I expect better customer service from the travel agency and airlines.I completely understand your frustration, ma'am. We try our best to provide the best service possible, but sometimes unexpected situations like these can arise. Please know that I am doing everything I can to assist you with this issue.Thank you for your help. I appreciate you taking the time to look into this matter for me.Not a problem at all. I'm glad I could assist you. Is there anything else I can do for you today?No, that's all. Thank you again for your help.You're welcome, ma'am. Have a great day!",
+    "Merged_content_user": "I need to speak with someone about my recent trip to Miami.I flew with American Airlines and we encountered some terrible weather conditions. Our flight was delayed by several hours and we had a terrible experience.I wasn't happy with the accommodations either. The hotel we stayed at was not what we were promised. The room wasn't clean and there was no hot water.It was the Oceanfront Hotel and my reservation number was 1234567. We stayed there from February 20th to February 24th.Yes, I definitely think some compensation is in order. It was a terrible experience and I want to be compensated for my time and inconvenience.It's just unacceptable for these types of things to happen. I expect better customer service from the travel agency and airlines.Thank you for your help. I appreciate you taking the time to look into this matter for me.No, that's all. Thank you again for your help.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Sebastian Harris, how may I assist you today?I'd be happy to help. What seems to be the issue?I apologize for any inconvenience, ma'am. Let me see what I can do to assist you.I'm sorry to hear that. Can you provide me with the name of the hotel and your reservation number and date?Thank you for providing that information. I will definitely look into it for you. In regards to the flight, would you like me to see if we can provide any compensation for the delay?Understood. Let me check with American Airlines and see what we can do. I appreciate your patience while I look into this.I completely understand your frustration, ma'am. We try our best to provide the best service possible, but sometimes unexpected situations like these can arise. Please know that I am doing everything I can to assist you with this issue.Not a problem at all. I'm glad I could assist you. Is there anything else I can do for you today?You're welcome, ma'am. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Sebastian Harris, how may I assist you today?\nCustomer: I need to speak with someone about my recent trip to Miami.\nAgent: I'd be happy to help. What seems to be the issue?\nCustomer: I flew with American Airlines and we encountered some terrible weather conditions. Our flight was delayed by several hours and we had a terrible experience.\nAgent: I apologize for any inconvenience, ma'am. Let me see what I can do to assist you.\nCustomer: I wasn't happy with the accommodations either. The hotel we stayed at was not what we were promised. The room wasn't clean and there was no hot water.\nAgent: I'm sorry to hear that. Can you provide me with the name of the hotel and your reservation number and date?\nCustomer: It was the Oceanfront Hotel and my reservation number was 1234567. We stayed there from February 20th to February 24th.\nAgent: Thank you for providing that information. I will definitely look into it for you. In regards to the flight, would you like me to see if we can provide any compensation for the delay?\nCustomer: Yes, I definitely think some compensation is in order. It was a terrible experience and I want to be compensated for my time and inconvenience.\nAgent: Understood. Let me check with American Airlines and see what we can do. I appreciate your patience while I look into this.\nCustomer: It's just unacceptable for these types of things to happen. I expect better customer service from the travel agency and airlines.\nAgent: I completely understand your frustration, ma'am. We try our best to provide the best service possible, but sometimes unexpected situations like these can arise. Please know that I am doing everything I can to assist you with this issue.\nCustomer: Thank you for your help. I appreciate you taking the time to look into this matter for me.\nAgent: Not a problem at all. I'm glad I could assist you. Is there anything else I can do for you today?\nCustomer: No, that's all. Thank you again for your help.\nAgent: You're welcome, ma'am. Have a great day!\n"
+  }
+}

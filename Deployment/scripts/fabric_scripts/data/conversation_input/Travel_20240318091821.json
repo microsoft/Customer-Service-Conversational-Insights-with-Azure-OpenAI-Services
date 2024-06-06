@@ -1,0 +1,154 @@
+{
+  "AgentName": "Emma Davis",
+  "AgentId": "WVBORA",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-518-5770",
+  "Conversation": {
+    "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+    "Messages": [
+      {
+        "Id": "e7bec372-3c9e-47c2-a2e5-5c88d1917b98",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T09:18:48.4388786-05:00",
+        "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+        "Value": "Thank you for contacting the travel agency. My name is Emma Davis, how may I assist you?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5239f09a-b4a9-415e-be5d-4cb852333cd8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-18T09:19:26.4388786-05:00",
+        "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+        "Value": "I need to talk about my travel plans to Orlando. My flight with American Airlines was delayed due to bad weather and it has caused a lot of inconvenience for me and my family.",
+        "UserId": "999-518-5770",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6f27436f-b5de-4377-97a0-24c5375af268",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T09:19:59.4388786-05:00",
+        "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+        "Value": "I'm sorry to hear that. Can you please provide me with your flight number and departure date and time?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7424d275-01b5-4298-bb27-d4bbd351377c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-18T09:20:17.4388786-05:00",
+        "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+        "Value": "Yes, it's AA1234 on May 15th at 10:00 am.",
+        "UserId": "999-518-5770",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2fba66a8-155e-4f4e-ad41-da2c2e815cbb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T09:20:47.4388786-05:00",
+        "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+        "Value": "I see. I'm checking their system as we speak and it does say that the delay was due to bad weather. Unfortunately, this is beyond our control. However, we can certainly look into compensation or alternatives to make up for the inconvenience caused.",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "735eb499-faf1-47ae-8b87-104fa68532b0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-18T09:21:26.4388786-05:00",
+        "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+        "Value": "I don't want compensation, I just want this to never happen again. This has ruined my trip and I expected better service from both American Airlines and your agency. I am extremely dissatisfied and I expect a full refund.",
+        "UserId": "999-518-5770",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8d00f410-5c21-43c6-9feb-da0b1feb396c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T09:21:43.4388786-05:00",
+        "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+        "Value": "I understand your frustration, but unfortunately, a full refund is not possible as this was a weather-related event. However, we will make sure to note your experience and relay it to American Airlines to ensure they improve their service in the future.",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "78241fe2-a78e-4494-9fcb-6206128305be",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-18T09:22:19.4388786-05:00",
+        "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+        "Value": "I am not satisfied with this response. I demand to speak with someone higher up who can actually resolve this issue. This is unacceptable.",
+        "UserId": "999-518-5770",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c89f7d75-608a-4732-9f29-c7640a54c66b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T09:22:56.4388786-05:00",
+        "ConversationId": "13be17a8-550c-4f97-8e5f-9c3cc383b171",
+        "Value": "I completely understand your frustration and I can connect you with our supervisor who will try to help resolve this matter. May I know your name and reservation number for further assistance?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-18T09:18:21.4388786-05:00",
+    "EndTime": "2024-03-18T09:22:56.4388786-05:00",
+    "Merged_content": "Thank you for contacting the travel agency. My name is Emma Davis, how may I assist you?I need to talk about my travel plans to Orlando. My flight with American Airlines was delayed due to bad weather and it has caused a lot of inconvenience for me and my family.I'm sorry to hear that. Can you please provide me with your flight number and departure date and time?Yes, it's AA1234 on May 15th at 10:00 am.I see. I'm checking their system as we speak and it does say that the delay was due to bad weather. Unfortunately, this is beyond our control. However, we can certainly look into compensation or alternatives to make up for the inconvenience caused.I don't want compensation, I just want this to never happen again. This has ruined my trip and I expected better service from both American Airlines and your agency. I am extremely dissatisfied and I expect a full refund.I understand your frustration, but unfortunately, a full refund is not possible as this was a weather-related event. However, we will make sure to note your experience and relay it to American Airlines to ensure they improve their service in the future.I am not satisfied with this response. I demand to speak with someone higher up who can actually resolve this issue. This is unacceptable.I completely understand your frustration and I can connect you with our supervisor who will try to help resolve this matter. May I know your name and reservation number for further assistance?",
+    "Merged_content_user": "I need to talk about my travel plans to Orlando. My flight with American Airlines was delayed due to bad weather and it has caused a lot of inconvenience for me and my family.Yes, it's AA1234 on May 15th at 10:00 am.I don't want compensation, I just want this to never happen again. This has ruined my trip and I expected better service from both American Airlines and your agency. I am extremely dissatisfied and I expect a full refund.I am not satisfied with this response. I demand to speak with someone higher up who can actually resolve this issue. This is unacceptable.",
+    "Merged_content_agent": "Thank you for contacting the travel agency. My name is Emma Davis, how may I assist you?I'm sorry to hear that. Can you please provide me with your flight number and departure date and time?I see. I'm checking their system as we speak and it does say that the delay was due to bad weather. Unfortunately, this is beyond our control. However, we can certainly look into compensation or alternatives to make up for the inconvenience caused.I understand your frustration, but unfortunately, a full refund is not possible as this was a weather-related event. However, we will make sure to note your experience and relay it to American Airlines to ensure they improve their service in the future.I completely understand your frustration and I can connect you with our supervisor who will try to help resolve this matter. May I know your name and reservation number for further assistance?",
+    "Full_conversation": "Agent: Thank you for contacting the travel agency. My name is Emma Davis, how may I assist you?\nCustomer: I need to talk about my travel plans to Orlando. My flight with American Airlines was delayed due to bad weather and it has caused a lot of inconvenience for me and my family.\nAgent: I'm sorry to hear that. Can you please provide me with your flight number and departure date and time?\nCustomer: Yes, it's AA1234 on May 15th at 10:00 am.\nAgent: I see. I'm checking their system as we speak and it does say that the delay was due to bad weather. Unfortunately, this is beyond our control. However, we can certainly look into compensation or alternatives to make up for the inconvenience caused.\nCustomer: I don't want compensation, I just want this to never happen again. This has ruined my trip and I expected better service from both American Airlines and your agency. I am extremely dissatisfied and I expect a full refund.\nAgent: I understand your frustration, but unfortunately, a full refund is not possible as this was a weather-related event. However, we will make sure to note your experience and relay it to American Airlines to ensure they improve their service in the future.\nCustomer: I am not satisfied with this response. I demand to speak with someone higher up who can actually resolve this issue. This is unacceptable.\nAgent: I completely understand your frustration and I can connect you with our supervisor who will try to help resolve this matter. May I know your name and reservation number for further assistance?\n"
+  }
+}

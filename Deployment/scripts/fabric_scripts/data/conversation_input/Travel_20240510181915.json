@@ -1,0 +1,184 @@
+{
+  "AgentName": "Ava Miller",
+  "AgentId": "M8Z07C",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-424-5495",
+  "Conversation": {
+    "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+    "Messages": [
+      {
+        "Id": "6e2c1c12-6532-45a7-8c6d-3f1392f93a0e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T18:19:41.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "Thank you for calling the travel agency, my name is Ava Miller, how may I assist you?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5c8609a7-386c-4c2d-a3bf-18e14e889b24",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T18:20:20.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "I need to speak with someone about my recent trip to Chicago.",
+        "UserId": "999-424-5495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2528ee16-54b1-4927-879e-3723b0d98538",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T18:20:49.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "I'm sorry to hear that. Could you please explain what the issue is?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e6236cbf-abe3-4c15-89f2-9e7582e322e1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T18:21:18.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "Yes. I flew with American Airlines to Chicago and the weather was terrible. My flight was delayed for 4 hours and I missed an important meeting as a result of this. I want to know what compensation American Airlines will offer me for this inconvenience.",
+        "UserId": "999-424-5495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "37ce151e-44b7-49bf-b525-4ef8eedc9795",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T18:21:45.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "I understand your frustration with the delay and the missed meeting. Unfortunately, we don't have any control over the weather or flight delays.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f93d880d-28cf-4258-bede-a449dfb015ee",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T18:22:21.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "This is unacceptable. I paid a lot of money for my flight and this is the service I get? I demand to speak to a manager or someone who can help me get compensation for this.",
+        "UserId": "999-424-5495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "10452648-9cff-4f1b-bc9b-811639f8a09b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T18:22:46.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "I understand your frustration, but I am the only one who can help you at this moment. Let me look into this further and see what we can do for you.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1de5e29c-dfc6-497a-8435-e638e63dda3f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T18:23:12.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "Please do, I want this resolved as soon as possible.",
+        "UserId": "999-424-5495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2ff62262-11bc-448b-8e55-7e0db3ced15d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T18:23:29.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "I apologize for the inconvenience that the weather has caused. Unfortunately, American Airlines does not offer compensation for delays caused by bad weather. However, I can assist you in filing a complaint with the airline and forwarding your complaint to the appropriate department.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "44306605-3571-4f3e-b67e-58fba0f99898",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-10T18:23:56.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "This is unacceptable! I demand something be done about this. I will never fly with American Airlines again!",
+        "UserId": "999-424-5495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "11f15c2c-09cb-4c4e-95ce-b2532c69724b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-10T18:24:15.5510504-05:00",
+        "ConversationId": "12f584f6-85b0-40f1-a322-741be72baba3",
+        "Value": "I understand your frustration, and I'm sorry that we couldn't resolve this issue to your satisfaction. Thank you for contacting us, and please don't hesitate to reach out if you need any further assistance.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-10T18:19:15.5510504-05:00",
+    "EndTime": "2024-05-10T18:24:15.5510504-05:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Ava Miller, how may I assist you?I need to speak with someone about my recent trip to Chicago.I'm sorry to hear that. Could you please explain what the issue is?Yes. I flew with American Airlines to Chicago and the weather was terrible. My flight was delayed for 4 hours and I missed an important meeting as a result of this. I want to know what compensation American Airlines will offer me for this inconvenience.I understand your frustration with the delay and the missed meeting. Unfortunately, we don't have any control over the weather or flight delays.This is unacceptable. I paid a lot of money for my flight and this is the service I get? I demand to speak to a manager or someone who can help me get compensation for this.I understand your frustration, but I am the only one who can help you at this moment. Let me look into this further and see what we can do for you.Please do, I want this resolved as soon as possible.I apologize for the inconvenience that the weather has caused. Unfortunately, American Airlines does not offer compensation for delays caused by bad weather. However, I can assist you in filing a complaint with the airline and forwarding your complaint to the appropriate department.This is unacceptable! I demand something be done about this. I will never fly with American Airlines again!I understand your frustration, and I'm sorry that we couldn't resolve this issue to your satisfaction. Thank you for contacting us, and please don't hesitate to reach out if you need any further assistance.",
+    "Merged_content_user": "I need to speak with someone about my recent trip to Chicago.Yes. I flew with American Airlines to Chicago and the weather was terrible. My flight was delayed for 4 hours and I missed an important meeting as a result of this. I want to know what compensation American Airlines will offer me for this inconvenience.This is unacceptable. I paid a lot of money for my flight and this is the service I get? I demand to speak to a manager or someone who can help me get compensation for this.Please do, I want this resolved as soon as possible.This is unacceptable! I demand something be done about this. I will never fly with American Airlines again!",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Ava Miller, how may I assist you?I'm sorry to hear that. Could you please explain what the issue is?I understand your frustration with the delay and the missed meeting. Unfortunately, we don't have any control over the weather or flight delays.I understand your frustration, but I am the only one who can help you at this moment. Let me look into this further and see what we can do for you.I apologize for the inconvenience that the weather has caused. Unfortunately, American Airlines does not offer compensation for delays caused by bad weather. However, I can assist you in filing a complaint with the airline and forwarding your complaint to the appropriate department.I understand your frustration, and I'm sorry that we couldn't resolve this issue to your satisfaction. Thank you for contacting us, and please don't hesitate to reach out if you need any further assistance.",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Ava Miller, how may I assist you?\nCustomer: I need to speak with someone about my recent trip to Chicago.\nAgent: I'm sorry to hear that. Could you please explain what the issue is?\nCustomer: Yes. I flew with American Airlines to Chicago and the weather was terrible. My flight was delayed for 4 hours and I missed an important meeting as a result of this. I want to know what compensation American Airlines will offer me for this inconvenience.\nAgent: I understand your frustration with the delay and the missed meeting. Unfortunately, we don't have any control over the weather or flight delays.\nCustomer: This is unacceptable. I paid a lot of money for my flight and this is the service I get? I demand to speak to a manager or someone who can help me get compensation for this.\nAgent: I understand your frustration, but I am the only one who can help you at this moment. Let me look into this further and see what we can do for you.\nCustomer: Please do, I want this resolved as soon as possible.\nAgent: I apologize for the inconvenience that the weather has caused. Unfortunately, American Airlines does not offer compensation for delays caused by bad weather. However, I can assist you in filing a complaint with the airline and forwarding your complaint to the appropriate department.\nCustomer: This is unacceptable! I demand something be done about this. I will never fly with American Airlines again!\nAgent: I understand your frustration, and I'm sorry that we couldn't resolve this issue to your satisfaction. Thank you for contacting us, and please don't hesitate to reach out if you need any further assistance.\n"
+  }
+}

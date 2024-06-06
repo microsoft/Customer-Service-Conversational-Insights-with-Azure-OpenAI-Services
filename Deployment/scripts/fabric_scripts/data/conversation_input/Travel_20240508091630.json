@@ -1,0 +1,214 @@
+{
+  "AgentName": "Sophia Moore",
+  "AgentId": "6SYKT5",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-434-4126",
+  "Conversation": {
+    "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+    "Messages": [
+      {
+        "Id": "85bba5a0-410b-44d1-9eb6-f28324013ecd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T09:16:45.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "Thank you for calling the travel agency, this is Sophia, how may I assist you today?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cf0d1452-448a-40b4-a7b7-bda8065bce96",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T09:17:19.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "Yes, my name is John Smith and I need to speak with someone about my recent trip to New York City.",
+        "UserId": "999-434-4126",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "faf55e02-eb10-4470-b4bd-8bf15fb6e387",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T09:17:53.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "I'm sorry to hear that, John. Can you please tell me what happened?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5d617341-705d-44fa-830b-e66b6e80132f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T09:18:24.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "Well, I had a flight with American Airlines and there was a lot of bad weather. I was delayed for over 8 hours and my luggage was lost for a day. I also had to spend extra money on food because of the airline's poor service",
+        "UserId": "999-434-4126",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "65b450b6-2be7-4f3a-8e50-f54af39efa52",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T09:18:42.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "I'm sorry to hear that, John. That's definitely not what we want our customers to experience. Let me see what I can do to help.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bee1459b-fbf4-411a-8f45-0100c15edba1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T09:19:18.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "Well, I don't want to be helped. I want to be compensated for the terrible service I received. Do you understand how upset I am?",
+        "UserId": "999-434-4126",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "03b30836-7933-4a44-8a50-ac4cee1b9c5a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T09:19:36.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "I completely understand, John. Let me check with American Airlines and see what they can do for you. Would you mind holding for a moment?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "342016a6-7554-4614-a741-029bde0973c8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T09:20:15.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "Fine, but I don't want to wait long.",
+        "UserId": "999-434-4126",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2f642cb3-1f9e-40ec-84a1-7a3fb1888c66",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T09:20:54.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "Thank you for holding, John. I spoke with American Airlines and they have authorized a $200 compensation for your delay and lost luggage. They will also reimburse you for any food expenses you had during the delay. Can I provide you with the details?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d5fb6c78-dcf9-4ebc-9fe4-ffe45c170f34",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T09:21:22.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "Finally, that's what I wanted to hear. Yes, please give me the details and thank you for your help.",
+        "UserId": "999-434-4126",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e1777d1f-ad5c-4311-b174-eafee264963d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T09:21:58.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "Of course, John. The compensation will be in the form of a travel voucher and will be sent to your email within 24 hours. The reimbursement for food expenses will be processed within 7 business days. Is there anything else I can do for you?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ac0ed73f-f407-4e49-9bd6-38dda4e1cd52",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T09:22:16.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "No, that's all. Thank you for your help.",
+        "UserId": "999-434-4126",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0d874e6c-5173-4e57-a156-11a3003d017d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T09:22:42.3623086-05:00",
+        "ConversationId": "0051c2d2-6672-4d25-ac2a-001abf339479",
+        "Value": "You're welcome, John. I'm glad I could help. Have a great day!",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-08T09:16:30.3623086-05:00",
+    "EndTime": "2024-05-08T09:22:42.3623086-05:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Sophia, how may I assist you today?Yes, my name is John Smith and I need to speak with someone about my recent trip to New York City.I'm sorry to hear that, John. Can you please tell me what happened?Well, I had a flight with American Airlines and there was a lot of bad weather. I was delayed for over 8 hours and my luggage was lost for a day. I also had to spend extra money on food because of the airline's poor serviceI'm sorry to hear that, John. That's definitely not what we want our customers to experience. Let me see what I can do to help.Well, I don't want to be helped. I want to be compensated for the terrible service I received. Do you understand how upset I am?I completely understand, John. Let me check with American Airlines and see what they can do for you. Would you mind holding for a moment?Fine, but I don't want to wait long.Thank you for holding, John. I spoke with American Airlines and they have authorized a $200 compensation for your delay and lost luggage. They will also reimburse you for any food expenses you had during the delay. Can I provide you with the details?Finally, that's what I wanted to hear. Yes, please give me the details and thank you for your help.Of course, John. The compensation will be in the form of a travel voucher and will be sent to your email within 24 hours. The reimbursement for food expenses will be processed within 7 business days. Is there anything else I can do for you?No, that's all. Thank you for your help.You're welcome, John. I'm glad I could help. Have a great day!",
+    "Merged_content_user": "Yes, my name is John Smith and I need to speak with someone about my recent trip to New York City.Well, I had a flight with American Airlines and there was a lot of bad weather. I was delayed for over 8 hours and my luggage was lost for a day. I also had to spend extra money on food because of the airline's poor serviceWell, I don't want to be helped. I want to be compensated for the terrible service I received. Do you understand how upset I am?Fine, but I don't want to wait long.Finally, that's what I wanted to hear. Yes, please give me the details and thank you for your help.No, that's all. Thank you for your help.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Sophia, how may I assist you today?I'm sorry to hear that, John. Can you please tell me what happened?I'm sorry to hear that, John. That's definitely not what we want our customers to experience. Let me see what I can do to help.I completely understand, John. Let me check with American Airlines and see what they can do for you. Would you mind holding for a moment?Thank you for holding, John. I spoke with American Airlines and they have authorized a $200 compensation for your delay and lost luggage. They will also reimburse you for any food expenses you had during the delay. Can I provide you with the details?Of course, John. The compensation will be in the form of a travel voucher and will be sent to your email within 24 hours. The reimbursement for food expenses will be processed within 7 business days. Is there anything else I can do for you?You're welcome, John. I'm glad I could help. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Sophia, how may I assist you today?\nCustomer: Yes, my name is John Smith and I need to speak with someone about my recent trip to New York City.\nAgent: I'm sorry to hear that, John. Can you please tell me what happened?\nCustomer: Well, I had a flight with American Airlines and there was a lot of bad weather. I was delayed for over 8 hours and my luggage was lost for a day. I also had to spend extra money on food because of the airline's poor service\nAgent: I'm sorry to hear that, John. That's definitely not what we want our customers to experience. Let me see what I can do to help.\nCustomer: Well, I don't want to be helped. I want to be compensated for the terrible service I received. Do you understand how upset I am?\nAgent: I completely understand, John. Let me check with American Airlines and see what they can do for you. Would you mind holding for a moment?\nCustomer: Fine, but I don't want to wait long.\nAgent: Thank you for holding, John. I spoke with American Airlines and they have authorized a $200 compensation for your delay and lost luggage. They will also reimburse you for any food expenses you had during the delay. Can I provide you with the details?\nCustomer: Finally, that's what I wanted to hear. Yes, please give me the details and thank you for your help.\nAgent: Of course, John. The compensation will be in the form of a travel voucher and will be sent to your email within 24 hours. The reimbursement for food expenses will be processed within 7 business days. Is there anything else I can do for you?\nCustomer: No, that's all. Thank you for your help.\nAgent: You're welcome, John. I'm glad I could help. Have a great day!\n"
+  }
+}

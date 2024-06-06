@@ -1,0 +1,214 @@
+{
+  "AgentName": "Lily Young",
+  "AgentId": "T4CUGY",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-200-3224",
+  "Conversation": {
+    "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+    "Messages": [
+      {
+        "Id": "97fd7983-fd65-47e4-b656-83eaeef29bec",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T01:52:02.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Thank you for calling the travel agency, this is Lily. How may I assist you?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "70ac2326-a05f-4eda-b0ed-ea2313fcbe8e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T01:52:37.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Hi Lily, my name is John Smith and I'm having some trouble with my upcoming trip to New York City on American Airlines. The flight has been delayed and I'm not sure what to do. Can you help me out?",
+        "UserId": "999-200-3224",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "eebab2ad-7153-4d1f-8f8a-f74849d8682e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T01:53:03.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Of course, John. I'm sorry to hear that your flight has been delayed. Can you please provide me with your reservation number and the date and time of your flight?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "847e8fc6-9a34-4b4a-a596-390176b9cc17",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T01:53:19.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Yes, my reservation number is 123456789 and my flight was supposed to depart from Miami at 9am on June 1st.",
+        "UserId": "999-200-3224",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f7be6514-dcdd-40a4-808a-1d6915dce7d7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T01:53:47.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Thank you for providing me with that information. Let me check to see what options are available for you. In the meantime, can you please tell me a little bit more about what you're looking for in terms of assistance with your flight?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3fa4ffc5-a860-4ae6-ae9a-ec0a320b05e1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T01:54:02.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "I just want to make sure that I'm compensated fairly for the delay and that I have the option to switch flights if needed. I'm not sure what my options are at this point.",
+        "UserId": "999-200-3224",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "742ceb80-22b9-4e3f-8bb5-727bb5479e25",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T01:54:28.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Okay, John. Let me see what I can do to help you out. American Airlines does offer compensation for delays and cancellations, so we can definitely look into that for you. In terms of switching flights, there are a few options available. Would you like me to go over them with you?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "283a9247-2d65-4fd4-bea3-9764968314b7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T01:54:45.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Yes, please. I'm having trouble making a decision and I would appreciate your help.",
+        "UserId": "999-200-3224",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1062baab-25a4-4a7f-ba52-b27d258ea74e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T01:55:23.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Sure thing, John. You have a few options available to you. You can either switch to a different American Airlines flight that may be departing later in the day or you can switch to a different airline altogether. If you decide to stick with American Airlines, they can also provide you with hotel accommodations if necessary. What do you think?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8106ef8e-c3ea-4288-8ef6-eefbd0102474",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T01:55:54.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Hmm, I'm not sure what's the best option for me. Can you give me some more details about the different flights and hotels that are available?",
+        "UserId": "999-200-3224",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "300c0c2a-50b3-412f-9d23-468a79e44d4a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T01:56:27.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Absolutely, John. Let me pull up some options for you and I'll go over them one by one.",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6e0bbcfd-b8ee-4166-9f00-348dac8353de",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T01:56:48.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "Thank you so much, Lily. You've been incredibly helpful.",
+        "UserId": "999-200-3224",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "eaa77699-862b-4625-a1a3-265f5a244358",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T01:57:05.9972093-05:00",
+        "ConversationId": "ba2783b5-f210-4de9-b5a0-e6bb53345e64",
+        "Value": "You're welcome, John. It's my pleasure to assist you with your travel plans. Please hold while I look up some more information.",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-08T01:51:40.9972093-05:00",
+    "EndTime": "2024-05-08T01:57:05.9972093-05:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Lily. How may I assist you?Hi Lily, my name is John Smith and I'm having some trouble with my upcoming trip to New York City on American Airlines. The flight has been delayed and I'm not sure what to do. Can you help me out?Of course, John. I'm sorry to hear that your flight has been delayed. Can you please provide me with your reservation number and the date and time of your flight?Yes, my reservation number is 123456789 and my flight was supposed to depart from Miami at 9am on June 1st.Thank you for providing me with that information. Let me check to see what options are available for you. In the meantime, can you please tell me a little bit more about what you're looking for in terms of assistance with your flight?I just want to make sure that I'm compensated fairly for the delay and that I have the option to switch flights if needed. I'm not sure what my options are at this point.Okay, John. Let me see what I can do to help you out. American Airlines does offer compensation for delays and cancellations, so we can definitely look into that for you. In terms of switching flights, there are a few options available. Would you like me to go over them with you?Yes, please. I'm having trouble making a decision and I would appreciate your help.Sure thing, John. You have a few options available to you. You can either switch to a different American Airlines flight that may be departing later in the day or you can switch to a different airline altogether. If you decide to stick with American Airlines, they can also provide you with hotel accommodations if necessary. What do you think?Hmm, I'm not sure what's the best option for me. Can you give me some more details about the different flights and hotels that are available?Absolutely, John. Let me pull up some options for you and I'll go over them one by one.Thank you so much, Lily. You've been incredibly helpful.You're welcome, John. It's my pleasure to assist you with your travel plans. Please hold while I look up some more information.",
+    "Merged_content_user": "Hi Lily, my name is John Smith and I'm having some trouble with my upcoming trip to New York City on American Airlines. The flight has been delayed and I'm not sure what to do. Can you help me out?Yes, my reservation number is 123456789 and my flight was supposed to depart from Miami at 9am on June 1st.I just want to make sure that I'm compensated fairly for the delay and that I have the option to switch flights if needed. I'm not sure what my options are at this point.Yes, please. I'm having trouble making a decision and I would appreciate your help.Hmm, I'm not sure what's the best option for me. Can you give me some more details about the different flights and hotels that are available?Thank you so much, Lily. You've been incredibly helpful.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Lily. How may I assist you?Of course, John. I'm sorry to hear that your flight has been delayed. Can you please provide me with your reservation number and the date and time of your flight?Thank you for providing me with that information. Let me check to see what options are available for you. In the meantime, can you please tell me a little bit more about what you're looking for in terms of assistance with your flight?Okay, John. Let me see what I can do to help you out. American Airlines does offer compensation for delays and cancellations, so we can definitely look into that for you. In terms of switching flights, there are a few options available. Would you like me to go over them with you?Sure thing, John. You have a few options available to you. You can either switch to a different American Airlines flight that may be departing later in the day or you can switch to a different airline altogether. If you decide to stick with American Airlines, they can also provide you with hotel accommodations if necessary. What do you think?Absolutely, John. Let me pull up some options for you and I'll go over them one by one.You're welcome, John. It's my pleasure to assist you with your travel plans. Please hold while I look up some more information.",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Lily. How may I assist you?\nCustomer: Hi Lily, my name is John Smith and I'm having some trouble with my upcoming trip to New York City on American Airlines. The flight has been delayed and I'm not sure what to do. Can you help me out?\nAgent: Of course, John. I'm sorry to hear that your flight has been delayed. Can you please provide me with your reservation number and the date and time of your flight?\nCustomer: Yes, my reservation number is 123456789 and my flight was supposed to depart from Miami at 9am on June 1st.\nAgent: Thank you for providing me with that information. Let me check to see what options are available for you. In the meantime, can you please tell me a little bit more about what you're looking for in terms of assistance with your flight?\nCustomer: I just want to make sure that I'm compensated fairly for the delay and that I have the option to switch flights if needed. I'm not sure what my options are at this point.\nAgent: Okay, John. Let me see what I can do to help you out. American Airlines does offer compensation for delays and cancellations, so we can definitely look into that for you. In terms of switching flights, there are a few options available. Would you like me to go over them with you?\nCustomer: Yes, please. I'm having trouble making a decision and I would appreciate your help.\nAgent: Sure thing, John. You have a few options available to you. You can either switch to a different American Airlines flight that may be departing later in the day or you can switch to a different airline altogether. If you decide to stick with American Airlines, they can also provide you with hotel accommodations if necessary. What do you think?\nCustomer: Hmm, I'm not sure what's the best option for me. Can you give me some more details about the different flights and hotels that are available?\nAgent: Absolutely, John. Let me pull up some options for you and I'll go over them one by one.\nCustomer: Thank you so much, Lily. You've been incredibly helpful.\nAgent: You're welcome, John. It's my pleasure to assist you with your travel plans. Please hold while I look up some more information.\n"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "AgentName": "Charlotte Martinez",
+  "AgentId": "MDQCWU",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-581-1925",
+  "Conversation": {
+    "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+    "Messages": [
+      {
+        "Id": "c68379eb-64d3-4044-bdd1-ea2d56c66b9d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T08:19:09.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "Hello, this is Charlotte Martinez from the travel agency. How may I assist you today?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0710f2ef-40f6-4539-978a-6e540aa8c079",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T08:19:46.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "Yes, hi. My name is Sarah Johnson and I have an issue with my recent trip to Miami. There was bad weather and my flight with American Airlines was delayed for several hours. This caused me to miss an important meeting and I am very upset about it.",
+        "UserId": "999-581-1925",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "197612e8-2ff6-4b37-a1a0-bde544214e2b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T08:20:25.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "I'm sorry to hear that, Sarah. Can you please provide me with your reservation details so I can look into this?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3053478c-3f34-4efd-a7c2-6974640a67cc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T08:20:56.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "Sure, my reservation number is 123456789 and my flight was AA123 departing from New York City on May 20th at 10am.",
+        "UserId": "999-581-1925",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cae0b8de-dfb4-4364-836b-ea30fa56f498",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T08:21:20.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "Thank you for that information. I can understand how frustrating it must have been to miss your meeting. Unfortunately, bad weather is out of our control and can cause delays and cancellations. However, we can certainly look into compensation options for you. Can you tell me more about what you're looking for?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "175185d0-a689-4d35-8a5e-ab53238b874d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T08:21:36.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "I'm looking for some sort of refund or compensation for my missed meeting and the inconvenience caused by the delay. Is that possible?",
+        "UserId": "999-581-1925",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7ddcbff5-7a50-4ee4-859d-d42f003a83e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T08:21:54.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "I understand, Sarah. Let me take a look at our options and see what we can do for you.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "57008cc4-4d3c-443d-84d4-cf931a003fed",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T08:22:17.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "Okay, thank you.",
+        "UserId": "999-581-1925",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b43869ca-d4a5-4d0e-af18-5a29336157d4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T08:22:35.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "I apologize for the delay, Sarah. Unfortunately, American Airlines' policy for compensation for weather-related delays is limited. However, I can certainly escalate this issue to a manager to see if there are any other options available. Would you like me to do that for you?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1210480e-26a5-4dcb-8801-0e677739477a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T08:22:56.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "Yes, please escalate this issue. I am very upset and disappointed with the handling of this situation.",
+        "UserId": "999-581-1925",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3f020268-01ef-4dd7-8e9a-2c223b8d3cb1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-11T08:23:34.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "I understand your frustration, Sarah. I will escalate this issue to a manager and they will be in contact with you shortly.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "510c72dc-7794-4c16-a630-31a5bfbc35e0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-11T08:24:02.2138179-05:00",
+        "ConversationId": "0a6ff5c5-fa12-4095-86b0-af44ea2e8e47",
+        "Value": "Thank you, I appreciate your help.",
+        "UserId": "999-581-1925",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-11T08:18:41.2138179-05:00",
+    "EndTime": "2024-03-11T08:24:02.2138179-05:00",
+    "Merged_content": "Hello, this is Charlotte Martinez from the travel agency. How may I assist you today?Yes, hi. My name is Sarah Johnson and I have an issue with my recent trip to Miami. There was bad weather and my flight with American Airlines was delayed for several hours. This caused me to miss an important meeting and I am very upset about it.I'm sorry to hear that, Sarah. Can you please provide me with your reservation details so I can look into this?Sure, my reservation number is 123456789 and my flight was AA123 departing from New York City on May 20th at 10am.Thank you for that information. I can understand how frustrating it must have been to miss your meeting. Unfortunately, bad weather is out of our control and can cause delays and cancellations. However, we can certainly look into compensation options for you. Can you tell me more about what you're looking for?I'm looking for some sort of refund or compensation for my missed meeting and the inconvenience caused by the delay. Is that possible?I understand, Sarah. Let me take a look at our options and see what we can do for you.Okay, thank you.I apologize for the delay, Sarah. Unfortunately, American Airlines' policy for compensation for weather-related delays is limited. However, I can certainly escalate this issue to a manager to see if there are any other options available. Would you like me to do that for you?Yes, please escalate this issue. I am very upset and disappointed with the handling of this situation.I understand your frustration, Sarah. I will escalate this issue to a manager and they will be in contact with you shortly.Thank you, I appreciate your help.",
+    "Merged_content_user": "Yes, hi. My name is Sarah Johnson and I have an issue with my recent trip to Miami. There was bad weather and my flight with American Airlines was delayed for several hours. This caused me to miss an important meeting and I am very upset about it.Sure, my reservation number is 123456789 and my flight was AA123 departing from New York City on May 20th at 10am.I'm looking for some sort of refund or compensation for my missed meeting and the inconvenience caused by the delay. Is that possible?Okay, thank you.Yes, please escalate this issue. I am very upset and disappointed with the handling of this situation.Thank you, I appreciate your help.",
+    "Merged_content_agent": "Hello, this is Charlotte Martinez from the travel agency. How may I assist you today?I'm sorry to hear that, Sarah. Can you please provide me with your reservation details so I can look into this?Thank you for that information. I can understand how frustrating it must have been to miss your meeting. Unfortunately, bad weather is out of our control and can cause delays and cancellations. However, we can certainly look into compensation options for you. Can you tell me more about what you're looking for?I understand, Sarah. Let me take a look at our options and see what we can do for you.I apologize for the delay, Sarah. Unfortunately, American Airlines' policy for compensation for weather-related delays is limited. However, I can certainly escalate this issue to a manager to see if there are any other options available. Would you like me to do that for you?I understand your frustration, Sarah. I will escalate this issue to a manager and they will be in contact with you shortly.",
+    "Full_conversation": "Agent: Hello, this is Charlotte Martinez from the travel agency. How may I assist you today?\nCustomer: Yes, hi. My name is Sarah Johnson and I have an issue with my recent trip to Miami. There was bad weather and my flight with American Airlines was delayed for several hours. This caused me to miss an important meeting and I am very upset about it.\nAgent: I'm sorry to hear that, Sarah. Can you please provide me with your reservation details so I can look into this?\nCustomer: Sure, my reservation number is 123456789 and my flight was AA123 departing from New York City on May 20th at 10am.\nAgent: Thank you for that information. I can understand how frustrating it must have been to miss your meeting. Unfortunately, bad weather is out of our control and can cause delays and cancellations. However, we can certainly look into compensation options for you. Can you tell me more about what you're looking for?\nCustomer: I'm looking for some sort of refund or compensation for my missed meeting and the inconvenience caused by the delay. Is that possible?\nAgent: I understand, Sarah. Let me take a look at our options and see what we can do for you.\nCustomer: Okay, thank you.\nAgent: I apologize for the delay, Sarah. Unfortunately, American Airlines' policy for compensation for weather-related delays is limited. However, I can certainly escalate this issue to a manager to see if there are any other options available. Would you like me to do that for you?\nCustomer: Yes, please escalate this issue. I am very upset and disappointed with the handling of this situation.\nAgent: I understand your frustration, Sarah. I will escalate this issue to a manager and they will be in contact with you shortly.\nCustomer: Thank you, I appreciate your help.\n"
+  }
+}

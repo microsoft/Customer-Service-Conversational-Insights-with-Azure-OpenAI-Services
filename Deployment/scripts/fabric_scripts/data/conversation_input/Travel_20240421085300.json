@@ -1,0 +1,244 @@
+{
+  "AgentName": "Harper Jackson",
+  "AgentId": "NUL2JV",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-298-5751",
+  "Conversation": {
+    "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+    "Messages": [
+      {
+        "Id": "64b73bc3-8019-4942-a683-a240c5ecd11f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T08:53:20.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Thank you for calling our travel agency. How may I assist you today?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b55783a5-3e24-46d6-9ce6-ffd25259965f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T08:53:40.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Hi, my name is Sarah Johnson. I'm having trouble with my American Airlines flight to New York City. I was wondering if you could help me.",
+        "UserId": "999-298-5751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "738e880d-f01d-407f-9180-fa8202fa1f99",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T08:54:10.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Of course, Sarah. I'd be happy to help you. What seems to be the issue exactly?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "75e6c022-cef3-4dfd-b81e-7070aa56ed88",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T08:54:34.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Well, my flight to New York City got delayed and I'm not sure if I'll be able to make it on time for my hotel reservation.",
+        "UserId": "999-298-5751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "051f00a4-de7f-4b44-a35e-e4c127e8cd52",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T08:55:02.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "I'm sorry to hear that Sarah. Let me take a look at your reservation details and see what we can do to help.",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "dcf8eaf9-8293-4306-aceb-f64252f6b0d0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T08:55:30.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Sure, my hotel is the Waldorf Astoria in New York City and my reservation is for January 10th",
+        "UserId": "999-298-5751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4b7d00a3-13c2-40ca-a23e-142f424edfb3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T08:55:49.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Alright, I see the reservation in our system. Let me contact the hotel and see if we can reschedule your reservation for a later date. In the meantime, let's try to find a new flight for you.",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d05f29bb-d011-47d3-b89e-2938e24ba81d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T08:56:20.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Okay, thank you. Do you have any suggestions for alternative flights?",
+        "UserId": "999-298-5751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1285f093-b798-4e26-94d2-7d51285f60bf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T08:56:59.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Yes, based on availability, I can offer you a United Airlines flight leaving from Washington D.C. with a layover in Philadelphia. The flight departs at 12 PM and arrives in New York at 3 PM. Or, we can try Delta Airlines with a layover in Atlanta. The flight departs at 11 AM and arrives in New York at 4 PM. Which one would you prefer?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a10d0da5-67a7-4853-bd20-8950f9f05752",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T08:57:22.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Hmm, I'm not sure. Can you give me a moment to think about it?",
+        "UserId": "999-298-5751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ed94097e-de2c-4d0d-baca-97e1f80ed37f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T08:57:56.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Absolutely, take your time Sarah. Let me know if you have any questions or if you need me to look up any other options.",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "de8f0acb-d35f-4d0f-a67c-9347d871e67a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T08:58:13.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Okay, I've decided to go with the United Airlines flight from Washington D.C. with a layover in Philadelphia. Can you book that for me?",
+        "UserId": "999-298-5751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c724e22c-f609-46f9-8be4-ead1e832c618",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T08:58:32.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Certainly, Sarah. Let me just confirm the details and process the booking for you. Your new flight will depart on January 10th at 12 PM ET, arriving at 3 PM ET. Please hold on while I make the necessary updates.",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5c9bbacb-ae0b-4c78-92c8-f08adc630fe2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T08:59:02.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "Thank you so much for your help. I really appreciate it.",
+        "UserId": "999-298-5751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "21ad1786-1617-4cf2-992d-f2380fa1bb50",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T08:59:30.5971351-05:00",
+        "ConversationId": "de4c05a8-0a46-4c21-bf72-535b5884324a",
+        "Value": "You're welcome, Sarah. I'm glad I could assist you with your travel plans. Have a great trip!",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-21T08:53:00.5971351-05:00",
+    "EndTime": "2024-04-21T08:59:30.5971351-05:00",
+    "Merged_content": "Thank you for calling our travel agency. How may I assist you today?Hi, my name is Sarah Johnson. I'm having trouble with my American Airlines flight to New York City. I was wondering if you could help me.Of course, Sarah. I'd be happy to help you. What seems to be the issue exactly?Well, my flight to New York City got delayed and I'm not sure if I'll be able to make it on time for my hotel reservation.I'm sorry to hear that Sarah. Let me take a look at your reservation details and see what we can do to help.Sure, my hotel is the Waldorf Astoria in New York City and my reservation is for January 10thAlright, I see the reservation in our system. Let me contact the hotel and see if we can reschedule your reservation for a later date. In the meantime, let's try to find a new flight for you.Okay, thank you. Do you have any suggestions for alternative flights?Yes, based on availability, I can offer you a United Airlines flight leaving from Washington D.C. with a layover in Philadelphia. The flight departs at 12 PM and arrives in New York at 3 PM. Or, we can try Delta Airlines with a layover in Atlanta. The flight departs at 11 AM and arrives in New York at 4 PM. Which one would you prefer?Hmm, I'm not sure. Can you give me a moment to think about it?Absolutely, take your time Sarah. Let me know if you have any questions or if you need me to look up any other options.Okay, I've decided to go with the United Airlines flight from Washington D.C. with a layover in Philadelphia. Can you book that for me?Certainly, Sarah. Let me just confirm the details and process the booking for you. Your new flight will depart on January 10th at 12 PM ET, arriving at 3 PM ET. Please hold on while I make the necessary updates.Thank you so much for your help. I really appreciate it.You're welcome, Sarah. I'm glad I could assist you with your travel plans. Have a great trip!",
+    "Merged_content_user": "Hi, my name is Sarah Johnson. I'm having trouble with my American Airlines flight to New York City. I was wondering if you could help me.Well, my flight to New York City got delayed and I'm not sure if I'll be able to make it on time for my hotel reservation.Sure, my hotel is the Waldorf Astoria in New York City and my reservation is for January 10thOkay, thank you. Do you have any suggestions for alternative flights?Hmm, I'm not sure. Can you give me a moment to think about it?Okay, I've decided to go with the United Airlines flight from Washington D.C. with a layover in Philadelphia. Can you book that for me?Thank you so much for your help. I really appreciate it.",
+    "Merged_content_agent": "Thank you for calling our travel agency. How may I assist you today?Of course, Sarah. I'd be happy to help you. What seems to be the issue exactly?I'm sorry to hear that Sarah. Let me take a look at your reservation details and see what we can do to help.Alright, I see the reservation in our system. Let me contact the hotel and see if we can reschedule your reservation for a later date. In the meantime, let's try to find a new flight for you.Yes, based on availability, I can offer you a United Airlines flight leaving from Washington D.C. with a layover in Philadelphia. The flight departs at 12 PM and arrives in New York at 3 PM. Or, we can try Delta Airlines with a layover in Atlanta. The flight departs at 11 AM and arrives in New York at 4 PM. Which one would you prefer?Absolutely, take your time Sarah. Let me know if you have any questions or if you need me to look up any other options.Certainly, Sarah. Let me just confirm the details and process the booking for you. Your new flight will depart on January 10th at 12 PM ET, arriving at 3 PM ET. Please hold on while I make the necessary updates.You're welcome, Sarah. I'm glad I could assist you with your travel plans. Have a great trip!",
+    "Full_conversation": "Agent: Thank you for calling our travel agency. How may I assist you today?\nCustomer: Hi, my name is Sarah Johnson. I'm having trouble with my American Airlines flight to New York City. I was wondering if you could help me.\nAgent: Of course, Sarah. I'd be happy to help you. What seems to be the issue exactly?\nCustomer: Well, my flight to New York City got delayed and I'm not sure if I'll be able to make it on time for my hotel reservation.\nAgent: I'm sorry to hear that Sarah. Let me take a look at your reservation details and see what we can do to help.\nCustomer: Sure, my hotel is the Waldorf Astoria in New York City and my reservation is for January 10th\nAgent: Alright, I see the reservation in our system. Let me contact the hotel and see if we can reschedule your reservation for a later date. In the meantime, let's try to find a new flight for you.\nCustomer: Okay, thank you. Do you have any suggestions for alternative flights?\nAgent: Yes, based on availability, I can offer you a United Airlines flight leaving from Washington D.C. with a layover in Philadelphia. The flight departs at 12 PM and arrives in New York at 3 PM. Or, we can try Delta Airlines with a layover in Atlanta. The flight departs at 11 AM and arrives in New York at 4 PM. Which one would you prefer?\nCustomer: Hmm, I'm not sure. Can you give me a moment to think about it?\nAgent: Absolutely, take your time Sarah. Let me know if you have any questions or if you need me to look up any other options.\nCustomer: Okay, I've decided to go with the United Airlines flight from Washington D.C. with a layover in Philadelphia. Can you book that for me?\nAgent: Certainly, Sarah. Let me just confirm the details and process the booking for you. Your new flight will depart on January 10th at 12 PM ET, arriving at 3 PM ET. Please hold on while I make the necessary updates.\nCustomer: Thank you so much for your help. I really appreciate it.\nAgent: You're welcome, Sarah. I'm glad I could assist you with your travel plans. Have a great trip!\n"
+  }
+}

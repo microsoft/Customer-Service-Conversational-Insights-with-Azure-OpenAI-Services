@@ -1,0 +1,199 @@
+{
+  "AgentName": "Nathan Walker",
+  "AgentId": "UO2KU9",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-389-1430",
+  "Conversation": {
+    "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+    "Messages": [
+      {
+        "Id": "74211dc2-9b87-4f02-9c0b-a8754ccec643",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-07T17:54:11.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "Thank you for calling the travel agency. This is Nathan Walker speaking. How can I assist you today?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1d44f316-f4e5-4afe-90ec-bd0aca653417",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-07T17:54:26.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "Hello Nathan, my name is Jane Smith and I am having trouble with my upcoming American Airlines flight to New York City. I was wondering if you could assist me with some compensation options?",
+        "UserId": "999-389-1430",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "602def1d-cd68-457f-ae18-56220d9966c5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-07T17:54:48.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "Of course Jane, I'd be happy to help you with that. Can you please provide me with some more details regarding your flight and the issue you are experiencing?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "55c87034-19cc-4c98-9738-82f1821257f8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-07T17:55:05.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "Yes, I was scheduled to depart from Chicago O'Hare airport on January 12th at 8am and arrive in LGA New York City at 11am. However, my flight was delayed by 3 hours and I am now very inconvenienced. I was wondering if I am entitled to any compensation?",
+        "UserId": "999-389-1430",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "93c162e9-14bf-4cc3-b334-8d6165738f7d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-07T17:55:38.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "I'm sorry to hear that Jane. Let's take a look at your options. American Airlines has a few compensation policies in place for delayed flights. One option is to request a refund for your ticket or to rebook your flight for a later time. You can also request compensation in the form of a travel voucher or frequent flyer miles.",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3841a915-c651-477a-8c96-c6f408acf360",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-07T17:56:11.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "Thank you for the options Nathan. Can you help me decide which option is best for me?",
+        "UserId": "999-389-1430",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "70fd12db-1ddd-4d84-af68-8dc822a1e405",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-07T17:56:44.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "Absolutely, Jane. Based on your travel plans and preferences, I would recommend either rebooking your flight or receiving a travel voucher. Rebooking your flight would allow you to arrive at your destination sooner and avoid any additional inconveniences. However, if you're flexible with your travel plans, a travel voucher could provide you with more flexibility for future travel. What do you think?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bbaf749a-4275-4276-bc2e-6a908e1fc997",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-07T17:56:59.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "Thank you for the recommendation Nathan. I think I will go with the travel voucher option for now. How do I go about requesting that?",
+        "UserId": "999-389-1430",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "491462a1-6887-414f-bea5-2c3caf13a12f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-07T17:57:38.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "I can assist you with that, Jane. Can you please provide me with your American Airlines flight number, departure date and time, and reservation number for your booking?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9e8c1577-0984-4011-8843-1a2c7491f07f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-07T17:57:57.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "My flight number is AA102, departure date is January 12th at 8am, and my reservation number is 123456789. My hotel reservation in New York City is at the Marriott Marquis with reservation number 987654321 for January 12th and 13th.",
+        "UserId": "999-389-1430",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5499aa4c-968b-4fa9-95f2-6c3c29e7f1af",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-07T17:58:29.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "Thank you Jane. I have submitted your request for a travel voucher and you should receive an email from American Airlines within 24-48 hours to confirm your compensation. Is there anything else I can assist you with?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e6e34f72-0f84-42db-9921-67c69a9464e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-07T17:58:58.185359-05:00",
+        "ConversationId": "11f2d119-8dd9-4cfb-8229-c2e6e6d82fac",
+        "Value": "No, that's all Nathan. Thank you for your help today.",
+        "UserId": "999-389-1430",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-07T17:53:56.185359-05:00",
+    "EndTime": "2024-04-07T17:58:58.185359-05:00",
+    "Merged_content": "Thank you for calling the travel agency. This is Nathan Walker speaking. How can I assist you today?Hello Nathan, my name is Jane Smith and I am having trouble with my upcoming American Airlines flight to New York City. I was wondering if you could assist me with some compensation options?Of course Jane, I'd be happy to help you with that. Can you please provide me with some more details regarding your flight and the issue you are experiencing?Yes, I was scheduled to depart from Chicago O'Hare airport on January 12th at 8am and arrive in LGA New York City at 11am. However, my flight was delayed by 3 hours and I am now very inconvenienced. I was wondering if I am entitled to any compensation?I'm sorry to hear that Jane. Let's take a look at your options. American Airlines has a few compensation policies in place for delayed flights. One option is to request a refund for your ticket or to rebook your flight for a later time. You can also request compensation in the form of a travel voucher or frequent flyer miles.Thank you for the options Nathan. Can you help me decide which option is best for me?Absolutely, Jane. Based on your travel plans and preferences, I would recommend either rebooking your flight or receiving a travel voucher. Rebooking your flight would allow you to arrive at your destination sooner and avoid any additional inconveniences. However, if you're flexible with your travel plans, a travel voucher could provide you with more flexibility for future travel. What do you think?Thank you for the recommendation Nathan. I think I will go with the travel voucher option for now. How do I go about requesting that?I can assist you with that, Jane. Can you please provide me with your American Airlines flight number, departure date and time, and reservation number for your booking?My flight number is AA102, departure date is January 12th at 8am, and my reservation number is 123456789. My hotel reservation in New York City is at the Marriott Marquis with reservation number 987654321 for January 12th and 13th.Thank you Jane. I have submitted your request for a travel voucher and you should receive an email from American Airlines within 24-48 hours to confirm your compensation. Is there anything else I can assist you with?No, that's all Nathan. Thank you for your help today.",
+    "Merged_content_user": "Hello Nathan, my name is Jane Smith and I am having trouble with my upcoming American Airlines flight to New York City. I was wondering if you could assist me with some compensation options?Yes, I was scheduled to depart from Chicago O'Hare airport on January 12th at 8am and arrive in LGA New York City at 11am. However, my flight was delayed by 3 hours and I am now very inconvenienced. I was wondering if I am entitled to any compensation?Thank you for the options Nathan. Can you help me decide which option is best for me?Thank you for the recommendation Nathan. I think I will go with the travel voucher option for now. How do I go about requesting that?My flight number is AA102, departure date is January 12th at 8am, and my reservation number is 123456789. My hotel reservation in New York City is at the Marriott Marquis with reservation number 987654321 for January 12th and 13th.No, that's all Nathan. Thank you for your help today.",
+    "Merged_content_agent": "Thank you for calling the travel agency. This is Nathan Walker speaking. How can I assist you today?Of course Jane, I'd be happy to help you with that. Can you please provide me with some more details regarding your flight and the issue you are experiencing?I'm sorry to hear that Jane. Let's take a look at your options. American Airlines has a few compensation policies in place for delayed flights. One option is to request a refund for your ticket or to rebook your flight for a later time. You can also request compensation in the form of a travel voucher or frequent flyer miles.Absolutely, Jane. Based on your travel plans and preferences, I would recommend either rebooking your flight or receiving a travel voucher. Rebooking your flight would allow you to arrive at your destination sooner and avoid any additional inconveniences. However, if you're flexible with your travel plans, a travel voucher could provide you with more flexibility for future travel. What do you think?I can assist you with that, Jane. Can you please provide me with your American Airlines flight number, departure date and time, and reservation number for your booking?Thank you Jane. I have submitted your request for a travel voucher and you should receive an email from American Airlines within 24-48 hours to confirm your compensation. Is there anything else I can assist you with?",
+    "Full_conversation": "Agent: Thank you for calling the travel agency. This is Nathan Walker speaking. How can I assist you today?\nCustomer: Hello Nathan, my name is Jane Smith and I am having trouble with my upcoming American Airlines flight to New York City. I was wondering if you could assist me with some compensation options?\nAgent: Of course Jane, I'd be happy to help you with that. Can you please provide me with some more details regarding your flight and the issue you are experiencing?\nCustomer: Yes, I was scheduled to depart from Chicago O'Hare airport on January 12th at 8am and arrive in LGA New York City at 11am. However, my flight was delayed by 3 hours and I am now very inconvenienced. I was wondering if I am entitled to any compensation?\nAgent: I'm sorry to hear that Jane. Let's take a look at your options. American Airlines has a few compensation policies in place for delayed flights. One option is to request a refund for your ticket or to rebook your flight for a later time. You can also request compensation in the form of a travel voucher or frequent flyer miles.\nCustomer: Thank you for the options Nathan. Can you help me decide which option is best for me?\nAgent: Absolutely, Jane. Based on your travel plans and preferences, I would recommend either rebooking your flight or receiving a travel voucher. Rebooking your flight would allow you to arrive at your destination sooner and avoid any additional inconveniences. However, if you're flexible with your travel plans, a travel voucher could provide you with more flexibility for future travel. What do you think?\nCustomer: Thank you for the recommendation Nathan. I think I will go with the travel voucher option for now. How do I go about requesting that?\nAgent: I can assist you with that, Jane. Can you please provide me with your American Airlines flight number, departure date and time, and reservation number for your booking?\nCustomer: My flight number is AA102, departure date is January 12th at 8am, and my reservation number is 123456789. My hotel reservation in New York City is at the Marriott Marquis with reservation number 987654321 for January 12th and 13th.\nAgent: Thank you Jane. I have submitted your request for a travel voucher and you should receive an email from American Airlines within 24-48 hours to confirm your compensation. Is there anything else I can assist you with?\nCustomer: No, that's all Nathan. Thank you for your help today.\n"
+  }
+}

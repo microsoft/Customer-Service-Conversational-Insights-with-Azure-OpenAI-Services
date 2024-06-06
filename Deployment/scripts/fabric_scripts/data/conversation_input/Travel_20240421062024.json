@@ -1,0 +1,169 @@
+{
+  "AgentName": "Aiden Clark",
+  "AgentId": "7J8IBO",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-870-9268",
+  "Conversation": {
+    "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+    "Messages": [
+      {
+        "Id": "f0f74979-3e13-4ef9-8f0c-6e898613013f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T06:20:45.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "Thank you for calling the travel agency, my name is Aiden Clark. How can I assist you today?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e1198ead-862c-479f-8639-44db695e7c2e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T06:21:04.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "I recently had a trip booked with your agency from New York City to Los Angeles on American Airlines.",
+        "UserId": "999-870-9268",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1eeeb549-9996-406a-b7c1-a391f1fd536d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T06:21:42.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "I'm sorry to hear that you had a bad experience, can you please let me know what happened?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b35f5bd7-2122-49fd-8dd1-9918baa977db",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T06:22:21.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "The weather was terrible in New York City and my flight was delayed for over 7 hours. I had to spend the entire day at the airport, missing my meetings in Los Angeles and ruining my entire trip.",
+        "UserId": "999-870-9268",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "56d8c591-f2f4-45b8-a7cf-70e08f72b26f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T06:22:45.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "I'm sorry to hear that the weather caused such a disruption to your travel plans. Did you speak to the airline about compensation?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2d9c6a9b-6cb8-400f-9657-8291d4f4573d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T06:23:17.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "Yes, I did. They offered me a small voucher that barely covered my expenses and it was disrespectful in light of the inconvenience caused by the delay.",
+        "UserId": "999-870-9268",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c4621384-be5d-42d0-88ca-1fbe233b3f42",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T06:23:33.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "I understand how frustrating this can be for you. Let me see what I can do to assist you further. Would you like me to contact American Airlines on your behalf?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "dcb8d5df-e2dd-43de-9889-567968ff7333",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T06:24:04.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "Yes, please do that. I want to see if I can get better compensation for the terrible experience.",
+        "UserId": "999-870-9268",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9bdf4bd3-3bc0-4b8c-a7be-8c847b7ab163",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-21T06:24:22.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "I will contact American Airlines and request better compensation for the inconvenience caused. Is there anything else I can assist you with?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "efd8ba11-e46c-457d-8dc4-bbe73cce16ad",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-21T06:24:45.4140719-05:00",
+        "ConversationId": "bbdd76fa-1a3e-454c-9d93-4d32bfdbb530",
+        "Value": "No, that's all. Thank you for your help!",
+        "UserId": "999-870-9268",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-21T06:20:24.4140719-05:00",
+    "EndTime": "2024-04-21T06:24:45.4140719-05:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Aiden Clark. How can I assist you today?I recently had a trip booked with your agency from New York City to Los Angeles on American Airlines.I'm sorry to hear that you had a bad experience, can you please let me know what happened?The weather was terrible in New York City and my flight was delayed for over 7 hours. I had to spend the entire day at the airport, missing my meetings in Los Angeles and ruining my entire trip.I'm sorry to hear that the weather caused such a disruption to your travel plans. Did you speak to the airline about compensation?Yes, I did. They offered me a small voucher that barely covered my expenses and it was disrespectful in light of the inconvenience caused by the delay.I understand how frustrating this can be for you. Let me see what I can do to assist you further. Would you like me to contact American Airlines on your behalf?Yes, please do that. I want to see if I can get better compensation for the terrible experience.I will contact American Airlines and request better compensation for the inconvenience caused. Is there anything else I can assist you with?No, that's all. Thank you for your help!",
+    "Merged_content_user": "I recently had a trip booked with your agency from New York City to Los Angeles on American Airlines.The weather was terrible in New York City and my flight was delayed for over 7 hours. I had to spend the entire day at the airport, missing my meetings in Los Angeles and ruining my entire trip.Yes, I did. They offered me a small voucher that barely covered my expenses and it was disrespectful in light of the inconvenience caused by the delay.Yes, please do that. I want to see if I can get better compensation for the terrible experience.No, that's all. Thank you for your help!",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Aiden Clark. How can I assist you today?I'm sorry to hear that you had a bad experience, can you please let me know what happened?I'm sorry to hear that the weather caused such a disruption to your travel plans. Did you speak to the airline about compensation?I understand how frustrating this can be for you. Let me see what I can do to assist you further. Would you like me to contact American Airlines on your behalf?I will contact American Airlines and request better compensation for the inconvenience caused. Is there anything else I can assist you with?",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Aiden Clark. How can I assist you today?\nCustomer: I recently had a trip booked with your agency from New York City to Los Angeles on American Airlines.\nAgent: I'm sorry to hear that you had a bad experience, can you please let me know what happened?\nCustomer: The weather was terrible in New York City and my flight was delayed for over 7 hours. I had to spend the entire day at the airport, missing my meetings in Los Angeles and ruining my entire trip.\nAgent: I'm sorry to hear that the weather caused such a disruption to your travel plans. Did you speak to the airline about compensation?\nCustomer: Yes, I did. They offered me a small voucher that barely covered my expenses and it was disrespectful in light of the inconvenience caused by the delay.\nAgent: I understand how frustrating this can be for you. Let me see what I can do to assist you further. Would you like me to contact American Airlines on your behalf?\nCustomer: Yes, please do that. I want to see if I can get better compensation for the terrible experience.\nAgent: I will contact American Airlines and request better compensation for the inconvenience caused. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you for your help!\n"
+  }
+}

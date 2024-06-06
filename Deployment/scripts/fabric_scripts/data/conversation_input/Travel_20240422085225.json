@@ -1,0 +1,394 @@
+{
+  "AgentName": "Harper Jackson",
+  "AgentId": "NUL2JV",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-288-9082",
+  "Conversation": {
+    "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+    "Messages": [
+      {
+        "Id": "2e9deedf-4a8f-4ce8-a26a-917e40f49b0b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T08:52:43.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Thank you for calling ABC Travel. My name is Harper Jackson. How may I assist you today?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "332bad86-7044-444f-a54a-ec555c8c7baf",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T08:52:59.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Hi Harper. My name is Sarah Smith and I have a question about my upcoming trip to New York City.",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f393ed4e-08fa-474b-9bc3-16a8253ab696",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T08:53:21.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Sure, Sarah. What can I assist you with?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1773da2a-f3fd-4b60-a1bb-25390ed963df",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T08:53:45.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Well, I have a flight booked with American Airlines but I recently received notice that there may be some changes to my flight.",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cc98c7d0-06c4-40e7-8e9b-9fd72192ec34",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T08:54:14.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "I'm sorry to hear that, Sarah. Can you please provide me with your flight number and departure date and time?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ec6c5a1a-ad75-4e4c-9e72-b49f288271e3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T08:54:32.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Yes, my flight number is AA1234 and I am scheduled to depart from Denver at 3:00pm on July 4th.",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7febaae2-2ce6-4ea2-bbd0-9dd3e3637855",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T08:54:47.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Thank you for that information, Sarah. Let me check to see if I can find any updates on your flight.",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "39f39e7b-b49e-4993-9085-f478c97ed36a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T08:55:09.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Okay, thank you.",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f8235c84-d4d4-4595-a214-95476a8fa810",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T08:55:32.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "I see that there is a delay for your flight, Sarah. It looks like it has been rescheduled to depart at 5:00pm instead.",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "10ec6c19-75f0-47da-97a1-a9710fee8534",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T08:56:02.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Oh no, that won't work for my schedule. Is there anything that American Airlines can do to compensate me for the inconvenience?",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "add2ce64-1ef8-4f8f-be68-60c0fb583719",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T08:56:17.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "I can certainly check with American Airlines on your behalf, Sarah. Would you like me to do that?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c8c5a2a5-1f65-4fb2-a3d1-f514019c5b8b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T08:56:32.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Yes, please. Thank you.",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a4bf34b2-e51c-49b3-a8e9-c3c647c366ad",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T08:57:10.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "I contacted American Airlines on your behalf, Sarah. They have offered to provide you with a $100 voucher towards a future flight. Would you like me to accept this offer?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "296ede1c-4b9d-4cf6-afda-5e4b71abf209",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T08:57:49.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Hmm, I'm not sure. Can you provide me with some other options?",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "11a54656-edb6-4798-aebe-33d7f8793d18",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T08:58:23.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Certainly, Sarah. Another option would be for American Airlines to book you on a different flight to New York City that can accommodate your schedule. However, I must warn you that there may be an additional cost associated with this option. Would you like me to check for available flights?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "14fcccf3-2158-41e1-b576-aa4c198b851d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T08:59:00.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Yes, please. That would be great.",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3efb74d9-4988-4b87-ae4a-8ac7262dcd0d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T08:59:21.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "After checking, Sarah, it looks like there is a direct flight with Delta Air Lines that departs from Denver at 2:00pm and arrives in New York City at 8:00pm on July 4th. Would you like to book this flight?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e088b8a8-ab48-421d-a033-d5379374febb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T08:59:51.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Hmm, let me think about it for a minute.",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c8939cc3-0909-4a2a-85bf-7098ff0d3ae0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T09:00:08.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Of course, take your time, Sarah.",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1db9388a-56e8-454a-988f-0bec958dfdb4",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T09:00:44.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Okay, I've made a decision. I will take the Delta Air Lines flight. Can you please help me with that booking?",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "00444183-f73d-4b93-9329-d175e4a9c48f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T09:01:11.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Absolutely, Sarah. Can I have your credit card information to process the transaction?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "61afbb83-ace2-464e-a367-b85985631a7e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T09:01:41.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Sure, let me grab my wallet. Okay, my credit card number is 1234-5678-9012-3456 and it expires on 12/24.",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f0cae7d3-50c9-414e-9fd3-7dd8bf0792a1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T09:02:05.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "Thank you, Sarah. I have processed your transaction for the Delta Air Lines flight. Your reservation number is DL5678 and your departure date and time is 2:00pm on July 4th from Denver to New York City. Is there anything else I can help you with today?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ce02a4dd-19e3-41bc-bab4-ab064a104d7d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T09:02:22.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "No, that's it. Thank you for your help, Harper. You've been very patient and helpful.",
+        "UserId": "999-288-9082",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "73b50146-f5bb-4149-96d9-53e98a83727a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T09:02:37.7449055-05:00",
+        "ConversationId": "cbd1dc22-7c03-4e00-a798-961298a6720d",
+        "Value": "You're welcome, Sarah. Have a great trip to New York City!",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-22T08:52:25.7449055-05:00",
+    "EndTime": "2024-04-22T09:02:37.7449055-05:00",
+    "Merged_content": "Thank you for calling ABC Travel. My name is Harper Jackson. How may I assist you today?Hi Harper. My name is Sarah Smith and I have a question about my upcoming trip to New York City.Sure, Sarah. What can I assist you with?Well, I have a flight booked with American Airlines but I recently received notice that there may be some changes to my flight.I'm sorry to hear that, Sarah. Can you please provide me with your flight number and departure date and time?Yes, my flight number is AA1234 and I am scheduled to depart from Denver at 3:00pm on July 4th.Thank you for that information, Sarah. Let me check to see if I can find any updates on your flight.Okay, thank you.I see that there is a delay for your flight, Sarah. It looks like it has been rescheduled to depart at 5:00pm instead.Oh no, that won't work for my schedule. Is there anything that American Airlines can do to compensate me for the inconvenience?I can certainly check with American Airlines on your behalf, Sarah. Would you like me to do that?Yes, please. Thank you.I contacted American Airlines on your behalf, Sarah. They have offered to provide you with a $100 voucher towards a future flight. Would you like me to accept this offer?Hmm, I'm not sure. Can you provide me with some other options?Certainly, Sarah. Another option would be for American Airlines to book you on a different flight to New York City that can accommodate your schedule. However, I must warn you that there may be an additional cost associated with this option. Would you like me to check for available flights?Yes, please. That would be great.After checking, Sarah, it looks like there is a direct flight with Delta Air Lines that departs from Denver at 2:00pm and arrives in New York City at 8:00pm on July 4th. Would you like to book this flight?Hmm, let me think about it for a minute.Of course, take your time, Sarah.Okay, I've made a decision. I will take the Delta Air Lines flight. Can you please help me with that booking?Absolutely, Sarah. Can I have your credit card information to process the transaction?Sure, let me grab my wallet. Okay, my credit card number is 1234-5678-9012-3456 and it expires on 12/24.Thank you, Sarah. I have processed your transaction for the Delta Air Lines flight. Your reservation number is DL5678 and your departure date and time is 2:00pm on July 4th from Denver to New York City. Is there anything else I can help you with today?No, that's it. Thank you for your help, Harper. You've been very patient and helpful.You're welcome, Sarah. Have a great trip to New York City!",
+    "Merged_content_user": "Hi Harper. My name is Sarah Smith and I have a question about my upcoming trip to New York City.Well, I have a flight booked with American Airlines but I recently received notice that there may be some changes to my flight.Yes, my flight number is AA1234 and I am scheduled to depart from Denver at 3:00pm on July 4th.Okay, thank you.Oh no, that won't work for my schedule. Is there anything that American Airlines can do to compensate me for the inconvenience?Yes, please. Thank you.Hmm, I'm not sure. Can you provide me with some other options?Yes, please. That would be great.Hmm, let me think about it for a minute.Okay, I've made a decision. I will take the Delta Air Lines flight. Can you please help me with that booking?Sure, let me grab my wallet. Okay, my credit card number is 1234-5678-9012-3456 and it expires on 12/24.No, that's it. Thank you for your help, Harper. You've been very patient and helpful.",
+    "Merged_content_agent": "Thank you for calling ABC Travel. My name is Harper Jackson. How may I assist you today?Sure, Sarah. What can I assist you with?I'm sorry to hear that, Sarah. Can you please provide me with your flight number and departure date and time?Thank you for that information, Sarah. Let me check to see if I can find any updates on your flight.I see that there is a delay for your flight, Sarah. It looks like it has been rescheduled to depart at 5:00pm instead.I can certainly check with American Airlines on your behalf, Sarah. Would you like me to do that?I contacted American Airlines on your behalf, Sarah. They have offered to provide you with a $100 voucher towards a future flight. Would you like me to accept this offer?Certainly, Sarah. Another option would be for American Airlines to book you on a different flight to New York City that can accommodate your schedule. However, I must warn you that there may be an additional cost associated with this option. Would you like me to check for available flights?After checking, Sarah, it looks like there is a direct flight with Delta Air Lines that departs from Denver at 2:00pm and arrives in New York City at 8:00pm on July 4th. Would you like to book this flight?Of course, take your time, Sarah.Absolutely, Sarah. Can I have your credit card information to process the transaction?Thank you, Sarah. I have processed your transaction for the Delta Air Lines flight. Your reservation number is DL5678 and your departure date and time is 2:00pm on July 4th from Denver to New York City. Is there anything else I can help you with today?You're welcome, Sarah. Have a great trip to New York City!",
+    "Full_conversation": "Agent: Thank you for calling ABC Travel. My name is Harper Jackson. How may I assist you today?\nCustomer: Hi Harper. My name is Sarah Smith and I have a question about my upcoming trip to New York City.\nAgent: Sure, Sarah. What can I assist you with?\nCustomer: Well, I have a flight booked with American Airlines but I recently received notice that there may be some changes to my flight.\nAgent: I'm sorry to hear that, Sarah. Can you please provide me with your flight number and departure date and time?\nCustomer: Yes, my flight number is AA1234 and I am scheduled to depart from Denver at 3:00pm on July 4th.\nAgent: Thank you for that information, Sarah. Let me check to see if I can find any updates on your flight.\nCustomer: Okay, thank you.\nAgent: I see that there is a delay for your flight, Sarah. It looks like it has been rescheduled to depart at 5:00pm instead.\nCustomer: Oh no, that won't work for my schedule. Is there anything that American Airlines can do to compensate me for the inconvenience?\nAgent: I can certainly check with American Airlines on your behalf, Sarah. Would you like me to do that?\nCustomer: Yes, please. Thank you.\nAgent: I contacted American Airlines on your behalf, Sarah. They have offered to provide you with a $100 voucher towards a future flight. Would you like me to accept this offer?\nCustomer: Hmm, I'm not sure. Can you provide me with some other options?\nAgent: Certainly, Sarah. Another option would be for American Airlines to book you on a different flight to New York City that can accommodate your schedule. However, I must warn you that there may be an additional cost associated with this option. Would you like me to check for available flights?\nCustomer: Yes, please. That would be great.\nAgent: After checking, Sarah, it looks like there is a direct flight with Delta Air Lines that departs from Denver at 2:00pm and arrives in New York City at 8:00pm on July 4th. Would you like to book this flight?\nCustomer: Hmm, let me think about it for a minute.\nAgent: Of course, take your time, Sarah.\nCustomer: Okay, I've made a decision. I will take the Delta Air Lines flight. Can you please help me with that booking?\nAgent: Absolutely, Sarah. Can I have your credit card information to process the transaction?\nCustomer: Sure, let me grab my wallet. Okay, my credit card number is 1234-5678-9012-3456 and it expires on 12/24.\nAgent: Thank you, Sarah. I have processed your transaction for the Delta Air Lines flight. Your reservation number is DL5678 and your departure date and time is 2:00pm on July 4th from Denver to New York City. Is there anything else I can help you with today?\nCustomer: No, that's it. Thank you for your help, Harper. You've been very patient and helpful.\nAgent: You're welcome, Sarah. Have a great trip to New York City!\n"
+  }
+}

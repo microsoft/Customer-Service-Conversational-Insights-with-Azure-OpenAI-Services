@@ -1,0 +1,334 @@
+{
+  "AgentName": "Benjamin Lee",
+  "AgentId": "2JE9H6",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-715-1055",
+  "Conversation": {
+    "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+    "Messages": [
+      {
+        "Id": "99809db9-b9c5-433f-bfbb-ff84d17c24a1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T01:54:42.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Hello, thank you for contacting our travel agency. My name is Benjamin. How may I assist you today?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1573859c-852b-449a-b947-e6c127321ebf",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T01:54:58.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Hi Benjamin, my name is Sarah Johnson. I have a question regarding my upcoming trip to New York City.",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a6a56c7f-1fc1-463d-a70b-f8625b5081ee",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T01:55:36.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Sure, I'd be happy to help. What can I assist you with?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "451af565-2e8c-4217-9723-cdbc7903cd04",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T01:56:14.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "I'm having some trouble with my American Airlines flight. It's been delayed and I'm not sure what my options are for compensation or rebooking.",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5d93653e-031d-437e-aa70-675bcb214487",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T01:56:51.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "I'm sorry to hear that. Do you have your flight number and departure date and time handy?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f130e7a5-909f-4442-9cb6-ddd8881c5949",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T01:57:18.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Yes, my flight number is AA1234 and the departure date and time is May 10th at 2:30pm.",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "855db338-d299-4533-87f1-a4b8908bf6f0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T01:57:42.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Thank you for that information. Let me check what your options are. Would you like to rebook your flight or receive compensation?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "85e3aff8-7e0c-4173-acc4-5ca0f1312c24",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T01:58:05.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "I'm not quite sure. What are my options for each?",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "842cb280-b82d-4626-b083-5601bc747c92",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T01:58:24.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "For rebooking, we can either reschedule your flight for a different day or time that works for you, or look into alternative airlines. For compensation, we can offer a voucher for future travel or a refund for the original ticket cost.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3bd495b2-9a59-4fa1-8c47-b41465eb3afa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T01:59:00.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Okay, thank you for explaining that. I think I would prefer to rebook my flight. Can you help me with that?",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2ff0f0ca-8a3a-4992-b31e-0641aefa6942",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T01:59:19.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Absolutely. Let me see what flights are available for the dates you prefer. What dates are you looking at?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "67f3691c-ab19-495c-9162-31cb01b2eeee",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T01:59:47.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "I was hoping to still arrive on May 10th if possible, but any time would work.",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8f3a4a4e-b60d-4aaa-8737-8546bedfb436",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T02:00:25.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "I'm seeing a few options for flights on May 10th. Would you prefer a morning, afternoon, or evening flight?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d7fa2136-2dfe-48ee-9a4a-dfebd2cf94e3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T02:01:00.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "I think an afternoon flight would work best for me.",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "62efded0-89de-4150-b1d6-52d1cdfde2a0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T02:01:27.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Great, I found a flight that departs at 1:30pm and arrives at 4:00pm. Would that work for you?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3e553798-d72b-4006-b343-24b83b84fc47",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T02:01:44.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Yes, that sounds perfect. How do we proceed?",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "76647530-dca8-4b9d-a401-f65a9013da70",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T02:02:23.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "I will need to confirm some information in your reservation. What is your American Airlines reservation number and the date that you made the booking?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c9a2ccb0-2452-4416-beb2-b5d378857e3d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T02:02:40.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "My reservation number is XYZ123 and I booked the flight on April 1st, 2022.",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3546b981-f833-4f77-9f9b-2d1ab692ddce",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T02:03:04.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "Great, thank you for that information. I have made the changes to your reservation and sent a confirmation to your email on file. Is there anything else I can assist you with today?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "51ddf33f-b668-4f14-b70f-9a7548bc04a5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T02:03:22.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "No, that's all. Thank you so much for your help, Benjamin.",
+        "UserId": "999-715-1055",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d577b24c-2e62-46e2-af7f-b5da333528c6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T02:04:01.1870052-05:00",
+        "ConversationId": "ba50a10a-ce48-4fe9-a7e4-78b3d569ab6b",
+        "Value": "You're welcome, Sarah. Have a wonderful trip to New York City!",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-02T01:54:20.1870052-05:00",
+    "EndTime": "2024-06-02T02:04:01.1870052-05:00",
+    "Merged_content": "Hello, thank you for contacting our travel agency. My name is Benjamin. How may I assist you today?Hi Benjamin, my name is Sarah Johnson. I have a question regarding my upcoming trip to New York City.Sure, I'd be happy to help. What can I assist you with?I'm having some trouble with my American Airlines flight. It's been delayed and I'm not sure what my options are for compensation or rebooking.I'm sorry to hear that. Do you have your flight number and departure date and time handy?Yes, my flight number is AA1234 and the departure date and time is May 10th at 2:30pm.Thank you for that information. Let me check what your options are. Would you like to rebook your flight or receive compensation?I'm not quite sure. What are my options for each?For rebooking, we can either reschedule your flight for a different day or time that works for you, or look into alternative airlines. For compensation, we can offer a voucher for future travel or a refund for the original ticket cost.Okay, thank you for explaining that. I think I would prefer to rebook my flight. Can you help me with that?Absolutely. Let me see what flights are available for the dates you prefer. What dates are you looking at?I was hoping to still arrive on May 10th if possible, but any time would work.I'm seeing a few options for flights on May 10th. Would you prefer a morning, afternoon, or evening flight?I think an afternoon flight would work best for me.Great, I found a flight that departs at 1:30pm and arrives at 4:00pm. Would that work for you?Yes, that sounds perfect. How do we proceed?I will need to confirm some information in your reservation. What is your American Airlines reservation number and the date that you made the booking?My reservation number is XYZ123 and I booked the flight on April 1st, 2022.Great, thank you for that information. I have made the changes to your reservation and sent a confirmation to your email on file. Is there anything else I can assist you with today?No, that's all. Thank you so much for your help, Benjamin.You're welcome, Sarah. Have a wonderful trip to New York City!",
+    "Merged_content_user": "Hi Benjamin, my name is Sarah Johnson. I have a question regarding my upcoming trip to New York City.I'm having some trouble with my American Airlines flight. It's been delayed and I'm not sure what my options are for compensation or rebooking.Yes, my flight number is AA1234 and the departure date and time is May 10th at 2:30pm.I'm not quite sure. What are my options for each?Okay, thank you for explaining that. I think I would prefer to rebook my flight. Can you help me with that?I was hoping to still arrive on May 10th if possible, but any time would work.I think an afternoon flight would work best for me.Yes, that sounds perfect. How do we proceed?My reservation number is XYZ123 and I booked the flight on April 1st, 2022.No, that's all. Thank you so much for your help, Benjamin.",
+    "Merged_content_agent": "Hello, thank you for contacting our travel agency. My name is Benjamin. How may I assist you today?Sure, I'd be happy to help. What can I assist you with?I'm sorry to hear that. Do you have your flight number and departure date and time handy?Thank you for that information. Let me check what your options are. Would you like to rebook your flight or receive compensation?For rebooking, we can either reschedule your flight for a different day or time that works for you, or look into alternative airlines. For compensation, we can offer a voucher for future travel or a refund for the original ticket cost.Absolutely. Let me see what flights are available for the dates you prefer. What dates are you looking at?I'm seeing a few options for flights on May 10th. Would you prefer a morning, afternoon, or evening flight?Great, I found a flight that departs at 1:30pm and arrives at 4:00pm. Would that work for you?I will need to confirm some information in your reservation. What is your American Airlines reservation number and the date that you made the booking?Great, thank you for that information. I have made the changes to your reservation and sent a confirmation to your email on file. Is there anything else I can assist you with today?You're welcome, Sarah. Have a wonderful trip to New York City!",
+    "Full_conversation": "Agent: Hello, thank you for contacting our travel agency. My name is Benjamin. How may I assist you today?\nCustomer: Hi Benjamin, my name is Sarah Johnson. I have a question regarding my upcoming trip to New York City.\nAgent: Sure, I'd be happy to help. What can I assist you with?\nCustomer: I'm having some trouble with my American Airlines flight. It's been delayed and I'm not sure what my options are for compensation or rebooking.\nAgent: I'm sorry to hear that. Do you have your flight number and departure date and time handy?\nCustomer: Yes, my flight number is AA1234 and the departure date and time is May 10th at 2:30pm.\nAgent: Thank you for that information. Let me check what your options are. Would you like to rebook your flight or receive compensation?\nCustomer: I'm not quite sure. What are my options for each?\nAgent: For rebooking, we can either reschedule your flight for a different day or time that works for you, or look into alternative airlines. For compensation, we can offer a voucher for future travel or a refund for the original ticket cost.\nCustomer: Okay, thank you for explaining that. I think I would prefer to rebook my flight. Can you help me with that?\nAgent: Absolutely. Let me see what flights are available for the dates you prefer. What dates are you looking at?\nCustomer: I was hoping to still arrive on May 10th if possible, but any time would work.\nAgent: I'm seeing a few options for flights on May 10th. Would you prefer a morning, afternoon, or evening flight?\nCustomer: I think an afternoon flight would work best for me.\nAgent: Great, I found a flight that departs at 1:30pm and arrives at 4:00pm. Would that work for you?\nCustomer: Yes, that sounds perfect. How do we proceed?\nAgent: I will need to confirm some information in your reservation. What is your American Airlines reservation number and the date that you made the booking?\nCustomer: My reservation number is XYZ123 and I booked the flight on April 1st, 2022.\nAgent: Great, thank you for that information. I have made the changes to your reservation and sent a confirmation to your email on file. Is there anything else I can assist you with today?\nCustomer: No, that's all. Thank you so much for your help, Benjamin.\nAgent: You're welcome, Sarah. Have a wonderful trip to New York City!\n"
+  }
+}

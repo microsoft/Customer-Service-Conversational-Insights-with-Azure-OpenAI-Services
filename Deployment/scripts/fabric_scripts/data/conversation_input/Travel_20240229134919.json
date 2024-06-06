@@ -1,0 +1,244 @@
+{
+  "AgentName": "Amelia Hernandez",
+  "AgentId": "Q8BBAU",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-419-7039",
+  "Conversation": {
+    "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+    "Messages": [
+      {
+        "Id": "9f8c885f-6c50-4002-8b0f-7d5914c2e23e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T13:49:54.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Thank you for calling our travel agency, this is Amelia. How may I assist you today?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3d17c9ba-6a60-4aa3-a1c6-58461bc9b3e9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T13:50:25.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Hi Amelia, my name is Jamie Smith and I'm having trouble with my upcoming American Airlines flight and can't decide what to do. Can you help me?",
+        "UserId": "999-419-7039",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b599a252-cce0-4d74-b7ca-e7f151a91845",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T13:50:41.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Of course Jamie, I'd be happy to help. Can you tell me your origin and destination cities, as well as your flight number and departure date and time?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "dde0d2e5-da28-4637-8e43-5883766a8d07",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T13:50:57.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Sure, my flight is AA123 departing from New York City on May 5th at 10am and arriving in Dallas at 1pm.",
+        "UserId": "999-419-7039",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0529088f-9ce3-4918-a949-45501ed08518",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T13:51:17.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "I see, what seems to be the issue with your flight Jamie?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "62516b42-3089-4a19-b1ce-0a2eaac6e9e3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T13:51:44.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Well, I received an email from American Airlines saying my flight has been delayed by 5 hours. I'm not sure if I should wait it out or try to find another option.",
+        "UserId": "999-419-7039",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fdba6c65-d293-46de-812d-4ebfd9c962a4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T13:52:20.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "I understand your concern Jamie. I can help you look up alternative options and advise you on what I think would be the best choice for your situation. Would you like me to proceed?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fcfa2695-121e-420b-b948-08dabb3d17eb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T13:52:58.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Yes please, I'll wait for your suggestions.",
+        "UserId": "999-419-7039",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a133fdd7-5f4d-4c61-85a2-c05092d19588",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T13:53:14.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Alright Jamie, based on my research, you have a few options. One would be to wait out the delay and take the flight as scheduled, receiving compensation for the delay. Or, you could potentially switch to another flight departing from a nearby airport or on a different airline. Lastly, you could also look into cancelling your trip altogether and receiving a full refund.",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "db6bd5d4-1f3d-4698-84f8-ae14a8eb3cb2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T13:53:37.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Thank you for those options Amelia. I'm still undecided though. What do you think would be the best choice?",
+        "UserId": "999-419-7039",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "db95117f-9a5c-4afe-989c-90ec0177624c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T13:54:08.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Based on their compensation policy and your needs, I believe the best choice would be to take the flight as scheduled and receive the compensation. However, ultimately the decision is up to you Jamie. Would you like me to assist you with any further steps?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "77af7bf3-ea9c-4e4a-aee9-43762efca64a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T13:54:32.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "Yes please, what should I do to receive the compensation?",
+        "UserId": "999-419-7039",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b32121c1-5c1c-4ff0-b871-feb7a15c78f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T13:55:10.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "You can contact American Airlines directly to initiate the compensation process or I can assist you in making the call now if you'd like.",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "60dbb676-fa98-44cf-a24f-63380d0c6253",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-02-29T13:55:46.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "I think I'll contact them myself. Thank you for your help Amelia!",
+        "UserId": "999-419-7039",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4615533f-028f-4e7b-af41-f5e537e010c3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-02-29T13:56:08.6188354-06:00",
+        "ConversationId": "13993e1e-14f1-4719-afe2-fce6740ac171",
+        "Value": "You're welcome Jamie! Let me know if you need any further assistance or have any other questions.",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-02-29T13:49:19.6188354-06:00",
+    "EndTime": "2024-02-29T13:56:08.6188354-06:00",
+    "Merged_content": "Thank you for calling our travel agency, this is Amelia. How may I assist you today?Hi Amelia, my name is Jamie Smith and I'm having trouble with my upcoming American Airlines flight and can't decide what to do. Can you help me?Of course Jamie, I'd be happy to help. Can you tell me your origin and destination cities, as well as your flight number and departure date and time?Sure, my flight is AA123 departing from New York City on May 5th at 10am and arriving in Dallas at 1pm.I see, what seems to be the issue with your flight Jamie?Well, I received an email from American Airlines saying my flight has been delayed by 5 hours. I'm not sure if I should wait it out or try to find another option.I understand your concern Jamie. I can help you look up alternative options and advise you on what I think would be the best choice for your situation. Would you like me to proceed?Yes please, I'll wait for your suggestions.Alright Jamie, based on my research, you have a few options. One would be to wait out the delay and take the flight as scheduled, receiving compensation for the delay. Or, you could potentially switch to another flight departing from a nearby airport or on a different airline. Lastly, you could also look into cancelling your trip altogether and receiving a full refund.Thank you for those options Amelia. I'm still undecided though. What do you think would be the best choice?Based on their compensation policy and your needs, I believe the best choice would be to take the flight as scheduled and receive the compensation. However, ultimately the decision is up to you Jamie. Would you like me to assist you with any further steps?Yes please, what should I do to receive the compensation?You can contact American Airlines directly to initiate the compensation process or I can assist you in making the call now if you'd like.I think I'll contact them myself. Thank you for your help Amelia!You're welcome Jamie! Let me know if you need any further assistance or have any other questions.",
+    "Merged_content_user": "Hi Amelia, my name is Jamie Smith and I'm having trouble with my upcoming American Airlines flight and can't decide what to do. Can you help me?Sure, my flight is AA123 departing from New York City on May 5th at 10am and arriving in Dallas at 1pm.Well, I received an email from American Airlines saying my flight has been delayed by 5 hours. I'm not sure if I should wait it out or try to find another option.Yes please, I'll wait for your suggestions.Thank you for those options Amelia. I'm still undecided though. What do you think would be the best choice?Yes please, what should I do to receive the compensation?I think I'll contact them myself. Thank you for your help Amelia!",
+    "Merged_content_agent": "Thank you for calling our travel agency, this is Amelia. How may I assist you today?Of course Jamie, I'd be happy to help. Can you tell me your origin and destination cities, as well as your flight number and departure date and time?I see, what seems to be the issue with your flight Jamie?I understand your concern Jamie. I can help you look up alternative options and advise you on what I think would be the best choice for your situation. Would you like me to proceed?Alright Jamie, based on my research, you have a few options. One would be to wait out the delay and take the flight as scheduled, receiving compensation for the delay. Or, you could potentially switch to another flight departing from a nearby airport or on a different airline. Lastly, you could also look into cancelling your trip altogether and receiving a full refund.Based on their compensation policy and your needs, I believe the best choice would be to take the flight as scheduled and receive the compensation. However, ultimately the decision is up to you Jamie. Would you like me to assist you with any further steps?You can contact American Airlines directly to initiate the compensation process or I can assist you in making the call now if you'd like.You're welcome Jamie! Let me know if you need any further assistance or have any other questions.",
+    "Full_conversation": "Agent: Thank you for calling our travel agency, this is Amelia. How may I assist you today?\nCustomer: Hi Amelia, my name is Jamie Smith and I'm having trouble with my upcoming American Airlines flight and can't decide what to do. Can you help me?\nAgent: Of course Jamie, I'd be happy to help. Can you tell me your origin and destination cities, as well as your flight number and departure date and time?\nCustomer: Sure, my flight is AA123 departing from New York City on May 5th at 10am and arriving in Dallas at 1pm.\nAgent: I see, what seems to be the issue with your flight Jamie?\nCustomer: Well, I received an email from American Airlines saying my flight has been delayed by 5 hours. I'm not sure if I should wait it out or try to find another option.\nAgent: I understand your concern Jamie. I can help you look up alternative options and advise you on what I think would be the best choice for your situation. Would you like me to proceed?\nCustomer: Yes please, I'll wait for your suggestions.\nAgent: Alright Jamie, based on my research, you have a few options. One would be to wait out the delay and take the flight as scheduled, receiving compensation for the delay. Or, you could potentially switch to another flight departing from a nearby airport or on a different airline. Lastly, you could also look into cancelling your trip altogether and receiving a full refund.\nCustomer: Thank you for those options Amelia. I'm still undecided though. What do you think would be the best choice?\nAgent: Based on their compensation policy and your needs, I believe the best choice would be to take the flight as scheduled and receive the compensation. However, ultimately the decision is up to you Jamie. Would you like me to assist you with any further steps?\nCustomer: Yes please, what should I do to receive the compensation?\nAgent: You can contact American Airlines directly to initiate the compensation process or I can assist you in making the call now if you'd like.\nCustomer: I think I'll contact them myself. Thank you for your help Amelia!\nAgent: You're welcome Jamie! Let me know if you need any further assistance or have any other questions.\n"
+  }
+}
