@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.28.1.47646",
-      "templateHash": "3395596109362463009"
+      "templateHash": "5421077450989267653"
     }
   },
   "parameters": {
@@ -20,6 +20,12 @@
     "location": {
       "type": "string",
       "defaultValue": "[resourceGroup().location]"
+    },
+    "fabricWorkspaceId": {
+      "type": "string",
+      "metadata": {
+        "description": "Fabric Workspace Id if you have one, else leave it empty. "
+      }
     }
   },
   "variables": {
@@ -684,6 +690,93 @@
       "dependsOn": [
         "[resourceId('Microsoft.Resources/deployments', 'deploy_azure_ai_service')]",
         "[resourceId('Microsoft.Resources/deployments', 'deploy_azure_open_ai')]",
+        "[extensionResourceId(format('/subscriptions/{0}/resourceGroups/{1}', subscription().subscriptionId, resourceGroup().name), 'Microsoft.Resources/deployments', 'deploy_managed_identity')]"
+      ]
+    },
+    {
+      "condition": "[not(equals(parameters('fabricWorkspaceId'), ''))]",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2022-09-01",
+      "name": "deploy_fabric_scripts",
+      "properties": {
+        "expressionEvaluationOptions": {
+          "scope": "inner"
+        },
+        "mode": "Incremental",
+        "parameters": {
+          "solutionLocation": {
+            "value": "[variables('solutionLocation')]"
+          },
+          "identity": {
+            "value": "[reference(extensionResourceId(format('/subscriptions/{0}/resourceGroups/{1}', subscription().subscriptionId, resourceGroup().name), 'Microsoft.Resources/deployments', 'deploy_managed_identity'), '2022-09-01').outputs.managedIdentityOutput.value.id]"
+          },
+          "baseUrl": {
+            "value": "[variables('baseUrl')]"
+          },
+          "keyVaultName": {
+            "value": "[reference(extensionResourceId(format('/subscriptions/{0}/resourceGroups/{1}', subscription().subscriptionId, resourceGroup().name), 'Microsoft.Resources/deployments', 'deploy_keyvault'), '2022-09-01').outputs.keyvaultOutput.value.name]"
+          },
+          "fabricWorkspaceId": {
+            "value": "[parameters('fabricWorkspaceId')]"
+          }
+        },
+        "template": {
+          "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+          "contentVersion": "1.0.0.0",
+          "metadata": {
+            "_generator": {
+              "name": "bicep",
+              "version": "0.28.1.47646",
+              "templateHash": "13329366343147328478"
+            }
+          },
+          "parameters": {
+            "solutionLocation": {
+              "type": "string",
+              "metadata": {
+                "description": "Specifies the location for resources."
+              }
+            },
+            "baseUrl": {
+              "type": "string"
+            },
+            "keyVaultName": {
+              "type": "string"
+            },
+            "identity": {
+              "type": "string"
+            },
+            "fabricWorkspaceId": {
+              "type": "string"
+            }
+          },
+          "resources": [
+            {
+              "type": "Microsoft.Resources/deploymentScripts",
+              "apiVersion": "2020-10-01",
+              "name": "create_fabric_items",
+              "kind": "AzureCLI",
+              "location": "[parameters('solutionLocation')]",
+              "identity": {
+                "type": "UserAssigned",
+                "userAssignedIdentities": {
+                  "[format('{0}', parameters('identity'))]": {}
+                }
+              },
+              "properties": {
+                "azCliVersion": "2.52.0",
+                "primaryScriptUri": "[format('{0}Deployment/scripts/run_fabric_items_scripts.sh', parameters('baseUrl'))]",
+                "arguments": "[format('{0} {1} {2}', parameters('baseUrl'), parameters('keyVaultName'), parameters('fabricWorkspaceId'))]",
+                "timeout": "PT1H",
+                "retentionInterval": "PT1H",
+                "cleanupPreference": "OnSuccess"
+              }
+            }
+          ]
+        }
+      },
+      "dependsOn": [
+        "[extensionResourceId(format('/subscriptions/{0}/resourceGroups/{1}', subscription().subscriptionId, resourceGroup().name), 'Microsoft.Resources/deployments', 'deploy_keyvault')]",
         "[extensionResourceId(format('/subscriptions/{0}/resourceGroups/{1}', subscription().subscriptionId, resourceGroup().name), 'Microsoft.Resources/deployments', 'deploy_managed_identity')]"
       ]
     }
