@@ -99,7 +99,7 @@ except:
   env_res_id = ''
 
 #create notebook items
-notebook_names =['pipeline_notebook','00_process_json_files','01_process_audio_files', '02_enrich_audio_data', '03_move_dates_forward', '04_create_calendar_data']
+notebook_names =['pipeline_notebook','00_process_json_files','01_process_audio_files', '02_enrich_audio_data', '03_post_processing.ipynb', '04_create_calendar_data']
 # notebook_names =['process_data_new']
 
 # add sleep timer
