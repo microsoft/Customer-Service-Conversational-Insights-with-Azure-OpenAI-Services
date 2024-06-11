@@ -8,7 +8,7 @@ param solutionPrefix string
 param location string = resourceGroup().location
 
 @description('Fabric Workspace Id if you have one, else leave it empty. ')
-// param fabricWorkspaceId string
+param fabricWorkspaceId string
 
 var resourceGroupLocation = location
 
