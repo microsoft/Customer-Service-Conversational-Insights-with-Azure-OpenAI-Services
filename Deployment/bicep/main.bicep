@@ -8,7 +8,7 @@ param solutionPrefix string
 param location string = resourceGroup().location
 
 @description('Fabric Workspace Id if you have one, else leave it empty. ')
-param fabricWorkspaceId string
+//param fabricWorkspaceId string
 
 var resourceGroupLocation = location
 
@@ -67,15 +67,15 @@ module keyvaultModule 'deploy_keyvault.bicep' = {
 }
 
 
-// ========== Fabric ========== //
-module createFabricItems 'deploy_fabric_scripts.bicep' = if (fabricWorkspaceId != '') {
-  name : 'deploy_fabric_scripts'
-  params:{
-    solutionLocation: solutionLocation
-    identity:managedIdentityModule.outputs.managedIdentityOutput.id
-    baseUrl:baseUrl
-    keyVaultName:keyvaultModule.outputs.keyvaultOutput.name
-    fabricWorkspaceId:fabricWorkspaceId
-  }
-  dependsOn:[keyvaultModule]
-}
+// // ========== Fabric ========== //
+// module createFabricItems 'deploy_fabric_scripts.bicep' = if (fabricWorkspaceId != '') {
+//   name : 'deploy_fabric_scripts'
+//   params:{
+//     solutionLocation: solutionLocation
+//     identity:managedIdentityModule.outputs.managedIdentityOutput.id
+//     baseUrl:baseUrl
+//     keyVaultName:keyvaultModule.outputs.keyvaultOutput.name
+//     fabricWorkspaceId:fabricWorkspaceId
+//   }
+//   dependsOn:[keyvaultModule]
+// }
