@@ -146,9 +146,10 @@ for notebook_name in notebook_names:
         }
     }
     
-    time.sleep(120)
     fabric_response = requests.post(fabric_items_url, headers=fabric_headers, json=notebook_data)
     #print(fabric_response.json())
+
+time.sleep(120)
 
 # get wrapper notebook id
 fabric_notebooks_url = f"https://api.fabric.microsoft.com/v1/workspaces/{workspaceId}/notebooks"
