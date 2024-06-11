@@ -112,9 +112,9 @@ One-click deploy
      3.   Run the run the following command: 
           1.   az login
           2.   rm -rf ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services
-          3.   git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services
-          4.   cd ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/Deployment/scripts/fabric_scripts
-          5.   sh ./run_fabric_items_scripts.sh keyvault_param workspaceid_param solutionprefix_param
+          3.   ```git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
+          4.   ```cd ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/Deployment/scripts/fabric_scripts```
+          5.   ```sh ./run_fabric_items_scripts.sh keyvault_param workspaceid_param solutionprefix_param```
                1.   keyvault_param - the name of the keyvault that was created in Step 1
                2.   workspaceid_param - the workspaceid created in Step 2
                3.   solutionprefix_param - prefix used to append to lakehouse upon creation
@@ -124,7 +124,7 @@ One-click deploy
          3.   Click on Settings icon
          4.   In right panel, click copy icon for SQL connection String (needed for next step)
          5.   Copy the Lakehouse name from workspace (needed for next steps)
-    1.   Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
+     5.   Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
 4.   Deploy Power BI Report
      1.   Download the .pbix file from repo (link).
      2.   Open Power BI report in Power BI Dashboard
