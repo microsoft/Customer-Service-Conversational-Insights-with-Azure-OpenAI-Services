@@ -110,8 +110,8 @@ One-click deploy
      1.   Navigate to ([Azure Portal](https://portal.azure.com/))
      2.   Click on Azure Cloud Shell in the top right of navigation Menu (add image)
      3.   Run the run the following command: 
-          1.   az login
-          2.   rm -rf ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services
+          1.   ```az login``` ***Follow instructions in Azure Cloud Shell for login instructions
+          2.   ```rm -rf ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
           3.   ```git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
           4.   ```cd ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/Deployment/scripts/fabric_scripts```
           5.   ```sh ./run_fabric_items_scripts.sh keyvault_param workspaceid_param solutionprefix_param```
