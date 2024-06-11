@@ -5,7 +5,7 @@ echo "started the script"
 keyvaultName="$1"
 fabricWorkspaceId="$2"
 solutionName="$3"
-resourcegroupName="$4"
+resourceGroupName="$4"
 subscriptionId="$5"
 
 # run two scripts
@@ -17,8 +17,8 @@ echo "User Id: $signed_user_id"
 
 echo "assigning role"
 # assign Key Vault Administrator Role to user with resource group scope
-assign_ed=$(az role assignment create --assignee $signed_user_id --role "Key Vault Administrator" --scope "/subscriptions/$subscriptionId/resourceGroups/$resourcegroupName/providers/Microsoft.KeyVault/vaults/$keyvaultName")
-echo $assign_ed
+assign_ed=$(az role assignment create --assignee $signed_user_id --role "Key Vault Administrator" --scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.KeyVault/vaults/$keyvaultName")
+echo "print user id: $signed_user_id  subscriptionid: $subscriptionId resource group name: $resourceGroupName keyvault name: $keyvaultName "
 
 #Replace key vault name and workspace id in the python files
 sed -i "s/kv_to-be-replaced/${keyvaultName}/g" "create_fabric_items.py"
