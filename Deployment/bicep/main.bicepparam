@@ -1,3 +1,3 @@
 using './master.bicep'
 
-param solutionPrefix = 'ckmbk'
+param solutionPrefix = 'ckm'

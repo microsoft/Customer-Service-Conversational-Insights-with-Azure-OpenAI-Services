@@ -8,9 +8,9 @@ from glob import iglob
 import time
 
 
-# credential = DefaultAzureCredential()
-from azure.identity import AzureCliCredential
-credential = AzureCliCredential()
+credential = DefaultAzureCredential()
+# from azure.identity import AzureCliCredential
+# credential = AzureCliCredential()
 
 cred = credential.get_token('https://api.fabric.microsoft.com/.default')
 token = cred.token
