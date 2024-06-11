@@ -11,8 +11,10 @@ subscriptionId="$5"
 # run two scripts
 
 # get signed user
+echo "Getting signed in user id"
 signed_user_id=$(az ad signed-in-user show --query id)
 
+echo "assigning role"
 # assign Key Vault Administrator Role to user with resource group scope
 az role assignment create --assignee $signed_user_id --role "Key Vault Administrator" --scope "/subscriptions/$subscriptionId/resourceGroups/$resourcegroupName/providers/Microsoft.KeyVault/vaults/$keyvaultName"
 
