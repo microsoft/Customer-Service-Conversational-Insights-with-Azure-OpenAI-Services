@@ -13,7 +13,7 @@ subscriptionId="$5"
 # get signed user
 echo "Getting signed in user id"
 signed_user_id=$(az ad signed-in-user show --query id)
-echo $signed_user_id
+echo "User Id: $signed_user_id"
 
 echo "assigning role"
 # assign Key Vault Administrator Role to user with resource group scope
