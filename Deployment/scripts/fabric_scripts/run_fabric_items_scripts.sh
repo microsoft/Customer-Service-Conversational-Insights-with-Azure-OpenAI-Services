@@ -13,10 +13,12 @@ subscriptionId="$5"
 # get signed user
 echo "Getting signed in user id"
 signed_user_id=$(az ad signed-in-user show --query id)
+echo $signed_user_id
 
 echo "assigning role"
 # assign Key Vault Administrator Role to user with resource group scope
-az role assignment create --assignee $signed_user_id --role "Key Vault Administrator" --scope "/subscriptions/$subscriptionId/resourceGroups/$resourcegroupName/providers/Microsoft.KeyVault/vaults/$keyvaultName"
+assign_ed=$(az role assignment create --assignee $signed_user_id --role "Key Vault Administrator" --scope "/subscriptions/$subscriptionId/resourceGroups/$resourcegroupName/providers/Microsoft.KeyVault/vaults/$keyvaultName")
+echo $assign_ed
 
 #Replace key vault name and workspace id in the python files
 sed -i "s/kv_to-be-replaced/${keyvaultName}/g" "create_fabric_items.py"
