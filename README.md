@@ -126,7 +126,7 @@ One-click deploy
          5.   Copy the Lakehouse name from workspace (needed for next steps)
      5.   Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
 4.   Deploy Power BI Report
-     1.   Download the .pbix file from repo (link).
+     1.   Download the .pbix file from the [Reports folder](Deployment/Reports/).
      2.   Open Power BI report in Power BI Dashboard
      3.   Click on Transform Data menu option from the Task Bar
      4.   Click Data source settings
