@@ -29,7 +29,7 @@ lakehouse_name = 'lakehouse_' + solutionname
 print("workspace id: " ,workspaceId)
 
 if create_workspace == True:
-  workspace_name = 'nc_workspace_' + solutionname
+  workspace_name = 'workspace_' + solutionname
 
   # create workspace
   ws_url = 'https://api.fabric.microsoft.com/v1/workspaces'
