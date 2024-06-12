@@ -32,7 +32,7 @@ fi
 
 # Assign the Key Vault Administrator role to the user
 echo "Assigning the Key Vault Administrator role to the user..."
-az role assignment create --assignee $user_id --role "Key Vault Administrator" --scope $key_vault_resource_id
+az role assignment create --assignee $signed_user_id --role "Key Vault Administrator" --scope $key_vault_resource_id
 
 
 # Check if the role assignment command was successful
