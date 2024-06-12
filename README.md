@@ -15,10 +15,10 @@ performance.
 
 ### Technical key features
 
-- **Conversation Summarization and Key Phrase Extraction:** Summarize long conversations into a short paragraph and pull out key phrases that are relevant to the conversation.
-- **Speech-to-text using Azure Speech:** Transcribe audio files including speaker diarization that is typically used in post-call analytics scenarios. Diarization is the process of recognizing and separating speakers in mono channel audio data.
-- **Sensitive information extraction and redaction:** Identify, categorize, and redact sensitive information in conversation transcription
-- **Sentiment analysis and opinion mining:** Analyze transcriptions and associate positive, neutral, or negative sentiment at the utterance and conversation-level.
+- **Data Processing:** Microsoft Fabric to process both audio and conversation files at scale, leveraging its benefits for efficient and scalable data handling.
+- **Summarization and Key Phrase Extraction:** Azure OpenAI to summarize long conversations into concise paragraphs and extract key phrases relevant to the conversation.
+- **Speech-to-text:** Azure Speech to transcribe audio files, including speaker diarization for post-call analytics. Diarization is the process of recognizing and separating speakers in mono channel audio data.
+- **Dashboard:** Power BI to visualize the correlation of operational metrics with the generated knowledge mining insights.
 
 \
 ![image](/images/readMe/ckm-v2-ui.png)
@@ -120,10 +120,10 @@ One-click deploy
                3.   solutionprefix_param - prefix used to append to lakehouse upon creation
      4.  Get Fabric Lakehouse Connection details:
          1.   Once deployment is complete, navigate to Fabric Workspace
-         2.   Find Lakehouse in workspace (ex.lakehouse_*solutionprefix_param*), click on the SQL Analytics Endpoint
-         3.   Click on Settings icon
-         4.   In right panel, click copy icon for SQL connection String (needed for next step)
-         5.   Copy the Lakehouse name from workspace (needed for next steps)
+         2.   Find Lakehouse in workspace (ex.lakehouse_*solutionprefix_param*)
+         3.   Click on the ```...``` next to the SQL Analytics Endpoint
+         4.   Click on ```Copy SQL connection string```
+         5.   Click Copy button in popup window.
      5.   Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
 4.   Deploy Power BI Report
      1.   Download the .pbix file from the [Reports folder](Deployment/Reports/).
@@ -138,6 +138,25 @@ One-click deploy
      10.  If not signed in, sign in your credentials and proceed to click OK
      11.  Click Close
      12.  Report should refresh with need connection.
+
+
+### Upload Additioanl Files
+
+All files JSON and WAV files can be uploaded in the corresponding Lakehouse in the data/Files folder:
+
+- Converation (JSON files): 
+  Upload JSON files in the conversation_input folder.
+
+- Audio (WAV files):
+  Upload Aduio files in the audio_input folder.
+
+
+### Process Audio Files
+Currently, audio files are not processed during deployment. To manually process audio files, follow these steps:
+- Open the pipeline_notebook 
+- Uncomment cells 3 and 4
+- Run pipeline_notebook
+
 
 ### Modify the prompt after deployment
 
