@@ -12,7 +12,7 @@ subscriptionId="$5"
 
 # get signed user
 echo "Getting signed in user id"
-signed_user_id=$(az ad signed-in-user show --query userPrincipalName)
+signed_user_id=$(az ad signed-in-user show --query objectId)
 echo "User Id: $signed_user_id"
 
 # Check if the user_id is empty
