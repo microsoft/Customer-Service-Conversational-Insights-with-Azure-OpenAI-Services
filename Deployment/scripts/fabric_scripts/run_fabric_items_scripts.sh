@@ -12,7 +12,7 @@ subscriptionId="$5"
 
 # get signed user
 echo "Getting signed in user id"
-signed_user_id=$(az ad signed-in-user show --query objectId)
+signed_user_id=$(az ad signed-in-user show --query id)
 echo "User Id: $signed_user_id"
 
 # Check if the user_id is empty
@@ -32,7 +32,7 @@ fi
 
 # Assign the Key Vault Administrator role to the user
 echo "Assigning the Key Vault Administrator role to the user..."
-az role assignment create --assignee $signed_user_id --role "Key Vault Administrator" --scope $key_vault_resource_id
+az role assignment create --assignee '$signed_user_id' --role "Key Vault Administrator" --scope $key_vault_resource_id
 
 
 # Check if the role assignment command was successful
