@@ -35,10 +35,6 @@ Company personnel (employees, executives) looking to gain conversational insight
 
 TBD
 
-<h2><img src="/images/readMe/oneClickDeploy.png" width="64">
-<br/>
-Simple deploy
-</h2>
 
 ### Business value
 #### AI transcript analysis​
@@ -63,10 +59,6 @@ Here is a comparison table with a few features offered by Azure, an available Gi
 |TBD| | | |
 |TBD| | | |
 
-<h2><img src="/images/readMe/oneClickDeploy.png" width="64">
-<br/>
-One-click deploy
-</h2>
 
 ### Products used/licenses required
 
@@ -74,7 +66,7 @@ One-click deploy
 
 -   Azure OpenAI
 
--   Microsoft Fabric Capacity 
+-   Microsoft Fabric Capacity
 
 -   The user deploying the template must have permission to create
     resources and resource groups.
@@ -90,13 +82,13 @@ One-click deploy
 
    1.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:
 
-       -  Region - the region where the resoruces will be created in.
+       -  Region - the region where the resources will be created in.
 
        -  Solution Prefix - provide a 6 alphanumeric value that will be used to prefix resources
       
        -  Location - location of resources, by default it will use the resource group's location
            
-2.  Create Fabric Workspace
+2.  Create Fabric workspace
     1.  Navigate to ([Fabric Workspace](https://app.fabric.microsoft.com/))
     2.  Click on Workspaces from left Navigation
     3.  Click on + New Workspace
@@ -118,14 +110,14 @@ One-click deploy
                1.   keyvault_param - the name of the keyvault that was created in Step 1
                2.   workspaceid_param - the workspaceid created in Step 2
                3.   solutionprefix_param - prefix used to append to lakehouse upon creation
-     4.  Get Fabric Lakehouse Connection details:
+     4.  Get Fabric Lakehouse connection details:
          1.   Once deployment is complete, navigate to Fabric Workspace
          2.   Find Lakehouse in workspace (ex.lakehouse_*solutionprefix_param*)
          3.   Click on the ```...``` next to the SQL Analytics Endpoint
          4.   Click on ```Copy SQL connection string```
          5.   Click Copy button in popup window.
      5.   Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
-4.   Deploy Power BI Report
+4.   Deploy Power BI report
      1.   Download the .pbix file from the [Reports folder](Deployment/Reports/).
      2.   Open Power BI report in Power BI Dashboard
      3.   Click on Transform Data menu option from the Task Bar
@@ -140,32 +132,36 @@ One-click deploy
      12.  Report should refresh with need connection.
 
 
-### Upload Additioanl Files
 
-All files JSON and WAV files can be uploaded in the corresponding Lakehouse in the data/Files folder:
-
-- Converation (JSON files): 
-  Upload JSON files in the conversation_input folder.
-
-- Audio (WAV files):
-  Upload Aduio files in the audio_input folder.
-
-
-### Process Audio Files
+### Process audio files
 Currently, audio files are not processed during deployment. To manually process audio files, follow these steps:
 - Open the pipeline_notebook 
 - Uncomment cells 3 and 4
 - Run pipeline_notebook
 
 
-### Modify the prompt after deployment
+### Upload additional files
 
-If you'd like to modify the OpenAI prompt after deployment, they can be found in the Fabric notebooks.
+All files JSON and WAV files can be uploaded in the corresponding Lakehouse in the data/Files folder:
+
+- Conversation (JSON files): 
+  Upload JSON files in the *conversation_input* folder.
+
+- Audio (WAV files):
+  Upload Audio files in the *audio_input* folder.
+
+
+### Post-deployment
+- To process additional files, manually execute the pipeline_notebook after uploading new files.
+- The OpenAI prompt can be modified within the Fabric notebooks.
+
 
 <br/>
 <h2>
 Supporting documentation
 </h2>
+
+### 
 
 ### How to customize
 
@@ -193,19 +189,3 @@ If you'd like to customize the accelerator, here are some ways you might do that
 Customer truth
 </h2>
 Customer stories coming soon. For early access, contact: nfelton@microsoft.com
-
----
-
-## Disclaimers
-
-This Software requires the use of third-party components which are governed by separate proprietary or open-source licenses as identified below, and you must comply with the terms of each applicable license in order to use the Software. You acknowledge and agree that this license does not grant you a license or other right to use any such third-party proprietary or open-source components.  
-
-To the extent that the Software includes components or code used in or derived from Microsoft products or services, including without limitation Microsoft Azure Services (collectively, “Microsoft Products and Services”), you must also comply with the Product Terms applicable to such Microsoft Products and Services. You acknowledge and agree that the license governing the Software does not grant you a license or other right to use Microsoft Products and Services. Nothing in the license or this ReadMe file will serve to supersede, amend, terminate or modify any terms in the Product Terms for any Microsoft Products and Services. 
-
-You must also comply with all domestic and international export laws and regulations that apply to the Software, which include restrictions on destinations, end users, and end use. For further information on export restrictions, visit https://aka.ms/exporting. 
-
-You acknowledge that the Software and Microsoft Products and Services (1) are not designed, intended or made available as a medical device(s), and (2) are not designed or intended to be a substitute for professional medical advice, diagnosis, treatment, or judgment and should not be used to replace or as a substitute for professional medical advice, diagnosis, treatment, or judgment. Customer is solely responsible for displaying and/or obtaining appropriate consents, warnings, disclaimers, and acknowledgements to end users of Customer’s implementation of the Online Services. 
-
-You acknowledge the Software is not subject to SOC 1 and SOC 2 compliance audits. No Microsoft technology, nor any of its component technologies, including the Software, is intended or made available as a substitute for the professional advice, opinion, or judgement of a certified financial services professional. Do not use the Software to replace, substitute, or provide professional financial advice or judgment.  
-
-BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DESIGNED OR INTENDED TO SUPPORT ANY USE IN WHICH A SERVICE INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE COULD RESULT IN THE DEATH OR SERIOUS BODILY INJURY OF ANY PERSON OR IN PHYSICAL OR ENVIRONMENTAL DAMAGE (COLLECTIVELY, “HIGH-RISK USE”), AND THAT YOU WILL ENSURE THAT, IN THE EVENT OF ANY INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE, THE SAFETY OF PEOPLE, PROPERTY, AND THE ENVIRONMENT ARE NOT REDUCED BELOW A LEVEL THAT IS REASONABLY, APPROPRIATE, AND LEGAL, WHETHER IN GENERAL OR IN A SPECIFIC INDUSTRY. BY ACCESSING THE SOFTWARE, YOU FURTHER ACKNOWLEDGE THAT YOUR HIGH-RISK USE OF THE SOFTWARE IS AT YOUR OWN RISK.  
