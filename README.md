@@ -15,10 +15,10 @@ performance.
 
 ### Technical key features
 
-- **Data Processing:** Microsoft Fabric to process both audio and conversation files at scale, leveraging its benefits for efficient and scalable data handling.
-- **Summarization and Key Phrase Extraction:** Azure OpenAI to summarize long conversations into concise paragraphs and extract key phrases relevant to the conversation.
-- **Speech-to-text:** Azure Speech to transcribe audio files, including speaker diarization for post-call analytics. Diarization is the process of recognizing and separating speakers in mono channel audio data.
-- **Dashboard:** Power BI to visualize the correlation of operational metrics with the generated knowledge mining insights.
+- **Data processing:** Microsoft Fabric processes both audio and conversation files at scale, leveraging its benefits for efficient and scalable data handling
+- **Summarization and key phrase extraction​:** Azure OpenAI is used to summarize long conversations into concise paragraphs and extract relevant key phrases
+- **Speech transcription and diarization​:** Azure Speech is used to transcribe audio files, including speaker diarization for post-call analytics. Diarization is the process of recognizing and separating individual speakers into mono-channel audio data​
+- **Analytics dashboard​:** Power BI is used to visualize the correlation between operational metrics and AI-generated conversational data​
 
 \
 ![image](/images/readMe/ckm-v2-ui.png)
@@ -53,11 +53,11 @@ Here is a comparison table with a few features offered by Azure, an available Gi
 
 | Name	| Feature or Sample? |	What is it? | When to use? |
 | ---------|---------|---------|---------|
-|[Conversation Knowledge Mining](https://aka.ms/CSAGoldStandards/ConversationKnowledgeMining) | Azure sample |TBD|TBD|
-|TBD| | | |
-|TBD| | | |
-|TBD| | | |
-|TBD| | | |
+|[Conversation Knowledge Mining](https://aka.ms/CSAGoldStandards/ConversationKnowledgeMining) | Azure sample |Azure Open AI based accelerator to analyze structured and unstructured data. The solution uses Fabric data pipelines, Power BI visualization Aure AI services to generate LLM based conversational analytics and operational metrics-based analytics for business analytics solution|TBD|
+|TBD|TBD|TBD|TBD|
+|TBD|TBD|TBD|TBD|
+|TBD|TBD|TBD|TBD|
+|TBD|TBD|TBD|TBD|
 
 
 ### Products used/licenses required
@@ -74,6 +74,12 @@ Here is a comparison table with a few features offered by Azure, an available Gi
 ### Solution accelerator architecture
 ![image](/images/readMe/ckm-v2-sa.png)
 
+<h2><img src="/images/readMe/oneClickDeploy.png" width="64">
+<br/>
+Simple deploy
+</h2>
+
+
 ### **How to install/deploy**
 
 1. Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
@@ -82,7 +88,7 @@ Here is a comparison table with a few features offered by Azure, an available Gi
 
    1.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:
 
-       -  Region - the region where the resources will be created in.
+       -  Region - the region where the resources will be created in
 
        -  Solution Prefix - provide a 6 alphanumeric value that will be used to prefix resources
       
