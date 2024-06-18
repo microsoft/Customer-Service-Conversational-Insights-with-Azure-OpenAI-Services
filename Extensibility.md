@@ -13,12 +13,11 @@ are areas for extending: 
     > changes to the existing prompts or additional prompts to be
     > created. In addition, new techniques or approaches to the prompt
     > structure may be made to enhance the accuracy and relevancy,
-    > especially as new versions of GPT are released.  
+    > especially as new versions of GPT are released.
 
-1.  **Q&A style interface for users to ask questions across all indexed conversations**
-    > In the current accelerator, a keyword search via Azure Cognitive
-    > Search is the only way to filter and find conversations relevant
-    > to their inquiry. Using a Q&A approach would unlock a
+1.  **Q&A style interface for users to ask questions across all conversations**
+    > In the current accelerator, insights are surfaced by using filters
+    > in a Power BI dashboard. Using a Q&A approach would unlock a
     > conversational approach and follow up questions. This could also
     > be extended to allow users to derive insights on their own,
     > without pre-processing across the full dataset. 
@@ -33,11 +32,6 @@ are areas for extending: 
     > the index either on a regular cadence, or manually running across the
     > full index. This ensures most up-to-date insights and capabilities
     > within the mined knowledgebase. 
-
-1.  **Pre-processing mechanism for simple TXT conversions to the required JSON format** 
-    > Text conversations are currently required to be in a single JSON
-    > format, but a pre-processing tool could be created to convert a simple
-    > text file into the correct JSON format. 
 
 1.  **Video and other conversation formats** 
     > The solution only accepts text and audio based conversations, but this
