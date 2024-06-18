@@ -74,6 +74,12 @@ Here is a comparison table with a few features offered by Azure, an available Gi
 ### Solution accelerator architecture
 ![image](/images/readMe/ckm-v2-sa.png)
 
+<h2><img src="/images/readMe/oneClickDeploy.png" width="64">
+<br/>
+Simple deploy
+</h2>
+
+
 ### **How to install/deploy**
 
 1. Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
