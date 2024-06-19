@@ -13,7 +13,6 @@ param location string = resourceGroup().location
 var resourceGroupLocation = location
 
 var solutionLocation = resourceGroupLocation
-var baseUrl = 'https://raw.githubusercontent.com/brittneek/ckm-v2-bk/main/'
 
 
 // ========== Managed Identity ========== //
@@ -65,17 +64,3 @@ module keyvaultModule 'deploy_keyvault.bicep' = {
   scope: resourceGroup(resourceGroup().name)
   dependsOn:[azOpenAI,azAIMultiServiceAccount,managedIdentityModule]
 }
-
-
-// // ========== Fabric ========== //
-// module createFabricItems 'deploy_fabric_scripts.bicep' = if (fabricWorkspaceId != '') {
-//   name : 'deploy_fabric_scripts'
-//   params:{
-//     solutionLocation: solutionLocation
-//     identity:managedIdentityModule.outputs.managedIdentityOutput.id
-//     baseUrl:baseUrl
-//     keyVaultName:keyvaultModule.outputs.keyvaultOutput.name
-//     fabricWorkspaceId:fabricWorkspaceId
-//   }
-//   dependsOn:[keyvaultModule]
-// }

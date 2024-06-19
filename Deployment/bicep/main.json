@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.28.1.47646",
-      "templateHash": "3395596109362463009"
+      "templateHash": "12812951896050089732"
     }
   },
   "parameters": {
@@ -24,8 +24,7 @@
   },
   "variables": {
     "resourceGroupLocation": "[parameters('location')]",
-    "solutionLocation": "[variables('resourceGroupLocation')]",
-    "baseUrl": "https://raw.githubusercontent.com/brittneek/ckm-v2-bk/main/"
+    "solutionLocation": "[variables('resourceGroupLocation')]"
   },
   "resources": [
     {
