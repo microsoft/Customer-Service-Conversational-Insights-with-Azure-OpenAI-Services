@@ -1,3 +1,3 @@
-using './master.bicep'
+using './main.bicep'
 
 param solutionPrefix = 'ckm'

@@ -185,25 +185,10 @@ pipeline_json = {
                 },
                 "typeProperties": {
                     "notebookId": pipeline_notebook_id,
-                    "workspaceId": workspaceId,
-                    # "parameters": {
-                    #     "input_scenario": {
-                    #         "value": {
-                    #             "value": "@pipeline().parameters.input_scenario",
-                    #             "type": "Expression"
-                    #         },
-                    #         "type": "string"
-                    #     }
-                    # }
+                    "workspaceId": workspaceId
                 }
             }
-        ],
-        # "parameters": {
-        #     "input_scenario": {
-        #         "type": "string",
-        #         "defaultValue": "fsi"
-        #     }
-        # }
+        ]
     }
 }
 
