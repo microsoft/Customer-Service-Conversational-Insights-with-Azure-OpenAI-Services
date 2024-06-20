@@ -59,6 +59,7 @@ module keyvaultModule 'deploy_keyvault.bicep' = {
     cogServiceEndpoint:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceEndpoint
     cogServiceName:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceName
     cogServiceKey:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceKey
+    cogServiceRegion:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceRegion
     enableSoftDelete:false
   }
   scope: resourceGroup(resourceGroup().name)

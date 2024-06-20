@@ -34,4 +34,5 @@ output cogSearchOutput object = {
 cogServiceName:accounts_byc_cogser_name_resource.name
 cogServiceKey : cogServiceKey
 cogServiceEndpoint: accounts_byc_cogser_name_resource.properties.endpoint
+cogServiceRegion: accounts_byc_cogser_name_resource.location
 }
