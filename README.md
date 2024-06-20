@@ -11,14 +11,17 @@ User story
 ### Overview
 
 This solution accelerator improves contact center operations by summarizing customer conversations and using AI to identify key phrases. By integrating conversational analytics alongside operational metrics, users can discover corollary insights for targeted business impact.​
-performance.
 
 ### Technical key features
 
-- **Data processing:** Microsoft Fabric processes both audio and conversation files at scale, leveraging its benefits for efficient and scalable data handling
-- **Summarization and key phrase extraction​:** Azure OpenAI is used to summarize long conversations into concise paragraphs and extract relevant key phrases
-- **Speech transcription and diarization​:** Azure Speech is used to transcribe audio files, including speaker diarization for post-call analytics. Diarization is the process of recognizing and separating individual speakers into mono-channel audio data​
-- **Analytics dashboard​:** Power BI is used to visualize the correlation between operational metrics and AI-generated conversational data​
+#### Data processing
+Microsoft Fabric processes both audio and conversation files at scale, leveraging its benefits for efficient and scalable data handling
+#### Summarization and key phrase extraction​ 
+Azure OpenAI is used to summarize long conversations into concise paragraphs and extract relevant key phrases
+#### Speech transcription and diarization​
+Azure Speech is used to transcribe audio files, including speaker diarization for post-call analytics. Diarization is the process of recognizing and separating individual speakers into mono-channel audio data​
+#### Analytics dashboard​
+Power BI is used to visualize the correlation between operational metrics and AI-generated conversational data​
 
 \
 ![image](/images/readMe/ckm-v2-ui.png)
@@ -33,16 +36,15 @@ The contact center manager uses their dashboard to identify how LLM-generated co
 
 Company personnel (employees, executives) looking to gain conversational insights in correlation with operational Contact Center metrics would leverage this accelerator to find what they need quickly.
 
-TBD
-
-
 ### Business value
-#### AI transcript analysis​
+#### Conversation analysis​
 Generative AI analyzes call transcripts, summarizes content, identifies and aggregates key phrases for data visualization​
+#### Automated customer satisfaction​
+Generative AI determines the post-call satisfaction rating of a customer’s experience with their agent
 #### Operational clarity​
 Relevant metrics such as call volume, handling time, and call resolution are pulled from the same call logs for operational data visualization​
 #### Unified data​
-Unstructured (call transcripts) and structured (operational metrics) data, are both analyzed and visualized within the same application​
+Unstructured (call transcripts) and structured (operational metrics) data are both analyzed and visualized within the same application​
 #### Targeted decision enablement​
 Enable agents and managers to achieve glanceable insight recognition, corollary information analysis, and accelerated decision making​
 
