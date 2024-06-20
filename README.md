@@ -84,7 +84,8 @@ Simple deploy
 
 ### **How to install/deploy**
 
-1. Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
+1. **Deploy Azure resources**  
+   Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
 
    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fckm-v2-dev%2FDeployment%2Fbicep%2Fmain.json)
 
@@ -96,7 +97,7 @@ Simple deploy
       
        -  Location - location of resources, by default it will use the resource group's location
            
-2.  Create Fabric workspace
+2.  **Create Fabric workspace**
     1.  Navigate to ([Fabric Workspace](https://app.fabric.microsoft.com/))
     2.  Click on Workspaces from left Navigation
     3.  Click on + New Workspace
@@ -106,7 +107,7 @@ Simple deploy
     4.  Open Workspace
     5.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
 
-3.   Deploy Fabric resources and artifacts
+3.   **Deploy Fabric resources and artifacts**
      1.   Navigate to ([Azure Portal](https://portal.azure.com/))
      2.   Click on Azure Cloud Shell in the top right of navigation Menu (add image)
      3.   Run the run the following command: 
@@ -125,7 +126,7 @@ Simple deploy
          4.   Click on ```Copy SQL connection string```
          5.   Click Copy button in popup window.
      5.   Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
-4.   Deploy Power BI report
+4.   **Deploy Power BI report**
      1.   Download the .pbix file from the [Reports folder](Deployment/Reports/).
      2.   Open Power BI report in Power BI Dashboard
      3.   Click on Transform Data menu option from the Task Bar
@@ -138,6 +139,14 @@ Simple deploy
      10.  If not signed in, sign in your credentials and proceed to click OK
      11.  Click Close
      12.  Report should refresh with need connection.
+5.  **Schedule Post-Processing Notebook**  
+    It is essential to update dates daily as they advance based on the current day at the time of deployment. Since the Power BI report relies on the current date, we highly recommend scheduling or running the 03_post_processing notebook daily in the workspace. Please note that this process modifies the original date of the processed data. If you do not wish to run this, do not execute the 03_post_processing notebook.
+    
+    To schedule the notebook, follow these steps:
+    - Navigate to the Workspace
+    - Click on the "..." next to the 03_post_processing notebook
+    - Select "Schedule"
+    - Configure the schedule settings (we **recommend** running the notebook *at least daily*)
 
 
 
