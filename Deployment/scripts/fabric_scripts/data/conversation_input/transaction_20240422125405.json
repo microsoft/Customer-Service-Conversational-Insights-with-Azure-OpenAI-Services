@@ -1,0 +1,259 @@
+{
+  "AgentName": "Evelyn Perez",
+  "AgentId": "AOC72V",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-309-2113",
+  "Conversation": {
+    "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+    "Messages": [
+      {
+        "Id": "3c72901d-abb4-4000-aa69-463569c1b169",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T12:54:57.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "Thank you for calling the travel agency, my name is Evelyn and I am here to assist you. May I have your full name please?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3a91fe3a-6550-449d-b9ba-01249092762c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T12:55:59.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "Hi Evelyn, my name is John Smith.",
+        "UserId": "999-309-2113",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "10e0a2e0-894b-4c69-a720-5bcced3befc1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T12:57:17.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "Hi John, how can I assist you today?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "83b380f7-f408-4d9d-be56-05f604b7d6b7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T12:58:41.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "I recently booked a trip from New York to Los Angeles and I'm having some issues with my flights and hotel reservations.",
+        "UserId": "999-309-2113",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9d10e9e1-c665-4cdf-af64-18056fd01a42",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T12:59:26.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "I'm sorry to hear that John. Can you please provide me with your reservation details so I can take a look?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "676cb240-714a-47da-b392-7e1df13506e3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T12:59:35.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "Sure, my reservation number for the flight is 1234567 on American Airlines, and the hotel reservation is at the Sheraton Hotel with reservation number 9876543 and the check-in date is January 7th.",
+        "UserId": "999-309-2113",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "45d2cb12-f461-4b88-890b-27f31c5a05cf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T12:59:57.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "Thank you John, let me check that for you...",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3c67fa55-03a9-484b-9f0c-f7bf5d1c920e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T13:01:09.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "I see that your flight has been delayed due to inclement weather and your hotel reservation has been cancelled by the hotel. I apologize for the inconvenience this has caused.",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4380cc9c-ba1b-4754-9276-087694d95def",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T13:02:55.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "Cancelled?! That's unacceptable! I need to know what can be done to fix this.",
+        "UserId": "999-309-2113",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bb558c20-905f-41d9-8f6f-218f116335b8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T13:03:46.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "I understand your frustration, John. Let me see what options we have to resolve this for you.",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4259ec97-f7ce-468c-a5a1-bc440f6bc424",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T13:03:55.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "Ok, thank you.",
+        "UserId": "999-309-2113",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4d782cb8-640d-479a-a3f6-1592b3b29b76",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T13:05:00.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "I have found a new flight for you on Delta Airlines leaving tomorrow from JFK Airport. In addition, I was able to secure a new hotel reservation for you at the Hilton Hotel with reservation number 5678901 and check-in date January 7th. Would this be acceptable to you?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "05691067-dfe8-4bd6-a4ab-5ac43127e359",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T13:05:49.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "Yes, that sounds much better. Thank you for your help, Evelyn.",
+        "UserId": "999-309-2113",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ec9c598c-e6e0-43fd-ba88-85bc36ad6d82",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T13:07:36.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "You're welcome, John. I'm glad I could assist you. Is there anything else I can help you with today?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4b08f41b-e536-4bcb-96ad-4f03f7a73ad7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-22T13:08:31.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "No, that will be all. Thank you again, Evelyn.",
+        "UserId": "999-309-2113",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f2c4e8fe-8ce1-4135-accb-201ad2831cd7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-22T13:08:59.4300414-05:00",
+        "ConversationId": "48404567-b53f-4f86-a149-b3434a711969",
+        "Value": "You're welcome, John. Have a great trip!",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-22T12:54:05.4300414-05:00",
+    "EndTime": "2024-04-22T13:08:59.4300414-05:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Evelyn and I am here to assist you. May I have your full name please?Hi Evelyn, my name is John Smith.Hi John, how can I assist you today?I recently booked a trip from New York to Los Angeles and I'm having some issues with my flights and hotel reservations.I'm sorry to hear that John. Can you please provide me with your reservation details so I can take a look?Sure, my reservation number for the flight is 1234567 on American Airlines, and the hotel reservation is at the Sheraton Hotel with reservation number 9876543 and the check-in date is January 7th.Thank you John, let me check that for you...I see that your flight has been delayed due to inclement weather and your hotel reservation has been cancelled by the hotel. I apologize for the inconvenience this has caused.Cancelled?! That's unacceptable! I need to know what can be done to fix this.I understand your frustration, John. Let me see what options we have to resolve this for you.Ok, thank you.I have found a new flight for you on Delta Airlines leaving tomorrow from JFK Airport. In addition, I was able to secure a new hotel reservation for you at the Hilton Hotel with reservation number 5678901 and check-in date January 7th. Would this be acceptable to you?Yes, that sounds much better. Thank you for your help, Evelyn.You're welcome, John. I'm glad I could assist you. Is there anything else I can help you with today?No, that will be all. Thank you again, Evelyn.You're welcome, John. Have a great trip!",
+    "Merged_content_user": "Hi Evelyn, my name is John Smith.I recently booked a trip from New York to Los Angeles and I'm having some issues with my flights and hotel reservations.Sure, my reservation number for the flight is 1234567 on American Airlines, and the hotel reservation is at the Sheraton Hotel with reservation number 9876543 and the check-in date is January 7th.Cancelled?! That's unacceptable! I need to know what can be done to fix this.Ok, thank you.Yes, that sounds much better. Thank you for your help, Evelyn.No, that will be all. Thank you again, Evelyn.",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Evelyn and I am here to assist you. May I have your full name please?Hi John, how can I assist you today?I'm sorry to hear that John. Can you please provide me with your reservation details so I can take a look?Thank you John, let me check that for you...I see that your flight has been delayed due to inclement weather and your hotel reservation has been cancelled by the hotel. I apologize for the inconvenience this has caused.I understand your frustration, John. Let me see what options we have to resolve this for you.I have found a new flight for you on Delta Airlines leaving tomorrow from JFK Airport. In addition, I was able to secure a new hotel reservation for you at the Hilton Hotel with reservation number 5678901 and check-in date January 7th. Would this be acceptable to you?You're welcome, John. I'm glad I could assist you. Is there anything else I can help you with today?You're welcome, John. Have a great trip!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Evelyn and I am here to assist you. May I have your full name please?\nCustomer: Hi Evelyn, my name is John Smith.\nAgent: Hi John, how can I assist you today?\nCustomer: I recently booked a trip from New York to Los Angeles and I'm having some issues with my flights and hotel reservations.\nAgent: I'm sorry to hear that John. Can you please provide me with your reservation details so I can take a look?\nCustomer: Sure, my reservation number for the flight is 1234567 on American Airlines, and the hotel reservation is at the Sheraton Hotel with reservation number 9876543 and the check-in date is January 7th.\nAgent: Thank you John, let me check that for you...\nAgent: I see that your flight has been delayed due to inclement weather and your hotel reservation has been cancelled by the hotel. I apologize for the inconvenience this has caused.\nCustomer: Cancelled?! That's unacceptable! I need to know what can be done to fix this.\nAgent: I understand your frustration, John. Let me see what options we have to resolve this for you.\nCustomer: Ok, thank you.\nAgent: I have found a new flight for you on Delta Airlines leaving tomorrow from JFK Airport. In addition, I was able to secure a new hotel reservation for you at the Hilton Hotel with reservation number 5678901 and check-in date January 7th. Would this be acceptable to you?\nCustomer: Yes, that sounds much better. Thank you for your help, Evelyn.\nAgent: You're welcome, John. I'm glad I could assist you. Is there anything else I can help you with today?\nCustomer: No, that will be all. Thank you again, Evelyn.\nAgent: You're welcome, John. Have a great trip!\n"
+  }
+}

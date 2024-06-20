@@ -1,0 +1,184 @@
+{
+  "AgentName": "Liam Johnson",
+  "AgentId": "YVS2EM",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-398-9325",
+  "Conversation": {
+    "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+    "Messages": [
+      {
+        "Id": "4b8a65b1-49d6-47e9-8929-ceee0358da63",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T18:09:10.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "Thank you for calling Travel Co. My name is Liam. How may I assist you today?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "85099039-f4cf-4dcc-885d-0673ccbdbf51",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T18:09:34.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "Hi Liam. My name is Sarah Thompson. I have a complaint about my recent trip to New York City.",
+        "UserId": "999-398-9325",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f11efe6e-b9a0-45f3-b403-ecebf1300892",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T18:10:26.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "I'm sorry to hear that, Sarah. Can you please tell me the issue you're experiencing?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "00f0d400-f27b-4c31-9817-f0495b4f370f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T18:11:36.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "Yes, I had a flight delay and my luggage was lost for two days. It really disrupted my plans.",
+        "UserId": "999-398-9325",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aacd124f-fdc0-479f-b93b-87a02a2fd11d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T18:12:36.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "I apologize for the inconvenience, Sarah. Let me pull up your file and see what we can do to help.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ffe115b6-47c6-4a36-b2a8-ce20277f73db",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T18:13:52.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "Thank you, Liam.",
+        "UserId": "999-398-9325",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "75e408d5-8980-4946-995b-d9048bc1d179",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T18:15:34.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "I see here that your flight was delayed due to weather conditions. We can request compensation from the airline for you. For your lost luggage, we can assist you in tracking it down and filing a claim for reimbursement.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "52373c26-be54-4f4e-97a9-a28dbaa1c53a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T18:16:47.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "That would be great, Liam. I appreciate your help.",
+        "UserId": "999-398-9325",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aa59bf5f-225b-4c83-bedf-373ebe6c2f9c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T18:18:28.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "Of course, Sarah. Is there anything else I can assist you with today?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3f3ca285-199b-439a-8d68-c40891d0240f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T18:19:58.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "No, that's all for now. Thank you again, Liam.",
+        "UserId": "999-398-9325",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6f8dc5bc-7ee0-45c4-9205-60540d9f23ae",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T18:20:02.9325101-05:00",
+        "ConversationId": "a403b656-a1cc-422a-8e7a-9c92ab33252f",
+        "Value": "You're welcome, Sarah. If you have any further concerns, don't hesitate to contact us again.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-15T18:07:24.9325101-05:00",
+    "EndTime": "2024-05-15T18:20:02.9325101-05:00",
+    "Merged_content": "Thank you for calling Travel Co. My name is Liam. How may I assist you today?Hi Liam. My name is Sarah Thompson. I have a complaint about my recent trip to New York City.I'm sorry to hear that, Sarah. Can you please tell me the issue you're experiencing?Yes, I had a flight delay and my luggage was lost for two days. It really disrupted my plans.I apologize for the inconvenience, Sarah. Let me pull up your file and see what we can do to help.Thank you, Liam.I see here that your flight was delayed due to weather conditions. We can request compensation from the airline for you. For your lost luggage, we can assist you in tracking it down and filing a claim for reimbursement.That would be great, Liam. I appreciate your help.Of course, Sarah. Is there anything else I can assist you with today?No, that's all for now. Thank you again, Liam.You're welcome, Sarah. If you have any further concerns, don't hesitate to contact us again.",
+    "Merged_content_user": "Hi Liam. My name is Sarah Thompson. I have a complaint about my recent trip to New York City.Yes, I had a flight delay and my luggage was lost for two days. It really disrupted my plans.Thank you, Liam.That would be great, Liam. I appreciate your help.No, that's all for now. Thank you again, Liam.",
+    "Merged_content_agent": "Thank you for calling Travel Co. My name is Liam. How may I assist you today?I'm sorry to hear that, Sarah. Can you please tell me the issue you're experiencing?I apologize for the inconvenience, Sarah. Let me pull up your file and see what we can do to help.I see here that your flight was delayed due to weather conditions. We can request compensation from the airline for you. For your lost luggage, we can assist you in tracking it down and filing a claim for reimbursement.Of course, Sarah. Is there anything else I can assist you with today?You're welcome, Sarah. If you have any further concerns, don't hesitate to contact us again.",
+    "Full_conversation": "Agent: Thank you for calling Travel Co. My name is Liam. How may I assist you today?\nCustomer: Hi Liam. My name is Sarah Thompson. I have a complaint about my recent trip to New York City.\nAgent: I'm sorry to hear that, Sarah. Can you please tell me the issue you're experiencing?\nCustomer: Yes, I had a flight delay and my luggage was lost for two days. It really disrupted my plans.\nAgent: I apologize for the inconvenience, Sarah. Let me pull up your file and see what we can do to help.\nCustomer: Thank you, Liam.\nAgent: I see here that your flight was delayed due to weather conditions. We can request compensation from the airline for you. For your lost luggage, we can assist you in tracking it down and filing a claim for reimbursement.\nCustomer: That would be great, Liam. I appreciate your help.\nAgent: Of course, Sarah. Is there anything else I can assist you with today?\nCustomer: No, that's all for now. Thank you again, Liam.\nAgent: You're welcome, Sarah. If you have any further concerns, don't hesitate to contact us again.\n"
+  }
+}

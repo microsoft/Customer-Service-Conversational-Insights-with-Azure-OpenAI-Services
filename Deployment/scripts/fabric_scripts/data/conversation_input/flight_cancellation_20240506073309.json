@@ -1,0 +1,154 @@
+{
+  "AgentName": "Lucas Thompson",
+  "AgentId": "5B94O0",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-346-7048",
+  "Conversation": {
+    "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+    "Messages": [
+      {
+        "Id": "a5eecb28-c2fe-4e3e-b947-636d6a12606c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T07:34:56.4940585-05:00",
+        "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+        "Value": "Thank you for calling Travel Now, this is Lucas Thompson speaking. How can I assist you today?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "391b7eac-b4e4-422a-bfb5-b14ec1ae2a1f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T07:36:10.4940585-05:00",
+        "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+        "Value": "Hi, my name is Samantha Jones and I have a flight issue. My flight from New York to Los Angeles was cancelled and I need to find another flight as soon as possible.",
+        "UserId": "999-346-7048",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d0cb082c-0af1-443c-aba6-e9fabea98359",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T07:38:54.4940585-05:00",
+        "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+        "Value": "I'm sorry to hear that, Samantha. Let me check our system for available flights. Can you please provide me with your reservation number and the date of your original flight?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "44e3fda0-85d5-45a7-83f9-5209e8f973bd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T07:41:45.4940585-05:00",
+        "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+        "Value": "Yes, my reservation number is 123456789 and the flight was supposed to depart on May 12th at 9am.",
+        "UserId": "999-346-7048",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "72bff009-9b69-422b-9555-a23cceaa7284",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T07:43:43.4940585-05:00",
+        "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+        "Value": "Thank you, Samantha. I see that the flight was cancelled due to unforeseen circumstances. Unfortunately, all the other flights for that day are fully booked. However, we do have available flights for May 13th. Would that work for you?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bb6b561c-1de7-48fc-8508-23b52bc0dd22",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T07:46:24.4940585-05:00",
+        "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+        "Value": "No, that wouldn't work for me. I have important meetings in Los Angeles on May 12th and I can't afford to miss them. Is there any other solution?",
+        "UserId": "999-346-7048",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "56022f48-9975-47d9-8bd8-d1a019c7a22b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T07:47:36.4940585-05:00",
+        "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+        "Value": "I understand your concerns, Samantha. Let me see if there are any alternative airports or airlines that we can book for you.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6a32b7af-c600-4379-bcab-fd6d5b9c006f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-06T07:48:08.4940585-05:00",
+        "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+        "Value": "Okay, please let me know as soon as you find something. This situation is very frustrating for me.",
+        "UserId": "999-346-7048",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "42dd0bbb-466e-4dbb-9676-eb68ecbe5ea5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-06T07:49:11.4940585-05:00",
+        "ConversationId": "eeef95c3-cb67-4581-a080-641a37dce0a5",
+        "Value": "Of course, Samantha. I'll do my best to find a suitable solution for you as soon as possible. Please hold on while I check.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-06T07:33:09.4940585-05:00",
+    "EndTime": "2024-05-06T07:49:11.4940585-05:00",
+    "Merged_content": "Thank you for calling Travel Now, this is Lucas Thompson speaking. How can I assist you today?Hi, my name is Samantha Jones and I have a flight issue. My flight from New York to Los Angeles was cancelled and I need to find another flight as soon as possible.I'm sorry to hear that, Samantha. Let me check our system for available flights. Can you please provide me with your reservation number and the date of your original flight?Yes, my reservation number is 123456789 and the flight was supposed to depart on May 12th at 9am.Thank you, Samantha. I see that the flight was cancelled due to unforeseen circumstances. Unfortunately, all the other flights for that day are fully booked. However, we do have available flights for May 13th. Would that work for you?No, that wouldn't work for me. I have important meetings in Los Angeles on May 12th and I can't afford to miss them. Is there any other solution?I understand your concerns, Samantha. Let me see if there are any alternative airports or airlines that we can book for you.Okay, please let me know as soon as you find something. This situation is very frustrating for me.Of course, Samantha. I'll do my best to find a suitable solution for you as soon as possible. Please hold on while I check.",
+    "Merged_content_user": "Hi, my name is Samantha Jones and I have a flight issue. My flight from New York to Los Angeles was cancelled and I need to find another flight as soon as possible.Yes, my reservation number is 123456789 and the flight was supposed to depart on May 12th at 9am.No, that wouldn't work for me. I have important meetings in Los Angeles on May 12th and I can't afford to miss them. Is there any other solution?Okay, please let me know as soon as you find something. This situation is very frustrating for me.",
+    "Merged_content_agent": "Thank you for calling Travel Now, this is Lucas Thompson speaking. How can I assist you today?I'm sorry to hear that, Samantha. Let me check our system for available flights. Can you please provide me with your reservation number and the date of your original flight?Thank you, Samantha. I see that the flight was cancelled due to unforeseen circumstances. Unfortunately, all the other flights for that day are fully booked. However, we do have available flights for May 13th. Would that work for you?I understand your concerns, Samantha. Let me see if there are any alternative airports or airlines that we can book for you.Of course, Samantha. I'll do my best to find a suitable solution for you as soon as possible. Please hold on while I check.",
+    "Full_conversation": "Agent: Thank you for calling Travel Now, this is Lucas Thompson speaking. How can I assist you today?\nCustomer: Hi, my name is Samantha Jones and I have a flight issue. My flight from New York to Los Angeles was cancelled and I need to find another flight as soon as possible.\nAgent: I'm sorry to hear that, Samantha. Let me check our system for available flights. Can you please provide me with your reservation number and the date of your original flight?\nCustomer: Yes, my reservation number is 123456789 and the flight was supposed to depart on May 12th at 9am.\nAgent: Thank you, Samantha. I see that the flight was cancelled due to unforeseen circumstances. Unfortunately, all the other flights for that day are fully booked. However, we do have available flights for May 13th. Would that work for you?\nCustomer: No, that wouldn't work for me. I have important meetings in Los Angeles on May 12th and I can't afford to miss them. Is there any other solution?\nAgent: I understand your concerns, Samantha. Let me see if there are any alternative airports or airlines that we can book for you.\nCustomer: Okay, please let me know as soon as you find something. This situation is very frustrating for me.\nAgent: Of course, Samantha. I'll do my best to find a suitable solution for you as soon as possible. Please hold on while I check.\n"
+  }
+}

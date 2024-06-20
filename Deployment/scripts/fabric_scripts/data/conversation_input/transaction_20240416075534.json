@@ -1,0 +1,214 @@
+{
+  "AgentName": "Zoe Lewis",
+  "AgentId": "G6HD7J",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-571-4783",
+  "Conversation": {
+    "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+    "Messages": [
+      {
+        "Id": "a26ab8e9-522c-4127-ac7b-6f75009a580c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T07:56:15.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Thank you for calling the travel agency, this is Zoe Lewis. May I have your full name please?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6531ede3-b47b-49e7-8b61-22c2d1e1464b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T07:57:08.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Yes, my name is John Smith.",
+        "UserId": "999-571-4783",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6c9d34be-6d55-421a-aed0-1555052130dd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T07:57:58.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Hello John, how may I assist you today?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7a5972d1-50da-46d4-be5a-35832d97ff08",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T07:58:38.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Hi Zoe, I'm having some trouble making a decision about my trip. Can you give me some options to consider?",
+        "UserId": "999-571-4783",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "859546bc-b1f1-46c1-9d74-37fd61225c5c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T07:59:14.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Of course, John. Can you tell me a little more about your trip? Where are you traveling from and where are you going?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "af1fa3af-8123-402d-af4f-5f5138fb7fae",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T07:59:29.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "I'm traveling from New York City to Los Angeles.",
+        "UserId": "999-571-4783",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ef04a6cb-6c08-44a1-8e4e-6547bf8a103f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T08:00:15.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Alright, have you already booked your flights and hotel?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f4924754-fb84-449d-9de2-f4c0be42a16e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T08:00:55.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "No, not yet. I'm still considering my options.",
+        "UserId": "999-571-4783",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b7add807-0a92-4a81-a8ac-c085ca6cfcbe",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T08:02:11.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Well, for flights, we have several options with different airlines. American Airlines has a non-stop flight from JFK to LAX at 9am, and Delta has a connecting flight with a layover in Minneapolis at 7am. As for hotels, we have the Hilton, Marriott, and Sheraton all with availability for your travel dates. Would you like me to go over pricing and availability?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b38677d6-1877-48e9-bccd-ab23983f8e77",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T08:03:40.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Yes, please. That would be helpful.",
+        "UserId": "999-571-4783",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2a00465d-1c26-4dce-b415-e3c6317dbd78",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T08:05:14.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Okay, for the American Airlines non-stop flight, the cost is $350 one way. The Delta connecting flight is $275 one way. The Hilton hotel is $200 per night, the Marriott is $225 per night, and the Sheraton is $190 per night. Can I help you book any of these options?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e56984ec-34e3-4294-a5ae-d98f9b350362",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T08:06:59.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "Thank you for the information, Zoe. I appreciate your help. I think I need some more time to make a decision. I'll call back if I have any further questions.",
+        "UserId": "999-571-4783",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fea25d55-b814-4387-8506-16f6504ec061",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T08:07:50.5241498-05:00",
+        "ConversationId": "9cd2b4bd-ff8a-4dd9-bfeb-8695459d936a",
+        "Value": "You're welcome, John. Don't hesitate to call us back if you need any assistance. Have a great day!",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-16T07:55:34.5241498-05:00",
+    "EndTime": "2024-04-16T08:07:50.5241498-05:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Zoe Lewis. May I have your full name please?Yes, my name is John Smith.Hello John, how may I assist you today?Hi Zoe, I'm having some trouble making a decision about my trip. Can you give me some options to consider?Of course, John. Can you tell me a little more about your trip? Where are you traveling from and where are you going?I'm traveling from New York City to Los Angeles.Alright, have you already booked your flights and hotel?No, not yet. I'm still considering my options.Well, for flights, we have several options with different airlines. American Airlines has a non-stop flight from JFK to LAX at 9am, and Delta has a connecting flight with a layover in Minneapolis at 7am. As for hotels, we have the Hilton, Marriott, and Sheraton all with availability for your travel dates. Would you like me to go over pricing and availability?Yes, please. That would be helpful.Okay, for the American Airlines non-stop flight, the cost is $350 one way. The Delta connecting flight is $275 one way. The Hilton hotel is $200 per night, the Marriott is $225 per night, and the Sheraton is $190 per night. Can I help you book any of these options?Thank you for the information, Zoe. I appreciate your help. I think I need some more time to make a decision. I'll call back if I have any further questions.You're welcome, John. Don't hesitate to call us back if you need any assistance. Have a great day!",
+    "Merged_content_user": "Yes, my name is John Smith.Hi Zoe, I'm having some trouble making a decision about my trip. Can you give me some options to consider?I'm traveling from New York City to Los Angeles.No, not yet. I'm still considering my options.Yes, please. That would be helpful.Thank you for the information, Zoe. I appreciate your help. I think I need some more time to make a decision. I'll call back if I have any further questions.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Zoe Lewis. May I have your full name please?Hello John, how may I assist you today?Of course, John. Can you tell me a little more about your trip? Where are you traveling from and where are you going?Alright, have you already booked your flights and hotel?Well, for flights, we have several options with different airlines. American Airlines has a non-stop flight from JFK to LAX at 9am, and Delta has a connecting flight with a layover in Minneapolis at 7am. As for hotels, we have the Hilton, Marriott, and Sheraton all with availability for your travel dates. Would you like me to go over pricing and availability?Okay, for the American Airlines non-stop flight, the cost is $350 one way. The Delta connecting flight is $275 one way. The Hilton hotel is $200 per night, the Marriott is $225 per night, and the Sheraton is $190 per night. Can I help you book any of these options?You're welcome, John. Don't hesitate to call us back if you need any assistance. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Zoe Lewis. May I have your full name please?\nCustomer: Yes, my name is John Smith.\nAgent: Hello John, how may I assist you today?\nCustomer: Hi Zoe, I'm having some trouble making a decision about my trip. Can you give me some options to consider?\nAgent: Of course, John. Can you tell me a little more about your trip? Where are you traveling from and where are you going?\nCustomer: I'm traveling from New York City to Los Angeles.\nAgent: Alright, have you already booked your flights and hotel?\nCustomer: No, not yet. I'm still considering my options.\nAgent: Well, for flights, we have several options with different airlines. American Airlines has a non-stop flight from JFK to LAX at 9am, and Delta has a connecting flight with a layover in Minneapolis at 7am. As for hotels, we have the Hilton, Marriott, and Sheraton all with availability for your travel dates. Would you like me to go over pricing and availability?\nCustomer: Yes, please. That would be helpful.\nAgent: Okay, for the American Airlines non-stop flight, the cost is $350 one way. The Delta connecting flight is $275 one way. The Hilton hotel is $200 per night, the Marriott is $225 per night, and the Sheraton is $190 per night. Can I help you book any of these options?\nCustomer: Thank you for the information, Zoe. I appreciate your help. I think I need some more time to make a decision. I'll call back if I have any further questions.\nAgent: You're welcome, John. Don't hesitate to call us back if you need any assistance. Have a great day!\n"
+  }
+}

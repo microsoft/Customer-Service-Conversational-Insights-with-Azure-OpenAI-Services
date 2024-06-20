@@ -1,0 +1,214 @@
+{
+  "AgentName": "Mia Anderson",
+  "AgentId": "UDC24N",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-671-8237",
+  "Conversation": {
+    "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+    "Messages": [
+      {
+        "Id": "fa5c8f54-20d9-4337-aa86-d3b614a4a372",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T03:55:50.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "Thank you for calling the travel agency, this is Mia Anderson speaking. How may I assist you today?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "92172ffb-d424-4a2f-acc0-287d2d01d71d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T03:55:56.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "Hello Mia, my name is John Smith. I am calling because I have an upcoming trip from Chicago to New York and I need to make some changes.",
+        "UserId": "999-671-8237",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "78bb4b8a-6bb3-4d05-8c47-3c4741bb3612",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T03:56:03.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "Sure John, I'd be happy to help. What kind of changes do you need to make?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8051f52a-9b1b-4dc7-bcf1-0200f680d5e6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T03:57:42.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "I need to change my flight schedule. I have a family emergency and need to leave a day earlier.",
+        "UserId": "999-671-8237",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "390cd204-c546-4ad5-a1d9-c8fde1843e13",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T03:57:45.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "I understand how important this is for you, John. Let me take a look at your booking. Can you please provide me with your reservation number and the date of your departure?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4be0e9da-89fb-4fa8-9932-34be5fe08cdc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T03:58:51.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "Sure, my reservation number is 123456789 and the departure date was March 15th.",
+        "UserId": "999-671-8237",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "64b59a5b-6f3a-490a-b817-e15544e6d93d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T03:59:42.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "Thank you, let me check the availability for an earlier flight. Would you prefer to depart on March 14th instead?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "701efc2b-13b1-4c8d-9918-92ac599244f1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T04:00:47.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "Yes, that would be great. How much would it cost?",
+        "UserId": "999-671-8237",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a550b9ef-4311-44e8-a15b-54e1b0e6b5a0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T04:02:25.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "The fare difference for the new flight would be $75. Would you like me to proceed with the change?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "70163fb6-c318-420b-a9e7-921706642b05",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T04:03:49.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "Yes, please go ahead.",
+        "UserId": "999-671-8237",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "575dd942-23c2-468e-a61d-7e6976d74a43",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T04:05:37.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "Great, I have made the changes to your reservation. Is there anything else I can help you with today?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8d5d1d9c-c899-431e-a9d0-ceefb76ea43b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T04:06:19.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "No, that's all. Thank you so much for your help, Mia.",
+        "UserId": "999-671-8237",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7d2d6ac5-655a-4808-8f81-310c0529d76b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T04:07:07.9996104-05:00",
+        "ConversationId": "a7d9d01a-458a-449a-a2f0-057aee41ed45",
+        "Value": "You're welcome, John. I hope your trip goes smoothly. Have a great day!",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-17T03:54:45.9996104-05:00",
+    "EndTime": "2024-04-17T04:07:07.9996104-05:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Mia Anderson speaking. How may I assist you today?Hello Mia, my name is John Smith. I am calling because I have an upcoming trip from Chicago to New York and I need to make some changes.Sure John, I'd be happy to help. What kind of changes do you need to make?I need to change my flight schedule. I have a family emergency and need to leave a day earlier.I understand how important this is for you, John. Let me take a look at your booking. Can you please provide me with your reservation number and the date of your departure?Sure, my reservation number is 123456789 and the departure date was March 15th.Thank you, let me check the availability for an earlier flight. Would you prefer to depart on March 14th instead?Yes, that would be great. How much would it cost?The fare difference for the new flight would be $75. Would you like me to proceed with the change?Yes, please go ahead.Great, I have made the changes to your reservation. Is there anything else I can help you with today?No, that's all. Thank you so much for your help, Mia.You're welcome, John. I hope your trip goes smoothly. Have a great day!",
+    "Merged_content_user": "Hello Mia, my name is John Smith. I am calling because I have an upcoming trip from Chicago to New York and I need to make some changes.I need to change my flight schedule. I have a family emergency and need to leave a day earlier.Sure, my reservation number is 123456789 and the departure date was March 15th.Yes, that would be great. How much would it cost?Yes, please go ahead.No, that's all. Thank you so much for your help, Mia.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Mia Anderson speaking. How may I assist you today?Sure John, I'd be happy to help. What kind of changes do you need to make?I understand how important this is for you, John. Let me take a look at your booking. Can you please provide me with your reservation number and the date of your departure?Thank you, let me check the availability for an earlier flight. Would you prefer to depart on March 14th instead?The fare difference for the new flight would be $75. Would you like me to proceed with the change?Great, I have made the changes to your reservation. Is there anything else I can help you with today?You're welcome, John. I hope your trip goes smoothly. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Mia Anderson speaking. How may I assist you today?\nCustomer: Hello Mia, my name is John Smith. I am calling because I have an upcoming trip from Chicago to New York and I need to make some changes.\nAgent: Sure John, I'd be happy to help. What kind of changes do you need to make?\nCustomer: I need to change my flight schedule. I have a family emergency and need to leave a day earlier.\nAgent: I understand how important this is for you, John. Let me take a look at your booking. Can you please provide me with your reservation number and the date of your departure?\nCustomer: Sure, my reservation number is 123456789 and the departure date was March 15th.\nAgent: Thank you, let me check the availability for an earlier flight. Would you prefer to depart on March 14th instead?\nCustomer: Yes, that would be great. How much would it cost?\nAgent: The fare difference for the new flight would be $75. Would you like me to proceed with the change?\nCustomer: Yes, please go ahead.\nAgent: Great, I have made the changes to your reservation. Is there anything else I can help you with today?\nCustomer: No, that's all. Thank you so much for your help, Mia.\nAgent: You're welcome, John. I hope your trip goes smoothly. Have a great day!\n"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "AgentName": "Lucas Thompson",
+  "AgentId": "5B94O0",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-210-4057",
+  "Conversation": {
+    "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+    "Messages": [
+      {
+        "Id": "fa36c916-2b4a-492b-bab7-1137ef325f47",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T21:34:46.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "Thank you for contacting our travel agency. My name is Lucas Thompson. How may I assist you?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7d263392-ae2d-42c6-b46f-bcbe1fda01b2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T21:36:20.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "Yes, hi. My name is John Smith. I'm calling because my flight was cancelled and I'm frustrated with the situation.",
+        "UserId": "999-210-4057",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "034ee546-7063-4864-bbcf-86fcb4c72955",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T21:38:13.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with your flight details including the airline name, flight number, and departure date and time?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "07c565e3-ec38-478d-ba43-5a4a1568c33b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T21:38:52.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "Yes, it was a Delta Airlines flight with flight number DL1352 departing from Atlanta to Chicago on March 5th at 10:00am.",
+        "UserId": "999-210-4057",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "71993ffe-e4d5-4936-b32b-544a330e06af",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T21:41:00.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "I see. I apologize for the inconvenience, John. Let me check what options we have for you. Can you please hold while I check with Delta Airlines?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c4d56133-fb81-4d89-bf14-44d84281197a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T21:41:47.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "Sure, I'll hold.",
+        "UserId": "999-210-4057",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4329ea74-c45e-41fe-bf17-dcffdb319847",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T21:43:52.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "Thank you for holding, John. Unfortunately, Delta Airlines does not have any available flights on your preferred date and time. However, we can offer you a refund or book you on a flight with a different airline. Which option would you prefer?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "223801f8-35ab-4fd7-8c5e-b92208a0e4a7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T21:45:32.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "I guess a refund will have to do for now. I'll have to figure out a different way to get to Chicago.",
+        "UserId": "999-210-4057",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "69ef45c0-6bd2-40be-b5a8-1255b1452aa6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T21:47:35.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "I understand, John. I will process the refund for you right away. Can you please provide me with your booking reference number?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a3913de3-8160-407e-b08e-c32cd14bdd25",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T21:50:02.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "Yes, it's FH6789. The booking was for the Hyatt Regency hotel in downtown Chicago from March 5th to March 8th.",
+        "UserId": "999-210-4057",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "218c2938-90c8-4a9a-a322-4011754a484e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T21:52:08.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "Thank you for the information, John. I have processed your refund and you should receive it within 3-5 business days. Is there anything else I can assist you with?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2632c09c-21c0-4423-81c3-24e4aa90cbbc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T21:54:23.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "No, that's all for now. Thanks for your help, Lucas.",
+        "UserId": "999-210-4057",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "13f136a9-8fc1-4bef-9721-8929c95fafe8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T21:56:26.4596653-05:00",
+        "ConversationId": "d627318c-5d32-4744-84b5-b3a37ac19c14",
+        "Value": "You're welcome, John. Have a great day.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-17T21:33:34.4596653-05:00",
+    "EndTime": "2024-04-17T21:56:26.4596653-05:00",
+    "Merged_content": "Thank you for contacting our travel agency. My name is Lucas Thompson. How may I assist you?Yes, hi. My name is John Smith. I'm calling because my flight was cancelled and I'm frustrated with the situation.I'm sorry to hear that, John. Can you please provide me with your flight details including the airline name, flight number, and departure date and time?Yes, it was a Delta Airlines flight with flight number DL1352 departing from Atlanta to Chicago on March 5th at 10:00am.I see. I apologize for the inconvenience, John. Let me check what options we have for you. Can you please hold while I check with Delta Airlines?Sure, I'll hold.Thank you for holding, John. Unfortunately, Delta Airlines does not have any available flights on your preferred date and time. However, we can offer you a refund or book you on a flight with a different airline. Which option would you prefer?I guess a refund will have to do for now. I'll have to figure out a different way to get to Chicago.I understand, John. I will process the refund for you right away. Can you please provide me with your booking reference number?Yes, it's FH6789. The booking was for the Hyatt Regency hotel in downtown Chicago from March 5th to March 8th.Thank you for the information, John. I have processed your refund and you should receive it within 3-5 business days. Is there anything else I can assist you with?No, that's all for now. Thanks for your help, Lucas.You're welcome, John. Have a great day.",
+    "Merged_content_user": "Yes, hi. My name is John Smith. I'm calling because my flight was cancelled and I'm frustrated with the situation.Yes, it was a Delta Airlines flight with flight number DL1352 departing from Atlanta to Chicago on March 5th at 10:00am.Sure, I'll hold.I guess a refund will have to do for now. I'll have to figure out a different way to get to Chicago.Yes, it's FH6789. The booking was for the Hyatt Regency hotel in downtown Chicago from March 5th to March 8th.No, that's all for now. Thanks for your help, Lucas.",
+    "Merged_content_agent": "Thank you for contacting our travel agency. My name is Lucas Thompson. How may I assist you?I'm sorry to hear that, John. Can you please provide me with your flight details including the airline name, flight number, and departure date and time?I see. I apologize for the inconvenience, John. Let me check what options we have for you. Can you please hold while I check with Delta Airlines?Thank you for holding, John. Unfortunately, Delta Airlines does not have any available flights on your preferred date and time. However, we can offer you a refund or book you on a flight with a different airline. Which option would you prefer?I understand, John. I will process the refund for you right away. Can you please provide me with your booking reference number?Thank you for the information, John. I have processed your refund and you should receive it within 3-5 business days. Is there anything else I can assist you with?You're welcome, John. Have a great day.",
+    "Full_conversation": "Agent: Thank you for contacting our travel agency. My name is Lucas Thompson. How may I assist you?\nCustomer: Yes, hi. My name is John Smith. I'm calling because my flight was cancelled and I'm frustrated with the situation.\nAgent: I'm sorry to hear that, John. Can you please provide me with your flight details including the airline name, flight number, and departure date and time?\nCustomer: Yes, it was a Delta Airlines flight with flight number DL1352 departing from Atlanta to Chicago on March 5th at 10:00am.\nAgent: I see. I apologize for the inconvenience, John. Let me check what options we have for you. Can you please hold while I check with Delta Airlines?\nCustomer: Sure, I'll hold.\nAgent: Thank you for holding, John. Unfortunately, Delta Airlines does not have any available flights on your preferred date and time. However, we can offer you a refund or book you on a flight with a different airline. Which option would you prefer?\nCustomer: I guess a refund will have to do for now. I'll have to figure out a different way to get to Chicago.\nAgent: I understand, John. I will process the refund for you right away. Can you please provide me with your booking reference number?\nCustomer: Yes, it's FH6789. The booking was for the Hyatt Regency hotel in downtown Chicago from March 5th to March 8th.\nAgent: Thank you for the information, John. I have processed your refund and you should receive it within 3-5 business days. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thanks for your help, Lucas.\nAgent: You're welcome, John. Have a great day.\n"
+  }
+}

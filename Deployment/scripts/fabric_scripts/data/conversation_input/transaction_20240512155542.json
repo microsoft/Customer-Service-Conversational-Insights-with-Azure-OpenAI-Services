@@ -1,0 +1,214 @@
+{
+  "AgentName": "Ava Miller",
+  "AgentId": "M8Z07C",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-161-6447",
+  "Conversation": {
+    "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+    "Messages": [
+      {
+        "Id": "6bbb93cf-b06b-40b8-9a4e-b17cbdb7d4b5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T15:56:08.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "Thank you for calling XYZ Travel Agency, my name is Ava Miller. How may I assist you today?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a8fda0c9-27b0-4d01-8cc1-0c93b3a6cf15",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T15:57:23.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "Hi Ava, my name is John Smith and I'm calling because I'm having an issue with my upcoming travel plans. I'm supposed to travel from New York City to Los Angeles next week and I need some help with my flight and hotel reservations.",
+        "UserId": "999-161-6447",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "93672041-e3a3-4017-aa7a-14d300996575",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T15:57:46.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "I'm sorry to hear that, John. Let me check what I can do to help you with your reservations. Can you please provide me with your reservation numbers and dates?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "19938340-f74c-4c54-b62a-310c54e9b47f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T15:58:15.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "Sure, my flight is with American Airlines, flight number AA156, departing from JFK on January 12th at 6:00 pm. My hotel reservation is with the Hilton Hotel in Los Angeles, reservation number 123456, check-in date is January 12th and check-out date is January 16th.",
+        "UserId": "999-161-6447",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "317dee93-d996-4127-ae9f-9c8746dbb72f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T15:59:34.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "Thank you for the information, John. Let me check what options are available for you. Would you like to make any changes to your existing bookings or do you need to make new bookings?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d71d8d3e-8c43-4182-aebe-54c3e62bbe40",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T16:00:49.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "I think I need to make some changes to my existing bookings. I would like to change my flight to Delta Airlines, flight number DL242, departing on January 13th at 10:00 am. I also need to change my check-out date for the hotel to January 15th.",
+        "UserId": "999-161-6447",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3b152761-0212-473a-a98e-c35c983045e0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T16:02:30.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "I see, John. Let me check what I can do. Please hold on for a moment while I check the availability.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bdb76e1a-334f-4325-a178-d396fdeaf876",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T16:04:28.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "Thank you for holding, John. I was able to find the Delta Airlines flight you requested and updated your reservation accordingly. However, the Hilton Hotel is fully booked on January 15th. Would you like me to suggest some alternative options?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "62ef2cec-7b3a-4d00-8468-7b169e004013",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T16:05:45.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "No, that won't be necessary. Can you please refund my hotel reservation for the night of January 15th?",
+        "UserId": "999-161-6447",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aca635d0-ae49-45d2-834e-f9bd29978950",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T16:06:45.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "I'm sorry, John. Unfortunately, your reservation is non-refundable for that night. However, I can try to contact the hotel and see if there's anything they can do. Would you like me to do that?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9e49912e-67a7-4e4a-a0b4-eaf3ef9fc7fb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T16:08:32.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "Yes, please do that. Thank you for your help, Ava.",
+        "UserId": "999-161-6447",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c5b395d2-5f72-49b4-932b-43f240a31b19",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T16:08:39.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "You're welcome, John. I'll contact the hotel and try to resolve this for you. Is there anything else I can help you with?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "71e543d6-3266-4fcf-be74-a9c1e1ec12fd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T16:09:35.3457392-05:00",
+        "ConversationId": "2c8bc3f0-a40f-4e5e-a9c1-d6e05595a144",
+        "Value": "No, that's all. Thank you again, Ava.",
+        "UserId": "999-161-6447",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-12T15:55:42.3457392-05:00",
+    "EndTime": "2024-05-12T16:09:35.3457392-05:00",
+    "Merged_content": "Thank you for calling XYZ Travel Agency, my name is Ava Miller. How may I assist you today?Hi Ava, my name is John Smith and I'm calling because I'm having an issue with my upcoming travel plans. I'm supposed to travel from New York City to Los Angeles next week and I need some help with my flight and hotel reservations.I'm sorry to hear that, John. Let me check what I can do to help you with your reservations. Can you please provide me with your reservation numbers and dates?Sure, my flight is with American Airlines, flight number AA156, departing from JFK on January 12th at 6:00 pm. My hotel reservation is with the Hilton Hotel in Los Angeles, reservation number 123456, check-in date is January 12th and check-out date is January 16th.Thank you for the information, John. Let me check what options are available for you. Would you like to make any changes to your existing bookings or do you need to make new bookings?I think I need to make some changes to my existing bookings. I would like to change my flight to Delta Airlines, flight number DL242, departing on January 13th at 10:00 am. I also need to change my check-out date for the hotel to January 15th.I see, John. Let me check what I can do. Please hold on for a moment while I check the availability.Thank you for holding, John. I was able to find the Delta Airlines flight you requested and updated your reservation accordingly. However, the Hilton Hotel is fully booked on January 15th. Would you like me to suggest some alternative options?No, that won't be necessary. Can you please refund my hotel reservation for the night of January 15th?I'm sorry, John. Unfortunately, your reservation is non-refundable for that night. However, I can try to contact the hotel and see if there's anything they can do. Would you like me to do that?Yes, please do that. Thank you for your help, Ava.You're welcome, John. I'll contact the hotel and try to resolve this for you. Is there anything else I can help you with?No, that's all. Thank you again, Ava.",
+    "Merged_content_user": "Hi Ava, my name is John Smith and I'm calling because I'm having an issue with my upcoming travel plans. I'm supposed to travel from New York City to Los Angeles next week and I need some help with my flight and hotel reservations.Sure, my flight is with American Airlines, flight number AA156, departing from JFK on January 12th at 6:00 pm. My hotel reservation is with the Hilton Hotel in Los Angeles, reservation number 123456, check-in date is January 12th and check-out date is January 16th.I think I need to make some changes to my existing bookings. I would like to change my flight to Delta Airlines, flight number DL242, departing on January 13th at 10:00 am. I also need to change my check-out date for the hotel to January 15th.No, that won't be necessary. Can you please refund my hotel reservation for the night of January 15th?Yes, please do that. Thank you for your help, Ava.No, that's all. Thank you again, Ava.",
+    "Merged_content_agent": "Thank you for calling XYZ Travel Agency, my name is Ava Miller. How may I assist you today?I'm sorry to hear that, John. Let me check what I can do to help you with your reservations. Can you please provide me with your reservation numbers and dates?Thank you for the information, John. Let me check what options are available for you. Would you like to make any changes to your existing bookings or do you need to make new bookings?I see, John. Let me check what I can do. Please hold on for a moment while I check the availability.Thank you for holding, John. I was able to find the Delta Airlines flight you requested and updated your reservation accordingly. However, the Hilton Hotel is fully booked on January 15th. Would you like me to suggest some alternative options?I'm sorry, John. Unfortunately, your reservation is non-refundable for that night. However, I can try to contact the hotel and see if there's anything they can do. Would you like me to do that?You're welcome, John. I'll contact the hotel and try to resolve this for you. Is there anything else I can help you with?",
+    "Full_conversation": "Agent: Thank you for calling XYZ Travel Agency, my name is Ava Miller. How may I assist you today?\nCustomer: Hi Ava, my name is John Smith and I'm calling because I'm having an issue with my upcoming travel plans. I'm supposed to travel from New York City to Los Angeles next week and I need some help with my flight and hotel reservations.\nAgent: I'm sorry to hear that, John. Let me check what I can do to help you with your reservations. Can you please provide me with your reservation numbers and dates?\nCustomer: Sure, my flight is with American Airlines, flight number AA156, departing from JFK on January 12th at 6:00 pm. My hotel reservation is with the Hilton Hotel in Los Angeles, reservation number 123456, check-in date is January 12th and check-out date is January 16th.\nAgent: Thank you for the information, John. Let me check what options are available for you. Would you like to make any changes to your existing bookings or do you need to make new bookings?\nCustomer: I think I need to make some changes to my existing bookings. I would like to change my flight to Delta Airlines, flight number DL242, departing on January 13th at 10:00 am. I also need to change my check-out date for the hotel to January 15th.\nAgent: I see, John. Let me check what I can do. Please hold on for a moment while I check the availability.\nAgent: Thank you for holding, John. I was able to find the Delta Airlines flight you requested and updated your reservation accordingly. However, the Hilton Hotel is fully booked on January 15th. Would you like me to suggest some alternative options?\nCustomer: No, that won't be necessary. Can you please refund my hotel reservation for the night of January 15th?\nAgent: I'm sorry, John. Unfortunately, your reservation is non-refundable for that night. However, I can try to contact the hotel and see if there's anything they can do. Would you like me to do that?\nCustomer: Yes, please do that. Thank you for your help, Ava.\nAgent: You're welcome, John. I'll contact the hotel and try to resolve this for you. Is there anything else I can help you with?\nCustomer: No, that's all. Thank you again, Ava.\n"
+  }
+}

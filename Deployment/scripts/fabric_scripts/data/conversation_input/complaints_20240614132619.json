@@ -1,0 +1,139 @@
+{
+  "AgentName": "Lucas Thompson",
+  "AgentId": "5B94O0",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-722-1367",
+  "Conversation": {
+    "ConversationId": "a06d0260-81d9-493f-aa33-80519f2d6d7c",
+    "Messages": [
+      {
+        "Id": "f9894c52-debb-4eca-9c5f-92c48e0b67ab",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T13:26:49.5126228-05:00",
+        "ConversationId": "a06d0260-81d9-493f-aa33-80519f2d6d7c",
+        "Value": "Thank you for calling TravelEase, my name is Lucas Thompson. How can I assist you today?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a169fdb5-0e21-4071-a89d-ecf9df7b0f32",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T13:27:45.5126228-05:00",
+        "ConversationId": "a06d0260-81d9-493f-aa33-80519f2d6d7c",
+        "Value": "Hi Lucas, my name is Sarah Johnson. I recently went on a trip to New York City and unfortunately my luggage was lost during the flight. I need your assistance with tracking and reclaiming my lost baggage.",
+        "UserId": "999-722-1367",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "542f0d8b-a7c1-45e3-9133-57835d238fdd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T13:28:36.5126228-05:00",
+        "ConversationId": "a06d0260-81d9-493f-aa33-80519f2d6d7c",
+        "Value": "I'm sorry to hear that, Sarah. Can you please provide me with your reservation number and the date of your flight?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5a00c183-8f89-481e-921d-b6ff8e721b44",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T13:28:48.5126228-05:00",
+        "ConversationId": "a06d0260-81d9-493f-aa33-80519f2d6d7c",
+        "Value": "Yes, my reservation number is 123456789 and I flew on Delta Airlines on March 31st.",
+        "UserId": "999-722-1367",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "99c4715d-d6f4-4822-993f-727254998708",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T13:30:23.5126228-05:00",
+        "ConversationId": "a06d0260-81d9-493f-aa33-80519f2d6d7c",
+        "Value": "Thank you, Sarah. I apologize for the inconvenience. Let me check with our baggage tracking department for an update on your lost luggage. Can you please provide me with a phone number and email address where we can reach you?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0e939162-7f17-468c-ba60-dd7e9c305188",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T13:31:06.5126228-05:00",
+        "ConversationId": "a06d0260-81d9-493f-aa33-80519f2d6d7c",
+        "Value": "Sure, my phone number is 555-555-5555 and my email is sarahjohnson@email.com",
+        "UserId": "999-722-1367",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a83d26d9-c132-4259-a93d-94d3912f7f4d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T13:32:05.5126228-05:00",
+        "ConversationId": "a06d0260-81d9-493f-aa33-80519f2d6d7c",
+        "Value": "Thank you, Sarah. I will escalate this to our baggage tracking department and they will reach out to you as soon as possible with an update on your lost luggage. Is there anything else I can assist you with?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "37a3b6ff-fde5-45e8-a269-40f1bd08423a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T13:33:51.5126228-05:00",
+        "ConversationId": "a06d0260-81d9-493f-aa33-80519f2d6d7c",
+        "Value": "No, that's all. Thank you for your help, Lucas.",
+        "UserId": "999-722-1367",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-14T13:26:19.5126228-05:00",
+    "EndTime": "2024-06-14T13:33:51.5126228-05:00",
+    "Merged_content": "Thank you for calling TravelEase, my name is Lucas Thompson. How can I assist you today?Hi Lucas, my name is Sarah Johnson. I recently went on a trip to New York City and unfortunately my luggage was lost during the flight. I need your assistance with tracking and reclaiming my lost baggage.I'm sorry to hear that, Sarah. Can you please provide me with your reservation number and the date of your flight?Yes, my reservation number is 123456789 and I flew on Delta Airlines on March 31st.Thank you, Sarah. I apologize for the inconvenience. Let me check with our baggage tracking department for an update on your lost luggage. Can you please provide me with a phone number and email address where we can reach you?Sure, my phone number is 555-555-5555 and my email is sarahjohnson@email.comThank you, Sarah. I will escalate this to our baggage tracking department and they will reach out to you as soon as possible with an update on your lost luggage. Is there anything else I can assist you with?No, that's all. Thank you for your help, Lucas.",
+    "Merged_content_user": "Hi Lucas, my name is Sarah Johnson. I recently went on a trip to New York City and unfortunately my luggage was lost during the flight. I need your assistance with tracking and reclaiming my lost baggage.Yes, my reservation number is 123456789 and I flew on Delta Airlines on March 31st.Sure, my phone number is 555-555-5555 and my email is sarahjohnson@email.comNo, that's all. Thank you for your help, Lucas.",
+    "Merged_content_agent": "Thank you for calling TravelEase, my name is Lucas Thompson. How can I assist you today?I'm sorry to hear that, Sarah. Can you please provide me with your reservation number and the date of your flight?Thank you, Sarah. I apologize for the inconvenience. Let me check with our baggage tracking department for an update on your lost luggage. Can you please provide me with a phone number and email address where we can reach you?Thank you, Sarah. I will escalate this to our baggage tracking department and they will reach out to you as soon as possible with an update on your lost luggage. Is there anything else I can assist you with?",
+    "Full_conversation": "Agent: Thank you for calling TravelEase, my name is Lucas Thompson. How can I assist you today?\nCustomer: Hi Lucas, my name is Sarah Johnson. I recently went on a trip to New York City and unfortunately my luggage was lost during the flight. I need your assistance with tracking and reclaiming my lost baggage.\nAgent: I'm sorry to hear that, Sarah. Can you please provide me with your reservation number and the date of your flight?\nCustomer: Yes, my reservation number is 123456789 and I flew on Delta Airlines on March 31st.\nAgent: Thank you, Sarah. I apologize for the inconvenience. Let me check with our baggage tracking department for an update on your lost luggage. Can you please provide me with a phone number and email address where we can reach you?\nCustomer: Sure, my phone number is 555-555-5555 and my email is sarahjohnson@email.com\nAgent: Thank you, Sarah. I will escalate this to our baggage tracking department and they will reach out to you as soon as possible with an update on your lost luggage. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you for your help, Lucas.\n"
+  }
+}

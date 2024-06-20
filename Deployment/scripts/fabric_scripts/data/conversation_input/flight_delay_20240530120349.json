@@ -1,0 +1,214 @@
+{
+  "AgentName": "Sebastian Harris",
+  "AgentId": "Z82TOA",
+  "Team": "Midwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-856-4611",
+  "Conversation": {
+    "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+    "Messages": [
+      {
+        "Id": "aa0e494c-0b59-4677-b94d-537094417f54",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-30T12:04:18.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "Thank you for contacting our travel agency, my name is Sebastian Harris. How may I assist you today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "426ffd16-fd87-4ab4-9de0-170fc1cce8f1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-30T12:05:25.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "I am calling because my flight to New York was delayed for several hours and I missed an important business meeting. This is unacceptable and I want to know what your company will do to make things right.",
+        "UserId": "999-856-4611",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d7ede220-39b8-44f5-bef6-af8b123414ea",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-30T12:06:00.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "I'm sorry to hear about the delay and the inconvenience it caused, may I have your full name and booking reservation number please?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6741e62e-7761-443c-a5b0-5d637858c644",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-30T12:07:58.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "My name is John Smith and my booking reservation number is 1234. I was supposed to depart from Chicago at 7 am on August 10th with American Airlines.",
+        "UserId": "999-856-4611",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "99db9c3a-6899-4e95-95fc-c0c34232f2c4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-30T12:09:41.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "Thank you for that information, Mr. Smith. I apologize for the inconvenience due to the delay. Unfortunately, airlines sometimes experience unexpected developments that can cause delays or cancellations. However, we will do our best to assist you with any compensation that may be available to you. May I place you on hold momentarily while I investigate your options?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e774b869-85ae-4a6a-a8ca-fed93dec8338",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-30T12:10:47.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "Fine.",
+        "UserId": "999-856-4611",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e1219524-9e96-4bcf-aa3a-bd154c3f8fde",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-30T12:11:21.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "Thank you for waiting, Mr. Smith. According to our records, your flight was delayed due to weather conditions. However, we have verified that you are eligible for compensation in the form of a voucher or refund of the ticket price. We can help you to file a claim with American Airlines to obtain this compensation. Would you like to proceed with the process now?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3ea67bce-2e8e-4534-a646-715e88e9aa93",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-30T12:13:20.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "Finally, some help. Yes, I want to proceed with the claim now.",
+        "UserId": "999-856-4611",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7487d0d1-c2d2-4e66-ab0e-1b620dfc9d58",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-30T12:14:51.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "Certainly. I will need information including your flight number, date of travel, and booking reservation number to file the claim. Would you please provide me with them?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fe865596-df2b-40a0-9005-da28cc6a5092",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-30T12:16:33.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "The flight number was AA123, the traveling date was August 10th, and the booking number is 1234.",
+        "UserId": "999-856-4611",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cafec958-20c1-4e88-8687-b238b1dd583f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-30T12:17:09.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "Thank you, Mr. Smith. I will process your claim and follow up with you via email within 24 hours. Is there anything else you would like to discuss?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "29b897be-5d44-4c99-aaf0-a2a3b73a8769",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-30T12:18:57.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "No, that's all. Thank you for your help.",
+        "UserId": "999-856-4611",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "60e4967b-4dfc-4d6f-a0e5-5fc681e9ab53",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-30T12:20:25.8364255-05:00",
+        "ConversationId": "dd8990f2-9546-4b33-8e3c-9905f84fc79a",
+        "Value": "You're welcome, Mr. Smith. I apologize again for the inconvenience and hope that we can assist you with any future travel needs. Have a good day.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-30T12:03:49.8364255-05:00",
+    "EndTime": "2024-05-30T12:20:25.8364255-05:00",
+    "Merged_content": "Thank you for contacting our travel agency, my name is Sebastian Harris. How may I assist you today?I am calling because my flight to New York was delayed for several hours and I missed an important business meeting. This is unacceptable and I want to know what your company will do to make things right.I'm sorry to hear about the delay and the inconvenience it caused, may I have your full name and booking reservation number please?My name is John Smith and my booking reservation number is 1234. I was supposed to depart from Chicago at 7 am on August 10th with American Airlines.Thank you for that information, Mr. Smith. I apologize for the inconvenience due to the delay. Unfortunately, airlines sometimes experience unexpected developments that can cause delays or cancellations. However, we will do our best to assist you with any compensation that may be available to you. May I place you on hold momentarily while I investigate your options?Fine.Thank you for waiting, Mr. Smith. According to our records, your flight was delayed due to weather conditions. However, we have verified that you are eligible for compensation in the form of a voucher or refund of the ticket price. We can help you to file a claim with American Airlines to obtain this compensation. Would you like to proceed with the process now?Finally, some help. Yes, I want to proceed with the claim now.Certainly. I will need information including your flight number, date of travel, and booking reservation number to file the claim. Would you please provide me with them?The flight number was AA123, the traveling date was August 10th, and the booking number is 1234.Thank you, Mr. Smith. I will process your claim and follow up with you via email within 24 hours. Is there anything else you would like to discuss?No, that's all. Thank you for your help.You're welcome, Mr. Smith. I apologize again for the inconvenience and hope that we can assist you with any future travel needs. Have a good day.",
+    "Merged_content_user": "I am calling because my flight to New York was delayed for several hours and I missed an important business meeting. This is unacceptable and I want to know what your company will do to make things right.My name is John Smith and my booking reservation number is 1234. I was supposed to depart from Chicago at 7 am on August 10th with American Airlines.Fine.Finally, some help. Yes, I want to proceed with the claim now.The flight number was AA123, the traveling date was August 10th, and the booking number is 1234.No, that's all. Thank you for your help.",
+    "Merged_content_agent": "Thank you for contacting our travel agency, my name is Sebastian Harris. How may I assist you today?I'm sorry to hear about the delay and the inconvenience it caused, may I have your full name and booking reservation number please?Thank you for that information, Mr. Smith. I apologize for the inconvenience due to the delay. Unfortunately, airlines sometimes experience unexpected developments that can cause delays or cancellations. However, we will do our best to assist you with any compensation that may be available to you. May I place you on hold momentarily while I investigate your options?Thank you for waiting, Mr. Smith. According to our records, your flight was delayed due to weather conditions. However, we have verified that you are eligible for compensation in the form of a voucher or refund of the ticket price. We can help you to file a claim with American Airlines to obtain this compensation. Would you like to proceed with the process now?Certainly. I will need information including your flight number, date of travel, and booking reservation number to file the claim. Would you please provide me with them?Thank you, Mr. Smith. I will process your claim and follow up with you via email within 24 hours. Is there anything else you would like to discuss?You're welcome, Mr. Smith. I apologize again for the inconvenience and hope that we can assist you with any future travel needs. Have a good day.",
+    "Full_conversation": "Agent: Thank you for contacting our travel agency, my name is Sebastian Harris. How may I assist you today?\nCustomer: I am calling because my flight to New York was delayed for several hours and I missed an important business meeting. This is unacceptable and I want to know what your company will do to make things right.\nAgent: I'm sorry to hear about the delay and the inconvenience it caused, may I have your full name and booking reservation number please?\nCustomer: My name is John Smith and my booking reservation number is 1234. I was supposed to depart from Chicago at 7 am on August 10th with American Airlines.\nAgent: Thank you for that information, Mr. Smith. I apologize for the inconvenience due to the delay. Unfortunately, airlines sometimes experience unexpected developments that can cause delays or cancellations. However, we will do our best to assist you with any compensation that may be available to you. May I place you on hold momentarily while I investigate your options?\nCustomer: Fine.\nAgent: Thank you for waiting, Mr. Smith. According to our records, your flight was delayed due to weather conditions. However, we have verified that you are eligible for compensation in the form of a voucher or refund of the ticket price. We can help you to file a claim with American Airlines to obtain this compensation. Would you like to proceed with the process now?\nCustomer: Finally, some help. Yes, I want to proceed with the claim now.\nAgent: Certainly. I will need information including your flight number, date of travel, and booking reservation number to file the claim. Would you please provide me with them?\nCustomer: The flight number was AA123, the traveling date was August 10th, and the booking number is 1234.\nAgent: Thank you, Mr. Smith. I will process your claim and follow up with you via email within 24 hours. Is there anything else you would like to discuss?\nCustomer: No, that's all. Thank you for your help.\nAgent: You're welcome, Mr. Smith. I apologize again for the inconvenience and hope that we can assist you with any future travel needs. Have a good day.\n"
+  }
+}

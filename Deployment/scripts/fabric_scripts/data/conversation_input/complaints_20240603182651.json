@@ -1,0 +1,184 @@
+{
+  "AgentName": "Grace King",
+  "AgentId": "ETKIYY",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-977-7034",
+  "Conversation": {
+    "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+    "Messages": [
+      {
+        "Id": "5520ebd2-9991-47bb-842e-039d47edb2bd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T18:26:57.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "Thank you for calling our travel agency, this is Grace King, how may I assist you today?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0e1c7a78-a43d-4b98-982e-8bffbd4711d5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T18:27:51.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "Hi Grace, my name is John Smith and I have a complaint regarding my recent trip to New York City.",
+        "UserId": "999-977-7034",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6a047fc2-8d62-4195-86a3-42617f5fa6b7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T18:29:12.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "I'm sorry to hear that John. Can you please tell me more about the issue you experienced?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "74102410-4e13-46f6-aef2-95aea8b468e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T18:29:55.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "Yes, I had issues with my luggage. It was lost when I arrived in New York and I had to wait for a day before it was returned to me.",
+        "UserId": "999-977-7034",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2e665546-6fad-4443-a8e6-692428f3212f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T18:31:54.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "I apologize for the inconvenience John. Let me assist you with tracking your bags and reclaiming it. Can you please provide me with your reservation number and date of travel?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0e7b2158-6624-496a-a480-52bc82f7dc28",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T18:32:57.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "Sure, my reservation number is 12345 and my travel date was September 25th.",
+        "UserId": "999-977-7034",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "39fefdb3-d005-41ad-b135-dc9acf296c35",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T18:34:29.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "Thank you John, let me check on that for you. It looks like your bags were located and should have been returned to you. Can you please confirm if you have received it already?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c3c10816-8d39-4791-b0f3-559c46f30984",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T18:35:56.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "Yes, I received my bags yesterday. Thank you for your help Grace.",
+        "UserId": "999-977-7034",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c442cfdb-1e34-499f-9777-dbaee0275b52",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T18:36:17.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "You're welcome John. Is there anything else I can assist you with?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3c5160f4-dcda-437a-8b51-c24effe07341",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T18:36:47.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "No, that's it. Thank you again Grace.",
+        "UserId": "999-977-7034",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a7337f59-b60a-40ce-bbf9-ec59aeab3a32",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T18:37:35.1205317-05:00",
+        "ConversationId": "52bcd41a-7acf-4b89-8d11-55d94dd15b9d",
+        "Value": "You're welcome John. Have a great day!",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-03T18:26:51.1205317-05:00",
+    "EndTime": "2024-06-03T18:37:35.1205317-05:00",
+    "Merged_content": "Thank you for calling our travel agency, this is Grace King, how may I assist you today?Hi Grace, my name is John Smith and I have a complaint regarding my recent trip to New York City.I'm sorry to hear that John. Can you please tell me more about the issue you experienced?Yes, I had issues with my luggage. It was lost when I arrived in New York and I had to wait for a day before it was returned to me.I apologize for the inconvenience John. Let me assist you with tracking your bags and reclaiming it. Can you please provide me with your reservation number and date of travel?Sure, my reservation number is 12345 and my travel date was September 25th.Thank you John, let me check on that for you. It looks like your bags were located and should have been returned to you. Can you please confirm if you have received it already?Yes, I received my bags yesterday. Thank you for your help Grace.You're welcome John. Is there anything else I can assist you with?No, that's it. Thank you again Grace.You're welcome John. Have a great day!",
+    "Merged_content_user": "Hi Grace, my name is John Smith and I have a complaint regarding my recent trip to New York City.Yes, I had issues with my luggage. It was lost when I arrived in New York and I had to wait for a day before it was returned to me.Sure, my reservation number is 12345 and my travel date was September 25th.Yes, I received my bags yesterday. Thank you for your help Grace.No, that's it. Thank you again Grace.",
+    "Merged_content_agent": "Thank you for calling our travel agency, this is Grace King, how may I assist you today?I'm sorry to hear that John. Can you please tell me more about the issue you experienced?I apologize for the inconvenience John. Let me assist you with tracking your bags and reclaiming it. Can you please provide me with your reservation number and date of travel?Thank you John, let me check on that for you. It looks like your bags were located and should have been returned to you. Can you please confirm if you have received it already?You're welcome John. Is there anything else I can assist you with?You're welcome John. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling our travel agency, this is Grace King, how may I assist you today?\nCustomer: Hi Grace, my name is John Smith and I have a complaint regarding my recent trip to New York City.\nAgent: I'm sorry to hear that John. Can you please tell me more about the issue you experienced?\nCustomer: Yes, I had issues with my luggage. It was lost when I arrived in New York and I had to wait for a day before it was returned to me.\nAgent: I apologize for the inconvenience John. Let me assist you with tracking your bags and reclaiming it. Can you please provide me with your reservation number and date of travel?\nCustomer: Sure, my reservation number is 12345 and my travel date was September 25th.\nAgent: Thank you John, let me check on that for you. It looks like your bags were located and should have been returned to you. Can you please confirm if you have received it already?\nCustomer: Yes, I received my bags yesterday. Thank you for your help Grace.\nAgent: You're welcome John. Is there anything else I can assist you with?\nCustomer: No, that's it. Thank you again Grace.\nAgent: You're welcome John. Have a great day!\n"
+  }
+}

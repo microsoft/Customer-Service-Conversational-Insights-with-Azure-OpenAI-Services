@@ -1,0 +1,214 @@
+{
+  "AgentName": "Grace King",
+  "AgentId": "ETKIYY",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-442-9909",
+  "Conversation": {
+    "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+    "Messages": [
+      {
+        "Id": "fc925848-d56a-4cb0-b12c-8d72e7f62c70",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-13T06:10:33.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "Thank you for calling XYZ Travel Agency, my name is Grace. How can I assist you today?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e4f045bd-01cd-4e49-a8df-8d9f2e4853d2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-13T06:12:10.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "Hi Grace, my name is Sarah Johnson. I recently traveled from New York City to Los Angeles for business and I had a terrible experience with the airline and hotel. I would like to file a complaint and get some compensation for the inconvenience.",
+        "UserId": "999-442-9909",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d88cc37f-878f-41ce-a658-930cd3d0e804",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-13T06:12:52.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "I'm sorry to hear that, Sarah. Can you please provide me with your flight information and hotel reservation number so I can look into it?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2faf0d0c-1941-452b-9d51-dc4b0b6831ef",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-13T06:14:21.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "Sure, my flight was with Delta Airlines, flight number DL423, departure date was October 5th at 6:00 AM. My hotel reservation was at The Ritz Carlton in downtown LA, reservation number is 1234567890 and check-in date was October 5th.",
+        "UserId": "999-442-9909",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "13aa121e-ad9b-42d7-8078-498bf05abe80",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-13T06:15:04.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "Thank you, Sarah. I can see that your flight was delayed for 2 hours and you were not notified about the delay. Is that correct?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d698e3f7-b542-4cc8-ac6e-e9a0ccfc480a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-13T06:15:11.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "Yes, that's correct. I had to wait at the airport for 2 hours with no explanation from the airline.",
+        "UserId": "999-442-9909",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5de2485e-8587-4990-811e-1581bde90714",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-13T06:16:32.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "I apologize for the inconvenience, Sarah. Delta Airlines will compensate you for the delay. I will initiate the process and you will receive more information within the next 7-10 business days. Regarding your hotel reservation, can you please provide more details about the issue?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f2ce53c0-c339-4bc9-a933-c095e21fb1a3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-13T06:16:54.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "Yes, the room conditions were unsatisfactory and different from what was advertised. The hotel also overcharged me for additional services that I did not use.",
+        "UserId": "999-442-9909",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "890e08f6-8f2d-4540-9c0d-3edfa8f172bd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-13T06:17:51.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "I understand your frustration, Sarah. I will contact the hotel on your behalf and try to resolve the issue. Regarding the overcharge, can you please provide a breakdown of the charges?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1748fdf1-e54f-46a1-a05a-26640cafba6b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-13T06:18:11.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "Sure, the hotel charged me $100 for room service that I did not use, and $50 for the minibar that I did not touch.",
+        "UserId": "999-442-9909",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e405103a-b18f-431e-9c58-9dca2fc0a5f7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-13T06:20:02.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "Thank you for the information, Sarah. I will contact the hotel and ask for a refund for the overcharge. Is there anything else I can assist you with?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bfa38b42-b6bf-46e4-b37a-2ed121910574",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-13T06:21:03.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "No, that's all. Thank you for your help, Grace.",
+        "UserId": "999-442-9909",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "802cc54b-1205-4e30-ac62-d834bd65b07d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-13T06:21:52.2830532-05:00",
+        "ConversationId": "27f132fa-8827-40c9-b182-925a4933aa94",
+        "Value": "You're welcome, Sarah. If you have any other concerns or questions, don't hesitate to contact us again. Have a great day!",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-13T06:09:16.2830532-05:00",
+    "EndTime": "2024-04-13T06:21:52.2830532-05:00",
+    "Merged_content": "Thank you for calling XYZ Travel Agency, my name is Grace. How can I assist you today?Hi Grace, my name is Sarah Johnson. I recently traveled from New York City to Los Angeles for business and I had a terrible experience with the airline and hotel. I would like to file a complaint and get some compensation for the inconvenience.I'm sorry to hear that, Sarah. Can you please provide me with your flight information and hotel reservation number so I can look into it?Sure, my flight was with Delta Airlines, flight number DL423, departure date was October 5th at 6:00 AM. My hotel reservation was at The Ritz Carlton in downtown LA, reservation number is 1234567890 and check-in date was October 5th.Thank you, Sarah. I can see that your flight was delayed for 2 hours and you were not notified about the delay. Is that correct?Yes, that's correct. I had to wait at the airport for 2 hours with no explanation from the airline.I apologize for the inconvenience, Sarah. Delta Airlines will compensate you for the delay. I will initiate the process and you will receive more information within the next 7-10 business days. Regarding your hotel reservation, can you please provide more details about the issue?Yes, the room conditions were unsatisfactory and different from what was advertised. The hotel also overcharged me for additional services that I did not use.I understand your frustration, Sarah. I will contact the hotel on your behalf and try to resolve the issue. Regarding the overcharge, can you please provide a breakdown of the charges?Sure, the hotel charged me $100 for room service that I did not use, and $50 for the minibar that I did not touch.Thank you for the information, Sarah. I will contact the hotel and ask for a refund for the overcharge. Is there anything else I can assist you with?No, that's all. Thank you for your help, Grace.You're welcome, Sarah. If you have any other concerns or questions, don't hesitate to contact us again. Have a great day!",
+    "Merged_content_user": "Hi Grace, my name is Sarah Johnson. I recently traveled from New York City to Los Angeles for business and I had a terrible experience with the airline and hotel. I would like to file a complaint and get some compensation for the inconvenience.Sure, my flight was with Delta Airlines, flight number DL423, departure date was October 5th at 6:00 AM. My hotel reservation was at The Ritz Carlton in downtown LA, reservation number is 1234567890 and check-in date was October 5th.Yes, that's correct. I had to wait at the airport for 2 hours with no explanation from the airline.Yes, the room conditions were unsatisfactory and different from what was advertised. The hotel also overcharged me for additional services that I did not use.Sure, the hotel charged me $100 for room service that I did not use, and $50 for the minibar that I did not touch.No, that's all. Thank you for your help, Grace.",
+    "Merged_content_agent": "Thank you for calling XYZ Travel Agency, my name is Grace. How can I assist you today?I'm sorry to hear that, Sarah. Can you please provide me with your flight information and hotel reservation number so I can look into it?Thank you, Sarah. I can see that your flight was delayed for 2 hours and you were not notified about the delay. Is that correct?I apologize for the inconvenience, Sarah. Delta Airlines will compensate you for the delay. I will initiate the process and you will receive more information within the next 7-10 business days. Regarding your hotel reservation, can you please provide more details about the issue?I understand your frustration, Sarah. I will contact the hotel on your behalf and try to resolve the issue. Regarding the overcharge, can you please provide a breakdown of the charges?Thank you for the information, Sarah. I will contact the hotel and ask for a refund for the overcharge. Is there anything else I can assist you with?You're welcome, Sarah. If you have any other concerns or questions, don't hesitate to contact us again. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling XYZ Travel Agency, my name is Grace. How can I assist you today?\nCustomer: Hi Grace, my name is Sarah Johnson. I recently traveled from New York City to Los Angeles for business and I had a terrible experience with the airline and hotel. I would like to file a complaint and get some compensation for the inconvenience.\nAgent: I'm sorry to hear that, Sarah. Can you please provide me with your flight information and hotel reservation number so I can look into it?\nCustomer: Sure, my flight was with Delta Airlines, flight number DL423, departure date was October 5th at 6:00 AM. My hotel reservation was at The Ritz Carlton in downtown LA, reservation number is 1234567890 and check-in date was October 5th.\nAgent: Thank you, Sarah. I can see that your flight was delayed for 2 hours and you were not notified about the delay. Is that correct?\nCustomer: Yes, that's correct. I had to wait at the airport for 2 hours with no explanation from the airline.\nAgent: I apologize for the inconvenience, Sarah. Delta Airlines will compensate you for the delay. I will initiate the process and you will receive more information within the next 7-10 business days. Regarding your hotel reservation, can you please provide more details about the issue?\nCustomer: Yes, the room conditions were unsatisfactory and different from what was advertised. The hotel also overcharged me for additional services that I did not use.\nAgent: I understand your frustration, Sarah. I will contact the hotel on your behalf and try to resolve the issue. Regarding the overcharge, can you please provide a breakdown of the charges?\nCustomer: Sure, the hotel charged me $100 for room service that I did not use, and $50 for the minibar that I did not touch.\nAgent: Thank you for the information, Sarah. I will contact the hotel and ask for a refund for the overcharge. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you for your help, Grace.\nAgent: You're welcome, Sarah. If you have any other concerns or questions, don't hesitate to contact us again. Have a great day!\n"
+  }
+}

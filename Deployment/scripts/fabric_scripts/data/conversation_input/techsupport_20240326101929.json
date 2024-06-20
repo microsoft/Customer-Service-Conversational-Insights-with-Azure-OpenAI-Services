@@ -1,0 +1,124 @@
+{
+  "AgentName": "Olivia Brown",
+  "AgentId": "J8BS3X",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-697-6473",
+  "Conversation": {
+    "ConversationId": "5a4c5c80-ec90-4f3a-a873-701625156d77",
+    "Messages": [
+      {
+        "Id": "96561a46-9b22-4e58-bc2b-d662b33b1b35",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T10:19:52.5853397-05:00",
+        "ConversationId": "5a4c5c80-ec90-4f3a-a873-701625156d77",
+        "Value": "Thank you for contacting our travel agency's tech support. My name is Olivia Brown. How may I assist you today?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0876eb6d-0761-44bf-98ee-7be390dd6a8d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-26T10:21:36.5853397-05:00",
+        "ConversationId": "5a4c5c80-ec90-4f3a-a873-701625156d77",
+        "Value": "Hi Olivia, I'm having trouble logging into my account. It keeps giving me an error message and won't let me access my itinerary. My name is John Smith and my travel dates are from Los Angeles to New York City on February 10th.",
+        "UserId": "999-697-6473",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3f706874-b933-4ac2-935a-eccdac1086f3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T10:22:50.5853397-05:00",
+        "ConversationId": "5a4c5c80-ec90-4f3a-a873-701625156d77",
+        "Value": "I'm sorry to hear that, John. Let me look into that for you. Can you please provide me with your email address and booking confirmation number?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "399a1c38-75ad-442c-b04e-245916b70728",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-26T10:24:08.5853397-05:00",
+        "ConversationId": "5a4c5c80-ec90-4f3a-a873-701625156d77",
+        "Value": "Sure, my email is johnsmith@email.com and my booking confirmation number is ABC123. ",
+        "UserId": "999-697-6473",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "05f0978b-9355-4f8d-b063-80250bc29a17",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T10:24:17.5853397-05:00",
+        "ConversationId": "5a4c5c80-ec90-4f3a-a873-701625156d77",
+        "Value": "Thank you, John. I see that your account has been locked due to multiple failed login attempts. I have reset your account and sent you an email with a temporary password. Please check your email and try logging in again with the new password. Is there anything else I can assist you with?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7b25c509-556f-4454-babf-a3aebeec1480",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-26T10:24:36.5853397-05:00",
+        "ConversationId": "5a4c5c80-ec90-4f3a-a873-701625156d77",
+        "Value": "No, that should be all. Thank you so much for your help, Olivia. ",
+        "UserId": "999-697-6473",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "09dd1e09-8cb8-4cbe-9ddc-32e7b2070c4b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T10:26:34.5853397-05:00",
+        "ConversationId": "5a4c5c80-ec90-4f3a-a873-701625156d77",
+        "Value": "You're welcome, John. Please let us know if you have any further issues or concerns. Have a great day!",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-26T10:19:29.5853397-05:00",
+    "EndTime": "2024-03-26T10:26:34.5853397-05:00",
+    "Merged_content": "Thank you for contacting our travel agency's tech support. My name is Olivia Brown. How may I assist you today?Hi Olivia, I'm having trouble logging into my account. It keeps giving me an error message and won't let me access my itinerary. My name is John Smith and my travel dates are from Los Angeles to New York City on February 10th.I'm sorry to hear that, John. Let me look into that for you. Can you please provide me with your email address and booking confirmation number?Sure, my email is johnsmith@email.com and my booking confirmation number is ABC123. Thank you, John. I see that your account has been locked due to multiple failed login attempts. I have reset your account and sent you an email with a temporary password. Please check your email and try logging in again with the new password. Is there anything else I can assist you with?No, that should be all. Thank you so much for your help, Olivia. You're welcome, John. Please let us know if you have any further issues or concerns. Have a great day!",
+    "Merged_content_user": "Hi Olivia, I'm having trouble logging into my account. It keeps giving me an error message and won't let me access my itinerary. My name is John Smith and my travel dates are from Los Angeles to New York City on February 10th.Sure, my email is johnsmith@email.com and my booking confirmation number is ABC123. No, that should be all. Thank you so much for your help, Olivia. ",
+    "Merged_content_agent": "Thank you for contacting our travel agency's tech support. My name is Olivia Brown. How may I assist you today?I'm sorry to hear that, John. Let me look into that for you. Can you please provide me with your email address and booking confirmation number?Thank you, John. I see that your account has been locked due to multiple failed login attempts. I have reset your account and sent you an email with a temporary password. Please check your email and try logging in again with the new password. Is there anything else I can assist you with?You're welcome, John. Please let us know if you have any further issues or concerns. Have a great day!",
+    "Full_conversation": "Agent: Thank you for contacting our travel agency's tech support. My name is Olivia Brown. How may I assist you today?\nCustomer: Hi Olivia, I'm having trouble logging into my account. It keeps giving me an error message and won't let me access my itinerary. My name is John Smith and my travel dates are from Los Angeles to New York City on February 10th.\nAgent: I'm sorry to hear that, John. Let me look into that for you. Can you please provide me with your email address and booking confirmation number?\nCustomer: Sure, my email is johnsmith@email.com and my booking confirmation number is ABC123. \nAgent: Thank you, John. I see that your account has been locked due to multiple failed login attempts. I have reset your account and sent you an email with a temporary password. Please check your email and try logging in again with the new password. Is there anything else I can assist you with?\nCustomer: No, that should be all. Thank you so much for your help, Olivia. \nAgent: You're welcome, John. Please let us know if you have any further issues or concerns. Have a great day!\n"
+  }
+}

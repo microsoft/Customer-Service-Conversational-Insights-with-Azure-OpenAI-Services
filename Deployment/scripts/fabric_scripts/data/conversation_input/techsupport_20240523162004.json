@@ -1,0 +1,244 @@
+{
+  "AgentName": "Mia Robinson",
+  "AgentId": "PKJSZO",
+  "Team": "West",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-944-7639",
+  "Conversation": {
+    "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+    "Messages": [
+      {
+        "Id": "2227ee45-324d-4ef4-b197-44958dcb40f9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T16:20:44.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Thank you for calling the travel agency, my name is Mia Robinson, how can I assist you today?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "51c3e7db-f9d9-4bae-824b-8cc232b3c1da",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T16:21:34.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Hi Mia, I'm having trouble with the website. I'm trying to book a flight from Phoenix to New York City, but I can't seem to navigate the website properly.",
+        "UserId": "999-944-7639",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "75468d24-759f-4c1f-b21c-8b5d4f288d63",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T16:23:14.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "I'm sorry to hear that. Can you please tell me exactly what issue you are experiencing with the website?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cd2c96ad-3ec3-43fe-b76e-e8876256b0f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T16:24:25.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Yes, I'm having trouble finding available flights on the dates I want to travel.",
+        "UserId": "999-944-7639",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d584ff80-eba1-4b8f-80ef-7bbcebd75e5a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T16:25:24.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Okay, let me check that for you. Can you please provide me with the departure date and time from Phoenix and the return date and time from New York City?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "819e4c91-853d-44fb-ba64-a112414113d3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T16:27:04.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Sure, I'm departing on October 15th at 10am from Phoenix and returning on October 20th at 6pm from New York City.",
+        "UserId": "999-944-7639",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3caa0ac5-dc83-4bdd-9afd-c7a9b12c2852",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T16:28:00.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Thank you for that information. Let me check the website for you and see what I can find.",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f2af1468-8d18-45c6-b7e9-02a8197bc14a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T16:29:42.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Okay, I see that there are a few flights available on those dates, but they are currently sold out. However, there is a waitlist available if you are interested.",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "07d6daac-8580-4a9d-808a-62893e6715df",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T16:30:24.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Okay, I would like to be added to the waitlist. Can you help me with that?",
+        "UserId": "999-944-7639",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8bd0e91a-4877-4926-b88f-b7fc2093ee37",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T16:31:35.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Absolutely. Can you please provide me with your full name, phone number, and email address so I can add you to the waitlist?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4062a417-9e8a-45a1-902f-a1d554d16bd2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T16:31:58.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "My name is John Smith, my phone number is 555-555-5555, and my email address is johnsmith@email.com.",
+        "UserId": "999-944-7639",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "46773581-6ea1-47da-a169-53d5f287bf07",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T16:33:52.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Great, let me add you to the waitlist. Is there anything else I can assist you with today?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4d82065b-d7bb-45fe-b7d9-42f7e05cb2a9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T16:34:54.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "No, that's all. Thank you for your help, Mia.",
+        "UserId": "999-944-7639",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "08f0a0f1-01a6-425b-bf4c-3a0d3be81f7b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-23T16:35:05.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "You're welcome, John. Have a great day!",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e8bba95f-72f8-4773-a9db-b4275a1b31da",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-23T16:36:50.5807272-05:00",
+        "ConversationId": "60beb574-d97d-448b-9a2a-825e9aeb8228",
+        "Value": "Thank you, you too.",
+        "UserId": "999-944-7639",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-23T16:20:04.5807272-05:00",
+    "EndTime": "2024-05-23T16:36:50.5807272-05:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Mia Robinson, how can I assist you today?Hi Mia, I'm having trouble with the website. I'm trying to book a flight from Phoenix to New York City, but I can't seem to navigate the website properly.I'm sorry to hear that. Can you please tell me exactly what issue you are experiencing with the website?Yes, I'm having trouble finding available flights on the dates I want to travel.Okay, let me check that for you. Can you please provide me with the departure date and time from Phoenix and the return date and time from New York City?Sure, I'm departing on October 15th at 10am from Phoenix and returning on October 20th at 6pm from New York City.Thank you for that information. Let me check the website for you and see what I can find.Okay, I see that there are a few flights available on those dates, but they are currently sold out. However, there is a waitlist available if you are interested.Okay, I would like to be added to the waitlist. Can you help me with that?Absolutely. Can you please provide me with your full name, phone number, and email address so I can add you to the waitlist?My name is John Smith, my phone number is 555-555-5555, and my email address is johnsmith@email.com.Great, let me add you to the waitlist. Is there anything else I can assist you with today?No, that's all. Thank you for your help, Mia.You're welcome, John. Have a great day!Thank you, you too.",
+    "Merged_content_user": "Hi Mia, I'm having trouble with the website. I'm trying to book a flight from Phoenix to New York City, but I can't seem to navigate the website properly.Yes, I'm having trouble finding available flights on the dates I want to travel.Sure, I'm departing on October 15th at 10am from Phoenix and returning on October 20th at 6pm from New York City.Okay, I would like to be added to the waitlist. Can you help me with that?My name is John Smith, my phone number is 555-555-5555, and my email address is johnsmith@email.com.No, that's all. Thank you for your help, Mia.Thank you, you too.",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Mia Robinson, how can I assist you today?I'm sorry to hear that. Can you please tell me exactly what issue you are experiencing with the website?Okay, let me check that for you. Can you please provide me with the departure date and time from Phoenix and the return date and time from New York City?Thank you for that information. Let me check the website for you and see what I can find.Okay, I see that there are a few flights available on those dates, but they are currently sold out. However, there is a waitlist available if you are interested.Absolutely. Can you please provide me with your full name, phone number, and email address so I can add you to the waitlist?Great, let me add you to the waitlist. Is there anything else I can assist you with today?You're welcome, John. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Mia Robinson, how can I assist you today?\nCustomer: Hi Mia, I'm having trouble with the website. I'm trying to book a flight from Phoenix to New York City, but I can't seem to navigate the website properly.\nAgent: I'm sorry to hear that. Can you please tell me exactly what issue you are experiencing with the website?\nCustomer: Yes, I'm having trouble finding available flights on the dates I want to travel.\nAgent: Okay, let me check that for you. Can you please provide me with the departure date and time from Phoenix and the return date and time from New York City?\nCustomer: Sure, I'm departing on October 15th at 10am from Phoenix and returning on October 20th at 6pm from New York City.\nAgent: Thank you for that information. Let me check the website for you and see what I can find.\nAgent: Okay, I see that there are a few flights available on those dates, but they are currently sold out. However, there is a waitlist available if you are interested.\nCustomer: Okay, I would like to be added to the waitlist. Can you help me with that?\nAgent: Absolutely. Can you please provide me with your full name, phone number, and email address so I can add you to the waitlist?\nCustomer: My name is John Smith, my phone number is 555-555-5555, and my email address is johnsmith@email.com.\nAgent: Great, let me add you to the waitlist. Is there anything else I can assist you with today?\nCustomer: No, that's all. Thank you for your help, Mia.\nAgent: You're welcome, John. Have a great day!\nCustomer: Thank you, you too.\n"
+  }
+}

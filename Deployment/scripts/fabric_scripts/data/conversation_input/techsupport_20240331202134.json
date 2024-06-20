@@ -1,0 +1,184 @@
+{
+  "AgentName": "Emma Davis",
+  "AgentId": "WVBORA",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-727-7946",
+  "Conversation": {
+    "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+    "Messages": [
+      {
+        "Id": "1b0b6837-676e-427b-a75d-3dffa3946ac1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-31T20:21:54.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "Thank you for calling our travel agency, this is Emma Davis. How can I assist you today?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2031565c-d6dc-416c-a96e-c57535893a41",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-31T20:23:04.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "Hi Emma, my name is John Smith and I am having trouble accessing my account on your website. Can you help me with this?",
+        "UserId": "999-727-7946",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "28ffb799-e759-4e88-a386-a530cca7264f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-31T20:23:51.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "Of course John, I'd be happy to help. Can you provide me with your account information so I can take a look?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c01b70e7-d2ad-4540-a5bc-31e0a3a2943a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-31T20:24:07.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "Sure, my email is johnsmith@email.com",
+        "UserId": "999-727-7946",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3d461794-2750-4569-9a7a-24432b781085",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-31T20:25:51.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "Thank you John, let me take a look on my side and see what the issue might be. Are you receiving any error messages when trying to log in?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f93611b2-6eac-41c7-8cd8-91738d5e7a92",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-31T20:26:32.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "No error messages, it just keeps telling me that my password is incorrect even though I know it's not.",
+        "UserId": "999-727-7946",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "230682c5-6fa2-4f4d-a3d6-a9f5d137ea76",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-31T20:28:13.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "I'm sorry to hear that John. Let me try to reset your password for you and send you an email with the instructions. Can you please provide me with your phone number so I can verify your account?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "31f5d019-af89-41f8-a156-97395218a7cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-31T20:28:59.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "Yes, my phone number is 555-555-5555",
+        "UserId": "999-727-7946",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b9095882-b801-483c-88b4-78fd274aabd1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-31T20:30:52.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "Great, thank you for that information. I have reset your password and sent an email to the registered email address on file. Please check your email and follow the instructions to reset your password. If you don't see the email, it may be in your spam folder. Is there anything else I can assist you with today?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f116eb8c-7f61-4855-b26d-903b8c852e21",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-31T20:32:26.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "No, that should do it. Thank you for your help, Emma.",
+        "UserId": "999-727-7946",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "666f5d2e-475a-4f58-8200-be58d450c245",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-31T20:33:33.6531543-05:00",
+        "ConversationId": "c0c1fb23-2551-4c37-a8a8-cfbb04810403",
+        "Value": "You're welcome John. Have a great day!",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-31T20:21:34.6531543-05:00",
+    "EndTime": "2024-03-31T20:33:33.6531543-05:00",
+    "Merged_content": "Thank you for calling our travel agency, this is Emma Davis. How can I assist you today?Hi Emma, my name is John Smith and I am having trouble accessing my account on your website. Can you help me with this?Of course John, I'd be happy to help. Can you provide me with your account information so I can take a look?Sure, my email is johnsmith@email.comThank you John, let me take a look on my side and see what the issue might be. Are you receiving any error messages when trying to log in?No error messages, it just keeps telling me that my password is incorrect even though I know it's not.I'm sorry to hear that John. Let me try to reset your password for you and send you an email with the instructions. Can you please provide me with your phone number so I can verify your account?Yes, my phone number is 555-555-5555Great, thank you for that information. I have reset your password and sent an email to the registered email address on file. Please check your email and follow the instructions to reset your password. If you don't see the email, it may be in your spam folder. Is there anything else I can assist you with today?No, that should do it. Thank you for your help, Emma.You're welcome John. Have a great day!",
+    "Merged_content_user": "Hi Emma, my name is John Smith and I am having trouble accessing my account on your website. Can you help me with this?Sure, my email is johnsmith@email.comNo error messages, it just keeps telling me that my password is incorrect even though I know it's not.Yes, my phone number is 555-555-5555No, that should do it. Thank you for your help, Emma.",
+    "Merged_content_agent": "Thank you for calling our travel agency, this is Emma Davis. How can I assist you today?Of course John, I'd be happy to help. Can you provide me with your account information so I can take a look?Thank you John, let me take a look on my side and see what the issue might be. Are you receiving any error messages when trying to log in?I'm sorry to hear that John. Let me try to reset your password for you and send you an email with the instructions. Can you please provide me with your phone number so I can verify your account?Great, thank you for that information. I have reset your password and sent an email to the registered email address on file. Please check your email and follow the instructions to reset your password. If you don't see the email, it may be in your spam folder. Is there anything else I can assist you with today?You're welcome John. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling our travel agency, this is Emma Davis. How can I assist you today?\nCustomer: Hi Emma, my name is John Smith and I am having trouble accessing my account on your website. Can you help me with this?\nAgent: Of course John, I'd be happy to help. Can you provide me with your account information so I can take a look?\nCustomer: Sure, my email is johnsmith@email.com\nAgent: Thank you John, let me take a look on my side and see what the issue might be. Are you receiving any error messages when trying to log in?\nCustomer: No error messages, it just keeps telling me that my password is incorrect even though I know it's not.\nAgent: I'm sorry to hear that John. Let me try to reset your password for you and send you an email with the instructions. Can you please provide me with your phone number so I can verify your account?\nCustomer: Yes, my phone number is 555-555-5555\nAgent: Great, thank you for that information. I have reset your password and sent an email to the registered email address on file. Please check your email and follow the instructions to reset your password. If you don't see the email, it may be in your spam folder. Is there anything else I can assist you with today?\nCustomer: No, that should do it. Thank you for your help, Emma.\nAgent: You're welcome John. Have a great day!\n"
+  }
+}

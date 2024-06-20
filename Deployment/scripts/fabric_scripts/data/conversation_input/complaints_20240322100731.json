@@ -1,0 +1,184 @@
+{
+  "AgentName": "Amelia Hernandez",
+  "AgentId": "Q8BBAU",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-820-9013",
+  "Conversation": {
+    "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+    "Messages": [
+      {
+        "Id": "b460b92d-0096-4492-ba8f-bbdc1d4e4c4d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-22T10:07:33.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "Thank you for calling Travel Adventures. My name is Amelia Hernandez. How can I assist you today?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8d8f44f6-cffe-4a7a-9929-1ed6b62f2f17",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-22T10:08:59.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "Hi Amelia, my name is John Smith and I am calling about my recent trip to Miami. I had some issues with my hotel reservation and I hope you can help me with it.",
+        "UserId": "999-820-9013",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "df51c3be-af89-4a31-b4af-04deb4500ff4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-22T10:09:51.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "I'm sorry to hear that, John. Can you provide me with your reservation number and the name of the hotel you stayed at?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c92ef2db-d7de-428d-97f0-595c19fb3a86",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-22T10:11:40.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "Sure, my reservation number is 1234567 and I stayed at the Hilton Miami Downtown.",
+        "UserId": "999-820-9013",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aa82b690-3e16-4236-a51c-438e1dd10a0c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-22T10:12:01.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "Thank you, John. Can you please tell me what the issue was with your hotel reservation?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "12a34d11-b463-412a-b603-ed040cc5ec97",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-22T10:12:54.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "Yes, so when I arrived at the hotel, they told me that my reservation had been cancelled. I never cancelled it and I had to pay again for a new room. I would like a refund for the room that I never cancelled.",
+        "UserId": "999-820-9013",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "261108cf-66b1-4682-9e81-4ca7e4611bc9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-22T10:14:15.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "I understand how frustrating that must have been for you, John. I'll do my best to help you with this. I will contact the hotel and request a refund for you. Can I have your email address to send you the details once everything is sorted out?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5b69397d-2ffe-49db-a843-89f6489ded7a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-22T10:15:18.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "My email is johnsmith@gmail.com. Thank you so much, Amelia. I appreciate your help.",
+        "UserId": "999-820-9013",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "89add40d-a96c-47c0-a7f3-2d9f5bca80a2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-22T10:15:45.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "You're welcome, John. I apologize once again for the inconvenience you experienced with your hotel reservation. Is there anything else I can assist you with?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4da67e08-b3db-4e68-87c7-f056fbb9318a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-22T10:15:49.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "No, that's all. Thank you for your help, Amelia. Have a great day.",
+        "UserId": "999-820-9013",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "01b8800f-204a-452a-b76e-825e3a3e39bb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-22T10:17:03.3333876-05:00",
+        "ConversationId": "d398a403-0248-49f1-b9d6-19341f4ed71c",
+        "Value": "You're welcome, John. I hope you have a great day too.",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-22T10:07:31.3333876-05:00",
+    "EndTime": "2024-03-22T10:17:03.3333876-05:00",
+    "Merged_content": "Thank you for calling Travel Adventures. My name is Amelia Hernandez. How can I assist you today?Hi Amelia, my name is John Smith and I am calling about my recent trip to Miami. I had some issues with my hotel reservation and I hope you can help me with it.I'm sorry to hear that, John. Can you provide me with your reservation number and the name of the hotel you stayed at?Sure, my reservation number is 1234567 and I stayed at the Hilton Miami Downtown.Thank you, John. Can you please tell me what the issue was with your hotel reservation?Yes, so when I arrived at the hotel, they told me that my reservation had been cancelled. I never cancelled it and I had to pay again for a new room. I would like a refund for the room that I never cancelled.I understand how frustrating that must have been for you, John. I'll do my best to help you with this. I will contact the hotel and request a refund for you. Can I have your email address to send you the details once everything is sorted out?My email is johnsmith@gmail.com. Thank you so much, Amelia. I appreciate your help.You're welcome, John. I apologize once again for the inconvenience you experienced with your hotel reservation. Is there anything else I can assist you with?No, that's all. Thank you for your help, Amelia. Have a great day.You're welcome, John. I hope you have a great day too.",
+    "Merged_content_user": "Hi Amelia, my name is John Smith and I am calling about my recent trip to Miami. I had some issues with my hotel reservation and I hope you can help me with it.Sure, my reservation number is 1234567 and I stayed at the Hilton Miami Downtown.Yes, so when I arrived at the hotel, they told me that my reservation had been cancelled. I never cancelled it and I had to pay again for a new room. I would like a refund for the room that I never cancelled.My email is johnsmith@gmail.com. Thank you so much, Amelia. I appreciate your help.No, that's all. Thank you for your help, Amelia. Have a great day.",
+    "Merged_content_agent": "Thank you for calling Travel Adventures. My name is Amelia Hernandez. How can I assist you today?I'm sorry to hear that, John. Can you provide me with your reservation number and the name of the hotel you stayed at?Thank you, John. Can you please tell me what the issue was with your hotel reservation?I understand how frustrating that must have been for you, John. I'll do my best to help you with this. I will contact the hotel and request a refund for you. Can I have your email address to send you the details once everything is sorted out?You're welcome, John. I apologize once again for the inconvenience you experienced with your hotel reservation. Is there anything else I can assist you with?You're welcome, John. I hope you have a great day too.",
+    "Full_conversation": "Agent: Thank you for calling Travel Adventures. My name is Amelia Hernandez. How can I assist you today?\nCustomer: Hi Amelia, my name is John Smith and I am calling about my recent trip to Miami. I had some issues with my hotel reservation and I hope you can help me with it.\nAgent: I'm sorry to hear that, John. Can you provide me with your reservation number and the name of the hotel you stayed at?\nCustomer: Sure, my reservation number is 1234567 and I stayed at the Hilton Miami Downtown.\nAgent: Thank you, John. Can you please tell me what the issue was with your hotel reservation?\nCustomer: Yes, so when I arrived at the hotel, they told me that my reservation had been cancelled. I never cancelled it and I had to pay again for a new room. I would like a refund for the room that I never cancelled.\nAgent: I understand how frustrating that must have been for you, John. I'll do my best to help you with this. I will contact the hotel and request a refund for you. Can I have your email address to send you the details once everything is sorted out?\nCustomer: My email is johnsmith@gmail.com. Thank you so much, Amelia. I appreciate your help.\nAgent: You're welcome, John. I apologize once again for the inconvenience you experienced with your hotel reservation. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you for your help, Amelia. Have a great day.\nAgent: You're welcome, John. I hope you have a great day too.\n"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "AgentName": "Nathan Walker",
+  "AgentId": "UO2KU9",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-293-9559",
+  "Conversation": {
+    "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+    "Messages": [
+      {
+        "Id": "8a8cd8fa-7e42-4a95-a032-284cfb59d094",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T10:09:54.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Thank you for contacting World Travel Agency, my name is Nathan Walker. How may I assist you today?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5db518aa-93ab-4d10-8104-a29275b0ccd9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T10:10:16.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Hi Nathan, my name is Sarah Williams. I have a trip planned from New York City to Miami next week and I'm having trouble making some decisions about my itinerary.",
+        "UserId": "999-293-9559",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "de37cff7-e701-4663-8ef0-18595c702222",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T10:10:48.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "I'm here to help you with that, Sarah. What decisions are you having trouble with?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4617a91e-c68a-49ad-a717-cf6cc7fab1cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T10:11:14.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Well, I'm not sure which hotel to choose. I've found a few options that look good, but I can't decide which one to book. Can you give me some recommendations?",
+        "UserId": "999-293-9559",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d1c548e5-9340-460d-a0b9-cfbc36bee567",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T10:11:40.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Absolutely! Can you please tell me the name of the hotels you're considering and the dates of your stay in Miami?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "662fcda3-97aa-4835-b857-9461571cb14e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T10:12:11.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Sure, the first hotel is The Ritz Carlton and the second hotel is The Fontainebleau. I will be staying in Miami from June 1st-5th.",
+        "UserId": "999-293-9559",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7f917a66-78c6-4921-b3af-82adf71b5187",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T10:13:01.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Great choices, Sarah. The Ritz Carlton is known for its luxury accommodations and excellent service. On the other hand, The Fontainebleau is a modern hotel with a great beach club and nightlife. Would you prefer a more luxurious experience or something more modern?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2478607a-d8f5-4d20-939e-3eefd6b4c55c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T10:13:38.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Hmm, that's a tough one. Can you give me some more information on both hotels? Maybe some pros and cons?",
+        "UserId": "999-293-9559",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cba19a1d-dc50-40f0-897a-b5d09d8e65f3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T10:14:35.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Sure thing. The Ritz Carlton has spacious rooms and a stunning oceanfront location, but it's also more expensive than The Fontainebleau. On the other hand, The Fontainebleau has more amenities and activities, but it can also be more crowded due to its popularity.",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c2c6f12f-a690-47d5-a0de-14ce3b98ec1a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T10:15:15.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Thank you for the information, Nathan. I think I've made my decision. I would like to book a room at The Fontainebleau please.",
+        "UserId": "999-293-9559",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fcf18b3e-b14c-4b80-944d-3b289fbb9f67",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T10:15:51.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Great choice, Sarah! I can definitely assist you with that booking. Can you please provide me with your reservation number and payment information?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c6e90e06-9336-41a4-9f1a-92f06e122f0f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T10:16:37.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Yes, my reservation number is FNB12345 and I would like to pay with my Visa card ending in 1234.",
+        "UserId": "999-293-9559",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "95b73a0a-c2e7-4849-90ad-95076c2d131c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T10:17:13.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "Thank you for providing that information, Sarah. Your booking is now complete and you will receive a confirmation email shortly with all the details. Is there anything else I can assist you with today?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "37a42e50-649a-43fb-8726-931a970ea1b1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T10:17:17.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "No, that's all. Thank you so much for your help, Nathan! You've been great.",
+        "UserId": "999-293-9559",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d6089aee-2d5f-45c6-b2b9-7ffdb5f4bf7c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T10:17:37.875458-05:00",
+        "ConversationId": "861778b7-9b49-4bc8-9c32-6f851853a375",
+        "Value": "You're welcome, Sarah! Enjoy your stay in Miami and let us know if you need anything else in the future.",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-23T10:09:20.875458-05:00",
+    "EndTime": "2024-03-23T10:17:37.875458-05:00",
+    "Merged_content": "Thank you for contacting World Travel Agency, my name is Nathan Walker. How may I assist you today?Hi Nathan, my name is Sarah Williams. I have a trip planned from New York City to Miami next week and I'm having trouble making some decisions about my itinerary.I'm here to help you with that, Sarah. What decisions are you having trouble with?Well, I'm not sure which hotel to choose. I've found a few options that look good, but I can't decide which one to book. Can you give me some recommendations?Absolutely! Can you please tell me the name of the hotels you're considering and the dates of your stay in Miami?Sure, the first hotel is The Ritz Carlton and the second hotel is The Fontainebleau. I will be staying in Miami from June 1st-5th.Great choices, Sarah. The Ritz Carlton is known for its luxury accommodations and excellent service. On the other hand, The Fontainebleau is a modern hotel with a great beach club and nightlife. Would you prefer a more luxurious experience or something more modern?Hmm, that's a tough one. Can you give me some more information on both hotels? Maybe some pros and cons?Sure thing. The Ritz Carlton has spacious rooms and a stunning oceanfront location, but it's also more expensive than The Fontainebleau. On the other hand, The Fontainebleau has more amenities and activities, but it can also be more crowded due to its popularity.Thank you for the information, Nathan. I think I've made my decision. I would like to book a room at The Fontainebleau please.Great choice, Sarah! I can definitely assist you with that booking. Can you please provide me with your reservation number and payment information?Yes, my reservation number is FNB12345 and I would like to pay with my Visa card ending in 1234.Thank you for providing that information, Sarah. Your booking is now complete and you will receive a confirmation email shortly with all the details. Is there anything else I can assist you with today?No, that's all. Thank you so much for your help, Nathan! You've been great.You're welcome, Sarah! Enjoy your stay in Miami and let us know if you need anything else in the future.",
+    "Merged_content_user": "Hi Nathan, my name is Sarah Williams. I have a trip planned from New York City to Miami next week and I'm having trouble making some decisions about my itinerary.Well, I'm not sure which hotel to choose. I've found a few options that look good, but I can't decide which one to book. Can you give me some recommendations?Sure, the first hotel is The Ritz Carlton and the second hotel is The Fontainebleau. I will be staying in Miami from June 1st-5th.Hmm, that's a tough one. Can you give me some more information on both hotels? Maybe some pros and cons?Thank you for the information, Nathan. I think I've made my decision. I would like to book a room at The Fontainebleau please.Yes, my reservation number is FNB12345 and I would like to pay with my Visa card ending in 1234.No, that's all. Thank you so much for your help, Nathan! You've been great.",
+    "Merged_content_agent": "Thank you for contacting World Travel Agency, my name is Nathan Walker. How may I assist you today?I'm here to help you with that, Sarah. What decisions are you having trouble with?Absolutely! Can you please tell me the name of the hotels you're considering and the dates of your stay in Miami?Great choices, Sarah. The Ritz Carlton is known for its luxury accommodations and excellent service. On the other hand, The Fontainebleau is a modern hotel with a great beach club and nightlife. Would you prefer a more luxurious experience or something more modern?Sure thing. The Ritz Carlton has spacious rooms and a stunning oceanfront location, but it's also more expensive than The Fontainebleau. On the other hand, The Fontainebleau has more amenities and activities, but it can also be more crowded due to its popularity.Great choice, Sarah! I can definitely assist you with that booking. Can you please provide me with your reservation number and payment information?Thank you for providing that information, Sarah. Your booking is now complete and you will receive a confirmation email shortly with all the details. Is there anything else I can assist you with today?You're welcome, Sarah! Enjoy your stay in Miami and let us know if you need anything else in the future.",
+    "Full_conversation": "Agent: Thank you for contacting World Travel Agency, my name is Nathan Walker. How may I assist you today?\nCustomer: Hi Nathan, my name is Sarah Williams. I have a trip planned from New York City to Miami next week and I'm having trouble making some decisions about my itinerary.\nAgent: I'm here to help you with that, Sarah. What decisions are you having trouble with?\nCustomer: Well, I'm not sure which hotel to choose. I've found a few options that look good, but I can't decide which one to book. Can you give me some recommendations?\nAgent: Absolutely! Can you please tell me the name of the hotels you're considering and the dates of your stay in Miami?\nCustomer: Sure, the first hotel is The Ritz Carlton and the second hotel is The Fontainebleau. I will be staying in Miami from June 1st-5th.\nAgent: Great choices, Sarah. The Ritz Carlton is known for its luxury accommodations and excellent service. On the other hand, The Fontainebleau is a modern hotel with a great beach club and nightlife. Would you prefer a more luxurious experience or something more modern?\nCustomer: Hmm, that's a tough one. Can you give me some more information on both hotels? Maybe some pros and cons?\nAgent: Sure thing. The Ritz Carlton has spacious rooms and a stunning oceanfront location, but it's also more expensive than The Fontainebleau. On the other hand, The Fontainebleau has more amenities and activities, but it can also be more crowded due to its popularity.\nCustomer: Thank you for the information, Nathan. I think I've made my decision. I would like to book a room at The Fontainebleau please.\nAgent: Great choice, Sarah! I can definitely assist you with that booking. Can you please provide me with your reservation number and payment information?\nCustomer: Yes, my reservation number is FNB12345 and I would like to pay with my Visa card ending in 1234.\nAgent: Thank you for providing that information, Sarah. Your booking is now complete and you will receive a confirmation email shortly with all the details. Is there anything else I can assist you with today?\nCustomer: No, that's all. Thank you so much for your help, Nathan! You've been great.\nAgent: You're welcome, Sarah! Enjoy your stay in Miami and let us know if you need anything else in the future.\n"
+  }
+}

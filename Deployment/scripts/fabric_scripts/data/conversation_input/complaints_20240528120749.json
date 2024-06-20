@@ -1,0 +1,229 @@
+{
+  "AgentName": "Charlotte Martinez",
+  "AgentId": "MDQCWU",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-950-1262",
+  "Conversation": {
+    "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+    "Messages": [
+      {
+        "Id": "b22f38bc-8b93-46dd-be9d-68d2c98a480f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T12:08:49.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "Thank you for calling XYZ Travel Agency, my name is Charlotte Martinez. May I have your full name and the purpose of your call?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e879cdbc-e911-433d-b6e7-20b797e9c472",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T12:09:56.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "Yes, my name is John Smith. I'm calling to complain about my recent trip to New York City.",
+        "UserId": "999-950-1262",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8411bcd0-ea1b-407d-9298-eb50c34f1b7c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T12:10:13.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "I'm sorry to hear that, John. Can you please tell me what the issue is?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1eca2adf-1114-4205-86b5-618f6944ca2e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T12:11:33.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "First of all, my flight was delayed by 3 hours and I wasn't compensated for it. Then, when I arrived at my hotel, they had overbooked my room and I had to find another hotel for the night.",
+        "UserId": "999-950-1262",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3a61056b-ce7b-4c04-b15b-049b05812238",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T12:11:43.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "I'm sorry to hear that your trip didn't go as planned, John. Let me see what I can do to help. Can you please provide me with your flight details and hotel reservation number?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "907c6ad9-853e-4a86-84ee-2090ed3494bb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T12:13:13.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "My flight was with American Airlines, flight number AA1234, and it was scheduled to depart from Chicago O'Hare at 7am on November 1st. My hotel reservation was with the Hilton in Times Square, reservation number 12345678, for November 1st and 2nd.",
+        "UserId": "999-950-1262",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "17d565de-f369-458a-85f3-b009ac525e86",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T12:13:45.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "Thank you, John. Let me check on your flight and hotel reservations. I'm sorry to inform you that there's not much we can do about the flight delay, as it was due to weather conditions. However, I can try to contact the hotel and see if they can compensate you for your inconvenience.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "49d227b7-f8b7-4bd6-9081-633e6658e28e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T12:14:39.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "That's not good enough! I want to be compensated for my flight delay too! And I want to know why there were no notifications about the delay!",
+        "UserId": "999-950-1262",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "643df560-371f-4276-9bc8-79c7c413cadf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T12:14:40.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "I understand your frustration, John. Unfortunately, flight delays due to weather conditions are beyond our control and we're not responsible for compensating passengers in those situations. However, I can file a complaint with American Airlines on your behalf and request that they provide you with some form of compensation. As for the notifications, I apologize if you did not receive any updates. Sometimes, notifications can get lost or delayed due to technical issues. Again, I'm sorry for any inconvenience this has caused you.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "06973750-200b-4555-b337-d1cff2f1cb8b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T12:16:16.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "Fine! But what about my hotel reservation? Why did they overbook my room?",
+        "UserId": "999-950-1262",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b3042890-521d-4e4c-9a19-ec1f96ace029",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T12:17:59.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "I'm not sure, John. Let me contact the hotel and find out what happened. I'll get back to you as soon as possible with an update.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e3c15006-d317-4885-b93f-105c638cf6b6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T12:19:07.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "Okay, but I'm not happy about any of this! I demand to be compensated for my inconvenience!",
+        "UserId": "999-950-1262",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "264a9cd5-2355-4075-9b08-9b0b9c136b86",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T12:20:25.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "I understand how you feel, John. I will do everything I can to resolve these issues and ensure that you are compensated as much as possible. Is there anything else I can assist you with?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "46851662-446e-4066-a01c-3d877238cb60",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T12:20:58.8185899-05:00",
+        "ConversationId": "31eaf503-222a-48e6-bfef-1c29bea288ef",
+        "Value": "No, that's all for now. But I expect to hear from you soon.",
+        "UserId": "999-950-1262",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-28T12:07:49.8185899-05:00",
+    "EndTime": "2024-05-28T12:20:58.8185899-05:00",
+    "Merged_content": "Thank you for calling XYZ Travel Agency, my name is Charlotte Martinez. May I have your full name and the purpose of your call?Yes, my name is John Smith. I'm calling to complain about my recent trip to New York City.I'm sorry to hear that, John. Can you please tell me what the issue is?First of all, my flight was delayed by 3 hours and I wasn't compensated for it. Then, when I arrived at my hotel, they had overbooked my room and I had to find another hotel for the night.I'm sorry to hear that your trip didn't go as planned, John. Let me see what I can do to help. Can you please provide me with your flight details and hotel reservation number?My flight was with American Airlines, flight number AA1234, and it was scheduled to depart from Chicago O'Hare at 7am on November 1st. My hotel reservation was with the Hilton in Times Square, reservation number 12345678, for November 1st and 2nd.Thank you, John. Let me check on your flight and hotel reservations. I'm sorry to inform you that there's not much we can do about the flight delay, as it was due to weather conditions. However, I can try to contact the hotel and see if they can compensate you for your inconvenience.That's not good enough! I want to be compensated for my flight delay too! And I want to know why there were no notifications about the delay!I understand your frustration, John. Unfortunately, flight delays due to weather conditions are beyond our control and we're not responsible for compensating passengers in those situations. However, I can file a complaint with American Airlines on your behalf and request that they provide you with some form of compensation. As for the notifications, I apologize if you did not receive any updates. Sometimes, notifications can get lost or delayed due to technical issues. Again, I'm sorry for any inconvenience this has caused you.Fine! But what about my hotel reservation? Why did they overbook my room?I'm not sure, John. Let me contact the hotel and find out what happened. I'll get back to you as soon as possible with an update.Okay, but I'm not happy about any of this! I demand to be compensated for my inconvenience!I understand how you feel, John. I will do everything I can to resolve these issues and ensure that you are compensated as much as possible. Is there anything else I can assist you with?No, that's all for now. But I expect to hear from you soon.",
+    "Merged_content_user": "Yes, my name is John Smith. I'm calling to complain about my recent trip to New York City.First of all, my flight was delayed by 3 hours and I wasn't compensated for it. Then, when I arrived at my hotel, they had overbooked my room and I had to find another hotel for the night.My flight was with American Airlines, flight number AA1234, and it was scheduled to depart from Chicago O'Hare at 7am on November 1st. My hotel reservation was with the Hilton in Times Square, reservation number 12345678, for November 1st and 2nd.That's not good enough! I want to be compensated for my flight delay too! And I want to know why there were no notifications about the delay!Fine! But what about my hotel reservation? Why did they overbook my room?Okay, but I'm not happy about any of this! I demand to be compensated for my inconvenience!No, that's all for now. But I expect to hear from you soon.",
+    "Merged_content_agent": "Thank you for calling XYZ Travel Agency, my name is Charlotte Martinez. May I have your full name and the purpose of your call?I'm sorry to hear that, John. Can you please tell me what the issue is?I'm sorry to hear that your trip didn't go as planned, John. Let me see what I can do to help. Can you please provide me with your flight details and hotel reservation number?Thank you, John. Let me check on your flight and hotel reservations. I'm sorry to inform you that there's not much we can do about the flight delay, as it was due to weather conditions. However, I can try to contact the hotel and see if they can compensate you for your inconvenience.I understand your frustration, John. Unfortunately, flight delays due to weather conditions are beyond our control and we're not responsible for compensating passengers in those situations. However, I can file a complaint with American Airlines on your behalf and request that they provide you with some form of compensation. As for the notifications, I apologize if you did not receive any updates. Sometimes, notifications can get lost or delayed due to technical issues. Again, I'm sorry for any inconvenience this has caused you.I'm not sure, John. Let me contact the hotel and find out what happened. I'll get back to you as soon as possible with an update.I understand how you feel, John. I will do everything I can to resolve these issues and ensure that you are compensated as much as possible. Is there anything else I can assist you with?",
+    "Full_conversation": "Agent: Thank you for calling XYZ Travel Agency, my name is Charlotte Martinez. May I have your full name and the purpose of your call?\nCustomer: Yes, my name is John Smith. I'm calling to complain about my recent trip to New York City.\nAgent: I'm sorry to hear that, John. Can you please tell me what the issue is?\nCustomer: First of all, my flight was delayed by 3 hours and I wasn't compensated for it. Then, when I arrived at my hotel, they had overbooked my room and I had to find another hotel for the night.\nAgent: I'm sorry to hear that your trip didn't go as planned, John. Let me see what I can do to help. Can you please provide me with your flight details and hotel reservation number?\nCustomer: My flight was with American Airlines, flight number AA1234, and it was scheduled to depart from Chicago O'Hare at 7am on November 1st. My hotel reservation was with the Hilton in Times Square, reservation number 12345678, for November 1st and 2nd.\nAgent: Thank you, John. Let me check on your flight and hotel reservations. I'm sorry to inform you that there's not much we can do about the flight delay, as it was due to weather conditions. However, I can try to contact the hotel and see if they can compensate you for your inconvenience.\nCustomer: That's not good enough! I want to be compensated for my flight delay too! And I want to know why there were no notifications about the delay!\nAgent: I understand your frustration, John. Unfortunately, flight delays due to weather conditions are beyond our control and we're not responsible for compensating passengers in those situations. However, I can file a complaint with American Airlines on your behalf and request that they provide you with some form of compensation. As for the notifications, I apologize if you did not receive any updates. Sometimes, notifications can get lost or delayed due to technical issues. Again, I'm sorry for any inconvenience this has caused you.\nCustomer: Fine! But what about my hotel reservation? Why did they overbook my room?\nAgent: I'm not sure, John. Let me contact the hotel and find out what happened. I'll get back to you as soon as possible with an update.\nCustomer: Okay, but I'm not happy about any of this! I demand to be compensated for my inconvenience!\nAgent: I understand how you feel, John. I will do everything I can to resolve these issues and ensure that you are compensated as much as possible. Is there anything else I can assist you with?\nCustomer: No, that's all for now. But I expect to hear from you soon.\n"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "AgentName": "Liam Johnson",
+  "AgentId": "YVS2EM",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-657-8998",
+  "Conversation": {
+    "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+    "Messages": [
+      {
+        "Id": "01ed9f06-8aa6-4c37-9cb3-f1b242171842",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T09:03:31.6834898-05:00",
+        "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+        "Value": "Thank you for calling Travel Agency, my name is Liam Johnson, how may I assist you today?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "45483e90-4211-4635-b7e3-e9b671ba8979",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T09:04:26.6834898-05:00",
+        "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+        "Value": "Yes, hi Liam. My name is Jane Smith. I recently traveled from New York City to Los Angeles on June 18th with American Airlines. Unfortunately, my flight was delayed for over 3 hours and it really put a damper on my trip. I'm calling to complain about the experience.",
+        "UserId": "999-657-8998",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "260641ec-d865-4560-8400-cbc786361e83",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T09:04:38.6834898-05:00",
+        "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+        "Value": "I'm sorry to hear that Jane. I definitely understand how frustrating that can be. Can you please provide me with your flight number and departure time?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "23e039fa-ecf8-4f2a-b599-2f79dce618a9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T09:06:15.6834898-05:00",
+        "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+        "Value": "Yes, my flight number was AA252 and it was scheduled to depart at 8:30 AM from JFK Airport in New York City.",
+        "UserId": "999-657-8998",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3826f05b-07ff-4350-8c32-16a53b727853",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T09:07:17.6834898-05:00",
+        "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+        "Value": "Thank you, Jane. I see that the flight was delayed due to technical issues with the plane. Unfortunately, these things happen and are out of our control. However, I can provide you with a complimentary one-night stay at the Hilton Hotel in Los Angeles as a gesture of goodwill. Would that be of some help?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e2dce9d2-3a38-4a16-aa00-c923c7332f08",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T09:08:32.6834898-05:00",
+        "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+        "Value": "I suppose that would help a bit. What's the reservation number and date?",
+        "UserId": "999-657-8998",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2e69580f-a14b-4b85-b01c-9c9c6f8f2ebc",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T09:09:20.6834898-05:00",
+        "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+        "Value": "The reservation number is 123456789 and the date of your stay will be June 20th. Is there anything else I can assist you with?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6bbfdb1f-c220-46aa-85c5-2e6b7f5f12f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-16T09:10:20.6834898-05:00",
+        "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+        "Value": "No, that's all. Thank you for the hotel stay, Liam.",
+        "UserId": "999-657-8998",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "691fd332-980f-4b9c-a978-c3844bd7bd8f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-16T09:11:41.6834898-05:00",
+        "ConversationId": "4f88a973-e4a7-4811-a7b0-de9409034c38",
+        "Value": "You're very welcome, Jane. We apologize for the inconvenience and hope you have a pleasant stay at the Hilton Hotel. Thank you for choosing Travel Agency.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-16T09:03:04.6834898-05:00",
+    "EndTime": "2024-04-16T09:11:41.6834898-05:00",
+    "Merged_content": "Thank you for calling Travel Agency, my name is Liam Johnson, how may I assist you today?Yes, hi Liam. My name is Jane Smith. I recently traveled from New York City to Los Angeles on June 18th with American Airlines. Unfortunately, my flight was delayed for over 3 hours and it really put a damper on my trip. I'm calling to complain about the experience.I'm sorry to hear that Jane. I definitely understand how frustrating that can be. Can you please provide me with your flight number and departure time?Yes, my flight number was AA252 and it was scheduled to depart at 8:30 AM from JFK Airport in New York City.Thank you, Jane. I see that the flight was delayed due to technical issues with the plane. Unfortunately, these things happen and are out of our control. However, I can provide you with a complimentary one-night stay at the Hilton Hotel in Los Angeles as a gesture of goodwill. Would that be of some help?I suppose that would help a bit. What's the reservation number and date?The reservation number is 123456789 and the date of your stay will be June 20th. Is there anything else I can assist you with?No, that's all. Thank you for the hotel stay, Liam.You're very welcome, Jane. We apologize for the inconvenience and hope you have a pleasant stay at the Hilton Hotel. Thank you for choosing Travel Agency.",
+    "Merged_content_user": "Yes, hi Liam. My name is Jane Smith. I recently traveled from New York City to Los Angeles on June 18th with American Airlines. Unfortunately, my flight was delayed for over 3 hours and it really put a damper on my trip. I'm calling to complain about the experience.Yes, my flight number was AA252 and it was scheduled to depart at 8:30 AM from JFK Airport in New York City.I suppose that would help a bit. What's the reservation number and date?No, that's all. Thank you for the hotel stay, Liam.",
+    "Merged_content_agent": "Thank you for calling Travel Agency, my name is Liam Johnson, how may I assist you today?I'm sorry to hear that Jane. I definitely understand how frustrating that can be. Can you please provide me with your flight number and departure time?Thank you, Jane. I see that the flight was delayed due to technical issues with the plane. Unfortunately, these things happen and are out of our control. However, I can provide you with a complimentary one-night stay at the Hilton Hotel in Los Angeles as a gesture of goodwill. Would that be of some help?The reservation number is 123456789 and the date of your stay will be June 20th. Is there anything else I can assist you with?You're very welcome, Jane. We apologize for the inconvenience and hope you have a pleasant stay at the Hilton Hotel. Thank you for choosing Travel Agency.",
+    "Full_conversation": "Agent: Thank you for calling Travel Agency, my name is Liam Johnson, how may I assist you today?\nCustomer: Yes, hi Liam. My name is Jane Smith. I recently traveled from New York City to Los Angeles on June 18th with American Airlines. Unfortunately, my flight was delayed for over 3 hours and it really put a damper on my trip. I'm calling to complain about the experience.\nAgent: I'm sorry to hear that Jane. I definitely understand how frustrating that can be. Can you please provide me with your flight number and departure time?\nCustomer: Yes, my flight number was AA252 and it was scheduled to depart at 8:30 AM from JFK Airport in New York City.\nAgent: Thank you, Jane. I see that the flight was delayed due to technical issues with the plane. Unfortunately, these things happen and are out of our control. However, I can provide you with a complimentary one-night stay at the Hilton Hotel in Los Angeles as a gesture of goodwill. Would that be of some help?\nCustomer: I suppose that would help a bit. What's the reservation number and date?\nAgent: The reservation number is 123456789 and the date of your stay will be June 20th. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you for the hotel stay, Liam.\nAgent: You're very welcome, Jane. We apologize for the inconvenience and hope you have a pleasant stay at the Hilton Hotel. Thank you for choosing Travel Agency.\n"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "AgentName": "Olivia Brown",
+  "AgentId": "J8BS3X",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-670-2555",
+  "Conversation": {
+    "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+    "Messages": [
+      {
+        "Id": "7656fe88-a104-49e2-9d5f-fb3b99bd6789",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T09:57:08.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Thank you for calling XYZ Travel Agency, my name is Olivia Brown. How may I assist you today?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fd709d33-b944-4d7c-ba89-c80d50f2079e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T09:57:57.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Hi Olivia, my name is Sarah Smith. I'm calling because I need some assistance with my travel plans.",
+        "UserId": "999-670-2555",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "abe27e6d-e28f-4cca-8ff6-b0d4d73ac1e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T09:58:24.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Hi Sarah, I'm sorry to hear that you're having some trouble. Can you please tell me a bit more about what's going on?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9dc9d468-386f-4430-9edf-1446a4a1fbc6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T09:59:33.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Yes, I recently booked a flight from Atlanta to New York City and I have some questions about the itinerary.",
+        "UserId": "999-670-2555",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "367ffd71-f441-4036-8f09-d9121fefb9de",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T09:59:58.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Sure thing, I'd be happy to help. Can you please provide me with your reservation number and travel dates?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bec741ea-be18-48e7-b959-7648d01227c8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T10:01:06.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Yes, my reservation number is XYZ123 and I'm scheduled to depart from Atlanta on June 1st and return on June 5th.",
+        "UserId": "999-670-2555",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f8f79df3-f33a-4d37-8a65-fb4d5ecabfe7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T10:01:13.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Thank you for that information, Sarah. What can I assist you with specifically?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d16005f1-5e0b-4908-a387-724328bf9591",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T10:02:03.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Well, I was hoping to make some changes to my itinerary. Specifically, I'd like to change my return flight to June 7th instead of June 5th, and I was also interested in upgrading my seat if possible.",
+        "UserId": "999-670-2555",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e67aa593-9b79-4603-b5a1-af7c5aece1bd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T10:03:43.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "I see, those are both great requests. Let me check our system to see if we can make those changes for you. Just to clarify, you're flying with Delta Airlines, correct?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "dfeeef69-e770-4193-800a-00e6c8c99671",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T10:04:54.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Yes, that's correct. My flight numbers are DL1234 and DL5678",
+        "UserId": "999-670-2555",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "231933a5-133e-426d-b2d5-50875a85f029",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T10:05:12.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Great, thank you for confirming that. One moment while I pull up your reservation...",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "debeaf2a-5231-483f-a0e6-4cb3965a5b5b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T10:07:11.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Okay, Sarah, I have your reservation pulled up in our system. It looks like we can definitely change your return flight to June 7th, and I can also see some seat upgrade options available for you. Would you like me to go ahead and make those changes now?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "af0c3d0a-9d88-41d3-84e8-7b9524bb99b8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T10:07:55.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "Yes, please do! Thank you so much for your help with this.",
+        "UserId": "999-670-2555",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d28cc2fa-3359-4e5c-9ef6-969e34da44ec",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T10:09:54.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "No problem at all, it's my pleasure to assist you. Your new return flight has been scheduled for June 7th, and I've also upgraded you to a Comfort+ seat for both flights. Is there anything else I can help you with today?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "62d2f610-eb89-4e04-9583-09c49e50cfe0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-17T10:11:13.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "That's perfect, thank you so much for your help! That's all I needed assistance with.",
+        "UserId": "999-670-2555",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d5b01778-98ff-4198-b1fa-e172465cba55",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-17T10:11:18.0666521-05:00",
+        "ConversationId": "a1b04c33-a26a-4971-8fef-19d810b70601",
+        "Value": "You're very welcome, Sarah. Have a great trip!",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-17T09:55:27.0666521-05:00",
+    "EndTime": "2024-04-17T10:11:18.0666521-05:00",
+    "Merged_content": "Thank you for calling XYZ Travel Agency, my name is Olivia Brown. How may I assist you today?Hi Olivia, my name is Sarah Smith. I'm calling because I need some assistance with my travel plans.Hi Sarah, I'm sorry to hear that you're having some trouble. Can you please tell me a bit more about what's going on?Yes, I recently booked a flight from Atlanta to New York City and I have some questions about the itinerary.Sure thing, I'd be happy to help. Can you please provide me with your reservation number and travel dates?Yes, my reservation number is XYZ123 and I'm scheduled to depart from Atlanta on June 1st and return on June 5th.Thank you for that information, Sarah. What can I assist you with specifically?Well, I was hoping to make some changes to my itinerary. Specifically, I'd like to change my return flight to June 7th instead of June 5th, and I was also interested in upgrading my seat if possible.I see, those are both great requests. Let me check our system to see if we can make those changes for you. Just to clarify, you're flying with Delta Airlines, correct?Yes, that's correct. My flight numbers are DL1234 and DL5678Great, thank you for confirming that. One moment while I pull up your reservation...Okay, Sarah, I have your reservation pulled up in our system. It looks like we can definitely change your return flight to June 7th, and I can also see some seat upgrade options available for you. Would you like me to go ahead and make those changes now?Yes, please do! Thank you so much for your help with this.No problem at all, it's my pleasure to assist you. Your new return flight has been scheduled for June 7th, and I've also upgraded you to a Comfort+ seat for both flights. Is there anything else I can help you with today?That's perfect, thank you so much for your help! That's all I needed assistance with.You're very welcome, Sarah. Have a great trip!",
+    "Merged_content_user": "Hi Olivia, my name is Sarah Smith. I'm calling because I need some assistance with my travel plans.Yes, I recently booked a flight from Atlanta to New York City and I have some questions about the itinerary.Yes, my reservation number is XYZ123 and I'm scheduled to depart from Atlanta on June 1st and return on June 5th.Well, I was hoping to make some changes to my itinerary. Specifically, I'd like to change my return flight to June 7th instead of June 5th, and I was also interested in upgrading my seat if possible.Yes, that's correct. My flight numbers are DL1234 and DL5678Yes, please do! Thank you so much for your help with this.That's perfect, thank you so much for your help! That's all I needed assistance with.",
+    "Merged_content_agent": "Thank you for calling XYZ Travel Agency, my name is Olivia Brown. How may I assist you today?Hi Sarah, I'm sorry to hear that you're having some trouble. Can you please tell me a bit more about what's going on?Sure thing, I'd be happy to help. Can you please provide me with your reservation number and travel dates?Thank you for that information, Sarah. What can I assist you with specifically?I see, those are both great requests. Let me check our system to see if we can make those changes for you. Just to clarify, you're flying with Delta Airlines, correct?Great, thank you for confirming that. One moment while I pull up your reservation...Okay, Sarah, I have your reservation pulled up in our system. It looks like we can definitely change your return flight to June 7th, and I can also see some seat upgrade options available for you. Would you like me to go ahead and make those changes now?No problem at all, it's my pleasure to assist you. Your new return flight has been scheduled for June 7th, and I've also upgraded you to a Comfort+ seat for both flights. Is there anything else I can help you with today?You're very welcome, Sarah. Have a great trip!",
+    "Full_conversation": "Agent: Thank you for calling XYZ Travel Agency, my name is Olivia Brown. How may I assist you today?\nCustomer: Hi Olivia, my name is Sarah Smith. I'm calling because I need some assistance with my travel plans.\nAgent: Hi Sarah, I'm sorry to hear that you're having some trouble. Can you please tell me a bit more about what's going on?\nCustomer: Yes, I recently booked a flight from Atlanta to New York City and I have some questions about the itinerary.\nAgent: Sure thing, I'd be happy to help. Can you please provide me with your reservation number and travel dates?\nCustomer: Yes, my reservation number is XYZ123 and I'm scheduled to depart from Atlanta on June 1st and return on June 5th.\nAgent: Thank you for that information, Sarah. What can I assist you with specifically?\nCustomer: Well, I was hoping to make some changes to my itinerary. Specifically, I'd like to change my return flight to June 7th instead of June 5th, and I was also interested in upgrading my seat if possible.\nAgent: I see, those are both great requests. Let me check our system to see if we can make those changes for you. Just to clarify, you're flying with Delta Airlines, correct?\nCustomer: Yes, that's correct. My flight numbers are DL1234 and DL5678\nAgent: Great, thank you for confirming that. One moment while I pull up your reservation...\nAgent: Okay, Sarah, I have your reservation pulled up in our system. It looks like we can definitely change your return flight to June 7th, and I can also see some seat upgrade options available for you. Would you like me to go ahead and make those changes now?\nCustomer: Yes, please do! Thank you so much for your help with this.\nAgent: No problem at all, it's my pleasure to assist you. Your new return flight has been scheduled for June 7th, and I've also upgraded you to a Comfort+ seat for both flights. Is there anything else I can help you with today?\nCustomer: That's perfect, thank you so much for your help! That's all I needed assistance with.\nAgent: You're very welcome, Sarah. Have a great trip!\n"
+  }
+}

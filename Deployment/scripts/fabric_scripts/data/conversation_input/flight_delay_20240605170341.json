@@ -1,0 +1,154 @@
+{
+  "AgentName": "Mia Robinson",
+  "AgentId": "PKJSZO",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-785-1812",
+  "Conversation": {
+    "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+    "Messages": [
+      {
+        "Id": "41816f36-6659-4c03-8bac-626e65825325",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:04:33.2008117-05:00",
+        "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+        "Value": "Thank you for calling our travel agency. My name is Mia Robinson. How may I assist you?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "19090c8b-5573-4010-9166-8c81f29ae186",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:06:05.2008117-05:00",
+        "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+        "Value": "Hi Mia, I'm John Smith. I recently flew from Atlanta to Miami and my flight was delayed by 2 hours. Is there anything you can do to help?",
+        "UserId": "999-785-1812",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2e3a4f2a-8f7d-4d88-9f2d-54d25a921270",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:07:18.2008117-05:00",
+        "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with your flight and reservation details?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "311b0eec-3e9e-444c-bb03-ff229725334f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:07:36.2008117-05:00",
+        "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+        "Value": "Sure, my airline was Delta and the flight number was DL123. The departure date was February 10th at 3pm. My reservation number is 456XYZ.",
+        "UserId": "999-785-1812",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "40734e30-1220-4f7e-bebb-f1e2efa11ac4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:09:21.2008117-05:00",
+        "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+        "Value": "Thank you for providing me with that information, John. I apologize for the inconvenience caused by the delay. I have checked and unfortunately there are no available flights for a possible rebooking. However, as a token of our apology, we would like to offer you a complimentary upgrade on your next flight with us. Can I please have your email address to send the details?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "88923eb9-d6fd-405a-9a09-42b251af6d44",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:10:05.2008117-05:00",
+        "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+        "Value": "That's very kind of you, Mia. My email address is johnsmith@email.com",
+        "UserId": "999-785-1812",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9f3ee25d-3457-4e08-9f2b-42455837589e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:10:34.2008117-05:00",
+        "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+        "Value": "Thank you, John. I have noted down your email address and will send you the details shortly. Is there anything else I can assist you with?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "315c29e9-644f-41a1-9ea5-16a3644c6105",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:11:26.2008117-05:00",
+        "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+        "Value": "No, that's all. Thank you for your help, Mia. I appreciate the complimentary gesture.",
+        "UserId": "999-785-1812",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0c601e7b-f54c-4019-9c7c-8f9fd40b4cf4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:13:01.2008117-05:00",
+        "ConversationId": "a2468261-98b6-4675-b5c5-156f16ae6840",
+        "Value": "You're welcome, John. Thank you for choosing our travel agency and have a great day!",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-05T17:03:41.2008117-05:00",
+    "EndTime": "2024-06-05T17:13:01.2008117-05:00",
+    "Merged_content": "Thank you for calling our travel agency. My name is Mia Robinson. How may I assist you?Hi Mia, I'm John Smith. I recently flew from Atlanta to Miami and my flight was delayed by 2 hours. Is there anything you can do to help?I'm sorry to hear that, John. Can you please provide me with your flight and reservation details?Sure, my airline was Delta and the flight number was DL123. The departure date was February 10th at 3pm. My reservation number is 456XYZ.Thank you for providing me with that information, John. I apologize for the inconvenience caused by the delay. I have checked and unfortunately there are no available flights for a possible rebooking. However, as a token of our apology, we would like to offer you a complimentary upgrade on your next flight with us. Can I please have your email address to send the details?That's very kind of you, Mia. My email address is johnsmith@email.comThank you, John. I have noted down your email address and will send you the details shortly. Is there anything else I can assist you with?No, that's all. Thank you for your help, Mia. I appreciate the complimentary gesture.You're welcome, John. Thank you for choosing our travel agency and have a great day!",
+    "Merged_content_user": "Hi Mia, I'm John Smith. I recently flew from Atlanta to Miami and my flight was delayed by 2 hours. Is there anything you can do to help?Sure, my airline was Delta and the flight number was DL123. The departure date was February 10th at 3pm. My reservation number is 456XYZ.That's very kind of you, Mia. My email address is johnsmith@email.comNo, that's all. Thank you for your help, Mia. I appreciate the complimentary gesture.",
+    "Merged_content_agent": "Thank you for calling our travel agency. My name is Mia Robinson. How may I assist you?I'm sorry to hear that, John. Can you please provide me with your flight and reservation details?Thank you for providing me with that information, John. I apologize for the inconvenience caused by the delay. I have checked and unfortunately there are no available flights for a possible rebooking. However, as a token of our apology, we would like to offer you a complimentary upgrade on your next flight with us. Can I please have your email address to send the details?Thank you, John. I have noted down your email address and will send you the details shortly. Is there anything else I can assist you with?You're welcome, John. Thank you for choosing our travel agency and have a great day!",
+    "Full_conversation": "Agent: Thank you for calling our travel agency. My name is Mia Robinson. How may I assist you?\nCustomer: Hi Mia, I'm John Smith. I recently flew from Atlanta to Miami and my flight was delayed by 2 hours. Is there anything you can do to help?\nAgent: I'm sorry to hear that, John. Can you please provide me with your flight and reservation details?\nCustomer: Sure, my airline was Delta and the flight number was DL123. The departure date was February 10th at 3pm. My reservation number is 456XYZ.\nAgent: Thank you for providing me with that information, John. I apologize for the inconvenience caused by the delay. I have checked and unfortunately there are no available flights for a possible rebooking. However, as a token of our apology, we would like to offer you a complimentary upgrade on your next flight with us. Can I please have your email address to send the details?\nCustomer: That's very kind of you, Mia. My email address is johnsmith@email.com\nAgent: Thank you, John. I have noted down your email address and will send you the details shortly. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you for your help, Mia. I appreciate the complimentary gesture.\nAgent: You're welcome, John. Thank you for choosing our travel agency and have a great day!\n"
+  }
+}

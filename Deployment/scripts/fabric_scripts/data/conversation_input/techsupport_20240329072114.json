@@ -1,0 +1,244 @@
+{
+  "AgentName": "Nathan Walker",
+  "AgentId": "UO2KU9",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-251-5567",
+  "Conversation": {
+    "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+    "Messages": [
+      {
+        "Id": "f4fe2ec3-f375-4c02-b714-a72d3128a346",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-29T07:23:11.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "Thank you for calling the travel agency, my name is Nathan Walker. How can I assist you today?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0bf8c297-099e-4c76-a7c8-624780dfec25",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-29T07:23:41.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "Yes, I’m having trouble using your website to book a flight from New York City to Los Angeles. Can you help me?",
+        "UserId": "999-251-5567",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9a987d10-cb88-45db-ad17-93d488a6c121",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-29T07:24:55.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "Of course, I'd be happy to help. Do you have specific dates in mind or are you flexible?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "889b926a-e6ba-4f5e-94cf-cd5b3a420889",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-29T07:26:15.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "I'm flexible on the dates, what are my options?",
+        "UserId": "999-251-5567",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7782e734-33f5-472d-8922-c56df803f8cf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-29T07:26:31.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "For New York to Los Angeles, we have flights available on American Airlines, Delta, and United. On American Airlines, we have flights leaving daily at 8am, 2pm, and 6pm. Delta has flights leaving twice a day at 10am and 8pm, and United has flights leaving 9am and 6pm. Do any of these options work for you?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "dcce3333-1cb3-4099-be50-dec96b246735",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-29T07:27:56.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "Hmm, can you tell me a little more about the different airlines and their pricing?",
+        "UserId": "999-251-5567",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "38f3848c-a561-452f-912b-d5bc63784304",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-29T07:29:32.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "Sure, American Airlines has prices starting at $250 one-way, Delta has prices starting at $275 one-way, and United has prices starting at $280 one-way. Keep in mind, these prices can fluctuate based on availability and demand.",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "76705489-5dde-4373-ba17-f689d01fb2a9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-29T07:30:27.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "I see, thank you for the information. I think I’d like to book the American Airlines flight leaving at 2pm on March 15th. How do I go about doing that?",
+        "UserId": "999-251-5567",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a8541b9d-88b4-40be-9ac8-bfe7ab8f0cc8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-29T07:31:30.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "Great choice! I can book that flight for you now if you’d like?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ce65feb5-e058-4f2f-9bb6-adbbefbd0a3d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-29T07:31:42.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "Yes, please do!",
+        "UserId": "999-251-5567",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "209e1a36-6d15-41c4-93bf-0b212dda3bc5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-29T07:33:12.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "Alright, I’ll need your name as it appears on your government-issued ID and your payment information. Can I have that please?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0b6e7323-fdc7-4515-8a6f-6a75252e0774",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-29T07:34:47.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "My name is John Smith and I’ll be using my Visa card to pay.",
+        "UserId": "999-251-5567",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "124cea33-ed31-4d0b-8575-fd14a605bb79",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-29T07:35:14.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "Okay John, I’ve gone ahead and booked the American Airlines flight leaving New York City at 2pm on March 15th arriving in Los Angeles at 5pm. Your reservation number is AA123456789 and you should receive a confirmation email shortly. Is there anything else I can help you with?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1ced86d5-e029-4e3e-bdf3-8e594ac692c3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-29T07:35:36.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "No, that’s it. Thank you so much for your help Nathan!",
+        "UserId": "999-251-5567",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a5f48968-7996-4641-9020-3a79eb48234c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-29T07:37:30.6903663-05:00",
+        "ConversationId": "d9837acd-0c4e-4d2f-93cf-1e6ddbfbd551",
+        "Value": "You're welcome John, have a great day!",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-29T07:21:14.6903663-05:00",
+    "EndTime": "2024-03-29T07:37:30.6903663-05:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Nathan Walker. How can I assist you today?Yes, I’m having trouble using your website to book a flight from New York City to Los Angeles. Can you help me?Of course, I'd be happy to help. Do you have specific dates in mind or are you flexible?I'm flexible on the dates, what are my options?For New York to Los Angeles, we have flights available on American Airlines, Delta, and United. On American Airlines, we have flights leaving daily at 8am, 2pm, and 6pm. Delta has flights leaving twice a day at 10am and 8pm, and United has flights leaving 9am and 6pm. Do any of these options work for you?Hmm, can you tell me a little more about the different airlines and their pricing?Sure, American Airlines has prices starting at $250 one-way, Delta has prices starting at $275 one-way, and United has prices starting at $280 one-way. Keep in mind, these prices can fluctuate based on availability and demand.I see, thank you for the information. I think I’d like to book the American Airlines flight leaving at 2pm on March 15th. How do I go about doing that?Great choice! I can book that flight for you now if you’d like?Yes, please do!Alright, I’ll need your name as it appears on your government-issued ID and your payment information. Can I have that please?My name is John Smith and I’ll be using my Visa card to pay.Okay John, I’ve gone ahead and booked the American Airlines flight leaving New York City at 2pm on March 15th arriving in Los Angeles at 5pm. Your reservation number is AA123456789 and you should receive a confirmation email shortly. Is there anything else I can help you with?No, that’s it. Thank you so much for your help Nathan!You're welcome John, have a great day!",
+    "Merged_content_user": "Yes, I’m having trouble using your website to book a flight from New York City to Los Angeles. Can you help me?I'm flexible on the dates, what are my options?Hmm, can you tell me a little more about the different airlines and their pricing?I see, thank you for the information. I think I’d like to book the American Airlines flight leaving at 2pm on March 15th. How do I go about doing that?Yes, please do!My name is John Smith and I’ll be using my Visa card to pay.No, that’s it. Thank you so much for your help Nathan!",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Nathan Walker. How can I assist you today?Of course, I'd be happy to help. Do you have specific dates in mind or are you flexible?For New York to Los Angeles, we have flights available on American Airlines, Delta, and United. On American Airlines, we have flights leaving daily at 8am, 2pm, and 6pm. Delta has flights leaving twice a day at 10am and 8pm, and United has flights leaving 9am and 6pm. Do any of these options work for you?Sure, American Airlines has prices starting at $250 one-way, Delta has prices starting at $275 one-way, and United has prices starting at $280 one-way. Keep in mind, these prices can fluctuate based on availability and demand.Great choice! I can book that flight for you now if you’d like?Alright, I’ll need your name as it appears on your government-issued ID and your payment information. Can I have that please?Okay John, I’ve gone ahead and booked the American Airlines flight leaving New York City at 2pm on March 15th arriving in Los Angeles at 5pm. Your reservation number is AA123456789 and you should receive a confirmation email shortly. Is there anything else I can help you with?You're welcome John, have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Nathan Walker. How can I assist you today?\nCustomer: Yes, I’m having trouble using your website to book a flight from New York City to Los Angeles. Can you help me?\nAgent: Of course, I'd be happy to help. Do you have specific dates in mind or are you flexible?\nCustomer: I'm flexible on the dates, what are my options?\nAgent: For New York to Los Angeles, we have flights available on American Airlines, Delta, and United. On American Airlines, we have flights leaving daily at 8am, 2pm, and 6pm. Delta has flights leaving twice a day at 10am and 8pm, and United has flights leaving 9am and 6pm. Do any of these options work for you?\nCustomer: Hmm, can you tell me a little more about the different airlines and their pricing?\nAgent: Sure, American Airlines has prices starting at $250 one-way, Delta has prices starting at $275 one-way, and United has prices starting at $280 one-way. Keep in mind, these prices can fluctuate based on availability and demand.\nCustomer: I see, thank you for the information. I think I’d like to book the American Airlines flight leaving at 2pm on March 15th. How do I go about doing that?\nAgent: Great choice! I can book that flight for you now if you’d like?\nCustomer: Yes, please do!\nAgent: Alright, I’ll need your name as it appears on your government-issued ID and your payment information. Can I have that please?\nCustomer: My name is John Smith and I’ll be using my Visa card to pay.\nAgent: Okay John, I’ve gone ahead and booked the American Airlines flight leaving New York City at 2pm on March 15th arriving in Los Angeles at 5pm. Your reservation number is AA123456789 and you should receive a confirmation email shortly. Is there anything else I can help you with?\nCustomer: No, that’s it. Thank you so much for your help Nathan!\nAgent: You're welcome John, have a great day!\n"
+  }
+}

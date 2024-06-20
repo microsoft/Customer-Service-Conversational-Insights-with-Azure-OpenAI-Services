@@ -1,0 +1,274 @@
+{
+  "AgentName": "Nathan Walker",
+  "AgentId": "UO2KU9",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-955-9500",
+  "Conversation": {
+    "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+    "Messages": [
+      {
+        "Id": "33fcd048-15d6-4d74-b910-e611dec5cc0b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-14T13:09:09.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Thank you for calling Travel Agency. My name is Nathan. How may I assist you today?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fcea85d6-8be5-450a-b330-20b7c44aae47",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-14T13:11:02.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Yes, hi Nathan. My name is Jane Doe. I recently traveled from San Francisco to New York and experienced a lot of issues with my flights and accommodations. I'm hoping you can help me resolve some of these issues.",
+        "UserId": "999-955-9500",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1a68a20f-b48e-4f7d-a2e3-6a4f01257cc4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-14T13:12:07.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "I'm sorry to hear that, Jane. Can you please tell me more about the specific issues you experienced?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3fb0b4c9-c914-44ae-be04-094e2b6f9c8e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-14T13:13:04.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Yes, my flight from San Francisco to New York was delayed by 4 hours and when I arrived in New York, my hotel had lost my reservation even though I had a confirmation number. I had to spend hours calling different hotels to try to find a place to stay. This completely ruined my trip.",
+        "UserId": "999-955-9500",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d79873b2-5f2a-4af3-b97c-65ed939a44d9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-14T13:13:15.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "I apologize for the inconvenience, Jane. Let me see what I can do to help. Do you have the confirmation number for your hotel reservation?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ea482646-3903-4674-915c-f6dae371c637",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-14T13:13:24.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Yes, it's 123456789. The hotel was the Grand Central Hotel in New York.",
+        "UserId": "999-955-9500",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "701c7732-1534-4c59-9093-d22bdb2217a9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-14T13:14:37.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Thank you, Jane. Let me look up your reservation and see if I can find out what went wrong. In the meantime, can you tell me more about the flight delays you experienced?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "62a84981-93b6-471d-817b-72491a351e07",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-14T13:15:14.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Yes, my flight was delayed for 4 hours without any explanation. I was supposed to arrive at JFK airport at 4pm but I didn't arrive until 8pm. This caused me to miss an important event that I had planned to attend.",
+        "UserId": "999-955-9500",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3fd93120-8c2b-47ff-a8a6-495dc8c28559",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-14T13:16:48.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "I'm sorry to hear that, Jane. Let me see what I can do to help. Can you please provide me with the airline name, flight number, and departure date and time?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d64a8a32-6715-4b2c-93e9-38e1e463f157",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-14T13:18:35.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Yes, the airline was United Airlines. The flight number was UA1234. The departure date was January 1st at 12pm.",
+        "UserId": "999-955-9500",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "327f3a32-5b39-46bd-a2df-eee530ca36ed",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-14T13:20:11.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Thank you, Jane. Let me look up your flight and see if I can find out what went wrong. In the meantime, can I offer you some options for alternative flight and hotel arrangements if you plan on traveling again in the future?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9e13cea2-bea6-4dac-a382-6c60a930d0d7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-14T13:20:12.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Yes, that would be helpful. Thank you.",
+        "UserId": "999-955-9500",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "533b86af-90ca-46bf-94e3-af4e36637b99",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-14T13:21:24.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Of course, Jane. I can recommend some alternative airlines and hotels based on your preferences. Can you please tell me your preferred origin and destination cities and travel dates?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cbd14af1-1e2b-40f0-94f3-d2f637976cc2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-14T13:22:56.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "I'm not sure yet, Nathan. I need some time to think about it. Can I call you back later this week?",
+        "UserId": "999-955-9500",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3ae4955c-4ed8-4588-a2e2-00ad1630b075",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-14T13:23:14.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "Of course, Jane. Please feel free to call me back at any time. Is there anything else I can help you with today?",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fd2580f9-365f-4660-8e51-21c8c0a57e1e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-14T13:23:57.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "No, that's all for now. Thank you for your help, Nathan.",
+        "UserId": "999-955-9500",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "dae65c99-546d-450f-b426-ed386b04c957",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-14T13:24:47.7109905-05:00",
+        "ConversationId": "7207e65d-b40c-4446-96d5-d14af75f61a6",
+        "Value": "You're welcome, Jane. I hope I was able to help. Have a great day!",
+        "UserId": "UO2KU9",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-14T13:09:07.7109905-05:00",
+    "EndTime": "2024-04-14T13:24:47.7109905-05:00",
+    "Merged_content": "Thank you for calling Travel Agency. My name is Nathan. How may I assist you today?Yes, hi Nathan. My name is Jane Doe. I recently traveled from San Francisco to New York and experienced a lot of issues with my flights and accommodations. I'm hoping you can help me resolve some of these issues.I'm sorry to hear that, Jane. Can you please tell me more about the specific issues you experienced?Yes, my flight from San Francisco to New York was delayed by 4 hours and when I arrived in New York, my hotel had lost my reservation even though I had a confirmation number. I had to spend hours calling different hotels to try to find a place to stay. This completely ruined my trip.I apologize for the inconvenience, Jane. Let me see what I can do to help. Do you have the confirmation number for your hotel reservation?Yes, it's 123456789. The hotel was the Grand Central Hotel in New York.Thank you, Jane. Let me look up your reservation and see if I can find out what went wrong. In the meantime, can you tell me more about the flight delays you experienced?Yes, my flight was delayed for 4 hours without any explanation. I was supposed to arrive at JFK airport at 4pm but I didn't arrive until 8pm. This caused me to miss an important event that I had planned to attend.I'm sorry to hear that, Jane. Let me see what I can do to help. Can you please provide me with the airline name, flight number, and departure date and time?Yes, the airline was United Airlines. The flight number was UA1234. The departure date was January 1st at 12pm.Thank you, Jane. Let me look up your flight and see if I can find out what went wrong. In the meantime, can I offer you some options for alternative flight and hotel arrangements if you plan on traveling again in the future?Yes, that would be helpful. Thank you.Of course, Jane. I can recommend some alternative airlines and hotels based on your preferences. Can you please tell me your preferred origin and destination cities and travel dates?I'm not sure yet, Nathan. I need some time to think about it. Can I call you back later this week?Of course, Jane. Please feel free to call me back at any time. Is there anything else I can help you with today?No, that's all for now. Thank you for your help, Nathan.You're welcome, Jane. I hope I was able to help. Have a great day!",
+    "Merged_content_user": "Yes, hi Nathan. My name is Jane Doe. I recently traveled from San Francisco to New York and experienced a lot of issues with my flights and accommodations. I'm hoping you can help me resolve some of these issues.Yes, my flight from San Francisco to New York was delayed by 4 hours and when I arrived in New York, my hotel had lost my reservation even though I had a confirmation number. I had to spend hours calling different hotels to try to find a place to stay. This completely ruined my trip.Yes, it's 123456789. The hotel was the Grand Central Hotel in New York.Yes, my flight was delayed for 4 hours without any explanation. I was supposed to arrive at JFK airport at 4pm but I didn't arrive until 8pm. This caused me to miss an important event that I had planned to attend.Yes, the airline was United Airlines. The flight number was UA1234. The departure date was January 1st at 12pm.Yes, that would be helpful. Thank you.I'm not sure yet, Nathan. I need some time to think about it. Can I call you back later this week?No, that's all for now. Thank you for your help, Nathan.",
+    "Merged_content_agent": "Thank you for calling Travel Agency. My name is Nathan. How may I assist you today?I'm sorry to hear that, Jane. Can you please tell me more about the specific issues you experienced?I apologize for the inconvenience, Jane. Let me see what I can do to help. Do you have the confirmation number for your hotel reservation?Thank you, Jane. Let me look up your reservation and see if I can find out what went wrong. In the meantime, can you tell me more about the flight delays you experienced?I'm sorry to hear that, Jane. Let me see what I can do to help. Can you please provide me with the airline name, flight number, and departure date and time?Thank you, Jane. Let me look up your flight and see if I can find out what went wrong. In the meantime, can I offer you some options for alternative flight and hotel arrangements if you plan on traveling again in the future?Of course, Jane. I can recommend some alternative airlines and hotels based on your preferences. Can you please tell me your preferred origin and destination cities and travel dates?Of course, Jane. Please feel free to call me back at any time. Is there anything else I can help you with today?You're welcome, Jane. I hope I was able to help. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Travel Agency. My name is Nathan. How may I assist you today?\nCustomer: Yes, hi Nathan. My name is Jane Doe. I recently traveled from San Francisco to New York and experienced a lot of issues with my flights and accommodations. I'm hoping you can help me resolve some of these issues.\nAgent: I'm sorry to hear that, Jane. Can you please tell me more about the specific issues you experienced?\nCustomer: Yes, my flight from San Francisco to New York was delayed by 4 hours and when I arrived in New York, my hotel had lost my reservation even though I had a confirmation number. I had to spend hours calling different hotels to try to find a place to stay. This completely ruined my trip.\nAgent: I apologize for the inconvenience, Jane. Let me see what I can do to help. Do you have the confirmation number for your hotel reservation?\nCustomer: Yes, it's 123456789. The hotel was the Grand Central Hotel in New York.\nAgent: Thank you, Jane. Let me look up your reservation and see if I can find out what went wrong. In the meantime, can you tell me more about the flight delays you experienced?\nCustomer: Yes, my flight was delayed for 4 hours without any explanation. I was supposed to arrive at JFK airport at 4pm but I didn't arrive until 8pm. This caused me to miss an important event that I had planned to attend.\nAgent: I'm sorry to hear that, Jane. Let me see what I can do to help. Can you please provide me with the airline name, flight number, and departure date and time?\nCustomer: Yes, the airline was United Airlines. The flight number was UA1234. The departure date was January 1st at 12pm.\nAgent: Thank you, Jane. Let me look up your flight and see if I can find out what went wrong. In the meantime, can I offer you some options for alternative flight and hotel arrangements if you plan on traveling again in the future?\nCustomer: Yes, that would be helpful. Thank you.\nAgent: Of course, Jane. I can recommend some alternative airlines and hotels based on your preferences. Can you please tell me your preferred origin and destination cities and travel dates?\nCustomer: I'm not sure yet, Nathan. I need some time to think about it. Can I call you back later this week?\nAgent: Of course, Jane. Please feel free to call me back at any time. Is there anything else I can help you with today?\nCustomer: No, that's all for now. Thank you for your help, Nathan.\nAgent: You're welcome, Jane. I hope I was able to help. Have a great day!\n"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "AgentName": "Sophia Moore",
+  "AgentId": "6SYKT5",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-723-2620",
+  "Conversation": {
+    "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+    "Messages": [
+      {
+        "Id": "d14494c1-18f9-488d-a569-665a811f761c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-07T09:11:52.9562855-05:00",
+        "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+        "Value": "Thank you for calling XYZ travel agency, my name is Sophia Moore. How may I assist you today?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2d566320-7c03-4a43-b8e0-427b609f25b7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-07T09:12:17.9562855-05:00",
+        "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+        "Value": "Hi Sophia, my name is Jane Smith and I have a complaint about my recent trip to New York City.",
+        "UserId": "999-723-2620",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "727ad389-1e1f-495b-baab-8cfdbd7e43e9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-07T09:12:56.9562855-05:00",
+        "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+        "Value": "I'm sorry to hear that, Jane. Can you please provide me with more information about your complaint?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3bff6ca1-b3ba-4272-bcc6-0785f4a38764",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-07T09:14:14.9562855-05:00",
+        "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+        "Value": "Yes, I had a flight delay on my way to New York and I was not properly compensated for my inconvenience. I also had issues with my hotel reservation and there were hidden fees that were not disclosed to me.",
+        "UserId": "999-723-2620",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6e28537b-d585-4968-9229-c46390bfeefe",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-07T09:15:19.9562855-05:00",
+        "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+        "Value": "I am so sorry to hear about those issues, Jane. Let me check our records and see what we can do to help.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b3f0b29d-4c5d-4e0f-b880-5d7475c01cfd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-07T09:16:14.9562855-05:00",
+        "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+        "Value": "I appreciate that, but I am extremely upset and I feel like this is unacceptable. I expect better service from a travel agency.",
+        "UserId": "999-723-2620",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a4f7d424-8451-42ea-9a20-0b3d237b74be",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-07T09:16:25.9562855-05:00",
+        "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+        "Value": "I understand your frustration, Jane. Please know that we value your business and we will do everything in our power to make this right.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aea6eb4e-a9de-49d1-9273-9bad5ff11f63",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-07T09:18:16.9562855-05:00",
+        "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+        "Value": "Well, I hope so. I would like to see some kind of compensation for the issues I experienced.",
+        "UserId": "999-723-2620",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "20caa11f-2d82-4a33-97e0-6dfea908e5df",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-07T09:19:02.9562855-05:00",
+        "ConversationId": "354c660e-86b9-478f-b6c7-44405c6f4cd9",
+        "Value": "Absolutely, Jane. Let me review your case and see what we can do. I will follow up with you as soon as possible with a resolution.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-07T09:10:34.9562855-05:00",
+    "EndTime": "2024-05-07T09:19:02.9562855-05:00",
+    "Merged_content": "Thank you for calling XYZ travel agency, my name is Sophia Moore. How may I assist you today?Hi Sophia, my name is Jane Smith and I have a complaint about my recent trip to New York City.I'm sorry to hear that, Jane. Can you please provide me with more information about your complaint?Yes, I had a flight delay on my way to New York and I was not properly compensated for my inconvenience. I also had issues with my hotel reservation and there were hidden fees that were not disclosed to me.I am so sorry to hear about those issues, Jane. Let me check our records and see what we can do to help.I appreciate that, but I am extremely upset and I feel like this is unacceptable. I expect better service from a travel agency.I understand your frustration, Jane. Please know that we value your business and we will do everything in our power to make this right.Well, I hope so. I would like to see some kind of compensation for the issues I experienced.Absolutely, Jane. Let me review your case and see what we can do. I will follow up with you as soon as possible with a resolution.",
+    "Merged_content_user": "Hi Sophia, my name is Jane Smith and I have a complaint about my recent trip to New York City.Yes, I had a flight delay on my way to New York and I was not properly compensated for my inconvenience. I also had issues with my hotel reservation and there were hidden fees that were not disclosed to me.I appreciate that, but I am extremely upset and I feel like this is unacceptable. I expect better service from a travel agency.Well, I hope so. I would like to see some kind of compensation for the issues I experienced.",
+    "Merged_content_agent": "Thank you for calling XYZ travel agency, my name is Sophia Moore. How may I assist you today?I'm sorry to hear that, Jane. Can you please provide me with more information about your complaint?I am so sorry to hear about those issues, Jane. Let me check our records and see what we can do to help.I understand your frustration, Jane. Please know that we value your business and we will do everything in our power to make this right.Absolutely, Jane. Let me review your case and see what we can do. I will follow up with you as soon as possible with a resolution.",
+    "Full_conversation": "Agent: Thank you for calling XYZ travel agency, my name is Sophia Moore. How may I assist you today?\nCustomer: Hi Sophia, my name is Jane Smith and I have a complaint about my recent trip to New York City.\nAgent: I'm sorry to hear that, Jane. Can you please provide me with more information about your complaint?\nCustomer: Yes, I had a flight delay on my way to New York and I was not properly compensated for my inconvenience. I also had issues with my hotel reservation and there were hidden fees that were not disclosed to me.\nAgent: I am so sorry to hear about those issues, Jane. Let me check our records and see what we can do to help.\nCustomer: I appreciate that, but I am extremely upset and I feel like this is unacceptable. I expect better service from a travel agency.\nAgent: I understand your frustration, Jane. Please know that we value your business and we will do everything in our power to make this right.\nCustomer: Well, I hope so. I would like to see some kind of compensation for the issues I experienced.\nAgent: Absolutely, Jane. Let me review your case and see what we can do. I will follow up with you as soon as possible with a resolution.\n"
+  }
+}

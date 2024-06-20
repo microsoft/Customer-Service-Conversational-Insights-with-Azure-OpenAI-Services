@@ -1,0 +1,289 @@
+{
+  "AgentName": "Mason White",
+  "AgentId": "QLUD5I",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-533-6636",
+  "Conversation": {
+    "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+    "Messages": [
+      {
+        "Id": "671a876b-f54f-43ef-a810-83cf6a2b1ced",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T11:10:35.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Hello, this is Mason. How may I assist you today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3a8d0a6d-39b4-49df-8b5b-380990c72d77",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T11:11:45.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Hi Mason, my name is Sarah Johnson. I'm calling because I had some troubles with my recent trip to Denver.",
+        "UserId": "999-533-6636",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3db41aa5-af89-4c11-be36-f4e5931f9e6a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T11:12:20.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "I'm sorry to hear that, Sarah. Can you please tell me what happened?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7646a67b-7e12-4bf2-abf1-b68f5a69c0a7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T11:13:29.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Yes, well I had a connecting flight from New York to Denver, and my first flight was delayed by 4 hours which caused me to miss my connecting flight.",
+        "UserId": "999-533-6636",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a7cf1f56-bf3d-4ede-9b1c-335ebb12e48e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T11:14:49.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "I understand how frustrating that can be. Can you please provide me with your flight information so I can look into this for you?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "34f8044c-7928-4485-acd6-02fa35cb435f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T11:15:30.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Yes, my first flight was with Delta Airlines, flight number DL123 on January 15th departing at 10am and my connecting flight was with United Airlines, flight number UA456 departing at 2pm.",
+        "UserId": "999-533-6636",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2b3446be-ef8a-4ff2-955a-d152a1c7f96e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T11:15:54.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Thank you, Sarah. I will look into this for you. Please give me a few minutes to review the information.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "108bd63e-61fe-46e6-a8d9-11e4ab63bfe7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T11:16:29.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Alright, I'll wait.",
+        "UserId": "999-533-6636",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c107eb60-cfcb-4793-b2ed-038b9e47dd06",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T11:17:41.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Thank you for your patience, Sarah. After reviewing the information, I can see that your first flight was delayed due to weather conditions which was out of the airline's control, however, the airline could have provided you with more assistance and options for rebooking your connecting flight.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "71bbb372-4427-45f0-9453-c8d49b149278",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T11:18:29.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Well that's just ridiculous. I had to pay for an overnight hotel stay and book another flight the following day, which also caused me to miss a scheduled business meeting in Denver.",
+        "UserId": "999-533-6636",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bf859894-39dd-4fe1-88da-f6f9394e771d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T11:20:24.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "I'm sorry to hear that, Sarah. I can definitely understand your frustration. I can file a complaint on your behalf and request for compensation for your troubles.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3aaa9ff8-39c9-4b9a-86ae-c9f0d550f438",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T11:21:24.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Compensation? Sounds good to me. What do I need to do?",
+        "UserId": "999-533-6636",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "209f040a-8c5b-4ddb-93af-97dddea24a07",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T11:21:35.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "I will need some additional information from you, such as your confirmation number and contact information. I will also need a brief summary of the troubles you faced during your trip.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ca3960c2-a361-46ef-839b-8dd3f25370e1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T11:23:27.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Okay, let me pull that information up for you. My confirmation number is ABC123 and you can contact me at 555-1234. As for my troubles, I missed a scheduled business meeting and had to pay for an overnight hotel stay and additional flight charges due to the missed connection.",
+        "UserId": "999-533-6636",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c4739c10-2517-4987-b8e8-22ded758457c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T11:23:53.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Thank you for providing that information, Sarah. I will file the complaint and request for compensation on your behalf. Please allow 3-5 business days for us to process your claim.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7208cd45-4f58-4a8b-a845-d77f1b122012",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T11:24:48.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "Okay, thank you for your help. I hope this issue can be resolved soon.",
+        "UserId": "999-533-6636",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2d1eca92-1208-4e35-b554-0be90652dcf1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T11:25:51.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "You're welcome, Sarah. We will do our best to resolve this for you. Is there anything else I can assist you with?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "27a6ddc1-04d9-4eb9-92d4-77cbdaf36ffa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T11:26:22.9279676-05:00",
+        "ConversationId": "60a52a92-e275-4d96-b224-fb16cf626a73",
+        "Value": "No, that's all for now. Thank you again.",
+        "UserId": "999-533-6636",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-10T11:10:29.9279676-05:00",
+    "EndTime": "2024-06-10T11:26:22.9279676-05:00",
+    "Merged_content": "Hello, this is Mason. How may I assist you today?Hi Mason, my name is Sarah Johnson. I'm calling because I had some troubles with my recent trip to Denver.I'm sorry to hear that, Sarah. Can you please tell me what happened?Yes, well I had a connecting flight from New York to Denver, and my first flight was delayed by 4 hours which caused me to miss my connecting flight.I understand how frustrating that can be. Can you please provide me with your flight information so I can look into this for you?Yes, my first flight was with Delta Airlines, flight number DL123 on January 15th departing at 10am and my connecting flight was with United Airlines, flight number UA456 departing at 2pm.Thank you, Sarah. I will look into this for you. Please give me a few minutes to review the information.Alright, I'll wait.Thank you for your patience, Sarah. After reviewing the information, I can see that your first flight was delayed due to weather conditions which was out of the airline's control, however, the airline could have provided you with more assistance and options for rebooking your connecting flight.Well that's just ridiculous. I had to pay for an overnight hotel stay and book another flight the following day, which also caused me to miss a scheduled business meeting in Denver.I'm sorry to hear that, Sarah. I can definitely understand your frustration. I can file a complaint on your behalf and request for compensation for your troubles.Compensation? Sounds good to me. What do I need to do?I will need some additional information from you, such as your confirmation number and contact information. I will also need a brief summary of the troubles you faced during your trip.Okay, let me pull that information up for you. My confirmation number is ABC123 and you can contact me at 555-1234. As for my troubles, I missed a scheduled business meeting and had to pay for an overnight hotel stay and additional flight charges due to the missed connection.Thank you for providing that information, Sarah. I will file the complaint and request for compensation on your behalf. Please allow 3-5 business days for us to process your claim.Okay, thank you for your help. I hope this issue can be resolved soon.You're welcome, Sarah. We will do our best to resolve this for you. Is there anything else I can assist you with?No, that's all for now. Thank you again.",
+    "Merged_content_user": "Hi Mason, my name is Sarah Johnson. I'm calling because I had some troubles with my recent trip to Denver.Yes, well I had a connecting flight from New York to Denver, and my first flight was delayed by 4 hours which caused me to miss my connecting flight.Yes, my first flight was with Delta Airlines, flight number DL123 on January 15th departing at 10am and my connecting flight was with United Airlines, flight number UA456 departing at 2pm.Alright, I'll wait.Well that's just ridiculous. I had to pay for an overnight hotel stay and book another flight the following day, which also caused me to miss a scheduled business meeting in Denver.Compensation? Sounds good to me. What do I need to do?Okay, let me pull that information up for you. My confirmation number is ABC123 and you can contact me at 555-1234. As for my troubles, I missed a scheduled business meeting and had to pay for an overnight hotel stay and additional flight charges due to the missed connection.Okay, thank you for your help. I hope this issue can be resolved soon.No, that's all for now. Thank you again.",
+    "Merged_content_agent": "Hello, this is Mason. How may I assist you today?I'm sorry to hear that, Sarah. Can you please tell me what happened?I understand how frustrating that can be. Can you please provide me with your flight information so I can look into this for you?Thank you, Sarah. I will look into this for you. Please give me a few minutes to review the information.Thank you for your patience, Sarah. After reviewing the information, I can see that your first flight was delayed due to weather conditions which was out of the airline's control, however, the airline could have provided you with more assistance and options for rebooking your connecting flight.I'm sorry to hear that, Sarah. I can definitely understand your frustration. I can file a complaint on your behalf and request for compensation for your troubles.I will need some additional information from you, such as your confirmation number and contact information. I will also need a brief summary of the troubles you faced during your trip.Thank you for providing that information, Sarah. I will file the complaint and request for compensation on your behalf. Please allow 3-5 business days for us to process your claim.You're welcome, Sarah. We will do our best to resolve this for you. Is there anything else I can assist you with?",
+    "Full_conversation": "Agent: Hello, this is Mason. How may I assist you today?\nCustomer: Hi Mason, my name is Sarah Johnson. I'm calling because I had some troubles with my recent trip to Denver.\nAgent: I'm sorry to hear that, Sarah. Can you please tell me what happened?\nCustomer: Yes, well I had a connecting flight from New York to Denver, and my first flight was delayed by 4 hours which caused me to miss my connecting flight.\nAgent: I understand how frustrating that can be. Can you please provide me with your flight information so I can look into this for you?\nCustomer: Yes, my first flight was with Delta Airlines, flight number DL123 on January 15th departing at 10am and my connecting flight was with United Airlines, flight number UA456 departing at 2pm.\nAgent: Thank you, Sarah. I will look into this for you. Please give me a few minutes to review the information.\nCustomer: Alright, I'll wait.\nAgent: Thank you for your patience, Sarah. After reviewing the information, I can see that your first flight was delayed due to weather conditions which was out of the airline's control, however, the airline could have provided you with more assistance and options for rebooking your connecting flight.\nCustomer: Well that's just ridiculous. I had to pay for an overnight hotel stay and book another flight the following day, which also caused me to miss a scheduled business meeting in Denver.\nAgent: I'm sorry to hear that, Sarah. I can definitely understand your frustration. I can file a complaint on your behalf and request for compensation for your troubles.\nCustomer: Compensation? Sounds good to me. What do I need to do?\nAgent: I will need some additional information from you, such as your confirmation number and contact information. I will also need a brief summary of the troubles you faced during your trip.\nCustomer: Okay, let me pull that information up for you. My confirmation number is ABC123 and you can contact me at 555-1234. As for my troubles, I missed a scheduled business meeting and had to pay for an overnight hotel stay and additional flight charges due to the missed connection.\nAgent: Thank you for providing that information, Sarah. I will file the complaint and request for compensation on your behalf. Please allow 3-5 business days for us to process your claim.\nCustomer: Okay, thank you for your help. I hope this issue can be resolved soon.\nAgent: You're welcome, Sarah. We will do our best to resolve this for you. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thank you again.\n"
+  }
+}

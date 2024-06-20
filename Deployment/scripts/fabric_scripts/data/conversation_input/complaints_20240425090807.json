@@ -1,0 +1,169 @@
+{
+  "AgentName": "Mason White",
+  "AgentId": "QLUD5I",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-587-1045",
+  "Conversation": {
+    "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+    "Messages": [
+      {
+        "Id": "7281a5f6-de4d-48c0-8662-0dffb42040cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T09:08:36.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "Thank you for calling Travel Bliss, this is Mason. How may I assist you today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "96781b16-d839-4629-b233-78e4d44a0bed",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-25T09:10:33.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "Yes, hi. My name is John Smith and I am calling about my recent trip to New York City. I had some issues with my flight and hotel accommodations, and I am very upset about it.",
+        "UserId": "999-587-1045",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9b657f2a-b6da-4706-bf88-0b6458dc201b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T09:11:44.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with your reservation number and travel dates so I can take a look?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2a8f7783-79b1-4fa4-8727-d1e973f7a3cc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-25T09:12:15.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "Yes, my hotel reservation was under John Smith and the confirmation number was 123456. My flight was with United Airlines, flight number 1234, departing from Los Angeles on January 15th at 10:00am and arriving in New York City.",
+        "UserId": "999-587-1045",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1ad9b785-78f9-4ba6-acf9-6b4509b8839e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T09:12:55.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "Thank you, John. I can see that your flight was delayed due to weather conditions. Unfortunately, we cannot control the weather and any resulting delays or cancellations. However, we do offer compensation and assistance with rescheduling. Can I assist you with that?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aa98a6ab-7f84-4096-bf7f-895950ed4db8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-25T09:13:43.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "No, I already spoke to a representative about that and they were not helpful. I want to file a formal complaint and get a refund for my hotel stay since the conditions were unsatisfactory.",
+        "UserId": "999-587-1045",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f70a07bc-77ec-443c-b640-f4a886343bc9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T09:14:26.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with more details about the unsatisfactory conditions of your hotel stay?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d3e07354-af4f-4f31-b068-cf272b02126e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-25T09:16:02.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "The hotel room was dirty and had bugs, the sheets were stained, and there was a strong odor. It was not suitable for a comfortable stay and I want a full refund.",
+        "UserId": "999-587-1045",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cbda89f7-ede5-4efb-a970-3522187d010e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T09:16:36.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "I understand your frustration, John. I will escalate this to our customer service team and have them contact you directly for further assistance with a refund. Is there anything else I can help you with today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9bb27f29-bd15-4504-a89b-bf6441f66883",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-25T09:18:12.8328409-05:00",
+        "ConversationId": "4572df4b-720a-4a74-9446-9ed2dec7bfdb",
+        "Value": "No, that's all. Thank you for your help.",
+        "UserId": "999-587-1045",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-25T09:08:07.8328409-05:00",
+    "EndTime": "2024-04-25T09:18:12.8328409-05:00",
+    "Merged_content": "Thank you for calling Travel Bliss, this is Mason. How may I assist you today?Yes, hi. My name is John Smith and I am calling about my recent trip to New York City. I had some issues with my flight and hotel accommodations, and I am very upset about it.I'm sorry to hear that, John. Can you please provide me with your reservation number and travel dates so I can take a look?Yes, my hotel reservation was under John Smith and the confirmation number was 123456. My flight was with United Airlines, flight number 1234, departing from Los Angeles on January 15th at 10:00am and arriving in New York City.Thank you, John. I can see that your flight was delayed due to weather conditions. Unfortunately, we cannot control the weather and any resulting delays or cancellations. However, we do offer compensation and assistance with rescheduling. Can I assist you with that?No, I already spoke to a representative about that and they were not helpful. I want to file a formal complaint and get a refund for my hotel stay since the conditions were unsatisfactory.I'm sorry to hear that, John. Can you please provide me with more details about the unsatisfactory conditions of your hotel stay?The hotel room was dirty and had bugs, the sheets were stained, and there was a strong odor. It was not suitable for a comfortable stay and I want a full refund.I understand your frustration, John. I will escalate this to our customer service team and have them contact you directly for further assistance with a refund. Is there anything else I can help you with today?No, that's all. Thank you for your help.",
+    "Merged_content_user": "Yes, hi. My name is John Smith and I am calling about my recent trip to New York City. I had some issues with my flight and hotel accommodations, and I am very upset about it.Yes, my hotel reservation was under John Smith and the confirmation number was 123456. My flight was with United Airlines, flight number 1234, departing from Los Angeles on January 15th at 10:00am and arriving in New York City.No, I already spoke to a representative about that and they were not helpful. I want to file a formal complaint and get a refund for my hotel stay since the conditions were unsatisfactory.The hotel room was dirty and had bugs, the sheets were stained, and there was a strong odor. It was not suitable for a comfortable stay and I want a full refund.No, that's all. Thank you for your help.",
+    "Merged_content_agent": "Thank you for calling Travel Bliss, this is Mason. How may I assist you today?I'm sorry to hear that, John. Can you please provide me with your reservation number and travel dates so I can take a look?Thank you, John. I can see that your flight was delayed due to weather conditions. Unfortunately, we cannot control the weather and any resulting delays or cancellations. However, we do offer compensation and assistance with rescheduling. Can I assist you with that?I'm sorry to hear that, John. Can you please provide me with more details about the unsatisfactory conditions of your hotel stay?I understand your frustration, John. I will escalate this to our customer service team and have them contact you directly for further assistance with a refund. Is there anything else I can help you with today?",
+    "Full_conversation": "Agent: Thank you for calling Travel Bliss, this is Mason. How may I assist you today?\nCustomer: Yes, hi. My name is John Smith and I am calling about my recent trip to New York City. I had some issues with my flight and hotel accommodations, and I am very upset about it.\nAgent: I'm sorry to hear that, John. Can you please provide me with your reservation number and travel dates so I can take a look?\nCustomer: Yes, my hotel reservation was under John Smith and the confirmation number was 123456. My flight was with United Airlines, flight number 1234, departing from Los Angeles on January 15th at 10:00am and arriving in New York City.\nAgent: Thank you, John. I can see that your flight was delayed due to weather conditions. Unfortunately, we cannot control the weather and any resulting delays or cancellations. However, we do offer compensation and assistance with rescheduling. Can I assist you with that?\nCustomer: No, I already spoke to a representative about that and they were not helpful. I want to file a formal complaint and get a refund for my hotel stay since the conditions were unsatisfactory.\nAgent: I'm sorry to hear that, John. Can you please provide me with more details about the unsatisfactory conditions of your hotel stay?\nCustomer: The hotel room was dirty and had bugs, the sheets were stained, and there was a strong odor. It was not suitable for a comfortable stay and I want a full refund.\nAgent: I understand your frustration, John. I will escalate this to our customer service team and have them contact you directly for further assistance with a refund. Is there anything else I can help you with today?\nCustomer: No, that's all. Thank you for your help.\n"
+  }
+}

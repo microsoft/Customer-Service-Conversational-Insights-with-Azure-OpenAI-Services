@@ -1,0 +1,199 @@
+{
+  "AgentName": "Mia Anderson",
+  "AgentId": "UDC24N",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-583-6035",
+  "Conversation": {
+    "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+    "Messages": [
+      {
+        "Id": "4030b2d5-0e82-4ee1-a358-bbc3ede86017",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-09T02:05:49.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "Thank you for calling the travel agency, my name is Mia Anderson. How may I assist you today?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d5e2bced-4588-43a7-be84-6115e5ae5abe",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-09T02:06:46.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "Yes, hi Mia. My name is John Smith and I need to discuss a delay on my flight from New York to Los Angeles.",
+        "UserId": "999-583-6035",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "86f94d20-e700-406a-833d-a4363339f411",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-09T02:06:57.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with your flight information?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d50668f9-5850-4b05-ae40-494b83053125",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-09T02:08:26.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "Sure, my flight was with United Airlines, flight number 1234, and it was supposed to depart from New York JFK at 8am on March 30th.",
+        "UserId": "999-583-6035",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1624bb1d-fe30-4d32-9e6d-a4e45260a40d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-09T02:08:28.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "Thank you for that information, John. I apologize for any inconvenience the delay may have caused. Can you tell me how long the delay was?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8171e799-87ba-4f6e-8c5b-86c3075df013",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-09T02:08:38.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "The delay was for 3 hours. I was supposed to arrive in Los Angeles at noon, but I didn't get there until 3pm.",
+        "UserId": "999-583-6035",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5c9d17c7-0107-446b-92f7-51da9d0a028e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-09T02:09:32.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "I see, that's definitely frustrating. Unfortunately, flight delays can occur for a variety of reasons beyond our control. However, I can certainly assist you with filing a complaint and seeing if any compensation may be available to you.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d7ab1e38-a96e-44ca-a450-09a16cef8c79",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-09T02:10:34.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "I don't want to file a complaint, I want to know why this happened and what's going to be done about it. This is unacceptable and I demand answers!",
+        "UserId": "999-583-6035",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3a75fe55-7f2f-4174-9908-ddc7e49b8b9e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-09T02:11:49.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "I completely understand your frustration, John. Unfortunately, I don't have access to that information at the moment, but I can certainly escalate your concern to our management team and they will follow up with you as soon as possible.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "67085d28-829d-4577-8371-f61f139f9f72",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-09T02:12:32.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "That's not good enough! I want to speak to a manager right now! This is unacceptable service and I demand compensation!",
+        "UserId": "999-583-6035",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d046640e-b842-4117-9b4a-ed1c0112d16c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-09T02:14:28.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "I'm sorry, John, but unfortunately our managers are not available at the moment. However, I can assure you that your concern will be addressed as soon as possible. Is there anything else I can help you with?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "74b5f312-75e8-47a6-94cc-74b57a5d304d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-09T02:16:03.8544917-06:00",
+        "ConversationId": "8dfea379-c435-4794-a2f2-f61a6eec0d77",
+        "Value": "No, that's it. Thank you for your help. But I'm really not satisfied with the service I received here today.",
+        "UserId": "999-583-6035",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-09T02:04:16.8544917-06:00",
+    "EndTime": "2024-03-09T02:16:03.8544917-06:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Mia Anderson. How may I assist you today?Yes, hi Mia. My name is John Smith and I need to discuss a delay on my flight from New York to Los Angeles.I'm sorry to hear that, John. Can you please provide me with your flight information?Sure, my flight was with United Airlines, flight number 1234, and it was supposed to depart from New York JFK at 8am on March 30th.Thank you for that information, John. I apologize for any inconvenience the delay may have caused. Can you tell me how long the delay was?The delay was for 3 hours. I was supposed to arrive in Los Angeles at noon, but I didn't get there until 3pm.I see, that's definitely frustrating. Unfortunately, flight delays can occur for a variety of reasons beyond our control. However, I can certainly assist you with filing a complaint and seeing if any compensation may be available to you.I don't want to file a complaint, I want to know why this happened and what's going to be done about it. This is unacceptable and I demand answers!I completely understand your frustration, John. Unfortunately, I don't have access to that information at the moment, but I can certainly escalate your concern to our management team and they will follow up with you as soon as possible.That's not good enough! I want to speak to a manager right now! This is unacceptable service and I demand compensation!I'm sorry, John, but unfortunately our managers are not available at the moment. However, I can assure you that your concern will be addressed as soon as possible. Is there anything else I can help you with?No, that's it. Thank you for your help. But I'm really not satisfied with the service I received here today.",
+    "Merged_content_user": "Yes, hi Mia. My name is John Smith and I need to discuss a delay on my flight from New York to Los Angeles.Sure, my flight was with United Airlines, flight number 1234, and it was supposed to depart from New York JFK at 8am on March 30th.The delay was for 3 hours. I was supposed to arrive in Los Angeles at noon, but I didn't get there until 3pm.I don't want to file a complaint, I want to know why this happened and what's going to be done about it. This is unacceptable and I demand answers!That's not good enough! I want to speak to a manager right now! This is unacceptable service and I demand compensation!No, that's it. Thank you for your help. But I'm really not satisfied with the service I received here today.",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Mia Anderson. How may I assist you today?I'm sorry to hear that, John. Can you please provide me with your flight information?Thank you for that information, John. I apologize for any inconvenience the delay may have caused. Can you tell me how long the delay was?I see, that's definitely frustrating. Unfortunately, flight delays can occur for a variety of reasons beyond our control. However, I can certainly assist you with filing a complaint and seeing if any compensation may be available to you.I completely understand your frustration, John. Unfortunately, I don't have access to that information at the moment, but I can certainly escalate your concern to our management team and they will follow up with you as soon as possible.I'm sorry, John, but unfortunately our managers are not available at the moment. However, I can assure you that your concern will be addressed as soon as possible. Is there anything else I can help you with?",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Mia Anderson. How may I assist you today?\nCustomer: Yes, hi Mia. My name is John Smith and I need to discuss a delay on my flight from New York to Los Angeles.\nAgent: I'm sorry to hear that, John. Can you please provide me with your flight information?\nCustomer: Sure, my flight was with United Airlines, flight number 1234, and it was supposed to depart from New York JFK at 8am on March 30th.\nAgent: Thank you for that information, John. I apologize for any inconvenience the delay may have caused. Can you tell me how long the delay was?\nCustomer: The delay was for 3 hours. I was supposed to arrive in Los Angeles at noon, but I didn't get there until 3pm.\nAgent: I see, that's definitely frustrating. Unfortunately, flight delays can occur for a variety of reasons beyond our control. However, I can certainly assist you with filing a complaint and seeing if any compensation may be available to you.\nCustomer: I don't want to file a complaint, I want to know why this happened and what's going to be done about it. This is unacceptable and I demand answers!\nAgent: I completely understand your frustration, John. Unfortunately, I don't have access to that information at the moment, but I can certainly escalate your concern to our management team and they will follow up with you as soon as possible.\nCustomer: That's not good enough! I want to speak to a manager right now! This is unacceptable service and I demand compensation!\nAgent: I'm sorry, John, but unfortunately our managers are not available at the moment. However, I can assure you that your concern will be addressed as soon as possible. Is there anything else I can help you with?\nCustomer: No, that's it. Thank you for your help. But I'm really not satisfied with the service I received here today.\n"
+  }
+}

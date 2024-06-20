@@ -1,0 +1,139 @@
+{
+  "AgentName": "Liam Johnson",
+  "AgentId": "YVS2EM",
+  "Team": "West",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-280-9064",
+  "Conversation": {
+    "ConversationId": "e81c3c1f-2570-4b1c-aaa3-f80275f3631c",
+    "Messages": [
+      {
+        "Id": "c70f6fd1-29f1-49b6-bea0-9d6ce0ff3969",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-27T18:20:05.8930852-05:00",
+        "ConversationId": "e81c3c1f-2570-4b1c-aaa3-f80275f3631c",
+        "Value": "Thank you for calling our travel agency, my name is Liam Johnson. How can I assist you today?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aedf7390-b49d-400a-80ee-7666afc9aca2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-27T18:20:27.8930852-05:00",
+        "ConversationId": "e81c3c1f-2570-4b1c-aaa3-f80275f3631c",
+        "Value": "Hi Liam, my name is Sarah Johnson and I'm having trouble logging into my account on your website. It keeps saying my password is incorrect",
+        "UserId": "999-280-9064",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e08b1eac-e808-4824-9b0f-afd08123fe58",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-27T18:21:40.8930852-05:00",
+        "ConversationId": "e81c3c1f-2570-4b1c-aaa3-f80275f3631c",
+        "Value": "I'm sorry to hear that Sarah, let me try to help you with that. Can you please confirm your email address and username?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4daa8401-95ed-448b-8494-844f7d02dffd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-27T18:23:04.8930852-05:00",
+        "ConversationId": "e81c3c1f-2570-4b1c-aaa3-f80275f3631c",
+        "Value": "Sure, my email is sarahj@gmail.com and my username is sarahj90",
+        "UserId": "999-280-9064",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e1c534bb-31b9-40ce-b0f2-e69674302f68",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-27T18:24:12.8930852-05:00",
+        "ConversationId": "e81c3c1f-2570-4b1c-aaa3-f80275f3631c",
+        "Value": "Thank you Sarah. I'm seeing here that your account is active and there are no issues on our end. Can you try resetting your password by clicking the 'Forgot Password' link on the login screen?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "efc07ca5-e04b-407b-81df-61431b0e7530",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-27T18:25:38.8930852-05:00",
+        "ConversationId": "e81c3c1f-2570-4b1c-aaa3-f80275f3631c",
+        "Value": "I've tried that multiple times but I haven't received any password reset emails. I've also checked my spam folder just in case.",
+        "UserId": "999-280-9064",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "25d07c3c-6a72-4751-8bea-a008fa0177ab",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-27T18:27:13.8930852-05:00",
+        "ConversationId": "e81c3c1f-2570-4b1c-aaa3-f80275f3631c",
+        "Value": "I apologize for the inconvenience Sarah. It seems there is an issue with your email on our end. Our tech support team will need to look into this issue further. I will log a ticket for you and they will reach out to you shortly with a resolution. Is there anything else I can help you with?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e20eaf81-e1fe-43e6-8a00-9ec75d67a327",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-27T18:29:00.8930852-05:00",
+        "ConversationId": "e81c3c1f-2570-4b1c-aaa3-f80275f3631c",
+        "Value": "No, that's all Liam. Thank you for your help",
+        "UserId": "999-280-9064",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-27T18:19:47.8930852-05:00",
+    "EndTime": "2024-03-27T18:29:00.8930852-05:00",
+    "Merged_content": "Thank you for calling our travel agency, my name is Liam Johnson. How can I assist you today?Hi Liam, my name is Sarah Johnson and I'm having trouble logging into my account on your website. It keeps saying my password is incorrectI'm sorry to hear that Sarah, let me try to help you with that. Can you please confirm your email address and username?Sure, my email is sarahj@gmail.com and my username is sarahj90Thank you Sarah. I'm seeing here that your account is active and there are no issues on our end. Can you try resetting your password by clicking the 'Forgot Password' link on the login screen?I've tried that multiple times but I haven't received any password reset emails. I've also checked my spam folder just in case.I apologize for the inconvenience Sarah. It seems there is an issue with your email on our end. Our tech support team will need to look into this issue further. I will log a ticket for you and they will reach out to you shortly with a resolution. Is there anything else I can help you with?No, that's all Liam. Thank you for your help",
+    "Merged_content_user": "Hi Liam, my name is Sarah Johnson and I'm having trouble logging into my account on your website. It keeps saying my password is incorrectSure, my email is sarahj@gmail.com and my username is sarahj90I've tried that multiple times but I haven't received any password reset emails. I've also checked my spam folder just in case.No, that's all Liam. Thank you for your help",
+    "Merged_content_agent": "Thank you for calling our travel agency, my name is Liam Johnson. How can I assist you today?I'm sorry to hear that Sarah, let me try to help you with that. Can you please confirm your email address and username?Thank you Sarah. I'm seeing here that your account is active and there are no issues on our end. Can you try resetting your password by clicking the 'Forgot Password' link on the login screen?I apologize for the inconvenience Sarah. It seems there is an issue with your email on our end. Our tech support team will need to look into this issue further. I will log a ticket for you and they will reach out to you shortly with a resolution. Is there anything else I can help you with?",
+    "Full_conversation": "Agent: Thank you for calling our travel agency, my name is Liam Johnson. How can I assist you today?\nCustomer: Hi Liam, my name is Sarah Johnson and I'm having trouble logging into my account on your website. It keeps saying my password is incorrect\nAgent: I'm sorry to hear that Sarah, let me try to help you with that. Can you please confirm your email address and username?\nCustomer: Sure, my email is sarahj@gmail.com and my username is sarahj90\nAgent: Thank you Sarah. I'm seeing here that your account is active and there are no issues on our end. Can you try resetting your password by clicking the 'Forgot Password' link on the login screen?\nCustomer: I've tried that multiple times but I haven't received any password reset emails. I've also checked my spam folder just in case.\nAgent: I apologize for the inconvenience Sarah. It seems there is an issue with your email on our end. Our tech support team will need to look into this issue further. I will log a ticket for you and they will reach out to you shortly with a resolution. Is there anything else I can help you with?\nCustomer: No, that's all Liam. Thank you for your help\n"
+  }
+}
