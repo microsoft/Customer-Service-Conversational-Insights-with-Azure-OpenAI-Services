@@ -1,0 +1,154 @@
+{
+  "AgentName": "Sophia Moore",
+  "AgentId": "6SYKT5",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-549-7177",
+  "Conversation": {
+    "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+    "Messages": [
+      {
+        "Id": "3c56cad7-b863-428a-a36b-f44f614dd14c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-04T16:20:51.8035947-05:00",
+        "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+        "Value": "Thank you for calling the travel agency tech support, my name is Sophia Moore. How can I assist you today?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "556b85cd-d14d-42a0-a82e-17e9c747d982",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-04T16:22:15.8035947-05:00",
+        "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+        "Value": "Hi Sophia, my name is Jane Smith. I'm having trouble using the website to book a flight from Chicago to New York City.",
+        "UserId": "999-549-7177",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "70f1c860-3025-4efa-bd89-399507b6a700",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-04T16:22:57.8035947-05:00",
+        "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+        "Value": "I'm sorry to hear that Jane. Let me assist you with that. Can you please tell me what specifically is the issue you're experiencing with the website? Is it not loading, or are you having trouble navigating it?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6bb108db-3b35-4383-be0a-78b31f8d3189",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-04T16:24:54.8035947-05:00",
+        "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+        "Value": "The website loads fine, but I'm having trouble navigating to the right options to book my flight. I need to book a round-trip flight from O'Hare to LaGuardia in two weeks.",
+        "UserId": "999-549-7177",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3c591131-42b4-419f-a209-a54b38f53a5a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-04T16:26:00.8035947-05:00",
+        "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+        "Value": "I see. Let me walk you through it step by step. First, let's select the departure city as 'Chicago, IL (ORD)', and the arrival city as 'New York, NY (LGA)'. Next, choose your preferred departure date and return date. Lastly, choose the number of travelers and click 'Search'.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5ed09c62-ee5e-4d82-a222-e970ab424e66",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-04T16:26:21.8035947-05:00",
+        "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+        "Value": "I'm still having trouble booking the flight. Could you please help me over the phone?",
+        "UserId": "999-549-7177",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e8850825-950e-4e98-a9c4-cfd924d26f07",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-04T16:26:56.8035947-05:00",
+        "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+        "Value": "Of course Jane, I apologize for the inconvenience caused. Could you please provide me your phone number so I can call you back immediately and guide you through the booking process?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "eb4630c7-e73d-41f0-b00c-8e7728f59088",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-04T16:27:18.8035947-05:00",
+        "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+        "Value": "Sure, my phone number is 555-123-4567.",
+        "UserId": "999-549-7177",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5b0122d6-5634-4b5f-bf7b-feb72e6ae1e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-04T16:27:29.8035947-05:00",
+        "ConversationId": "303574ca-66ca-485b-ad9e-e95ecf4b20de",
+        "Value": "Great, I'll call you back within the next five minutes. Thank you for calling the travel agency tech support.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-04T16:20:50.8035947-05:00",
+    "EndTime": "2024-04-04T16:27:29.8035947-05:00",
+    "Merged_content": "Thank you for calling the travel agency tech support, my name is Sophia Moore. How can I assist you today?Hi Sophia, my name is Jane Smith. I'm having trouble using the website to book a flight from Chicago to New York City.I'm sorry to hear that Jane. Let me assist you with that. Can you please tell me what specifically is the issue you're experiencing with the website? Is it not loading, or are you having trouble navigating it?The website loads fine, but I'm having trouble navigating to the right options to book my flight. I need to book a round-trip flight from O'Hare to LaGuardia in two weeks.I see. Let me walk you through it step by step. First, let's select the departure city as 'Chicago, IL (ORD)', and the arrival city as 'New York, NY (LGA)'. Next, choose your preferred departure date and return date. Lastly, choose the number of travelers and click 'Search'.I'm still having trouble booking the flight. Could you please help me over the phone?Of course Jane, I apologize for the inconvenience caused. Could you please provide me your phone number so I can call you back immediately and guide you through the booking process?Sure, my phone number is 555-123-4567.Great, I'll call you back within the next five minutes. Thank you for calling the travel agency tech support.",
+    "Merged_content_user": "Hi Sophia, my name is Jane Smith. I'm having trouble using the website to book a flight from Chicago to New York City.The website loads fine, but I'm having trouble navigating to the right options to book my flight. I need to book a round-trip flight from O'Hare to LaGuardia in two weeks.I'm still having trouble booking the flight. Could you please help me over the phone?Sure, my phone number is 555-123-4567.",
+    "Merged_content_agent": "Thank you for calling the travel agency tech support, my name is Sophia Moore. How can I assist you today?I'm sorry to hear that Jane. Let me assist you with that. Can you please tell me what specifically is the issue you're experiencing with the website? Is it not loading, or are you having trouble navigating it?I see. Let me walk you through it step by step. First, let's select the departure city as 'Chicago, IL (ORD)', and the arrival city as 'New York, NY (LGA)'. Next, choose your preferred departure date and return date. Lastly, choose the number of travelers and click 'Search'.Of course Jane, I apologize for the inconvenience caused. Could you please provide me your phone number so I can call you back immediately and guide you through the booking process?Great, I'll call you back within the next five minutes. Thank you for calling the travel agency tech support.",
+    "Full_conversation": "Agent: Thank you for calling the travel agency tech support, my name is Sophia Moore. How can I assist you today?\nCustomer: Hi Sophia, my name is Jane Smith. I'm having trouble using the website to book a flight from Chicago to New York City.\nAgent: I'm sorry to hear that Jane. Let me assist you with that. Can you please tell me what specifically is the issue you're experiencing with the website? Is it not loading, or are you having trouble navigating it?\nCustomer: The website loads fine, but I'm having trouble navigating to the right options to book my flight. I need to book a round-trip flight from O'Hare to LaGuardia in two weeks.\nAgent: I see. Let me walk you through it step by step. First, let's select the departure city as 'Chicago, IL (ORD)', and the arrival city as 'New York, NY (LGA)'. Next, choose your preferred departure date and return date. Lastly, choose the number of travelers and click 'Search'.\nCustomer: I'm still having trouble booking the flight. Could you please help me over the phone?\nAgent: Of course Jane, I apologize for the inconvenience caused. Could you please provide me your phone number so I can call you back immediately and guide you through the booking process?\nCustomer: Sure, my phone number is 555-123-4567.\nAgent: Great, I'll call you back within the next five minutes. Thank you for calling the travel agency tech support.\n"
+  }
+}

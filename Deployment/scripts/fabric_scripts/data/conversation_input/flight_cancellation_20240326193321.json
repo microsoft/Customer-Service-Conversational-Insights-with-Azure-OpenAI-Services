@@ -1,0 +1,214 @@
+{
+  "AgentName": "Elijah Martin",
+  "AgentId": "76QR0N",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-691-3198",
+  "Conversation": {
+    "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+    "Messages": [
+      {
+        "Id": "737dc64b-813e-470a-af07-ff6a311cadec",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T19:34:46.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "Thank you for calling ABC Travel, my name is Elijah Martin. How may I assist you today?",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ad780362-926f-47cb-a72d-3c1f216e4b9f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-26T19:37:33.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "Hi Elijah, my name is Sarah Johnson and I have a complaint about my recent travel experience.",
+        "UserId": "999-691-3198",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2d193d3a-35bc-4020-9379-e93a8a26299d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T19:38:26.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "I am sorry to hear that Sarah. Can you please provide me with your booking reference number?",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b0a2a1b5-813e-48fa-81ff-a3e433b70477",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-26T19:41:23.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "Sure, it's ABCTRAVEL123. My flight from New York to Los Angeles was cancelled and I was not notified. I had to scramble for a new flight and I am extremely upset about this.",
+        "UserId": "999-691-3198",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "15d6799a-fa2d-48fc-a30a-1cf201996cb4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T19:42:58.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "I apologize for the inconvenience caused. Let me check the details and see if there's anything we can do to help you.",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f03df4e8-97aa-4495-87a3-b523e37bab55",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-26T19:44:20.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "Okay, but I want this to be resolved ASAP. I can't believe something like this happened.",
+        "UserId": "999-691-3198",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c81c59f7-53d9-408e-8fb6-633088cca3f0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T19:45:09.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "I completely understand your frustration, Sarah. We will do our best to address this issue. Can you please give me a few minutes to check with the airline and see if they can offer any options?",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e54e668d-d9e7-4003-8912-fe865aebd13e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-26T19:46:37.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "Fine, but it better be quick.",
+        "UserId": "999-691-3198",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "89a9c93e-09f4-4c45-abdd-94fc4613eb2a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T19:47:44.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "Thank you for holding, Sarah. I spoke with the airline and they have agreed to provide you with a full refund for the cancelled flight. They will also offer you a discounted rate for your next flight on their airline.",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c804c1f4-da67-474d-87e2-95ad57435867",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-26T19:50:33.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "Okay, that sounds better. But I still can't believe this happened in the first place.",
+        "UserId": "999-691-3198",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "db251a6f-87c0-43ab-9a47-f0b73cbced48",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T19:51:29.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "I completely understand your frustration, Sarah. I will make sure to log this complaint with the airline so that they can improve their services and prevent similar incidents in the future.",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a22f618c-f8a2-4f8b-82bc-8b88c0aa5e7e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-26T19:53:48.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "Thank you for your help, Elijah. I appreciate it.",
+        "UserId": "999-691-3198",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b358bc9a-ebc8-4a9e-b75b-eb5b4f33a86f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-26T19:55:04.0670378-05:00",
+        "ConversationId": "16ed6acc-8985-4bda-ba38-ce989c7b1121",
+        "Value": "No problem, Sarah. I am glad that we were able to resolve this for you. If you have any other questions or concerns, please do not hesitate to reach out to us again.",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-26T19:33:21.0670378-05:00",
+    "EndTime": "2024-03-26T19:55:04.0670378-05:00",
+    "Merged_content": "Thank you for calling ABC Travel, my name is Elijah Martin. How may I assist you today?Hi Elijah, my name is Sarah Johnson and I have a complaint about my recent travel experience.I am sorry to hear that Sarah. Can you please provide me with your booking reference number?Sure, it's ABCTRAVEL123. My flight from New York to Los Angeles was cancelled and I was not notified. I had to scramble for a new flight and I am extremely upset about this.I apologize for the inconvenience caused. Let me check the details and see if there's anything we can do to help you.Okay, but I want this to be resolved ASAP. I can't believe something like this happened.I completely understand your frustration, Sarah. We will do our best to address this issue. Can you please give me a few minutes to check with the airline and see if they can offer any options?Fine, but it better be quick.Thank you for holding, Sarah. I spoke with the airline and they have agreed to provide you with a full refund for the cancelled flight. They will also offer you a discounted rate for your next flight on their airline.Okay, that sounds better. But I still can't believe this happened in the first place.I completely understand your frustration, Sarah. I will make sure to log this complaint with the airline so that they can improve their services and prevent similar incidents in the future.Thank you for your help, Elijah. I appreciate it.No problem, Sarah. I am glad that we were able to resolve this for you. If you have any other questions or concerns, please do not hesitate to reach out to us again.",
+    "Merged_content_user": "Hi Elijah, my name is Sarah Johnson and I have a complaint about my recent travel experience.Sure, it's ABCTRAVEL123. My flight from New York to Los Angeles was cancelled and I was not notified. I had to scramble for a new flight and I am extremely upset about this.Okay, but I want this to be resolved ASAP. I can't believe something like this happened.Fine, but it better be quick.Okay, that sounds better. But I still can't believe this happened in the first place.Thank you for your help, Elijah. I appreciate it.",
+    "Merged_content_agent": "Thank you for calling ABC Travel, my name is Elijah Martin. How may I assist you today?I am sorry to hear that Sarah. Can you please provide me with your booking reference number?I apologize for the inconvenience caused. Let me check the details and see if there's anything we can do to help you.I completely understand your frustration, Sarah. We will do our best to address this issue. Can you please give me a few minutes to check with the airline and see if they can offer any options?Thank you for holding, Sarah. I spoke with the airline and they have agreed to provide you with a full refund for the cancelled flight. They will also offer you a discounted rate for your next flight on their airline.I completely understand your frustration, Sarah. I will make sure to log this complaint with the airline so that they can improve their services and prevent similar incidents in the future.No problem, Sarah. I am glad that we were able to resolve this for you. If you have any other questions or concerns, please do not hesitate to reach out to us again.",
+    "Full_conversation": "Agent: Thank you for calling ABC Travel, my name is Elijah Martin. How may I assist you today?\nCustomer: Hi Elijah, my name is Sarah Johnson and I have a complaint about my recent travel experience.\nAgent: I am sorry to hear that Sarah. Can you please provide me with your booking reference number?\nCustomer: Sure, it's ABCTRAVEL123. My flight from New York to Los Angeles was cancelled and I was not notified. I had to scramble for a new flight and I am extremely upset about this.\nAgent: I apologize for the inconvenience caused. Let me check the details and see if there's anything we can do to help you.\nCustomer: Okay, but I want this to be resolved ASAP. I can't believe something like this happened.\nAgent: I completely understand your frustration, Sarah. We will do our best to address this issue. Can you please give me a few minutes to check with the airline and see if they can offer any options?\nCustomer: Fine, but it better be quick.\nAgent: Thank you for holding, Sarah. I spoke with the airline and they have agreed to provide you with a full refund for the cancelled flight. They will also offer you a discounted rate for your next flight on their airline.\nCustomer: Okay, that sounds better. But I still can't believe this happened in the first place.\nAgent: I completely understand your frustration, Sarah. I will make sure to log this complaint with the airline so that they can improve their services and prevent similar incidents in the future.\nCustomer: Thank you for your help, Elijah. I appreciate it.\nAgent: No problem, Sarah. I am glad that we were able to resolve this for you. If you have any other questions or concerns, please do not hesitate to reach out to us again.\n"
+  }
+}

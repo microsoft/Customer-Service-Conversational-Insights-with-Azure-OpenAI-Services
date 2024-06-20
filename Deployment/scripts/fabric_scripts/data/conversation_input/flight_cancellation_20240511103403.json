@@ -1,0 +1,199 @@
+{
+  "AgentName": "Ava Miller",
+  "AgentId": "M8Z07C",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-605-3857",
+  "Conversation": {
+    "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+    "Messages": [
+      {
+        "Id": "23837fcd-0e17-485d-a6d7-5bb5e542036c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-11T10:35:07.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "Thank you for calling Travel Agency, my name is Ava Miller, how may I assist you today?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f89414a1-b7eb-427f-8afd-3f528a028c20",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-11T10:37:47.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "Hi Ava, my name is John Smith and I'm calling because my flight from New York City to Los Angeles was cancelled.",
+        "UserId": "999-605-3857",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "26c72897-65ae-49b9-bf29-28f323e9f504",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-11T10:40:42.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "I'm sorry to hear that, John. May I have your reservation number and flight details, please?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bb3cd466-8193-40d0-be5c-f81a94c999eb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-11T10:43:26.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "Yes, my reservation number is 123456789 and my flight was with American Airlines, flight number AA123, scheduled for August 5th at 2pm.",
+        "UserId": "999-605-3857",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5d4ad1fe-3389-4eab-bcfb-7b914721a495",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-11T10:45:23.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "Thank you for that information, John. I understand how frustrating this situation must be for you. Let me see what I can do to assist you. One moment please.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "528c42ea-feba-4558-89dc-c4c257746ce8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-11T10:46:25.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "Sure, take your time.",
+        "UserId": "999-605-3857",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0a78c004-0a93-4232-974c-df1492df1762",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-11T10:47:28.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "I'm sorry, John, but according to our system, American Airlines has cancelled your flight due to unforeseen circumstances. Unfortunately, we don't have any other flights available at the moment.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "97bed4d7-ff43-400d-953d-958e4fbd7ba0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-11T10:49:43.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "What do you mean there are no other flights available? How am I supposed to get to LA for my business meeting?!",
+        "UserId": "999-605-3857",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4d98ed68-b256-41d9-afb1-a991f3de522e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-11T10:51:39.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "I understand your frustration, John. Let me see if I can find another solution for you. Would you be willing to consider a different airline or a different airport in the area?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2f5ce3fb-1275-40d7-b33e-d0e6256633c0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-11T10:52:47.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "I guess that might be an option. But I really need to be in LA on time for this meeting.",
+        "UserId": "999-605-3857",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b548d582-0eae-48fd-b475-de206f15105e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-11T10:54:16.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "I completely understand, John. Let me check some other options for you.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "66d46d7c-7188-4390-a3cc-6a9eedbb6b84",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-11T10:57:11.6513067-05:00",
+        "ConversationId": "0f554908-e3e9-4294-a45b-3ac2c8ed3fbb",
+        "Value": "Thank you, Ava. I really appreciate it.",
+        "UserId": "999-605-3857",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-11T10:34:03.6513067-05:00",
+    "EndTime": "2024-05-11T10:57:11.6513067-05:00",
+    "Merged_content": "Thank you for calling Travel Agency, my name is Ava Miller, how may I assist you today?Hi Ava, my name is John Smith and I'm calling because my flight from New York City to Los Angeles was cancelled.I'm sorry to hear that, John. May I have your reservation number and flight details, please?Yes, my reservation number is 123456789 and my flight was with American Airlines, flight number AA123, scheduled for August 5th at 2pm.Thank you for that information, John. I understand how frustrating this situation must be for you. Let me see what I can do to assist you. One moment please.Sure, take your time.I'm sorry, John, but according to our system, American Airlines has cancelled your flight due to unforeseen circumstances. Unfortunately, we don't have any other flights available at the moment.What do you mean there are no other flights available? How am I supposed to get to LA for my business meeting?!I understand your frustration, John. Let me see if I can find another solution for you. Would you be willing to consider a different airline or a different airport in the area?I guess that might be an option. But I really need to be in LA on time for this meeting.I completely understand, John. Let me check some other options for you.Thank you, Ava. I really appreciate it.",
+    "Merged_content_user": "Hi Ava, my name is John Smith and I'm calling because my flight from New York City to Los Angeles was cancelled.Yes, my reservation number is 123456789 and my flight was with American Airlines, flight number AA123, scheduled for August 5th at 2pm.Sure, take your time.What do you mean there are no other flights available? How am I supposed to get to LA for my business meeting?!I guess that might be an option. But I really need to be in LA on time for this meeting.Thank you, Ava. I really appreciate it.",
+    "Merged_content_agent": "Thank you for calling Travel Agency, my name is Ava Miller, how may I assist you today?I'm sorry to hear that, John. May I have your reservation number and flight details, please?Thank you for that information, John. I understand how frustrating this situation must be for you. Let me see what I can do to assist you. One moment please.I'm sorry, John, but according to our system, American Airlines has cancelled your flight due to unforeseen circumstances. Unfortunately, we don't have any other flights available at the moment.I understand your frustration, John. Let me see if I can find another solution for you. Would you be willing to consider a different airline or a different airport in the area?I completely understand, John. Let me check some other options for you.",
+    "Full_conversation": "Agent: Thank you for calling Travel Agency, my name is Ava Miller, how may I assist you today?\nCustomer: Hi Ava, my name is John Smith and I'm calling because my flight from New York City to Los Angeles was cancelled.\nAgent: I'm sorry to hear that, John. May I have your reservation number and flight details, please?\nCustomer: Yes, my reservation number is 123456789 and my flight was with American Airlines, flight number AA123, scheduled for August 5th at 2pm.\nAgent: Thank you for that information, John. I understand how frustrating this situation must be for you. Let me see what I can do to assist you. One moment please.\nCustomer: Sure, take your time.\nAgent: I'm sorry, John, but according to our system, American Airlines has cancelled your flight due to unforeseen circumstances. Unfortunately, we don't have any other flights available at the moment.\nCustomer: What do you mean there are no other flights available? How am I supposed to get to LA for my business meeting?!\nAgent: I understand your frustration, John. Let me see if I can find another solution for you. Would you be willing to consider a different airline or a different airport in the area?\nCustomer: I guess that might be an option. But I really need to be in LA on time for this meeting.\nAgent: I completely understand, John. Let me check some other options for you.\nCustomer: Thank you, Ava. I really appreciate it.\n"
+  }
+}

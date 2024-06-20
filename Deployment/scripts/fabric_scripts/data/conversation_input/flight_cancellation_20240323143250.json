@@ -1,0 +1,169 @@
+{
+  "AgentName": "Emma Davis",
+  "AgentId": "WVBORA",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-329-7070",
+  "Conversation": {
+    "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+    "Messages": [
+      {
+        "Id": "265e8393-9fd7-437c-ad40-f069e5e0982d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T14:34:11.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "Thank you for calling Travel Adventures, my name is Emma Davis. How may I assist you today?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2f8e7bc5-6ca3-4318-9940-259395976d20",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T14:35:47.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "Hi Emma, my name is Jane Smith and I'm calling because I received a notification that my flight has been cancelled. I'm supposed to travel from New York City to Los Angeles tomorrow and I don't know what to do now. I paid for this trip and I can't afford to miss it.",
+        "UserId": "999-329-7070",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8e3f7bd1-374f-424c-a3ff-45918d6979de",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T14:38:40.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "I'm sorry to hear that, Jane. I understand how frustrating this can be. Let me check your reservation and see what options we have for you. Can you please provide me with your reservation number and the name of the airline you booked with?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fd4069af-0a55-4dd6-9594-f6c7da817ffd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T14:39:16.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "Sure, my reservation number is 123456789 and I booked with Delta Airlines.",
+        "UserId": "999-329-7070",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "95d827a0-47f1-4993-b373-7482080ceb3a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T14:40:01.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "Thank you, Jane. I see here that your flight has indeed been cancelled due to bad weather conditions. We do have some options for you. We can either rebook you on the next available flight or cancel your flight and issue a full refund. Which option would you prefer?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0be545ff-5499-4adb-a605-039b4a62af28",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T14:41:38.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "I really need to be in Los Angeles tomorrow for an important meeting. Can you please find me the next available flight out?",
+        "UserId": "999-329-7070",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4bb2bb2f-fa46-41cb-9c46-4c49ec9bccdc",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T14:42:54.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "Of course, let me check for you. The earliest flight out tomorrow would be at 9:00 a.m. with Delta Airlines. Does that work for you?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ba546fe5-9e15-4898-94a1-066da74d8f63",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T14:45:14.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "Yes, that works for me. Thank you, Emma. Will there be any additional fees or charges for the rebooking?",
+        "UserId": "999-329-7070",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7dfb37f6-5c00-4004-99ac-480739946244",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-23T14:48:05.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "No, Jane. We will take care of everything and make sure you're on your way to Los Angeles as soon as possible. Is there anything else I can assist you with?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b5f9bb90-f910-473b-a58c-57ceb3128336",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-23T14:48:48.6225729-05:00",
+        "ConversationId": "eab91e68-7f50-4182-8453-4d0e4b5f3323",
+        "Value": "No, that's all. Thank you for your help, Emma.",
+        "UserId": "999-329-7070",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-23T14:32:50.6225729-05:00",
+    "EndTime": "2024-03-23T14:48:48.6225729-05:00",
+    "Merged_content": "Thank you for calling Travel Adventures, my name is Emma Davis. How may I assist you today?Hi Emma, my name is Jane Smith and I'm calling because I received a notification that my flight has been cancelled. I'm supposed to travel from New York City to Los Angeles tomorrow and I don't know what to do now. I paid for this trip and I can't afford to miss it.I'm sorry to hear that, Jane. I understand how frustrating this can be. Let me check your reservation and see what options we have for you. Can you please provide me with your reservation number and the name of the airline you booked with?Sure, my reservation number is 123456789 and I booked with Delta Airlines.Thank you, Jane. I see here that your flight has indeed been cancelled due to bad weather conditions. We do have some options for you. We can either rebook you on the next available flight or cancel your flight and issue a full refund. Which option would you prefer?I really need to be in Los Angeles tomorrow for an important meeting. Can you please find me the next available flight out?Of course, let me check for you. The earliest flight out tomorrow would be at 9:00 a.m. with Delta Airlines. Does that work for you?Yes, that works for me. Thank you, Emma. Will there be any additional fees or charges for the rebooking?No, Jane. We will take care of everything and make sure you're on your way to Los Angeles as soon as possible. Is there anything else I can assist you with?No, that's all. Thank you for your help, Emma.",
+    "Merged_content_user": "Hi Emma, my name is Jane Smith and I'm calling because I received a notification that my flight has been cancelled. I'm supposed to travel from New York City to Los Angeles tomorrow and I don't know what to do now. I paid for this trip and I can't afford to miss it.Sure, my reservation number is 123456789 and I booked with Delta Airlines.I really need to be in Los Angeles tomorrow for an important meeting. Can you please find me the next available flight out?Yes, that works for me. Thank you, Emma. Will there be any additional fees or charges for the rebooking?No, that's all. Thank you for your help, Emma.",
+    "Merged_content_agent": "Thank you for calling Travel Adventures, my name is Emma Davis. How may I assist you today?I'm sorry to hear that, Jane. I understand how frustrating this can be. Let me check your reservation and see what options we have for you. Can you please provide me with your reservation number and the name of the airline you booked with?Thank you, Jane. I see here that your flight has indeed been cancelled due to bad weather conditions. We do have some options for you. We can either rebook you on the next available flight or cancel your flight and issue a full refund. Which option would you prefer?Of course, let me check for you. The earliest flight out tomorrow would be at 9:00 a.m. with Delta Airlines. Does that work for you?No, Jane. We will take care of everything and make sure you're on your way to Los Angeles as soon as possible. Is there anything else I can assist you with?",
+    "Full_conversation": "Agent: Thank you for calling Travel Adventures, my name is Emma Davis. How may I assist you today?\nCustomer: Hi Emma, my name is Jane Smith and I'm calling because I received a notification that my flight has been cancelled. I'm supposed to travel from New York City to Los Angeles tomorrow and I don't know what to do now. I paid for this trip and I can't afford to miss it.\nAgent: I'm sorry to hear that, Jane. I understand how frustrating this can be. Let me check your reservation and see what options we have for you. Can you please provide me with your reservation number and the name of the airline you booked with?\nCustomer: Sure, my reservation number is 123456789 and I booked with Delta Airlines.\nAgent: Thank you, Jane. I see here that your flight has indeed been cancelled due to bad weather conditions. We do have some options for you. We can either rebook you on the next available flight or cancel your flight and issue a full refund. Which option would you prefer?\nCustomer: I really need to be in Los Angeles tomorrow for an important meeting. Can you please find me the next available flight out?\nAgent: Of course, let me check for you. The earliest flight out tomorrow would be at 9:00 a.m. with Delta Airlines. Does that work for you?\nCustomer: Yes, that works for me. Thank you, Emma. Will there be any additional fees or charges for the rebooking?\nAgent: No, Jane. We will take care of everything and make sure you're on your way to Los Angeles as soon as possible. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you for your help, Emma.\n"
+  }
+}

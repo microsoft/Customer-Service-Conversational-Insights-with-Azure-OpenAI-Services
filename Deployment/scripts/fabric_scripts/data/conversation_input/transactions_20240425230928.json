@@ -1,0 +1,154 @@
+{
+  "AgentName": "Olivia Brown",
+  "AgentId": "J8BS3X",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-508-4293",
+  "Conversation": {
+    "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+    "Messages": [
+      {
+        "Id": "89a4dfd1-80b8-4eed-a73d-1c6b6239eb47",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T23:10:22.5080617-05:00",
+        "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+        "Value": "Thank you for contacting our travel agency. My name is Olivia Brown. How may I assist you today?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c29fee93-9311-43e1-ad3b-7d9ac20c392a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-25T23:11:20.5080617-05:00",
+        "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+        "Value": "Hi Olivia, my name is Sarah Johnson and I am calling about a booking I made for a trip from Boston to Los Angeles. My reservation number is ABC123 and my departure date is January 10th. I am having some issues and need your assistance.",
+        "UserId": "999-508-4293",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c3320807-5414-4e88-9edb-628d345c9a32",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T23:12:19.5080617-05:00",
+        "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+        "Value": "Certainly, Sarah. I'm sorry to hear that you're experiencing some issues with your trip. Could you please describe the problem you're having?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1cc0f48a-c886-4ecb-a28f-7bdd63ab0cd7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-25T23:12:23.5080617-05:00",
+        "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+        "Value": "Yes, I had originally booked a hotel through your agency as well but when I arrived at the hotel it was overbooked and I was forced to find other accommodations on my own. I missed out on my first night's stay and had to pay out of pocket for another hotel. I would like a refund for the first night's stay.",
+        "UserId": "999-508-4293",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e7b97511-ba1e-4bc6-a8e4-cec6c6c5c16d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T23:13:03.5080617-05:00",
+        "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+        "Value": "I am so sorry to hear that, Sarah. We definitely want to make this right for you. I will need to log a ticket with our customer service team in order to process this refund. Can I get your contact information so they can reach out to you directly?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "06a25dab-5ae4-4265-b7f0-34c2593c54ea",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-25T23:13:11.5080617-05:00",
+        "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+        "Value": "Yes, my phone number is 555-555-5555 and my email is sarahj@gmail.com.",
+        "UserId": "999-508-4293",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "15fca963-acfd-4a19-88fa-7ad17410aaab",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T23:13:37.5080617-05:00",
+        "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+        "Value": "Great, thank you for that information, Sarah. Is there anything else I can do for you today?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3dc0d938-1b01-4a00-b028-7e0f256c3d91",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-25T23:13:59.5080617-05:00",
+        "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+        "Value": "No, that's all for now. Thank you for your help.",
+        "UserId": "999-508-4293",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "873189cc-36c7-4a15-8694-626d5692267a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-25T23:14:30.5080617-05:00",
+        "ConversationId": "e6b5b897-2587-424a-b600-04e2d74b19db",
+        "Value": "You're welcome, Sarah. We apologize for the inconvenience and will do our best to resolve this issue for you as soon as possible. Have a great day!",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-25T23:09:28.5080617-05:00",
+    "EndTime": "2024-04-25T23:14:30.5080617-05:00",
+    "Merged_content": "Thank you for contacting our travel agency. My name is Olivia Brown. How may I assist you today?Hi Olivia, my name is Sarah Johnson and I am calling about a booking I made for a trip from Boston to Los Angeles. My reservation number is ABC123 and my departure date is January 10th. I am having some issues and need your assistance.Certainly, Sarah. I'm sorry to hear that you're experiencing some issues with your trip. Could you please describe the problem you're having?Yes, I had originally booked a hotel through your agency as well but when I arrived at the hotel it was overbooked and I was forced to find other accommodations on my own. I missed out on my first night's stay and had to pay out of pocket for another hotel. I would like a refund for the first night's stay.I am so sorry to hear that, Sarah. We definitely want to make this right for you. I will need to log a ticket with our customer service team in order to process this refund. Can I get your contact information so they can reach out to you directly?Yes, my phone number is 555-555-5555 and my email is sarahj@gmail.com.Great, thank you for that information, Sarah. Is there anything else I can do for you today?No, that's all for now. Thank you for your help.You're welcome, Sarah. We apologize for the inconvenience and will do our best to resolve this issue for you as soon as possible. Have a great day!",
+    "Merged_content_user": "Hi Olivia, my name is Sarah Johnson and I am calling about a booking I made for a trip from Boston to Los Angeles. My reservation number is ABC123 and my departure date is January 10th. I am having some issues and need your assistance.Yes, I had originally booked a hotel through your agency as well but when I arrived at the hotel it was overbooked and I was forced to find other accommodations on my own. I missed out on my first night's stay and had to pay out of pocket for another hotel. I would like a refund for the first night's stay.Yes, my phone number is 555-555-5555 and my email is sarahj@gmail.com.No, that's all for now. Thank you for your help.",
+    "Merged_content_agent": "Thank you for contacting our travel agency. My name is Olivia Brown. How may I assist you today?Certainly, Sarah. I'm sorry to hear that you're experiencing some issues with your trip. Could you please describe the problem you're having?I am so sorry to hear that, Sarah. We definitely want to make this right for you. I will need to log a ticket with our customer service team in order to process this refund. Can I get your contact information so they can reach out to you directly?Great, thank you for that information, Sarah. Is there anything else I can do for you today?You're welcome, Sarah. We apologize for the inconvenience and will do our best to resolve this issue for you as soon as possible. Have a great day!",
+    "Full_conversation": "Agent: Thank you for contacting our travel agency. My name is Olivia Brown. How may I assist you today?\nCustomer: Hi Olivia, my name is Sarah Johnson and I am calling about a booking I made for a trip from Boston to Los Angeles. My reservation number is ABC123 and my departure date is January 10th. I am having some issues and need your assistance.\nAgent: Certainly, Sarah. I'm sorry to hear that you're experiencing some issues with your trip. Could you please describe the problem you're having?\nCustomer: Yes, I had originally booked a hotel through your agency as well but when I arrived at the hotel it was overbooked and I was forced to find other accommodations on my own. I missed out on my first night's stay and had to pay out of pocket for another hotel. I would like a refund for the first night's stay.\nAgent: I am so sorry to hear that, Sarah. We definitely want to make this right for you. I will need to log a ticket with our customer service team in order to process this refund. Can I get your contact information so they can reach out to you directly?\nCustomer: Yes, my phone number is 555-555-5555 and my email is sarahj@gmail.com.\nAgent: Great, thank you for that information, Sarah. Is there anything else I can do for you today?\nCustomer: No, that's all for now. Thank you for your help.\nAgent: You're welcome, Sarah. We apologize for the inconvenience and will do our best to resolve this issue for you as soon as possible. Have a great day!\n"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "AgentName": "Emma Davis",
+  "AgentId": "WVBORA",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-345-8162",
+  "Conversation": {
+    "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+    "Messages": [
+      {
+        "Id": "37d2a103-847b-435c-8aa3-4b98bab8e9c9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:27:37.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "Thank you for contacting XYZ Travel Agency, my name is Emma Davis. How may I assist you today?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "dfd669e0-47d2-472b-91eb-7fa7f103bb58",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:27:46.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "I am calling regarding my recent trip to Las Vegas that I booked through your agency. I am extremely frustrated with my experience and want to lodge a complaint.",
+        "UserId": "999-345-8162",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7cc585c4-323b-4e47-af87-68b702e2ea9e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:29:26.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "I'm sorry to hear that you had a negative experience. Can you please provide me with more details so I can assist you better?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a477741b-9041-4959-a235-67940f7d4b44",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:30:30.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "First of all, my luggage did not arrive at my destination in Las Vegas. I have been trying to track it down but have not received any updates.",
+        "UserId": "999-345-8162",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "28ac4464-4fe0-4199-8d5b-098a905a02bd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:31:41.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "I understand how frustrating that can be. Can you please provide me with your airline name, flight number, and departure time so I can assist you better?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3fa86306-33bd-4611-935d-c9bcaf2c22e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:33:21.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "Yes, I flew with Delta Airlines, flight number DL123 and it departed from New York at 3 PM.",
+        "UserId": "999-345-8162",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "37f3becc-46be-41e1-b30c-fb3e637f61f1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:33:47.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "Thank you for that information. Let me check with the airline to see if they have any updates about your luggage. Can you please provide me with your baggage claim number?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6d161efa-d82f-432d-a3dc-de6d91a6051d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:35:33.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "My baggage claim number is 12345678 and I already filed a lost luggage claim with the airline.",
+        "UserId": "999-345-8162",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "31fd1e02-163a-42f7-b074-b032c5370ba6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:35:40.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "I see. I will follow up with the airline to see if they can expedite the process and locate your luggage. Is there anything else I can assist you with?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d012f4e3-459e-4e03-8c0a-b10b19ee10f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:37:03.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "Yes, I also wanted to mention that the hotel that I booked through your agency did not meet my expectations. The room was not clean and there was a lot of noise coming from the hallway. I also did not receive the room that I had requested.",
+        "UserId": "999-345-8162",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0e15d578-2a5a-4744-a3c9-8b85d49d598b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:37:59.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "I'm sorry to hear that. Can you please provide me with the name of the hotel and the reservation number?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1af363d3-117a-4e3e-9078-26aabd07ae07",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:39:49.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "Yes, I stayed at the Bellagio Hotel and my reservation number is 123456789. The dates of my stay were from July 28th to August 1st.",
+        "UserId": "999-345-8162",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2361fdf3-3a7d-47bb-a3bb-d70e7b368f51",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:41:46.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "Thank you for that information. I will follow up with the hotel and see if we can offer any compensation for the issues you experienced. Is there anything else I can assist you with?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7e22c844-aae2-4b18-a7f5-34ba2e169c59",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T17:42:32.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "No, that's all for now. Thank you for your assistance.",
+        "UserId": "999-345-8162",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "be4daaae-9048-4edd-af37-011cd3e6e0b3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T17:43:37.8187947-05:00",
+        "ConversationId": "e10050b7-7c5c-45af-a880-fd8c4203a5b3",
+        "Value": "You're welcome. Please don't hesitate to contact us if you need further assistance or if you have any other concerns.",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-05T17:26:14.8187947-05:00",
+    "EndTime": "2024-06-05T17:43:37.8187947-05:00",
+    "Merged_content": "Thank you for contacting XYZ Travel Agency, my name is Emma Davis. How may I assist you today?I am calling regarding my recent trip to Las Vegas that I booked through your agency. I am extremely frustrated with my experience and want to lodge a complaint.I'm sorry to hear that you had a negative experience. Can you please provide me with more details so I can assist you better?First of all, my luggage did not arrive at my destination in Las Vegas. I have been trying to track it down but have not received any updates.I understand how frustrating that can be. Can you please provide me with your airline name, flight number, and departure time so I can assist you better?Yes, I flew with Delta Airlines, flight number DL123 and it departed from New York at 3 PM.Thank you for that information. Let me check with the airline to see if they have any updates about your luggage. Can you please provide me with your baggage claim number?My baggage claim number is 12345678 and I already filed a lost luggage claim with the airline.I see. I will follow up with the airline to see if they can expedite the process and locate your luggage. Is there anything else I can assist you with?Yes, I also wanted to mention that the hotel that I booked through your agency did not meet my expectations. The room was not clean and there was a lot of noise coming from the hallway. I also did not receive the room that I had requested.I'm sorry to hear that. Can you please provide me with the name of the hotel and the reservation number?Yes, I stayed at the Bellagio Hotel and my reservation number is 123456789. The dates of my stay were from July 28th to August 1st.Thank you for that information. I will follow up with the hotel and see if we can offer any compensation for the issues you experienced. Is there anything else I can assist you with?No, that's all for now. Thank you for your assistance.You're welcome. Please don't hesitate to contact us if you need further assistance or if you have any other concerns.",
+    "Merged_content_user": "I am calling regarding my recent trip to Las Vegas that I booked through your agency. I am extremely frustrated with my experience and want to lodge a complaint.First of all, my luggage did not arrive at my destination in Las Vegas. I have been trying to track it down but have not received any updates.Yes, I flew with Delta Airlines, flight number DL123 and it departed from New York at 3 PM.My baggage claim number is 12345678 and I already filed a lost luggage claim with the airline.Yes, I also wanted to mention that the hotel that I booked through your agency did not meet my expectations. The room was not clean and there was a lot of noise coming from the hallway. I also did not receive the room that I had requested.Yes, I stayed at the Bellagio Hotel and my reservation number is 123456789. The dates of my stay were from July 28th to August 1st.No, that's all for now. Thank you for your assistance.",
+    "Merged_content_agent": "Thank you for contacting XYZ Travel Agency, my name is Emma Davis. How may I assist you today?I'm sorry to hear that you had a negative experience. Can you please provide me with more details so I can assist you better?I understand how frustrating that can be. Can you please provide me with your airline name, flight number, and departure time so I can assist you better?Thank you for that information. Let me check with the airline to see if they have any updates about your luggage. Can you please provide me with your baggage claim number?I see. I will follow up with the airline to see if they can expedite the process and locate your luggage. Is there anything else I can assist you with?I'm sorry to hear that. Can you please provide me with the name of the hotel and the reservation number?Thank you for that information. I will follow up with the hotel and see if we can offer any compensation for the issues you experienced. Is there anything else I can assist you with?You're welcome. Please don't hesitate to contact us if you need further assistance or if you have any other concerns.",
+    "Full_conversation": "Agent: Thank you for contacting XYZ Travel Agency, my name is Emma Davis. How may I assist you today?\nCustomer: I am calling regarding my recent trip to Las Vegas that I booked through your agency. I am extremely frustrated with my experience and want to lodge a complaint.\nAgent: I'm sorry to hear that you had a negative experience. Can you please provide me with more details so I can assist you better?\nCustomer: First of all, my luggage did not arrive at my destination in Las Vegas. I have been trying to track it down but have not received any updates.\nAgent: I understand how frustrating that can be. Can you please provide me with your airline name, flight number, and departure time so I can assist you better?\nCustomer: Yes, I flew with Delta Airlines, flight number DL123 and it departed from New York at 3 PM.\nAgent: Thank you for that information. Let me check with the airline to see if they have any updates about your luggage. Can you please provide me with your baggage claim number?\nCustomer: My baggage claim number is 12345678 and I already filed a lost luggage claim with the airline.\nAgent: I see. I will follow up with the airline to see if they can expedite the process and locate your luggage. Is there anything else I can assist you with?\nCustomer: Yes, I also wanted to mention that the hotel that I booked through your agency did not meet my expectations. The room was not clean and there was a lot of noise coming from the hallway. I also did not receive the room that I had requested.\nAgent: I'm sorry to hear that. Can you please provide me with the name of the hotel and the reservation number?\nCustomer: Yes, I stayed at the Bellagio Hotel and my reservation number is 123456789. The dates of my stay were from July 28th to August 1st.\nAgent: Thank you for that information. I will follow up with the hotel and see if we can offer any compensation for the issues you experienced. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thank you for your assistance.\nAgent: You're welcome. Please don't hesitate to contact us if you need further assistance or if you have any other concerns.\n"
+  }
+}

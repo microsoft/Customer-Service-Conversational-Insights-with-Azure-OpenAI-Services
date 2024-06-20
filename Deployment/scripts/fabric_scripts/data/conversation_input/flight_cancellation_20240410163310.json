@@ -1,0 +1,214 @@
+{
+  "AgentName": "Lucas Thompson",
+  "AgentId": "5B94O0",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-522-1679",
+  "Conversation": {
+    "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+    "Messages": [
+      {
+        "Id": "4d2aa6ab-d82b-47cd-a318-77adcefbf119",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T16:35:27.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "Thank you for calling Good Travel Inc. This is Lucas Thompson, how may I assist you today?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "01545fa2-c02e-4b7c-8469-1fc1c559a5fa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T16:36:55.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "Hi Lucas, I'm calling because my flight from Miami to New York was cancelled and I need to rebook my trip.",
+        "UserId": "999-522-1679",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "480b1ca3-41d3-447c-98bf-90429f67add4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T16:37:35.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "I'm sorry to hear that, what's your name and your reservation number?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e165a0d8-e75f-4aac-9acb-ac6a5bba8d48",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T16:39:49.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "My name is Laura Johnson and my reservation number is TR12345. The flight was scheduled for next Tuesday at 2pm.",
+        "UserId": "999-522-1679",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e2d3f5cc-92e5-4d5b-b115-8f2b10bd6c2a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T16:41:53.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "Thank you, Laura. I apologize for the inconvenience. Let me check the availability of other flights and see what options we have for you. Can you please hold for a moment?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9c305b79-8143-4eda-a871-fb90e282b0b0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T16:42:45.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "Sure, thank you.",
+        "UserId": "999-522-1679",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c16bd07b-898d-4415-b474-38ac52f4bd59",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T16:44:43.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "Laura, I checked and unfortunately, there are no other flights available for that date and time. However, we can offer you a flight for Wednesday at the same time with a layover in Atlanta. Would that work for you?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "91401773-8579-4a59-a0a8-8c1359b206f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T16:45:27.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "No, that doesn't work for me. I need to be in New York on Tuesday for a meeting.",
+        "UserId": "999-522-1679",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "031d9fdd-0561-4f7d-b7ea-ec667e2541d6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T16:47:56.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "I'm sorry to hear that, Laura. In this case, we can issue you a refund for your flight and help you book a new flight with a different airline. Would you like me to proceed with that?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "43012746-ff1b-4e0c-b77f-0e34f0de7b93",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T16:49:42.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "Yes, please. And can you also provide me with the contact information for your customer service department? I want to log a complaint about the cancellation and the lack of available options for rebooking.",
+        "UserId": "999-522-1679",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "932a1050-eb8d-4bab-b3f1-5aadb0dddfc8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T16:52:21.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "Of course, Laura. I'm sorry again for the inconvenience. Here's our customer service number: 1-800-123-4567. Please let us know if there's anything else we can do to assist you.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b73b0671-9706-4b86-85db-ea6d99979ed0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T16:53:11.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "Thank you, Lucas. I appreciate your help.",
+        "UserId": "999-522-1679",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a97eb1ad-a5bb-4fb5-9e78-9d89f949378e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T16:54:32.5781838-05:00",
+        "ConversationId": "c377a0fb-29ef-432b-9171-bc921866bffe",
+        "Value": "You're welcome, Laura. Have a great day.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-10T16:33:10.5781838-05:00",
+    "EndTime": "2024-04-10T16:54:32.5781838-05:00",
+    "Merged_content": "Thank you for calling Good Travel Inc. This is Lucas Thompson, how may I assist you today?Hi Lucas, I'm calling because my flight from Miami to New York was cancelled and I need to rebook my trip.I'm sorry to hear that, what's your name and your reservation number?My name is Laura Johnson and my reservation number is TR12345. The flight was scheduled for next Tuesday at 2pm.Thank you, Laura. I apologize for the inconvenience. Let me check the availability of other flights and see what options we have for you. Can you please hold for a moment?Sure, thank you.Laura, I checked and unfortunately, there are no other flights available for that date and time. However, we can offer you a flight for Wednesday at the same time with a layover in Atlanta. Would that work for you?No, that doesn't work for me. I need to be in New York on Tuesday for a meeting.I'm sorry to hear that, Laura. In this case, we can issue you a refund for your flight and help you book a new flight with a different airline. Would you like me to proceed with that?Yes, please. And can you also provide me with the contact information for your customer service department? I want to log a complaint about the cancellation and the lack of available options for rebooking.Of course, Laura. I'm sorry again for the inconvenience. Here's our customer service number: 1-800-123-4567. Please let us know if there's anything else we can do to assist you.Thank you, Lucas. I appreciate your help.You're welcome, Laura. Have a great day.",
+    "Merged_content_user": "Hi Lucas, I'm calling because my flight from Miami to New York was cancelled and I need to rebook my trip.My name is Laura Johnson and my reservation number is TR12345. The flight was scheduled for next Tuesday at 2pm.Sure, thank you.No, that doesn't work for me. I need to be in New York on Tuesday for a meeting.Yes, please. And can you also provide me with the contact information for your customer service department? I want to log a complaint about the cancellation and the lack of available options for rebooking.Thank you, Lucas. I appreciate your help.",
+    "Merged_content_agent": "Thank you for calling Good Travel Inc. This is Lucas Thompson, how may I assist you today?I'm sorry to hear that, what's your name and your reservation number?Thank you, Laura. I apologize for the inconvenience. Let me check the availability of other flights and see what options we have for you. Can you please hold for a moment?Laura, I checked and unfortunately, there are no other flights available for that date and time. However, we can offer you a flight for Wednesday at the same time with a layover in Atlanta. Would that work for you?I'm sorry to hear that, Laura. In this case, we can issue you a refund for your flight and help you book a new flight with a different airline. Would you like me to proceed with that?Of course, Laura. I'm sorry again for the inconvenience. Here's our customer service number: 1-800-123-4567. Please let us know if there's anything else we can do to assist you.You're welcome, Laura. Have a great day.",
+    "Full_conversation": "Agent: Thank you for calling Good Travel Inc. This is Lucas Thompson, how may I assist you today?\nCustomer: Hi Lucas, I'm calling because my flight from Miami to New York was cancelled and I need to rebook my trip.\nAgent: I'm sorry to hear that, what's your name and your reservation number?\nCustomer: My name is Laura Johnson and my reservation number is TR12345. The flight was scheduled for next Tuesday at 2pm.\nAgent: Thank you, Laura. I apologize for the inconvenience. Let me check the availability of other flights and see what options we have for you. Can you please hold for a moment?\nCustomer: Sure, thank you.\nAgent: Laura, I checked and unfortunately, there are no other flights available for that date and time. However, we can offer you a flight for Wednesday at the same time with a layover in Atlanta. Would that work for you?\nCustomer: No, that doesn't work for me. I need to be in New York on Tuesday for a meeting.\nAgent: I'm sorry to hear that, Laura. In this case, we can issue you a refund for your flight and help you book a new flight with a different airline. Would you like me to proceed with that?\nCustomer: Yes, please. And can you also provide me with the contact information for your customer service department? I want to log a complaint about the cancellation and the lack of available options for rebooking.\nAgent: Of course, Laura. I'm sorry again for the inconvenience. Here's our customer service number: 1-800-123-4567. Please let us know if there's anything else we can do to assist you.\nCustomer: Thank you, Lucas. I appreciate your help.\nAgent: You're welcome, Laura. Have a great day.\n"
+  }
+}

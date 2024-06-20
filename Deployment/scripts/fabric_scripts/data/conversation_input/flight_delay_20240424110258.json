@@ -1,0 +1,214 @@
+{
+  "AgentName": "Liam Johnson",
+  "AgentId": "YVS2EM",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-261-3007",
+  "Conversation": {
+    "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+    "Messages": [
+      {
+        "Id": "14fbc025-f7c2-4774-94d3-9818d2ba27d0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-24T11:04:24.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "Thank you for calling XYZ Travel Agency. My name is Liam Johnson. How may I assist you today?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "20b05e65-de4a-4951-8396-0b36e628ae98",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-24T11:06:02.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "Hi Liam, my name is Jane Smith. I have an issue with my travel plans. My flight from New York to Los Angeles was delayed by 3 hours and it caused me to miss an important meeting. I am really frustrated and disappointed with the service.",
+        "UserId": "999-261-3007",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1b14d7a7-4a99-45c0-964c-d45e9667bfe3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-24T11:07:29.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "I'm sorry to hear that Jane. I completely understand how frustrating that can be. May I have your reservation number please?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4c1f3845-6417-4cee-9be6-59a60309f475",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-24T11:09:10.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "Sure, it's R123456. My flight was with American Airlines, flight number AA123, and the departure date was June 10th at 9:30am.",
+        "UserId": "999-261-3007",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "971f53f0-f85a-4a1f-b740-8c8b73514839",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-24T11:10:47.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "Thank you for providing that information. Let me check if there's anything we can do to help with this situation. While I'm checking, can you please tell me more about what happened? Were you offered any compensation or assistance?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "970698af-a5bc-4adf-b3e7-62fc472bd386",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-24T11:10:57.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "No, I wasn't offered anything. The airline staff just said that there was a technical issue with the plane and that we had to wait for a replacement. We ended up waiting for 3 hours and by the time we landed, I had missed my meeting.",
+        "UserId": "999-261-3007",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7f8c3924-992e-4cc5-8c8a-82efb02dd45f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-24T11:12:42.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "I'm sorry to hear that. I apologize for the inconvenience caused. Unfortunately, flight delays are common and sometimes out of our control. However, I will do my best to find a suitable solution for you. Can you please hold for a moment while I check with American Airlines?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c245cbc4-0d09-4b66-bb6b-c74bfa50f3f9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-24T11:12:48.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "Sure, I'll hold.",
+        "UserId": "999-261-3007",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fc3928d2-333a-4688-a7b7-32619399e7ba",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-24T11:14:16.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "Thank you for holding, Jane. I have spoken to American Airlines and unfortunately, they are unable to offer any compensation or assistance for this delay as it was due to technical issues which are beyond their control. However, they have advised us to contact them directly to submit a complaint and they will review it on a case-by-case basis. I can provide you with their contact information if you would like?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0618a82a-e369-40be-96ff-a7bbc3558986",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-24T11:15:52.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "Yes, please. That would be helpful.",
+        "UserId": "999-261-3007",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2df9d232-94d4-44b7-b8de-ccb665f32142",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-24T11:16:56.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "Sure, please write down this number: 1-800-433-7300. This is the customer service number for American Airlines. You can call them and explain the situation to see if they can offer any assistance or compensation. Is there anything else that I can help you with?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8fbaa67e-1bbb-4008-bd97-5013e9c3e365",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-24T11:18:06.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "No, that's all. Thank you, Liam, for your help and for providing me with the contact information for American Airlines.",
+        "UserId": "999-261-3007",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "03d1c803-3169-4ca9-96a2-518be39cd887",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-24T11:18:11.459411-05:00",
+        "ConversationId": "6c50ab8f-6dc8-4bdc-be22-3ee5d55ea4d4",
+        "Value": "You're welcome, Jane. I'm sorry we couldn't do more to assist you today. I hope you have a better experience with your future travels. Thank you for calling XYZ Travel Agency. Have a great day!",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-24T11:02:58.459411-05:00",
+    "EndTime": "2024-04-24T11:18:11.459411-05:00",
+    "Merged_content": "Thank you for calling XYZ Travel Agency. My name is Liam Johnson. How may I assist you today?Hi Liam, my name is Jane Smith. I have an issue with my travel plans. My flight from New York to Los Angeles was delayed by 3 hours and it caused me to miss an important meeting. I am really frustrated and disappointed with the service.I'm sorry to hear that Jane. I completely understand how frustrating that can be. May I have your reservation number please?Sure, it's R123456. My flight was with American Airlines, flight number AA123, and the departure date was June 10th at 9:30am.Thank you for providing that information. Let me check if there's anything we can do to help with this situation. While I'm checking, can you please tell me more about what happened? Were you offered any compensation or assistance?No, I wasn't offered anything. The airline staff just said that there was a technical issue with the plane and that we had to wait for a replacement. We ended up waiting for 3 hours and by the time we landed, I had missed my meeting.I'm sorry to hear that. I apologize for the inconvenience caused. Unfortunately, flight delays are common and sometimes out of our control. However, I will do my best to find a suitable solution for you. Can you please hold for a moment while I check with American Airlines?Sure, I'll hold.Thank you for holding, Jane. I have spoken to American Airlines and unfortunately, they are unable to offer any compensation or assistance for this delay as it was due to technical issues which are beyond their control. However, they have advised us to contact them directly to submit a complaint and they will review it on a case-by-case basis. I can provide you with their contact information if you would like?Yes, please. That would be helpful.Sure, please write down this number: 1-800-433-7300. This is the customer service number for American Airlines. You can call them and explain the situation to see if they can offer any assistance or compensation. Is there anything else that I can help you with?No, that's all. Thank you, Liam, for your help and for providing me with the contact information for American Airlines.You're welcome, Jane. I'm sorry we couldn't do more to assist you today. I hope you have a better experience with your future travels. Thank you for calling XYZ Travel Agency. Have a great day!",
+    "Merged_content_user": "Hi Liam, my name is Jane Smith. I have an issue with my travel plans. My flight from New York to Los Angeles was delayed by 3 hours and it caused me to miss an important meeting. I am really frustrated and disappointed with the service.Sure, it's R123456. My flight was with American Airlines, flight number AA123, and the departure date was June 10th at 9:30am.No, I wasn't offered anything. The airline staff just said that there was a technical issue with the plane and that we had to wait for a replacement. We ended up waiting for 3 hours and by the time we landed, I had missed my meeting.Sure, I'll hold.Yes, please. That would be helpful.No, that's all. Thank you, Liam, for your help and for providing me with the contact information for American Airlines.",
+    "Merged_content_agent": "Thank you for calling XYZ Travel Agency. My name is Liam Johnson. How may I assist you today?I'm sorry to hear that Jane. I completely understand how frustrating that can be. May I have your reservation number please?Thank you for providing that information. Let me check if there's anything we can do to help with this situation. While I'm checking, can you please tell me more about what happened? Were you offered any compensation or assistance?I'm sorry to hear that. I apologize for the inconvenience caused. Unfortunately, flight delays are common and sometimes out of our control. However, I will do my best to find a suitable solution for you. Can you please hold for a moment while I check with American Airlines?Thank you for holding, Jane. I have spoken to American Airlines and unfortunately, they are unable to offer any compensation or assistance for this delay as it was due to technical issues which are beyond their control. However, they have advised us to contact them directly to submit a complaint and they will review it on a case-by-case basis. I can provide you with their contact information if you would like?Sure, please write down this number: 1-800-433-7300. This is the customer service number for American Airlines. You can call them and explain the situation to see if they can offer any assistance or compensation. Is there anything else that I can help you with?You're welcome, Jane. I'm sorry we couldn't do more to assist you today. I hope you have a better experience with your future travels. Thank you for calling XYZ Travel Agency. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling XYZ Travel Agency. My name is Liam Johnson. How may I assist you today?\nCustomer: Hi Liam, my name is Jane Smith. I have an issue with my travel plans. My flight from New York to Los Angeles was delayed by 3 hours and it caused me to miss an important meeting. I am really frustrated and disappointed with the service.\nAgent: I'm sorry to hear that Jane. I completely understand how frustrating that can be. May I have your reservation number please?\nCustomer: Sure, it's R123456. My flight was with American Airlines, flight number AA123, and the departure date was June 10th at 9:30am.\nAgent: Thank you for providing that information. Let me check if there's anything we can do to help with this situation. While I'm checking, can you please tell me more about what happened? Were you offered any compensation or assistance?\nCustomer: No, I wasn't offered anything. The airline staff just said that there was a technical issue with the plane and that we had to wait for a replacement. We ended up waiting for 3 hours and by the time we landed, I had missed my meeting.\nAgent: I'm sorry to hear that. I apologize for the inconvenience caused. Unfortunately, flight delays are common and sometimes out of our control. However, I will do my best to find a suitable solution for you. Can you please hold for a moment while I check with American Airlines?\nCustomer: Sure, I'll hold.\nAgent: Thank you for holding, Jane. I have spoken to American Airlines and unfortunately, they are unable to offer any compensation or assistance for this delay as it was due to technical issues which are beyond their control. However, they have advised us to contact them directly to submit a complaint and they will review it on a case-by-case basis. I can provide you with their contact information if you would like?\nCustomer: Yes, please. That would be helpful.\nAgent: Sure, please write down this number: 1-800-433-7300. This is the customer service number for American Airlines. You can call them and explain the situation to see if they can offer any assistance or compensation. Is there anything else that I can help you with?\nCustomer: No, that's all. Thank you, Liam, for your help and for providing me with the contact information for American Airlines.\nAgent: You're welcome, Jane. I'm sorry we couldn't do more to assist you today. I hope you have a better experience with your future travels. Thank you for calling XYZ Travel Agency. Have a great day!\n"
+  }
+}

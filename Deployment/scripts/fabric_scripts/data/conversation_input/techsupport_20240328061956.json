@@ -1,0 +1,214 @@
+{
+  "AgentName": "Aiden Clark",
+  "AgentId": "7J8IBO",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-410-2495",
+  "Conversation": {
+    "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+    "Messages": [
+      {
+        "Id": "0566da17-0a00-4fd0-b11c-67ae0678dc0f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-28T06:21:10.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "Thank you for calling our travel agency tech support, this is Aiden Clark. How may I assist you today?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bf11a011-647b-466c-a9c8-55e87acdc823",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-28T06:21:22.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "Hi Aiden, my name is Sarah Johnson. I am having trouble using your website to book my upcoming trip from Boston to Los Angeles. Can you help me with this?",
+        "UserId": "999-410-2495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "494cbd49-4c74-4ef9-b591-149b6a2d4367",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-28T06:23:06.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "Of course Sarah, I'd be happy to assist you with that. Can you tell me more about the issues you are having with the website?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "72c2958e-2fe3-43af-92bc-782cb05433b2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-28T06:24:07.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "Yes, I am having trouble navigating the website and it keeps giving me errors when I try to process my payment.",
+        "UserId": "999-410-2495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3776d73a-413e-4f0f-b553-df9eba6c17bb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-28T06:25:02.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "I'm sorry to hear that Sarah. Let me take a look at your account and see what's going on. Can I please have your account email address?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4f77fa3f-ed50-41cc-a5f4-aed43f67f629",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-28T06:26:28.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "Sure, it's sarah.johnson@gmail.com.",
+        "UserId": "999-410-2495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8fb32094-94bc-463e-854c-94169b174a51",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-28T06:27:17.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "Thank you, Sarah. I see that you have encountered some errors while processing your payment. Let me check what's going on. Can you please tell me which credit card you are using for payment and the expiration date?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b9dc8da1-b660-4868-ae87-d2a4369624b3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-28T06:28:25.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "Yes, I'm using my Visa card and the expiration date is 06/23.",
+        "UserId": "999-410-2495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "de438bf5-ef48-4be7-8900-d8a97951858b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-28T06:29:07.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "Thank you for that information. Let me check some things on my end and see what's happening. While I do that, is there anything else I can help you with?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0f23aaf8-c88c-4345-842e-defb40757cbd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-28T06:29:57.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "No, that's all for now. Thank you, Aiden.",
+        "UserId": "999-410-2495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1764590a-0d2a-47be-8166-213582c79dd6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-28T06:31:26.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "You're welcome, Sarah. I have resolved the issue with your payment and you should now be able to complete your booking. Is there anything else I can help you with today?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a9b2a135-a789-4dd0-84c5-9420e73e2e22",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-28T06:32:43.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "No, that's great. Thank you so much for your help, Aiden.",
+        "UserId": "999-410-2495",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "815e8e31-7d72-4635-b09c-a3b7cf20129b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-28T06:33:26.2909745-05:00",
+        "ConversationId": "d48fa63b-0e10-4ce3-afbb-553662b82a1b",
+        "Value": "Glad to have been able to assist you today, Sarah. Have a great trip to Los Angeles!",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-28T06:19:56.2909745-05:00",
+    "EndTime": "2024-03-28T06:33:26.2909745-05:00",
+    "Merged_content": "Thank you for calling our travel agency tech support, this is Aiden Clark. How may I assist you today?Hi Aiden, my name is Sarah Johnson. I am having trouble using your website to book my upcoming trip from Boston to Los Angeles. Can you help me with this?Of course Sarah, I'd be happy to assist you with that. Can you tell me more about the issues you are having with the website?Yes, I am having trouble navigating the website and it keeps giving me errors when I try to process my payment.I'm sorry to hear that Sarah. Let me take a look at your account and see what's going on. Can I please have your account email address?Sure, it's sarah.johnson@gmail.com.Thank you, Sarah. I see that you have encountered some errors while processing your payment. Let me check what's going on. Can you please tell me which credit card you are using for payment and the expiration date?Yes, I'm using my Visa card and the expiration date is 06/23.Thank you for that information. Let me check some things on my end and see what's happening. While I do that, is there anything else I can help you with?No, that's all for now. Thank you, Aiden.You're welcome, Sarah. I have resolved the issue with your payment and you should now be able to complete your booking. Is there anything else I can help you with today?No, that's great. Thank you so much for your help, Aiden.Glad to have been able to assist you today, Sarah. Have a great trip to Los Angeles!",
+    "Merged_content_user": "Hi Aiden, my name is Sarah Johnson. I am having trouble using your website to book my upcoming trip from Boston to Los Angeles. Can you help me with this?Yes, I am having trouble navigating the website and it keeps giving me errors when I try to process my payment.Sure, it's sarah.johnson@gmail.com.Yes, I'm using my Visa card and the expiration date is 06/23.No, that's all for now. Thank you, Aiden.No, that's great. Thank you so much for your help, Aiden.",
+    "Merged_content_agent": "Thank you for calling our travel agency tech support, this is Aiden Clark. How may I assist you today?Of course Sarah, I'd be happy to assist you with that. Can you tell me more about the issues you are having with the website?I'm sorry to hear that Sarah. Let me take a look at your account and see what's going on. Can I please have your account email address?Thank you, Sarah. I see that you have encountered some errors while processing your payment. Let me check what's going on. Can you please tell me which credit card you are using for payment and the expiration date?Thank you for that information. Let me check some things on my end and see what's happening. While I do that, is there anything else I can help you with?You're welcome, Sarah. I have resolved the issue with your payment and you should now be able to complete your booking. Is there anything else I can help you with today?Glad to have been able to assist you today, Sarah. Have a great trip to Los Angeles!",
+    "Full_conversation": "Agent: Thank you for calling our travel agency tech support, this is Aiden Clark. How may I assist you today?\nCustomer: Hi Aiden, my name is Sarah Johnson. I am having trouble using your website to book my upcoming trip from Boston to Los Angeles. Can you help me with this?\nAgent: Of course Sarah, I'd be happy to assist you with that. Can you tell me more about the issues you are having with the website?\nCustomer: Yes, I am having trouble navigating the website and it keeps giving me errors when I try to process my payment.\nAgent: I'm sorry to hear that Sarah. Let me take a look at your account and see what's going on. Can I please have your account email address?\nCustomer: Sure, it's sarah.johnson@gmail.com.\nAgent: Thank you, Sarah. I see that you have encountered some errors while processing your payment. Let me check what's going on. Can you please tell me which credit card you are using for payment and the expiration date?\nCustomer: Yes, I'm using my Visa card and the expiration date is 06/23.\nAgent: Thank you for that information. Let me check some things on my end and see what's happening. While I do that, is there anything else I can help you with?\nCustomer: No, that's all for now. Thank you, Aiden.\nAgent: You're welcome, Sarah. I have resolved the issue with your payment and you should now be able to complete your booking. Is there anything else I can help you with today?\nCustomer: No, that's great. Thank you so much for your help, Aiden.\nAgent: Glad to have been able to assist you today, Sarah. Have a great trip to Los Angeles!\n"
+  }
+}

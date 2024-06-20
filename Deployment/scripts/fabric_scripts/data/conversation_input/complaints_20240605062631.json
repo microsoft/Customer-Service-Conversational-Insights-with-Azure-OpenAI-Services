@@ -1,0 +1,184 @@
+{
+  "AgentName": "Grace King",
+  "AgentId": "ETKIYY",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-966-2751",
+  "Conversation": {
+    "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+    "Messages": [
+      {
+        "Id": "66507c8a-de0a-49e5-be4b-c208a934c346",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T06:28:10.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "Thank you for calling our travel agency today. My name is Grace King. How may I assist you?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6502a815-2fac-4da2-b9da-19d88a3766b6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T06:29:30.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "Hello Grace, my name is John Smith. I'm having trouble with my last trip to Miami. I had issues with my lost luggage and I want to learn more about my options.",
+        "UserId": "999-966-2751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e189483f-4294-4202-961f-834e8a41126a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T06:29:56.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with your reservation number and the airline you travelled with?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "db46dccc-4e2d-4021-b8df-33480888b929",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T06:30:56.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "Sure, my reservation number is XYZ123 and I flew with American Airlines.",
+        "UserId": "999-966-2751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "16a04a19-3ef0-480c-b2ef-6e0494a77cd1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T06:31:09.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "Thank you for the information, John. I understand the frustration of lost luggage. Let me look into this for you.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8b575ca3-14fd-4eb8-8870-4f9186cc0950",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T06:32:18.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "Okay, I'll be here. Thank you Grace.",
+        "UserId": "999-966-2751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "57215350-c818-4153-9f14-3192513b5f29",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T06:32:26.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "I have good news, John. We received confirmation that your luggage has been found and should be delivered to you later tonight.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ce04addb-3356-4054-8bf3-02ec57bf1149",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T06:34:20.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "That's great news, Grace! Thank you for your help.",
+        "UserId": "999-966-2751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e0c0d08e-ce9a-4ff1-b240-12fda7246a85",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T06:35:58.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "You're welcome, John. Do you have any other questions or concerns?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "30a11338-c30f-4a20-84c1-d1be6a6897b2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T06:37:32.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "No, that's all. Thank you so much for your assistance!",
+        "UserId": "999-966-2751",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0dda3024-128c-4603-94dd-61a433f59f61",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T06:39:07.7428123-05:00",
+        "ConversationId": "a0712001-ab7c-414f-a05f-a49cebf0042c",
+        "Value": "You're welcome, John. Have a great day!",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-05T06:26:31.7428123-05:00",
+    "EndTime": "2024-06-05T06:39:07.7428123-05:00",
+    "Merged_content": "Thank you for calling our travel agency today. My name is Grace King. How may I assist you?Hello Grace, my name is John Smith. I'm having trouble with my last trip to Miami. I had issues with my lost luggage and I want to learn more about my options.I'm sorry to hear that, John. Can you please provide me with your reservation number and the airline you travelled with?Sure, my reservation number is XYZ123 and I flew with American Airlines.Thank you for the information, John. I understand the frustration of lost luggage. Let me look into this for you.Okay, I'll be here. Thank you Grace.I have good news, John. We received confirmation that your luggage has been found and should be delivered to you later tonight.That's great news, Grace! Thank you for your help.You're welcome, John. Do you have any other questions or concerns?No, that's all. Thank you so much for your assistance!You're welcome, John. Have a great day!",
+    "Merged_content_user": "Hello Grace, my name is John Smith. I'm having trouble with my last trip to Miami. I had issues with my lost luggage and I want to learn more about my options.Sure, my reservation number is XYZ123 and I flew with American Airlines.Okay, I'll be here. Thank you Grace.That's great news, Grace! Thank you for your help.No, that's all. Thank you so much for your assistance!",
+    "Merged_content_agent": "Thank you for calling our travel agency today. My name is Grace King. How may I assist you?I'm sorry to hear that, John. Can you please provide me with your reservation number and the airline you travelled with?Thank you for the information, John. I understand the frustration of lost luggage. Let me look into this for you.I have good news, John. We received confirmation that your luggage has been found and should be delivered to you later tonight.You're welcome, John. Do you have any other questions or concerns?You're welcome, John. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling our travel agency today. My name is Grace King. How may I assist you?\nCustomer: Hello Grace, my name is John Smith. I'm having trouble with my last trip to Miami. I had issues with my lost luggage and I want to learn more about my options.\nAgent: I'm sorry to hear that, John. Can you please provide me with your reservation number and the airline you travelled with?\nCustomer: Sure, my reservation number is XYZ123 and I flew with American Airlines.\nAgent: Thank you for the information, John. I understand the frustration of lost luggage. Let me look into this for you.\nCustomer: Okay, I'll be here. Thank you Grace.\nAgent: I have good news, John. We received confirmation that your luggage has been found and should be delivered to you later tonight.\nCustomer: That's great news, Grace! Thank you for your help.\nAgent: You're welcome, John. Do you have any other questions or concerns?\nCustomer: No, that's all. Thank you so much for your assistance!\nAgent: You're welcome, John. Have a great day!\n"
+  }
+}

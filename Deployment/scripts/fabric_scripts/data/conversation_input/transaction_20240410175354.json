@@ -1,0 +1,199 @@
+{
+  "AgentName": "Noah Wilson",
+  "AgentId": "M9FVT5",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-772-9014",
+  "Conversation": {
+    "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+    "Messages": [
+      {
+        "Id": "f69d476e-3362-47d9-b13c-b39fdfc9235a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T17:55:35.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "Thank you for calling our travel agency! This is Noah Wilson speaking, how may I assist you today?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cd8dc01f-4469-425a-bcb4-9201d922ca9e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T17:55:44.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "Hi Noah, my name is Sarah Johnson and I'm having some issues with my travel plans. I recently traveled from New York to London and experienced some problems with my hotel reservation. I'd like to discuss my options for future bookings.",
+        "UserId": "999-772-9014",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c44e2335-dff0-45dc-967e-3e0476d7a966",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T17:57:19.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "I'm sorry to hear that you had trouble with your hotel reservation, Sarah. Let's see what we can do to assist you. Can you please provide me with your hotel name and reservation number?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a39da85e-5f34-4e00-9db0-7ac5e289b0cc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T17:58:14.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "Sure, the hotel name was The Wembley and my reservation number was 123456. The dates of my stay were from January 20th to January 27th.",
+        "UserId": "999-772-9014",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bf3a785d-7e41-437d-889b-864b1f7dd4ff",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T17:59:05.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "Thank you for that information. I see that your reservation was for a deluxe room with a king-sized bed. Can you please tell me what the issue was with your reservation?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "390c87ae-79ca-4a8f-ba83-2440e473e9e3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T18:00:17.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "Yes, when I arrived at the hotel, they informed me that they had overbooked and my room was not available. They offered me a smaller room with a single bed, which was not acceptable. I had to find another hotel at the last minute and it caused me a lot of inconvenience.",
+        "UserId": "999-772-9014",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a9e0b25b-ae52-4a6b-9e8c-04907dd59621",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T18:01:03.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "I can understand how frustrating that must have been for you, Sarah. We apologize for any inconvenience caused. In terms of your future bookings, what type of travel are you looking to arrange?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2ee654a7-434a-4410-99cb-f1bdcb6a794b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T18:01:44.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "I'm planning a trip to San Francisco next month for a conference. I need to book a flight and hotel. Can you help me with that?",
+        "UserId": "999-772-9014",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "33c1fe56-3248-40c5-8a34-11ac492a3c68",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T18:03:24.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "Absolutely, Sarah. Can you please let me know your preferred travel dates and budget?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4b777665-e967-4fb0-aefb-822cfcd8a63c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T18:04:06.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "I'm flexible with my dates, but I need to arrive in San Francisco on the 10th and leave on the 15th. My budget is around $1500 for both flight and hotel. Is that possible?",
+        "UserId": "999-772-9014",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6236aabd-9c5b-44be-952f-feca9bac8d73",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-10T18:04:48.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "Yes, that is definitely possible. Let me check our available options for you. Can I place you on hold for a few minutes?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c4c943ed-adfb-4297-a1e8-26f88f6bb644",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-10T18:04:57.8177402-05:00",
+        "ConversationId": "e2db2916-3338-444b-9e89-0cdee8a5f2f0",
+        "Value": "Sure, thank you.",
+        "UserId": "999-772-9014",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-10T17:53:54.8177402-05:00",
+    "EndTime": "2024-04-10T18:04:57.8177402-05:00",
+    "Merged_content": "Thank you for calling our travel agency! This is Noah Wilson speaking, how may I assist you today?Hi Noah, my name is Sarah Johnson and I'm having some issues with my travel plans. I recently traveled from New York to London and experienced some problems with my hotel reservation. I'd like to discuss my options for future bookings.I'm sorry to hear that you had trouble with your hotel reservation, Sarah. Let's see what we can do to assist you. Can you please provide me with your hotel name and reservation number?Sure, the hotel name was The Wembley and my reservation number was 123456. The dates of my stay were from January 20th to January 27th.Thank you for that information. I see that your reservation was for a deluxe room with a king-sized bed. Can you please tell me what the issue was with your reservation?Yes, when I arrived at the hotel, they informed me that they had overbooked and my room was not available. They offered me a smaller room with a single bed, which was not acceptable. I had to find another hotel at the last minute and it caused me a lot of inconvenience.I can understand how frustrating that must have been for you, Sarah. We apologize for any inconvenience caused. In terms of your future bookings, what type of travel are you looking to arrange?I'm planning a trip to San Francisco next month for a conference. I need to book a flight and hotel. Can you help me with that?Absolutely, Sarah. Can you please let me know your preferred travel dates and budget?I'm flexible with my dates, but I need to arrive in San Francisco on the 10th and leave on the 15th. My budget is around $1500 for both flight and hotel. Is that possible?Yes, that is definitely possible. Let me check our available options for you. Can I place you on hold for a few minutes?Sure, thank you.",
+    "Merged_content_user": "Hi Noah, my name is Sarah Johnson and I'm having some issues with my travel plans. I recently traveled from New York to London and experienced some problems with my hotel reservation. I'd like to discuss my options for future bookings.Sure, the hotel name was The Wembley and my reservation number was 123456. The dates of my stay were from January 20th to January 27th.Yes, when I arrived at the hotel, they informed me that they had overbooked and my room was not available. They offered me a smaller room with a single bed, which was not acceptable. I had to find another hotel at the last minute and it caused me a lot of inconvenience.I'm planning a trip to San Francisco next month for a conference. I need to book a flight and hotel. Can you help me with that?I'm flexible with my dates, but I need to arrive in San Francisco on the 10th and leave on the 15th. My budget is around $1500 for both flight and hotel. Is that possible?Sure, thank you.",
+    "Merged_content_agent": "Thank you for calling our travel agency! This is Noah Wilson speaking, how may I assist you today?I'm sorry to hear that you had trouble with your hotel reservation, Sarah. Let's see what we can do to assist you. Can you please provide me with your hotel name and reservation number?Thank you for that information. I see that your reservation was for a deluxe room with a king-sized bed. Can you please tell me what the issue was with your reservation?I can understand how frustrating that must have been for you, Sarah. We apologize for any inconvenience caused. In terms of your future bookings, what type of travel are you looking to arrange?Absolutely, Sarah. Can you please let me know your preferred travel dates and budget?Yes, that is definitely possible. Let me check our available options for you. Can I place you on hold for a few minutes?",
+    "Full_conversation": "Agent: Thank you for calling our travel agency! This is Noah Wilson speaking, how may I assist you today?\nCustomer: Hi Noah, my name is Sarah Johnson and I'm having some issues with my travel plans. I recently traveled from New York to London and experienced some problems with my hotel reservation. I'd like to discuss my options for future bookings.\nAgent: I'm sorry to hear that you had trouble with your hotel reservation, Sarah. Let's see what we can do to assist you. Can you please provide me with your hotel name and reservation number?\nCustomer: Sure, the hotel name was The Wembley and my reservation number was 123456. The dates of my stay were from January 20th to January 27th.\nAgent: Thank you for that information. I see that your reservation was for a deluxe room with a king-sized bed. Can you please tell me what the issue was with your reservation?\nCustomer: Yes, when I arrived at the hotel, they informed me that they had overbooked and my room was not available. They offered me a smaller room with a single bed, which was not acceptable. I had to find another hotel at the last minute and it caused me a lot of inconvenience.\nAgent: I can understand how frustrating that must have been for you, Sarah. We apologize for any inconvenience caused. In terms of your future bookings, what type of travel are you looking to arrange?\nCustomer: I'm planning a trip to San Francisco next month for a conference. I need to book a flight and hotel. Can you help me with that?\nAgent: Absolutely, Sarah. Can you please let me know your preferred travel dates and budget?\nCustomer: I'm flexible with my dates, but I need to arrive in San Francisco on the 10th and leave on the 15th. My budget is around $1500 for both flight and hotel. Is that possible?\nAgent: Yes, that is definitely possible. Let me check our available options for you. Can I place you on hold for a few minutes?\nCustomer: Sure, thank you.\n"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "AgentName": "Sebastian Harris",
+  "AgentId": "Z82TOA",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-840-1420",
+  "Conversation": {
+    "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+    "Messages": [
+      {
+        "Id": "1fd9c508-b50d-4d91-b8e5-48f79e7d6ff1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-23T14:21:41.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "Thank you for calling the travel agency. My name is Sebastian Harris. How can I assist you with your travel plans today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fabda2f4-e7d1-45c3-9565-01894270dd70",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-23T14:22:36.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "Hi Sebastian, my name is Amanda Rogers. I'm having difficulty using your website for booking my upcoming trip from New York City to San Francisco. I keep getting an error message when I try to submit my payment information.",
+        "UserId": "999-840-1420",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cc55e0ca-306e-425d-af23-2e61cc8e07f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-23T14:22:49.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "I'm sorry to hear you're having trouble, Amanda. Let me take a look at your account and see if I can assist you with that.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0083fa9f-706f-47c1-81e1-d726663c9ec0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-23T14:23:27.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "Thank you, Sebastian.",
+        "UserId": "999-840-1420",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d305ae6e-c7fe-40ce-b86e-f93ca7cffb65",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-23T14:23:50.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "I see the error message you're getting. It's likely a payment processing issue. Let's try a few things to see if we can resolve it.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1efdbd80-587b-4f3e-a608-7c6b3de55b50",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-23T14:23:54.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "Okay, what do you suggest I do?",
+        "UserId": "999-840-1420",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "494830af-0e57-4643-9e70-cbbebe42664e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-23T14:24:03.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "First, let's try clearing your browsing history and cache. Then, let's try submitting the payment information again. If that doesn't work, we can take a closer look at your account settings.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8bfc4da8-7788-4aaf-9e4c-daf1327d36e3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-23T14:25:36.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "Okay, I cleared my browsing history and cache, and it worked! Thank you so much for your help, Sebastian.",
+        "UserId": "999-840-1420",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "946733d1-c538-4884-8864-2c4c48f87dd3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-23T14:25:42.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "You're welcome, Amanda. I'm glad we were able to resolve the issue for you. Is there anything else I can assist you with?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2ef09c23-4d74-4c09-969d-e6e76e550154",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-23T14:27:24.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "No, that's all. Thanks again!",
+        "UserId": "999-840-1420",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1ab46466-aa8e-4cd4-a789-e65e489701b3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-23T14:29:20.2388986-05:00",
+        "ConversationId": "0f41faa5-df72-419d-9cc6-0cdbf3ae7b29",
+        "Value": "You're welcome! Have a great trip, Amanda.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-23T14:20:37.2388986-05:00",
+    "EndTime": "2024-04-23T14:29:20.2388986-05:00",
+    "Merged_content": "Thank you for calling the travel agency. My name is Sebastian Harris. How can I assist you with your travel plans today?Hi Sebastian, my name is Amanda Rogers. I'm having difficulty using your website for booking my upcoming trip from New York City to San Francisco. I keep getting an error message when I try to submit my payment information.I'm sorry to hear you're having trouble, Amanda. Let me take a look at your account and see if I can assist you with that.Thank you, Sebastian.I see the error message you're getting. It's likely a payment processing issue. Let's try a few things to see if we can resolve it.Okay, what do you suggest I do?First, let's try clearing your browsing history and cache. Then, let's try submitting the payment information again. If that doesn't work, we can take a closer look at your account settings.Okay, I cleared my browsing history and cache, and it worked! Thank you so much for your help, Sebastian.You're welcome, Amanda. I'm glad we were able to resolve the issue for you. Is there anything else I can assist you with?No, that's all. Thanks again!You're welcome! Have a great trip, Amanda.",
+    "Merged_content_user": "Hi Sebastian, my name is Amanda Rogers. I'm having difficulty using your website for booking my upcoming trip from New York City to San Francisco. I keep getting an error message when I try to submit my payment information.Thank you, Sebastian.Okay, what do you suggest I do?Okay, I cleared my browsing history and cache, and it worked! Thank you so much for your help, Sebastian.No, that's all. Thanks again!",
+    "Merged_content_agent": "Thank you for calling the travel agency. My name is Sebastian Harris. How can I assist you with your travel plans today?I'm sorry to hear you're having trouble, Amanda. Let me take a look at your account and see if I can assist you with that.I see the error message you're getting. It's likely a payment processing issue. Let's try a few things to see if we can resolve it.First, let's try clearing your browsing history and cache. Then, let's try submitting the payment information again. If that doesn't work, we can take a closer look at your account settings.You're welcome, Amanda. I'm glad we were able to resolve the issue for you. Is there anything else I can assist you with?You're welcome! Have a great trip, Amanda.",
+    "Full_conversation": "Agent: Thank you for calling the travel agency. My name is Sebastian Harris. How can I assist you with your travel plans today?\nCustomer: Hi Sebastian, my name is Amanda Rogers. I'm having difficulty using your website for booking my upcoming trip from New York City to San Francisco. I keep getting an error message when I try to submit my payment information.\nAgent: I'm sorry to hear you're having trouble, Amanda. Let me take a look at your account and see if I can assist you with that.\nCustomer: Thank you, Sebastian.\nAgent: I see the error message you're getting. It's likely a payment processing issue. Let's try a few things to see if we can resolve it.\nCustomer: Okay, what do you suggest I do?\nAgent: First, let's try clearing your browsing history and cache. Then, let's try submitting the payment information again. If that doesn't work, we can take a closer look at your account settings.\nCustomer: Okay, I cleared my browsing history and cache, and it worked! Thank you so much for your help, Sebastian.\nAgent: You're welcome, Amanda. I'm glad we were able to resolve the issue for you. Is there anything else I can assist you with?\nCustomer: No, that's all. Thanks again!\nAgent: You're welcome! Have a great trip, Amanda.\n"
+  }
+}

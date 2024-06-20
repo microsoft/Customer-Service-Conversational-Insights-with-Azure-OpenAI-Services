@@ -1,0 +1,214 @@
+{
+  "AgentName": "Mason White",
+  "AgentId": "QLUD5I",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-656-6600",
+  "Conversation": {
+    "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+    "Messages": [
+      {
+        "Id": "4ff21bc8-0596-4714-b32e-cc0883561986",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-08T03:22:15.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "Thank you for calling our travel agency, my name is Mason White. How may I assist you today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e581ddce-46a3-4a62-96eb-1390aa06e655",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-08T03:22:30.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "Hi Mason, my name is John Doe. I am having trouble with using your website to book my flight from New York City to Los Angeles.",
+        "UserId": "999-656-6600",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a1ec0c7b-d447-4185-b28e-cac79c868ef4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-08T03:22:35.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "I'm sorry to hear that, John. Let me try to assist you with that. What specific issue are you having with the website?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cef414a2-de86-4fc8-9b5b-0d16d1c5bc98",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-08T03:23:50.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "I'm not able to complete the payment process. Every time I try to enter my payment information, I get an error message.",
+        "UserId": "999-656-6600",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "98aa804d-fc37-4c53-9c91-594aa759ee85",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-08T03:25:12.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "I see. Let me check if there are any ongoing issues with the website. Can you please provide me with your booking details?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "890a8848-c69d-46ba-9f46-0f7cf79c4cb9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-08T03:25:58.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "Sure, I have a reservation at the Hilton Los Angeles Airport Hotel for the nights of February 15th and February 16th. My flight is with American Airlines, flight number AA123, departing from JFK Airport on February 15th at 12:00 pm, and arriving at LAX Airport at 3:00 pm.",
+        "UserId": "999-656-6600",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e61c3a85-e90e-4861-a7a4-0819f7ff98a2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-08T03:27:54.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "Thank you for providing that information, John. Let me check our system and see if there are any issues.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6da93b1e-3cd3-4597-8a39-2ec355c998dd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-08T03:28:42.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "Thank you.",
+        "UserId": "999-656-6600",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e716e55e-658f-488d-9006-a6a3cc061bd1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-08T03:30:19.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "I apologize for the inconvenience, John. I wasn't able to identify any issues with the website. However, I can help you process your payment over the phone if that works for you?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4bb40554-3041-4a2a-8d10-83b983602b9f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-08T03:31:41.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "Yes, that would be great. How can we proceed?",
+        "UserId": "999-656-6600",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d3555856-9277-48f1-beb5-0556354ee41e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-08T03:31:58.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "I'll transfer you to our Payment Processing Department, they will be able to assist you with that. Before I do, please confirm that you authorize us to charge your card for the booking amount.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6f247b34-efaf-470e-8857-9ff4d2d0a827",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-04-08T03:32:33.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "Yes, that's fine. Thank you for your help.",
+        "UserId": "999-656-6600",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0218b501-564d-42ed-a739-bdaa152d3f14",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-04-08T03:33:28.9106874-05:00",
+        "ConversationId": "5cb766aa-d415-48e0-af04-2465226eaabd",
+        "Value": "You're welcome, John. I am glad we were able to resolve the issue. Let me transfer you to the Payment Processing Department now.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-04-08T03:21:05.9106874-05:00",
+    "EndTime": "2024-04-08T03:33:28.9106874-05:00",
+    "Merged_content": "Thank you for calling our travel agency, my name is Mason White. How may I assist you today?Hi Mason, my name is John Doe. I am having trouble with using your website to book my flight from New York City to Los Angeles.I'm sorry to hear that, John. Let me try to assist you with that. What specific issue are you having with the website?I'm not able to complete the payment process. Every time I try to enter my payment information, I get an error message.I see. Let me check if there are any ongoing issues with the website. Can you please provide me with your booking details?Sure, I have a reservation at the Hilton Los Angeles Airport Hotel for the nights of February 15th and February 16th. My flight is with American Airlines, flight number AA123, departing from JFK Airport on February 15th at 12:00 pm, and arriving at LAX Airport at 3:00 pm.Thank you for providing that information, John. Let me check our system and see if there are any issues.Thank you.I apologize for the inconvenience, John. I wasn't able to identify any issues with the website. However, I can help you process your payment over the phone if that works for you?Yes, that would be great. How can we proceed?I'll transfer you to our Payment Processing Department, they will be able to assist you with that. Before I do, please confirm that you authorize us to charge your card for the booking amount.Yes, that's fine. Thank you for your help.You're welcome, John. I am glad we were able to resolve the issue. Let me transfer you to the Payment Processing Department now.",
+    "Merged_content_user": "Hi Mason, my name is John Doe. I am having trouble with using your website to book my flight from New York City to Los Angeles.I'm not able to complete the payment process. Every time I try to enter my payment information, I get an error message.Sure, I have a reservation at the Hilton Los Angeles Airport Hotel for the nights of February 15th and February 16th. My flight is with American Airlines, flight number AA123, departing from JFK Airport on February 15th at 12:00 pm, and arriving at LAX Airport at 3:00 pm.Thank you.Yes, that would be great. How can we proceed?Yes, that's fine. Thank you for your help.",
+    "Merged_content_agent": "Thank you for calling our travel agency, my name is Mason White. How may I assist you today?I'm sorry to hear that, John. Let me try to assist you with that. What specific issue are you having with the website?I see. Let me check if there are any ongoing issues with the website. Can you please provide me with your booking details?Thank you for providing that information, John. Let me check our system and see if there are any issues.I apologize for the inconvenience, John. I wasn't able to identify any issues with the website. However, I can help you process your payment over the phone if that works for you?I'll transfer you to our Payment Processing Department, they will be able to assist you with that. Before I do, please confirm that you authorize us to charge your card for the booking amount.You're welcome, John. I am glad we were able to resolve the issue. Let me transfer you to the Payment Processing Department now.",
+    "Full_conversation": "Agent: Thank you for calling our travel agency, my name is Mason White. How may I assist you today?\nCustomer: Hi Mason, my name is John Doe. I am having trouble with using your website to book my flight from New York City to Los Angeles.\nAgent: I'm sorry to hear that, John. Let me try to assist you with that. What specific issue are you having with the website?\nCustomer: I'm not able to complete the payment process. Every time I try to enter my payment information, I get an error message.\nAgent: I see. Let me check if there are any ongoing issues with the website. Can you please provide me with your booking details?\nCustomer: Sure, I have a reservation at the Hilton Los Angeles Airport Hotel for the nights of February 15th and February 16th. My flight is with American Airlines, flight number AA123, departing from JFK Airport on February 15th at 12:00 pm, and arriving at LAX Airport at 3:00 pm.\nAgent: Thank you for providing that information, John. Let me check our system and see if there are any issues.\nCustomer: Thank you.\nAgent: I apologize for the inconvenience, John. I wasn't able to identify any issues with the website. However, I can help you process your payment over the phone if that works for you?\nCustomer: Yes, that would be great. How can we proceed?\nAgent: I'll transfer you to our Payment Processing Department, they will be able to assist you with that. Before I do, please confirm that you authorize us to charge your card for the booking amount.\nCustomer: Yes, that's fine. Thank you for your help.\nAgent: You're welcome, John. I am glad we were able to resolve the issue. Let me transfer you to the Payment Processing Department now.\n"
+  }
+}

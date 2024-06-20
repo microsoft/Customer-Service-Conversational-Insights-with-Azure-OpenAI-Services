@@ -1,0 +1,229 @@
+{
+  "AgentName": "Aiden Clark",
+  "AgentId": "7J8IBO",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-505-7175",
+  "Conversation": {
+    "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+    "Messages": [
+      {
+        "Id": "c6a002d0-188c-4ed7-88b5-81dd509a1c07",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-24T13:05:24.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "Hello, thank you for calling our travel agency. How can I assist you today?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2bddc5e6-f68c-48bf-97a7-1b5034352345",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-24T13:05:37.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "Hi, my name is John Smith and I have an issue with my flight.",
+        "UserId": "999-505-7175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ab164e49-45ed-448f-90d1-6d1a4666208c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-24T13:07:36.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "Certainly, can you please provide me with your flight information?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "40230887-1076-48d4-ad39-cd559093d89a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-24T13:08:02.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "Yes, I was scheduled for a flight from New York City to Los Angeles on January 3rd with American Airlines, flight number AA123 departing at 3:00 PM, but it got delayed for 5 hours.",
+        "UserId": "999-505-7175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "60276b5e-928e-4fa8-a34f-71f329b78ad0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-24T13:08:54.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "I apologize for the inconvenience. Let me check for any available options to accommodate you better.",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "60c3f1eb-15c3-4a8d-86b0-69b3c91741f7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-24T13:10:39.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "Thank you, I appreciate it.",
+        "UserId": "999-505-7175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3496203b-5787-4987-96e5-0694a6c00b35",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-24T13:10:46.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "After checking, I can offer you a complimentary upgrade to first class on your next flight with American Airlines. Would that be acceptable?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "34f48d37-e74f-4a0d-91b9-c8e466a3038c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-24T13:12:06.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "That sounds great, thank you very much!",
+        "UserId": "999-505-7175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6660045f-b2cd-455a-86c1-31b02f796914",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-24T13:13:21.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "You're welcome. By the way, is there anything else I can assist you with?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2aa1e57a-ea68-4587-bc48-ef16f9affb0b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-24T13:13:49.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "Actually, I would like to compliment your agency for the excellent customer service and prompt resolution of my issue. Keep up the good work!",
+        "UserId": "999-505-7175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9b64543a-6e19-4228-8e6d-2fe2ba6c6406",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-24T13:14:41.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "Thank you for your kind words, John. May I know the specific details of the compliment for documentation purposes?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ac093064-08cd-4055-9b7b-16b44c2f91b9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-24T13:16:18.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "Sure, I was impressed by how quickly you responded to my call and how you were able to offer a satisfactory solution without hesitation. Your customer service skills are top-notch!",
+        "UserId": "999-505-7175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9c48ed3d-09c5-42c9-8220-ee33b4ccc72c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-24T13:16:34.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "Thank you for sharing that with me, John. We always strive to provide the best customer service possible. Is there anything else I can help you with today?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d8cbe1ab-3f45-4060-8bb7-a97a45aa50f6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-24T13:16:55.0683056-05:00",
+        "ConversationId": "4109b5d7-04b9-486d-9626-1dd44de18bdd",
+        "Value": "No, that's all for now. Once again, thank you very much for your assistance and excellent service. Have a great day!",
+        "UserId": "999-505-7175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-24T13:03:29.0683056-05:00",
+    "EndTime": "2024-03-24T13:16:55.0683056-05:00",
+    "Merged_content": "Hello, thank you for calling our travel agency. How can I assist you today?Hi, my name is John Smith and I have an issue with my flight.Certainly, can you please provide me with your flight information?Yes, I was scheduled for a flight from New York City to Los Angeles on January 3rd with American Airlines, flight number AA123 departing at 3:00 PM, but it got delayed for 5 hours.I apologize for the inconvenience. Let me check for any available options to accommodate you better.Thank you, I appreciate it.After checking, I can offer you a complimentary upgrade to first class on your next flight with American Airlines. Would that be acceptable?That sounds great, thank you very much!You're welcome. By the way, is there anything else I can assist you with?Actually, I would like to compliment your agency for the excellent customer service and prompt resolution of my issue. Keep up the good work!Thank you for your kind words, John. May I know the specific details of the compliment for documentation purposes?Sure, I was impressed by how quickly you responded to my call and how you were able to offer a satisfactory solution without hesitation. Your customer service skills are top-notch!Thank you for sharing that with me, John. We always strive to provide the best customer service possible. Is there anything else I can help you with today?No, that's all for now. Once again, thank you very much for your assistance and excellent service. Have a great day!",
+    "Merged_content_user": "Hi, my name is John Smith and I have an issue with my flight.Yes, I was scheduled for a flight from New York City to Los Angeles on January 3rd with American Airlines, flight number AA123 departing at 3:00 PM, but it got delayed for 5 hours.Thank you, I appreciate it.That sounds great, thank you very much!Actually, I would like to compliment your agency for the excellent customer service and prompt resolution of my issue. Keep up the good work!Sure, I was impressed by how quickly you responded to my call and how you were able to offer a satisfactory solution without hesitation. Your customer service skills are top-notch!No, that's all for now. Once again, thank you very much for your assistance and excellent service. Have a great day!",
+    "Merged_content_agent": "Hello, thank you for calling our travel agency. How can I assist you today?Certainly, can you please provide me with your flight information?I apologize for the inconvenience. Let me check for any available options to accommodate you better.After checking, I can offer you a complimentary upgrade to first class on your next flight with American Airlines. Would that be acceptable?You're welcome. By the way, is there anything else I can assist you with?Thank you for your kind words, John. May I know the specific details of the compliment for documentation purposes?Thank you for sharing that with me, John. We always strive to provide the best customer service possible. Is there anything else I can help you with today?",
+    "Full_conversation": "Agent: Hello, thank you for calling our travel agency. How can I assist you today?\nCustomer: Hi, my name is John Smith and I have an issue with my flight.\nAgent: Certainly, can you please provide me with your flight information?\nCustomer: Yes, I was scheduled for a flight from New York City to Los Angeles on January 3rd with American Airlines, flight number AA123 departing at 3:00 PM, but it got delayed for 5 hours.\nAgent: I apologize for the inconvenience. Let me check for any available options to accommodate you better.\nCustomer: Thank you, I appreciate it.\nAgent: After checking, I can offer you a complimentary upgrade to first class on your next flight with American Airlines. Would that be acceptable?\nCustomer: That sounds great, thank you very much!\nAgent: You're welcome. By the way, is there anything else I can assist you with?\nCustomer: Actually, I would like to compliment your agency for the excellent customer service and prompt resolution of my issue. Keep up the good work!\nAgent: Thank you for your kind words, John. May I know the specific details of the compliment for documentation purposes?\nCustomer: Sure, I was impressed by how quickly you responded to my call and how you were able to offer a satisfactory solution without hesitation. Your customer service skills are top-notch!\nAgent: Thank you for sharing that with me, John. We always strive to provide the best customer service possible. Is there anything else I can help you with today?\nCustomer: No, that's all for now. Once again, thank you very much for your assistance and excellent service. Have a great day!\n"
+  }
+}

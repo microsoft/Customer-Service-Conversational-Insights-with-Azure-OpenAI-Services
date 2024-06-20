@@ -1,0 +1,169 @@
+{
+  "AgentName": "Mason White",
+  "AgentId": "QLUD5I",
+  "Team": "West",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-124-6280",
+  "Conversation": {
+    "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+    "Messages": [
+      {
+        "Id": "c9aadf87-02c5-4bf4-ac10-caf60e7750e2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T04:03:30.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "Thank you for calling the travel agency, this is Mason. How may I assist you today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ae2c485f-509c-431b-96b8-954f1c8c2b7f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T04:03:48.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "Yes, I need to speak to someone about my recent trip to Miami. My flight was delayed and it caused a lot of problems with my schedule.",
+        "UserId": "999-124-6280",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "20391af5-f006-4145-b47d-c1e4ba270ce3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T04:04:28.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "I'm sorry to hear that. Can you please provide me with your name and reservation number so I can look up your itinerary?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2c541e3b-4fab-42af-8568-001d663e7f8f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T04:06:15.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "My name is John Smith and my reservation number is ABC123. The flight was with American Airlines, flight number 123, on May 1st at 8am.",
+        "UserId": "999-124-6280",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "57d952da-417a-4498-ab45-abcf8e0fa894",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T04:07:26.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "Thank you for that information. I see here that your flight was delayed for two hours. I understand that this caused a lot of inconvenience for you. Would you like me to check if there are any available options for compensation or if we can rebook you on a different flight?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "87f131c3-0c27-4fcd-aec5-f0fa1f12897c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T04:08:21.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "No, I just want to complain about the terrible service. I had important meetings to attend and I missed them because of the delay. I want to be compensated for my lost time.",
+        "UserId": "999-124-6280",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d16ce022-04dd-40b6-b16f-81c8c2367270",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T04:10:18.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "I'm sorry that you feel that way. We always strive to provide the best service possible, but I understand that delays can be frustrating. Would you like me to escalate this to our customer service department, who can better assist you?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9fdf9111-c2fb-47f4-8078-1bb5afa05bb7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T04:11:36.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "No, I don't trust your company anymore. I just want to express my dissatisfaction with the service and warn others not to use your travel agency.",
+        "UserId": "999-124-6280",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "885ea31e-7364-4709-a312-b855304acc22",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-15T04:11:43.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "I understand your frustration and I apologize for any inconvenience caused. Is there anything else that I can assist you with today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "edd2db17-4dd1-4e72-8b00-e2987b2e4f50",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-15T04:13:04.1320335-05:00",
+        "ConversationId": "ae40e4a9-bb07-4d7d-b836-aed02a3b1f81",
+        "Value": "No, just make sure that this doesn't happen to anyone else. Goodbye.",
+        "UserId": "999-124-6280",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-15T04:03:22.1320335-05:00",
+    "EndTime": "2024-05-15T04:13:04.1320335-05:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Mason. How may I assist you today?Yes, I need to speak to someone about my recent trip to Miami. My flight was delayed and it caused a lot of problems with my schedule.I'm sorry to hear that. Can you please provide me with your name and reservation number so I can look up your itinerary?My name is John Smith and my reservation number is ABC123. The flight was with American Airlines, flight number 123, on May 1st at 8am.Thank you for that information. I see here that your flight was delayed for two hours. I understand that this caused a lot of inconvenience for you. Would you like me to check if there are any available options for compensation or if we can rebook you on a different flight?No, I just want to complain about the terrible service. I had important meetings to attend and I missed them because of the delay. I want to be compensated for my lost time.I'm sorry that you feel that way. We always strive to provide the best service possible, but I understand that delays can be frustrating. Would you like me to escalate this to our customer service department, who can better assist you?No, I don't trust your company anymore. I just want to express my dissatisfaction with the service and warn others not to use your travel agency.I understand your frustration and I apologize for any inconvenience caused. Is there anything else that I can assist you with today?No, just make sure that this doesn't happen to anyone else. Goodbye.",
+    "Merged_content_user": "Yes, I need to speak to someone about my recent trip to Miami. My flight was delayed and it caused a lot of problems with my schedule.My name is John Smith and my reservation number is ABC123. The flight was with American Airlines, flight number 123, on May 1st at 8am.No, I just want to complain about the terrible service. I had important meetings to attend and I missed them because of the delay. I want to be compensated for my lost time.No, I don't trust your company anymore. I just want to express my dissatisfaction with the service and warn others not to use your travel agency.No, just make sure that this doesn't happen to anyone else. Goodbye.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Mason. How may I assist you today?I'm sorry to hear that. Can you please provide me with your name and reservation number so I can look up your itinerary?Thank you for that information. I see here that your flight was delayed for two hours. I understand that this caused a lot of inconvenience for you. Would you like me to check if there are any available options for compensation or if we can rebook you on a different flight?I'm sorry that you feel that way. We always strive to provide the best service possible, but I understand that delays can be frustrating. Would you like me to escalate this to our customer service department, who can better assist you?I understand your frustration and I apologize for any inconvenience caused. Is there anything else that I can assist you with today?",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Mason. How may I assist you today?\nCustomer: Yes, I need to speak to someone about my recent trip to Miami. My flight was delayed and it caused a lot of problems with my schedule.\nAgent: I'm sorry to hear that. Can you please provide me with your name and reservation number so I can look up your itinerary?\nCustomer: My name is John Smith and my reservation number is ABC123. The flight was with American Airlines, flight number 123, on May 1st at 8am.\nAgent: Thank you for that information. I see here that your flight was delayed for two hours. I understand that this caused a lot of inconvenience for you. Would you like me to check if there are any available options for compensation or if we can rebook you on a different flight?\nCustomer: No, I just want to complain about the terrible service. I had important meetings to attend and I missed them because of the delay. I want to be compensated for my lost time.\nAgent: I'm sorry that you feel that way. We always strive to provide the best service possible, but I understand that delays can be frustrating. Would you like me to escalate this to our customer service department, who can better assist you?\nCustomer: No, I don't trust your company anymore. I just want to express my dissatisfaction with the service and warn others not to use your travel agency.\nAgent: I understand your frustration and I apologize for any inconvenience caused. Is there anything else that I can assist you with today?\nCustomer: No, just make sure that this doesn't happen to anyone else. Goodbye.\n"
+  }
+}

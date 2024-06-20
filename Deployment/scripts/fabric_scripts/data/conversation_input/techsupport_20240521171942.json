@@ -1,0 +1,139 @@
+{
+  "AgentName": "Amelia Hernandez",
+  "AgentId": "Q8BBAU",
+  "Team": "West",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-822-6980",
+  "Conversation": {
+    "ConversationId": "566091df-764b-4c45-b379-7c8ca8a5ea16",
+    "Messages": [
+      {
+        "Id": "bc945ced-56a1-415f-a655-90e5ad8fb667",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-21T17:20:13.2805754-05:00",
+        "ConversationId": "566091df-764b-4c45-b379-7c8ca8a5ea16",
+        "Value": "Thank you for calling our travel agency tech support, this is Amelia Hernandez speaking. How may I assist you today?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "019ec30b-db53-4ed5-9673-4c4be7cf98e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-21T17:20:38.2805754-05:00",
+        "ConversationId": "566091df-764b-4c45-b379-7c8ca8a5ea16",
+        "Value": "Yes, hi. My name is Jane Smith and I'm having trouble accessing my account on your website. I'm trying to view my itinerary for my upcoming trip from New York City to Los Angeles next week and I keep getting error messages. It's really frustrating because I need to update some information on my reservation and I can't seem to get anything to work properly.",
+        "UserId": "999-822-6980",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f71ead79-de68-4398-aafb-b78d74f7ad2d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-21T17:20:43.2805754-05:00",
+        "ConversationId": "566091df-764b-4c45-b379-7c8ca8a5ea16",
+        "Value": "I'm sorry to hear that, Jane. Let me take a look at your account and see what the issue might be. Can you please confirm your reservation number and the dates of your trip?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9e9ad63c-15ab-4448-ac9f-d5dff37babb3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-21T17:20:56.2805754-05:00",
+        "ConversationId": "566091df-764b-4c45-b379-7c8ca8a5ea16",
+        "Value": "Sure, the reservation number is 123456789 and the trip is from New York City to Los Angeles on June 5th.",
+        "UserId": "999-822-6980",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "489228d4-b766-4f35-ad32-037cc520a7e8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-21T17:21:43.2805754-05:00",
+        "ConversationId": "566091df-764b-4c45-b379-7c8ca8a5ea16",
+        "Value": "Thank you, Jane. I see your reservation here in our system. It looks like there was a system update that may have caused some issues with account access. Can you please try logging in again and let me know if you're still experiencing any problems?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "974091a2-791b-4b1d-9162-f6958c4b5e90",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-21T17:22:19.2805754-05:00",
+        "ConversationId": "566091df-764b-4c45-b379-7c8ca8a5ea16",
+        "Value": "Okay, I just tried again and it seems to be working now. Thank you so much for your help, Amelia. I was really worried that I wouldn't be able to access my reservation in time for my trip!",
+        "UserId": "999-822-6980",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "01ba6e07-9c42-421a-a917-932de251117a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-21T17:22:27.2805754-05:00",
+        "ConversationId": "566091df-764b-4c45-b379-7c8ca8a5ea16",
+        "Value": "You're welcome, Jane. I'm glad we were able to resolve the issue. Do you have any other questions or concerns for me today?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "11bc9b07-1732-4252-a65f-d2316734d5c0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-21T17:23:01.2805754-05:00",
+        "ConversationId": "566091df-764b-4c45-b379-7c8ca8a5ea16",
+        "Value": "No, that's all for now. Thanks again!",
+        "UserId": "999-822-6980",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-21T17:19:42.2805754-05:00",
+    "EndTime": "2024-05-21T17:23:01.2805754-05:00",
+    "Merged_content": "Thank you for calling our travel agency tech support, this is Amelia Hernandez speaking. How may I assist you today?Yes, hi. My name is Jane Smith and I'm having trouble accessing my account on your website. I'm trying to view my itinerary for my upcoming trip from New York City to Los Angeles next week and I keep getting error messages. It's really frustrating because I need to update some information on my reservation and I can't seem to get anything to work properly.I'm sorry to hear that, Jane. Let me take a look at your account and see what the issue might be. Can you please confirm your reservation number and the dates of your trip?Sure, the reservation number is 123456789 and the trip is from New York City to Los Angeles on June 5th.Thank you, Jane. I see your reservation here in our system. It looks like there was a system update that may have caused some issues with account access. Can you please try logging in again and let me know if you're still experiencing any problems?Okay, I just tried again and it seems to be working now. Thank you so much for your help, Amelia. I was really worried that I wouldn't be able to access my reservation in time for my trip!You're welcome, Jane. I'm glad we were able to resolve the issue. Do you have any other questions or concerns for me today?No, that's all for now. Thanks again!",
+    "Merged_content_user": "Yes, hi. My name is Jane Smith and I'm having trouble accessing my account on your website. I'm trying to view my itinerary for my upcoming trip from New York City to Los Angeles next week and I keep getting error messages. It's really frustrating because I need to update some information on my reservation and I can't seem to get anything to work properly.Sure, the reservation number is 123456789 and the trip is from New York City to Los Angeles on June 5th.Okay, I just tried again and it seems to be working now. Thank you so much for your help, Amelia. I was really worried that I wouldn't be able to access my reservation in time for my trip!No, that's all for now. Thanks again!",
+    "Merged_content_agent": "Thank you for calling our travel agency tech support, this is Amelia Hernandez speaking. How may I assist you today?I'm sorry to hear that, Jane. Let me take a look at your account and see what the issue might be. Can you please confirm your reservation number and the dates of your trip?Thank you, Jane. I see your reservation here in our system. It looks like there was a system update that may have caused some issues with account access. Can you please try logging in again and let me know if you're still experiencing any problems?You're welcome, Jane. I'm glad we were able to resolve the issue. Do you have any other questions or concerns for me today?",
+    "Full_conversation": "Agent: Thank you for calling our travel agency tech support, this is Amelia Hernandez speaking. How may I assist you today?\nCustomer: Yes, hi. My name is Jane Smith and I'm having trouble accessing my account on your website. I'm trying to view my itinerary for my upcoming trip from New York City to Los Angeles next week and I keep getting error messages. It's really frustrating because I need to update some information on my reservation and I can't seem to get anything to work properly.\nAgent: I'm sorry to hear that, Jane. Let me take a look at your account and see what the issue might be. Can you please confirm your reservation number and the dates of your trip?\nCustomer: Sure, the reservation number is 123456789 and the trip is from New York City to Los Angeles on June 5th.\nAgent: Thank you, Jane. I see your reservation here in our system. It looks like there was a system update that may have caused some issues with account access. Can you please try logging in again and let me know if you're still experiencing any problems?\nCustomer: Okay, I just tried again and it seems to be working now. Thank you so much for your help, Amelia. I was really worried that I wouldn't be able to access my reservation in time for my trip!\nAgent: You're welcome, Jane. I'm glad we were able to resolve the issue. Do you have any other questions or concerns for me today?\nCustomer: No, that's all for now. Thanks again!\n"
+  }
+}

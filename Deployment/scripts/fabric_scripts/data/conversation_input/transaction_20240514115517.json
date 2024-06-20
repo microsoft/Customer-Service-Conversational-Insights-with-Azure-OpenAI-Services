@@ -1,0 +1,274 @@
+{
+  "AgentName": "Amelia Hernandez",
+  "AgentId": "Q8BBAU",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-413-3153",
+  "Conversation": {
+    "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+    "Messages": [
+      {
+        "Id": "61b8c739-b9e4-481f-b4f3-974fb8a3fb67",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-14T11:56:13.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Thank you for calling the travel agency, my name is Amelia Hernandez. How may I assist you today?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d7edeeb7-fdf6-4b29-891c-56f7e43e9007",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-14T11:57:02.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Hi Amelia, my name is Sarah Johnson and I'm calling because I need help with my travel plans.",
+        "UserId": "999-413-3153",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e462e77b-79ce-4ae4-94b5-48ab3cccbe65",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-14T11:58:39.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Of course Sarah, I'm here to help. Can you please tell me more about the issue you're experiencing?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ed9ed17d-f902-46c0-828f-425727605ee5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-14T12:00:20.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Yes, I recently booked a flight and hotel reservation for a business trip from New York City to Los Angeles, but I received an email this morning saying that my flight has been cancelled.",
+        "UserId": "999-413-3153",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c42997cb-db87-4d3e-af53-bb79888386ab",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-14T12:00:43.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "I'm sorry to hear that Sarah. Can you please provide me with your booking confirmation number so I can take a look at your reservation?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bfb863a9-c740-4511-b664-fbe1abe23550",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-14T12:01:46.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Sure, my confirmation number is ABC123 and my flight was supposed to depart from JFK on May 5th at 8:00am.",
+        "UserId": "999-413-3153",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8c8f1976-7ca2-40e3-a538-7975fc86cfb2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-14T12:03:42.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Thank you for providing me with that information Sarah. I see here that your flight was indeed cancelled due to unforeseen circumstances beyond the control of the airline. We can either rebook you on the next available flight, or provide you with a refund for your cancelled flight. What would you like me to do?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e8ea26ee-4bb5-41da-92f8-9b8cce61b664",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-14T12:05:14.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "I need to be in Los Angeles for a meeting on May 5th, so I need to be on the next available flight. Can you assist me with booking a new flight?",
+        "UserId": "999-413-3153",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "729a691e-7011-4a6d-83ca-2fd7a1b148ac",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-14T12:06:50.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Absolutely Sarah, I can help you with that. Let me check what flights are available. Can you please hold for a moment?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5eca9009-0c33-41d2-a065-87c4b3ad58cc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-14T12:07:54.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Sure, I'm holding.",
+        "UserId": "999-413-3153",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "79951734-9ae1-47d7-a244-21c3236e5261",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-14T12:09:29.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Thank you for holding Sarah, I found a flight leaving from LaGuardia Airport at 11:00am on May 5th with a layover in Chicago. It will arrive in Los Angeles at 5:00pm. Would you like me to book that for you?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b575db6a-c395-4ce7-8ab4-4426152a6d9f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-14T12:11:26.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Yes, that works for me Amelia. And can you also confirm that my hotel reservation at the Beverly Hilton is still valid?",
+        "UserId": "999-413-3153",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ab64a7e1-ddf9-4ec0-8a39-7c805eea67c7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-14T12:12:50.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Let me check on that for you Sarah. Can you please provide me with your hotel booking confirmation number and check-in date?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5ed1437d-cd47-4e12-9ba3-01395ddd3f9c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-14T12:13:14.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Yes, my hotel confirmation number is XYZ789 and my check-in date is May 5th.",
+        "UserId": "999-413-3153",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3c00afc5-5b33-4be9-99fc-e9e3a0b128b1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-14T12:14:07.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "Thank you Sarah, I see here that your reservation is still valid and confirmed. Is there anything else I can assist you with today?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f9068b21-796c-4602-9161-03de47fcbc0b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-14T12:15:02.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "No, that's all. Thank you for your help Amelia.",
+        "UserId": "999-413-3153",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0e1d8908-1464-4066-8c3f-cd94837352be",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-14T12:15:46.4931847-05:00",
+        "ConversationId": "7a31a367-7a35-4d82-8e4f-4bb09def2a36",
+        "Value": "You're welcome Sarah, have a safe and enjoyable trip.",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-14T11:55:17.4931847-05:00",
+    "EndTime": "2024-05-14T12:15:46.4931847-05:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Amelia Hernandez. How may I assist you today?Hi Amelia, my name is Sarah Johnson and I'm calling because I need help with my travel plans.Of course Sarah, I'm here to help. Can you please tell me more about the issue you're experiencing?Yes, I recently booked a flight and hotel reservation for a business trip from New York City to Los Angeles, but I received an email this morning saying that my flight has been cancelled.I'm sorry to hear that Sarah. Can you please provide me with your booking confirmation number so I can take a look at your reservation?Sure, my confirmation number is ABC123 and my flight was supposed to depart from JFK on May 5th at 8:00am.Thank you for providing me with that information Sarah. I see here that your flight was indeed cancelled due to unforeseen circumstances beyond the control of the airline. We can either rebook you on the next available flight, or provide you with a refund for your cancelled flight. What would you like me to do?I need to be in Los Angeles for a meeting on May 5th, so I need to be on the next available flight. Can you assist me with booking a new flight?Absolutely Sarah, I can help you with that. Let me check what flights are available. Can you please hold for a moment?Sure, I'm holding.Thank you for holding Sarah, I found a flight leaving from LaGuardia Airport at 11:00am on May 5th with a layover in Chicago. It will arrive in Los Angeles at 5:00pm. Would you like me to book that for you?Yes, that works for me Amelia. And can you also confirm that my hotel reservation at the Beverly Hilton is still valid?Let me check on that for you Sarah. Can you please provide me with your hotel booking confirmation number and check-in date?Yes, my hotel confirmation number is XYZ789 and my check-in date is May 5th.Thank you Sarah, I see here that your reservation is still valid and confirmed. Is there anything else I can assist you with today?No, that's all. Thank you for your help Amelia.You're welcome Sarah, have a safe and enjoyable trip.",
+    "Merged_content_user": "Hi Amelia, my name is Sarah Johnson and I'm calling because I need help with my travel plans.Yes, I recently booked a flight and hotel reservation for a business trip from New York City to Los Angeles, but I received an email this morning saying that my flight has been cancelled.Sure, my confirmation number is ABC123 and my flight was supposed to depart from JFK on May 5th at 8:00am.I need to be in Los Angeles for a meeting on May 5th, so I need to be on the next available flight. Can you assist me with booking a new flight?Sure, I'm holding.Yes, that works for me Amelia. And can you also confirm that my hotel reservation at the Beverly Hilton is still valid?Yes, my hotel confirmation number is XYZ789 and my check-in date is May 5th.No, that's all. Thank you for your help Amelia.",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Amelia Hernandez. How may I assist you today?Of course Sarah, I'm here to help. Can you please tell me more about the issue you're experiencing?I'm sorry to hear that Sarah. Can you please provide me with your booking confirmation number so I can take a look at your reservation?Thank you for providing me with that information Sarah. I see here that your flight was indeed cancelled due to unforeseen circumstances beyond the control of the airline. We can either rebook you on the next available flight, or provide you with a refund for your cancelled flight. What would you like me to do?Absolutely Sarah, I can help you with that. Let me check what flights are available. Can you please hold for a moment?Thank you for holding Sarah, I found a flight leaving from LaGuardia Airport at 11:00am on May 5th with a layover in Chicago. It will arrive in Los Angeles at 5:00pm. Would you like me to book that for you?Let me check on that for you Sarah. Can you please provide me with your hotel booking confirmation number and check-in date?Thank you Sarah, I see here that your reservation is still valid and confirmed. Is there anything else I can assist you with today?You're welcome Sarah, have a safe and enjoyable trip.",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Amelia Hernandez. How may I assist you today?\nCustomer: Hi Amelia, my name is Sarah Johnson and I'm calling because I need help with my travel plans.\nAgent: Of course Sarah, I'm here to help. Can you please tell me more about the issue you're experiencing?\nCustomer: Yes, I recently booked a flight and hotel reservation for a business trip from New York City to Los Angeles, but I received an email this morning saying that my flight has been cancelled.\nAgent: I'm sorry to hear that Sarah. Can you please provide me with your booking confirmation number so I can take a look at your reservation?\nCustomer: Sure, my confirmation number is ABC123 and my flight was supposed to depart from JFK on May 5th at 8:00am.\nAgent: Thank you for providing me with that information Sarah. I see here that your flight was indeed cancelled due to unforeseen circumstances beyond the control of the airline. We can either rebook you on the next available flight, or provide you with a refund for your cancelled flight. What would you like me to do?\nCustomer: I need to be in Los Angeles for a meeting on May 5th, so I need to be on the next available flight. Can you assist me with booking a new flight?\nAgent: Absolutely Sarah, I can help you with that. Let me check what flights are available. Can you please hold for a moment?\nCustomer: Sure, I'm holding.\nAgent: Thank you for holding Sarah, I found a flight leaving from LaGuardia Airport at 11:00am on May 5th with a layover in Chicago. It will arrive in Los Angeles at 5:00pm. Would you like me to book that for you?\nCustomer: Yes, that works for me Amelia. And can you also confirm that my hotel reservation at the Beverly Hilton is still valid?\nAgent: Let me check on that for you Sarah. Can you please provide me with your hotel booking confirmation number and check-in date?\nCustomer: Yes, my hotel confirmation number is XYZ789 and my check-in date is May 5th.\nAgent: Thank you Sarah, I see here that your reservation is still valid and confirmed. Is there anything else I can assist you with today?\nCustomer: No, that's all. Thank you for your help Amelia.\nAgent: You're welcome Sarah, have a safe and enjoyable trip.\n"
+  }
+}

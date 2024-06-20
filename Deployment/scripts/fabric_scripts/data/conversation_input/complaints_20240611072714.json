@@ -1,0 +1,124 @@
+{
+  "AgentName": "Mia Robinson",
+  "AgentId": "PKJSZO",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-454-6037",
+  "Conversation": {
+    "ConversationId": "d5a53ccb-4f6f-47ba-904e-b4014060c405",
+    "Messages": [
+      {
+        "Id": "3bc90469-01a2-400b-9706-286bfca09033",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T07:27:35.1072972-05:00",
+        "ConversationId": "d5a53ccb-4f6f-47ba-904e-b4014060c405",
+        "Value": "Thank you for calling the travel agency, my name is Mia Robinson, how can I assist you today?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d8849432-089e-42aa-a021-9870f5352b67",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T07:29:00.1072972-05:00",
+        "ConversationId": "d5a53ccb-4f6f-47ba-904e-b4014060c405",
+        "Value": "Hi Mia, my name is John Smith and I'm calling about a recent trip I took to Miami. I had issues with lost luggage and I wanted to see if you could help me track it down.",
+        "UserId": "999-454-6037",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d9d49922-2194-4d11-8b66-21f1b723db4b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T07:29:53.1072972-05:00",
+        "ConversationId": "d5a53ccb-4f6f-47ba-904e-b4014060c405",
+        "Value": "I'm sorry to hear about your lost luggage, John. Can you give me your reservation number and the date of your flight?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cb6e5fc7-3eb8-4da9-a4d0-6c4f76db11cd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T07:31:05.1072972-05:00",
+        "ConversationId": "d5a53ccb-4f6f-47ba-904e-b4014060c405",
+        "Value": "Sure, my reservation number is ABC123 and my flight was on August 15th.",
+        "UserId": "999-454-6037",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "335c89e6-c7de-44a2-a945-c3489af24f3f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T07:32:34.1072972-05:00",
+        "ConversationId": "d5a53ccb-4f6f-47ba-904e-b4014060c405",
+        "Value": "Thank you for that information, John. Let me check our system to see if we can track down your luggage. I'll be right back.",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cfb0de46-ec2f-4b32-8a16-d9bc1af53709",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T07:34:30.1072972-05:00",
+        "ConversationId": "d5a53ccb-4f6f-47ba-904e-b4014060c405",
+        "Value": "OK, I found some information on your luggage. It looks like it was delayed due to bad weather and was accidentally sent to the wrong airport. Our team is working on getting it to you as soon as possible. Is there anything else I can help you with?",
+        "UserId": "PKJSZO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "faaf339e-adb9-4ad4-9499-843a773cf26d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T07:34:53.1072972-05:00",
+        "ConversationId": "d5a53ccb-4f6f-47ba-904e-b4014060c405",
+        "Value": "No, that's all I needed to know. Thank you for your help, Mia.",
+        "UserId": "999-454-6037",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-11T07:27:14.1072972-05:00",
+    "EndTime": "2024-06-11T07:34:53.1072972-05:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Mia Robinson, how can I assist you today?Hi Mia, my name is John Smith and I'm calling about a recent trip I took to Miami. I had issues with lost luggage and I wanted to see if you could help me track it down.I'm sorry to hear about your lost luggage, John. Can you give me your reservation number and the date of your flight?Sure, my reservation number is ABC123 and my flight was on August 15th.Thank you for that information, John. Let me check our system to see if we can track down your luggage. I'll be right back.OK, I found some information on your luggage. It looks like it was delayed due to bad weather and was accidentally sent to the wrong airport. Our team is working on getting it to you as soon as possible. Is there anything else I can help you with?No, that's all I needed to know. Thank you for your help, Mia.",
+    "Merged_content_user": "Hi Mia, my name is John Smith and I'm calling about a recent trip I took to Miami. I had issues with lost luggage and I wanted to see if you could help me track it down.Sure, my reservation number is ABC123 and my flight was on August 15th.No, that's all I needed to know. Thank you for your help, Mia.",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Mia Robinson, how can I assist you today?I'm sorry to hear about your lost luggage, John. Can you give me your reservation number and the date of your flight?Thank you for that information, John. Let me check our system to see if we can track down your luggage. I'll be right back.OK, I found some information on your luggage. It looks like it was delayed due to bad weather and was accidentally sent to the wrong airport. Our team is working on getting it to you as soon as possible. Is there anything else I can help you with?",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Mia Robinson, how can I assist you today?\nCustomer: Hi Mia, my name is John Smith and I'm calling about a recent trip I took to Miami. I had issues with lost luggage and I wanted to see if you could help me track it down.\nAgent: I'm sorry to hear about your lost luggage, John. Can you give me your reservation number and the date of your flight?\nCustomer: Sure, my reservation number is ABC123 and my flight was on August 15th.\nAgent: Thank you for that information, John. Let me check our system to see if we can track down your luggage. I'll be right back.\nAgent: OK, I found some information on your luggage. It looks like it was delayed due to bad weather and was accidentally sent to the wrong airport. Our team is working on getting it to you as soon as possible. Is there anything else I can help you with?\nCustomer: No, that's all I needed to know. Thank you for your help, Mia.\n"
+  }
+}

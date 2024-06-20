@@ -1,0 +1,214 @@
+{
+  "AgentName": "Sebastian Harris",
+  "AgentId": "Z82TOA",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-464-6415",
+  "Conversation": {
+    "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+    "Messages": [
+      {
+        "Id": "0418f135-165d-41e6-a592-9dc67fa5f89a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-14T18:21:18.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "Thank you for calling the travel agency, this is Sebastian Harris speaking. May I have your full name and how may I assist you today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "84c34503-accc-4774-884f-0243f93462e4",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-14T18:22:44.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "Hi, my name is Sarah Johnson. I am having trouble with your website. I can't seem to navigate through it and book my trip to New York City.",
+        "UserId": "999-464-6415",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9d0fd456-bf95-4a01-a6db-0f20892bf157",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-14T18:24:03.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "I apologize for the inconvenience, Sarah. Let me help you with that. Are you experiencing any specific issues or error messages?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0d2bff28-e179-4264-9017-026905a80942",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-14T18:25:59.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "Yes, I keep getting an error message when trying to process my payment.",
+        "UserId": "999-464-6415",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f21f174a-48b5-4709-9d7a-2db846fed4cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-14T18:26:21.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "I see. Let me check on that for you. Can I have your booking reference number and the date of your travel to New York City, please?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "beef1c9f-9a16-48d8-b2c4-2842f1cacfb0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-14T18:26:45.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "Sure. My reservation number is XYZ123 and my travel date is next Friday, February 11th.",
+        "UserId": "999-464-6415",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1f9b9053-b243-4a87-8b9d-68e01dcf74c6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-14T18:27:14.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "Thank you for the information. I will check on that for you. In the meantime, may I also confirm if you have received a booking confirmation email from us?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1b376939-b4fc-42ed-b265-bcb2dce959df",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-14T18:27:50.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "No, I have not received any confirmation email from your company.",
+        "UserId": "999-464-6415",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9560544b-59c1-4ff6-9f5a-5589284504b5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-14T18:28:52.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "I apologize for the inconvenience, Sarah. Let me send you the confirmation email right now. Please check your inbox and let me know if you received it.",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "50b34036-86eb-4d1d-8bd9-50a733bd02d3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-14T18:29:19.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "Thank you, Sebastian. I received the confirmation email. I appreciate your help.",
+        "UserId": "999-464-6415",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c2d1731e-e54b-4694-9fd4-68884951b068",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-14T18:29:43.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "You're welcome, Sarah. I'm glad to have been of help. Is there anything else you need assistance with today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bc96cd89-41f9-4776-9b26-94082f4e79bc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-14T18:30:25.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "No, that's all. Thank you for your help, Sebastian.",
+        "UserId": "999-464-6415",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ac7f300b-f43d-4b7f-a932-0c969b3b8a7f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-14T18:31:58.1815645-05:00",
+        "ConversationId": "c38e0517-bf3a-42d0-9c9f-0f088b64f237",
+        "Value": "It was my pleasure, Sarah. Have a great day and enjoy your trip to New York City!",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-14T18:20:12.1815645-05:00",
+    "EndTime": "2024-03-14T18:31:58.1815645-05:00",
+    "Merged_content": "Thank you for calling the travel agency, this is Sebastian Harris speaking. May I have your full name and how may I assist you today?Hi, my name is Sarah Johnson. I am having trouble with your website. I can't seem to navigate through it and book my trip to New York City.I apologize for the inconvenience, Sarah. Let me help you with that. Are you experiencing any specific issues or error messages?Yes, I keep getting an error message when trying to process my payment.I see. Let me check on that for you. Can I have your booking reference number and the date of your travel to New York City, please?Sure. My reservation number is XYZ123 and my travel date is next Friday, February 11th.Thank you for the information. I will check on that for you. In the meantime, may I also confirm if you have received a booking confirmation email from us?No, I have not received any confirmation email from your company.I apologize for the inconvenience, Sarah. Let me send you the confirmation email right now. Please check your inbox and let me know if you received it.Thank you, Sebastian. I received the confirmation email. I appreciate your help.You're welcome, Sarah. I'm glad to have been of help. Is there anything else you need assistance with today?No, that's all. Thank you for your help, Sebastian.It was my pleasure, Sarah. Have a great day and enjoy your trip to New York City!",
+    "Merged_content_user": "Hi, my name is Sarah Johnson. I am having trouble with your website. I can't seem to navigate through it and book my trip to New York City.Yes, I keep getting an error message when trying to process my payment.Sure. My reservation number is XYZ123 and my travel date is next Friday, February 11th.No, I have not received any confirmation email from your company.Thank you, Sebastian. I received the confirmation email. I appreciate your help.No, that's all. Thank you for your help, Sebastian.",
+    "Merged_content_agent": "Thank you for calling the travel agency, this is Sebastian Harris speaking. May I have your full name and how may I assist you today?I apologize for the inconvenience, Sarah. Let me help you with that. Are you experiencing any specific issues or error messages?I see. Let me check on that for you. Can I have your booking reference number and the date of your travel to New York City, please?Thank you for the information. I will check on that for you. In the meantime, may I also confirm if you have received a booking confirmation email from us?I apologize for the inconvenience, Sarah. Let me send you the confirmation email right now. Please check your inbox and let me know if you received it.You're welcome, Sarah. I'm glad to have been of help. Is there anything else you need assistance with today?It was my pleasure, Sarah. Have a great day and enjoy your trip to New York City!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, this is Sebastian Harris speaking. May I have your full name and how may I assist you today?\nCustomer: Hi, my name is Sarah Johnson. I am having trouble with your website. I can't seem to navigate through it and book my trip to New York City.\nAgent: I apologize for the inconvenience, Sarah. Let me help you with that. Are you experiencing any specific issues or error messages?\nCustomer: Yes, I keep getting an error message when trying to process my payment.\nAgent: I see. Let me check on that for you. Can I have your booking reference number and the date of your travel to New York City, please?\nCustomer: Sure. My reservation number is XYZ123 and my travel date is next Friday, February 11th.\nAgent: Thank you for the information. I will check on that for you. In the meantime, may I also confirm if you have received a booking confirmation email from us?\nCustomer: No, I have not received any confirmation email from your company.\nAgent: I apologize for the inconvenience, Sarah. Let me send you the confirmation email right now. Please check your inbox and let me know if you received it.\nCustomer: Thank you, Sebastian. I received the confirmation email. I appreciate your help.\nAgent: You're welcome, Sarah. I'm glad to have been of help. Is there anything else you need assistance with today?\nCustomer: No, that's all. Thank you for your help, Sebastian.\nAgent: It was my pleasure, Sarah. Have a great day and enjoy your trip to New York City!\n"
+  }
+}

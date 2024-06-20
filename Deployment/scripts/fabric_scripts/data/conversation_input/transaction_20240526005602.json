@@ -1,0 +1,184 @@
+{
+  "AgentName": "Zoe Lewis",
+  "AgentId": "G6HD7J",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-170-6163",
+  "Conversation": {
+    "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+    "Messages": [
+      {
+        "Id": "a53d01c9-dc3b-4ac9-9f85-cdac1fecde50",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-26T00:56:13.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "Thank you for calling the travel agency, my name is Zoe. How can I assist you today?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fe5e541e-f175-4e22-afa8-c4912e37dd89",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-26T00:57:39.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "Hi Zoe, my name is John Smith. I need some help with my travel plans. I'm planning a trip from New York City to Los Angeles, but I'm having trouble making a decision.",
+        "UserId": "999-170-6163",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4671c24b-b392-4058-8e12-af1198bd2c18",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-26T00:59:27.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "Sure thing, John. I'd be happy to help you. What's the purpose of your trip?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7e312a43-e5da-40e3-961f-702b0479ea66",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-26T01:00:55.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "It's a business trip, but I'll have some free time in between meetings.",
+        "UserId": "999-170-6163",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4a722535-6efd-4783-bd2c-f14c071d60a1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-26T01:02:42.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "Great. Let's start by looking at some flight options. Do you have any preferences for date and time of departure?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f9fd1a53-0401-43b1-b936-1dbda1738200",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-26T01:03:05.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "Not really, I'm flexible.",
+        "UserId": "999-170-6163",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2f87d181-8c11-4db1-a1ed-34630973065f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-26T01:03:51.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "Okay, I'm seeing a few options for non-stop flights from JFK to LAX. One is with American Airlines, flight number AA123, departing on March 15th at 8:00am. Another option is with Delta Airlines, flight number DL456, departing on the same day at 9:30am.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3553fd5f-cc24-4436-9615-9c0b42b8e5a0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-26T01:03:55.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "That sounds good. What about hotels? Do you have any recommendations?",
+        "UserId": "999-170-6163",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "712af824-e5b3-40ef-b8ab-a2af87be0ea8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-26T01:05:28.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "Sure thing. The Hilton Los Angeles Airport is a great option for its convenient location and amenities. I can make a reservation for you if you like. The check-in date would be March 15th and the reservation number is XYZ123.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e9a84960-1d87-4ce5-9a1a-5ab6ba28e491",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-26T01:05:42.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "That sounds good too. Thank you for your help, Zoe. I'll take these options into consideration.",
+        "UserId": "999-170-6163",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a765e01f-5e6c-44be-a451-e4379d626ca3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-26T01:06:23.8279479-05:00",
+        "ConversationId": "364bb545-2442-4e57-b2c1-69637688624e",
+        "Value": "You're welcome, John. If you have any other questions or would like to book any of these options, just give me a call back. Have a great day!",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-26T00:56:02.8279479-05:00",
+    "EndTime": "2024-05-26T01:06:23.8279479-05:00",
+    "Merged_content": "Thank you for calling the travel agency, my name is Zoe. How can I assist you today?Hi Zoe, my name is John Smith. I need some help with my travel plans. I'm planning a trip from New York City to Los Angeles, but I'm having trouble making a decision.Sure thing, John. I'd be happy to help you. What's the purpose of your trip?It's a business trip, but I'll have some free time in between meetings.Great. Let's start by looking at some flight options. Do you have any preferences for date and time of departure?Not really, I'm flexible.Okay, I'm seeing a few options for non-stop flights from JFK to LAX. One is with American Airlines, flight number AA123, departing on March 15th at 8:00am. Another option is with Delta Airlines, flight number DL456, departing on the same day at 9:30am.That sounds good. What about hotels? Do you have any recommendations?Sure thing. The Hilton Los Angeles Airport is a great option for its convenient location and amenities. I can make a reservation for you if you like. The check-in date would be March 15th and the reservation number is XYZ123.That sounds good too. Thank you for your help, Zoe. I'll take these options into consideration.You're welcome, John. If you have any other questions or would like to book any of these options, just give me a call back. Have a great day!",
+    "Merged_content_user": "Hi Zoe, my name is John Smith. I need some help with my travel plans. I'm planning a trip from New York City to Los Angeles, but I'm having trouble making a decision.It's a business trip, but I'll have some free time in between meetings.Not really, I'm flexible.That sounds good. What about hotels? Do you have any recommendations?That sounds good too. Thank you for your help, Zoe. I'll take these options into consideration.",
+    "Merged_content_agent": "Thank you for calling the travel agency, my name is Zoe. How can I assist you today?Sure thing, John. I'd be happy to help you. What's the purpose of your trip?Great. Let's start by looking at some flight options. Do you have any preferences for date and time of departure?Okay, I'm seeing a few options for non-stop flights from JFK to LAX. One is with American Airlines, flight number AA123, departing on March 15th at 8:00am. Another option is with Delta Airlines, flight number DL456, departing on the same day at 9:30am.Sure thing. The Hilton Los Angeles Airport is a great option for its convenient location and amenities. I can make a reservation for you if you like. The check-in date would be March 15th and the reservation number is XYZ123.You're welcome, John. If you have any other questions or would like to book any of these options, just give me a call back. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling the travel agency, my name is Zoe. How can I assist you today?\nCustomer: Hi Zoe, my name is John Smith. I need some help with my travel plans. I'm planning a trip from New York City to Los Angeles, but I'm having trouble making a decision.\nAgent: Sure thing, John. I'd be happy to help you. What's the purpose of your trip?\nCustomer: It's a business trip, but I'll have some free time in between meetings.\nAgent: Great. Let's start by looking at some flight options. Do you have any preferences for date and time of departure?\nCustomer: Not really, I'm flexible.\nAgent: Okay, I'm seeing a few options for non-stop flights from JFK to LAX. One is with American Airlines, flight number AA123, departing on March 15th at 8:00am. Another option is with Delta Airlines, flight number DL456, departing on the same day at 9:30am.\nCustomer: That sounds good. What about hotels? Do you have any recommendations?\nAgent: Sure thing. The Hilton Los Angeles Airport is a great option for its convenient location and amenities. I can make a reservation for you if you like. The check-in date would be March 15th and the reservation number is XYZ123.\nCustomer: That sounds good too. Thank you for your help, Zoe. I'll take these options into consideration.\nAgent: You're welcome, John. If you have any other questions or would like to book any of these options, just give me a call back. Have a great day!\n"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "AgentName": "Lily Young",
+  "AgentId": "T4CUGY",
+  "Team": "West",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-422-9202",
+  "Conversation": {
+    "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+    "Messages": [
+      {
+        "Id": "7e1f947a-e335-431c-a40a-0a77ed1f4058",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T06:10:57.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "Hello, thank you for contacting our travel agency. My name is Lily Young. How can I assist you today?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ba5f8958-ce18-47e8-94fc-f25997e050bc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-18T06:11:36.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "Hi Lily, my name is John Smith and I have a complaint about my recent trip from Denver to Los Angeles. My flight was delayed for over 3 hours and I had to reschedule my entire day. I would like to know if I am entitled to any compensation.",
+        "UserId": "999-422-9202",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b29188d7-003b-4d71-af7b-a2a8beabd974",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T06:12:35.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with your flight number and departure date and time so I can look into it?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b614f18b-eade-4e79-bc48-79a4c0f01879",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-18T06:12:41.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "Sure, my flight was with United Airlines, flight number UA 1234, departure date and time was April 20th at 10:00 AM.",
+        "UserId": "999-422-9202",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5d649bb8-496b-4431-a9e7-a21e47285096",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T06:13:13.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "Thank you, John. I can see here that your flight was indeed delayed. According to our policy, you are entitled to compensation. I can assist you with filing a claim right now if you'd like.",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0a411452-4a6a-44b5-8c07-b82fc9ddc8c8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-18T06:14:12.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "Yes, that would be great. Thank you, Lily!",
+        "UserId": "999-422-9202",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "82f97526-0870-4c65-8040-95d02f60582b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T06:15:45.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "You're welcome, John. I'll need some information from you, such as your flight and contact details. Let's start with your full name and flight confirmation number.",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "16c4d5ec-b399-4d3a-9010-2c5bf2adda27",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-18T06:17:25.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "My name is John Smith and my confirmation number is ABC123.",
+        "UserId": "999-422-9202",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0c09beb3-274e-4823-8e60-b6ffc489a17a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T06:18:50.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "Great, thank you. Let me just pull up your information... Alright, I see your flight was indeed delayed for a significant amount of time. I'll go ahead and submit your claim and you should receive compensation within the next few business days. Is there anything else I can assist you with today?",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4b7c1e01-ed12-4592-b4a2-5526f68ca507",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-18T06:19:04.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "No, that's all. Thank you for your help, Lily!",
+        "UserId": "999-422-9202",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "44a18863-58ab-4660-a66b-e8e2540cbdc0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-18T06:20:16.5946314-05:00",
+        "ConversationId": "035aa58a-d5e8-4add-adab-80d80ea0dccc",
+        "Value": "You're welcome, John. Don't hesitate to contact us if you need any further assistance in the future. Have a great day!",
+        "UserId": "T4CUGY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-18T06:09:23.5946314-05:00",
+    "EndTime": "2024-03-18T06:20:16.5946314-05:00",
+    "Merged_content": "Hello, thank you for contacting our travel agency. My name is Lily Young. How can I assist you today?Hi Lily, my name is John Smith and I have a complaint about my recent trip from Denver to Los Angeles. My flight was delayed for over 3 hours and I had to reschedule my entire day. I would like to know if I am entitled to any compensation.I'm sorry to hear that, John. Can you please provide me with your flight number and departure date and time so I can look into it?Sure, my flight was with United Airlines, flight number UA 1234, departure date and time was April 20th at 10:00 AM.Thank you, John. I can see here that your flight was indeed delayed. According to our policy, you are entitled to compensation. I can assist you with filing a claim right now if you'd like.Yes, that would be great. Thank you, Lily!You're welcome, John. I'll need some information from you, such as your flight and contact details. Let's start with your full name and flight confirmation number.My name is John Smith and my confirmation number is ABC123.Great, thank you. Let me just pull up your information... Alright, I see your flight was indeed delayed for a significant amount of time. I'll go ahead and submit your claim and you should receive compensation within the next few business days. Is there anything else I can assist you with today?No, that's all. Thank you for your help, Lily!You're welcome, John. Don't hesitate to contact us if you need any further assistance in the future. Have a great day!",
+    "Merged_content_user": "Hi Lily, my name is John Smith and I have a complaint about my recent trip from Denver to Los Angeles. My flight was delayed for over 3 hours and I had to reschedule my entire day. I would like to know if I am entitled to any compensation.Sure, my flight was with United Airlines, flight number UA 1234, departure date and time was April 20th at 10:00 AM.Yes, that would be great. Thank you, Lily!My name is John Smith and my confirmation number is ABC123.No, that's all. Thank you for your help, Lily!",
+    "Merged_content_agent": "Hello, thank you for contacting our travel agency. My name is Lily Young. How can I assist you today?I'm sorry to hear that, John. Can you please provide me with your flight number and departure date and time so I can look into it?Thank you, John. I can see here that your flight was indeed delayed. According to our policy, you are entitled to compensation. I can assist you with filing a claim right now if you'd like.You're welcome, John. I'll need some information from you, such as your flight and contact details. Let's start with your full name and flight confirmation number.Great, thank you. Let me just pull up your information... Alright, I see your flight was indeed delayed for a significant amount of time. I'll go ahead and submit your claim and you should receive compensation within the next few business days. Is there anything else I can assist you with today?You're welcome, John. Don't hesitate to contact us if you need any further assistance in the future. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for contacting our travel agency. My name is Lily Young. How can I assist you today?\nCustomer: Hi Lily, my name is John Smith and I have a complaint about my recent trip from Denver to Los Angeles. My flight was delayed for over 3 hours and I had to reschedule my entire day. I would like to know if I am entitled to any compensation.\nAgent: I'm sorry to hear that, John. Can you please provide me with your flight number and departure date and time so I can look into it?\nCustomer: Sure, my flight was with United Airlines, flight number UA 1234, departure date and time was April 20th at 10:00 AM.\nAgent: Thank you, John. I can see here that your flight was indeed delayed. According to our policy, you are entitled to compensation. I can assist you with filing a claim right now if you'd like.\nCustomer: Yes, that would be great. Thank you, Lily!\nAgent: You're welcome, John. I'll need some information from you, such as your flight and contact details. Let's start with your full name and flight confirmation number.\nCustomer: My name is John Smith and my confirmation number is ABC123.\nAgent: Great, thank you. Let me just pull up your information... Alright, I see your flight was indeed delayed for a significant amount of time. I'll go ahead and submit your claim and you should receive compensation within the next few business days. Is there anything else I can assist you with today?\nCustomer: No, that's all. Thank you for your help, Lily!\nAgent: You're welcome, John. Don't hesitate to contact us if you need any further assistance in the future. Have a great day!\n"
+  }
+}

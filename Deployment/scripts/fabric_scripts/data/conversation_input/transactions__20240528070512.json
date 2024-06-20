@@ -1,0 +1,184 @@
+{
+  "AgentName": "Amelia Hernandez",
+  "AgentId": "Q8BBAU",
+  "Team": "Southwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-908-3621",
+  "Conversation": {
+    "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+    "Messages": [
+      {
+        "Id": "c2d1bf2b-d44c-4744-b902-42e34d69d9d4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T07:05:25.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "Thank you for calling ABC Travel. My name is Amelia. How may I assist you today?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "737a6b94-9942-4527-9f5d-548e1e5560f2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T07:06:07.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "Hi Amelia, I'm John Smith. I'm having trouble with the travel portal, I can't access my itinerary.",
+        "UserId": "999-908-3621",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d4a48739-becf-4f65-98a5-81161cd4c8be",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T07:06:40.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with your booking reference number?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "af6771f2-c1e1-42e5-a4f3-aa6fd73bcc4a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T07:07:26.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "Sure, it's 123456789.",
+        "UserId": "999-908-3621",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c3db4a33-ebe8-402f-8b90-579a719dbd3d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T07:07:52.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "Thank you. I see that you have a flight from Dallas to New York on June 15th. Is that the itinerary you're having trouble with?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f3143f74-d892-4992-874b-5b9e12be1790",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T07:08:14.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "Yes, that's the one.",
+        "UserId": "999-908-3621",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f7d02ca9-cda4-4c28-9d7d-49ca654e0b51",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T07:08:59.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "I apologize for the inconvenience, John. Our IT team is currently working on a system update that might be causing issues. Can I log a ticket for you and send you an update once the issue is resolved?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6496fe81-4ae4-40a1-9879-2d90c01eb099",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T07:09:37.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "Yes, please do. How long do you think it will take to resolve the issue?",
+        "UserId": "999-908-3621",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "86e62947-728c-405c-8082-a94fa975f196",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T07:10:07.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "We expect the system update to be completed in the next 24 hours. I apologize for any inconvenience this may cause. Is there anything else I can assist you with?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0e81c9b4-557e-4385-a644-ec4c723cb217",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-28T07:10:48.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "No, that's all. Thank you for your help, Amelia.",
+        "UserId": "999-908-3621",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c81fe8dc-d823-418b-a465-a95ad49e3dcf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-28T07:11:34.3106987-05:00",
+        "ConversationId": "1e184023-92df-4404-8dc1-1bda03d0238e",
+        "Value": "You're welcome, John. Thank you for choosing ABC Travel. Have a great day!",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-28T07:05:12.3106987-05:00",
+    "EndTime": "2024-05-28T07:11:34.3106987-05:00",
+    "Merged_content": "Thank you for calling ABC Travel. My name is Amelia. How may I assist you today?Hi Amelia, I'm John Smith. I'm having trouble with the travel portal, I can't access my itinerary.I'm sorry to hear that, John. Can you please provide me with your booking reference number?Sure, it's 123456789.Thank you. I see that you have a flight from Dallas to New York on June 15th. Is that the itinerary you're having trouble with?Yes, that's the one.I apologize for the inconvenience, John. Our IT team is currently working on a system update that might be causing issues. Can I log a ticket for you and send you an update once the issue is resolved?Yes, please do. How long do you think it will take to resolve the issue?We expect the system update to be completed in the next 24 hours. I apologize for any inconvenience this may cause. Is there anything else I can assist you with?No, that's all. Thank you for your help, Amelia.You're welcome, John. Thank you for choosing ABC Travel. Have a great day!",
+    "Merged_content_user": "Hi Amelia, I'm John Smith. I'm having trouble with the travel portal, I can't access my itinerary.Sure, it's 123456789.Yes, that's the one.Yes, please do. How long do you think it will take to resolve the issue?No, that's all. Thank you for your help, Amelia.",
+    "Merged_content_agent": "Thank you for calling ABC Travel. My name is Amelia. How may I assist you today?I'm sorry to hear that, John. Can you please provide me with your booking reference number?Thank you. I see that you have a flight from Dallas to New York on June 15th. Is that the itinerary you're having trouble with?I apologize for the inconvenience, John. Our IT team is currently working on a system update that might be causing issues. Can I log a ticket for you and send you an update once the issue is resolved?We expect the system update to be completed in the next 24 hours. I apologize for any inconvenience this may cause. Is there anything else I can assist you with?You're welcome, John. Thank you for choosing ABC Travel. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling ABC Travel. My name is Amelia. How may I assist you today?\nCustomer: Hi Amelia, I'm John Smith. I'm having trouble with the travel portal, I can't access my itinerary.\nAgent: I'm sorry to hear that, John. Can you please provide me with your booking reference number?\nCustomer: Sure, it's 123456789.\nAgent: Thank you. I see that you have a flight from Dallas to New York on June 15th. Is that the itinerary you're having trouble with?\nCustomer: Yes, that's the one.\nAgent: I apologize for the inconvenience, John. Our IT team is currently working on a system update that might be causing issues. Can I log a ticket for you and send you an update once the issue is resolved?\nCustomer: Yes, please do. How long do you think it will take to resolve the issue?\nAgent: We expect the system update to be completed in the next 24 hours. I apologize for any inconvenience this may cause. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you for your help, Amelia.\nAgent: You're welcome, John. Thank you for choosing ABC Travel. Have a great day!\n"
+  }
+}

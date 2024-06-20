@@ -1,0 +1,169 @@
+{
+  "AgentName": "Liam Johnson",
+  "AgentId": "YVS2EM",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-434-6042",
+  "Conversation": {
+    "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+    "Messages": [
+      {
+        "Id": "516db293-1d92-460f-ae45-c77fcd5d64e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T18:05:44.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "Thank you for calling our travel agency, my name is Liam Johnson. How can I help you today?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6e11e777-57ae-486e-9ef9-926d48fa914e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T18:05:51.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "Hi Liam, I'm Sarah Smith and I'm having some trouble with the travel app I downloaded from your website.",
+        "UserId": "999-434-6042",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f33ca453-db7b-4c6c-918d-d26a886fb36f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T18:06:41.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "I'm sorry to hear that, Sarah. What seems to be the problem?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "61bbaaa4-fc11-4fce-807a-f4b4b3e9eebd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T18:06:55.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "Well, I downloaded the app to help manage my upcoming trip from Chicago to San Francisco. However, when I try to access my flight details, the app crashes and shuts down every time.",
+        "UserId": "999-434-6042",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1bf14ce8-14e6-4d5d-8ac5-f8acc9204890",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T18:07:06.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "I'm sorry for the inconvenience, Sarah. Let me see if we can troubleshoot this issue for you. Have you tried uninstalling and reinstalling the app?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5c3146b2-b313-49cb-9e34-5d2049c2284f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T18:07:33.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "Yes, I have tried that already and it didn't work.",
+        "UserId": "999-434-6042",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3cfd3581-5a51-4f28-bf91-1c1ca107c60f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T18:07:47.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "Okay, let me check if there are any known issues with the app and if we need to escalate this to our tech support team. Can you please provide me with your booking details such as your flight number and dates of travel?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "18d76c7e-bd96-4eee-9e14-f4ff9b0d9505",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T18:08:00.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "Sure, my flight details are as follows: American Airlines, flight AA123, departing from Chicago O'Hare airport on June 14, 2024 at 8:30 AM, arriving at San Francisco International airport at 11:45 AM.",
+        "UserId": "999-434-6042",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "480c4543-51fc-4dc7-95dc-8e28ecf2850e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-12T18:08:18.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "Thank you, Sarah. Let me check our system and get back to you within the next 24 hours with a resolution. Would you like me to send you an email or a text message with the update?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c4d33bb5-9e5a-4466-8e0e-2d6ae54630c9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-12T18:09:00.6588179-05:00",
+        "ConversationId": "b93c794d-c412-44c2-9466-0774757f2859",
+        "Value": "Yes, please email me at sarah.smith@email.com. Thank you for your help, Liam.",
+        "UserId": "999-434-6042",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-12T18:05:30.6588179-05:00",
+    "EndTime": "2024-05-12T18:09:00.6588179-05:00",
+    "Merged_content": "Thank you for calling our travel agency, my name is Liam Johnson. How can I help you today?Hi Liam, I'm Sarah Smith and I'm having some trouble with the travel app I downloaded from your website.I'm sorry to hear that, Sarah. What seems to be the problem?Well, I downloaded the app to help manage my upcoming trip from Chicago to San Francisco. However, when I try to access my flight details, the app crashes and shuts down every time.I'm sorry for the inconvenience, Sarah. Let me see if we can troubleshoot this issue for you. Have you tried uninstalling and reinstalling the app?Yes, I have tried that already and it didn't work.Okay, let me check if there are any known issues with the app and if we need to escalate this to our tech support team. Can you please provide me with your booking details such as your flight number and dates of travel?Sure, my flight details are as follows: American Airlines, flight AA123, departing from Chicago O'Hare airport on June 14, 2024 at 8:30 AM, arriving at San Francisco International airport at 11:45 AM.Thank you, Sarah. Let me check our system and get back to you within the next 24 hours with a resolution. Would you like me to send you an email or a text message with the update?Yes, please email me at sarah.smith@email.com. Thank you for your help, Liam.",
+    "Merged_content_user": "Hi Liam, I'm Sarah Smith and I'm having some trouble with the travel app I downloaded from your website.Well, I downloaded the app to help manage my upcoming trip from Chicago to San Francisco. However, when I try to access my flight details, the app crashes and shuts down every time.Yes, I have tried that already and it didn't work.Sure, my flight details are as follows: American Airlines, flight AA123, departing from Chicago O'Hare airport on June 14, 2024 at 8:30 AM, arriving at San Francisco International airport at 11:45 AM.Yes, please email me at sarah.smith@email.com. Thank you for your help, Liam.",
+    "Merged_content_agent": "Thank you for calling our travel agency, my name is Liam Johnson. How can I help you today?I'm sorry to hear that, Sarah. What seems to be the problem?I'm sorry for the inconvenience, Sarah. Let me see if we can troubleshoot this issue for you. Have you tried uninstalling and reinstalling the app?Okay, let me check if there are any known issues with the app and if we need to escalate this to our tech support team. Can you please provide me with your booking details such as your flight number and dates of travel?Thank you, Sarah. Let me check our system and get back to you within the next 24 hours with a resolution. Would you like me to send you an email or a text message with the update?",
+    "Full_conversation": "Agent: Thank you for calling our travel agency, my name is Liam Johnson. How can I help you today?\nCustomer: Hi Liam, I'm Sarah Smith and I'm having some trouble with the travel app I downloaded from your website.\nAgent: I'm sorry to hear that, Sarah. What seems to be the problem?\nCustomer: Well, I downloaded the app to help manage my upcoming trip from Chicago to San Francisco. However, when I try to access my flight details, the app crashes and shuts down every time.\nAgent: I'm sorry for the inconvenience, Sarah. Let me see if we can troubleshoot this issue for you. Have you tried uninstalling and reinstalling the app?\nCustomer: Yes, I have tried that already and it didn't work.\nAgent: Okay, let me check if there are any known issues with the app and if we need to escalate this to our tech support team. Can you please provide me with your booking details such as your flight number and dates of travel?\nCustomer: Sure, my flight details are as follows: American Airlines, flight AA123, departing from Chicago O'Hare airport on June 14, 2024 at 8:30 AM, arriving at San Francisco International airport at 11:45 AM.\nAgent: Thank you, Sarah. Let me check our system and get back to you within the next 24 hours with a resolution. Would you like me to send you an email or a text message with the update?\nCustomer: Yes, please email me at sarah.smith@email.com. Thank you for your help, Liam.\n"
+  }
+}

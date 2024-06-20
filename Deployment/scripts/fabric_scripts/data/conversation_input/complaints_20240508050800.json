@@ -1,0 +1,244 @@
+{
+  "AgentName": "Charlotte Martinez",
+  "AgentId": "MDQCWU",
+  "Team": "Northeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-617-9835",
+  "Conversation": {
+    "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+    "Messages": [
+      {
+        "Id": "2ee201b0-385d-4a9d-8ef2-3469c805f5b6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T05:09:36.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "Thank you for calling our travel agency. My name is Charlotte Martinez. How may I assist you today?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f2dc1b94-ac0c-4dad-8174-c5b4ed10e20e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T05:10:59.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "Hi Charlotte, my name is Alex Parker and I have an issue with my recent flight from New York to Los Angeles.",
+        "UserId": "999-617-9835",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8572e4bd-f7c1-4536-8de9-676f273a8842",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T05:12:04.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "I see, I'm sorry to hear that. Can you please tell me more about the issue you experienced?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "edff3d6c-773c-48e0-ba85-0c2789d468b6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T05:12:26.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "Yes, my flight was delayed by six hours and I wasn't notified until I arrived at the airport. When I asked for compensation, the airline staff wasn't helpful at all.",
+        "UserId": "999-617-9835",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f529bca2-7660-47ac-86a0-8e5e49f6a0b9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T05:12:55.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "I understand how frustrating that can be. Can you please provide me with your flight information and reservation number?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "547ef531-4734-4914-aa9f-7deb108a0f93",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T05:14:48.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "Yes, my airline was Delta, flight number DL198, departure date was January 15th at 10:00am and my reservation number is AB123456.",
+        "UserId": "999-617-9835",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "262ba05e-facf-4389-8794-ac8be15417e0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T05:15:24.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "Thank you for that information. I will take a look at our records and see what we can do to help you. Can I place you on a brief hold while I investigate further?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "880df296-30f9-460a-a180-3e80efc63605",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T05:17:06.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "Sure, I'll be here.",
+        "UserId": "999-617-9835",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6500a1a3-2e1e-4495-86ee-54e54780c85b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T05:18:14.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "Thank you for holding, Alex. I apologize for the inconvenience, but unfortunately, it seems that Delta Airlines is solely responsible for any compensation or assistance related to the delay of your flight.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "77d4ca3c-16a4-48a9-8298-831af65507ee",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T05:19:54.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "What? That's outrageous! I paid for the service of this travel agency, and I expect that you can help me solve this issue. Why can't you make Delta Airlines take responsibility for this?",
+        "UserId": "999-617-9835",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4c4c2f34-fe0c-481d-b610-aa6e9bfc8963",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T05:20:00.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "I completely understand your frustration, Alex. However, our agency does not have any authority over airline policies or procedures. We can certainly provide guidance and support, but ultimately, it is up to Delta Airlines to offer any compensation or assistance related to your flight delay.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4c1b3c3e-4a06-4490-aba5-811b2fb5c0f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T05:21:59.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "This is unacceptable. I paid good money to travel with your agency and I expect better customer service than this.",
+        "UserId": "999-617-9835",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cd21067b-e339-492e-8704-275bc94d489c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T05:22:04.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "I'm sorry you feel that way, Alex. Is there anything else I can assist you with today?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c3307802-a3f5-4600-980e-206d0c8d7b95",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-08T05:23:22.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "No, that will be all. Thank you for your help even though it wasn't what I expected.",
+        "UserId": "999-617-9835",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7cd5b22f-68da-40e1-b0a5-faa852aa7d4d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-08T05:24:15.8662976-05:00",
+        "ConversationId": "707b567f-5556-4fe4-b043-531648abf562",
+        "Value": "You're welcome. I'm sorry I couldn't offer more assistance today. Please don't hesitate to contact us again if you have any other questions or concerns in the future. Have a nice day, Alex.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-08T05:08:00.8662976-05:00",
+    "EndTime": "2024-05-08T05:24:15.8662976-05:00",
+    "Merged_content": "Thank you for calling our travel agency. My name is Charlotte Martinez. How may I assist you today?Hi Charlotte, my name is Alex Parker and I have an issue with my recent flight from New York to Los Angeles.I see, I'm sorry to hear that. Can you please tell me more about the issue you experienced?Yes, my flight was delayed by six hours and I wasn't notified until I arrived at the airport. When I asked for compensation, the airline staff wasn't helpful at all.I understand how frustrating that can be. Can you please provide me with your flight information and reservation number?Yes, my airline was Delta, flight number DL198, departure date was January 15th at 10:00am and my reservation number is AB123456.Thank you for that information. I will take a look at our records and see what we can do to help you. Can I place you on a brief hold while I investigate further?Sure, I'll be here.Thank you for holding, Alex. I apologize for the inconvenience, but unfortunately, it seems that Delta Airlines is solely responsible for any compensation or assistance related to the delay of your flight.What? That's outrageous! I paid for the service of this travel agency, and I expect that you can help me solve this issue. Why can't you make Delta Airlines take responsibility for this?I completely understand your frustration, Alex. However, our agency does not have any authority over airline policies or procedures. We can certainly provide guidance and support, but ultimately, it is up to Delta Airlines to offer any compensation or assistance related to your flight delay.This is unacceptable. I paid good money to travel with your agency and I expect better customer service than this.I'm sorry you feel that way, Alex. Is there anything else I can assist you with today?No, that will be all. Thank you for your help even though it wasn't what I expected.You're welcome. I'm sorry I couldn't offer more assistance today. Please don't hesitate to contact us again if you have any other questions or concerns in the future. Have a nice day, Alex.",
+    "Merged_content_user": "Hi Charlotte, my name is Alex Parker and I have an issue with my recent flight from New York to Los Angeles.Yes, my flight was delayed by six hours and I wasn't notified until I arrived at the airport. When I asked for compensation, the airline staff wasn't helpful at all.Yes, my airline was Delta, flight number DL198, departure date was January 15th at 10:00am and my reservation number is AB123456.Sure, I'll be here.What? That's outrageous! I paid for the service of this travel agency, and I expect that you can help me solve this issue. Why can't you make Delta Airlines take responsibility for this?This is unacceptable. I paid good money to travel with your agency and I expect better customer service than this.No, that will be all. Thank you for your help even though it wasn't what I expected.",
+    "Merged_content_agent": "Thank you for calling our travel agency. My name is Charlotte Martinez. How may I assist you today?I see, I'm sorry to hear that. Can you please tell me more about the issue you experienced?I understand how frustrating that can be. Can you please provide me with your flight information and reservation number?Thank you for that information. I will take a look at our records and see what we can do to help you. Can I place you on a brief hold while I investigate further?Thank you for holding, Alex. I apologize for the inconvenience, but unfortunately, it seems that Delta Airlines is solely responsible for any compensation or assistance related to the delay of your flight.I completely understand your frustration, Alex. However, our agency does not have any authority over airline policies or procedures. We can certainly provide guidance and support, but ultimately, it is up to Delta Airlines to offer any compensation or assistance related to your flight delay.I'm sorry you feel that way, Alex. Is there anything else I can assist you with today?You're welcome. I'm sorry I couldn't offer more assistance today. Please don't hesitate to contact us again if you have any other questions or concerns in the future. Have a nice day, Alex.",
+    "Full_conversation": "Agent: Thank you for calling our travel agency. My name is Charlotte Martinez. How may I assist you today?\nCustomer: Hi Charlotte, my name is Alex Parker and I have an issue with my recent flight from New York to Los Angeles.\nAgent: I see, I'm sorry to hear that. Can you please tell me more about the issue you experienced?\nCustomer: Yes, my flight was delayed by six hours and I wasn't notified until I arrived at the airport. When I asked for compensation, the airline staff wasn't helpful at all.\nAgent: I understand how frustrating that can be. Can you please provide me with your flight information and reservation number?\nCustomer: Yes, my airline was Delta, flight number DL198, departure date was January 15th at 10:00am and my reservation number is AB123456.\nAgent: Thank you for that information. I will take a look at our records and see what we can do to help you. Can I place you on a brief hold while I investigate further?\nCustomer: Sure, I'll be here.\nAgent: Thank you for holding, Alex. I apologize for the inconvenience, but unfortunately, it seems that Delta Airlines is solely responsible for any compensation or assistance related to the delay of your flight.\nCustomer: What? That's outrageous! I paid for the service of this travel agency, and I expect that you can help me solve this issue. Why can't you make Delta Airlines take responsibility for this?\nAgent: I completely understand your frustration, Alex. However, our agency does not have any authority over airline policies or procedures. We can certainly provide guidance and support, but ultimately, it is up to Delta Airlines to offer any compensation or assistance related to your flight delay.\nCustomer: This is unacceptable. I paid good money to travel with your agency and I expect better customer service than this.\nAgent: I'm sorry you feel that way, Alex. Is there anything else I can assist you with today?\nCustomer: No, that will be all. Thank you for your help even though it wasn't what I expected.\nAgent: You're welcome. I'm sorry I couldn't offer more assistance today. Please don't hesitate to contact us again if you have any other questions or concerns in the future. Have a nice day, Alex.\n"
+  }
+}

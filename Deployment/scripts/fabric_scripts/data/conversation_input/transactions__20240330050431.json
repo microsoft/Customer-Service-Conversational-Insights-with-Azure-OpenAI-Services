@@ -1,0 +1,154 @@
+{
+  "AgentName": "Grace King",
+  "AgentId": "ETKIYY",
+  "Team": "West",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-423-7745",
+  "Conversation": {
+    "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+    "Messages": [
+      {
+        "Id": "1366d095-24ca-40a6-b489-a54cb87b68d1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-30T05:04:32.9778305-05:00",
+        "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+        "Value": "Hello, thank you for calling the travel agency. My name is Grace King, how can I assist you today?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c4e07c52-baf6-457b-b814-6267b0f73ece",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-30T05:04:58.9778305-05:00",
+        "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+        "Value": "Hi Grace, I'm having some trouble with my travel plans. I need some tech support.",
+        "UserId": "999-423-7745",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c5d8ce75-174a-4446-85fa-4ae3d6b651ad",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-30T05:05:33.9778305-05:00",
+        "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+        "Value": "Of course, I'll do my best to help. Can you please tell me a bit more about the issue you're experiencing?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8d8efbc7-ffa7-46ec-b182-660e06f110fc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-30T05:05:34.9778305-05:00",
+        "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+        "Value": "I'm trying to book a flight from Los Angeles to New York, but I'm having trouble deciding on which airline to go with and what date to leave.",
+        "UserId": "999-423-7745",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8f018409-4ffe-44db-af29-b16117138eb1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-30T05:06:30.9778305-05:00",
+        "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+        "Value": "I understand. Let me pull up some options for you. Are you looking for a non-stop flight or are layovers okay?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f89af073-8014-47eb-a95f-5310cdbcb07a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-30T05:07:13.9778305-05:00",
+        "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+        "Value": "Non-stop would be great if possible, but if it's significantly cheaper I don't mind a layover. I just want to get there as quickly as possible.",
+        "UserId": "999-423-7745",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8519dd1c-13dd-4288-abf7-db65f3a259cf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-30T05:07:44.9778305-05:00",
+        "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+        "Value": "I see. Here are a few options for you to consider. American Airlines has a non-stop flight leaving LAX at 8am on June 18th and arriving in JFK at 3:30pm, for a total of $450. Delta Airlines has a non-stop flight leaving LAX at 11am on June 18th and arriving in JFK at 6:30pm, for a total of $475. Lastly, JetBlue Airways has a layover in Orlando, departing from LAX at 6am on June 18th and arriving in JFK at 11:15pm, for a total of $375. Which option sounds the best to you?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "33c0f3fc-306f-4cd2-8866-b76bc0d75270",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-03-30T05:08:21.9778305-05:00",
+        "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+        "Value": "Thank you for the options, Grace. I think I'll go with the American Airlines non-stop flight leaving at 8am on June 18th.",
+        "UserId": "999-423-7745",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bbd6b0b3-e861-4d73-be51-98f4972f4485",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-03-30T05:09:05.9778305-05:00",
+        "ConversationId": "31454a55-aed5-4241-8da9-da63cbb862c4",
+        "Value": "Great choice! Let me go ahead and book that for you. Can I have your name and payment information please?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-03-30T05:04:31.9778305-05:00",
+    "EndTime": "2024-03-30T05:09:05.9778305-05:00",
+    "Merged_content": "Hello, thank you for calling the travel agency. My name is Grace King, how can I assist you today?Hi Grace, I'm having some trouble with my travel plans. I need some tech support.Of course, I'll do my best to help. Can you please tell me a bit more about the issue you're experiencing?I'm trying to book a flight from Los Angeles to New York, but I'm having trouble deciding on which airline to go with and what date to leave.I understand. Let me pull up some options for you. Are you looking for a non-stop flight or are layovers okay?Non-stop would be great if possible, but if it's significantly cheaper I don't mind a layover. I just want to get there as quickly as possible.I see. Here are a few options for you to consider. American Airlines has a non-stop flight leaving LAX at 8am on June 18th and arriving in JFK at 3:30pm, for a total of $450. Delta Airlines has a non-stop flight leaving LAX at 11am on June 18th and arriving in JFK at 6:30pm, for a total of $475. Lastly, JetBlue Airways has a layover in Orlando, departing from LAX at 6am on June 18th and arriving in JFK at 11:15pm, for a total of $375. Which option sounds the best to you?Thank you for the options, Grace. I think I'll go with the American Airlines non-stop flight leaving at 8am on June 18th.Great choice! Let me go ahead and book that for you. Can I have your name and payment information please?",
+    "Merged_content_user": "Hi Grace, I'm having some trouble with my travel plans. I need some tech support.I'm trying to book a flight from Los Angeles to New York, but I'm having trouble deciding on which airline to go with and what date to leave.Non-stop would be great if possible, but if it's significantly cheaper I don't mind a layover. I just want to get there as quickly as possible.Thank you for the options, Grace. I think I'll go with the American Airlines non-stop flight leaving at 8am on June 18th.",
+    "Merged_content_agent": "Hello, thank you for calling the travel agency. My name is Grace King, how can I assist you today?Of course, I'll do my best to help. Can you please tell me a bit more about the issue you're experiencing?I understand. Let me pull up some options for you. Are you looking for a non-stop flight or are layovers okay?I see. Here are a few options for you to consider. American Airlines has a non-stop flight leaving LAX at 8am on June 18th and arriving in JFK at 3:30pm, for a total of $450. Delta Airlines has a non-stop flight leaving LAX at 11am on June 18th and arriving in JFK at 6:30pm, for a total of $475. Lastly, JetBlue Airways has a layover in Orlando, departing from LAX at 6am on June 18th and arriving in JFK at 11:15pm, for a total of $375. Which option sounds the best to you?Great choice! Let me go ahead and book that for you. Can I have your name and payment information please?",
+    "Full_conversation": "Agent: Hello, thank you for calling the travel agency. My name is Grace King, how can I assist you today?\nCustomer: Hi Grace, I'm having some trouble with my travel plans. I need some tech support.\nAgent: Of course, I'll do my best to help. Can you please tell me a bit more about the issue you're experiencing?\nCustomer: I'm trying to book a flight from Los Angeles to New York, but I'm having trouble deciding on which airline to go with and what date to leave.\nAgent: I understand. Let me pull up some options for you. Are you looking for a non-stop flight or are layovers okay?\nCustomer: Non-stop would be great if possible, but if it's significantly cheaper I don't mind a layover. I just want to get there as quickly as possible.\nAgent: I see. Here are a few options for you to consider. American Airlines has a non-stop flight leaving LAX at 8am on June 18th and arriving in JFK at 3:30pm, for a total of $450. Delta Airlines has a non-stop flight leaving LAX at 11am on June 18th and arriving in JFK at 6:30pm, for a total of $475. Lastly, JetBlue Airways has a layover in Orlando, departing from LAX at 6am on June 18th and arriving in JFK at 11:15pm, for a total of $375. Which option sounds the best to you?\nCustomer: Thank you for the options, Grace. I think I'll go with the American Airlines non-stop flight leaving at 8am on June 18th.\nAgent: Great choice! Let me go ahead and book that for you. Can I have your name and payment information please?\n"
+  }
+}

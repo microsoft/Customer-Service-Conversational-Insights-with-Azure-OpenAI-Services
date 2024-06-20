@@ -1,0 +1,199 @@
+{
+  "AgentName": "Sophia Moore",
+  "AgentId": "6SYKT5",
+  "Team": "Southwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-300-8988",
+  "Conversation": {
+    "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+    "Messages": [
+      {
+        "Id": "205d1bfb-28e2-4bc2-a907-90da92a857e6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-20T21:03:07.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "Thank you for calling ABC Travel. This is Sophia Moore. How may I assist you?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e372c621-40a6-4540-853f-cd224a9d4331",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-20T21:03:14.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "Yes, I need to discuss my recent trip from New York to Los Angeles. My flight was delayed for over 4 hours and caused me a lot of inconvenience.",
+        "UserId": "999-300-8988",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f804a8e6-f27f-4c93-ad1d-8e5816aadef9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-20T21:04:19.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "I'm sorry to hear that. Can you please provide me with your flight information?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a7918bcc-e21c-4fb2-9af2-f2d69b40ed0b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-20T21:04:53.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "Yes, I was flying on American Airlines flight AA102 on January 10th at 10:00am from JFK to LAX.",
+        "UserId": "999-300-8988",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2466adc2-0082-4dcd-8121-e7dd3904bfc7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-20T21:06:37.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "I see, I apologize for the inconvenience caused. May I know the reason for the delay?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "02fefbeb-14e4-4bb4-a92c-c72e16dbd8b8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-20T21:07:16.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "I was not given any reason for the delay and I also had to wait for my luggage for over an hour.",
+        "UserId": "999-300-8988",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "00844886-568b-4e1d-bd56-b51c111d52f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-20T21:08:40.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "I understand your frustration. As a travel agency, we do not have control over airline schedules or delays. However, I can assist you in filing a complaint with the airline and trying to get you some compensation.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9aa96539-ee26-4090-9b54-2d44a7339ac8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-20T21:09:21.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "That's not enough for me. I demand a full refund and compensation for the inconvenience and stress caused.",
+        "UserId": "999-300-8988",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0c7a4231-81c7-4d06-a5db-87638ed0c298",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-20T21:11:10.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "I understand your frustration, but as a travel agency, we do not have the authority to issue refunds. However, I will try my best to escalate this issue to the airline and see if they can issue any compensation.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "173cc88b-ee39-4679-bf05-38876dcec80c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-20T21:11:35.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "I am extremely disappointed with your service and will be taking my business elsewhere in the future.",
+        "UserId": "999-300-8988",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fd8c28a2-e47e-466a-b4da-df788f6c3616",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-05-20T21:12:23.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "I'm sorry to hear that. Is there anything else I can assist you with?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "62f7d8a6-796d-44cc-9bc1-746d30d77bff",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-05-20T21:12:40.1427008-05:00",
+        "ConversationId": "fac1143b-d92e-4651-80ff-f391b6a6fec7",
+        "Value": "No, that's all.",
+        "UserId": "999-300-8988",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-05-20T21:02:35.1427008-05:00",
+    "EndTime": "2024-05-20T21:12:40.1427008-05:00",
+    "Merged_content": "Thank you for calling ABC Travel. This is Sophia Moore. How may I assist you?Yes, I need to discuss my recent trip from New York to Los Angeles. My flight was delayed for over 4 hours and caused me a lot of inconvenience.I'm sorry to hear that. Can you please provide me with your flight information?Yes, I was flying on American Airlines flight AA102 on January 10th at 10:00am from JFK to LAX.I see, I apologize for the inconvenience caused. May I know the reason for the delay?I was not given any reason for the delay and I also had to wait for my luggage for over an hour.I understand your frustration. As a travel agency, we do not have control over airline schedules or delays. However, I can assist you in filing a complaint with the airline and trying to get you some compensation.That's not enough for me. I demand a full refund and compensation for the inconvenience and stress caused.I understand your frustration, but as a travel agency, we do not have the authority to issue refunds. However, I will try my best to escalate this issue to the airline and see if they can issue any compensation.I am extremely disappointed with your service and will be taking my business elsewhere in the future.I'm sorry to hear that. Is there anything else I can assist you with?No, that's all.",
+    "Merged_content_user": "Yes, I need to discuss my recent trip from New York to Los Angeles. My flight was delayed for over 4 hours and caused me a lot of inconvenience.Yes, I was flying on American Airlines flight AA102 on January 10th at 10:00am from JFK to LAX.I was not given any reason for the delay and I also had to wait for my luggage for over an hour.That's not enough for me. I demand a full refund and compensation for the inconvenience and stress caused.I am extremely disappointed with your service and will be taking my business elsewhere in the future.No, that's all.",
+    "Merged_content_agent": "Thank you for calling ABC Travel. This is Sophia Moore. How may I assist you?I'm sorry to hear that. Can you please provide me with your flight information?I see, I apologize for the inconvenience caused. May I know the reason for the delay?I understand your frustration. As a travel agency, we do not have control over airline schedules or delays. However, I can assist you in filing a complaint with the airline and trying to get you some compensation.I understand your frustration, but as a travel agency, we do not have the authority to issue refunds. However, I will try my best to escalate this issue to the airline and see if they can issue any compensation.I'm sorry to hear that. Is there anything else I can assist you with?",
+    "Full_conversation": "Agent: Thank you for calling ABC Travel. This is Sophia Moore. How may I assist you?\nCustomer: Yes, I need to discuss my recent trip from New York to Los Angeles. My flight was delayed for over 4 hours and caused me a lot of inconvenience.\nAgent: I'm sorry to hear that. Can you please provide me with your flight information?\nCustomer: Yes, I was flying on American Airlines flight AA102 on January 10th at 10:00am from JFK to LAX.\nAgent: I see, I apologize for the inconvenience caused. May I know the reason for the delay?\nCustomer: I was not given any reason for the delay and I also had to wait for my luggage for over an hour.\nAgent: I understand your frustration. As a travel agency, we do not have control over airline schedules or delays. However, I can assist you in filing a complaint with the airline and trying to get you some compensation.\nCustomer: That's not enough for me. I demand a full refund and compensation for the inconvenience and stress caused.\nAgent: I understand your frustration, but as a travel agency, we do not have the authority to issue refunds. However, I will try my best to escalate this issue to the airline and see if they can issue any compensation.\nCustomer: I am extremely disappointed with your service and will be taking my business elsewhere in the future.\nAgent: I'm sorry to hear that. Is there anything else I can assist you with?\nCustomer: No, that's all.\n"
+  }
+}
