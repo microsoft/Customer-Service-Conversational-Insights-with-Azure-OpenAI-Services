@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.28.1.47646",
-      "templateHash": "12812951896050089732"
+      "templateHash": "8858477527853866674"
     }
   },
   "parameters": {
@@ -140,7 +140,7 @@
             "_generator": {
               "name": "bicep",
               "version": "0.28.1.47646",
-              "templateHash": "13579945607876056775"
+              "templateHash": "8537007800307151650"
             }
           },
           "parameters": {
@@ -191,7 +191,8 @@
               "value": {
                 "cogServiceName": "[parameters('accounts_byc_cogser_name')]",
                 "cogServiceKey": "[listKeys(resourceId('Microsoft.CognitiveServices/accounts', parameters('accounts_byc_cogser_name')), '2023-05-01').key1]",
-                "cogServiceEndpoint": "[reference(resourceId('Microsoft.CognitiveServices/accounts', parameters('accounts_byc_cogser_name')), '2023-05-01').endpoint]"
+                "cogServiceEndpoint": "[reference(resourceId('Microsoft.CognitiveServices/accounts', parameters('accounts_byc_cogser_name')), '2023-05-01').endpoint]",
+                "cogServiceRegion": "[reference(resourceId('Microsoft.CognitiveServices/accounts', parameters('accounts_byc_cogser_name')), '2023-05-01', 'full').location]"
               }
             }
           }
@@ -342,6 +343,9 @@
           "cogServiceKey": {
             "value": "[reference(resourceId('Microsoft.Resources/deployments', 'deploy_azure_ai_service'), '2022-09-01').outputs.cogSearchOutput.value.cogServiceKey]"
           },
+          "cogServiceRegion": {
+            "value": "[reference(resourceId('Microsoft.Resources/deployments', 'deploy_azure_ai_service'), '2022-09-01').outputs.cogSearchOutput.value.cogServiceRegion]"
+          },
           "enableSoftDelete": {
             "value": false
           }
@@ -353,7 +357,7 @@
             "_generator": {
               "name": "bicep",
               "version": "0.28.1.47646",
-              "templateHash": "12080442094799083554"
+              "templateHash": "12149961923112846409"
             }
           },
           "parameters": {
@@ -492,6 +496,9 @@
             },
             "cogServiceName": {
               "type": "string"
+            },
+            "cogServiceRegion": {
+              "type": "string"
             }
           },
           "variables": {
@@ -628,6 +635,17 @@
               "name": "[format('{0}/{1}', parameters('kvName'), 'COG-SERVICES-NAME')]",
               "properties": {
                 "value": "[parameters('cogServiceName')]"
+              },
+              "dependsOn": [
+                "[resourceId('Microsoft.KeyVault/vaults', parameters('kvName'))]"
+              ]
+            },
+            {
+              "type": "Microsoft.KeyVault/vaults/secrets",
+              "apiVersion": "2021-11-01-preview",
+              "name": "[format('{0}/{1}', parameters('kvName'), 'COG-SERVICES-REGION')]",
+              "properties": {
+                "value": "[parameters('cogServiceRegion')]"
               },
               "dependsOn": [
                 "[resourceId('Microsoft.KeyVault/vaults', parameters('kvName'))]"

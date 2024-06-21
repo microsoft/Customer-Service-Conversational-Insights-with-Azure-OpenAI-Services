@@ -86,6 +86,7 @@ param cogServiceEndpoint string
 @secure()
 param cogServiceKey string
 param cogServiceName string
+param cogServiceRegion string
 
 resource keyVault 'Microsoft.KeyVault/vaults@2022-07-01' = {
   name: kvName
@@ -301,6 +302,14 @@ resource cogServiceNameEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-previ
   name: 'COG-SERVICES-NAME'
   properties: {
     value: cogServiceName
+  }
+}
+
+resource cogServiceRegionEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-preview' = {
+  parent: keyVault
+  name: 'COG-SERVICES-REGION'
+  properties: {
+    value: cogServiceRegion
   }
 }
 
