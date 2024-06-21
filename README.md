@@ -48,20 +48,6 @@ Unstructured (call transcripts) and structured (operational metrics) data are bo
 #### Targeted decision enablement​
 Enable agents and managers to achieve glanceable insight recognition, corollary information analysis, and accelerated decision making​
 
-### When to use this repo
-TBD
-
-Here is a comparison table with a few features offered by Azure, an available GitHub demo sample and this repo, that can provide guidance when you need to decide which one to use:
-
-| Name	| Feature or Sample? |	What is it? | When to use? |
-| ---------|---------|---------|---------|
-|[Conversation Knowledge Mining](https://aka.ms/CSAGoldStandards/ConversationKnowledgeMining) | Azure sample |Azure Open AI based accelerator to analyze structured and unstructured data. The solution uses Fabric data pipelines, Power BI visualization Aure AI services to generate LLM based conversational analytics and operational metrics-based analytics for business analytics solution|TBD|
-|TBD|TBD|TBD|TBD|
-|TBD|TBD|TBD|TBD|
-|TBD|TBD|TBD|TBD|
-|TBD|TBD|TBD|TBD|
-
-
 ### Products used/licenses required
 
 -   Azure Speech Service
