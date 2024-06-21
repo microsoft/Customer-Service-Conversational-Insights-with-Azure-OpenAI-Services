@@ -232,55 +232,6 @@ resource azureOpenAIEndpointEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-
   }
 }
 
-// resource azureSearchAdminKeyEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-preview' = {
-//   parent: keyVault
-//   name: 'AZURE-SEARCH-KEY'
-//   properties: {
-//     value: azureSearchAdminKey
-//   }
-// }
-
-// resource azureSearchServiceEndpointEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-preview' = {
-//   parent: keyVault
-//   name: 'AZURE-SEARCH-ENDPOINT'
-//   properties: {
-//     value: azureSearchServiceEndpoint
-//   }
-// }
-
-// resource azureSearchServiceEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-preview' = {
-//   parent: keyVault
-//   name: 'AZURE-SEARCH-SERVICE'
-//   properties: {
-//     value: azureSearchServiceName
-//   }
-// }
-
-// resource azureSearchArticlesIndexEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-preview' = {
-//   parent: keyVault
-//   name: 'AZURE-SEARCH-INDEX-ARTICLES'
-//   properties: {
-//     value: azureSearchArticlesIndex
-//   }
-// }
-
-// resource azureSearchGrantsIndexEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-preview' = {
-//   parent: keyVault
-//   name: 'AZURE-SEARCH-INDEX-GRANTS'
-//   properties: {
-//     value: azureSearchGrantsIndex
-//   }
-// }
-
-// resource azureSearchDraftsIndexEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-preview' = {
-//   parent: keyVault
-//   name: 'AZURE-SEARCH-INDEX-DRAFTS'
-//   properties: {
-//     value: azureSearchDraftsIndex
-//   }
-// }
-
-
 resource cogServiceEndpointEntry 'Microsoft.KeyVault/vaults/secrets@2021-11-01-preview' = {
   parent: keyVault
   name: 'COG-SERVICES-ENDPOINT'
