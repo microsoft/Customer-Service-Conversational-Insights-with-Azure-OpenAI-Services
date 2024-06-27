@@ -121,7 +121,7 @@ Simple deploy
     2.  Select Fabric Workspace
     3.  Click `Select`
     4.  After publish is complete, navigate to Fabric Workspace
-    5.  Click `...` next to the Semenatic model for Power BI report
+    5.  Click `...` next to the Semantic model for Power BI report
     6.  Click on `Settings` 
     7.  Click on `Edit credentials` (under Data source credentials)
     8.  Select `OAuth2` for the Authentication method
