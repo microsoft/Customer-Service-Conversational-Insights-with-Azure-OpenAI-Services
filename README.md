@@ -84,39 +84,51 @@ Simple deploy
     4.  Open Workspace
     5.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
 
-3.   **Deploy Fabric resources and artifacts**
-     1.   Navigate to ([Azure Portal](https://portal.azure.com/))
-     2.   Click on Azure Cloud Shell in the top right of navigation Menu (add image)
-     3.   Run the run the following command: 
-          1.   ```az login``` ***Follow instructions in Azure Cloud Shell for login instructions
-          2.   ```rm -rf ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
-          3.   ```git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
-          4.   ```cd ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/Deployment/scripts/fabric_scripts```
-          5.   ```sh ./run_fabric_items_scripts.sh keyvault_param workspaceid_param solutionprefix_param```
-               1.   keyvault_param - the name of the keyvault that was created in Step 1
-               2.   workspaceid_param - the workspaceid created in Step 2
-               3.   solutionprefix_param - prefix used to append to lakehouse upon creation
-     4.  Get Fabric Lakehouse connection details:
-         1.   Once deployment is complete, navigate to Fabric Workspace
-         2.   Find Lakehouse in workspace (ex.lakehouse_*solutionprefix_param*)
-         3.   Click on the ```...``` next to the SQL Analytics Endpoint
-         4.   Click on ```Copy SQL connection string```
-         5.   Click Copy button in popup window.
-     5.   Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
-4.   **Deploy Power BI report**
-     1.   Download the .pbix file from the [Reports folder](Deployment/Reports/).
-     2.   Open Power BI report in Power BI Dashboard
-     3.   Click on Transform Data menu option from the Task Bar
-     4.   Click Data source settings
-     5.   Click Change Source...
-     6.   Input the Server link (from Fabric Workspace)
-     7.   Input Database name (from Fabric Workspace)
-     8.   Click OK
-     9.   Click Edit Permissions
-     10.  If not signed in, sign in your credentials and proceed to click OK
-     11.  Click Close
-     12.  Report should refresh with need connection.
-5.  **Schedule Post-Processing Notebook**  
+3.  **Deploy Fabric resources and artifacts**
+    1.   Navigate to ([Azure Portal](https://portal.azure.com/))
+    2.   Click on Azure Cloud Shell in the top right of navigation Menu (add image)
+    3.   Run the run the following commands:  
+         1.   ```az login``` ***Follow instructions in Azure Cloud Shell for login instructions
+         2.   ```rm -rf ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
+         3.   ```git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
+         4.   ```cd ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/Deployment/scripts/fabric_scripts```
+         5.   ```sh ./run_fabric_items_scripts.sh keyvault_param workspaceid_param solutionprefix_param```
+              1.   keyvault_param - the name of the keyvault that was created in Step 1
+              2.   workspaceid_param - the workspaceid created in Step 2
+              3.   solutionprefix_param - prefix used to append to lakehouse upon creation
+    4.  Get Fabric Lakehouse connection details:
+    5.   Once deployment is complete, navigate to Fabric Workspace
+    6.   Find Lakehouse in workspace (ex.lakehouse_*solutionprefix_param*)
+    7.   Click on the ```...``` next to the SQL Analytics Endpoint
+    8.   Click on ```Copy SQL connection string```
+    9.   Click Copy button in popup window.
+    10.  Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
+4.  **Open Power BI report**
+    1.   Download the .pbix file from the [Reports folder](Deployment/Reports/).
+    2.   Open Power BI report in Power BI Dashboard
+    3.   Click on `Transform Data` menu option from the Task Bar
+    4.   Click `Data source settings`
+    5.   Click `Change Source...`
+    6.   Input the Server link (from Fabric Workspace)
+    7.   Input Database name (the lakehouse name from Fabric Workspace)
+    8.   Click `OK`
+    9.   Click `Edit Permissions`
+    10.  If not signed in, sign in your credentials and proceed to click OK
+    11.  Click `Close`
+    12.  Report should refresh with new connection.
+5.  **Publish Power BI**
+    1.  Click `Publish` (from PBI report in Power BI Desktop application)
+    2.  Select Fabric Workspace
+    3.  Click `Select`
+    4.  After publish is complete, navigate to Fabric Workspace
+    5.  Click `...` next to the Semenatic model for Power BI report
+    6.  Click on `Settings` 
+    7.  Click on `Edit credentials` (under Data source credentials)
+    8.  Select `OAuth2` for the Authentication method
+    9.  Select option for `Privacy level setting for this data source`
+    10. Click `Sign in`
+    11. Navigate back to Fabric workspace and click on Power BI report
+6.  **Schedule Post-Processing Notebook**  
     It is essential to update dates daily as they advance based on the current day at the time of deployment. Since the Power BI report relies on the current date, we highly recommend scheduling or running the 03_post_processing notebook daily in the workspace. Please note that this process modifies the original date of the processed data. If you do not wish to run this, do not execute the 03_post_processing notebook.
     
     To schedule the notebook, follow these steps:
@@ -129,9 +141,10 @@ Simple deploy
 
 ### Process audio files
 Currently, audio files are not processed during deployment. To manually process audio files, follow these steps:
-- Open the pipeline_notebook 
+- Open the `pipeline_notebook`
+- Comment out cell 2 (only if there are zero files in the `conversation_input` data folder waiting for JSON processing)
 - Uncomment cells 3 and 4
-- Run pipeline_notebook
+- Run `pipeline_notebook`
 
 
 ### Upload additional files
