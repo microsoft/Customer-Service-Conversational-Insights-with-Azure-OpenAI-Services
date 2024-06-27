@@ -10,7 +10,7 @@ User story
 
 ### Overview
 
-This solution accelerator improves contact center operations by summarizing customer conversations and using AI to identify key phrases. By integrating conversational analytics alongside operational metrics, users can discover corollary insights for targeted business impact.​
+This solution accelerator enables customers with large amounts of conversational data to use generative AI to surface key phrases alongside operational metrics. This enables users to discover valuable insights for targeted business impact.
 
 ### Technical key features
 
