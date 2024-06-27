@@ -8,9 +8,9 @@ We have seen successful transcription of files up to 15MB in size but some very 
 Contact center conversations may be uploaded directly as audio to the `audio_input` folder in the Fabric lakehouse along with an associated conversation audio metadata .CSV file. Below is a sample structure of a conversation audio metadata .CSV file:
 ```csv
 ConversationId,StartTime,EndTime,CallerId,CallReason,ResolutionStatus,AgentId,AgentName,Team,FileName
-19d35564-fbc7-4491-8c77-57ec63c5be75,4/7/2024 14:28, 4/7/2024 2:30:36 PM,999-304-5535,Tech Support,Unresolved,Q8BBAU,Amelia Hernandez,West, Travel_20240407142802.wav
-341aee84-da8b-4630-8ff3-4fc8ffb99aa7,4/13/2024 7:28, 4/13/2024 7:30:21 AM,999-994-9470,Transactions,Resolved,7J8IBO,Aiden Clark,Midwest, Travel_20240413072810.wav
-acb6e950-0aa6-442f-b863-fad3234938c2,4/17/2024 13:28, 4/17/2024 1:31:53 PM,999-167-6915,Complaints,Unresolved,WVBORA,Emma Davis,Southeast, Travel_20240417132839.wav
+19d35564-fbc7-4491-8c77-57ec63c5be75,4/7/2024 2:28:36 PM, 4/7/2024 2:30:36 PM,999-304-5535,Tech Support,Unresolved,Q8BBAU,Amelia Hernandez,West, Travel_20240407142802.wav
+341aee84-da8b-4630-8ff3-4fc8ffb99aa7,4/13/2024 7:28:21 AM, 4/13/2024 7:30:21 AM,999-994-9470,Transactions,Resolved,7J8IBO,Aiden Clark,Midwest, Travel_20240413072810.wav
+acb6e950-0aa6-442f-b863-fad3234938c2,4/17/2024 1:28:53 AM, 4/17/2024 1:31:53 PM,999-167-6915,Complaints,Unresolved,WVBORA,Emma Davis,Southeast, Travel_20240417132839.wav
 ```
 
 
