@@ -367,7 +367,6 @@ function UpdateResults(data, answer) {
             resultsHtml += `<div id="resultdiv${i}" class="${classList}" onclick="ShowDocument('${id}', ${i + 1});">
                                     <div class="search-result">
                                         ${imageContent}
-
                                         <div class="results-body">
                                             ${previewAllContent}
                                         </div>
