@@ -529,6 +529,9 @@
                   },
                   "DeploymentId": {
                       "value": "[parameters('speechDeploymentId')]"
+                  },
+                  "CompletedServiceBusConnectionString": {
+                      "value": ""
                   }
               }
           }
@@ -829,8 +832,8 @@
               "openai_function_key": "[variables('clientKey')]",
               "deployment_type": "audio",
               "OPENAI_PROMPT_KEYS": "[parameters('OPENAI_PROMPT_KEYS')]",
-              "audio_user_channel": "[parameters('audio_user_channel')]"
-          }
+              "audio_user_channel": "[parameters('audio_user_channel')]"          
+              }
       },
       {
           "type": "Microsoft.Web/sites",
