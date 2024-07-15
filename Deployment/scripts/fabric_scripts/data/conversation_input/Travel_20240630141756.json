@@ -1,0 +1,229 @@
+{
+  "AgentName": "Benjamin Lee",
+  "AgentId": "2JE9H6",
+  "Team": "Midwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-443-2937",
+  "Conversation": {
+    "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+    "Messages": [
+      {
+        "Id": "b1da2c04-5816-4d0f-9fda-227d5c1659ae",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:20:20.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Thank you for calling Woodgrove Travel. My name is Benjamin Lee. How can I assist you today?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c5b66917-1b31-4195-9e2d-9b4a6113cd27",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:22:57.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Hi Benjamin, this is Sarah Johnson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with the airline and hotel. I need some help resolving the issues.",
+        "UserId": "999-443-2937",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ce964b41-f549-4a05-822d-177c704760ae",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:23:52.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "I'm sorry to hear about your experience, Sarah. Could you please provide me with the details of what happened?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2318b85b-3b8f-4272-bd49-9201109fa86a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:25:45.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Absolutely! First, my flight on Contoso Airways, flight number CA123, was delayed for over 4 hours without any explanation. It caused me to miss an important meeting in Los Angeles. Secondly, the hotel I stayed at, Fabrikam Hotel, had a dirty room and rude staff. It was a horrible stay.",
+        "UserId": "999-443-2937",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "91f6e3e3-3ed4-4476-906c-adb7bbeda4d8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:27:55.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "I understand your frustration, Sarah. Let me check what I can do to assist you. Regarding the flight delay, do you have the date and time of the departure?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "51a6b10f-d609-4ca9-8b80-bdd4d60b3fc6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:29:18.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Yes, the flight was scheduled to depart from Chicago O'Hare International Airport on July 10th at 10:00 AM.",
+        "UserId": "999-443-2937",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b1259faf-5a14-4497-b0dd-29322e539cc9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:30:18.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Thank you for the information, Sarah. I apologize for the inconvenience caused by the delay. Let me reach out to Contoso Airways and see if there's any compensation or alternative options available for you.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ee0c6fde-8d14-4337-b522-d19ffe982c01",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:32:53.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Regarding your experience at Fabrikam Hotel, do you have the reservation number and the date of your stay?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "49c95005-2721-44c9-a757-a2bbbbf0d97a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:34:33.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Yes, my reservation number was F123456 and I stayed at the hotel from July 10th to July 15th.",
+        "UserId": "999-443-2937",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "62f6cbbb-ea3a-4b18-aab8-c2e0f0927554",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:37:18.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Thank you for providing that, Sarah. I'm sorry to hear about the cleanliness and behavior issues at Fabrikam Hotel. Let me contact the hotel management and address this matter on your behalf.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8f675062-844b-40b4-afe4-90b2b79e4b12",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:37:53.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Please make sure to escalate these issues because I am extremely dissatisfied with both the airline and the hotel. I expected a much better travel experience.",
+        "UserId": "999-443-2937",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "60862a4c-a7ed-4b22-ace9-32ef1580aab7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:39:55.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "I completely understand your frustration, Sarah. Rest assured, I will do everything I can to assist you and ensure these issues are properly addressed. Please give me some time to contact both Contoso Airways and Fabrikam Hotel. I will get back to you as soon as I have an update.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cf97eba7-12d0-43ad-b8c6-d29ed20d1eff",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:40:34.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "Alright, but I expect a prompt resolution to these issues. This has been a terrible travel experience for me.",
+        "UserId": "999-443-2937",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "61100f9d-4bd5-402d-b393-12359c122506",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:42:44.7473395-07:00",
+        "ConversationId": "4cc965af-5721-45d2-b2f0-55940fd80cae",
+        "Value": "I understand your urgency, Sarah. Rest assured, I will prioritize resolving these issues for you. Thank you for your patience and understanding. I will be in touch soon with an update.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-30T14:17:56.7473395-07:00",
+    "EndTime": "2024-06-30T14:42:44.7473395-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. My name is Benjamin Lee. How can I assist you today?Hi Benjamin, this is Sarah Johnson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with the airline and hotel. I need some help resolving the issues.I'm sorry to hear about your experience, Sarah. Could you please provide me with the details of what happened?Absolutely! First, my flight on Contoso Airways, flight number CA123, was delayed for over 4 hours without any explanation. It caused me to miss an important meeting in Los Angeles. Secondly, the hotel I stayed at, Fabrikam Hotel, had a dirty room and rude staff. It was a horrible stay.I understand your frustration, Sarah. Let me check what I can do to assist you. Regarding the flight delay, do you have the date and time of the departure?Yes, the flight was scheduled to depart from Chicago O'Hare International Airport on July 10th at 10:00 AM.Thank you for the information, Sarah. I apologize for the inconvenience caused by the delay. Let me reach out to Contoso Airways and see if there's any compensation or alternative options available for you.Regarding your experience at Fabrikam Hotel, do you have the reservation number and the date of your stay?Yes, my reservation number was F123456 and I stayed at the hotel from July 10th to July 15th.Thank you for providing that, Sarah. I'm sorry to hear about the cleanliness and behavior issues at Fabrikam Hotel. Let me contact the hotel management and address this matter on your behalf.Please make sure to escalate these issues because I am extremely dissatisfied with both the airline and the hotel. I expected a much better travel experience.I completely understand your frustration, Sarah. Rest assured, I will do everything I can to assist you and ensure these issues are properly addressed. Please give me some time to contact both Contoso Airways and Fabrikam Hotel. I will get back to you as soon as I have an update.Alright, but I expect a prompt resolution to these issues. This has been a terrible travel experience for me.I understand your urgency, Sarah. Rest assured, I will prioritize resolving these issues for you. Thank you for your patience and understanding. I will be in touch soon with an update.",
+    "Merged_content_user": "Hi Benjamin, this is Sarah Johnson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with the airline and hotel. I need some help resolving the issues.Absolutely! First, my flight on Contoso Airways, flight number CA123, was delayed for over 4 hours without any explanation. It caused me to miss an important meeting in Los Angeles. Secondly, the hotel I stayed at, Fabrikam Hotel, had a dirty room and rude staff. It was a horrible stay.Yes, the flight was scheduled to depart from Chicago O'Hare International Airport on July 10th at 10:00 AM.Yes, my reservation number was F123456 and I stayed at the hotel from July 10th to July 15th.Please make sure to escalate these issues because I am extremely dissatisfied with both the airline and the hotel. I expected a much better travel experience.Alright, but I expect a prompt resolution to these issues. This has been a terrible travel experience for me.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. My name is Benjamin Lee. How can I assist you today?I'm sorry to hear about your experience, Sarah. Could you please provide me with the details of what happened?I understand your frustration, Sarah. Let me check what I can do to assist you. Regarding the flight delay, do you have the date and time of the departure?Thank you for the information, Sarah. I apologize for the inconvenience caused by the delay. Let me reach out to Contoso Airways and see if there's any compensation or alternative options available for you.Regarding your experience at Fabrikam Hotel, do you have the reservation number and the date of your stay?Thank you for providing that, Sarah. I'm sorry to hear about the cleanliness and behavior issues at Fabrikam Hotel. Let me contact the hotel management and address this matter on your behalf.I completely understand your frustration, Sarah. Rest assured, I will do everything I can to assist you and ensure these issues are properly addressed. Please give me some time to contact both Contoso Airways and Fabrikam Hotel. I will get back to you as soon as I have an update.I understand your urgency, Sarah. Rest assured, I will prioritize resolving these issues for you. Thank you for your patience and understanding. I will be in touch soon with an update.",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. My name is Benjamin Lee. How can I assist you today?\nCustomer: Hi Benjamin, this is Sarah Johnson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with the airline and hotel. I need some help resolving the issues.\nAgent: I'm sorry to hear about your experience, Sarah. Could you please provide me with the details of what happened?\nCustomer: Absolutely! First, my flight on Contoso Airways, flight number CA123, was delayed for over 4 hours without any explanation. It caused me to miss an important meeting in Los Angeles. Secondly, the hotel I stayed at, Fabrikam Hotel, had a dirty room and rude staff. It was a horrible stay.\nAgent: I understand your frustration, Sarah. Let me check what I can do to assist you. Regarding the flight delay, do you have the date and time of the departure?\nCustomer: Yes, the flight was scheduled to depart from Chicago O'Hare International Airport on July 10th at 10:00 AM.\nAgent: Thank you for the information, Sarah. I apologize for the inconvenience caused by the delay. Let me reach out to Contoso Airways and see if there's any compensation or alternative options available for you.\nAgent: Regarding your experience at Fabrikam Hotel, do you have the reservation number and the date of your stay?\nCustomer: Yes, my reservation number was F123456 and I stayed at the hotel from July 10th to July 15th.\nAgent: Thank you for providing that, Sarah. I'm sorry to hear about the cleanliness and behavior issues at Fabrikam Hotel. Let me contact the hotel management and address this matter on your behalf.\nCustomer: Please make sure to escalate these issues because I am extremely dissatisfied with both the airline and the hotel. I expected a much better travel experience.\nAgent: I completely understand your frustration, Sarah. Rest assured, I will do everything I can to assist you and ensure these issues are properly addressed. Please give me some time to contact both Contoso Airways and Fabrikam Hotel. I will get back to you as soon as I have an update.\nCustomer: Alright, but I expect a prompt resolution to these issues. This has been a terrible travel experience for me.\nAgent: I understand your urgency, Sarah. Rest assured, I will prioritize resolving these issues for you. Thank you for your patience and understanding. I will be in touch soon with an update.\n"
+  }
+}

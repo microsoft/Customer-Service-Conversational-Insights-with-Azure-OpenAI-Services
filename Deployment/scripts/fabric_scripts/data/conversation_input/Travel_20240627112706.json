@@ -1,0 +1,214 @@
+{
+  "AgentName": "Isaac Wright",
+  "AgentId": "AFRZLT",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-195-7823",
+  "Conversation": {
+    "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+    "Messages": [
+      {
+        "Id": "74b7c19e-495e-4b77-82ff-cfc782588133",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-27T11:29:16.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "Thank you for calling Woodgrove Travel. My name is Isaac Wright. How can I assist you today?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a0a1d873-4920-42f1-9260-14b99f2fedcc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-27T11:30:04.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "Hi, Isaac. My name is Emily Davis. I'm looking to plan a trip with my family. Can you help me with that?",
+        "UserId": "999-195-7823",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1de9c64f-03e7-43f5-a3bf-6b23c44f3efd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-27T11:31:27.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "Of course, Emily! I'd be happy to assist you with your travel plans. Where are you planning to go?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "36942890-4107-4700-99c2-2e0cd2c67817",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-27T11:33:48.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "We're thinking about going from Boston, Massachusetts to San Francisco, California.",
+        "UserId": "999-195-7823",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "eec0a0cb-bd7e-4bec-bd08-744b59a956d2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-27T11:35:24.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "That sounds like a great trip! When are you planning to travel?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "643f14a8-277f-4385-ac6f-37f4852ff09e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-27T11:37:25.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "We're looking to travel in September, around the second week.",
+        "UserId": "999-195-7823",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6329ce4c-7a84-4f5a-804b-219eb89d90a0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-27T11:38:54.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "Okay, let me check for available options for your trip. Please bear with me for a moment.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d34654e7-34b9-4ee7-8fd3-ac8d8db5ee14",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-27T11:40:05.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "Sure, take your time.",
+        "UserId": "999-195-7823",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "22d56f27-055e-498d-9748-52c1699640fa",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-27T11:41:54.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "I've found a few options for your trip. For flights, we have Contoso Airways with flight CA123 departing from Boston on September 10th at 9:00 AM, arriving in San Francisco at 12:00 PM. Another option is Tailwind Airways with flight TW456 departing from Boston on September 12th at 11:00 AM, arriving in San Francisco at 2:00 PM. Which one would you prefer?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "475275ee-78bb-4303-a285-841e3fb68373",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-27T11:42:55.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "Hmm, both options seem good. Let me discuss with my family and get back to you.",
+        "UserId": "999-195-7823",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ff3cbb22-20c8-4614-97bf-3702f66459d8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-27T11:45:50.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "Take your time, Emily. Once you have decided, just give us a call back and we'll proceed with the booking.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9090a753-6a57-45f0-b88d-7dcc0ea5af9a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-27T11:48:16.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "Thank you, Isaac. I appreciate your help. I'll get back to you soon.",
+        "UserId": "999-195-7823",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9ba636cc-0af7-41bc-8716-8f615bca0a55",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-27T11:48:59.9058676-07:00",
+        "ConversationId": "e9491454-bd9f-4eb5-b8b8-cdfaa6060545",
+        "Value": "You're welcome, Emily! I'll be here whenever you're ready. Have a great day!",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-27T11:27:06.9058676-07:00",
+    "EndTime": "2024-06-27T11:48:59.9058676-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. My name is Isaac Wright. How can I assist you today?Hi, Isaac. My name is Emily Davis. I'm looking to plan a trip with my family. Can you help me with that?Of course, Emily! I'd be happy to assist you with your travel plans. Where are you planning to go?We're thinking about going from Boston, Massachusetts to San Francisco, California.That sounds like a great trip! When are you planning to travel?We're looking to travel in September, around the second week.Okay, let me check for available options for your trip. Please bear with me for a moment.Sure, take your time.I've found a few options for your trip. For flights, we have Contoso Airways with flight CA123 departing from Boston on September 10th at 9:00 AM, arriving in San Francisco at 12:00 PM. Another option is Tailwind Airways with flight TW456 departing from Boston on September 12th at 11:00 AM, arriving in San Francisco at 2:00 PM. Which one would you prefer?Hmm, both options seem good. Let me discuss with my family and get back to you.Take your time, Emily. Once you have decided, just give us a call back and we'll proceed with the booking.Thank you, Isaac. I appreciate your help. I'll get back to you soon.You're welcome, Emily! I'll be here whenever you're ready. Have a great day!",
+    "Merged_content_user": "Hi, Isaac. My name is Emily Davis. I'm looking to plan a trip with my family. Can you help me with that?We're thinking about going from Boston, Massachusetts to San Francisco, California.We're looking to travel in September, around the second week.Sure, take your time.Hmm, both options seem good. Let me discuss with my family and get back to you.Thank you, Isaac. I appreciate your help. I'll get back to you soon.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. My name is Isaac Wright. How can I assist you today?Of course, Emily! I'd be happy to assist you with your travel plans. Where are you planning to go?That sounds like a great trip! When are you planning to travel?Okay, let me check for available options for your trip. Please bear with me for a moment.I've found a few options for your trip. For flights, we have Contoso Airways with flight CA123 departing from Boston on September 10th at 9:00 AM, arriving in San Francisco at 12:00 PM. Another option is Tailwind Airways with flight TW456 departing from Boston on September 12th at 11:00 AM, arriving in San Francisco at 2:00 PM. Which one would you prefer?Take your time, Emily. Once you have decided, just give us a call back and we'll proceed with the booking.You're welcome, Emily! I'll be here whenever you're ready. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. My name is Isaac Wright. How can I assist you today?\nCustomer: Hi, Isaac. My name is Emily Davis. I'm looking to plan a trip with my family. Can you help me with that?\nAgent: Of course, Emily! I'd be happy to assist you with your travel plans. Where are you planning to go?\nCustomer: We're thinking about going from Boston, Massachusetts to San Francisco, California.\nAgent: That sounds like a great trip! When are you planning to travel?\nCustomer: We're looking to travel in September, around the second week.\nAgent: Okay, let me check for available options for your trip. Please bear with me for a moment.\nCustomer: Sure, take your time.\nAgent: I've found a few options for your trip. For flights, we have Contoso Airways with flight CA123 departing from Boston on September 10th at 9:00 AM, arriving in San Francisco at 12:00 PM. Another option is Tailwind Airways with flight TW456 departing from Boston on September 12th at 11:00 AM, arriving in San Francisco at 2:00 PM. Which one would you prefer?\nCustomer: Hmm, both options seem good. Let me discuss with my family and get back to you.\nAgent: Take your time, Emily. Once you have decided, just give us a call back and we'll proceed with the booking.\nCustomer: Thank you, Isaac. I appreciate your help. I'll get back to you soon.\nAgent: You're welcome, Emily! I'll be here whenever you're ready. Have a great day!\n"
+  }
+}

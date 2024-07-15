@@ -1,0 +1,184 @@
+{
+  "AgentName": "Sophia Moore",
+  "AgentId": "6SYKT5",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-117-9687",
+  "Conversation": {
+    "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+    "Messages": [
+      {
+        "Id": "9e60f7ff-79f4-412d-9875-fbc318163760",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T11:33:50.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "Thank you for calling Woodgrove Travel Agency. My name is Sophia Moore, how can I assist you today?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "260ff1c2-4418-4732-beb9-6cfe255f94bd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T11:35:04.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "Hi Sophia, this is Emily Thompson. I recently traveled from Seattle to New York City and I had a terrible experience with the airline and hotel. I would like to file a complaint.",
+        "UserId": "999-117-9687",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "02b474a8-7b0c-4d40-bfbf-667e3e5a25c7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T11:37:25.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "I'm sorry to hear about your unpleasant experience, Emily. Could you please provide me with some more details about what happened? Which airline did you fly with and which hotel did you stay at?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8f722904-de11-4a83-b750-c9f9cd46afee",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T11:39:55.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "I flew with Contoso Airways, flight CA123, on March 10th. The flight was delayed for four hours and the staff was rude. When I arrived in New York City, the hotel, Fabrikam Hotel, had given away my room reservation even though I had a confirmation number.",
+        "UserId": "999-117-9687",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "65b3fec8-0711-4e2f-bf9b-530d7ed00b56",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T11:42:50.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "I apologize for the inconvenience, Emily. Flight delays and rude staff are certainly not the experience we want for our customers. And it's unacceptable for the hotel to give away your room reservation. Let me look into this matter for you.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b2a2c6d1-dc35-40fa-b177-26d9fdb4c39f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T11:43:57.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "Thank you, Sophia. I appreciate your help.",
+        "UserId": "999-117-9687",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2f976abf-e1bb-4a4c-ad79-53aad963ee6f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T11:45:13.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "I have reached out to Contoso Airways to investigate the flight delay and address the issue with their staff. I have also contacted Fabrikam Hotel to investigate the room reservation problem. I will personally follow up with both of them and ensure they provide suitable solutions and compensation for the inconvenience caused.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b98d2b56-d6f7-4539-92d3-a46c3edbf57b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T11:46:32.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "That's great to hear, Sophia. I hope they can resolve the issues and provide some compensation.",
+        "UserId": "999-117-9687",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cb46454a-0107-42e5-871d-133a126b03bf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T11:48:01.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "I understand your frustration, Emily. Resolving this matter is our top priority. Once we receive updates from the airline and hotel, I will personally reach out to you and share their responses and proposed solutions. Is there anything else I can assist you with?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8d14e71d-23c4-482c-a2ab-5341baecb88f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T11:50:45.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "No, that's all for now. Thank you for your assistance, Sophia. I'll look forward to hearing from you soon.",
+        "UserId": "999-117-9687",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b6e07142-694a-4c8b-af21-5c412b1c72ba",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T11:53:01.0612952-07:00",
+        "ConversationId": "ba7ca4a1-30c7-452a-bef5-b3be4bf2d204",
+        "Value": "You're welcome, Emily. I'll make sure to keep you updated. Have a great day!",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-22T11:33:02.0612952-07:00",
+    "EndTime": "2024-06-22T11:53:01.0612952-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel Agency. My name is Sophia Moore, how can I assist you today?Hi Sophia, this is Emily Thompson. I recently traveled from Seattle to New York City and I had a terrible experience with the airline and hotel. I would like to file a complaint.I'm sorry to hear about your unpleasant experience, Emily. Could you please provide me with some more details about what happened? Which airline did you fly with and which hotel did you stay at?I flew with Contoso Airways, flight CA123, on March 10th. The flight was delayed for four hours and the staff was rude. When I arrived in New York City, the hotel, Fabrikam Hotel, had given away my room reservation even though I had a confirmation number.I apologize for the inconvenience, Emily. Flight delays and rude staff are certainly not the experience we want for our customers. And it's unacceptable for the hotel to give away your room reservation. Let me look into this matter for you.Thank you, Sophia. I appreciate your help.I have reached out to Contoso Airways to investigate the flight delay and address the issue with their staff. I have also contacted Fabrikam Hotel to investigate the room reservation problem. I will personally follow up with both of them and ensure they provide suitable solutions and compensation for the inconvenience caused.That's great to hear, Sophia. I hope they can resolve the issues and provide some compensation.I understand your frustration, Emily. Resolving this matter is our top priority. Once we receive updates from the airline and hotel, I will personally reach out to you and share their responses and proposed solutions. Is there anything else I can assist you with?No, that's all for now. Thank you for your assistance, Sophia. I'll look forward to hearing from you soon.You're welcome, Emily. I'll make sure to keep you updated. Have a great day!",
+    "Merged_content_user": "Hi Sophia, this is Emily Thompson. I recently traveled from Seattle to New York City and I had a terrible experience with the airline and hotel. I would like to file a complaint.I flew with Contoso Airways, flight CA123, on March 10th. The flight was delayed for four hours and the staff was rude. When I arrived in New York City, the hotel, Fabrikam Hotel, had given away my room reservation even though I had a confirmation number.Thank you, Sophia. I appreciate your help.That's great to hear, Sophia. I hope they can resolve the issues and provide some compensation.No, that's all for now. Thank you for your assistance, Sophia. I'll look forward to hearing from you soon.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel Agency. My name is Sophia Moore, how can I assist you today?I'm sorry to hear about your unpleasant experience, Emily. Could you please provide me with some more details about what happened? Which airline did you fly with and which hotel did you stay at?I apologize for the inconvenience, Emily. Flight delays and rude staff are certainly not the experience we want for our customers. And it's unacceptable for the hotel to give away your room reservation. Let me look into this matter for you.I have reached out to Contoso Airways to investigate the flight delay and address the issue with their staff. I have also contacted Fabrikam Hotel to investigate the room reservation problem. I will personally follow up with both of them and ensure they provide suitable solutions and compensation for the inconvenience caused.I understand your frustration, Emily. Resolving this matter is our top priority. Once we receive updates from the airline and hotel, I will personally reach out to you and share their responses and proposed solutions. Is there anything else I can assist you with?You're welcome, Emily. I'll make sure to keep you updated. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel Agency. My name is Sophia Moore, how can I assist you today?\nCustomer: Hi Sophia, this is Emily Thompson. I recently traveled from Seattle to New York City and I had a terrible experience with the airline and hotel. I would like to file a complaint.\nAgent: I'm sorry to hear about your unpleasant experience, Emily. Could you please provide me with some more details about what happened? Which airline did you fly with and which hotel did you stay at?\nCustomer: I flew with Contoso Airways, flight CA123, on March 10th. The flight was delayed for four hours and the staff was rude. When I arrived in New York City, the hotel, Fabrikam Hotel, had given away my room reservation even though I had a confirmation number.\nAgent: I apologize for the inconvenience, Emily. Flight delays and rude staff are certainly not the experience we want for our customers. And it's unacceptable for the hotel to give away your room reservation. Let me look into this matter for you.\nCustomer: Thank you, Sophia. I appreciate your help.\nAgent: I have reached out to Contoso Airways to investigate the flight delay and address the issue with their staff. I have also contacted Fabrikam Hotel to investigate the room reservation problem. I will personally follow up with both of them and ensure they provide suitable solutions and compensation for the inconvenience caused.\nCustomer: That's great to hear, Sophia. I hope they can resolve the issues and provide some compensation.\nAgent: I understand your frustration, Emily. Resolving this matter is our top priority. Once we receive updates from the airline and hotel, I will personally reach out to you and share their responses and proposed solutions. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thank you for your assistance, Sophia. I'll look forward to hearing from you soon.\nAgent: You're welcome, Emily. I'll make sure to keep you updated. Have a great day!\n"
+  }
+}

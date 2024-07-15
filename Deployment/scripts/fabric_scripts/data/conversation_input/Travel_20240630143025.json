@@ -1,0 +1,184 @@
+{
+  "AgentName": "Mason White",
+  "AgentId": "QLUD5I",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-940-6617",
+  "Conversation": {
+    "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+    "Messages": [
+      {
+        "Id": "de847ab9-c7d4-4df5-a681-4f5dfb3972da",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:32:53.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "Hello, this is Mason White from Woodgrove Travel. How may I assist you today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cd174157-6ae1-416f-83e2-19490d45c0f3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:33:43.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "Hi Mason, my name is Emma Thompson. I recently traveled from Seattle to New York City with Contoso Airways, and I had a terrible experience.",
+        "UserId": "999-940-6617",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "753c648b-e74c-4859-9919-6337db4b9425",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:35:57.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "I'm sorry to hear that, Emma. Can you please tell me what happened?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6ee1f56f-b2f6-4887-99cf-84def5aef1d4",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:36:52.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "Well, firstly, my flight was delayed for three hours without any prior notification. It caused a lot of inconvenience as I had important meetings scheduled upon my arrival.",
+        "UserId": "999-940-6617",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5df9afbe-5f27-4c72-812d-682d5f863d77",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:37:40.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "I understand how frustrating that can be, Emma. I apologize for the inconvenience caused by the delay. Let me check our records and see what I can do to assist you.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "951adfb1-6fc9-4de5-bf8d-3f4671c133b1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:39:24.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "Thank you, Mason. I appreciate your help.",
+        "UserId": "999-940-6617",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d1e32df8-551e-4062-901f-c0d9199fa251",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:40:14.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "Upon reviewing your flight details, Emma, I see that the delay was due to unforeseen weather conditions. While we can't control the weather, we do understand your frustration. As a gesture of goodwill, I would like to offer you a voucher for a future flight with Contoso Airways as compensation for the inconvenience caused.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "10228b1b-bda7-4e95-aa30-ec39f518c180",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:41:38.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "That sounds fair, Mason. Thank you for your understanding and the voucher offer. I appreciate it.",
+        "UserId": "999-940-6617",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b88504d2-75ac-42a5-9e4c-c49a3a30d575",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:43:47.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "You're welcome, Emma. I'm glad I could assist you. Is there anything else I can help you with?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2f4447f2-3105-438c-8ff4-c087ce18c604",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T14:44:50.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "No, that will be all for now, Mason. Thank you for your prompt resolution and excellent customer service.",
+        "UserId": "999-940-6617",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5664d875-1046-4bb0-835c-f578b05e18e2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T14:45:39.6671934-07:00",
+        "ConversationId": "2e2ae848-e78b-426e-a3b8-6fa5fab124df",
+        "Value": "It was my pleasure, Emma. If you have any further concerns or need assistance in the future, please don't hesitate to reach out to us. Have a great day!",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-30T14:30:25.6671934-07:00",
+    "EndTime": "2024-06-30T14:45:39.6671934-07:00",
+    "Merged_content": "Hello, this is Mason White from Woodgrove Travel. How may I assist you today?Hi Mason, my name is Emma Thompson. I recently traveled from Seattle to New York City with Contoso Airways, and I had a terrible experience.I'm sorry to hear that, Emma. Can you please tell me what happened?Well, firstly, my flight was delayed for three hours without any prior notification. It caused a lot of inconvenience as I had important meetings scheduled upon my arrival.I understand how frustrating that can be, Emma. I apologize for the inconvenience caused by the delay. Let me check our records and see what I can do to assist you.Thank you, Mason. I appreciate your help.Upon reviewing your flight details, Emma, I see that the delay was due to unforeseen weather conditions. While we can't control the weather, we do understand your frustration. As a gesture of goodwill, I would like to offer you a voucher for a future flight with Contoso Airways as compensation for the inconvenience caused.That sounds fair, Mason. Thank you for your understanding and the voucher offer. I appreciate it.You're welcome, Emma. I'm glad I could assist you. Is there anything else I can help you with?No, that will be all for now, Mason. Thank you for your prompt resolution and excellent customer service.It was my pleasure, Emma. If you have any further concerns or need assistance in the future, please don't hesitate to reach out to us. Have a great day!",
+    "Merged_content_user": "Hi Mason, my name is Emma Thompson. I recently traveled from Seattle to New York City with Contoso Airways, and I had a terrible experience.Well, firstly, my flight was delayed for three hours without any prior notification. It caused a lot of inconvenience as I had important meetings scheduled upon my arrival.Thank you, Mason. I appreciate your help.That sounds fair, Mason. Thank you for your understanding and the voucher offer. I appreciate it.No, that will be all for now, Mason. Thank you for your prompt resolution and excellent customer service.",
+    "Merged_content_agent": "Hello, this is Mason White from Woodgrove Travel. How may I assist you today?I'm sorry to hear that, Emma. Can you please tell me what happened?I understand how frustrating that can be, Emma. I apologize for the inconvenience caused by the delay. Let me check our records and see what I can do to assist you.Upon reviewing your flight details, Emma, I see that the delay was due to unforeseen weather conditions. While we can't control the weather, we do understand your frustration. As a gesture of goodwill, I would like to offer you a voucher for a future flight with Contoso Airways as compensation for the inconvenience caused.You're welcome, Emma. I'm glad I could assist you. Is there anything else I can help you with?It was my pleasure, Emma. If you have any further concerns or need assistance in the future, please don't hesitate to reach out to us. Have a great day!",
+    "Full_conversation": "Agent: Hello, this is Mason White from Woodgrove Travel. How may I assist you today?\nCustomer: Hi Mason, my name is Emma Thompson. I recently traveled from Seattle to New York City with Contoso Airways, and I had a terrible experience.\nAgent: I'm sorry to hear that, Emma. Can you please tell me what happened?\nCustomer: Well, firstly, my flight was delayed for three hours without any prior notification. It caused a lot of inconvenience as I had important meetings scheduled upon my arrival.\nAgent: I understand how frustrating that can be, Emma. I apologize for the inconvenience caused by the delay. Let me check our records and see what I can do to assist you.\nCustomer: Thank you, Mason. I appreciate your help.\nAgent: Upon reviewing your flight details, Emma, I see that the delay was due to unforeseen weather conditions. While we can't control the weather, we do understand your frustration. As a gesture of goodwill, I would like to offer you a voucher for a future flight with Contoso Airways as compensation for the inconvenience caused.\nCustomer: That sounds fair, Mason. Thank you for your understanding and the voucher offer. I appreciate it.\nAgent: You're welcome, Emma. I'm glad I could assist you. Is there anything else I can help you with?\nCustomer: No, that will be all for now, Mason. Thank you for your prompt resolution and excellent customer service.\nAgent: It was my pleasure, Emma. If you have any further concerns or need assistance in the future, please don't hesitate to reach out to us. Have a great day!\n"
+  }
+}

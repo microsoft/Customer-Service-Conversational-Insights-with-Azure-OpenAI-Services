@@ -1,0 +1,244 @@
+{
+  "AgentName": "Zoe Lewis",
+  "AgentId": "G6HD7J",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-467-1652",
+  "Conversation": {
+    "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+    "Messages": [
+      {
+        "Id": "a04f54bd-26fe-4a6c-9ce6-cf62e9fa327f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T17:33:36.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Thank you for calling Woodgrove Travel agency. My name is Zoe Lewis. How may I assist you today?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "69955f21-9e77-4e08-a2bf-8a485f3def6f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T17:35:57.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Hi Zoe, my name is Emily Anderson. I am planning a trip and I need some help with making decisions.",
+        "UserId": "999-467-1652",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "13538fe2-1e1c-493a-a981-c96dae9a808f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T17:38:12.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Of course, Emily. I'd be happy to assist you with your travel plans. Can you please provide me with some details about your trip?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f5409183-127c-4826-8623-a43065db3ac2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T17:40:19.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Sure, Zoe. I'll be flying from Atlanta, Georgia to Los Angeles, California next month.",
+        "UserId": "999-467-1652",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "86d0eb81-1547-4a92-bb45-23f93a3cfda7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T17:43:18.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Great choice! There are several airlines that operate this route. We have Contoso Airways, Northwind Airlines, Adatum Air, Bellows Air, and Tailwind Airways. Which airline would you prefer?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "41086553-34c3-4af7-a9fe-78d1837ce62c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T17:43:58.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Hmm, I'm not sure. Can you please provide me with some information about the airlines?",
+        "UserId": "999-467-1652",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f193b2d9-5d03-4766-96d4-674c29485417",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T17:44:33.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Certainly, Emily. Contoso Airways is known for their excellent service and comfortable seats. Northwind Airlines offers competitive prices and on-time departures. Adatum Air is known for their spacious cabins and extra legroom. Bellows Air provides a wide range of meal options and entertainment onboard. Tailwind Airways is known for their friendly staff and smooth flights. Does any of this information help you make a decision?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d6018989-0b57-47a3-9109-30668ad3f6ea",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T17:46:34.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Yes, that's helpful. I think I'll go with Contoso Airways. Do you have any recommendations for hotels in Los Angeles?",
+        "UserId": "999-467-1652",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1299a98d-db6d-4669-b156-7ba738d6f051",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T17:48:17.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Absolutely, Emily. Here are some popular hotels in Los Angeles: Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Is there a specific location or budget you have in mind?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d0baf134-d4d3-4acd-b3f4-9762339129a9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T17:50:07.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "I'm looking for a hotel near Hollywood with a moderate budget. Which hotel would you recommend?",
+        "UserId": "999-467-1652",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4ed36e36-f04e-49ce-bfd6-5463f7f8ce15",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T17:51:29.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Based on your preferences, I would recommend The Lucerne. It is located near Hollywood and offers comfortable rooms within a moderate budget. Can I make a reservation for you?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1a085dd2-3859-43ba-863a-ffe41a21811c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T17:53:59.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "That sounds perfect! Yes, please make a reservation for me at The Lucerne. My travel dates are from June 10th to June 15th.",
+        "UserId": "999-467-1652",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d3d65f62-bc38-4476-9cd7-3048e4ef66c3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T17:55:20.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "Certainly, Emily. I'll proceed with making the reservation at The Lucerne for June 10th to June 15th. Your reservation number is 123456789. Is there anything else I can assist you with?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1154f999-80dd-4125-8225-76c7b361ef03",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T17:55:51.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "No, that's all for now. Thank you so much for your help, Zoe!",
+        "UserId": "999-467-1652",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c8f6edb0-e579-405b-ac5f-17c97a41a18f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T17:56:27.4022121-07:00",
+        "ConversationId": "5b960fbd-09da-4d3f-9b6d-ddf57b167b65",
+        "Value": "You're welcome, Emily! If you have any further questions, feel free to reach out. Have a fantastic trip!",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-08T17:32:38.4022121-07:00",
+    "EndTime": "2024-06-08T17:56:27.4022121-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel agency. My name is Zoe Lewis. How may I assist you today?Hi Zoe, my name is Emily Anderson. I am planning a trip and I need some help with making decisions.Of course, Emily. I'd be happy to assist you with your travel plans. Can you please provide me with some details about your trip?Sure, Zoe. I'll be flying from Atlanta, Georgia to Los Angeles, California next month.Great choice! There are several airlines that operate this route. We have Contoso Airways, Northwind Airlines, Adatum Air, Bellows Air, and Tailwind Airways. Which airline would you prefer?Hmm, I'm not sure. Can you please provide me with some information about the airlines?Certainly, Emily. Contoso Airways is known for their excellent service and comfortable seats. Northwind Airlines offers competitive prices and on-time departures. Adatum Air is known for their spacious cabins and extra legroom. Bellows Air provides a wide range of meal options and entertainment onboard. Tailwind Airways is known for their friendly staff and smooth flights. Does any of this information help you make a decision?Yes, that's helpful. I think I'll go with Contoso Airways. Do you have any recommendations for hotels in Los Angeles?Absolutely, Emily. Here are some popular hotels in Los Angeles: Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Is there a specific location or budget you have in mind?I'm looking for a hotel near Hollywood with a moderate budget. Which hotel would you recommend?Based on your preferences, I would recommend The Lucerne. It is located near Hollywood and offers comfortable rooms within a moderate budget. Can I make a reservation for you?That sounds perfect! Yes, please make a reservation for me at The Lucerne. My travel dates are from June 10th to June 15th.Certainly, Emily. I'll proceed with making the reservation at The Lucerne for June 10th to June 15th. Your reservation number is 123456789. Is there anything else I can assist you with?No, that's all for now. Thank you so much for your help, Zoe!You're welcome, Emily! If you have any further questions, feel free to reach out. Have a fantastic trip!",
+    "Merged_content_user": "Hi Zoe, my name is Emily Anderson. I am planning a trip and I need some help with making decisions.Sure, Zoe. I'll be flying from Atlanta, Georgia to Los Angeles, California next month.Hmm, I'm not sure. Can you please provide me with some information about the airlines?Yes, that's helpful. I think I'll go with Contoso Airways. Do you have any recommendations for hotels in Los Angeles?I'm looking for a hotel near Hollywood with a moderate budget. Which hotel would you recommend?That sounds perfect! Yes, please make a reservation for me at The Lucerne. My travel dates are from June 10th to June 15th.No, that's all for now. Thank you so much for your help, Zoe!",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel agency. My name is Zoe Lewis. How may I assist you today?Of course, Emily. I'd be happy to assist you with your travel plans. Can you please provide me with some details about your trip?Great choice! There are several airlines that operate this route. We have Contoso Airways, Northwind Airlines, Adatum Air, Bellows Air, and Tailwind Airways. Which airline would you prefer?Certainly, Emily. Contoso Airways is known for their excellent service and comfortable seats. Northwind Airlines offers competitive prices and on-time departures. Adatum Air is known for their spacious cabins and extra legroom. Bellows Air provides a wide range of meal options and entertainment onboard. Tailwind Airways is known for their friendly staff and smooth flights. Does any of this information help you make a decision?Absolutely, Emily. Here are some popular hotels in Los Angeles: Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Is there a specific location or budget you have in mind?Based on your preferences, I would recommend The Lucerne. It is located near Hollywood and offers comfortable rooms within a moderate budget. Can I make a reservation for you?Certainly, Emily. I'll proceed with making the reservation at The Lucerne for June 10th to June 15th. Your reservation number is 123456789. Is there anything else I can assist you with?You're welcome, Emily! If you have any further questions, feel free to reach out. Have a fantastic trip!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel agency. My name is Zoe Lewis. How may I assist you today?\nCustomer: Hi Zoe, my name is Emily Anderson. I am planning a trip and I need some help with making decisions.\nAgent: Of course, Emily. I'd be happy to assist you with your travel plans. Can you please provide me with some details about your trip?\nCustomer: Sure, Zoe. I'll be flying from Atlanta, Georgia to Los Angeles, California next month.\nAgent: Great choice! There are several airlines that operate this route. We have Contoso Airways, Northwind Airlines, Adatum Air, Bellows Air, and Tailwind Airways. Which airline would you prefer?\nCustomer: Hmm, I'm not sure. Can you please provide me with some information about the airlines?\nAgent: Certainly, Emily. Contoso Airways is known for their excellent service and comfortable seats. Northwind Airlines offers competitive prices and on-time departures. Adatum Air is known for their spacious cabins and extra legroom. Bellows Air provides a wide range of meal options and entertainment onboard. Tailwind Airways is known for their friendly staff and smooth flights. Does any of this information help you make a decision?\nCustomer: Yes, that's helpful. I think I'll go with Contoso Airways. Do you have any recommendations for hotels in Los Angeles?\nAgent: Absolutely, Emily. Here are some popular hotels in Los Angeles: Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Is there a specific location or budget you have in mind?\nCustomer: I'm looking for a hotel near Hollywood with a moderate budget. Which hotel would you recommend?\nAgent: Based on your preferences, I would recommend The Lucerne. It is located near Hollywood and offers comfortable rooms within a moderate budget. Can I make a reservation for you?\nCustomer: That sounds perfect! Yes, please make a reservation for me at The Lucerne. My travel dates are from June 10th to June 15th.\nAgent: Certainly, Emily. I'll proceed with making the reservation at The Lucerne for June 10th to June 15th. Your reservation number is 123456789. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thank you so much for your help, Zoe!\nAgent: You're welcome, Emily! If you have any further questions, feel free to reach out. Have a fantastic trip!\n"
+  }
+}

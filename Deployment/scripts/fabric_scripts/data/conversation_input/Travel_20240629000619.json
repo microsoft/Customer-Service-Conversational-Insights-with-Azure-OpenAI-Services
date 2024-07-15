@@ -1,0 +1,184 @@
+{
+  "AgentName": "Harper Jackson",
+  "AgentId": "NUL2JV",
+  "Team": "West",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-635-4093",
+  "Conversation": {
+    "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+    "Messages": [
+      {
+        "Id": "289b566f-afae-4401-9128-7ffff3e905d2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T00:07:05.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "Hello, thank you for contacting Woodgrove Travel. This is Harper Jackson speaking. How can I assist you today?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d6f48fb8-0c9c-430c-a633-4bc1051d4d63",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T00:07:50.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "Hi Harper, my name is Emily Thompson. I recently traveled from New York City to Los Angeles and had a terrible experience with Contoso Airways. I wanted to share my feedback and express my dissatisfaction.",
+        "UserId": "999-635-4093",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7ecdd65c-b735-4b0a-8936-3bf3e6eec10a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T00:10:20.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "I'm sorry to hear about your negative experience, Emily. Could you please provide me with more details about what happened?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d66c51a5-a205-4495-8152-64c1e9dc580b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T00:12:32.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "First of all, the flight departure was delayed by two hours without any prior notification. Then, when we finally boarded the plane, the seats were cramped and uncomfortable. The flight attendants were rude and unhelpful, and the overall service was subpar.",
+        "UserId": "999-635-4093",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f9faee92-1893-4b32-8cf3-aa9e6adfa79c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T00:14:04.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "I apologize for the inconvenience caused, Emily. I completely understand your frustration. Let me check if there's anything I can do to assist you. Can you please provide me with your flight number and departure date?",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "011ba705-e8b2-4f3a-b112-43d13be69228",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T00:15:01.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "The flight was Contoso Airways flight CA123, departing from New York City (JFK) on May 5th, 2022, at 10:00 AM.",
+        "UserId": "999-635-4093",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "528a54a0-0c12-4bd9-8b50-775045fae8fa",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T00:17:46.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "Thank you for providing the details, Emily. I apologize for the inconvenience you faced during your flight. Let me escalate this issue to our customer service team who will investigate the matter further and get back to you with a resolution.",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "56cb3f9f-3a27-47bd-8ff4-dabad92a146b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T00:18:16.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "I appreciate your help, Harper. I hope this issue can be resolved soon. It was a really disappointing travel experience.",
+        "UserId": "999-635-4093",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "09bfc8a1-d2a3-4d5e-a3ac-cea551522e14",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T00:19:13.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "I understand your frustration, Emily. I assure you that we will do our best to address your concerns and provide a satisfactory resolution. Our customer service team will be in touch with you shortly. If there's anything else I can assist you with, please let me know.",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "937f338b-f080-457a-a13b-afca897eaa0b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T00:21:43.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "No, that's all for now. Thank you for your assistance, Harper. I'll be waiting to hear from your customer service team.",
+        "UserId": "999-635-4093",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b620dfb6-9f61-40d1-a798-c7c8809cbb99",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T00:24:21.3443517-07:00",
+        "ConversationId": "618d5146-e5bd-4437-8e3d-59b15b5524f2",
+        "Value": "You're welcome, Emily. I apologize again for the inconvenience caused. We will prioritize your case and ensure a prompt resolution. Have a great day!",
+        "UserId": "NUL2JV",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-29T00:06:19.3443517-07:00",
+    "EndTime": "2024-06-29T00:24:21.3443517-07:00",
+    "Merged_content": "Hello, thank you for contacting Woodgrove Travel. This is Harper Jackson speaking. How can I assist you today?Hi Harper, my name is Emily Thompson. I recently traveled from New York City to Los Angeles and had a terrible experience with Contoso Airways. I wanted to share my feedback and express my dissatisfaction.I'm sorry to hear about your negative experience, Emily. Could you please provide me with more details about what happened?First of all, the flight departure was delayed by two hours without any prior notification. Then, when we finally boarded the plane, the seats were cramped and uncomfortable. The flight attendants were rude and unhelpful, and the overall service was subpar.I apologize for the inconvenience caused, Emily. I completely understand your frustration. Let me check if there's anything I can do to assist you. Can you please provide me with your flight number and departure date?The flight was Contoso Airways flight CA123, departing from New York City (JFK) on May 5th, 2022, at 10:00 AM.Thank you for providing the details, Emily. I apologize for the inconvenience you faced during your flight. Let me escalate this issue to our customer service team who will investigate the matter further and get back to you with a resolution.I appreciate your help, Harper. I hope this issue can be resolved soon. It was a really disappointing travel experience.I understand your frustration, Emily. I assure you that we will do our best to address your concerns and provide a satisfactory resolution. Our customer service team will be in touch with you shortly. If there's anything else I can assist you with, please let me know.No, that's all for now. Thank you for your assistance, Harper. I'll be waiting to hear from your customer service team.You're welcome, Emily. I apologize again for the inconvenience caused. We will prioritize your case and ensure a prompt resolution. Have a great day!",
+    "Merged_content_user": "Hi Harper, my name is Emily Thompson. I recently traveled from New York City to Los Angeles and had a terrible experience with Contoso Airways. I wanted to share my feedback and express my dissatisfaction.First of all, the flight departure was delayed by two hours without any prior notification. Then, when we finally boarded the plane, the seats were cramped and uncomfortable. The flight attendants were rude and unhelpful, and the overall service was subpar.The flight was Contoso Airways flight CA123, departing from New York City (JFK) on May 5th, 2022, at 10:00 AM.I appreciate your help, Harper. I hope this issue can be resolved soon. It was a really disappointing travel experience.No, that's all for now. Thank you for your assistance, Harper. I'll be waiting to hear from your customer service team.",
+    "Merged_content_agent": "Hello, thank you for contacting Woodgrove Travel. This is Harper Jackson speaking. How can I assist you today?I'm sorry to hear about your negative experience, Emily. Could you please provide me with more details about what happened?I apologize for the inconvenience caused, Emily. I completely understand your frustration. Let me check if there's anything I can do to assist you. Can you please provide me with your flight number and departure date?Thank you for providing the details, Emily. I apologize for the inconvenience you faced during your flight. Let me escalate this issue to our customer service team who will investigate the matter further and get back to you with a resolution.I understand your frustration, Emily. I assure you that we will do our best to address your concerns and provide a satisfactory resolution. Our customer service team will be in touch with you shortly. If there's anything else I can assist you with, please let me know.You're welcome, Emily. I apologize again for the inconvenience caused. We will prioritize your case and ensure a prompt resolution. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for contacting Woodgrove Travel. This is Harper Jackson speaking. How can I assist you today?\nCustomer: Hi Harper, my name is Emily Thompson. I recently traveled from New York City to Los Angeles and had a terrible experience with Contoso Airways. I wanted to share my feedback and express my dissatisfaction.\nAgent: I'm sorry to hear about your negative experience, Emily. Could you please provide me with more details about what happened?\nCustomer: First of all, the flight departure was delayed by two hours without any prior notification. Then, when we finally boarded the plane, the seats were cramped and uncomfortable. The flight attendants were rude and unhelpful, and the overall service was subpar.\nAgent: I apologize for the inconvenience caused, Emily. I completely understand your frustration. Let me check if there's anything I can do to assist you. Can you please provide me with your flight number and departure date?\nCustomer: The flight was Contoso Airways flight CA123, departing from New York City (JFK) on May 5th, 2022, at 10:00 AM.\nAgent: Thank you for providing the details, Emily. I apologize for the inconvenience you faced during your flight. Let me escalate this issue to our customer service team who will investigate the matter further and get back to you with a resolution.\nCustomer: I appreciate your help, Harper. I hope this issue can be resolved soon. It was a really disappointing travel experience.\nAgent: I understand your frustration, Emily. I assure you that we will do our best to address your concerns and provide a satisfactory resolution. Our customer service team will be in touch with you shortly. If there's anything else I can assist you with, please let me know.\nCustomer: No, that's all for now. Thank you for your assistance, Harper. I'll be waiting to hear from your customer service team.\nAgent: You're welcome, Emily. I apologize again for the inconvenience caused. We will prioritize your case and ensure a prompt resolution. Have a great day!\n"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "AgentName": "Charlotte Martinez",
+  "AgentId": "MDQCWU",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-300-5553",
+  "Conversation": {
+    "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+    "Messages": [
+      {
+        "Id": "8f1bbe9e-1fbc-4797-8888-a2bfde35611c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-15T20:21:13.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Charlotte Martinez. How may I assist you today?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "739b8e0c-ea06-4cbb-8c23-8739ce8989f0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-15T20:22:47.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "Hi Charlotte, this is Alex Thompson. I recently traveled from New York City to Los Angeles and had a terrible experience. I wanted to share my feedback and see if something can be done about it.",
+        "UserId": "999-300-5553",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9ceb834d-e286-433e-8da2-df24c35dc1d5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-15T20:23:37.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "I'm sorry to hear that, Alex. Could you please provide me with more details about your experience so that I can assist you better?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4fc5e329-7209-4826-b43c-d67c2b5d111f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-15T20:25:45.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "Sure, where do I begin? Firstly, the flight was delayed by 3 hours, which caused a lot of inconvenience. Then, when I finally arrived in Los Angeles, the hotel I had booked was overbooked and they didn't have a room for me.",
+        "UserId": "999-300-5553",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "09127154-6335-4012-823d-d9d91a7713a4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-15T20:27:15.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "I understand how frustrating that must have been, Alex. Let me check our records and see what I can do to resolve this for you. Can you please provide me with your flight details and hotel reservation information?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b565d11d-6131-4de4-8f69-ea21ceba8107",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-15T20:28:26.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "The flight was with Contoso Airways, flight number CN123, departing from New York City on July 10th at 8:00 AM. The hotel reservation was at Fabrikam Hotel, reservation number FH456, for the dates July 10th to July 15th.",
+        "UserId": "999-300-5553",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "304ae58a-0737-45ca-9ffa-b8edf23a244b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-15T20:31:13.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "Thank you for providing the details, Alex. I apologize for the inconvenience caused. Let me contact the airline and hotel to investigate the issues you faced. Please bear with me for a moment.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "857171c0-a1bc-4ca5-ae32-19f2a9f65f4f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-15T20:32:38.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "No problem, take your time. I appreciate your help, Charlotte.",
+        "UserId": "999-300-5553",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "48811c6b-d51c-47d8-8f48-5fa063fe7a4d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-15T20:34:31.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "Thank you for your patience, Alex. I have spoken to the airline and they acknowledge the delay of your flight. As a gesture of goodwill, they have issued a voucher for $100 that can be used towards your next flight.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b7c590d5-52b1-4bd3-a80e-4c39b5958507",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-15T20:37:03.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "That's great to hear, Charlotte. Thank you for resolving the flight issue. What about the hotel situation?",
+        "UserId": "999-300-5553",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c3503e78-fc52-4118-8e4a-9ce0f58c42be",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-15T20:39:57.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "I've also contacted the Fabrikam Hotel regarding the overbooking. They deeply apologize for the inconvenience caused and have arranged for you to stay at their sister hotel, Southridge, which is a 5-star property. They will cover the expenses and provide a complimentary upgrade as well.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2a922db8-5bcb-4957-97c4-32965f188cd7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-15T20:40:59.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "Wow, that's more than I expected. Thank you so much, Charlotte. I really appreciate your help in resolving these issues.",
+        "UserId": "999-300-5553",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "16a3957d-379e-454b-9516-b8f5d6ff72bc",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-15T20:43:07.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "You're very welcome, Alex. I'm glad I could assist you in resolving the issues. Is there anything else I can help you with?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1df099ce-7d54-48b5-b82b-474af8facc38",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-15T20:45:42.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "No, that's all for now. Thank you again, Charlotte. You've been a great help.",
+        "UserId": "999-300-5553",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "83ad8ad9-8275-4c13-b797-f93ef78ceb0c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-15T20:46:58.8512057-07:00",
+        "ConversationId": "b4ece416-ef48-4cd2-8222-cd5c3c8c5b5d",
+        "Value": "It was my pleasure, Alex. If you have any further concerns or need assistance in the future, don't hesitate to contact us. Have a wonderful day!",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-15T20:19:37.8512057-07:00",
+    "EndTime": "2024-06-15T20:46:58.8512057-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Charlotte Martinez. How may I assist you today?Hi Charlotte, this is Alex Thompson. I recently traveled from New York City to Los Angeles and had a terrible experience. I wanted to share my feedback and see if something can be done about it.I'm sorry to hear that, Alex. Could you please provide me with more details about your experience so that I can assist you better?Sure, where do I begin? Firstly, the flight was delayed by 3 hours, which caused a lot of inconvenience. Then, when I finally arrived in Los Angeles, the hotel I had booked was overbooked and they didn't have a room for me.I understand how frustrating that must have been, Alex. Let me check our records and see what I can do to resolve this for you. Can you please provide me with your flight details and hotel reservation information?The flight was with Contoso Airways, flight number CN123, departing from New York City on July 10th at 8:00 AM. The hotel reservation was at Fabrikam Hotel, reservation number FH456, for the dates July 10th to July 15th.Thank you for providing the details, Alex. I apologize for the inconvenience caused. Let me contact the airline and hotel to investigate the issues you faced. Please bear with me for a moment.No problem, take your time. I appreciate your help, Charlotte.Thank you for your patience, Alex. I have spoken to the airline and they acknowledge the delay of your flight. As a gesture of goodwill, they have issued a voucher for $100 that can be used towards your next flight.That's great to hear, Charlotte. Thank you for resolving the flight issue. What about the hotel situation?I've also contacted the Fabrikam Hotel regarding the overbooking. They deeply apologize for the inconvenience caused and have arranged for you to stay at their sister hotel, Southridge, which is a 5-star property. They will cover the expenses and provide a complimentary upgrade as well.Wow, that's more than I expected. Thank you so much, Charlotte. I really appreciate your help in resolving these issues.You're very welcome, Alex. I'm glad I could assist you in resolving the issues. Is there anything else I can help you with?No, that's all for now. Thank you again, Charlotte. You've been a great help.It was my pleasure, Alex. If you have any further concerns or need assistance in the future, don't hesitate to contact us. Have a wonderful day!",
+    "Merged_content_user": "Hi Charlotte, this is Alex Thompson. I recently traveled from New York City to Los Angeles and had a terrible experience. I wanted to share my feedback and see if something can be done about it.Sure, where do I begin? Firstly, the flight was delayed by 3 hours, which caused a lot of inconvenience. Then, when I finally arrived in Los Angeles, the hotel I had booked was overbooked and they didn't have a room for me.The flight was with Contoso Airways, flight number CN123, departing from New York City on July 10th at 8:00 AM. The hotel reservation was at Fabrikam Hotel, reservation number FH456, for the dates July 10th to July 15th.No problem, take your time. I appreciate your help, Charlotte.That's great to hear, Charlotte. Thank you for resolving the flight issue. What about the hotel situation?Wow, that's more than I expected. Thank you so much, Charlotte. I really appreciate your help in resolving these issues.No, that's all for now. Thank you again, Charlotte. You've been a great help.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Charlotte Martinez. How may I assist you today?I'm sorry to hear that, Alex. Could you please provide me with more details about your experience so that I can assist you better?I understand how frustrating that must have been, Alex. Let me check our records and see what I can do to resolve this for you. Can you please provide me with your flight details and hotel reservation information?Thank you for providing the details, Alex. I apologize for the inconvenience caused. Let me contact the airline and hotel to investigate the issues you faced. Please bear with me for a moment.Thank you for your patience, Alex. I have spoken to the airline and they acknowledge the delay of your flight. As a gesture of goodwill, they have issued a voucher for $100 that can be used towards your next flight.I've also contacted the Fabrikam Hotel regarding the overbooking. They deeply apologize for the inconvenience caused and have arranged for you to stay at their sister hotel, Southridge, which is a 5-star property. They will cover the expenses and provide a complimentary upgrade as well.You're very welcome, Alex. I'm glad I could assist you in resolving the issues. Is there anything else I can help you with?It was my pleasure, Alex. If you have any further concerns or need assistance in the future, don't hesitate to contact us. Have a wonderful day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Charlotte Martinez. How may I assist you today?\nCustomer: Hi Charlotte, this is Alex Thompson. I recently traveled from New York City to Los Angeles and had a terrible experience. I wanted to share my feedback and see if something can be done about it.\nAgent: I'm sorry to hear that, Alex. Could you please provide me with more details about your experience so that I can assist you better?\nCustomer: Sure, where do I begin? Firstly, the flight was delayed by 3 hours, which caused a lot of inconvenience. Then, when I finally arrived in Los Angeles, the hotel I had booked was overbooked and they didn't have a room for me.\nAgent: I understand how frustrating that must have been, Alex. Let me check our records and see what I can do to resolve this for you. Can you please provide me with your flight details and hotel reservation information?\nCustomer: The flight was with Contoso Airways, flight number CN123, departing from New York City on July 10th at 8:00 AM. The hotel reservation was at Fabrikam Hotel, reservation number FH456, for the dates July 10th to July 15th.\nAgent: Thank you for providing the details, Alex. I apologize for the inconvenience caused. Let me contact the airline and hotel to investigate the issues you faced. Please bear with me for a moment.\nCustomer: No problem, take your time. I appreciate your help, Charlotte.\nAgent: Thank you for your patience, Alex. I have spoken to the airline and they acknowledge the delay of your flight. As a gesture of goodwill, they have issued a voucher for $100 that can be used towards your next flight.\nCustomer: That's great to hear, Charlotte. Thank you for resolving the flight issue. What about the hotel situation?\nAgent: I've also contacted the Fabrikam Hotel regarding the overbooking. They deeply apologize for the inconvenience caused and have arranged for you to stay at their sister hotel, Southridge, which is a 5-star property. They will cover the expenses and provide a complimentary upgrade as well.\nCustomer: Wow, that's more than I expected. Thank you so much, Charlotte. I really appreciate your help in resolving these issues.\nAgent: You're very welcome, Alex. I'm glad I could assist you in resolving the issues. Is there anything else I can help you with?\nCustomer: No, that's all for now. Thank you again, Charlotte. You've been a great help.\nAgent: It was my pleasure, Alex. If you have any further concerns or need assistance in the future, don't hesitate to contact us. Have a wonderful day!\n"
+  }
+}

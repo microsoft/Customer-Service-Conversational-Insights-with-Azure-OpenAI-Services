@@ -1,0 +1,154 @@
+{
+  "AgentName": "Mason White",
+  "AgentId": "QLUD5I",
+  "Team": "Midwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-126-7459",
+  "Conversation": {
+    "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+    "Messages": [
+      {
+        "Id": "59b1b5a7-7f36-4259-8e84-f1fb23dda353",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T16:39:13.2574769-07:00",
+        "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Mason White. How may I assist you today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8256efb2-1182-463e-8288-246b20f661d8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T16:41:39.2574769-07:00",
+        "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+        "Value": "Hi, Mason. This is Lisa Thompson. I recently had a trip to New York from Chicago and I had a terrible experience with my hotel.",
+        "UserId": "999-126-7459",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e45e464a-bc9e-4c1c-baad-22f6b0d595d9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T16:43:00.2574769-07:00",
+        "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+        "Value": "I'm really sorry to hear that, Lisa. Could you please provide me with some more details about what went wrong?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "be4fe08f-0ba2-493d-8bd2-24a26b231811",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T16:44:07.2574769-07:00",
+        "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+        "Value": "Sure. I stayed at the Fabrikam Hotel from April 25th to April 30th. The room was not clean when I checked in, and the staff was unhelpful and rude throughout my stay.",
+        "UserId": "999-126-7459",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7525de17-3339-4c92-b663-c6a809bd9c71",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T16:46:43.2574769-07:00",
+        "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+        "Value": "I apologize for the inconvenience, Lisa. This is certainly not the kind of service we strive for. Let me check what I can do to resolve your complaint.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "479ccdd1-63f5-45e0-b4da-3a09f71ca0f4",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T16:48:01.2574769-07:00",
+        "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+        "Value": "Thank you, Mason. I appreciate your help.",
+        "UserId": "999-126-7459",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f8e6f361-1e3c-457c-9ed4-36d114d971e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T16:49:13.2574769-07:00",
+        "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+        "Value": "I've contacted the Fabrikam Hotel management regarding your complaint, Lisa. They sincerely apologize for the inconvenience caused and they will be refunding 50% of your total room charges as a gesture of goodwill.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e692903d-9a57-4eae-b081-1f88a79321f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T16:51:34.2574769-07:00",
+        "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+        "Value": "That's great news, Mason! Thank you for taking the time to resolve this issue. I appreciate it.",
+        "UserId": "999-126-7459",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ab6f9812-b551-498c-b659-b563198c0539",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T16:52:23.2574769-07:00",
+        "ConversationId": "e2ed8299-0d28-47c7-bc53-336bc08f6305",
+        "Value": "You're welcome, Lisa. I'm glad I could assist you. If you have any more concerns or need further assistance, feel free to reach out to us. Have a great day!",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-02T16:36:32.2574769-07:00",
+    "EndTime": "2024-06-02T16:52:23.2574769-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Mason White. How may I assist you today?Hi, Mason. This is Lisa Thompson. I recently had a trip to New York from Chicago and I had a terrible experience with my hotel.I'm really sorry to hear that, Lisa. Could you please provide me with some more details about what went wrong?Sure. I stayed at the Fabrikam Hotel from April 25th to April 30th. The room was not clean when I checked in, and the staff was unhelpful and rude throughout my stay.I apologize for the inconvenience, Lisa. This is certainly not the kind of service we strive for. Let me check what I can do to resolve your complaint.Thank you, Mason. I appreciate your help.I've contacted the Fabrikam Hotel management regarding your complaint, Lisa. They sincerely apologize for the inconvenience caused and they will be refunding 50% of your total room charges as a gesture of goodwill.That's great news, Mason! Thank you for taking the time to resolve this issue. I appreciate it.You're welcome, Lisa. I'm glad I could assist you. If you have any more concerns or need further assistance, feel free to reach out to us. Have a great day!",
+    "Merged_content_user": "Hi, Mason. This is Lisa Thompson. I recently had a trip to New York from Chicago and I had a terrible experience with my hotel.Sure. I stayed at the Fabrikam Hotel from April 25th to April 30th. The room was not clean when I checked in, and the staff was unhelpful and rude throughout my stay.Thank you, Mason. I appreciate your help.That's great news, Mason! Thank you for taking the time to resolve this issue. I appreciate it.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Mason White. How may I assist you today?I'm really sorry to hear that, Lisa. Could you please provide me with some more details about what went wrong?I apologize for the inconvenience, Lisa. This is certainly not the kind of service we strive for. Let me check what I can do to resolve your complaint.I've contacted the Fabrikam Hotel management regarding your complaint, Lisa. They sincerely apologize for the inconvenience caused and they will be refunding 50% of your total room charges as a gesture of goodwill.You're welcome, Lisa. I'm glad I could assist you. If you have any more concerns or need further assistance, feel free to reach out to us. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Mason White. How may I assist you today?\nCustomer: Hi, Mason. This is Lisa Thompson. I recently had a trip to New York from Chicago and I had a terrible experience with my hotel.\nAgent: I'm really sorry to hear that, Lisa. Could you please provide me with some more details about what went wrong?\nCustomer: Sure. I stayed at the Fabrikam Hotel from April 25th to April 30th. The room was not clean when I checked in, and the staff was unhelpful and rude throughout my stay.\nAgent: I apologize for the inconvenience, Lisa. This is certainly not the kind of service we strive for. Let me check what I can do to resolve your complaint.\nCustomer: Thank you, Mason. I appreciate your help.\nAgent: I've contacted the Fabrikam Hotel management regarding your complaint, Lisa. They sincerely apologize for the inconvenience caused and they will be refunding 50% of your total room charges as a gesture of goodwill.\nCustomer: That's great news, Mason! Thank you for taking the time to resolve this issue. I appreciate it.\nAgent: You're welcome, Lisa. I'm glad I could assist you. If you have any more concerns or need further assistance, feel free to reach out to us. Have a great day!\n"
+  }
+}

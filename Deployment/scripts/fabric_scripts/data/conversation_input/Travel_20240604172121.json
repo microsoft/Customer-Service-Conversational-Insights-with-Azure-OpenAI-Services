@@ -1,0 +1,184 @@
+{
+  "AgentName": "Liam Johnson",
+  "AgentId": "YVS2EM",
+  "Team": "West",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-826-3511",
+  "Conversation": {
+    "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+    "Messages": [
+      {
+        "Id": "7789e2d4-7a80-4d86-8ef4-83db836cd29f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T17:23:37.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "Thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4e83f224-580a-4131-994d-17c18450559b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T17:26:27.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "Hi Liam, my name is Jane Anderson. I recently had a trip from Los Angeles to New York City and I encountered some issues that I'd like to discuss.",
+        "UserId": "999-826-3511",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9e5a8b29-e685-4a81-82d8-322738ffb3ee",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T17:29:20.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "I'm sorry to hear that, Jane. Could you please tell me more about the issues you faced during your trip?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "18a80ad1-3e2a-47d2-8eae-d1621493df5d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T17:31:44.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "Well, I had booked a flight with Contoso Airways, flight number CA123, from Los Angeles to New York City on July 8th. But the flight was delayed by 3 hours, causing a lot of inconvenience for me.",
+        "UserId": "999-826-3511",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2345177b-0f73-4b01-9a9c-43f4f379c2cd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T17:33:50.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "I understand how frustrating flight delays can be, Jane. I apologize for the inconvenience caused. Let me check the details of your flight and see what I can do to assist you.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "297b4d57-3537-419a-b603-f622b3a9e4b3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T17:36:29.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "Thank you, Liam. I appreciate your help.",
+        "UserId": "999-826-3511",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4c673754-e4dc-4957-8686-755a1dbbc168",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T17:37:22.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "After checking the flight details, it seems that the delay was due to air traffic congestion at the departure airport. Unfortunately, these circumstances are beyond our control. However, I can help you with filing a complaint with the airline and requesting any compensation they may offer for the inconvenience caused. Would you like me to proceed with that?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "816838e9-8d17-447c-9f01-363acea5ec2e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T17:40:04.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "Yes, please go ahead and file a complaint on my behalf. I would appreciate any compensation they can provide for the delay.",
+        "UserId": "999-826-3511",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1ba6f11a-9d3a-462a-81ed-7db9cafd3872",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T17:41:17.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "Noted, Jane. I will submit a complaint to Contoso Airways on your behalf and request compensation for the delay. They will get back to us with a resolution within 5-7 business days. Is there anything else I can assist you with?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4184b775-29a1-4876-8ec9-8cc449ca1e00",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T17:42:59.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "No, that's all for now. Thank you for your assistance, Liam.",
+        "UserId": "999-826-3511",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5e5a058c-7912-4ed6-a6ec-92ae67bc0cd3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T17:45:53.2742334-07:00",
+        "ConversationId": "86691533-bde9-45ec-a834-dadb0d95f3c4",
+        "Value": "You're welcome, Jane. I apologize again for the inconvenience you experienced. If you have any further concerns or need assistance in the future, feel free to reach out to us. Have a great day!",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-04T17:21:21.2742334-07:00",
+    "EndTime": "2024-06-04T17:45:53.2742334-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?Hi Liam, my name is Jane Anderson. I recently had a trip from Los Angeles to New York City and I encountered some issues that I'd like to discuss.I'm sorry to hear that, Jane. Could you please tell me more about the issues you faced during your trip?Well, I had booked a flight with Contoso Airways, flight number CA123, from Los Angeles to New York City on July 8th. But the flight was delayed by 3 hours, causing a lot of inconvenience for me.I understand how frustrating flight delays can be, Jane. I apologize for the inconvenience caused. Let me check the details of your flight and see what I can do to assist you.Thank you, Liam. I appreciate your help.After checking the flight details, it seems that the delay was due to air traffic congestion at the departure airport. Unfortunately, these circumstances are beyond our control. However, I can help you with filing a complaint with the airline and requesting any compensation they may offer for the inconvenience caused. Would you like me to proceed with that?Yes, please go ahead and file a complaint on my behalf. I would appreciate any compensation they can provide for the delay.Noted, Jane. I will submit a complaint to Contoso Airways on your behalf and request compensation for the delay. They will get back to us with a resolution within 5-7 business days. Is there anything else I can assist you with?No, that's all for now. Thank you for your assistance, Liam.You're welcome, Jane. I apologize again for the inconvenience you experienced. If you have any further concerns or need assistance in the future, feel free to reach out to us. Have a great day!",
+    "Merged_content_user": "Hi Liam, my name is Jane Anderson. I recently had a trip from Los Angeles to New York City and I encountered some issues that I'd like to discuss.Well, I had booked a flight with Contoso Airways, flight number CA123, from Los Angeles to New York City on July 8th. But the flight was delayed by 3 hours, causing a lot of inconvenience for me.Thank you, Liam. I appreciate your help.Yes, please go ahead and file a complaint on my behalf. I would appreciate any compensation they can provide for the delay.No, that's all for now. Thank you for your assistance, Liam.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?I'm sorry to hear that, Jane. Could you please tell me more about the issues you faced during your trip?I understand how frustrating flight delays can be, Jane. I apologize for the inconvenience caused. Let me check the details of your flight and see what I can do to assist you.After checking the flight details, it seems that the delay was due to air traffic congestion at the departure airport. Unfortunately, these circumstances are beyond our control. However, I can help you with filing a complaint with the airline and requesting any compensation they may offer for the inconvenience caused. Would you like me to proceed with that?Noted, Jane. I will submit a complaint to Contoso Airways on your behalf and request compensation for the delay. They will get back to us with a resolution within 5-7 business days. Is there anything else I can assist you with?You're welcome, Jane. I apologize again for the inconvenience you experienced. If you have any further concerns or need assistance in the future, feel free to reach out to us. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?\nCustomer: Hi Liam, my name is Jane Anderson. I recently had a trip from Los Angeles to New York City and I encountered some issues that I'd like to discuss.\nAgent: I'm sorry to hear that, Jane. Could you please tell me more about the issues you faced during your trip?\nCustomer: Well, I had booked a flight with Contoso Airways, flight number CA123, from Los Angeles to New York City on July 8th. But the flight was delayed by 3 hours, causing a lot of inconvenience for me.\nAgent: I understand how frustrating flight delays can be, Jane. I apologize for the inconvenience caused. Let me check the details of your flight and see what I can do to assist you.\nCustomer: Thank you, Liam. I appreciate your help.\nAgent: After checking the flight details, it seems that the delay was due to air traffic congestion at the departure airport. Unfortunately, these circumstances are beyond our control. However, I can help you with filing a complaint with the airline and requesting any compensation they may offer for the inconvenience caused. Would you like me to proceed with that?\nCustomer: Yes, please go ahead and file a complaint on my behalf. I would appreciate any compensation they can provide for the delay.\nAgent: Noted, Jane. I will submit a complaint to Contoso Airways on your behalf and request compensation for the delay. They will get back to us with a resolution within 5-7 business days. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thank you for your assistance, Liam.\nAgent: You're welcome, Jane. I apologize again for the inconvenience you experienced. If you have any further concerns or need assistance in the future, feel free to reach out to us. Have a great day!\n"
+  }
+}

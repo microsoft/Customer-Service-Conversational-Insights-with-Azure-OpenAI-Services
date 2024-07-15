@@ -1,0 +1,214 @@
+{
+  "AgentName": "Ethan James",
+  "AgentId": "MVWR6H",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-924-1691",
+  "Conversation": {
+    "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+    "Messages": [
+      {
+        "Id": "1d74ec21-ceaf-4e72-bed5-6141121d590c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T08:29:48.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "Thank you for calling Woodgrove Travel. This is Ethan James speaking. How may I assist you today?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "05397d81-7afb-4a5f-a3cf-e6051dfc1e70",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T08:32:06.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "Hi Ethan, my name is Sarah Thompson. I recently had a trip from Chicago to New York, and I'm extremely frustrated with the service I received.",
+        "UserId": "999-924-1691",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "17863a3a-f1f2-45a4-9e23-0954b5267800",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T08:32:54.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "I'm really sorry to hear that, Sarah. Can you please provide me with more details about what happened?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "292bf8a8-b821-4f5d-9360-dfc5a7564694",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T08:35:29.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "Well, I booked my flight with Contoso Airways, flight number CO123, departing from Chicago on July 10th at 9:00 AM. The flight was delayed for almost three hours without any proper explanation. This caused me to miss an important business meeting in New York.",
+        "UserId": "999-924-1691",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "eb7e4b38-81b7-4357-bb62-4460c0490d77",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T08:38:12.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "I completely understand your frustration, Sarah. Flight delays can be extremely inconvenient, especially when it affects important plans. Let me check if there's any compensation or alternate solution available for you.",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "60212876-2d50-43c9-9d64-6f650b7a4407",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T08:39:18.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "Thank you, Ethan. I appreciate your help.",
+        "UserId": "999-924-1691",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aadf420f-fdaa-4a2e-bf05-da3433a3703d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T08:40:03.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "I apologize for the inconvenience caused, Sarah. I have checked the options available, and I can offer you a voucher for a future flight with Contoso Airways as a compensation for the delay. Additionally, I can assist you in rescheduling your missed business meeting.",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7983cfd1-09d2-4ce8-8aaf-14b348d33d18",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T08:41:51.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "That's a fair solution, Ethan. I would appreciate the voucher and assistance with rescheduling the meeting.",
+        "UserId": "999-924-1691",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b447aee6-1b14-402c-bbdb-c1337be08f6c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T08:43:32.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "Great, Sarah! I will process the voucher and send it to your email address. To reschedule the meeting, please provide me with the date and time that works best for you.",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "779457cf-5bf7-4dea-92b3-84359d478ea0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T08:44:07.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "Thank you so much, Ethan. I really appreciate your understanding and assistance. The meeting can be rescheduled for July 12th at 2:00 PM.",
+        "UserId": "999-924-1691",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c9cfc9da-2d2e-4fbe-9849-66e757861d02",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T08:45:18.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "Noted, Sarah. I will make sure the meeting is rescheduled for July 12th at 2:00 PM. You will receive the voucher shortly. Is there anything else I can assist you with?",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5430f3f2-f24d-4e7b-a09f-cdb261465dea",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T08:47:03.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "No, Ethan. That's all I needed. Thank you once again for your help and understanding.",
+        "UserId": "999-924-1691",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1f33e6f3-bda9-41b3-97b5-7e9eb84416c1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T08:50:01.1962737-07:00",
+        "ConversationId": "dfbbd8c1-766d-432e-8a6c-0c1db477de61",
+        "Value": "You're welcome, Sarah. I'm glad I could assist you. If you have any further concerns or need assistance in the future, don't hesitate to reach out. Have a great day!",
+        "UserId": "MVWR6H",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-26T08:29:15.1962737-07:00",
+    "EndTime": "2024-06-26T08:50:01.1962737-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. This is Ethan James speaking. How may I assist you today?Hi Ethan, my name is Sarah Thompson. I recently had a trip from Chicago to New York, and I'm extremely frustrated with the service I received.I'm really sorry to hear that, Sarah. Can you please provide me with more details about what happened?Well, I booked my flight with Contoso Airways, flight number CO123, departing from Chicago on July 10th at 9:00 AM. The flight was delayed for almost three hours without any proper explanation. This caused me to miss an important business meeting in New York.I completely understand your frustration, Sarah. Flight delays can be extremely inconvenient, especially when it affects important plans. Let me check if there's any compensation or alternate solution available for you.Thank you, Ethan. I appreciate your help.I apologize for the inconvenience caused, Sarah. I have checked the options available, and I can offer you a voucher for a future flight with Contoso Airways as a compensation for the delay. Additionally, I can assist you in rescheduling your missed business meeting.That's a fair solution, Ethan. I would appreciate the voucher and assistance with rescheduling the meeting.Great, Sarah! I will process the voucher and send it to your email address. To reschedule the meeting, please provide me with the date and time that works best for you.Thank you so much, Ethan. I really appreciate your understanding and assistance. The meeting can be rescheduled for July 12th at 2:00 PM.Noted, Sarah. I will make sure the meeting is rescheduled for July 12th at 2:00 PM. You will receive the voucher shortly. Is there anything else I can assist you with?No, Ethan. That's all I needed. Thank you once again for your help and understanding.You're welcome, Sarah. I'm glad I could assist you. If you have any further concerns or need assistance in the future, don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Ethan, my name is Sarah Thompson. I recently had a trip from Chicago to New York, and I'm extremely frustrated with the service I received.Well, I booked my flight with Contoso Airways, flight number CO123, departing from Chicago on July 10th at 9:00 AM. The flight was delayed for almost three hours without any proper explanation. This caused me to miss an important business meeting in New York.Thank you, Ethan. I appreciate your help.That's a fair solution, Ethan. I would appreciate the voucher and assistance with rescheduling the meeting.Thank you so much, Ethan. I really appreciate your understanding and assistance. The meeting can be rescheduled for July 12th at 2:00 PM.No, Ethan. That's all I needed. Thank you once again for your help and understanding.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. This is Ethan James speaking. How may I assist you today?I'm really sorry to hear that, Sarah. Can you please provide me with more details about what happened?I completely understand your frustration, Sarah. Flight delays can be extremely inconvenient, especially when it affects important plans. Let me check if there's any compensation or alternate solution available for you.I apologize for the inconvenience caused, Sarah. I have checked the options available, and I can offer you a voucher for a future flight with Contoso Airways as a compensation for the delay. Additionally, I can assist you in rescheduling your missed business meeting.Great, Sarah! I will process the voucher and send it to your email address. To reschedule the meeting, please provide me with the date and time that works best for you.Noted, Sarah. I will make sure the meeting is rescheduled for July 12th at 2:00 PM. You will receive the voucher shortly. Is there anything else I can assist you with?You're welcome, Sarah. I'm glad I could assist you. If you have any further concerns or need assistance in the future, don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. This is Ethan James speaking. How may I assist you today?\nCustomer: Hi Ethan, my name is Sarah Thompson. I recently had a trip from Chicago to New York, and I'm extremely frustrated with the service I received.\nAgent: I'm really sorry to hear that, Sarah. Can you please provide me with more details about what happened?\nCustomer: Well, I booked my flight with Contoso Airways, flight number CO123, departing from Chicago on July 10th at 9:00 AM. The flight was delayed for almost three hours without any proper explanation. This caused me to miss an important business meeting in New York.\nAgent: I completely understand your frustration, Sarah. Flight delays can be extremely inconvenient, especially when it affects important plans. Let me check if there's any compensation or alternate solution available for you.\nCustomer: Thank you, Ethan. I appreciate your help.\nAgent: I apologize for the inconvenience caused, Sarah. I have checked the options available, and I can offer you a voucher for a future flight with Contoso Airways as a compensation for the delay. Additionally, I can assist you in rescheduling your missed business meeting.\nCustomer: That's a fair solution, Ethan. I would appreciate the voucher and assistance with rescheduling the meeting.\nAgent: Great, Sarah! I will process the voucher and send it to your email address. To reschedule the meeting, please provide me with the date and time that works best for you.\nCustomer: Thank you so much, Ethan. I really appreciate your understanding and assistance. The meeting can be rescheduled for July 12th at 2:00 PM.\nAgent: Noted, Sarah. I will make sure the meeting is rescheduled for July 12th at 2:00 PM. You will receive the voucher shortly. Is there anything else I can assist you with?\nCustomer: No, Ethan. That's all I needed. Thank you once again for your help and understanding.\nAgent: You're welcome, Sarah. I'm glad I could assist you. If you have any further concerns or need assistance in the future, don't hesitate to reach out. Have a great day!\n"
+  }
+}

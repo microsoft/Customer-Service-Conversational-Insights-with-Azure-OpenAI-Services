@@ -1,0 +1,214 @@
+{
+  "AgentName": "Aiden Clark",
+  "AgentId": "7J8IBO",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-541-9277",
+  "Conversation": {
+    "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+    "Messages": [
+      {
+        "Id": "28303ec2-023f-4a8a-8ec4-3937969f7d12",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T22:32:14.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "Thank you for calling Woodgrove Travel. My name is Aiden Clark. How can I assist you today?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "14debce6-ee8a-452e-9927-c794e9e86ba8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T22:32:55.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "Hello, my name is Sarah Thompson. I recently traveled from New York City to Los Angeles using your agency's services.",
+        "UserId": "999-541-9277",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "79e1078e-ce01-4132-bc0a-fd109d1b2cf7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T22:34:46.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "I'm glad to hear that, Sarah! How was your trip?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fa8ff704-7128-45eb-8623-1e35249b047a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T22:37:26.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "It was fantastic! The flight with Contoso Airways, flight CA123, departed on time and the service was excellent.",
+        "UserId": "999-541-9277",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "70d60ea2-96e0-4499-9c49-021ebc4aa8a9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T22:39:15.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "That's great to hear! We always aim to provide the best travel experiences for our customers. What about your accommodations in Los Angeles?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d7a23247-42ad-4fdb-8b95-24d16bd4ddb2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T22:39:50.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "I stayed at the Fabrikam Hotel and it was outstanding. The room was clean, the staff was friendly, and the location was perfect.",
+        "UserId": "999-541-9277",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "41349688-5261-465d-a3f1-401e0072f6cd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T22:40:36.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "I'm glad you had a pleasant stay at the Fabrikam Hotel. Do you happen to have your reservation number and the date of your stay? I would like to document it for future reference.",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "203226e1-7877-41e1-b8f6-d4986ec40e12",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T22:41:39.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "Yes, my reservation number was FAB123456 and I stayed at the Fabrikam Hotel from June 1st to June 5th.",
+        "UserId": "999-541-9277",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "255d9960-c221-46f6-b9b8-8cdda58aa453",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T22:42:11.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "Thank you, Sarah. I have documented your positive feedback regarding your flight with Contoso Airways and your stay at the Fabrikam Hotel. We truly appreciate your kind words.",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bfe2e52c-b5e7-4539-b6c8-54b9ec774475",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T22:43:55.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "You're welcome! I'm happy to share my positive experience. Your agency made my trip memorable. Thank you once again!",
+        "UserId": "999-541-9277",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a546b385-d37d-4c43-869c-71b641a851d3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T22:44:47.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "As a token of our appreciation, I would like to offer you a 10% discount on your next travel booking with Woodgrove Travel. This discount will be valid for one year. How does that sound?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e6f190d2-6cee-44a9-b939-fd78349fa8c3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T22:47:46.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "That's wonderful! Thank you so much for the discount. I'm definitely looking forward to planning my next trip with Woodgrove Travel.",
+        "UserId": "999-541-9277",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a27325fd-4f30-48f5-beb2-d850e9e015b9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T22:48:29.2742531-07:00",
+        "ConversationId": "157e27f1-1800-4918-89c1-c47e2de3a9b8",
+        "Value": "You're very welcome, Sarah. If you have any questions or need assistance in the future, please don't hesitate to reach out. Have a great day!",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-12T22:31:07.2742531-07:00",
+    "EndTime": "2024-06-12T22:48:29.2742531-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. My name is Aiden Clark. How can I assist you today?Hello, my name is Sarah Thompson. I recently traveled from New York City to Los Angeles using your agency's services.I'm glad to hear that, Sarah! How was your trip?It was fantastic! The flight with Contoso Airways, flight CA123, departed on time and the service was excellent.That's great to hear! We always aim to provide the best travel experiences for our customers. What about your accommodations in Los Angeles?I stayed at the Fabrikam Hotel and it was outstanding. The room was clean, the staff was friendly, and the location was perfect.I'm glad you had a pleasant stay at the Fabrikam Hotel. Do you happen to have your reservation number and the date of your stay? I would like to document it for future reference.Yes, my reservation number was FAB123456 and I stayed at the Fabrikam Hotel from June 1st to June 5th.Thank you, Sarah. I have documented your positive feedback regarding your flight with Contoso Airways and your stay at the Fabrikam Hotel. We truly appreciate your kind words.You're welcome! I'm happy to share my positive experience. Your agency made my trip memorable. Thank you once again!As a token of our appreciation, I would like to offer you a 10% discount on your next travel booking with Woodgrove Travel. This discount will be valid for one year. How does that sound?That's wonderful! Thank you so much for the discount. I'm definitely looking forward to planning my next trip with Woodgrove Travel.You're very welcome, Sarah. If you have any questions or need assistance in the future, please don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hello, my name is Sarah Thompson. I recently traveled from New York City to Los Angeles using your agency's services.It was fantastic! The flight with Contoso Airways, flight CA123, departed on time and the service was excellent.I stayed at the Fabrikam Hotel and it was outstanding. The room was clean, the staff was friendly, and the location was perfect.Yes, my reservation number was FAB123456 and I stayed at the Fabrikam Hotel from June 1st to June 5th.You're welcome! I'm happy to share my positive experience. Your agency made my trip memorable. Thank you once again!That's wonderful! Thank you so much for the discount. I'm definitely looking forward to planning my next trip with Woodgrove Travel.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. My name is Aiden Clark. How can I assist you today?I'm glad to hear that, Sarah! How was your trip?That's great to hear! We always aim to provide the best travel experiences for our customers. What about your accommodations in Los Angeles?I'm glad you had a pleasant stay at the Fabrikam Hotel. Do you happen to have your reservation number and the date of your stay? I would like to document it for future reference.Thank you, Sarah. I have documented your positive feedback regarding your flight with Contoso Airways and your stay at the Fabrikam Hotel. We truly appreciate your kind words.As a token of our appreciation, I would like to offer you a 10% discount on your next travel booking with Woodgrove Travel. This discount will be valid for one year. How does that sound?You're very welcome, Sarah. If you have any questions or need assistance in the future, please don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. My name is Aiden Clark. How can I assist you today?\nCustomer: Hello, my name is Sarah Thompson. I recently traveled from New York City to Los Angeles using your agency's services.\nAgent: I'm glad to hear that, Sarah! How was your trip?\nCustomer: It was fantastic! The flight with Contoso Airways, flight CA123, departed on time and the service was excellent.\nAgent: That's great to hear! We always aim to provide the best travel experiences for our customers. What about your accommodations in Los Angeles?\nCustomer: I stayed at the Fabrikam Hotel and it was outstanding. The room was clean, the staff was friendly, and the location was perfect.\nAgent: I'm glad you had a pleasant stay at the Fabrikam Hotel. Do you happen to have your reservation number and the date of your stay? I would like to document it for future reference.\nCustomer: Yes, my reservation number was FAB123456 and I stayed at the Fabrikam Hotel from June 1st to June 5th.\nAgent: Thank you, Sarah. I have documented your positive feedback regarding your flight with Contoso Airways and your stay at the Fabrikam Hotel. We truly appreciate your kind words.\nCustomer: You're welcome! I'm happy to share my positive experience. Your agency made my trip memorable. Thank you once again!\nAgent: As a token of our appreciation, I would like to offer you a 10% discount on your next travel booking with Woodgrove Travel. This discount will be valid for one year. How does that sound?\nCustomer: That's wonderful! Thank you so much for the discount. I'm definitely looking forward to planning my next trip with Woodgrove Travel.\nAgent: You're very welcome, Sarah. If you have any questions or need assistance in the future, please don't hesitate to reach out. Have a great day!\n"
+  }
+}

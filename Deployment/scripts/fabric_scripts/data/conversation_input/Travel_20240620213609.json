@@ -1,0 +1,199 @@
+{
+  "AgentName": "Mia Anderson",
+  "AgentId": "UDC24N",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-139-7824",
+  "Conversation": {
+    "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+    "Messages": [
+      {
+        "Id": "08170a83-55cc-4685-b89a-621fbb4d757e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-20T21:38:48.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "Hello, thank you for calling Woodgrove Travel Agency. My name is Mia Anderson. How may I assist you today?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1a481d65-c039-49eb-aed4-9d148bb662ea",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-20T21:40:33.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "Hi Mia, this is John Smith. I recently traveled from Seattle to New York City and I encountered some issues during my trip.",
+        "UserId": "999-139-7824",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f2173eaa-f29c-429f-b143-689c6c13d3eb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-20T21:43:26.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "I'm sorry to hear that, John. Can you please let me know what specific issues you faced?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3ad4c2f5-6fec-426f-8459-be7bf102d87e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-20T21:46:11.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "Well, for starters, my flight with Contoso Airways was delayed by two hours, causing me to miss my connecting flight in Chicago. It was quite frustrating.",
+        "UserId": "999-139-7824",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "13acea48-34d4-4aaa-9c40-73a8bc50a7f1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-20T21:48:50.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "I understand how inconvenient that can be, John. I apologize for the inconvenience caused by the delay. Let me check if there are any available options to assist you.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3447a655-3b69-462a-9052-9d80c656f106",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-20T21:50:42.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "Thank you, Mia. I appreciate your help.",
+        "UserId": "999-139-7824",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "79fe23de-b583-479e-ac06-fa1647edac08",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-20T21:51:21.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "After reviewing your flight details, John, I see that there is a flight with Northwind Airlines available tomorrow at 10:00 AM from Chicago to New York City. Would that be suitable for you?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ca52ce04-23d6-46cb-9a20-b3acfd99fb88",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-20T21:53:23.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "Yes, that would work. Please go ahead and book that flight for me.",
+        "UserId": "999-139-7824",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "20b1dd0a-d923-46ce-b634-0a8f6480c0f7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-20T21:55:03.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "Certainly, John. I have successfully booked your new flight with Northwind Airlines, flight number NW123, departing from Chicago at 10:00 AM tomorrow. Please make sure to arrive at the airport in advance.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7f399365-1993-435c-9e1c-e6fe9fb4bf94",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-20T21:57:39.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "Thank you, Mia. Is there anything else I can assist you with?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f321d5d7-945c-4e26-87ee-d13754596505",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-20T21:58:22.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "No, that was my main concern. I appreciate your help in resolving the issue. Have a great day!",
+        "UserId": "999-139-7824",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a31654d0-7e74-4572-8c23-ebfe6c6a8098",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-20T22:01:21.193587-07:00",
+        "ConversationId": "bec354b0-5153-4db6-9c8b-962edbb111ed",
+        "Value": "You're welcome, John. I'm glad I could help. Have a wonderful day and safe travels!",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-20T21:36:09.193587-07:00",
+    "EndTime": "2024-06-20T22:01:21.193587-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel Agency. My name is Mia Anderson. How may I assist you today?Hi Mia, this is John Smith. I recently traveled from Seattle to New York City and I encountered some issues during my trip.I'm sorry to hear that, John. Can you please let me know what specific issues you faced?Well, for starters, my flight with Contoso Airways was delayed by two hours, causing me to miss my connecting flight in Chicago. It was quite frustrating.I understand how inconvenient that can be, John. I apologize for the inconvenience caused by the delay. Let me check if there are any available options to assist you.Thank you, Mia. I appreciate your help.After reviewing your flight details, John, I see that there is a flight with Northwind Airlines available tomorrow at 10:00 AM from Chicago to New York City. Would that be suitable for you?Yes, that would work. Please go ahead and book that flight for me.Certainly, John. I have successfully booked your new flight with Northwind Airlines, flight number NW123, departing from Chicago at 10:00 AM tomorrow. Please make sure to arrive at the airport in advance.Thank you, Mia. Is there anything else I can assist you with?No, that was my main concern. I appreciate your help in resolving the issue. Have a great day!You're welcome, John. I'm glad I could help. Have a wonderful day and safe travels!",
+    "Merged_content_user": "Hi Mia, this is John Smith. I recently traveled from Seattle to New York City and I encountered some issues during my trip.Well, for starters, my flight with Contoso Airways was delayed by two hours, causing me to miss my connecting flight in Chicago. It was quite frustrating.Thank you, Mia. I appreciate your help.Yes, that would work. Please go ahead and book that flight for me.No, that was my main concern. I appreciate your help in resolving the issue. Have a great day!",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel Agency. My name is Mia Anderson. How may I assist you today?I'm sorry to hear that, John. Can you please let me know what specific issues you faced?I understand how inconvenient that can be, John. I apologize for the inconvenience caused by the delay. Let me check if there are any available options to assist you.After reviewing your flight details, John, I see that there is a flight with Northwind Airlines available tomorrow at 10:00 AM from Chicago to New York City. Would that be suitable for you?Certainly, John. I have successfully booked your new flight with Northwind Airlines, flight number NW123, departing from Chicago at 10:00 AM tomorrow. Please make sure to arrive at the airport in advance.Thank you, Mia. Is there anything else I can assist you with?You're welcome, John. I'm glad I could help. Have a wonderful day and safe travels!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel Agency. My name is Mia Anderson. How may I assist you today?\nCustomer: Hi Mia, this is John Smith. I recently traveled from Seattle to New York City and I encountered some issues during my trip.\nAgent: I'm sorry to hear that, John. Can you please let me know what specific issues you faced?\nCustomer: Well, for starters, my flight with Contoso Airways was delayed by two hours, causing me to miss my connecting flight in Chicago. It was quite frustrating.\nAgent: I understand how inconvenient that can be, John. I apologize for the inconvenience caused by the delay. Let me check if there are any available options to assist you.\nCustomer: Thank you, Mia. I appreciate your help.\nAgent: After reviewing your flight details, John, I see that there is a flight with Northwind Airlines available tomorrow at 10:00 AM from Chicago to New York City. Would that be suitable for you?\nCustomer: Yes, that would work. Please go ahead and book that flight for me.\nAgent: Certainly, John. I have successfully booked your new flight with Northwind Airlines, flight number NW123, departing from Chicago at 10:00 AM tomorrow. Please make sure to arrive at the airport in advance.\nAgent: Thank you, Mia. Is there anything else I can assist you with?\nCustomer: No, that was my main concern. I appreciate your help in resolving the issue. Have a great day!\nAgent: You're welcome, John. I'm glad I could help. Have a wonderful day and safe travels!\n"
+  }
+}

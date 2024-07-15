@@ -1,0 +1,244 @@
+{
+  "AgentName": "Isaac Wright",
+  "AgentId": "AFRZLT",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-291-7557",
+  "Conversation": {
+    "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+    "Messages": [
+      {
+        "Id": "92986e2c-cfff-492e-9694-f0ef2435ae60",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T11:21:46.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Isaac Wright. How can I assist you today?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "97de0fa2-6b40-428d-8f21-4ca9dc1d3533",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T11:22:42.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Hi Isaac, my name is Samantha Roberts. I'm calling to discuss my upcoming trip.",
+        "UserId": "999-291-7557",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ea4e9993-56fb-403b-add4-fcf06b9049b3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T11:23:40.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Of course, Samantha. I'm here to help. Could you please let me know the origin and destination cities for your trip?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b619948b-fdb3-46c8-a23f-1f17736ff560",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T11:26:07.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "I'll be flying from New York City to Los Angeles.",
+        "UserId": "999-291-7557",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ea695e62-f172-4222-be8a-d6c89d44ddce",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T11:28:03.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Great! Do you have any specific dates or preferences for your travel?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8100dbe2-4b67-4751-93b9-722167ecf1c3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T11:29:30.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "I'm looking to travel on July 20th and return on July 25th. As for preferences, I'm open to suggestions.",
+        "UserId": "999-291-7557",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f7d4dc65-929b-414a-8654-348c44702cc1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T11:30:14.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Alright, Samantha. Let me check the available options for you. Please hold on for a moment.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cf492b42-4fbc-4de8-91b8-a0f3b49b339d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T11:33:12.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Sure, take your time.",
+        "UserId": "999-291-7557",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2755f665-1c73-4cd1-b723-0a5c46cd5ecc",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T11:35:34.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Thank you for waiting, Samantha. I have a couple of flight options for you. The first option is with Contoso Airways, flight CT123 departing from JFK Airport at 9:00 AM on July 20th and returning on July 25th at 6:00 PM. The second option is with Northwind Airlines, flight NW456 departing from LaGuardia Airport at 11:30 AM on July 20th and returning on July 25th at 8:30 PM. Both options have reasonable fares and good customer reviews.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "389d2ad3-d9e9-42ea-9fcc-181ea060d4d2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T11:37:14.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Thank you, Isaac. Can you also recommend some hotels for me to consider?",
+        "UserId": "999-291-7557",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f1f44357-0d7f-43a1-a624-8e1e3ff100c5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T11:39:40.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Certainly, Samantha. I can suggest a few hotels near your destination. We have Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Let me know if you have any preferences in terms of location, budget, or amenities so that I can narrow down the options for you.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0cc57752-cb02-4337-b2a2-1efde3257b46",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T11:41:23.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "I would prefer a hotel with a good location and reasonable pricing. Could you please provide some more details about Fabrikam Hotel and Lamna Suites?",
+        "UserId": "999-291-7557",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7481504a-4540-4d80-ad8b-c19e49b714e5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T11:44:15.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Certainly, Samantha. Fabrikam Hotel is a 4-star hotel located in the heart of downtown Los Angeles. It offers modern amenities, an on-site restaurant, and excellent views of the city. The reservation number for Fabrikam Hotel is 123456789 and your stay would be from July 20th to July 25th. As for Lamna Suites, it is a 5-star luxury hotel located near the beach. It offers spacious rooms, a rooftop pool, and a spa. The reservation number for Lamna Suites is 987654321 and your stay would be from July 20th to July 25th as well.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "22343b9c-8fe0-4bc1-903e-f88981286909",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T11:46:10.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "Thank you for the information, Isaac. I appreciate your help in finding the best options for my trip. I will take some time to consider and make a decision.",
+        "UserId": "999-291-7557",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c7175309-62d6-440e-b0d9-7e312517f379",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T11:48:12.8912957-07:00",
+        "ConversationId": "0d26be5c-bb27-4ae3-82a3-0bab66028530",
+        "Value": "You're welcome, Samantha. Please take your time and feel free to call back if you have any further questions or need assistance with the booking. Have a great day!",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-11T11:20:40.8912957-07:00",
+    "EndTime": "2024-06-11T11:48:12.8912957-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Isaac Wright. How can I assist you today?Hi Isaac, my name is Samantha Roberts. I'm calling to discuss my upcoming trip.Of course, Samantha. I'm here to help. Could you please let me know the origin and destination cities for your trip?I'll be flying from New York City to Los Angeles.Great! Do you have any specific dates or preferences for your travel?I'm looking to travel on July 20th and return on July 25th. As for preferences, I'm open to suggestions.Alright, Samantha. Let me check the available options for you. Please hold on for a moment.Sure, take your time.Thank you for waiting, Samantha. I have a couple of flight options for you. The first option is with Contoso Airways, flight CT123 departing from JFK Airport at 9:00 AM on July 20th and returning on July 25th at 6:00 PM. The second option is with Northwind Airlines, flight NW456 departing from LaGuardia Airport at 11:30 AM on July 20th and returning on July 25th at 8:30 PM. Both options have reasonable fares and good customer reviews.Thank you, Isaac. Can you also recommend some hotels for me to consider?Certainly, Samantha. I can suggest a few hotels near your destination. We have Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Let me know if you have any preferences in terms of location, budget, or amenities so that I can narrow down the options for you.I would prefer a hotel with a good location and reasonable pricing. Could you please provide some more details about Fabrikam Hotel and Lamna Suites?Certainly, Samantha. Fabrikam Hotel is a 4-star hotel located in the heart of downtown Los Angeles. It offers modern amenities, an on-site restaurant, and excellent views of the city. The reservation number for Fabrikam Hotel is 123456789 and your stay would be from July 20th to July 25th. As for Lamna Suites, it is a 5-star luxury hotel located near the beach. It offers spacious rooms, a rooftop pool, and a spa. The reservation number for Lamna Suites is 987654321 and your stay would be from July 20th to July 25th as well.Thank you for the information, Isaac. I appreciate your help in finding the best options for my trip. I will take some time to consider and make a decision.You're welcome, Samantha. Please take your time and feel free to call back if you have any further questions or need assistance with the booking. Have a great day!",
+    "Merged_content_user": "Hi Isaac, my name is Samantha Roberts. I'm calling to discuss my upcoming trip.I'll be flying from New York City to Los Angeles.I'm looking to travel on July 20th and return on July 25th. As for preferences, I'm open to suggestions.Sure, take your time.Thank you, Isaac. Can you also recommend some hotels for me to consider?I would prefer a hotel with a good location and reasonable pricing. Could you please provide some more details about Fabrikam Hotel and Lamna Suites?Thank you for the information, Isaac. I appreciate your help in finding the best options for my trip. I will take some time to consider and make a decision.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Isaac Wright. How can I assist you today?Of course, Samantha. I'm here to help. Could you please let me know the origin and destination cities for your trip?Great! Do you have any specific dates or preferences for your travel?Alright, Samantha. Let me check the available options for you. Please hold on for a moment.Thank you for waiting, Samantha. I have a couple of flight options for you. The first option is with Contoso Airways, flight CT123 departing from JFK Airport at 9:00 AM on July 20th and returning on July 25th at 6:00 PM. The second option is with Northwind Airlines, flight NW456 departing from LaGuardia Airport at 11:30 AM on July 20th and returning on July 25th at 8:30 PM. Both options have reasonable fares and good customer reviews.Certainly, Samantha. I can suggest a few hotels near your destination. We have Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Let me know if you have any preferences in terms of location, budget, or amenities so that I can narrow down the options for you.Certainly, Samantha. Fabrikam Hotel is a 4-star hotel located in the heart of downtown Los Angeles. It offers modern amenities, an on-site restaurant, and excellent views of the city. The reservation number for Fabrikam Hotel is 123456789 and your stay would be from July 20th to July 25th. As for Lamna Suites, it is a 5-star luxury hotel located near the beach. It offers spacious rooms, a rooftop pool, and a spa. The reservation number for Lamna Suites is 987654321 and your stay would be from July 20th to July 25th as well.You're welcome, Samantha. Please take your time and feel free to call back if you have any further questions or need assistance with the booking. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Isaac Wright. How can I assist you today?\nCustomer: Hi Isaac, my name is Samantha Roberts. I'm calling to discuss my upcoming trip.\nAgent: Of course, Samantha. I'm here to help. Could you please let me know the origin and destination cities for your trip?\nCustomer: I'll be flying from New York City to Los Angeles.\nAgent: Great! Do you have any specific dates or preferences for your travel?\nCustomer: I'm looking to travel on July 20th and return on July 25th. As for preferences, I'm open to suggestions.\nAgent: Alright, Samantha. Let me check the available options for you. Please hold on for a moment.\nCustomer: Sure, take your time.\nAgent: Thank you for waiting, Samantha. I have a couple of flight options for you. The first option is with Contoso Airways, flight CT123 departing from JFK Airport at 9:00 AM on July 20th and returning on July 25th at 6:00 PM. The second option is with Northwind Airlines, flight NW456 departing from LaGuardia Airport at 11:30 AM on July 20th and returning on July 25th at 8:30 PM. Both options have reasonable fares and good customer reviews.\nCustomer: Thank you, Isaac. Can you also recommend some hotels for me to consider?\nAgent: Certainly, Samantha. I can suggest a few hotels near your destination. We have Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Let me know if you have any preferences in terms of location, budget, or amenities so that I can narrow down the options for you.\nCustomer: I would prefer a hotel with a good location and reasonable pricing. Could you please provide some more details about Fabrikam Hotel and Lamna Suites?\nAgent: Certainly, Samantha. Fabrikam Hotel is a 4-star hotel located in the heart of downtown Los Angeles. It offers modern amenities, an on-site restaurant, and excellent views of the city. The reservation number for Fabrikam Hotel is 123456789 and your stay would be from July 20th to July 25th. As for Lamna Suites, it is a 5-star luxury hotel located near the beach. It offers spacious rooms, a rooftop pool, and a spa. The reservation number for Lamna Suites is 987654321 and your stay would be from July 20th to July 25th as well.\nCustomer: Thank you for the information, Isaac. I appreciate your help in finding the best options for my trip. I will take some time to consider and make a decision.\nAgent: You're welcome, Samantha. Please take your time and feel free to call back if you have any further questions or need assistance with the booking. Have a great day!\n"
+  }
+}

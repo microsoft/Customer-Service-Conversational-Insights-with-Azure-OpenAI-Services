@@ -1,0 +1,154 @@
+{
+  "AgentName": "Isabella Taylor",
+  "AgentId": "1OWZ1U",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-789-3820",
+  "Conversation": {
+    "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+    "Messages": [
+      {
+        "Id": "45ebf8b4-41b0-40e5-a30a-5cc93d315c81",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T23:23:47.2923939-07:00",
+        "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Isabella Taylor. How can I assist you today?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6927c40c-37ed-46bd-b077-1b3d94bb7219",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-09T23:26:06.2923939-07:00",
+        "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+        "Value": "Hi Isabella, my name is John Smith. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. The flight was delayed, the staff was rude, and my luggage was lost. I'm extremely frustrated and disappointed.",
+        "UserId": "999-789-3820",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "639efb7c-f206-4dff-90f0-c0c9711affc6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T23:28:19.2923939-07:00",
+        "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+        "Value": "I'm sorry to hear about your negative experience, John. That must have been really frustrating. Let me take a look at your flight details and see what I can do to assist you. Can you please provide me with the airline name and flight number?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d65b8165-d2c4-4dfd-99ae-298f223af48c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-09T23:29:48.2923939-07:00",
+        "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+        "Value": "The airline was Contoso Airways and the flight number was CA123. The departure date was May 5th, 2022, at 12:00 PM.",
+        "UserId": "999-789-3820",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0f57a7e3-f049-4d39-901c-73dba3564a6d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T23:31:08.2923939-07:00",
+        "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+        "Value": "Thank you for providing the details, John. I apologize for the inconvenience you experienced. Let me contact Contoso Airways on your behalf to address your concerns. Please bear with me for a moment.",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e0fc0efb-e4b5-4be4-b197-54ca4f77593b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-09T23:32:06.2923939-07:00",
+        "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+        "Value": "Sure, take your time. I appreciate your help, Isabella.",
+        "UserId": "999-789-3820",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c2b4d5a4-18a9-4a0f-925e-1acc0acac156",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T23:35:01.2923939-07:00",
+        "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+        "Value": "Thank you for your patience, John. I have spoken with Contoso Airways, and they acknowledge their mistakes. They apologize for the delay, rude staff, and lost luggage. Contoso Airways will provide you with a full refund for the flight and compensation for the inconvenience caused. They will also assist you in locating your lost luggage. They've provided a reference number for your case: R123456789. Is there anything else I can assist you with?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "35dbb1bb-5010-41c2-bf5d-519d50c519b5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-09T23:35:33.2923939-07:00",
+        "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+        "Value": "Thank you so much for your help, Isabella. I really appreciate your assistance in resolving this issue. The refund and compensation will definitely help. I'll follow up with Contoso Airways regarding my lost luggage using the reference number provided. No, there's nothing else I need assistance with at the moment.",
+        "UserId": "999-789-3820",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "67f37dc3-0df0-4688-bba1-54043c8893d9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T23:38:08.2923939-07:00",
+        "ConversationId": "8560e336-9582-4319-9e15-326513a2bd57",
+        "Value": "You're welcome, John. I'm glad I could help resolve the issue for you. If you have any further questions or need assistance in the future, don't hesitate to reach out. Have a great day!",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-09T23:21:49.2923939-07:00",
+    "EndTime": "2024-06-09T23:38:08.2923939-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Isabella Taylor. How can I assist you today?Hi Isabella, my name is John Smith. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. The flight was delayed, the staff was rude, and my luggage was lost. I'm extremely frustrated and disappointed.I'm sorry to hear about your negative experience, John. That must have been really frustrating. Let me take a look at your flight details and see what I can do to assist you. Can you please provide me with the airline name and flight number?The airline was Contoso Airways and the flight number was CA123. The departure date was May 5th, 2022, at 12:00 PM.Thank you for providing the details, John. I apologize for the inconvenience you experienced. Let me contact Contoso Airways on your behalf to address your concerns. Please bear with me for a moment.Sure, take your time. I appreciate your help, Isabella.Thank you for your patience, John. I have spoken with Contoso Airways, and they acknowledge their mistakes. They apologize for the delay, rude staff, and lost luggage. Contoso Airways will provide you with a full refund for the flight and compensation for the inconvenience caused. They will also assist you in locating your lost luggage. They've provided a reference number for your case: R123456789. Is there anything else I can assist you with?Thank you so much for your help, Isabella. I really appreciate your assistance in resolving this issue. The refund and compensation will definitely help. I'll follow up with Contoso Airways regarding my lost luggage using the reference number provided. No, there's nothing else I need assistance with at the moment.You're welcome, John. I'm glad I could help resolve the issue for you. If you have any further questions or need assistance in the future, don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Isabella, my name is John Smith. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. The flight was delayed, the staff was rude, and my luggage was lost. I'm extremely frustrated and disappointed.The airline was Contoso Airways and the flight number was CA123. The departure date was May 5th, 2022, at 12:00 PM.Sure, take your time. I appreciate your help, Isabella.Thank you so much for your help, Isabella. I really appreciate your assistance in resolving this issue. The refund and compensation will definitely help. I'll follow up with Contoso Airways regarding my lost luggage using the reference number provided. No, there's nothing else I need assistance with at the moment.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Isabella Taylor. How can I assist you today?I'm sorry to hear about your negative experience, John. That must have been really frustrating. Let me take a look at your flight details and see what I can do to assist you. Can you please provide me with the airline name and flight number?Thank you for providing the details, John. I apologize for the inconvenience you experienced. Let me contact Contoso Airways on your behalf to address your concerns. Please bear with me for a moment.Thank you for your patience, John. I have spoken with Contoso Airways, and they acknowledge their mistakes. They apologize for the delay, rude staff, and lost luggage. Contoso Airways will provide you with a full refund for the flight and compensation for the inconvenience caused. They will also assist you in locating your lost luggage. They've provided a reference number for your case: R123456789. Is there anything else I can assist you with?You're welcome, John. I'm glad I could help resolve the issue for you. If you have any further questions or need assistance in the future, don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Isabella Taylor. How can I assist you today?\nCustomer: Hi Isabella, my name is John Smith. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. The flight was delayed, the staff was rude, and my luggage was lost. I'm extremely frustrated and disappointed.\nAgent: I'm sorry to hear about your negative experience, John. That must have been really frustrating. Let me take a look at your flight details and see what I can do to assist you. Can you please provide me with the airline name and flight number?\nCustomer: The airline was Contoso Airways and the flight number was CA123. The departure date was May 5th, 2022, at 12:00 PM.\nAgent: Thank you for providing the details, John. I apologize for the inconvenience you experienced. Let me contact Contoso Airways on your behalf to address your concerns. Please bear with me for a moment.\nCustomer: Sure, take your time. I appreciate your help, Isabella.\nAgent: Thank you for your patience, John. I have spoken with Contoso Airways, and they acknowledge their mistakes. They apologize for the delay, rude staff, and lost luggage. Contoso Airways will provide you with a full refund for the flight and compensation for the inconvenience caused. They will also assist you in locating your lost luggage. They've provided a reference number for your case: R123456789. Is there anything else I can assist you with?\nCustomer: Thank you so much for your help, Isabella. I really appreciate your assistance in resolving this issue. The refund and compensation will definitely help. I'll follow up with Contoso Airways regarding my lost luggage using the reference number provided. No, there's nothing else I need assistance with at the moment.\nAgent: You're welcome, John. I'm glad I could help resolve the issue for you. If you have any further questions or need assistance in the future, don't hesitate to reach out. Have a great day!\n"
+  }
+}

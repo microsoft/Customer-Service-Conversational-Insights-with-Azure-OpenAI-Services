@@ -1,0 +1,184 @@
+{
+  "AgentName": "Lucas Thompson",
+  "AgentId": "5B94O0",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-596-8287",
+  "Conversation": {
+    "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+    "Messages": [
+      {
+        "Id": "e64a1b94-ab57-4307-99a4-6edf5a56e8db",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-18T02:36:46.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Lucas Thompson. How may I assist you today?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "71fa00d7-241b-4cf7-8c62-50e209f2132b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-18T02:37:31.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "Hi Lucas, my name is Emily Ross. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. I wanted to share my concerns and see if there's anything that can be done.",
+        "UserId": "999-596-8287",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "70e27377-2f13-4d18-92f7-a48e3a99d173",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-18T02:40:26.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "I'm sorry to hear about your bad experience, Emily. I'll do my best to assist you with your concerns. Could you please provide me with some more details about what happened?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c9eefbb1-c1f3-4b3c-9f3c-1cf807253077",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-18T02:42:08.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "I flew with Contoso Airways on flight CA1234 on August 10th. The flight was delayed by 3 hours, the staff was unhelpful, and the overall service was very disappointing.",
+        "UserId": "999-596-8287",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fcece4ab-47f2-4c8c-9e38-fdf4baf8bb93",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-18T02:44:25.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "I understand your frustration, Emily. Flight delays and poor service can definitely make a trip less enjoyable. Let me check if there's anything I can do to address your concerns. Please allow me a moment to review your booking.",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "53fa6344-f8e2-403c-a083-4b5b2e0035f7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-18T02:45:34.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "Thank you, Lucas. I appreciate your help.",
+        "UserId": "999-596-8287",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6aa52d69-e09c-43e3-85eb-f49b591b9f83",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-18T02:46:46.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "Upon reviewing your booking, I see that you also had a hotel reservation at Fabrikam Hotel in Los Angeles. Could you please provide me with the reservation number and the dates of your stay?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "92d8bedf-c742-40c9-af21-fe1a8e33a0cf",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-18T02:49:16.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "Certainly, the reservation number is FAB123456 and I stayed at the Fabrikam Hotel from August 10th to August 15th.",
+        "UserId": "999-596-8287",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4ccbf226-1043-424f-9775-04a991eb4b7a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-18T02:49:54.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "Thank you for providing the details, Emily. I apologize for the inconvenience you faced with the airline. I will reach out to Contoso Airways and Fabrikam Hotel on your behalf to address your concerns. I will keep you updated on any progress. Is there anything else I can assist you with?",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7c58fb68-a104-4e91-8547-f4e2de559d99",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-18T02:50:43.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "No, that's all for now. Thank you, Lucas. I appreciate your help and I hope the issues can be resolved.",
+        "UserId": "999-596-8287",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "27b72e2e-1436-4e4a-8ac3-e0417e109cf5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-18T02:53:19.8339967-07:00",
+        "ConversationId": "70613f51-fb90-4892-a2ae-3802c496d179",
+        "Value": "You're welcome, Emily. I understand how important it is to have a pleasant travel experience. I'll do my best to assist you. If you have any other concerns or questions in the future, please don't hesitate to reach out. Have a great day!",
+        "UserId": "5B94O0",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-18T02:35:14.8339967-07:00",
+    "EndTime": "2024-06-18T02:53:19.8339967-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Lucas Thompson. How may I assist you today?Hi Lucas, my name is Emily Ross. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. I wanted to share my concerns and see if there's anything that can be done.I'm sorry to hear about your bad experience, Emily. I'll do my best to assist you with your concerns. Could you please provide me with some more details about what happened?I flew with Contoso Airways on flight CA1234 on August 10th. The flight was delayed by 3 hours, the staff was unhelpful, and the overall service was very disappointing.I understand your frustration, Emily. Flight delays and poor service can definitely make a trip less enjoyable. Let me check if there's anything I can do to address your concerns. Please allow me a moment to review your booking.Thank you, Lucas. I appreciate your help.Upon reviewing your booking, I see that you also had a hotel reservation at Fabrikam Hotel in Los Angeles. Could you please provide me with the reservation number and the dates of your stay?Certainly, the reservation number is FAB123456 and I stayed at the Fabrikam Hotel from August 10th to August 15th.Thank you for providing the details, Emily. I apologize for the inconvenience you faced with the airline. I will reach out to Contoso Airways and Fabrikam Hotel on your behalf to address your concerns. I will keep you updated on any progress. Is there anything else I can assist you with?No, that's all for now. Thank you, Lucas. I appreciate your help and I hope the issues can be resolved.You're welcome, Emily. I understand how important it is to have a pleasant travel experience. I'll do my best to assist you. If you have any other concerns or questions in the future, please don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Lucas, my name is Emily Ross. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. I wanted to share my concerns and see if there's anything that can be done.I flew with Contoso Airways on flight CA1234 on August 10th. The flight was delayed by 3 hours, the staff was unhelpful, and the overall service was very disappointing.Thank you, Lucas. I appreciate your help.Certainly, the reservation number is FAB123456 and I stayed at the Fabrikam Hotel from August 10th to August 15th.No, that's all for now. Thank you, Lucas. I appreciate your help and I hope the issues can be resolved.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Lucas Thompson. How may I assist you today?I'm sorry to hear about your bad experience, Emily. I'll do my best to assist you with your concerns. Could you please provide me with some more details about what happened?I understand your frustration, Emily. Flight delays and poor service can definitely make a trip less enjoyable. Let me check if there's anything I can do to address your concerns. Please allow me a moment to review your booking.Upon reviewing your booking, I see that you also had a hotel reservation at Fabrikam Hotel in Los Angeles. Could you please provide me with the reservation number and the dates of your stay?Thank you for providing the details, Emily. I apologize for the inconvenience you faced with the airline. I will reach out to Contoso Airways and Fabrikam Hotel on your behalf to address your concerns. I will keep you updated on any progress. Is there anything else I can assist you with?You're welcome, Emily. I understand how important it is to have a pleasant travel experience. I'll do my best to assist you. If you have any other concerns or questions in the future, please don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Lucas Thompson. How may I assist you today?\nCustomer: Hi Lucas, my name is Emily Ross. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. I wanted to share my concerns and see if there's anything that can be done.\nAgent: I'm sorry to hear about your bad experience, Emily. I'll do my best to assist you with your concerns. Could you please provide me with some more details about what happened?\nCustomer: I flew with Contoso Airways on flight CA1234 on August 10th. The flight was delayed by 3 hours, the staff was unhelpful, and the overall service was very disappointing.\nAgent: I understand your frustration, Emily. Flight delays and poor service can definitely make a trip less enjoyable. Let me check if there's anything I can do to address your concerns. Please allow me a moment to review your booking.\nCustomer: Thank you, Lucas. I appreciate your help.\nAgent: Upon reviewing your booking, I see that you also had a hotel reservation at Fabrikam Hotel in Los Angeles. Could you please provide me with the reservation number and the dates of your stay?\nCustomer: Certainly, the reservation number is FAB123456 and I stayed at the Fabrikam Hotel from August 10th to August 15th.\nAgent: Thank you for providing the details, Emily. I apologize for the inconvenience you faced with the airline. I will reach out to Contoso Airways and Fabrikam Hotel on your behalf to address your concerns. I will keep you updated on any progress. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thank you, Lucas. I appreciate your help and I hope the issues can be resolved.\nAgent: You're welcome, Emily. I understand how important it is to have a pleasant travel experience. I'll do my best to assist you. If you have any other concerns or questions in the future, please don't hesitate to reach out. Have a great day!\n"
+  }
+}

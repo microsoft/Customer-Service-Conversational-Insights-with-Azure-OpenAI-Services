@@ -1,0 +1,184 @@
+{
+  "AgentName": "Ava Miller",
+  "AgentId": "M8Z07C",
+  "Team": "Midwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-581-3175",
+  "Conversation": {
+    "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+    "Messages": [
+      {
+        "Id": "c447922e-065e-488e-b508-d8733494ad6b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T22:38:23.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Ava Miller. How may I assist you today?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f84f4fbe-deb8-4a52-900b-410f5f2a4a7a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T22:39:09.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "Hi Ava, my name is John Smith. I recently traveled from Chicago to Los Angeles with Contoso Airways and I had a terrible experience.",
+        "UserId": "999-581-3175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7d27a3f1-0475-4721-89ee-99e5cf311629",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T22:39:39.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "I'm sorry to hear that, John. Could you please tell me more about what happened?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d9e530be-8853-4965-becc-0a40ec0511ff",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T22:41:46.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "Well, first of all, the flight was delayed for over two hours without any proper explanation. This caused a lot of inconvenience for me as I had important meetings to attend in Los Angeles.",
+        "UserId": "999-581-3175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c72dfdc5-c811-4411-8d8a-4009954b4327",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T22:44:34.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "I understand how frustrating flight delays can be, especially when you have important plans. I apologize for the inconvenience caused. Let me check if there were any specific reasons for the delay.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9a9b3f72-1d80-4c1f-8033-d3a1b9bf6935",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T22:46:22.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "Thank you, Ava. I appreciate your help.",
+        "UserId": "999-581-3175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cf4e7797-68bb-4469-8e4c-bc6e0ea7729b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T22:49:15.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "After checking, it seems that the flight was delayed due to air traffic congestion at both Chicago and Los Angeles airports. Unfortunately, these external factors are beyond the airline's control.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ab6c4edc-91d5-45a2-b6ec-36c2b7c9ee90",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T22:51:26.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "I understand that sometimes delays happen, but I feel like the airline could have communicated the situation better. Is there anything that can be done to prevent such situations in the future?",
+        "UserId": "999-581-3175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3eddf5f6-397f-4af5-8d5d-15d1896f6f52",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T22:52:25.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "I completely understand your concern, John. I will pass on your feedback to the airline to ensure better communication during such situations. As a gesture of goodwill, I can offer you a voucher worth $50 that you can use towards your next flight with Contoso Airways.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0c997bc3-a9bf-4456-829a-156c68f59f67",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T22:53:46.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "Thank you, Ava. That would be appreciated. I hope it helps in making my future travel experiences smoother. Is there anything else you can assist me with?",
+        "UserId": "999-581-3175",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3383b0f2-d9d9-4e43-bbf5-1ed5c99eb389",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T22:54:45.6958705-07:00",
+        "ConversationId": "a549ae25-b912-42e1-8d4f-7f01b9541bc1",
+        "Value": "You're welcome, John. I'm glad I could help. If you have any more concerns or need assistance in the future, feel free to reach out to us. Have a great day!",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-02T22:35:59.6958705-07:00",
+    "EndTime": "2024-06-02T22:54:45.6958705-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Ava Miller. How may I assist you today?Hi Ava, my name is John Smith. I recently traveled from Chicago to Los Angeles with Contoso Airways and I had a terrible experience.I'm sorry to hear that, John. Could you please tell me more about what happened?Well, first of all, the flight was delayed for over two hours without any proper explanation. This caused a lot of inconvenience for me as I had important meetings to attend in Los Angeles.I understand how frustrating flight delays can be, especially when you have important plans. I apologize for the inconvenience caused. Let me check if there were any specific reasons for the delay.Thank you, Ava. I appreciate your help.After checking, it seems that the flight was delayed due to air traffic congestion at both Chicago and Los Angeles airports. Unfortunately, these external factors are beyond the airline's control.I understand that sometimes delays happen, but I feel like the airline could have communicated the situation better. Is there anything that can be done to prevent such situations in the future?I completely understand your concern, John. I will pass on your feedback to the airline to ensure better communication during such situations. As a gesture of goodwill, I can offer you a voucher worth $50 that you can use towards your next flight with Contoso Airways.Thank you, Ava. That would be appreciated. I hope it helps in making my future travel experiences smoother. Is there anything else you can assist me with?You're welcome, John. I'm glad I could help. If you have any more concerns or need assistance in the future, feel free to reach out to us. Have a great day!",
+    "Merged_content_user": "Hi Ava, my name is John Smith. I recently traveled from Chicago to Los Angeles with Contoso Airways and I had a terrible experience.Well, first of all, the flight was delayed for over two hours without any proper explanation. This caused a lot of inconvenience for me as I had important meetings to attend in Los Angeles.Thank you, Ava. I appreciate your help.I understand that sometimes delays happen, but I feel like the airline could have communicated the situation better. Is there anything that can be done to prevent such situations in the future?Thank you, Ava. That would be appreciated. I hope it helps in making my future travel experiences smoother. Is there anything else you can assist me with?",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Ava Miller. How may I assist you today?I'm sorry to hear that, John. Could you please tell me more about what happened?I understand how frustrating flight delays can be, especially when you have important plans. I apologize for the inconvenience caused. Let me check if there were any specific reasons for the delay.After checking, it seems that the flight was delayed due to air traffic congestion at both Chicago and Los Angeles airports. Unfortunately, these external factors are beyond the airline's control.I completely understand your concern, John. I will pass on your feedback to the airline to ensure better communication during such situations. As a gesture of goodwill, I can offer you a voucher worth $50 that you can use towards your next flight with Contoso Airways.You're welcome, John. I'm glad I could help. If you have any more concerns or need assistance in the future, feel free to reach out to us. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Ava Miller. How may I assist you today?\nCustomer: Hi Ava, my name is John Smith. I recently traveled from Chicago to Los Angeles with Contoso Airways and I had a terrible experience.\nAgent: I'm sorry to hear that, John. Could you please tell me more about what happened?\nCustomer: Well, first of all, the flight was delayed for over two hours without any proper explanation. This caused a lot of inconvenience for me as I had important meetings to attend in Los Angeles.\nAgent: I understand how frustrating flight delays can be, especially when you have important plans. I apologize for the inconvenience caused. Let me check if there were any specific reasons for the delay.\nCustomer: Thank you, Ava. I appreciate your help.\nAgent: After checking, it seems that the flight was delayed due to air traffic congestion at both Chicago and Los Angeles airports. Unfortunately, these external factors are beyond the airline's control.\nCustomer: I understand that sometimes delays happen, but I feel like the airline could have communicated the situation better. Is there anything that can be done to prevent such situations in the future?\nAgent: I completely understand your concern, John. I will pass on your feedback to the airline to ensure better communication during such situations. As a gesture of goodwill, I can offer you a voucher worth $50 that you can use towards your next flight with Contoso Airways.\nCustomer: Thank you, Ava. That would be appreciated. I hope it helps in making my future travel experiences smoother. Is there anything else you can assist me with?\nAgent: You're welcome, John. I'm glad I could help. If you have any more concerns or need assistance in the future, feel free to reach out to us. Have a great day!\n"
+  }
+}

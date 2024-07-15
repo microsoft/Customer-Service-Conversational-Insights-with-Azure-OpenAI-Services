@@ -1,0 +1,214 @@
+{
+  "AgentName": "Evelyn Perez",
+  "AgentId": "AOC72V",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-431-6716",
+  "Conversation": {
+    "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+    "Messages": [
+      {
+        "Id": "db71f708-c489-44ff-9866-2390c7d294cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T10:19:02.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "Thank you for calling Woodgrove Travel agency. My name is Evelyn Perez. How may I assist you today?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "476115ed-45cd-464a-8d4d-e06bcc68f622",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T10:20:44.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "Hello, this is John Smith. I recently traveled from Seattle to New York with Contoso Airways and I had a terrible experience.",
+        "UserId": "999-431-6716",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a6a8e78b-af48-4977-bbf8-ba6ba794ae34",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T10:22:09.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "I'm sorry to hear that, Mr. Smith. Could you please provide me with more details about what happened?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "813bf583-1864-4ec6-bf2b-951bcf2055ed",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T10:24:07.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "The flight was delayed for hours without any proper explanation. I missed an important meeting because of it. I also found the cabin crew to be rude and unhelpful.",
+        "UserId": "999-431-6716",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9934874f-1a9d-4831-98c6-154625631556",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T10:24:53.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "I apologize for the inconvenience you experienced, Mr. Smith. Let me check the details of your flight so I can assist you further.",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "67e760ab-a4a3-4c74-bc3f-82b976a603a3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T10:26:25.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "Thank you, I appreciate your help.",
+        "UserId": "999-431-6716",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "96ba7963-821d-42e9-9fd1-b2e6b9314e59",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T10:29:20.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "I see that you were scheduled to fly on Contoso Airways flight CA123 from Seattle to New York on September 25, 2022. Is that correct?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bff3f106-f24b-4b13-acf4-83e025819fa0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T10:30:07.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "Yes, that's correct.",
+        "UserId": "999-431-6716",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4ef54b3c-9a51-4fec-960e-5f491f049dbd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T10:32:35.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "I apologize for the inconvenience caused by the delay. Unfortunately, flight delays can occur due to various reasons, including weather conditions or technical issues.",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "91ba3425-2c7e-480e-9d5c-f3043adaf753",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T10:34:18.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "I understand that, but there was no proper communication from the airline regarding the delay. It was frustrating and unprofessional.",
+        "UserId": "999-431-6716",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "347c15b0-4e51-4b2f-b190-3b337c938620",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T10:36:25.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "I completely understand your frustration, Mr. Smith. I will make a note of your feedback regarding the lack of communication from the airline. Is there something else I can assist you with?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4f0a55cf-1020-4f71-8843-1604c8e5e2e2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-14T10:38:48.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "No, that's all for now. I just wanted to express my dissatisfaction with the service.",
+        "UserId": "999-431-6716",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c5686ea4-db99-47ee-913c-204d01d11344",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-14T10:41:37.5614449-07:00",
+        "ConversationId": "aa65aa9c-a59d-4b29-877d-5c6288a3479a",
+        "Value": "I appreciate you bringing this to our attention, Mr. Smith. If you have any future travel plans, please don't hesitate to reach out to us for assistance. Have a great day!",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-14T10:18:09.5614449-07:00",
+    "EndTime": "2024-06-14T10:41:37.5614449-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel agency. My name is Evelyn Perez. How may I assist you today?Hello, this is John Smith. I recently traveled from Seattle to New York with Contoso Airways and I had a terrible experience.I'm sorry to hear that, Mr. Smith. Could you please provide me with more details about what happened?The flight was delayed for hours without any proper explanation. I missed an important meeting because of it. I also found the cabin crew to be rude and unhelpful.I apologize for the inconvenience you experienced, Mr. Smith. Let me check the details of your flight so I can assist you further.Thank you, I appreciate your help.I see that you were scheduled to fly on Contoso Airways flight CA123 from Seattle to New York on September 25, 2022. Is that correct?Yes, that's correct.I apologize for the inconvenience caused by the delay. Unfortunately, flight delays can occur due to various reasons, including weather conditions or technical issues.I understand that, but there was no proper communication from the airline regarding the delay. It was frustrating and unprofessional.I completely understand your frustration, Mr. Smith. I will make a note of your feedback regarding the lack of communication from the airline. Is there something else I can assist you with?No, that's all for now. I just wanted to express my dissatisfaction with the service.I appreciate you bringing this to our attention, Mr. Smith. If you have any future travel plans, please don't hesitate to reach out to us for assistance. Have a great day!",
+    "Merged_content_user": "Hello, this is John Smith. I recently traveled from Seattle to New York with Contoso Airways and I had a terrible experience.The flight was delayed for hours without any proper explanation. I missed an important meeting because of it. I also found the cabin crew to be rude and unhelpful.Thank you, I appreciate your help.Yes, that's correct.I understand that, but there was no proper communication from the airline regarding the delay. It was frustrating and unprofessional.No, that's all for now. I just wanted to express my dissatisfaction with the service.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel agency. My name is Evelyn Perez. How may I assist you today?I'm sorry to hear that, Mr. Smith. Could you please provide me with more details about what happened?I apologize for the inconvenience you experienced, Mr. Smith. Let me check the details of your flight so I can assist you further.I see that you were scheduled to fly on Contoso Airways flight CA123 from Seattle to New York on September 25, 2022. Is that correct?I apologize for the inconvenience caused by the delay. Unfortunately, flight delays can occur due to various reasons, including weather conditions or technical issues.I completely understand your frustration, Mr. Smith. I will make a note of your feedback regarding the lack of communication from the airline. Is there something else I can assist you with?I appreciate you bringing this to our attention, Mr. Smith. If you have any future travel plans, please don't hesitate to reach out to us for assistance. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel agency. My name is Evelyn Perez. How may I assist you today?\nCustomer: Hello, this is John Smith. I recently traveled from Seattle to New York with Contoso Airways and I had a terrible experience.\nAgent: I'm sorry to hear that, Mr. Smith. Could you please provide me with more details about what happened?\nCustomer: The flight was delayed for hours without any proper explanation. I missed an important meeting because of it. I also found the cabin crew to be rude and unhelpful.\nAgent: I apologize for the inconvenience you experienced, Mr. Smith. Let me check the details of your flight so I can assist you further.\nCustomer: Thank you, I appreciate your help.\nAgent: I see that you were scheduled to fly on Contoso Airways flight CA123 from Seattle to New York on September 25, 2022. Is that correct?\nCustomer: Yes, that's correct.\nAgent: I apologize for the inconvenience caused by the delay. Unfortunately, flight delays can occur due to various reasons, including weather conditions or technical issues.\nCustomer: I understand that, but there was no proper communication from the airline regarding the delay. It was frustrating and unprofessional.\nAgent: I completely understand your frustration, Mr. Smith. I will make a note of your feedback regarding the lack of communication from the airline. Is there something else I can assist you with?\nCustomer: No, that's all for now. I just wanted to express my dissatisfaction with the service.\nAgent: I appreciate you bringing this to our attention, Mr. Smith. If you have any future travel plans, please don't hesitate to reach out to us for assistance. Have a great day!\n"
+  }
+}

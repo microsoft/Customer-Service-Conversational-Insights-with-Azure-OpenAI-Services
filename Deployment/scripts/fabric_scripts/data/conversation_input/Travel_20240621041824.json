@@ -1,0 +1,184 @@
+{
+  "AgentName": "Mia Anderson",
+  "AgentId": "UDC24N",
+  "Team": "Midwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-332-8769",
+  "Conversation": {
+    "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+    "Messages": [
+      {
+        "Id": "6d6c3bb0-633a-406b-b239-8f582396f08a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T04:20:55.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "Hello, thank you for calling Woodgrove Travel agency. My name is Mia Anderson. How may I assist you today?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e9ace13b-5d3c-435d-bfcb-88637e3b3ecf",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T04:23:41.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "Hi Mia, my name is Sarah Thompson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with my flights. I was hoping to discuss it and see if there's anything that can be done.",
+        "UserId": "999-332-8769",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bcd8b826-6345-438a-bc00-41fed3190dc0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T04:26:03.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "I'm sorry to hear that, Sarah. I understand how frustrating it can be when travel doesn't go smoothly. Can you please provide me with some more details about the issues you faced?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "18b9b388-805f-4a1d-bb30-7a9bd25ec49c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T04:26:43.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "Of course, Mia. My flight on Contoso Airways, flight number CT125, was delayed for over 3 hours due to mechanical issues. This caused me to miss my connecting flight in Dallas, and I had to spend the night at a hotel instead of reaching my destination on time.",
+        "UserId": "999-332-8769",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bde6721c-8cf1-4bb0-ba25-ebc42b90c5b3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T04:28:40.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "I'm really sorry for the inconvenience you faced, Sarah. I'll do my best to assist you and find a suitable solution. Let me check your flight records and see what options we have.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e4b3ee0d-9614-4e0b-ac30-422c9c3cdf06",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T04:30:29.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "Thank you, Mia. I appreciate your assistance.",
+        "UserId": "999-332-8769",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6691e012-45f5-4713-a0c5-497299495ba0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T04:31:53.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "After reviewing your flight details, Sarah, I see that you were indeed affected by the delay. Let me see if I can arrange a refund or compensation for you. Please bear with me for a moment.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "73d9dfb7-8cd5-4511-b0c8-746d6c364699",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T04:34:40.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "Thank you, Mia. I really hope we can find a solution.",
+        "UserId": "999-332-8769",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "873c0e00-5051-4b54-9b97-54da08237257",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T04:35:33.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "Sarah, I apologize for the inconvenience caused by the delay and missed connection. I have submitted a request for a refund of your ticket and a compensation for the additional expenses incurred due to the delay. The refund and compensation should reflect in your account within the next 5-7 business days.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "30a344bc-469f-4f32-9b3c-c27e3e78f8f9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T04:38:21.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "Thank you so much, Mia. I really appreciate your help in resolving this matter. Is there anything else I need to do?",
+        "UserId": "999-332-8769",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "94b5bf4d-0b70-49c4-89b5-2492d60d6a9f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T04:39:24.8833941-07:00",
+        "ConversationId": "4119170d-ec74-41aa-a8c4-ce1e30a036fa",
+        "Value": "You're welcome, Sarah. I'm glad I could assist you. As of now, there's nothing else you need to do. If you have any further questions or concerns, feel free to reach out to us. Have a great day!",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-21T04:18:24.8833941-07:00",
+    "EndTime": "2024-06-21T04:39:24.8833941-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel agency. My name is Mia Anderson. How may I assist you today?Hi Mia, my name is Sarah Thompson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with my flights. I was hoping to discuss it and see if there's anything that can be done.I'm sorry to hear that, Sarah. I understand how frustrating it can be when travel doesn't go smoothly. Can you please provide me with some more details about the issues you faced?Of course, Mia. My flight on Contoso Airways, flight number CT125, was delayed for over 3 hours due to mechanical issues. This caused me to miss my connecting flight in Dallas, and I had to spend the night at a hotel instead of reaching my destination on time.I'm really sorry for the inconvenience you faced, Sarah. I'll do my best to assist you and find a suitable solution. Let me check your flight records and see what options we have.Thank you, Mia. I appreciate your assistance.After reviewing your flight details, Sarah, I see that you were indeed affected by the delay. Let me see if I can arrange a refund or compensation for you. Please bear with me for a moment.Thank you, Mia. I really hope we can find a solution.Sarah, I apologize for the inconvenience caused by the delay and missed connection. I have submitted a request for a refund of your ticket and a compensation for the additional expenses incurred due to the delay. The refund and compensation should reflect in your account within the next 5-7 business days.Thank you so much, Mia. I really appreciate your help in resolving this matter. Is there anything else I need to do?You're welcome, Sarah. I'm glad I could assist you. As of now, there's nothing else you need to do. If you have any further questions or concerns, feel free to reach out to us. Have a great day!",
+    "Merged_content_user": "Hi Mia, my name is Sarah Thompson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with my flights. I was hoping to discuss it and see if there's anything that can be done.Of course, Mia. My flight on Contoso Airways, flight number CT125, was delayed for over 3 hours due to mechanical issues. This caused me to miss my connecting flight in Dallas, and I had to spend the night at a hotel instead of reaching my destination on time.Thank you, Mia. I appreciate your assistance.Thank you, Mia. I really hope we can find a solution.Thank you so much, Mia. I really appreciate your help in resolving this matter. Is there anything else I need to do?",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel agency. My name is Mia Anderson. How may I assist you today?I'm sorry to hear that, Sarah. I understand how frustrating it can be when travel doesn't go smoothly. Can you please provide me with some more details about the issues you faced?I'm really sorry for the inconvenience you faced, Sarah. I'll do my best to assist you and find a suitable solution. Let me check your flight records and see what options we have.After reviewing your flight details, Sarah, I see that you were indeed affected by the delay. Let me see if I can arrange a refund or compensation for you. Please bear with me for a moment.Sarah, I apologize for the inconvenience caused by the delay and missed connection. I have submitted a request for a refund of your ticket and a compensation for the additional expenses incurred due to the delay. The refund and compensation should reflect in your account within the next 5-7 business days.You're welcome, Sarah. I'm glad I could assist you. As of now, there's nothing else you need to do. If you have any further questions or concerns, feel free to reach out to us. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel agency. My name is Mia Anderson. How may I assist you today?\nCustomer: Hi Mia, my name is Sarah Thompson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with my flights. I was hoping to discuss it and see if there's anything that can be done.\nAgent: I'm sorry to hear that, Sarah. I understand how frustrating it can be when travel doesn't go smoothly. Can you please provide me with some more details about the issues you faced?\nCustomer: Of course, Mia. My flight on Contoso Airways, flight number CT125, was delayed for over 3 hours due to mechanical issues. This caused me to miss my connecting flight in Dallas, and I had to spend the night at a hotel instead of reaching my destination on time.\nAgent: I'm really sorry for the inconvenience you faced, Sarah. I'll do my best to assist you and find a suitable solution. Let me check your flight records and see what options we have.\nCustomer: Thank you, Mia. I appreciate your assistance.\nAgent: After reviewing your flight details, Sarah, I see that you were indeed affected by the delay. Let me see if I can arrange a refund or compensation for you. Please bear with me for a moment.\nCustomer: Thank you, Mia. I really hope we can find a solution.\nAgent: Sarah, I apologize for the inconvenience caused by the delay and missed connection. I have submitted a request for a refund of your ticket and a compensation for the additional expenses incurred due to the delay. The refund and compensation should reflect in your account within the next 5-7 business days.\nCustomer: Thank you so much, Mia. I really appreciate your help in resolving this matter. Is there anything else I need to do?\nAgent: You're welcome, Sarah. I'm glad I could assist you. As of now, there's nothing else you need to do. If you have any further questions or concerns, feel free to reach out to us. Have a great day!\n"
+  }
+}

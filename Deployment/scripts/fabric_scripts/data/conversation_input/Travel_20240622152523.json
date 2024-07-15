@@ -1,0 +1,349 @@
+{
+  "AgentName": "Zoe Lewis",
+  "AgentId": "G6HD7J",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-611-4464",
+  "Conversation": {
+    "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+    "Messages": [
+      {
+        "Id": "1d180f20-cc4c-4828-8b8c-ec6252881715",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:26:57.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Zoe Lewis. How may I assist you today?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "da4fcca7-602b-4bde-aeff-03027c8386e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T15:29:33.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Hi Zoe, my name is Emily Johnson. I'm looking for some assistance with my upcoming trip.",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f0e77194-38c1-4676-a08d-2eafe1dbf023",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:30:15.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Of course, Emily! I'll be glad to help. Could you please let me know the origin and destination cities for your trip?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "445f0c3e-e9bd-44bb-8b15-31dc38499203",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T15:33:08.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "I'll be flying from Los Angeles, California to New York City, New York.",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7120296b-1354-4628-8769-05ad0f2a114e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:35:56.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Great choice! Let me check the available flights for you.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "41e2987a-8253-4e3e-ab53-2e955c70dd52",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:37:29.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "We have flights from two airlines for your route. Contoso Airways and Northwind Airlines. Which one would you prefer?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9be4efd3-fa75-4398-88f6-bd02381bb7ae",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T15:39:56.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Hmm, I'm not sure. What are the departure times and prices for both airlines?",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8527ba1f-169d-4665-8252-c1fa788a053e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:42:06.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Contoso Airways offers a flight departing at 9:00 AM for $250, and Northwind Airlines departs at 10:30 AM for $200. Both flights arrive in New York City around noon.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "59897340-c6b7-4a3f-a3dd-b8ec9ec684cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T15:44:42.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Thank you for the information, Zoe. I think I'll go with the Northwind Airlines flight. Could you please book that for me?",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "06077df9-8b6c-4c61-97a2-a650264de2f0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:45:19.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Certainly, Emily! I'll book the Northwind Airlines flight for you. Please provide me with your full name and date of departure.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "79006cfe-f57d-4aa7-8225-e49b5128b1ea",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T15:47:48.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "My full name is Emily Johnson and I'll be departing on June 10th.",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2c444e2b-e70f-479f-9689-ffcc645809cf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:48:24.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Thank you, Emily. I've booked your flight with Northwind Airlines for June 10th. Your flight number is NW123. Is there anything else I can assist you with?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2b8c1c28-cd1a-4557-9a3b-714ae582e78d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T15:49:27.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Actually, I'm also looking for a hotel in New York City. Do you have any recommendations?",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "846810c6-d98c-48de-8aba-25256d13a472",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:52:05.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Certainly, Emily! I can provide you with some options. How many nights will you be staying and what is your preferred budget?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d184400a-239f-43c2-b46b-300793b3cefa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T15:53:13.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "I'll be staying for three nights and my budget is around $200 per night.",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cf1a6345-ab74-4741-bac7-8ae5076d82be",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:54:26.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Based on your preferences, I recommend the Fabrikam Hotel and The Lucerne. Both are within your budget and have good ratings. Which one would you like me to book for you?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e2a5e56a-1d63-47a3-8332-33501cf9b5cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T15:56:00.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Hmm, let me think for a moment. Can you provide me with the reservation numbers and dates for both hotels?",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e375a47d-9955-4f31-ba24-02f451b0fbba",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:57:58.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Sure, the reservation number for the Fabrikam Hotel is FAB123, and your stay will be from June 10th to June 13th. The Lucerne's reservation number is LUC456, and your stay will be from June 10th to June 13th as well.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cf13bb54-138e-4100-a19e-d6247b2100a4",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T15:58:57.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Thank you, Zoe. I've made a decision. Please book the Fabrikam Hotel for me.",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "41c3ed1e-1e0e-42b1-bb3c-9676281f39c7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T15:59:51.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "Certainly, Emily! I've booked the Fabrikam Hotel for your stay from June 10th to June 13th. Is there anything else I can assist you with?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4c682681-4de9-4db1-9812-4339aaa6a92b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T16:01:31.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "No, that would be all. Thank you so much for your help, Zoe!",
+        "UserId": "999-611-4464",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e3e419ff-b556-4f82-b862-2ec46812f197",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T16:02:56.5865795-07:00",
+        "ConversationId": "b3682f88-74a3-4c11-bd0f-7360834f8d2d",
+        "Value": "You're welcome, Emily! It was my pleasure to assist you. If you have any more questions in the future, feel free to reach out. Have a great trip!",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-22T15:25:23.5865795-07:00",
+    "EndTime": "2024-06-22T16:02:56.5865795-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Zoe Lewis. How may I assist you today?Hi Zoe, my name is Emily Johnson. I'm looking for some assistance with my upcoming trip.Of course, Emily! I'll be glad to help. Could you please let me know the origin and destination cities for your trip?I'll be flying from Los Angeles, California to New York City, New York.Great choice! Let me check the available flights for you.We have flights from two airlines for your route. Contoso Airways and Northwind Airlines. Which one would you prefer?Hmm, I'm not sure. What are the departure times and prices for both airlines?Contoso Airways offers a flight departing at 9:00 AM for $250, and Northwind Airlines departs at 10:30 AM for $200. Both flights arrive in New York City around noon.Thank you for the information, Zoe. I think I'll go with the Northwind Airlines flight. Could you please book that for me?Certainly, Emily! I'll book the Northwind Airlines flight for you. Please provide me with your full name and date of departure.My full name is Emily Johnson and I'll be departing on June 10th.Thank you, Emily. I've booked your flight with Northwind Airlines for June 10th. Your flight number is NW123. Is there anything else I can assist you with?Actually, I'm also looking for a hotel in New York City. Do you have any recommendations?Certainly, Emily! I can provide you with some options. How many nights will you be staying and what is your preferred budget?I'll be staying for three nights and my budget is around $200 per night.Based on your preferences, I recommend the Fabrikam Hotel and The Lucerne. Both are within your budget and have good ratings. Which one would you like me to book for you?Hmm, let me think for a moment. Can you provide me with the reservation numbers and dates for both hotels?Sure, the reservation number for the Fabrikam Hotel is FAB123, and your stay will be from June 10th to June 13th. The Lucerne's reservation number is LUC456, and your stay will be from June 10th to June 13th as well.Thank you, Zoe. I've made a decision. Please book the Fabrikam Hotel for me.Certainly, Emily! I've booked the Fabrikam Hotel for your stay from June 10th to June 13th. Is there anything else I can assist you with?No, that would be all. Thank you so much for your help, Zoe!You're welcome, Emily! It was my pleasure to assist you. If you have any more questions in the future, feel free to reach out. Have a great trip!",
+    "Merged_content_user": "Hi Zoe, my name is Emily Johnson. I'm looking for some assistance with my upcoming trip.I'll be flying from Los Angeles, California to New York City, New York.Hmm, I'm not sure. What are the departure times and prices for both airlines?Thank you for the information, Zoe. I think I'll go with the Northwind Airlines flight. Could you please book that for me?My full name is Emily Johnson and I'll be departing on June 10th.Actually, I'm also looking for a hotel in New York City. Do you have any recommendations?I'll be staying for three nights and my budget is around $200 per night.Hmm, let me think for a moment. Can you provide me with the reservation numbers and dates for both hotels?Thank you, Zoe. I've made a decision. Please book the Fabrikam Hotel for me.No, that would be all. Thank you so much for your help, Zoe!",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Zoe Lewis. How may I assist you today?Of course, Emily! I'll be glad to help. Could you please let me know the origin and destination cities for your trip?Great choice! Let me check the available flights for you.We have flights from two airlines for your route. Contoso Airways and Northwind Airlines. Which one would you prefer?Contoso Airways offers a flight departing at 9:00 AM for $250, and Northwind Airlines departs at 10:30 AM for $200. Both flights arrive in New York City around noon.Certainly, Emily! I'll book the Northwind Airlines flight for you. Please provide me with your full name and date of departure.Thank you, Emily. I've booked your flight with Northwind Airlines for June 10th. Your flight number is NW123. Is there anything else I can assist you with?Certainly, Emily! I can provide you with some options. How many nights will you be staying and what is your preferred budget?Based on your preferences, I recommend the Fabrikam Hotel and The Lucerne. Both are within your budget and have good ratings. Which one would you like me to book for you?Sure, the reservation number for the Fabrikam Hotel is FAB123, and your stay will be from June 10th to June 13th. The Lucerne's reservation number is LUC456, and your stay will be from June 10th to June 13th as well.Certainly, Emily! I've booked the Fabrikam Hotel for your stay from June 10th to June 13th. Is there anything else I can assist you with?You're welcome, Emily! It was my pleasure to assist you. If you have any more questions in the future, feel free to reach out. Have a great trip!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Zoe Lewis. How may I assist you today?\nCustomer: Hi Zoe, my name is Emily Johnson. I'm looking for some assistance with my upcoming trip.\nAgent: Of course, Emily! I'll be glad to help. Could you please let me know the origin and destination cities for your trip?\nCustomer: I'll be flying from Los Angeles, California to New York City, New York.\nAgent: Great choice! Let me check the available flights for you.\nAgent: We have flights from two airlines for your route. Contoso Airways and Northwind Airlines. Which one would you prefer?\nCustomer: Hmm, I'm not sure. What are the departure times and prices for both airlines?\nAgent: Contoso Airways offers a flight departing at 9:00 AM for $250, and Northwind Airlines departs at 10:30 AM for $200. Both flights arrive in New York City around noon.\nCustomer: Thank you for the information, Zoe. I think I'll go with the Northwind Airlines flight. Could you please book that for me?\nAgent: Certainly, Emily! I'll book the Northwind Airlines flight for you. Please provide me with your full name and date of departure.\nCustomer: My full name is Emily Johnson and I'll be departing on June 10th.\nAgent: Thank you, Emily. I've booked your flight with Northwind Airlines for June 10th. Your flight number is NW123. Is there anything else I can assist you with?\nCustomer: Actually, I'm also looking for a hotel in New York City. Do you have any recommendations?\nAgent: Certainly, Emily! I can provide you with some options. How many nights will you be staying and what is your preferred budget?\nCustomer: I'll be staying for three nights and my budget is around $200 per night.\nAgent: Based on your preferences, I recommend the Fabrikam Hotel and The Lucerne. Both are within your budget and have good ratings. Which one would you like me to book for you?\nCustomer: Hmm, let me think for a moment. Can you provide me with the reservation numbers and dates for both hotels?\nAgent: Sure, the reservation number for the Fabrikam Hotel is FAB123, and your stay will be from June 10th to June 13th. The Lucerne's reservation number is LUC456, and your stay will be from June 10th to June 13th as well.\nCustomer: Thank you, Zoe. I've made a decision. Please book the Fabrikam Hotel for me.\nAgent: Certainly, Emily! I've booked the Fabrikam Hotel for your stay from June 10th to June 13th. Is there anything else I can assist you with?\nCustomer: No, that would be all. Thank you so much for your help, Zoe!\nAgent: You're welcome, Emily! It was my pleasure to assist you. If you have any more questions in the future, feel free to reach out. Have a great trip!\n"
+  }
+}

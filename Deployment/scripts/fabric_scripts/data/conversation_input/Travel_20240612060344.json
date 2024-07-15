@@ -1,0 +1,244 @@
+{
+  "AgentName": "Charlotte Martinez",
+  "AgentId": "MDQCWU",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-657-1671",
+  "Conversation": {
+    "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+    "Messages": [
+      {
+        "Id": "562a78b2-3b07-40fa-b8e0-437cfc029195",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T06:06:41.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "Hello, thank you for calling Woodgrove Travel agency. My name is Charlotte Martinez. How may I assist you today?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bc5276da-68ca-4c5d-91be-22834b87c209",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T06:08:19.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "Hi Charlotte, my name is Alex Carter. I recently booked a flight and hotel through your agency, and I'm experiencing some technical issues with my reservation.",
+        "UserId": "999-657-1671",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "37523f71-7742-4662-af05-a283947e752d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T06:09:33.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "I'm sorry to hear that, Alex. Could you please provide me with your reservation number and the details of the issue you're facing?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6b500dd8-3561-42c8-b42e-8d00244c8632",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T06:10:38.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "Sure, my reservation number is WGT1234567. The issue I'm facing is with my flight from Atlanta to New York. The flight was supposed to depart at 10:00 AM today, but I received an email saying it has been delayed.",
+        "UserId": "999-657-1671",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "25b50085-9826-4ee4-9c3c-d22e59ce2875",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T06:13:08.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "I apologize for the inconvenience, Alex. Let me check the status of your flight and provide you with the updated information.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f80ff940-7ae3-47c2-9f59-56ee5748fae8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T06:14:46.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "Thank you, Charlotte. I appreciate your help.",
+        "UserId": "999-657-1671",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "594106fe-1091-43f9-abfa-c6ed63562674",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T06:15:22.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "I have checked the flight status, Alex. It appears that your flight on Contoso Airways with flight number CA123 has been delayed by 1 hour. The new departure time is 11:00 AM. I apologize for the inconvenience caused.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "24c5ee60-8861-4c52-b9ce-59114d09095f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T06:18:20.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "That's disappointing. I had important meetings scheduled in New York, and this delay will disrupt my plans. Is there any alternative flight available?",
+        "UserId": "999-657-1671",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "149c4f85-1eba-4662-887e-e716815c68c3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T06:19:53.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "I understand your frustration, Alex. Let me check for any alternative flights for you.",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "15eba4ea-0600-4d28-9fe7-561c09fdb1f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T06:20:24.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "Thank you, Charlotte. I appreciate your assistance.",
+        "UserId": "999-657-1671",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d8afde1c-f1ee-4cc9-8161-253dc846464b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T06:23:06.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "I have found an alternative flight for you, Alex. There is a flight with Northwind Airlines, flight number NW456, departing from Atlanta at 10:30 AM. Would you like me to book this flight for you?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "496e3bc5-74f2-4b7f-8ba5-429fd0cc9f4f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T06:24:51.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "Yes, please book that flight for me, Charlotte. I appreciate your help in finding an alternative.",
+        "UserId": "999-657-1671",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1c76b4e5-5eb0-4321-b5cf-dea940d0bf6e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T06:27:19.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "I have successfully booked the alternative flight for you, Alex. Your new flight details are as follows: Northwind Airlines, flight number NW456, departing from Atlanta at 10:30 AM. I will also send you an updated itinerary via email. Is there anything else I can assist you with?",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "287847d9-415e-4da8-ae2e-a42cb51d753d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T06:30:04.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "No, that's all for now, Charlotte. Thank you very much for your prompt assistance and resolving the issue. I really appreciate it.",
+        "UserId": "999-657-1671",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7eee1336-7c89-4c59-a737-8ed538be623c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T06:31:37.1289703-07:00",
+        "ConversationId": "c5a59197-5594-4b1f-b139-53b811b29a90",
+        "Value": "You're welcome, Alex. I'm glad I could help. If you have any more questions or need further assistance, don't hesitate to reach out. Have a great day!",
+        "UserId": "MDQCWU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-12T06:03:44.1289703-07:00",
+    "EndTime": "2024-06-12T06:31:37.1289703-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel agency. My name is Charlotte Martinez. How may I assist you today?Hi Charlotte, my name is Alex Carter. I recently booked a flight and hotel through your agency, and I'm experiencing some technical issues with my reservation.I'm sorry to hear that, Alex. Could you please provide me with your reservation number and the details of the issue you're facing?Sure, my reservation number is WGT1234567. The issue I'm facing is with my flight from Atlanta to New York. The flight was supposed to depart at 10:00 AM today, but I received an email saying it has been delayed.I apologize for the inconvenience, Alex. Let me check the status of your flight and provide you with the updated information.Thank you, Charlotte. I appreciate your help.I have checked the flight status, Alex. It appears that your flight on Contoso Airways with flight number CA123 has been delayed by 1 hour. The new departure time is 11:00 AM. I apologize for the inconvenience caused.That's disappointing. I had important meetings scheduled in New York, and this delay will disrupt my plans. Is there any alternative flight available?I understand your frustration, Alex. Let me check for any alternative flights for you.Thank you, Charlotte. I appreciate your assistance.I have found an alternative flight for you, Alex. There is a flight with Northwind Airlines, flight number NW456, departing from Atlanta at 10:30 AM. Would you like me to book this flight for you?Yes, please book that flight for me, Charlotte. I appreciate your help in finding an alternative.I have successfully booked the alternative flight for you, Alex. Your new flight details are as follows: Northwind Airlines, flight number NW456, departing from Atlanta at 10:30 AM. I will also send you an updated itinerary via email. Is there anything else I can assist you with?No, that's all for now, Charlotte. Thank you very much for your prompt assistance and resolving the issue. I really appreciate it.You're welcome, Alex. I'm glad I could help. If you have any more questions or need further assistance, don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Charlotte, my name is Alex Carter. I recently booked a flight and hotel through your agency, and I'm experiencing some technical issues with my reservation.Sure, my reservation number is WGT1234567. The issue I'm facing is with my flight from Atlanta to New York. The flight was supposed to depart at 10:00 AM today, but I received an email saying it has been delayed.Thank you, Charlotte. I appreciate your help.That's disappointing. I had important meetings scheduled in New York, and this delay will disrupt my plans. Is there any alternative flight available?Thank you, Charlotte. I appreciate your assistance.Yes, please book that flight for me, Charlotte. I appreciate your help in finding an alternative.No, that's all for now, Charlotte. Thank you very much for your prompt assistance and resolving the issue. I really appreciate it.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel agency. My name is Charlotte Martinez. How may I assist you today?I'm sorry to hear that, Alex. Could you please provide me with your reservation number and the details of the issue you're facing?I apologize for the inconvenience, Alex. Let me check the status of your flight and provide you with the updated information.I have checked the flight status, Alex. It appears that your flight on Contoso Airways with flight number CA123 has been delayed by 1 hour. The new departure time is 11:00 AM. I apologize for the inconvenience caused.I understand your frustration, Alex. Let me check for any alternative flights for you.I have found an alternative flight for you, Alex. There is a flight with Northwind Airlines, flight number NW456, departing from Atlanta at 10:30 AM. Would you like me to book this flight for you?I have successfully booked the alternative flight for you, Alex. Your new flight details are as follows: Northwind Airlines, flight number NW456, departing from Atlanta at 10:30 AM. I will also send you an updated itinerary via email. Is there anything else I can assist you with?You're welcome, Alex. I'm glad I could help. If you have any more questions or need further assistance, don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel agency. My name is Charlotte Martinez. How may I assist you today?\nCustomer: Hi Charlotte, my name is Alex Carter. I recently booked a flight and hotel through your agency, and I'm experiencing some technical issues with my reservation.\nAgent: I'm sorry to hear that, Alex. Could you please provide me with your reservation number and the details of the issue you're facing?\nCustomer: Sure, my reservation number is WGT1234567. The issue I'm facing is with my flight from Atlanta to New York. The flight was supposed to depart at 10:00 AM today, but I received an email saying it has been delayed.\nAgent: I apologize for the inconvenience, Alex. Let me check the status of your flight and provide you with the updated information.\nCustomer: Thank you, Charlotte. I appreciate your help.\nAgent: I have checked the flight status, Alex. It appears that your flight on Contoso Airways with flight number CA123 has been delayed by 1 hour. The new departure time is 11:00 AM. I apologize for the inconvenience caused.\nCustomer: That's disappointing. I had important meetings scheduled in New York, and this delay will disrupt my plans. Is there any alternative flight available?\nAgent: I understand your frustration, Alex. Let me check for any alternative flights for you.\nCustomer: Thank you, Charlotte. I appreciate your assistance.\nAgent: I have found an alternative flight for you, Alex. There is a flight with Northwind Airlines, flight number NW456, departing from Atlanta at 10:30 AM. Would you like me to book this flight for you?\nCustomer: Yes, please book that flight for me, Charlotte. I appreciate your help in finding an alternative.\nAgent: I have successfully booked the alternative flight for you, Alex. Your new flight details are as follows: Northwind Airlines, flight number NW456, departing from Atlanta at 10:30 AM. I will also send you an updated itinerary via email. Is there anything else I can assist you with?\nCustomer: No, that's all for now, Charlotte. Thank you very much for your prompt assistance and resolving the issue. I really appreciate it.\nAgent: You're welcome, Alex. I'm glad I could help. If you have any more questions or need further assistance, don't hesitate to reach out. Have a great day!\n"
+  }
+}

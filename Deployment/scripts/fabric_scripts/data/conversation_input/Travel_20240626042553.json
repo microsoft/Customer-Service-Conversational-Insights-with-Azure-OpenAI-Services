@@ -1,0 +1,154 @@
+{
+  "AgentName": "Mia Anderson",
+  "AgentId": "UDC24N",
+  "Team": "Midwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-665-2353",
+  "Conversation": {
+    "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+    "Messages": [
+      {
+        "Id": "d71d3759-c5cf-4190-9358-cc3d5e2ba0a3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T04:28:17.8162227-07:00",
+        "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Mia Anderson. How can I assist you today?",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "21467c58-c428-4f98-b94f-320cb8bf6dd5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T04:29:50.8162227-07:00",
+        "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+        "Value": "Hi Mia, my name is John Smith. I recently traveled from Chicago to Los Angeles and I had a terrible experience. I wanted to share my feedback and see if there's anything that can be done.",
+        "UserId": "999-665-2353",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3421fdcd-fb77-4d9d-bd7a-05c6e8b4cc05",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T04:32:05.8162227-07:00",
+        "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+        "Value": "I'm sorry to hear about your bad experience, John. Please go ahead and share the details with me. I'll do my best to assist you.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2ee18117-de4f-4286-8e86-7a07ff4b9e7a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T04:34:27.8162227-07:00",
+        "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+        "Value": "I booked my flight with Contoso Airways, flight number CA123, from Chicago to Los Angeles on August 10th at 10:00 AM. The flight was delayed by 3 hours without any proper communication. The airline staff was also unhelpful and rude. It really ruined my travel experience.",
+        "UserId": "999-665-2353",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7c122c38-8168-404b-9b12-14635f514ad7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T04:36:51.8162227-07:00",
+        "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+        "Value": "I understand how frustrating it can be to experience delays and encounter unhelpful staff. I apologize for the inconvenience caused. Let me check if there are any compensation options available for you.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "48a2080e-4a21-4bb0-9ec0-290002d7269c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T04:37:38.8162227-07:00",
+        "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+        "Value": "Thank you, Mia. I appreciate your help.",
+        "UserId": "999-665-2353",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2b7005e6-4197-4190-b8f0-aa7d8d915605",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T04:40:31.8162227-07:00",
+        "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+        "Value": "After reviewing your case, John, I have contacted Contoso Airways and they have offered a travel voucher worth $200 as compensation for the delay and poor service. They will email you the voucher details shortly.",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9f5c5842-4c4e-416d-8b64-88285f79464f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-26T04:42:27.8162227-07:00",
+        "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+        "Value": "That's great news, Mia! Thank you for your prompt assistance in resolving this issue. I really appreciate it.",
+        "UserId": "999-665-2353",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "08ce1bec-50b5-4bd4-819a-0ae9bfdfb436",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-26T04:44:44.8162227-07:00",
+        "ConversationId": "36425217-7c3a-41d0-98b3-27a53a65d49c",
+        "Value": "You're welcome, John! I'm glad I could help. If you have any further concerns or need assistance with anything else, feel free to reach out to us. Have a great day!",
+        "UserId": "UDC24N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-26T04:25:53.8162227-07:00",
+    "EndTime": "2024-06-26T04:44:44.8162227-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Mia Anderson. How can I assist you today?Hi Mia, my name is John Smith. I recently traveled from Chicago to Los Angeles and I had a terrible experience. I wanted to share my feedback and see if there's anything that can be done.I'm sorry to hear about your bad experience, John. Please go ahead and share the details with me. I'll do my best to assist you.I booked my flight with Contoso Airways, flight number CA123, from Chicago to Los Angeles on August 10th at 10:00 AM. The flight was delayed by 3 hours without any proper communication. The airline staff was also unhelpful and rude. It really ruined my travel experience.I understand how frustrating it can be to experience delays and encounter unhelpful staff. I apologize for the inconvenience caused. Let me check if there are any compensation options available for you.Thank you, Mia. I appreciate your help.After reviewing your case, John, I have contacted Contoso Airways and they have offered a travel voucher worth $200 as compensation for the delay and poor service. They will email you the voucher details shortly.That's great news, Mia! Thank you for your prompt assistance in resolving this issue. I really appreciate it.You're welcome, John! I'm glad I could help. If you have any further concerns or need assistance with anything else, feel free to reach out to us. Have a great day!",
+    "Merged_content_user": "Hi Mia, my name is John Smith. I recently traveled from Chicago to Los Angeles and I had a terrible experience. I wanted to share my feedback and see if there's anything that can be done.I booked my flight with Contoso Airways, flight number CA123, from Chicago to Los Angeles on August 10th at 10:00 AM. The flight was delayed by 3 hours without any proper communication. The airline staff was also unhelpful and rude. It really ruined my travel experience.Thank you, Mia. I appreciate your help.That's great news, Mia! Thank you for your prompt assistance in resolving this issue. I really appreciate it.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Mia Anderson. How can I assist you today?I'm sorry to hear about your bad experience, John. Please go ahead and share the details with me. I'll do my best to assist you.I understand how frustrating it can be to experience delays and encounter unhelpful staff. I apologize for the inconvenience caused. Let me check if there are any compensation options available for you.After reviewing your case, John, I have contacted Contoso Airways and they have offered a travel voucher worth $200 as compensation for the delay and poor service. They will email you the voucher details shortly.You're welcome, John! I'm glad I could help. If you have any further concerns or need assistance with anything else, feel free to reach out to us. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Mia Anderson. How can I assist you today?\nCustomer: Hi Mia, my name is John Smith. I recently traveled from Chicago to Los Angeles and I had a terrible experience. I wanted to share my feedback and see if there's anything that can be done.\nAgent: I'm sorry to hear about your bad experience, John. Please go ahead and share the details with me. I'll do my best to assist you.\nCustomer: I booked my flight with Contoso Airways, flight number CA123, from Chicago to Los Angeles on August 10th at 10:00 AM. The flight was delayed by 3 hours without any proper communication. The airline staff was also unhelpful and rude. It really ruined my travel experience.\nAgent: I understand how frustrating it can be to experience delays and encounter unhelpful staff. I apologize for the inconvenience caused. Let me check if there are any compensation options available for you.\nCustomer: Thank you, Mia. I appreciate your help.\nAgent: After reviewing your case, John, I have contacted Contoso Airways and they have offered a travel voucher worth $200 as compensation for the delay and poor service. They will email you the voucher details shortly.\nCustomer: That's great news, Mia! Thank you for your prompt assistance in resolving this issue. I really appreciate it.\nAgent: You're welcome, John! I'm glad I could help. If you have any further concerns or need assistance with anything else, feel free to reach out to us. Have a great day!\n"
+  }
+}

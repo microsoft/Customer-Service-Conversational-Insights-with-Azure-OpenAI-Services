@@ -1,0 +1,184 @@
+{
+  "AgentName": "Sebastian Harris",
+  "AgentId": "Z82TOA",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-965-7210",
+  "Conversation": {
+    "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+    "Messages": [
+      {
+        "Id": "4286de9e-f48d-4be7-8d11-c8d908cd9f0c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T18:33:13.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "Thank you for calling Woodgrove Travel. My name is Sebastian. How may I assist you today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a7beb656-b294-4b46-b719-473f3d7a0bc1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T18:35:32.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "Hi Sebastian, my name is Emma Johnson. I'm calling to discuss my recent trip to Miami.",
+        "UserId": "999-965-7210",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "deb4fdf6-a932-4883-9996-306eef87f8ee",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T18:37:12.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "Sure, Emma. I'll be happy to help. How was your trip to Miami?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7b91cf00-dc52-472b-83e2-fffdebf4843a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T18:39:50.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "It was fantastic! The weather was perfect, and the hotel was amazing.",
+        "UserId": "999-965-7210",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "550b8976-3c3e-4eb8-82c2-45ab5e23d4ee",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T18:41:49.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "That's great to hear! Which hotel did you stay at in Miami?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8b2c25fb-d654-4916-b1c1-061f2388f138",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T18:43:14.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "I stayed at The Lucerne Hotel. The reservation number was LU123456789, and I stayed there from August 5th to August 10th.",
+        "UserId": "999-965-7210",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7d8b7d4d-2c02-4ed1-b8bf-63a99c7f04f3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T18:44:36.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "I'm glad you had a wonderful experience at The Lucerne Hotel. I'll make a note of it for future reference. Did you have any issues during your stay?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "42c571a2-399b-458b-8183-30824ad0982d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T18:46:42.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "No, everything was perfect. The staff was friendly, the room was clean, and the amenities were excellent.",
+        "UserId": "999-965-7210",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9097004e-577f-4717-8164-4b720f6a0596",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T18:49:41.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "That's fantastic to hear, Emma! I'm glad we could provide you with a great experience. Is there anything else I can assist you with?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ffe282cf-23cf-44b9-9f34-d71c959658d1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-04T18:50:14.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "Actually, I'm planning another trip in September. Can you help me with the flight and hotel bookings?",
+        "UserId": "999-965-7210",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1700320c-c5dd-4414-90ed-4c659009aab2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-04T18:52:32.8829271-07:00",
+        "ConversationId": "2ccb5e54-6255-401c-8195-c3bc4f815db2",
+        "Value": "Of course, I'd be happy to assist you with that. Could you please provide me with the details of your upcoming trip?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-04T18:30:14.8829271-07:00",
+    "EndTime": "2024-06-04T18:52:32.8829271-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. My name is Sebastian. How may I assist you today?Hi Sebastian, my name is Emma Johnson. I'm calling to discuss my recent trip to Miami.Sure, Emma. I'll be happy to help. How was your trip to Miami?It was fantastic! The weather was perfect, and the hotel was amazing.That's great to hear! Which hotel did you stay at in Miami?I stayed at The Lucerne Hotel. The reservation number was LU123456789, and I stayed there from August 5th to August 10th.I'm glad you had a wonderful experience at The Lucerne Hotel. I'll make a note of it for future reference. Did you have any issues during your stay?No, everything was perfect. The staff was friendly, the room was clean, and the amenities were excellent.That's fantastic to hear, Emma! I'm glad we could provide you with a great experience. Is there anything else I can assist you with?Actually, I'm planning another trip in September. Can you help me with the flight and hotel bookings?Of course, I'd be happy to assist you with that. Could you please provide me with the details of your upcoming trip?",
+    "Merged_content_user": "Hi Sebastian, my name is Emma Johnson. I'm calling to discuss my recent trip to Miami.It was fantastic! The weather was perfect, and the hotel was amazing.I stayed at The Lucerne Hotel. The reservation number was LU123456789, and I stayed there from August 5th to August 10th.No, everything was perfect. The staff was friendly, the room was clean, and the amenities were excellent.Actually, I'm planning another trip in September. Can you help me with the flight and hotel bookings?",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. My name is Sebastian. How may I assist you today?Sure, Emma. I'll be happy to help. How was your trip to Miami?That's great to hear! Which hotel did you stay at in Miami?I'm glad you had a wonderful experience at The Lucerne Hotel. I'll make a note of it for future reference. Did you have any issues during your stay?That's fantastic to hear, Emma! I'm glad we could provide you with a great experience. Is there anything else I can assist you with?Of course, I'd be happy to assist you with that. Could you please provide me with the details of your upcoming trip?",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. My name is Sebastian. How may I assist you today?\nCustomer: Hi Sebastian, my name is Emma Johnson. I'm calling to discuss my recent trip to Miami.\nAgent: Sure, Emma. I'll be happy to help. How was your trip to Miami?\nCustomer: It was fantastic! The weather was perfect, and the hotel was amazing.\nAgent: That's great to hear! Which hotel did you stay at in Miami?\nCustomer: I stayed at The Lucerne Hotel. The reservation number was LU123456789, and I stayed there from August 5th to August 10th.\nAgent: I'm glad you had a wonderful experience at The Lucerne Hotel. I'll make a note of it for future reference. Did you have any issues during your stay?\nCustomer: No, everything was perfect. The staff was friendly, the room was clean, and the amenities were excellent.\nAgent: That's fantastic to hear, Emma! I'm glad we could provide you with a great experience. Is there anything else I can assist you with?\nCustomer: Actually, I'm planning another trip in September. Can you help me with the flight and hotel bookings?\nAgent: Of course, I'd be happy to assist you with that. Could you please provide me with the details of your upcoming trip?\n"
+  }
+}
