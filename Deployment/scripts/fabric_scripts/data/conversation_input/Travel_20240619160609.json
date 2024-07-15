@@ -1,0 +1,214 @@
+{
+  "AgentName": "Elijah Martin",
+  "AgentId": "76QR0N",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-894-6236",
+  "Conversation": {
+    "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+    "Messages": [
+      {
+        "Id": "7245cdb8-cb63-43e5-b9f6-e1dc22cd0e6f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:08:15.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "Hello, thank you for calling Woodgrove Travel. This is Elijah Martin. How can I assist you today?",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a92c8e6c-63e9-4f1a-8d58-8199726add30",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T16:08:57.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "Hi Elijah. My name is Sarah Johnson. I recently traveled from New York City to Los Angeles and I had the worst experience. I want to discuss the issues I faced during my trip.",
+        "UserId": "999-894-6236",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2cb5062a-1e53-4254-957a-2d5e0e6c2cda",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:11:06.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "I'm sorry to hear that Sarah. I'll do my best to assist you. Please go ahead and explain the issues you encountered.",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e2c639db-df92-46ac-b02d-60e70617a62f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T16:11:37.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "First of all, my flight with Contoso Airways was delayed by 4 hours without any prior notice. This caused a lot of inconvenience for me and disrupted my entire schedule.",
+        "UserId": "999-894-6236",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "00938201-c82b-4c92-9c20-d63e16053875",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:13:45.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "I understand how frustrating flight delays can be, Sarah. I apologize for the inconvenience caused. Let me check the details of your flight.",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "32f722ad-d001-43c6-be52-272b691cc204",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T16:15:06.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "Thank you, Elijah. The flight was Contoso Airways, flight number CA123, departure date was October 10th, and the scheduled departure time was 10:00 AM.",
+        "UserId": "999-894-6236",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b2c4ba85-10f7-4709-9a83-4ea3908fb0b6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:17:01.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "I see that there was indeed a delay for that flight, Sarah. I apologize for the inconvenience caused by the unforeseen circumstances. Is there anything else you would like to discuss about your trip?",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "51269bc1-cb54-4253-ac26-933e5f5747e2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T16:18:26.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "Yes, there's more. When I arrived at the Fabrikam Hotel in Los Angeles, the room they assigned to me was not clean. There were stains on the bedding and the bathroom was dirty. It was a really unpleasant experience.",
+        "UserId": "999-894-6236",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "392ecf0c-3a5d-4329-9ef3-af688a52b8cd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:21:04.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "I apologize for the poor experience at the Fabrikam Hotel, Sarah. Let me check the details of your reservation and address the issue with them.",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "35cf515d-aad8-44c6-9f40-94d0b61a82d4",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T16:23:28.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "Thank you, Elijah. My reservation at the Fabrikam Hotel was under Sarah Johnson, reservation number FAB456789, and the check-in date was October 10th.",
+        "UserId": "999-894-6236",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c19bdccc-173d-48bc-a59a-20f733b79e6d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:25:39.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "I'm sorry to hear about the cleanliness issues, Sarah. I will contact the Fabrikam Hotel immediately and ensure they take appropriate action to address this matter. Is there anything else I can assist you with?",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1aec31e5-4903-4906-8b48-9eb38a5b0a47",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T16:28:10.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "No, that's all for now. I just wanted to bring these issues to your attention and seek a resolution. Thank you, Elijah, for your assistance.",
+        "UserId": "999-894-6236",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7c1dea81-64f1-4c07-ac4c-b054d04c75fc",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:28:42.2506089-07:00",
+        "ConversationId": "98d316d7-88a0-4c0d-a98a-869c0aa31392",
+        "Value": "You're welcome, Sarah. I apologize again for the inconveniences you faced during your trip. Rest assured, I will follow up with the airline and hotel to ensure they address these issues appropriately. If there's anything else you need in the future, please don't hesitate to reach out. Have a great day!",
+        "UserId": "76QR0N",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-19T16:06:09.2506089-07:00",
+    "EndTime": "2024-06-19T16:28:42.2506089-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. This is Elijah Martin. How can I assist you today?Hi Elijah. My name is Sarah Johnson. I recently traveled from New York City to Los Angeles and I had the worst experience. I want to discuss the issues I faced during my trip.I'm sorry to hear that Sarah. I'll do my best to assist you. Please go ahead and explain the issues you encountered.First of all, my flight with Contoso Airways was delayed by 4 hours without any prior notice. This caused a lot of inconvenience for me and disrupted my entire schedule.I understand how frustrating flight delays can be, Sarah. I apologize for the inconvenience caused. Let me check the details of your flight.Thank you, Elijah. The flight was Contoso Airways, flight number CA123, departure date was October 10th, and the scheduled departure time was 10:00 AM.I see that there was indeed a delay for that flight, Sarah. I apologize for the inconvenience caused by the unforeseen circumstances. Is there anything else you would like to discuss about your trip?Yes, there's more. When I arrived at the Fabrikam Hotel in Los Angeles, the room they assigned to me was not clean. There were stains on the bedding and the bathroom was dirty. It was a really unpleasant experience.I apologize for the poor experience at the Fabrikam Hotel, Sarah. Let me check the details of your reservation and address the issue with them.Thank you, Elijah. My reservation at the Fabrikam Hotel was under Sarah Johnson, reservation number FAB456789, and the check-in date was October 10th.I'm sorry to hear about the cleanliness issues, Sarah. I will contact the Fabrikam Hotel immediately and ensure they take appropriate action to address this matter. Is there anything else I can assist you with?No, that's all for now. I just wanted to bring these issues to your attention and seek a resolution. Thank you, Elijah, for your assistance.You're welcome, Sarah. I apologize again for the inconveniences you faced during your trip. Rest assured, I will follow up with the airline and hotel to ensure they address these issues appropriately. If there's anything else you need in the future, please don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Elijah. My name is Sarah Johnson. I recently traveled from New York City to Los Angeles and I had the worst experience. I want to discuss the issues I faced during my trip.First of all, my flight with Contoso Airways was delayed by 4 hours without any prior notice. This caused a lot of inconvenience for me and disrupted my entire schedule.Thank you, Elijah. The flight was Contoso Airways, flight number CA123, departure date was October 10th, and the scheduled departure time was 10:00 AM.Yes, there's more. When I arrived at the Fabrikam Hotel in Los Angeles, the room they assigned to me was not clean. There were stains on the bedding and the bathroom was dirty. It was a really unpleasant experience.Thank you, Elijah. My reservation at the Fabrikam Hotel was under Sarah Johnson, reservation number FAB456789, and the check-in date was October 10th.No, that's all for now. I just wanted to bring these issues to your attention and seek a resolution. Thank you, Elijah, for your assistance.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. This is Elijah Martin. How can I assist you today?I'm sorry to hear that Sarah. I'll do my best to assist you. Please go ahead and explain the issues you encountered.I understand how frustrating flight delays can be, Sarah. I apologize for the inconvenience caused. Let me check the details of your flight.I see that there was indeed a delay for that flight, Sarah. I apologize for the inconvenience caused by the unforeseen circumstances. Is there anything else you would like to discuss about your trip?I apologize for the poor experience at the Fabrikam Hotel, Sarah. Let me check the details of your reservation and address the issue with them.I'm sorry to hear about the cleanliness issues, Sarah. I will contact the Fabrikam Hotel immediately and ensure they take appropriate action to address this matter. Is there anything else I can assist you with?You're welcome, Sarah. I apologize again for the inconveniences you faced during your trip. Rest assured, I will follow up with the airline and hotel to ensure they address these issues appropriately. If there's anything else you need in the future, please don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. This is Elijah Martin. How can I assist you today?\nCustomer: Hi Elijah. My name is Sarah Johnson. I recently traveled from New York City to Los Angeles and I had the worst experience. I want to discuss the issues I faced during my trip.\nAgent: I'm sorry to hear that Sarah. I'll do my best to assist you. Please go ahead and explain the issues you encountered.\nCustomer: First of all, my flight with Contoso Airways was delayed by 4 hours without any prior notice. This caused a lot of inconvenience for me and disrupted my entire schedule.\nAgent: I understand how frustrating flight delays can be, Sarah. I apologize for the inconvenience caused. Let me check the details of your flight.\nCustomer: Thank you, Elijah. The flight was Contoso Airways, flight number CA123, departure date was October 10th, and the scheduled departure time was 10:00 AM.\nAgent: I see that there was indeed a delay for that flight, Sarah. I apologize for the inconvenience caused by the unforeseen circumstances. Is there anything else you would like to discuss about your trip?\nCustomer: Yes, there's more. When I arrived at the Fabrikam Hotel in Los Angeles, the room they assigned to me was not clean. There were stains on the bedding and the bathroom was dirty. It was a really unpleasant experience.\nAgent: I apologize for the poor experience at the Fabrikam Hotel, Sarah. Let me check the details of your reservation and address the issue with them.\nCustomer: Thank you, Elijah. My reservation at the Fabrikam Hotel was under Sarah Johnson, reservation number FAB456789, and the check-in date was October 10th.\nAgent: I'm sorry to hear about the cleanliness issues, Sarah. I will contact the Fabrikam Hotel immediately and ensure they take appropriate action to address this matter. Is there anything else I can assist you with?\nCustomer: No, that's all for now. I just wanted to bring these issues to your attention and seek a resolution. Thank you, Elijah, for your assistance.\nAgent: You're welcome, Sarah. I apologize again for the inconveniences you faced during your trip. Rest assured, I will follow up with the airline and hotel to ensure they address these issues appropriately. If there's anything else you need in the future, please don't hesitate to reach out. Have a great day!\n"
+  }
+}

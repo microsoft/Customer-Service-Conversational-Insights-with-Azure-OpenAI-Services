@@ -1,0 +1,184 @@
+{
+  "AgentName": "Sebastian Harris",
+  "AgentId": "Z82TOA",
+  "Team": "Southwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-758-6059",
+  "Conversation": {
+    "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+    "Messages": [
+      {
+        "Id": "d81180e3-b851-44ea-b490-d512a7a87733",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-06T05:24:05.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Sebastian Harris. How can I assist you today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "25cfba42-c33f-47e7-971f-3ecd3d127402",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-06T05:24:58.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "Hi Sebastian, my name is Lisa Johnson and I'm calling regarding a trip I recently took with Woodgrove Travel. I am extremely dissatisfied with my experience and I need to speak to someone who can help resolve my issues.",
+        "UserId": "999-758-6059",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "518c9b13-4923-44a0-903f-beaffaf1c8c0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-06T05:27:17.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "I apologize for any inconvenience you've experienced, Lisa. I understand your frustration and I'm here to assist you. Could you please provide me with some details about your trip and the issues you encountered?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "80300300-d837-4bfe-9d47-a76950aca88d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-06T05:30:14.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "I traveled from Los Angeles to New York City last week, and I booked my flight and hotel through Woodgrove Travel. First of all, my flight with Contoso Airways was delayed for over 5 hours without any proper explanation or compensation. Then, when I arrived at the Fabrikam Hotel, they couldn't find my reservation even though I had the confirmation email with the reservation number. I had to wait for over an hour for them to sort it out, and the whole check-in process was incredibly frustrating.",
+        "UserId": "999-758-6059",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0aea9993-ce83-4908-af3e-48bc438c82f7",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-06T05:32:13.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "I'm truly sorry to hear about the issues you faced during your trip, Lisa. This is definitely not the experience we aim to provide our customers. Let me look into this for you. Firstly, let's address the delayed flight with Contoso Airways. Do you happen to have the flight number and departure date and time?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "19b7185c-9822-4ae3-8912-9ae7863bd87a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-06T05:33:46.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "Yes, the flight number was CA345 and it was scheduled to depart from Los Angeles on May 3rd at 10:00 AM.",
+        "UserId": "999-758-6059",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5ba10db4-9991-4a27-b10f-c1bbe8f393b2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-06T05:35:03.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "Thank you for providing the details, Lisa. I apologize for the inconvenience caused by the flight delay. Let me reach out to Contoso Airways and investigate the reason behind the delay. Meanwhile, let's address the issue with your hotel reservation at Fabrikam Hotel. Could you please provide me with the reservation number and the date of your stay?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "08c73d8d-18d2-4d31-8438-abc062d905da",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-06T05:37:50.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "The reservation number was FAB123456789 and I stayed at the Fabrikam Hotel from May 3rd to May 7th.",
+        "UserId": "999-758-6059",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2c56a39f-a4ba-4da5-b209-83825230ee57",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-06T05:39:15.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "Thank you for the information, Lisa. I apologize for the inconvenience caused by the hotel's mishandling of your reservation. I will personally contact Fabrikam Hotel and address this issue on your behalf. I assure you that we will do everything possible to resolve these matters for you. Is there anything else I can assist you with?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "87d9c785-b53c-4224-9e28-9d0b87383ef8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-06T05:41:49.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "No, that's all for now. I appreciate your assistance in resolving these issues, Sebastian. I hope that Woodgrove Travel takes this incident seriously and improves their services for future customers.",
+        "UserId": "999-758-6059",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1b77a7b6-884a-48fd-a7bf-2fdb0b0911b0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-06T05:42:33.3410775-07:00",
+        "ConversationId": "4da5e8f6-be06-4234-8398-c7698aa5c4af",
+        "Value": "I completely understand your concerns, Lisa. Rest assured, we take customer feedback very seriously and will do our best to rectify the situation. Thank you for bringing this to our attention. If you have any further questions or concerns, please don't hesitate to reach out. Have a great day!",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-06T05:23:27.3410775-07:00",
+    "EndTime": "2024-06-06T05:42:33.3410775-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Sebastian Harris. How can I assist you today?Hi Sebastian, my name is Lisa Johnson and I'm calling regarding a trip I recently took with Woodgrove Travel. I am extremely dissatisfied with my experience and I need to speak to someone who can help resolve my issues.I apologize for any inconvenience you've experienced, Lisa. I understand your frustration and I'm here to assist you. Could you please provide me with some details about your trip and the issues you encountered?I traveled from Los Angeles to New York City last week, and I booked my flight and hotel through Woodgrove Travel. First of all, my flight with Contoso Airways was delayed for over 5 hours without any proper explanation or compensation. Then, when I arrived at the Fabrikam Hotel, they couldn't find my reservation even though I had the confirmation email with the reservation number. I had to wait for over an hour for them to sort it out, and the whole check-in process was incredibly frustrating.I'm truly sorry to hear about the issues you faced during your trip, Lisa. This is definitely not the experience we aim to provide our customers. Let me look into this for you. Firstly, let's address the delayed flight with Contoso Airways. Do you happen to have the flight number and departure date and time?Yes, the flight number was CA345 and it was scheduled to depart from Los Angeles on May 3rd at 10:00 AM.Thank you for providing the details, Lisa. I apologize for the inconvenience caused by the flight delay. Let me reach out to Contoso Airways and investigate the reason behind the delay. Meanwhile, let's address the issue with your hotel reservation at Fabrikam Hotel. Could you please provide me with the reservation number and the date of your stay?The reservation number was FAB123456789 and I stayed at the Fabrikam Hotel from May 3rd to May 7th.Thank you for the information, Lisa. I apologize for the inconvenience caused by the hotel's mishandling of your reservation. I will personally contact Fabrikam Hotel and address this issue on your behalf. I assure you that we will do everything possible to resolve these matters for you. Is there anything else I can assist you with?No, that's all for now. I appreciate your assistance in resolving these issues, Sebastian. I hope that Woodgrove Travel takes this incident seriously and improves their services for future customers.I completely understand your concerns, Lisa. Rest assured, we take customer feedback very seriously and will do our best to rectify the situation. Thank you for bringing this to our attention. If you have any further questions or concerns, please don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Sebastian, my name is Lisa Johnson and I'm calling regarding a trip I recently took with Woodgrove Travel. I am extremely dissatisfied with my experience and I need to speak to someone who can help resolve my issues.I traveled from Los Angeles to New York City last week, and I booked my flight and hotel through Woodgrove Travel. First of all, my flight with Contoso Airways was delayed for over 5 hours without any proper explanation or compensation. Then, when I arrived at the Fabrikam Hotel, they couldn't find my reservation even though I had the confirmation email with the reservation number. I had to wait for over an hour for them to sort it out, and the whole check-in process was incredibly frustrating.Yes, the flight number was CA345 and it was scheduled to depart from Los Angeles on May 3rd at 10:00 AM.The reservation number was FAB123456789 and I stayed at the Fabrikam Hotel from May 3rd to May 7th.No, that's all for now. I appreciate your assistance in resolving these issues, Sebastian. I hope that Woodgrove Travel takes this incident seriously and improves their services for future customers.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Sebastian Harris. How can I assist you today?I apologize for any inconvenience you've experienced, Lisa. I understand your frustration and I'm here to assist you. Could you please provide me with some details about your trip and the issues you encountered?I'm truly sorry to hear about the issues you faced during your trip, Lisa. This is definitely not the experience we aim to provide our customers. Let me look into this for you. Firstly, let's address the delayed flight with Contoso Airways. Do you happen to have the flight number and departure date and time?Thank you for providing the details, Lisa. I apologize for the inconvenience caused by the flight delay. Let me reach out to Contoso Airways and investigate the reason behind the delay. Meanwhile, let's address the issue with your hotel reservation at Fabrikam Hotel. Could you please provide me with the reservation number and the date of your stay?Thank you for the information, Lisa. I apologize for the inconvenience caused by the hotel's mishandling of your reservation. I will personally contact Fabrikam Hotel and address this issue on your behalf. I assure you that we will do everything possible to resolve these matters for you. Is there anything else I can assist you with?I completely understand your concerns, Lisa. Rest assured, we take customer feedback very seriously and will do our best to rectify the situation. Thank you for bringing this to our attention. If you have any further questions or concerns, please don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Sebastian Harris. How can I assist you today?\nCustomer: Hi Sebastian, my name is Lisa Johnson and I'm calling regarding a trip I recently took with Woodgrove Travel. I am extremely dissatisfied with my experience and I need to speak to someone who can help resolve my issues.\nAgent: I apologize for any inconvenience you've experienced, Lisa. I understand your frustration and I'm here to assist you. Could you please provide me with some details about your trip and the issues you encountered?\nCustomer: I traveled from Los Angeles to New York City last week, and I booked my flight and hotel through Woodgrove Travel. First of all, my flight with Contoso Airways was delayed for over 5 hours without any proper explanation or compensation. Then, when I arrived at the Fabrikam Hotel, they couldn't find my reservation even though I had the confirmation email with the reservation number. I had to wait for over an hour for them to sort it out, and the whole check-in process was incredibly frustrating.\nAgent: I'm truly sorry to hear about the issues you faced during your trip, Lisa. This is definitely not the experience we aim to provide our customers. Let me look into this for you. Firstly, let's address the delayed flight with Contoso Airways. Do you happen to have the flight number and departure date and time?\nCustomer: Yes, the flight number was CA345 and it was scheduled to depart from Los Angeles on May 3rd at 10:00 AM.\nAgent: Thank you for providing the details, Lisa. I apologize for the inconvenience caused by the flight delay. Let me reach out to Contoso Airways and investigate the reason behind the delay. Meanwhile, let's address the issue with your hotel reservation at Fabrikam Hotel. Could you please provide me with the reservation number and the date of your stay?\nCustomer: The reservation number was FAB123456789 and I stayed at the Fabrikam Hotel from May 3rd to May 7th.\nAgent: Thank you for the information, Lisa. I apologize for the inconvenience caused by the hotel's mishandling of your reservation. I will personally contact Fabrikam Hotel and address this issue on your behalf. I assure you that we will do everything possible to resolve these matters for you. Is there anything else I can assist you with?\nCustomer: No, that's all for now. I appreciate your assistance in resolving these issues, Sebastian. I hope that Woodgrove Travel takes this incident seriously and improves their services for future customers.\nAgent: I completely understand your concerns, Lisa. Rest assured, we take customer feedback very seriously and will do our best to rectify the situation. Thank you for bringing this to our attention. If you have any further questions or concerns, please don't hesitate to reach out. Have a great day!\n"
+  }
+}

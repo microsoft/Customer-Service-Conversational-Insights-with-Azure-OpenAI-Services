@@ -1,0 +1,244 @@
+{
+  "AgentName": "Evelyn Perez",
+  "AgentId": "AOC72V",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-812-9046",
+  "Conversation": {
+    "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+    "Messages": [
+      {
+        "Id": "b77a85b7-b3bd-4e5f-9af5-6bea67ba9845",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T23:14:58.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "Thank you for calling Woodgrove Travel Agency. My name is Evelyn Perez. How can I assist you today?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d8014d6b-34cc-4c20-8985-0b84ce517f7f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T23:16:20.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "Hi Evelyn. This is John Anderson. I recently traveled from New York City to Los Angeles and I had a terrible experience. I wanted to share my feedback and see if there's anything you can do to help.",
+        "UserId": "999-812-9046",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "912b5b50-9282-47c2-a54c-a26ed073f070",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T23:18:04.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "I'm sorry to hear that, John. Could you please provide me with some more details about what happened during your trip?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e4eb4fc9-d06c-48d4-853a-715427e9eb1b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T23:18:59.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "Well, first of all, my flight with Contoso Airways was delayed for over 4 hours. I missed an important business meeting because of that. Then when I finally arrived in LA, the hotel I booked, Fabrikam Hotel, had lost my reservation. It was a complete mess!",
+        "UserId": "999-812-9046",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "eb7caf7d-aeab-4f2f-a982-70b4c9200326",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T23:21:41.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "I understand your frustration, John. Let me check the details of your flight and hotel reservation. Can you please provide me with your flight number and the date of departure?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a132be34-8af8-47e5-9c7b-a68d148a2ada",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T23:23:17.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "My flight was Contoso Airways Flight 1234, departing from New York City on April 10th at 9:00 AM.",
+        "UserId": "999-812-9046",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "26e9c900-791b-45c3-98cd-621515db8214",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T23:26:07.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "Thank you for providing the details, John. I apologize for the inconvenience caused by the flight delay and the hotel issue. Let me investigate this matter further and see what I can do to assist you.",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "29240d9a-112f-4c41-8e28-c82ad5b6863f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T23:28:48.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "Well, it's about time! I expected better service from Woodgrove Travel Agency. This whole experience has been a nightmare!",
+        "UserId": "999-812-9046",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "716171c6-01e2-4f66-8836-0aa1569ccabf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T23:31:14.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "I apologize for the delay in addressing your concerns, John. As a valued customer, I assure you that I will do my best to resolve this issue for you. Please bear with me while I gather the necessary information.",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d5f1e5aa-3d53-47ec-b104-a4b2fca330c5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T23:32:42.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "Hurry up! I don't have all day to wait for you to figure things out. I want a refund for the flight and compensation for the inconvenience caused!",
+        "UserId": "999-812-9046",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1967744f-5af8-4ec7-8c3b-90b7a63e365d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T23:35:08.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "I understand your frustration and I apologize for the inconvenience caused. Let me check what options are available for compensation and arrange a refund for your flight. I will also assist you in finding an alternate hotel for your stay in Los Angeles. Can you please provide me with your contact information so that I can reach out to you with the details?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c5a55237-b615-444b-b29d-6fc4a19345f7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T23:38:07.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "Fine, my contact number is 555-123-4567. Make sure you resolve this quickly!",
+        "UserId": "999-812-9046",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2cb8f5c1-35cb-4fc2-826d-50d6ee010158",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T23:40:22.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "Thank you for providing your contact information, John. Rest assured, I will prioritize resolving this issue for you and will keep you updated on the progress. Is there anything else I can assist you with?",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ba142817-10f0-4df1-acdd-c8e02ba2bf82",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-03T23:41:10.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "No, that's all for now. Just make sure this gets sorted out as soon as possible!",
+        "UserId": "999-812-9046",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fca12b22-5961-4e25-9927-c089042451d8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-03T23:42:20.745346-07:00",
+        "ConversationId": "676adc2a-aaaf-409c-9e2c-8ef99c758fdc",
+        "Value": "Absolutely, John. I will personally handle your case and ensure it is resolved promptly. Thank you for bringing this matter to our attention. Have a great day!",
+        "UserId": "AOC72V",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-03T23:13:59.745346-07:00",
+    "EndTime": "2024-06-03T23:42:20.745346-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel Agency. My name is Evelyn Perez. How can I assist you today?Hi Evelyn. This is John Anderson. I recently traveled from New York City to Los Angeles and I had a terrible experience. I wanted to share my feedback and see if there's anything you can do to help.I'm sorry to hear that, John. Could you please provide me with some more details about what happened during your trip?Well, first of all, my flight with Contoso Airways was delayed for over 4 hours. I missed an important business meeting because of that. Then when I finally arrived in LA, the hotel I booked, Fabrikam Hotel, had lost my reservation. It was a complete mess!I understand your frustration, John. Let me check the details of your flight and hotel reservation. Can you please provide me with your flight number and the date of departure?My flight was Contoso Airways Flight 1234, departing from New York City on April 10th at 9:00 AM.Thank you for providing the details, John. I apologize for the inconvenience caused by the flight delay and the hotel issue. Let me investigate this matter further and see what I can do to assist you.Well, it's about time! I expected better service from Woodgrove Travel Agency. This whole experience has been a nightmare!I apologize for the delay in addressing your concerns, John. As a valued customer, I assure you that I will do my best to resolve this issue for you. Please bear with me while I gather the necessary information.Hurry up! I don't have all day to wait for you to figure things out. I want a refund for the flight and compensation for the inconvenience caused!I understand your frustration and I apologize for the inconvenience caused. Let me check what options are available for compensation and arrange a refund for your flight. I will also assist you in finding an alternate hotel for your stay in Los Angeles. Can you please provide me with your contact information so that I can reach out to you with the details?Fine, my contact number is 555-123-4567. Make sure you resolve this quickly!Thank you for providing your contact information, John. Rest assured, I will prioritize resolving this issue for you and will keep you updated on the progress. Is there anything else I can assist you with?No, that's all for now. Just make sure this gets sorted out as soon as possible!Absolutely, John. I will personally handle your case and ensure it is resolved promptly. Thank you for bringing this matter to our attention. Have a great day!",
+    "Merged_content_user": "Hi Evelyn. This is John Anderson. I recently traveled from New York City to Los Angeles and I had a terrible experience. I wanted to share my feedback and see if there's anything you can do to help.Well, first of all, my flight with Contoso Airways was delayed for over 4 hours. I missed an important business meeting because of that. Then when I finally arrived in LA, the hotel I booked, Fabrikam Hotel, had lost my reservation. It was a complete mess!My flight was Contoso Airways Flight 1234, departing from New York City on April 10th at 9:00 AM.Well, it's about time! I expected better service from Woodgrove Travel Agency. This whole experience has been a nightmare!Hurry up! I don't have all day to wait for you to figure things out. I want a refund for the flight and compensation for the inconvenience caused!Fine, my contact number is 555-123-4567. Make sure you resolve this quickly!No, that's all for now. Just make sure this gets sorted out as soon as possible!",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel Agency. My name is Evelyn Perez. How can I assist you today?I'm sorry to hear that, John. Could you please provide me with some more details about what happened during your trip?I understand your frustration, John. Let me check the details of your flight and hotel reservation. Can you please provide me with your flight number and the date of departure?Thank you for providing the details, John. I apologize for the inconvenience caused by the flight delay and the hotel issue. Let me investigate this matter further and see what I can do to assist you.I apologize for the delay in addressing your concerns, John. As a valued customer, I assure you that I will do my best to resolve this issue for you. Please bear with me while I gather the necessary information.I understand your frustration and I apologize for the inconvenience caused. Let me check what options are available for compensation and arrange a refund for your flight. I will also assist you in finding an alternate hotel for your stay in Los Angeles. Can you please provide me with your contact information so that I can reach out to you with the details?Thank you for providing your contact information, John. Rest assured, I will prioritize resolving this issue for you and will keep you updated on the progress. Is there anything else I can assist you with?Absolutely, John. I will personally handle your case and ensure it is resolved promptly. Thank you for bringing this matter to our attention. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel Agency. My name is Evelyn Perez. How can I assist you today?\nCustomer: Hi Evelyn. This is John Anderson. I recently traveled from New York City to Los Angeles and I had a terrible experience. I wanted to share my feedback and see if there's anything you can do to help.\nAgent: I'm sorry to hear that, John. Could you please provide me with some more details about what happened during your trip?\nCustomer: Well, first of all, my flight with Contoso Airways was delayed for over 4 hours. I missed an important business meeting because of that. Then when I finally arrived in LA, the hotel I booked, Fabrikam Hotel, had lost my reservation. It was a complete mess!\nAgent: I understand your frustration, John. Let me check the details of your flight and hotel reservation. Can you please provide me with your flight number and the date of departure?\nCustomer: My flight was Contoso Airways Flight 1234, departing from New York City on April 10th at 9:00 AM.\nAgent: Thank you for providing the details, John. I apologize for the inconvenience caused by the flight delay and the hotel issue. Let me investigate this matter further and see what I can do to assist you.\nCustomer: Well, it's about time! I expected better service from Woodgrove Travel Agency. This whole experience has been a nightmare!\nAgent: I apologize for the delay in addressing your concerns, John. As a valued customer, I assure you that I will do my best to resolve this issue for you. Please bear with me while I gather the necessary information.\nCustomer: Hurry up! I don't have all day to wait for you to figure things out. I want a refund for the flight and compensation for the inconvenience caused!\nAgent: I understand your frustration and I apologize for the inconvenience caused. Let me check what options are available for compensation and arrange a refund for your flight. I will also assist you in finding an alternate hotel for your stay in Los Angeles. Can you please provide me with your contact information so that I can reach out to you with the details?\nCustomer: Fine, my contact number is 555-123-4567. Make sure you resolve this quickly!\nAgent: Thank you for providing your contact information, John. Rest assured, I will prioritize resolving this issue for you and will keep you updated on the progress. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Just make sure this gets sorted out as soon as possible!\nAgent: Absolutely, John. I will personally handle your case and ensure it is resolved promptly. Thank you for bringing this matter to our attention. Have a great day!\n"
+  }
+}

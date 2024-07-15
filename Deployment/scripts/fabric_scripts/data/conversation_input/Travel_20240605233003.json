@@ -1,0 +1,364 @@
+{
+  "AgentName": "Grace King",
+  "AgentId": "ETKIYY",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-253-4615",
+  "Conversation": {
+    "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+    "Messages": [
+      {
+        "Id": "9a0dc65e-1423-4297-9c80-62df5b325052",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:32:27.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Thank you for calling Woodgrove Travel! My name is Grace King. How can I assist you today?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9a7df5df-cc2a-4823-950f-0d410b5ab4c8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:33:30.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Hi Grace, this is Sarah Thompson. I'm planning a trip from Boston to San Francisco next month.",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "41d43b64-c21f-4f50-b239-4abb423c5aa9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:35:48.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "That sounds like a great trip, Sarah! What dates are you considering?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "01a6696b-fb71-4d06-ab88-dbdba6572efc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:36:29.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "I'm flexible with the dates. Anytime between February 10th and February 20th would work for me.",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a9682e37-5581-4a3a-84ee-382ed5d4a816",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:37:36.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Alright, let me check the available options for you. Could you please hold on for a moment?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b361e317-221e-4402-b3f2-a93e7c11f8cf",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:40:34.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Sure, take your time.",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2a8f0a7a-6906-4d42-850a-eeb6acde1e19",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:42:24.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "I have a few flight options for you, Sarah. Contoso Airways has a nonstop flight from Boston to San Francisco on February 12th at 11:25 AM. The flight number is CA1234. Another option is Northwind Airlines with a layover in Chicago, departing on February 15th at 9:00 AM. The flight number is NW5678. Which one would you prefer?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "35c264b4-086c-4482-a9d7-0a14edf66e46",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:43:20.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Hmm, both options seem good. Could you tell me the prices for each?",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2df02fcc-a7b7-4f11-a3c5-4fed964ee8b6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:45:01.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Certainly! The Contoso Airways flight is priced at $350, and the Northwind Airlines flight is priced at $250.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "55e7139a-f5a6-4bf7-992a-a7172914a41b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:45:48.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "That's quite a price difference. I think I'll go with the Northwind Airlines option to save some money. Please book that for me.",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2781f9c8-7596-4786-aa63-e545b9323ab5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:47:16.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Great choice, Sarah! I'll book the Northwind Airlines flight for you on February 15th at 9:00 AM. Is there anything else I can assist you with?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9c677142-3b08-4d76-8ab3-5eb8654d80e3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:48:22.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Actually, I'm also looking for hotel options in San Francisco. Do you have any recommendations?",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9cc34f23-d479-46b6-bbcb-90ffd747f17e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:49:00.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Certainly, let me check the available hotels for you. Could you please hold on for a moment?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0767b090-5208-4bc0-8992-95020b8ff11c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:50:01.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "No problem, take your time.",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ab0dd870-1c19-4a5b-ba6d-7e786d8f4fd8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:51:07.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "I have a few hotel options for you, Sarah. The Fabrikam Hotel is available from February 12th to February 18th. The reservation number is FH123456. Another option is Adventure Lodge from February 13th to February 19th. The reservation number is AL789012. Which one would you prefer?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "62f1e62f-79f3-4241-8798-86453c32271f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:52:21.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Hmm, both options look nice. Could you tell me the prices for each?",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "76792e3d-dad0-47ff-8ad1-ffa7fbe1bac6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:52:54.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Certainly! The Fabrikam Hotel is priced at $200 per night, and the Adventure Lodge is priced at $150 per night.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "63b47ca1-e621-45bf-b162-4e713ec837fa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:55:02.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "I think I'll go with the Adventure Lodge. It's more affordable, and the dates work well for me. Please book that for me as well.",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1a29ba01-ed7d-43bf-b0a2-fcbdb6629991",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-05T23:57:00.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Sure, Sarah! I'll book the Adventure Lodge for you from February 13th to February 19th. Is there anything else I can assist you with?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "797cfd3d-ec6b-40a7-8b42-dd88d589f5dc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-05T23:58:08.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "No, that's all. Thank you so much for your help, Grace!",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9569caaf-9f54-4c57-9724-9b032fe46b45",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-06T00:00:21.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "You're welcome, Sarah! It was my pleasure assisting you. Have a fantastic trip to San Francisco!",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5165c976-7d00-453d-9119-cc0db8335436",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-06T00:01:36.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Thank you, Grace! Goodbye!",
+        "UserId": "999-253-4615",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "770ba295-8612-415c-88d2-58550b526ae9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-06T00:02:33.7477757-07:00",
+        "ConversationId": "a6574d21-2c4d-4195-9c75-7ecfb7914814",
+        "Value": "Goodbye, Sarah! Take care!",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-05T23:30:03.7477757-07:00",
+    "EndTime": "2024-06-06T00:02:33.7477757-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel! My name is Grace King. How can I assist you today?Hi Grace, this is Sarah Thompson. I'm planning a trip from Boston to San Francisco next month.That sounds like a great trip, Sarah! What dates are you considering?I'm flexible with the dates. Anytime between February 10th and February 20th would work for me.Alright, let me check the available options for you. Could you please hold on for a moment?Sure, take your time.I have a few flight options for you, Sarah. Contoso Airways has a nonstop flight from Boston to San Francisco on February 12th at 11:25 AM. The flight number is CA1234. Another option is Northwind Airlines with a layover in Chicago, departing on February 15th at 9:00 AM. The flight number is NW5678. Which one would you prefer?Hmm, both options seem good. Could you tell me the prices for each?Certainly! The Contoso Airways flight is priced at $350, and the Northwind Airlines flight is priced at $250.That's quite a price difference. I think I'll go with the Northwind Airlines option to save some money. Please book that for me.Great choice, Sarah! I'll book the Northwind Airlines flight for you on February 15th at 9:00 AM. Is there anything else I can assist you with?Actually, I'm also looking for hotel options in San Francisco. Do you have any recommendations?Certainly, let me check the available hotels for you. Could you please hold on for a moment?No problem, take your time.I have a few hotel options for you, Sarah. The Fabrikam Hotel is available from February 12th to February 18th. The reservation number is FH123456. Another option is Adventure Lodge from February 13th to February 19th. The reservation number is AL789012. Which one would you prefer?Hmm, both options look nice. Could you tell me the prices for each?Certainly! The Fabrikam Hotel is priced at $200 per night, and the Adventure Lodge is priced at $150 per night.I think I'll go with the Adventure Lodge. It's more affordable, and the dates work well for me. Please book that for me as well.Sure, Sarah! I'll book the Adventure Lodge for you from February 13th to February 19th. Is there anything else I can assist you with?No, that's all. Thank you so much for your help, Grace!You're welcome, Sarah! It was my pleasure assisting you. Have a fantastic trip to San Francisco!Thank you, Grace! Goodbye!Goodbye, Sarah! Take care!",
+    "Merged_content_user": "Hi Grace, this is Sarah Thompson. I'm planning a trip from Boston to San Francisco next month.I'm flexible with the dates. Anytime between February 10th and February 20th would work for me.Sure, take your time.Hmm, both options seem good. Could you tell me the prices for each?That's quite a price difference. I think I'll go with the Northwind Airlines option to save some money. Please book that for me.Actually, I'm also looking for hotel options in San Francisco. Do you have any recommendations?No problem, take your time.Hmm, both options look nice. Could you tell me the prices for each?I think I'll go with the Adventure Lodge. It's more affordable, and the dates work well for me. Please book that for me as well.No, that's all. Thank you so much for your help, Grace!Thank you, Grace! Goodbye!",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel! My name is Grace King. How can I assist you today?That sounds like a great trip, Sarah! What dates are you considering?Alright, let me check the available options for you. Could you please hold on for a moment?I have a few flight options for you, Sarah. Contoso Airways has a nonstop flight from Boston to San Francisco on February 12th at 11:25 AM. The flight number is CA1234. Another option is Northwind Airlines with a layover in Chicago, departing on February 15th at 9:00 AM. The flight number is NW5678. Which one would you prefer?Certainly! The Contoso Airways flight is priced at $350, and the Northwind Airlines flight is priced at $250.Great choice, Sarah! I'll book the Northwind Airlines flight for you on February 15th at 9:00 AM. Is there anything else I can assist you with?Certainly, let me check the available hotels for you. Could you please hold on for a moment?I have a few hotel options for you, Sarah. The Fabrikam Hotel is available from February 12th to February 18th. The reservation number is FH123456. Another option is Adventure Lodge from February 13th to February 19th. The reservation number is AL789012. Which one would you prefer?Certainly! The Fabrikam Hotel is priced at $200 per night, and the Adventure Lodge is priced at $150 per night.Sure, Sarah! I'll book the Adventure Lodge for you from February 13th to February 19th. Is there anything else I can assist you with?You're welcome, Sarah! It was my pleasure assisting you. Have a fantastic trip to San Francisco!Goodbye, Sarah! Take care!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel! My name is Grace King. How can I assist you today?\nCustomer: Hi Grace, this is Sarah Thompson. I'm planning a trip from Boston to San Francisco next month.\nAgent: That sounds like a great trip, Sarah! What dates are you considering?\nCustomer: I'm flexible with the dates. Anytime between February 10th and February 20th would work for me.\nAgent: Alright, let me check the available options for you. Could you please hold on for a moment?\nCustomer: Sure, take your time.\nAgent: I have a few flight options for you, Sarah. Contoso Airways has a nonstop flight from Boston to San Francisco on February 12th at 11:25 AM. The flight number is CA1234. Another option is Northwind Airlines with a layover in Chicago, departing on February 15th at 9:00 AM. The flight number is NW5678. Which one would you prefer?\nCustomer: Hmm, both options seem good. Could you tell me the prices for each?\nAgent: Certainly! The Contoso Airways flight is priced at $350, and the Northwind Airlines flight is priced at $250.\nCustomer: That's quite a price difference. I think I'll go with the Northwind Airlines option to save some money. Please book that for me.\nAgent: Great choice, Sarah! I'll book the Northwind Airlines flight for you on February 15th at 9:00 AM. Is there anything else I can assist you with?\nCustomer: Actually, I'm also looking for hotel options in San Francisco. Do you have any recommendations?\nAgent: Certainly, let me check the available hotels for you. Could you please hold on for a moment?\nCustomer: No problem, take your time.\nAgent: I have a few hotel options for you, Sarah. The Fabrikam Hotel is available from February 12th to February 18th. The reservation number is FH123456. Another option is Adventure Lodge from February 13th to February 19th. The reservation number is AL789012. Which one would you prefer?\nCustomer: Hmm, both options look nice. Could you tell me the prices for each?\nAgent: Certainly! The Fabrikam Hotel is priced at $200 per night, and the Adventure Lodge is priced at $150 per night.\nCustomer: I think I'll go with the Adventure Lodge. It's more affordable, and the dates work well for me. Please book that for me as well.\nAgent: Sure, Sarah! I'll book the Adventure Lodge for you from February 13th to February 19th. Is there anything else I can assist you with?\nCustomer: No, that's all. Thank you so much for your help, Grace!\nAgent: You're welcome, Sarah! It was my pleasure assisting you. Have a fantastic trip to San Francisco!\nCustomer: Thank you, Grace! Goodbye!\nAgent: Goodbye, Sarah! Take care!\n"
+  }
+}

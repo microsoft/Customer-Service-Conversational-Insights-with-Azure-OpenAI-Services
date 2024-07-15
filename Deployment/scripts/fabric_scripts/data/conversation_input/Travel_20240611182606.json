@@ -1,0 +1,184 @@
+{
+  "AgentName": "Mason White",
+  "AgentId": "QLUD5I",
+  "Team": "West",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-139-3433",
+  "Conversation": {
+    "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+    "Messages": [
+      {
+        "Id": "db3c6cb5-2385-46d2-92a5-c2219d58daf3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T18:28:49.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Mason White. How may I assist you today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f8a67431-f27f-4023-81d0-3671ee8cbc8f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T18:31:14.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "Hi Mason, my name is Sarah Johnson. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline and hotel. I wanted to express my frustration and see if there's anything you can do to help.",
+        "UserId": "999-139-3433",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b552001a-fba9-415b-87e3-c983d61f0296",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T18:31:59.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "I'm sorry to hear that, Sarah. I understand how frustrating it can be when things don't go as planned during a trip. Could you please provide me with some details about your experience? Let's see how we can resolve this for you.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8e5697c0-07a9-4543-b843-d69550868ae2",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T18:34:38.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "Sure, where do I start? First, my flight with Contoso Airways was delayed for three hours without any proper explanation. It caused a lot of inconvenience and made me miss an important meeting in Los Angeles.",
+        "UserId": "999-139-3433",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7dc510be-9c3a-4a0f-b2af-a38815ff3a1c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T18:35:28.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "I'm sorry to hear about the delay, Sarah. Flight delays can be quite frustrating, especially when they cause you to miss important events. Let me check if there's any compensation or alternative solutions available for you.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7509a4bc-6ffe-444d-a452-3325a0a7475f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T18:37:43.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "Thank you, I appreciate that. Additionally, the hotel I stayed at, Fabrikam Hotel, was not up to my expectations. The room was unclean, the staff was unhelpful, and the overall experience was disappointing.",
+        "UserId": "999-139-3433",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8924a3fc-d9ff-45b6-8531-29a56dfb557d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T18:40:36.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "I apologize for the inconvenience caused by the hotel, Sarah. It's really disappointing when the accommodation doesn't meet your expectations. Let me see what I can do to address this issue with the hotel management.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "eaf319a9-26e8-462f-bd52-102d0e570c75",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T18:41:55.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "Thank you, Mason. I would appreciate any assistance you can provide. This entire trip has been quite frustrating for me.",
+        "UserId": "999-139-3433",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b461430e-d4b9-49de-9541-d6594948fac8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T18:43:08.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "I completely understand, Sarah. Travel mishaps can really put a damper on your overall experience. I'll make sure to escalate your concerns with both the airline and the hotel. Please allow me some time to investigate and get back to you with a suitable resolution.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a78fa114-24e6-4a9e-b165-a27ea478c6cc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-11T18:45:01.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "Thank you, Mason. I appreciate your understanding and assistance. I'll be waiting to hear from you.",
+        "UserId": "999-139-3433",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f8cfd999-e066-4236-9047-819579892c01",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-11T18:47:23.9957216-07:00",
+        "ConversationId": "6b0de599-1df1-4f54-83f2-873753a2f4e8",
+        "Value": "You're welcome, Sarah. I will do my best to resolve this matter for you as quickly as possible. Thank you for your patience. Have a great day!",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-11T18:26:06.9957216-07:00",
+    "EndTime": "2024-06-11T18:47:23.9957216-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Mason White. How may I assist you today?Hi Mason, my name is Sarah Johnson. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline and hotel. I wanted to express my frustration and see if there's anything you can do to help.I'm sorry to hear that, Sarah. I understand how frustrating it can be when things don't go as planned during a trip. Could you please provide me with some details about your experience? Let's see how we can resolve this for you.Sure, where do I start? First, my flight with Contoso Airways was delayed for three hours without any proper explanation. It caused a lot of inconvenience and made me miss an important meeting in Los Angeles.I'm sorry to hear about the delay, Sarah. Flight delays can be quite frustrating, especially when they cause you to miss important events. Let me check if there's any compensation or alternative solutions available for you.Thank you, I appreciate that. Additionally, the hotel I stayed at, Fabrikam Hotel, was not up to my expectations. The room was unclean, the staff was unhelpful, and the overall experience was disappointing.I apologize for the inconvenience caused by the hotel, Sarah. It's really disappointing when the accommodation doesn't meet your expectations. Let me see what I can do to address this issue with the hotel management.Thank you, Mason. I would appreciate any assistance you can provide. This entire trip has been quite frustrating for me.I completely understand, Sarah. Travel mishaps can really put a damper on your overall experience. I'll make sure to escalate your concerns with both the airline and the hotel. Please allow me some time to investigate and get back to you with a suitable resolution.Thank you, Mason. I appreciate your understanding and assistance. I'll be waiting to hear from you.You're welcome, Sarah. I will do my best to resolve this matter for you as quickly as possible. Thank you for your patience. Have a great day!",
+    "Merged_content_user": "Hi Mason, my name is Sarah Johnson. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline and hotel. I wanted to express my frustration and see if there's anything you can do to help.Sure, where do I start? First, my flight with Contoso Airways was delayed for three hours without any proper explanation. It caused a lot of inconvenience and made me miss an important meeting in Los Angeles.Thank you, I appreciate that. Additionally, the hotel I stayed at, Fabrikam Hotel, was not up to my expectations. The room was unclean, the staff was unhelpful, and the overall experience was disappointing.Thank you, Mason. I would appreciate any assistance you can provide. This entire trip has been quite frustrating for me.Thank you, Mason. I appreciate your understanding and assistance. I'll be waiting to hear from you.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Mason White. How may I assist you today?I'm sorry to hear that, Sarah. I understand how frustrating it can be when things don't go as planned during a trip. Could you please provide me with some details about your experience? Let's see how we can resolve this for you.I'm sorry to hear about the delay, Sarah. Flight delays can be quite frustrating, especially when they cause you to miss important events. Let me check if there's any compensation or alternative solutions available for you.I apologize for the inconvenience caused by the hotel, Sarah. It's really disappointing when the accommodation doesn't meet your expectations. Let me see what I can do to address this issue with the hotel management.I completely understand, Sarah. Travel mishaps can really put a damper on your overall experience. I'll make sure to escalate your concerns with both the airline and the hotel. Please allow me some time to investigate and get back to you with a suitable resolution.You're welcome, Sarah. I will do my best to resolve this matter for you as quickly as possible. Thank you for your patience. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Mason White. How may I assist you today?\nCustomer: Hi Mason, my name is Sarah Johnson. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline and hotel. I wanted to express my frustration and see if there's anything you can do to help.\nAgent: I'm sorry to hear that, Sarah. I understand how frustrating it can be when things don't go as planned during a trip. Could you please provide me with some details about your experience? Let's see how we can resolve this for you.\nCustomer: Sure, where do I start? First, my flight with Contoso Airways was delayed for three hours without any proper explanation. It caused a lot of inconvenience and made me miss an important meeting in Los Angeles.\nAgent: I'm sorry to hear about the delay, Sarah. Flight delays can be quite frustrating, especially when they cause you to miss important events. Let me check if there's any compensation or alternative solutions available for you.\nCustomer: Thank you, I appreciate that. Additionally, the hotel I stayed at, Fabrikam Hotel, was not up to my expectations. The room was unclean, the staff was unhelpful, and the overall experience was disappointing.\nAgent: I apologize for the inconvenience caused by the hotel, Sarah. It's really disappointing when the accommodation doesn't meet your expectations. Let me see what I can do to address this issue with the hotel management.\nCustomer: Thank you, Mason. I would appreciate any assistance you can provide. This entire trip has been quite frustrating for me.\nAgent: I completely understand, Sarah. Travel mishaps can really put a damper on your overall experience. I'll make sure to escalate your concerns with both the airline and the hotel. Please allow me some time to investigate and get back to you with a suitable resolution.\nCustomer: Thank you, Mason. I appreciate your understanding and assistance. I'll be waiting to hear from you.\nAgent: You're welcome, Sarah. I will do my best to resolve this matter for you as quickly as possible. Thank you for your patience. Have a great day!\n"
+  }
+}

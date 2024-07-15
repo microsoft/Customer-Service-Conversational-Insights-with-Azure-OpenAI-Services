@@ -1,0 +1,184 @@
+{
+  "AgentName": "Sebastian Harris",
+  "AgentId": "Z82TOA",
+  "Team": "Midwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-719-8742",
+  "Conversation": {
+    "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+    "Messages": [
+      {
+        "Id": "01416bd1-3631-49e5-b8f7-be3525040470",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T15:33:07.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "Thank you for calling Woodgrove Travel. This is Sebastian Harris speaking. How may I assist you today?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2e283bae-5e26-478d-b8e6-37360b6ca871",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T15:35:10.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "Hi Sebastian, my name is Emily Smith and I recently traveled to Chicago from New York with your agency. I just wanted to let you know that I had a fantastic experience with Woodgrove Travel. Everything from the flight to the hotel was perfect.",
+        "UserId": "999-719-8742",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1951cb48-6795-47a9-b108-e5a873081387",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T15:37:03.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "Hello, Emily! I'm glad to hear that you had a great experience with us. We appreciate your feedback. Could you please provide me with some details about your trip?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c314f97c-3053-40af-8fbe-c995af60f921",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T15:39:51.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "Sure! I flew with Contoso Airways on flight CA345 from New York to Chicago on July 10th. The flight departed at 12:00 PM and arrived on time. The plane was clean and the crew was very friendly.",
+        "UserId": "999-719-8742",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "988a1db4-35f5-482f-a03d-502936fe617b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T15:42:38.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "That's wonderful to hear, Emily. I will make a note of your positive feedback regarding Contoso Airways. Now, could you please provide me with the details of your hotel stay in Chicago?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3512462e-440a-4bc3-9945-4e6539e00b55",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T15:43:21.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "Certainly! I stayed at the Fabrikam Hotel in downtown Chicago. My reservation was under the name Emily Smith, and the reservation number was 123456. The hotel was clean, comfortable, and conveniently located.",
+        "UserId": "999-719-8742",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5ed6c5c1-a9b4-4eef-a745-b47820206154",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T15:46:00.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "Thank you for providing the details, Emily. I will make sure to share your positive feedback with the Fabrikam Hotel as well. Is there anything else I can assist you with?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e1f574c8-5618-4b17-be7d-1206e848b1ae",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T15:46:34.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "No, that's all. I just wanted to express my satisfaction with Woodgrove Travel. Thank you for the excellent service!",
+        "UserId": "999-719-8742",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "882ba29a-56a2-4feb-8895-c712ab5cfb2c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T15:48:21.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "You're very welcome, Emily! We're thrilled to have provided you with a memorable travel experience. As a token of our appreciation, I would like to offer you a 10% discount on your next booking with Woodgrove Travel. How does that sound?",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b8db3444-5350-46d5-892f-3537ce13dd9f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T15:50:26.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "That's very generous of you, Sebastian! I would love to take advantage of the discount. Thank you!",
+        "UserId": "999-719-8742",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c73f3541-80e6-49ea-9878-5428c7a62d10",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T15:52:09.3343473-07:00",
+        "ConversationId": "6e092fc6-10c6-42a2-bbcc-1532b4018d6c",
+        "Value": "You're welcome, Emily! I will make a note of the discount in your customer profile. If you have any future travel plans, don't hesitate to reach out to us. Have a wonderful day!",
+        "UserId": "Z82TOA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-21T15:32:23.3343473-07:00",
+    "EndTime": "2024-06-21T15:52:09.3343473-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. This is Sebastian Harris speaking. How may I assist you today?Hi Sebastian, my name is Emily Smith and I recently traveled to Chicago from New York with your agency. I just wanted to let you know that I had a fantastic experience with Woodgrove Travel. Everything from the flight to the hotel was perfect.Hello, Emily! I'm glad to hear that you had a great experience with us. We appreciate your feedback. Could you please provide me with some details about your trip?Sure! I flew with Contoso Airways on flight CA345 from New York to Chicago on July 10th. The flight departed at 12:00 PM and arrived on time. The plane was clean and the crew was very friendly.That's wonderful to hear, Emily. I will make a note of your positive feedback regarding Contoso Airways. Now, could you please provide me with the details of your hotel stay in Chicago?Certainly! I stayed at the Fabrikam Hotel in downtown Chicago. My reservation was under the name Emily Smith, and the reservation number was 123456. The hotel was clean, comfortable, and conveniently located.Thank you for providing the details, Emily. I will make sure to share your positive feedback with the Fabrikam Hotel as well. Is there anything else I can assist you with?No, that's all. I just wanted to express my satisfaction with Woodgrove Travel. Thank you for the excellent service!You're very welcome, Emily! We're thrilled to have provided you with a memorable travel experience. As a token of our appreciation, I would like to offer you a 10% discount on your next booking with Woodgrove Travel. How does that sound?That's very generous of you, Sebastian! I would love to take advantage of the discount. Thank you!You're welcome, Emily! I will make a note of the discount in your customer profile. If you have any future travel plans, don't hesitate to reach out to us. Have a wonderful day!",
+    "Merged_content_user": "Hi Sebastian, my name is Emily Smith and I recently traveled to Chicago from New York with your agency. I just wanted to let you know that I had a fantastic experience with Woodgrove Travel. Everything from the flight to the hotel was perfect.Sure! I flew with Contoso Airways on flight CA345 from New York to Chicago on July 10th. The flight departed at 12:00 PM and arrived on time. The plane was clean and the crew was very friendly.Certainly! I stayed at the Fabrikam Hotel in downtown Chicago. My reservation was under the name Emily Smith, and the reservation number was 123456. The hotel was clean, comfortable, and conveniently located.No, that's all. I just wanted to express my satisfaction with Woodgrove Travel. Thank you for the excellent service!That's very generous of you, Sebastian! I would love to take advantage of the discount. Thank you!",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. This is Sebastian Harris speaking. How may I assist you today?Hello, Emily! I'm glad to hear that you had a great experience with us. We appreciate your feedback. Could you please provide me with some details about your trip?That's wonderful to hear, Emily. I will make a note of your positive feedback regarding Contoso Airways. Now, could you please provide me with the details of your hotel stay in Chicago?Thank you for providing the details, Emily. I will make sure to share your positive feedback with the Fabrikam Hotel as well. Is there anything else I can assist you with?You're very welcome, Emily! We're thrilled to have provided you with a memorable travel experience. As a token of our appreciation, I would like to offer you a 10% discount on your next booking with Woodgrove Travel. How does that sound?You're welcome, Emily! I will make a note of the discount in your customer profile. If you have any future travel plans, don't hesitate to reach out to us. Have a wonderful day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. This is Sebastian Harris speaking. How may I assist you today?\nCustomer: Hi Sebastian, my name is Emily Smith and I recently traveled to Chicago from New York with your agency. I just wanted to let you know that I had a fantastic experience with Woodgrove Travel. Everything from the flight to the hotel was perfect.\nAgent: Hello, Emily! I'm glad to hear that you had a great experience with us. We appreciate your feedback. Could you please provide me with some details about your trip?\nCustomer: Sure! I flew with Contoso Airways on flight CA345 from New York to Chicago on July 10th. The flight departed at 12:00 PM and arrived on time. The plane was clean and the crew was very friendly.\nAgent: That's wonderful to hear, Emily. I will make a note of your positive feedback regarding Contoso Airways. Now, could you please provide me with the details of your hotel stay in Chicago?\nCustomer: Certainly! I stayed at the Fabrikam Hotel in downtown Chicago. My reservation was under the name Emily Smith, and the reservation number was 123456. The hotel was clean, comfortable, and conveniently located.\nAgent: Thank you for providing the details, Emily. I will make sure to share your positive feedback with the Fabrikam Hotel as well. Is there anything else I can assist you with?\nCustomer: No, that's all. I just wanted to express my satisfaction with Woodgrove Travel. Thank you for the excellent service!\nAgent: You're very welcome, Emily! We're thrilled to have provided you with a memorable travel experience. As a token of our appreciation, I would like to offer you a 10% discount on your next booking with Woodgrove Travel. How does that sound?\nCustomer: That's very generous of you, Sebastian! I would love to take advantage of the discount. Thank you!\nAgent: You're welcome, Emily! I will make a note of the discount in your customer profile. If you have any future travel plans, don't hesitate to reach out to us. Have a wonderful day!\n"
+  }
+}

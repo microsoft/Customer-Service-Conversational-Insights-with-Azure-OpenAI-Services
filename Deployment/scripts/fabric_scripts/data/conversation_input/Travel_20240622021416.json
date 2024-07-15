@@ -1,0 +1,214 @@
+{
+  "AgentName": "Zoe Lewis",
+  "AgentId": "G6HD7J",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-145-1286",
+  "Conversation": {
+    "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+    "Messages": [
+      {
+        "Id": "3becb9bf-44be-4994-a578-74697b08418f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T02:15:02.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Zoe Lewis. How may I assist you today?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "164ccdeb-d914-4782-bd61-67f3c91deec1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T02:17:16.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "Hi Zoe, this is Jennifer Smith. I'm looking to plan a trip for my family from New York City to Los Angeles. Can you help me with the arrangements?",
+        "UserId": "999-145-1286",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "498ccd7c-57b3-4f68-b55d-e1045b0a26f1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T02:19:55.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "Of course, Jennifer! I'd be happy to assist you with your travel plans. When are you planning to travel?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2820c0c1-e175-4b94-8bdd-fc2957fa2547",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T02:22:17.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "We're looking to travel around Thanksgiving, so preferably between November 22nd and November 30th.",
+        "UserId": "999-145-1286",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "46d9465e-6e9f-4a5f-b247-6a29e873214d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T02:24:52.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "Great! Let me check the available options for you. Just a moment, please.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1cf03922-435f-4358-ac38-1d2efdca4f28",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T02:27:12.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "Thank you, Zoe. Take your time.",
+        "UserId": "999-145-1286",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9e62ea8c-0426-4b27-953f-c476f76a9659",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T02:28:26.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "I have found a few options for your flight from New York City to Los Angeles. Here are the details:",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "94fb4c36-2731-40cd-90a1-c25f47c917f4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T02:29:58.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "Option 1: Contoso Airways Flight 123, departing on November 23rd at 10:00 AM. The total round-trip cost for this flight is $500 per person.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5530380e-27b6-4ba9-b5a1-a5a77de6636a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T02:31:04.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "Option 2: Northwind Airlines Flight 456, departing on November 25th at 12:00 PM. The total round-trip cost for this flight is $550 per person.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "387fb765-4803-4cd5-bbdf-ef801cdc49b4",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T02:33:10.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "Option 3: Adatum Air Flight 789, departing on November 26th at 9:00 AM. The total round-trip cost for this flight is $480 per person.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6e3798a1-fcae-4d70-972c-996e2f853b20",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T02:34:28.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "These are just a few options. Let me know if you'd like more details or if you have any other specific preferences.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bfa18606-abb1-4ecc-bea2-26b4ac6f37b6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-22T02:35:36.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "Thank you, Zoe. These options are helpful. I'll discuss them with my family and get back to you with our decision.",
+        "UserId": "999-145-1286",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cdcbdb7c-b748-4ca2-a092-91094cf8d1e8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-22T02:38:16.2522856-07:00",
+        "ConversationId": "c47d6109-d40a-4a9a-977b-7c37ea5a5fe1",
+        "Value": "You're welcome, Jennifer. Take your time to decide, and feel free to reach out to me whenever you're ready. Have a great day!",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-22T02:14:16.2522856-07:00",
+    "EndTime": "2024-06-22T02:38:16.2522856-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Zoe Lewis. How may I assist you today?Hi Zoe, this is Jennifer Smith. I'm looking to plan a trip for my family from New York City to Los Angeles. Can you help me with the arrangements?Of course, Jennifer! I'd be happy to assist you with your travel plans. When are you planning to travel?We're looking to travel around Thanksgiving, so preferably between November 22nd and November 30th.Great! Let me check the available options for you. Just a moment, please.Thank you, Zoe. Take your time.I have found a few options for your flight from New York City to Los Angeles. Here are the details:Option 1: Contoso Airways Flight 123, departing on November 23rd at 10:00 AM. The total round-trip cost for this flight is $500 per person.Option 2: Northwind Airlines Flight 456, departing on November 25th at 12:00 PM. The total round-trip cost for this flight is $550 per person.Option 3: Adatum Air Flight 789, departing on November 26th at 9:00 AM. The total round-trip cost for this flight is $480 per person.These are just a few options. Let me know if you'd like more details or if you have any other specific preferences.Thank you, Zoe. These options are helpful. I'll discuss them with my family and get back to you with our decision.You're welcome, Jennifer. Take your time to decide, and feel free to reach out to me whenever you're ready. Have a great day!",
+    "Merged_content_user": "Hi Zoe, this is Jennifer Smith. I'm looking to plan a trip for my family from New York City to Los Angeles. Can you help me with the arrangements?We're looking to travel around Thanksgiving, so preferably between November 22nd and November 30th.Thank you, Zoe. Take your time.Thank you, Zoe. These options are helpful. I'll discuss them with my family and get back to you with our decision.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Zoe Lewis. How may I assist you today?Of course, Jennifer! I'd be happy to assist you with your travel plans. When are you planning to travel?Great! Let me check the available options for you. Just a moment, please.I have found a few options for your flight from New York City to Los Angeles. Here are the details:Option 1: Contoso Airways Flight 123, departing on November 23rd at 10:00 AM. The total round-trip cost for this flight is $500 per person.Option 2: Northwind Airlines Flight 456, departing on November 25th at 12:00 PM. The total round-trip cost for this flight is $550 per person.Option 3: Adatum Air Flight 789, departing on November 26th at 9:00 AM. The total round-trip cost for this flight is $480 per person.These are just a few options. Let me know if you'd like more details or if you have any other specific preferences.You're welcome, Jennifer. Take your time to decide, and feel free to reach out to me whenever you're ready. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Zoe Lewis. How may I assist you today?\nCustomer: Hi Zoe, this is Jennifer Smith. I'm looking to plan a trip for my family from New York City to Los Angeles. Can you help me with the arrangements?\nAgent: Of course, Jennifer! I'd be happy to assist you with your travel plans. When are you planning to travel?\nCustomer: We're looking to travel around Thanksgiving, so preferably between November 22nd and November 30th.\nAgent: Great! Let me check the available options for you. Just a moment, please.\nCustomer: Thank you, Zoe. Take your time.\nAgent: I have found a few options for your flight from New York City to Los Angeles. Here are the details:\nAgent: Option 1: Contoso Airways Flight 123, departing on November 23rd at 10:00 AM. The total round-trip cost for this flight is $500 per person.\nAgent: Option 2: Northwind Airlines Flight 456, departing on November 25th at 12:00 PM. The total round-trip cost for this flight is $550 per person.\nAgent: Option 3: Adatum Air Flight 789, departing on November 26th at 9:00 AM. The total round-trip cost for this flight is $480 per person.\nAgent: These are just a few options. Let me know if you'd like more details or if you have any other specific preferences.\nCustomer: Thank you, Zoe. These options are helpful. I'll discuss them with my family and get back to you with our decision.\nAgent: You're welcome, Jennifer. Take your time to decide, and feel free to reach out to me whenever you're ready. Have a great day!\n"
+  }
+}

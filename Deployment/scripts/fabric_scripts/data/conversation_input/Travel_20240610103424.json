@@ -1,0 +1,169 @@
+{
+  "AgentName": "Liam Johnson",
+  "AgentId": "YVS2EM",
+  "Team": "West",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-160-9402",
+  "Conversation": {
+    "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+    "Messages": [
+      {
+        "Id": "c601ca22-26b1-41b9-9bb0-d528b2b495d3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T10:34:57.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1f679b30-ee6a-4c90-a596-fec71f60e394",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T10:37:26.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "Hi Liam, my name is Emily Simmons. I recently had a trip with your agency and I have a complaint regarding my hotel stay.",
+        "UserId": "999-160-9402",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aac061d9-1c8c-4e96-b31d-871214527f4f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T10:39:02.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "I'm sorry to hear that, Emily. Could you please provide me with the details of your trip and the issue you encountered at the hotel?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0f9e0e3d-b884-4b8d-b39b-cac6799ea608",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T10:41:22.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "Sure, I traveled from San Francisco to New York City last week. The hotel I stayed in was Fabrikam Hotel. The room was not clean when I checked in, and the staff was not helpful in resolving the issue. It was a very disappointing experience.",
+        "UserId": "999-160-9402",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e46abd23-89f9-4de6-95c6-a47f794158a0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T10:43:22.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "I apologize for the inconvenience you faced, Emily. It's understandable that such an experience would be frustrating. Let me investigate and see what I can do to resolve this for you.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0614ea2d-3b5f-43fb-bdc7-38b84dd74a2b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T10:45:30.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "Thank you, Liam. I appreciate your help.",
+        "UserId": "999-160-9402",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7f0a260c-7fcb-4aef-96a0-11d8ea3e0433",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T10:46:14.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "I have reached out to Fabrikam Hotel regarding your complaint, Emily. They have acknowledged the issue and assured me that they will take appropriate action to address it. They apologize for the inconvenience caused.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d91cef01-3c60-472c-b78a-a6dd2cbacc1d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T10:48:14.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "That's good to hear, Liam. I hope they improve their services for future guests. Is there anything else I need to do?",
+        "UserId": "999-160-9402",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c54f8fc2-332d-4737-8180-f04de164392c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-10T10:49:40.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "No, Emily. I have made a note of your complaint and our team will follow up with you regarding any further updates. Once again, I apologize for the inconvenience you faced and appreciate your understanding.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f82f1f63-b68f-4d72-a2f6-031152923f83",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-10T10:51:19.9202886-07:00",
+        "ConversationId": "a99695f0-6748-43ca-88ff-e9ae9fcb51d3",
+        "Value": "Thank you for your assistance, Liam. I hope the issue gets resolved soon.",
+        "UserId": "999-160-9402",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-10T10:34:24.9202886-07:00",
+    "EndTime": "2024-06-10T10:51:19.9202886-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?Hi Liam, my name is Emily Simmons. I recently had a trip with your agency and I have a complaint regarding my hotel stay.I'm sorry to hear that, Emily. Could you please provide me with the details of your trip and the issue you encountered at the hotel?Sure, I traveled from San Francisco to New York City last week. The hotel I stayed in was Fabrikam Hotel. The room was not clean when I checked in, and the staff was not helpful in resolving the issue. It was a very disappointing experience.I apologize for the inconvenience you faced, Emily. It's understandable that such an experience would be frustrating. Let me investigate and see what I can do to resolve this for you.Thank you, Liam. I appreciate your help.I have reached out to Fabrikam Hotel regarding your complaint, Emily. They have acknowledged the issue and assured me that they will take appropriate action to address it. They apologize for the inconvenience caused.That's good to hear, Liam. I hope they improve their services for future guests. Is there anything else I need to do?No, Emily. I have made a note of your complaint and our team will follow up with you regarding any further updates. Once again, I apologize for the inconvenience you faced and appreciate your understanding.Thank you for your assistance, Liam. I hope the issue gets resolved soon.",
+    "Merged_content_user": "Hi Liam, my name is Emily Simmons. I recently had a trip with your agency and I have a complaint regarding my hotel stay.Sure, I traveled from San Francisco to New York City last week. The hotel I stayed in was Fabrikam Hotel. The room was not clean when I checked in, and the staff was not helpful in resolving the issue. It was a very disappointing experience.Thank you, Liam. I appreciate your help.That's good to hear, Liam. I hope they improve their services for future guests. Is there anything else I need to do?Thank you for your assistance, Liam. I hope the issue gets resolved soon.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?I'm sorry to hear that, Emily. Could you please provide me with the details of your trip and the issue you encountered at the hotel?I apologize for the inconvenience you faced, Emily. It's understandable that such an experience would be frustrating. Let me investigate and see what I can do to resolve this for you.I have reached out to Fabrikam Hotel regarding your complaint, Emily. They have acknowledged the issue and assured me that they will take appropriate action to address it. They apologize for the inconvenience caused.No, Emily. I have made a note of your complaint and our team will follow up with you regarding any further updates. Once again, I apologize for the inconvenience you faced and appreciate your understanding.",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?\nCustomer: Hi Liam, my name is Emily Simmons. I recently had a trip with your agency and I have a complaint regarding my hotel stay.\nAgent: I'm sorry to hear that, Emily. Could you please provide me with the details of your trip and the issue you encountered at the hotel?\nCustomer: Sure, I traveled from San Francisco to New York City last week. The hotel I stayed in was Fabrikam Hotel. The room was not clean when I checked in, and the staff was not helpful in resolving the issue. It was a very disappointing experience.\nAgent: I apologize for the inconvenience you faced, Emily. It's understandable that such an experience would be frustrating. Let me investigate and see what I can do to resolve this for you.\nCustomer: Thank you, Liam. I appreciate your help.\nAgent: I have reached out to Fabrikam Hotel regarding your complaint, Emily. They have acknowledged the issue and assured me that they will take appropriate action to address it. They apologize for the inconvenience caused.\nCustomer: That's good to hear, Liam. I hope they improve their services for future guests. Is there anything else I need to do?\nAgent: No, Emily. I have made a note of your complaint and our team will follow up with you regarding any further updates. Once again, I apologize for the inconvenience you faced and appreciate your understanding.\nCustomer: Thank you for your assistance, Liam. I hope the issue gets resolved soon.\n"
+  }
+}

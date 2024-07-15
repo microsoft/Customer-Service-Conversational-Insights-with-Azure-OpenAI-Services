@@ -1,0 +1,349 @@
+{
+  "AgentName": "Zoe Lewis",
+  "AgentId": "G6HD7J",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-337-9276",
+  "Conversation": {
+    "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+    "Messages": [
+      {
+        "Id": "320a496f-6881-4925-946a-1aebce5f46cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:32:24.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "Thank you for calling Woodgrove Travel Agency. My name is Zoe Lewis. How may I assist you today?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5f8064f9-bf84-4c04-962b-79791536afb6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T03:33:35.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "Hi Zoe, my name is Emily Thompson. I'm looking for some assistance with my upcoming trip.",
+        "UserId": "999-337-9276",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "19c63460-df7b-4904-9d1e-4dc3cc3122b1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:34:11.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "Of course, Emily. I'm here to help. Can you please let me know the details of your trip?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0216e1c7-a9bb-4795-923c-7f2461e74b4c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T03:35:56.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "I'll be traveling from Boston, Massachusetts to San Francisco, California next month for a business conference.",
+        "UserId": "999-337-9276",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cf0025c4-fc8d-400a-9bf8-c8aa5d7887a1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:37:46.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "That sounds exciting, Emily. Let me check the available flights and hotels for you.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2a6405a4-f03b-4d1a-a71c-080c03f9cfba",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:39:22.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "For the flight, I have options with Contoso Airways, Northwind Airlines, and Adatum Air. Which airline would you prefer?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5834c9c1-d2c6-454d-b33b-7044e2d603e5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T03:40:43.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "I heard good things about Northwind Airlines. Can you check their flight options?",
+        "UserId": "999-337-9276",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "12c3bfff-f4ef-471d-81f9-6d15a14f0b1e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:43:31.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "Sure, let me find the details for you.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b8ac4000-14f4-4131-9b26-c4d6e95d937f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:45:27.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "I found a suitable flight for you, Emily. It's Northwind Airlines flight NW345 departing from Boston Logan International Airport on November 10th at 9:00 AM. The duration of the flight is approximately 6 hours and 30 minutes. How does that sound?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4612ee9c-9c9d-4fb4-9798-aa0f8ab88f7c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T03:46:12.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "That works for me. Now, I need to book a hotel in San Francisco. Any recommendations?",
+        "UserId": "999-337-9276",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "934bae00-3edf-4f4b-a00a-e8d008f90ecd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:47:28.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "For hotels, I have options like Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Which hotel category would you prefer?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "91d049c3-2887-4b83-ad59-247c4180fe44",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T03:50:09.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "I'm looking for a comfortable and convenient hotel. Can you provide some details about Fabrikam Hotel and Lamna Suites, please?",
+        "UserId": "999-337-9276",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "fdc8538c-f6f4-4b67-a304-6d7fe308a1c9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:52:21.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "Certainly, Emily. Fabrikam Hotel is a 4-star hotel located in the heart of downtown San Francisco. They offer spacious rooms, a fitness center, and a rooftop restaurant. Lamna Suites, on the other hand, is a boutique hotel known for its unique design and personalized service.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6febe1c6-f6de-49bd-87c2-32ca1b06ea7b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T03:54:37.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "Both options sound great. Can you provide the reservation details and prices for both hotels?",
+        "UserId": "999-337-9276",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3181da89-f4db-4e63-8a4e-b9763e65b8f3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:56:11.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "Certainly, Emily. Let me check the availability and pricing for you.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "529c96aa-c142-4cd0-8d78-9b9164b34f30",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T03:57:55.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "For Fabrikam Hotel, I have a reservation available for you from November 10th to November 15th. The total price for the stay is $800. As for Lamna Suites, I have a reservation available from November 10th to November 15th as well. The total price for the stay is $950. Both options include complimentary breakfast. Which one would you like to book?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6fccf1c9-171c-427a-a405-a830e3841fb3",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T03:59:55.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "The prices are reasonable for both hotels. I think I'll go with Fabrikam Hotel. Please make the reservation for me.",
+        "UserId": "999-337-9276",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "90a9d6e4-8667-4de4-a90b-97263ff79a64",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T04:01:23.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "Sure, Emily. I'll proceed with the reservation at Fabrikam Hotel for you. Just give me a moment.",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5abf5168-f7d6-45d3-b014-a9d25d2bca30",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T04:04:19.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "Thank you so much for your assistance, Zoe. You've been very helpful.",
+        "UserId": "999-337-9276",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4fe630f6-abfb-40fe-a630-c3af499c72d5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T04:05:46.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "You're welcome, Emily. I'm glad I could help. Is there anything else I can assist you with?",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d8b03252-e703-4767-bbfa-80b3d330ef54",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T04:06:20.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "No, that's all for now. Thank you again!",
+        "UserId": "999-337-9276",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "097dbbfa-a9b1-4866-b7e0-fa89268dbcd8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T04:08:52.2374629-07:00",
+        "ConversationId": "26d5eb80-4144-4249-835f-4d7b7235f168",
+        "Value": "You're welcome, Emily. Have a great trip to San Francisco!",
+        "UserId": "G6HD7J",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-19T03:29:42.2374629-07:00",
+    "EndTime": "2024-06-19T04:08:52.2374629-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel Agency. My name is Zoe Lewis. How may I assist you today?Hi Zoe, my name is Emily Thompson. I'm looking for some assistance with my upcoming trip.Of course, Emily. I'm here to help. Can you please let me know the details of your trip?I'll be traveling from Boston, Massachusetts to San Francisco, California next month for a business conference.That sounds exciting, Emily. Let me check the available flights and hotels for you.For the flight, I have options with Contoso Airways, Northwind Airlines, and Adatum Air. Which airline would you prefer?I heard good things about Northwind Airlines. Can you check their flight options?Sure, let me find the details for you.I found a suitable flight for you, Emily. It's Northwind Airlines flight NW345 departing from Boston Logan International Airport on November 10th at 9:00 AM. The duration of the flight is approximately 6 hours and 30 minutes. How does that sound?That works for me. Now, I need to book a hotel in San Francisco. Any recommendations?For hotels, I have options like Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Which hotel category would you prefer?I'm looking for a comfortable and convenient hotel. Can you provide some details about Fabrikam Hotel and Lamna Suites, please?Certainly, Emily. Fabrikam Hotel is a 4-star hotel located in the heart of downtown San Francisco. They offer spacious rooms, a fitness center, and a rooftop restaurant. Lamna Suites, on the other hand, is a boutique hotel known for its unique design and personalized service.Both options sound great. Can you provide the reservation details and prices for both hotels?Certainly, Emily. Let me check the availability and pricing for you.For Fabrikam Hotel, I have a reservation available for you from November 10th to November 15th. The total price for the stay is $800. As for Lamna Suites, I have a reservation available from November 10th to November 15th as well. The total price for the stay is $950. Both options include complimentary breakfast. Which one would you like to book?The prices are reasonable for both hotels. I think I'll go with Fabrikam Hotel. Please make the reservation for me.Sure, Emily. I'll proceed with the reservation at Fabrikam Hotel for you. Just give me a moment.Thank you so much for your assistance, Zoe. You've been very helpful.You're welcome, Emily. I'm glad I could help. Is there anything else I can assist you with?No, that's all for now. Thank you again!You're welcome, Emily. Have a great trip to San Francisco!",
+    "Merged_content_user": "Hi Zoe, my name is Emily Thompson. I'm looking for some assistance with my upcoming trip.I'll be traveling from Boston, Massachusetts to San Francisco, California next month for a business conference.I heard good things about Northwind Airlines. Can you check their flight options?That works for me. Now, I need to book a hotel in San Francisco. Any recommendations?I'm looking for a comfortable and convenient hotel. Can you provide some details about Fabrikam Hotel and Lamna Suites, please?Both options sound great. Can you provide the reservation details and prices for both hotels?The prices are reasonable for both hotels. I think I'll go with Fabrikam Hotel. Please make the reservation for me.Thank you so much for your assistance, Zoe. You've been very helpful.No, that's all for now. Thank you again!",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel Agency. My name is Zoe Lewis. How may I assist you today?Of course, Emily. I'm here to help. Can you please let me know the details of your trip?That sounds exciting, Emily. Let me check the available flights and hotels for you.For the flight, I have options with Contoso Airways, Northwind Airlines, and Adatum Air. Which airline would you prefer?Sure, let me find the details for you.I found a suitable flight for you, Emily. It's Northwind Airlines flight NW345 departing from Boston Logan International Airport on November 10th at 9:00 AM. The duration of the flight is approximately 6 hours and 30 minutes. How does that sound?For hotels, I have options like Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Which hotel category would you prefer?Certainly, Emily. Fabrikam Hotel is a 4-star hotel located in the heart of downtown San Francisco. They offer spacious rooms, a fitness center, and a rooftop restaurant. Lamna Suites, on the other hand, is a boutique hotel known for its unique design and personalized service.Certainly, Emily. Let me check the availability and pricing for you.For Fabrikam Hotel, I have a reservation available for you from November 10th to November 15th. The total price for the stay is $800. As for Lamna Suites, I have a reservation available from November 10th to November 15th as well. The total price for the stay is $950. Both options include complimentary breakfast. Which one would you like to book?Sure, Emily. I'll proceed with the reservation at Fabrikam Hotel for you. Just give me a moment.You're welcome, Emily. I'm glad I could help. Is there anything else I can assist you with?You're welcome, Emily. Have a great trip to San Francisco!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel Agency. My name is Zoe Lewis. How may I assist you today?\nCustomer: Hi Zoe, my name is Emily Thompson. I'm looking for some assistance with my upcoming trip.\nAgent: Of course, Emily. I'm here to help. Can you please let me know the details of your trip?\nCustomer: I'll be traveling from Boston, Massachusetts to San Francisco, California next month for a business conference.\nAgent: That sounds exciting, Emily. Let me check the available flights and hotels for you.\nAgent: For the flight, I have options with Contoso Airways, Northwind Airlines, and Adatum Air. Which airline would you prefer?\nCustomer: I heard good things about Northwind Airlines. Can you check their flight options?\nAgent: Sure, let me find the details for you.\nAgent: I found a suitable flight for you, Emily. It's Northwind Airlines flight NW345 departing from Boston Logan International Airport on November 10th at 9:00 AM. The duration of the flight is approximately 6 hours and 30 minutes. How does that sound?\nCustomer: That works for me. Now, I need to book a hotel in San Francisco. Any recommendations?\nAgent: For hotels, I have options like Fabrikam Hotel, Adventure Lodge, Lamna Suites, The Lucerne, Southridge, and Relecloud. Which hotel category would you prefer?\nCustomer: I'm looking for a comfortable and convenient hotel. Can you provide some details about Fabrikam Hotel and Lamna Suites, please?\nAgent: Certainly, Emily. Fabrikam Hotel is a 4-star hotel located in the heart of downtown San Francisco. They offer spacious rooms, a fitness center, and a rooftop restaurant. Lamna Suites, on the other hand, is a boutique hotel known for its unique design and personalized service.\nCustomer: Both options sound great. Can you provide the reservation details and prices for both hotels?\nAgent: Certainly, Emily. Let me check the availability and pricing for you.\nAgent: For Fabrikam Hotel, I have a reservation available for you from November 10th to November 15th. The total price for the stay is $800. As for Lamna Suites, I have a reservation available from November 10th to November 15th as well. The total price for the stay is $950. Both options include complimentary breakfast. Which one would you like to book?\nCustomer: The prices are reasonable for both hotels. I think I'll go with Fabrikam Hotel. Please make the reservation for me.\nAgent: Sure, Emily. I'll proceed with the reservation at Fabrikam Hotel for you. Just give me a moment.\nCustomer: Thank you so much for your assistance, Zoe. You've been very helpful.\nAgent: You're welcome, Emily. I'm glad I could help. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thank you again!\nAgent: You're welcome, Emily. Have a great trip to San Francisco!\n"
+  }
+}

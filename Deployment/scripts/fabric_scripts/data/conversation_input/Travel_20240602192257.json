@@ -1,0 +1,214 @@
+{
+  "AgentName": "Emma Davis",
+  "AgentId": "WVBORA",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-534-6269",
+  "Conversation": {
+    "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+    "Messages": [
+      {
+        "Id": "988b19af-9d4d-4063-a7d1-8658c5741456",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T19:23:34.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "Thank you for calling Woodgrove Travel Agency. This is Emma Davis speaking. How can I assist you today?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1fb8df88-5c5b-4ab5-9c9d-178d558178ca",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T19:26:20.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "Hi Emma, my name is John Smith. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. I wanted to share my feedback and see if there's anything that can be done.",
+        "UserId": "999-534-6269",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e5962276-ed5a-499b-90e2-4b45e2188f74",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T19:28:54.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "I'm sorry to hear about your negative experience, John. Could you please provide me with some details about what happened?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "29e4285d-ab3f-4d6a-a8b9-aacb1ae28a25",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T19:30:06.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "I flew with Contoso Airways, flight number CO123, on April 10th. The flight was delayed by two hours, the staff was rude, and the overall service was very poor. I expect better from a reputable airline like Contoso Airways.",
+        "UserId": "999-534-6269",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3adc14ab-0d13-4079-b7de-6d2724dd205e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T19:32:37.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "I understand your frustration, John. Delayed flights and poor service can definitely have a negative impact on your travel experience. Let me check what options are available to address your concerns.",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e9784ced-4dec-4d39-95ec-d5717b0da814",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T19:35:00.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "Thank you, Emma. I appreciate your assistance.",
+        "UserId": "999-534-6269",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e322d741-17d6-45ca-aea8-4f8afbc89e8e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T19:36:51.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "I apologize for the inconvenience caused, John. As a first step, I will file a formal complaint with Contoso Airways on your behalf regarding the flight delay and the staff's behavior. They will investigate the matter and provide a response within a specific timeframe.",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "da50a1b0-6343-4ac3-a9bf-fce5aa55bab9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T19:39:16.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "That would be great, Emma. I hope they take my complaint seriously.",
+        "UserId": "999-534-6269",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7dc664a3-ac20-4281-8ea9-d92ec1d53eaa",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T19:42:14.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "I understand your concern, John. I will also check if there are any compensation options available for the inconvenience caused. Could you please provide me with your reservation number?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4fd3a338-963d-4330-80bf-05fe11f981ab",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T19:43:01.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "Sure, my reservation number is CN7891.",
+        "UserId": "999-534-6269",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ddbaa8fe-6818-4622-a05a-ee19e0f12c22",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T19:44:00.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "Thank you for providing the reservation number, John. I will contact Contoso Airways directly to inquire about compensation options and provide you with an update as soon as possible. Is there anything else I can assist you with?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d40353c0-3db6-4cbc-849f-7d9d429284f1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T19:45:44.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "No, thank you, Emma. I appreciate your help in addressing this matter.",
+        "UserId": "999-534-6269",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ec9d202d-df7b-495a-8f0a-158c1f293ddf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T19:48:41.5577659-07:00",
+        "ConversationId": "380c0307-5fe8-4064-917f-eeb0d9e9a93a",
+        "Value": "You're welcome, John. I will do my best to resolve this issue for you. If you have any further concerns or questions, don't hesitate to reach out to me. Have a great day!",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-02T19:22:57.5577659-07:00",
+    "EndTime": "2024-06-02T19:48:41.5577659-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel Agency. This is Emma Davis speaking. How can I assist you today?Hi Emma, my name is John Smith. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. I wanted to share my feedback and see if there's anything that can be done.I'm sorry to hear about your negative experience, John. Could you please provide me with some details about what happened?I flew with Contoso Airways, flight number CO123, on April 10th. The flight was delayed by two hours, the staff was rude, and the overall service was very poor. I expect better from a reputable airline like Contoso Airways.I understand your frustration, John. Delayed flights and poor service can definitely have a negative impact on your travel experience. Let me check what options are available to address your concerns.Thank you, Emma. I appreciate your assistance.I apologize for the inconvenience caused, John. As a first step, I will file a formal complaint with Contoso Airways on your behalf regarding the flight delay and the staff's behavior. They will investigate the matter and provide a response within a specific timeframe.That would be great, Emma. I hope they take my complaint seriously.I understand your concern, John. I will also check if there are any compensation options available for the inconvenience caused. Could you please provide me with your reservation number?Sure, my reservation number is CN7891.Thank you for providing the reservation number, John. I will contact Contoso Airways directly to inquire about compensation options and provide you with an update as soon as possible. Is there anything else I can assist you with?No, thank you, Emma. I appreciate your help in addressing this matter.You're welcome, John. I will do my best to resolve this issue for you. If you have any further concerns or questions, don't hesitate to reach out to me. Have a great day!",
+    "Merged_content_user": "Hi Emma, my name is John Smith. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. I wanted to share my feedback and see if there's anything that can be done.I flew with Contoso Airways, flight number CO123, on April 10th. The flight was delayed by two hours, the staff was rude, and the overall service was very poor. I expect better from a reputable airline like Contoso Airways.Thank you, Emma. I appreciate your assistance.That would be great, Emma. I hope they take my complaint seriously.Sure, my reservation number is CN7891.No, thank you, Emma. I appreciate your help in addressing this matter.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel Agency. This is Emma Davis speaking. How can I assist you today?I'm sorry to hear about your negative experience, John. Could you please provide me with some details about what happened?I understand your frustration, John. Delayed flights and poor service can definitely have a negative impact on your travel experience. Let me check what options are available to address your concerns.I apologize for the inconvenience caused, John. As a first step, I will file a formal complaint with Contoso Airways on your behalf regarding the flight delay and the staff's behavior. They will investigate the matter and provide a response within a specific timeframe.I understand your concern, John. I will also check if there are any compensation options available for the inconvenience caused. Could you please provide me with your reservation number?Thank you for providing the reservation number, John. I will contact Contoso Airways directly to inquire about compensation options and provide you with an update as soon as possible. Is there anything else I can assist you with?You're welcome, John. I will do my best to resolve this issue for you. If you have any further concerns or questions, don't hesitate to reach out to me. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel Agency. This is Emma Davis speaking. How can I assist you today?\nCustomer: Hi Emma, my name is John Smith. I recently traveled from New York City to Los Angeles and I had a terrible experience with the airline. I wanted to share my feedback and see if there's anything that can be done.\nAgent: I'm sorry to hear about your negative experience, John. Could you please provide me with some details about what happened?\nCustomer: I flew with Contoso Airways, flight number CO123, on April 10th. The flight was delayed by two hours, the staff was rude, and the overall service was very poor. I expect better from a reputable airline like Contoso Airways.\nAgent: I understand your frustration, John. Delayed flights and poor service can definitely have a negative impact on your travel experience. Let me check what options are available to address your concerns.\nCustomer: Thank you, Emma. I appreciate your assistance.\nAgent: I apologize for the inconvenience caused, John. As a first step, I will file a formal complaint with Contoso Airways on your behalf regarding the flight delay and the staff's behavior. They will investigate the matter and provide a response within a specific timeframe.\nCustomer: That would be great, Emma. I hope they take my complaint seriously.\nAgent: I understand your concern, John. I will also check if there are any compensation options available for the inconvenience caused. Could you please provide me with your reservation number?\nCustomer: Sure, my reservation number is CN7891.\nAgent: Thank you for providing the reservation number, John. I will contact Contoso Airways directly to inquire about compensation options and provide you with an update as soon as possible. Is there anything else I can assist you with?\nCustomer: No, thank you, Emma. I appreciate your help in addressing this matter.\nAgent: You're welcome, John. I will do my best to resolve this issue for you. If you have any further concerns or questions, don't hesitate to reach out to me. Have a great day!\n"
+  }
+}

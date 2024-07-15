@@ -1,0 +1,184 @@
+{
+  "AgentName": "Amelia Hernandez",
+  "AgentId": "Q8BBAU",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-193-1328",
+  "Conversation": {
+    "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+    "Messages": [
+      {
+        "Id": "396d38fb-66a6-4e00-93e4-942ace768cdd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T01:15:15.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "Thank you for calling Woodgrove Travel. This is Amelia Hernandez. How may I assist you today?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5f9a178c-40d5-4d4b-a841-9a0236443c39",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T01:17:33.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "Hi Amelia, my name is John Smith. I recently traveled from Atlanta to Los Angeles and I had a few issues during my trip.",
+        "UserId": "999-193-1328",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "89f77aae-1ac2-4e7c-811a-62e619efab8f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T01:19:53.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "I'm sorry to hear that, John. Can you please provide me with more details about the issues you experienced?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8605af2c-bc0c-4192-acb1-f310cbb8e00a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T01:21:04.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "Sure, Amelia. Firstly, my flight with Contoso Airways, Flight CA123, was delayed by 2 hours which caused me to miss my connecting flight.",
+        "UserId": "999-193-1328",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9a5d414a-dea5-451a-a81a-7ee31e120622",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T01:23:48.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "I apologize for the inconvenience caused by the flight delay, John. Let me check the available options for rebooking your connecting flight. Can you please provide me with the details of your connecting flight?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "16985dd9-04ef-4116-b9c4-61df6b2676b9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T01:24:47.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "My connecting flight was with Northwind Airlines, Flight NW456, departing from Los Angeles to Seattle on June 5th at 11:00 AM.",
+        "UserId": "999-193-1328",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "eab18961-abc7-4ef9-99e2-c65511bd0a5d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T01:25:36.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "Thank you, John. I've checked the availability and there is a Northwind Airlines flight, NW789, departing at 1:00 PM on the same day. Would that be convenient for you?",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cf568bd6-d073-46d8-bb7a-e2ec4bb59352",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T01:28:03.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "Yes, that would work for me, Amelia. Please go ahead and book that flight for me.",
+        "UserId": "999-193-1328",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "613bde52-9da6-4b9c-aadd-22888602f21d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T01:29:19.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "Great, John! I've successfully rebooked your flight. You are now confirmed on Northwind Airlines flight NW789 departing from Los Angeles to Seattle on June 5th at 1:00 PM. Your new booking reference is 123456789.",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a2b0c5b1-a5f1-48bd-8348-1f8e6d9851e7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-12T01:29:59.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "Thank you so much, Amelia! I appreciate your help in resolving this issue.",
+        "UserId": "999-193-1328",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4ec75dbd-5441-40b7-b257-507de006d03b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-12T01:32:54.0006864-07:00",
+        "ConversationId": "2ca7c750-9297-4713-a432-77c8a47cfeed",
+        "Value": "You're welcome, John! I'm glad I could assist you. If you have any more questions or concerns, feel free to reach out to us. Have a great day!",
+        "UserId": "Q8BBAU",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-12T01:13:42.0006864-07:00",
+    "EndTime": "2024-06-12T01:32:54.0006864-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. This is Amelia Hernandez. How may I assist you today?Hi Amelia, my name is John Smith. I recently traveled from Atlanta to Los Angeles and I had a few issues during my trip.I'm sorry to hear that, John. Can you please provide me with more details about the issues you experienced?Sure, Amelia. Firstly, my flight with Contoso Airways, Flight CA123, was delayed by 2 hours which caused me to miss my connecting flight.I apologize for the inconvenience caused by the flight delay, John. Let me check the available options for rebooking your connecting flight. Can you please provide me with the details of your connecting flight?My connecting flight was with Northwind Airlines, Flight NW456, departing from Los Angeles to Seattle on June 5th at 11:00 AM.Thank you, John. I've checked the availability and there is a Northwind Airlines flight, NW789, departing at 1:00 PM on the same day. Would that be convenient for you?Yes, that would work for me, Amelia. Please go ahead and book that flight for me.Great, John! I've successfully rebooked your flight. You are now confirmed on Northwind Airlines flight NW789 departing from Los Angeles to Seattle on June 5th at 1:00 PM. Your new booking reference is 123456789.Thank you so much, Amelia! I appreciate your help in resolving this issue.You're welcome, John! I'm glad I could assist you. If you have any more questions or concerns, feel free to reach out to us. Have a great day!",
+    "Merged_content_user": "Hi Amelia, my name is John Smith. I recently traveled from Atlanta to Los Angeles and I had a few issues during my trip.Sure, Amelia. Firstly, my flight with Contoso Airways, Flight CA123, was delayed by 2 hours which caused me to miss my connecting flight.My connecting flight was with Northwind Airlines, Flight NW456, departing from Los Angeles to Seattle on June 5th at 11:00 AM.Yes, that would work for me, Amelia. Please go ahead and book that flight for me.Thank you so much, Amelia! I appreciate your help in resolving this issue.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. This is Amelia Hernandez. How may I assist you today?I'm sorry to hear that, John. Can you please provide me with more details about the issues you experienced?I apologize for the inconvenience caused by the flight delay, John. Let me check the available options for rebooking your connecting flight. Can you please provide me with the details of your connecting flight?Thank you, John. I've checked the availability and there is a Northwind Airlines flight, NW789, departing at 1:00 PM on the same day. Would that be convenient for you?Great, John! I've successfully rebooked your flight. You are now confirmed on Northwind Airlines flight NW789 departing from Los Angeles to Seattle on June 5th at 1:00 PM. Your new booking reference is 123456789.You're welcome, John! I'm glad I could assist you. If you have any more questions or concerns, feel free to reach out to us. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. This is Amelia Hernandez. How may I assist you today?\nCustomer: Hi Amelia, my name is John Smith. I recently traveled from Atlanta to Los Angeles and I had a few issues during my trip.\nAgent: I'm sorry to hear that, John. Can you please provide me with more details about the issues you experienced?\nCustomer: Sure, Amelia. Firstly, my flight with Contoso Airways, Flight CA123, was delayed by 2 hours which caused me to miss my connecting flight.\nAgent: I apologize for the inconvenience caused by the flight delay, John. Let me check the available options for rebooking your connecting flight. Can you please provide me with the details of your connecting flight?\nCustomer: My connecting flight was with Northwind Airlines, Flight NW456, departing from Los Angeles to Seattle on June 5th at 11:00 AM.\nAgent: Thank you, John. I've checked the availability and there is a Northwind Airlines flight, NW789, departing at 1:00 PM on the same day. Would that be convenient for you?\nCustomer: Yes, that would work for me, Amelia. Please go ahead and book that flight for me.\nAgent: Great, John! I've successfully rebooked your flight. You are now confirmed on Northwind Airlines flight NW789 departing from Los Angeles to Seattle on June 5th at 1:00 PM. Your new booking reference is 123456789.\nCustomer: Thank you so much, Amelia! I appreciate your help in resolving this issue.\nAgent: You're welcome, John! I'm glad I could assist you. If you have any more questions or concerns, feel free to reach out to us. Have a great day!\n"
+  }
+}

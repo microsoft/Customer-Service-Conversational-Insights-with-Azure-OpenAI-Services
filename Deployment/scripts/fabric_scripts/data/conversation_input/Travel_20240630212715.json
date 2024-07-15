@@ -1,0 +1,184 @@
+{
+  "AgentName": "Emma Davis",
+  "AgentId": "WVBORA",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-215-8648",
+  "Conversation": {
+    "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+    "Messages": [
+      {
+        "Id": "74cdeabd-d760-4488-8bb7-ba9491b3f27b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T21:27:53.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Emma Davis. How may I assist you today?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f0fd96d2-ec1e-4280-9439-2ae636c61227",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T21:30:07.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "Hi Emma, this is Jane Jacobs. I recently traveled from Chicago to New York and I had a terrible experience.",
+        "UserId": "999-215-8648",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "896a8e53-c00a-43d2-bb41-cfc1526105a5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T21:31:14.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "I'm sorry to hear that, Jane. Could you please provide me with more details about what happened?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "de25c569-8483-49ea-94f0-e18927380ad0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T21:32:20.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "Well, first of all, the flight with Contoso Airways was delayed for three hours without any explanation. It really messed up my plans.",
+        "UserId": "999-215-8648",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d55bf3ac-2e62-47c8-957e-615e74d76303",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T21:34:46.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "I understand how frustrating that can be, Jane. Delays are never pleasant, especially when they impact your schedule. I apologize for the inconvenience caused by Contoso Airways. Did you have any other issues during your trip?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b289b9fe-7eb7-4601-8d9f-93e1a3556fa4",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T21:36:20.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "Yes, when I arrived at the Fabrikam Hotel, my room was not ready even though I had a reservation. I had to wait for an hour before they finally sorted it out.",
+        "UserId": "999-215-8648",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "de1908fd-682d-4bfc-b781-cdffe9a80ff3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T21:37:17.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "I'm really sorry to hear about the delay with your hotel room, Jane. That must have been frustrating after a long flight. I'll make sure to pass this feedback along to the hotel management. Is there anything else you'd like to share with me?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "749c2705-e299-4789-98dd-dedfdc1e08c1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T21:39:11.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "No, those were the main issues I faced during my trip. I just wanted to express my disappointment and see if there's anything that could be done to prevent similar situations in the future.",
+        "UserId": "999-215-8648",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "58c372c6-3fc9-4aad-8fc8-dbed126ee510",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T21:39:43.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "I completely understand your concerns, Jane. We strive to provide the best possible travel experience for our customers, and feedback like yours helps us improve. I will raise these issues with the respective airlines and hotel to ensure they are aware of the situation. Is there anything else I can assist you with?",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8abc9ae7-1a06-448f-b0a4-1d0914f7e61b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T21:41:24.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "No, that's all for now. Thank you for your understanding and assistance, Emma.",
+        "UserId": "999-215-8648",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "199f2a6c-ff22-49a9-9209-c7d213f02688",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T21:42:05.7114494-07:00",
+        "ConversationId": "65e4406b-a671-4426-9b01-39cdba4da70f",
+        "Value": "You're welcome, Jane. I apologize again for the inconveniences you experienced. If you have any further concerns or if there's anything else I can do to assist you in the future, please don't hesitate to reach out. Have a great day!",
+        "UserId": "WVBORA",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-30T21:27:15.7114494-07:00",
+    "EndTime": "2024-06-30T21:42:05.7114494-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Emma Davis. How may I assist you today?Hi Emma, this is Jane Jacobs. I recently traveled from Chicago to New York and I had a terrible experience.I'm sorry to hear that, Jane. Could you please provide me with more details about what happened?Well, first of all, the flight with Contoso Airways was delayed for three hours without any explanation. It really messed up my plans.I understand how frustrating that can be, Jane. Delays are never pleasant, especially when they impact your schedule. I apologize for the inconvenience caused by Contoso Airways. Did you have any other issues during your trip?Yes, when I arrived at the Fabrikam Hotel, my room was not ready even though I had a reservation. I had to wait for an hour before they finally sorted it out.I'm really sorry to hear about the delay with your hotel room, Jane. That must have been frustrating after a long flight. I'll make sure to pass this feedback along to the hotel management. Is there anything else you'd like to share with me?No, those were the main issues I faced during my trip. I just wanted to express my disappointment and see if there's anything that could be done to prevent similar situations in the future.I completely understand your concerns, Jane. We strive to provide the best possible travel experience for our customers, and feedback like yours helps us improve. I will raise these issues with the respective airlines and hotel to ensure they are aware of the situation. Is there anything else I can assist you with?No, that's all for now. Thank you for your understanding and assistance, Emma.You're welcome, Jane. I apologize again for the inconveniences you experienced. If you have any further concerns or if there's anything else I can do to assist you in the future, please don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Emma, this is Jane Jacobs. I recently traveled from Chicago to New York and I had a terrible experience.Well, first of all, the flight with Contoso Airways was delayed for three hours without any explanation. It really messed up my plans.Yes, when I arrived at the Fabrikam Hotel, my room was not ready even though I had a reservation. I had to wait for an hour before they finally sorted it out.No, those were the main issues I faced during my trip. I just wanted to express my disappointment and see if there's anything that could be done to prevent similar situations in the future.No, that's all for now. Thank you for your understanding and assistance, Emma.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Emma Davis. How may I assist you today?I'm sorry to hear that, Jane. Could you please provide me with more details about what happened?I understand how frustrating that can be, Jane. Delays are never pleasant, especially when they impact your schedule. I apologize for the inconvenience caused by Contoso Airways. Did you have any other issues during your trip?I'm really sorry to hear about the delay with your hotel room, Jane. That must have been frustrating after a long flight. I'll make sure to pass this feedback along to the hotel management. Is there anything else you'd like to share with me?I completely understand your concerns, Jane. We strive to provide the best possible travel experience for our customers, and feedback like yours helps us improve. I will raise these issues with the respective airlines and hotel to ensure they are aware of the situation. Is there anything else I can assist you with?You're welcome, Jane. I apologize again for the inconveniences you experienced. If you have any further concerns or if there's anything else I can do to assist you in the future, please don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Emma Davis. How may I assist you today?\nCustomer: Hi Emma, this is Jane Jacobs. I recently traveled from Chicago to New York and I had a terrible experience.\nAgent: I'm sorry to hear that, Jane. Could you please provide me with more details about what happened?\nCustomer: Well, first of all, the flight with Contoso Airways was delayed for three hours without any explanation. It really messed up my plans.\nAgent: I understand how frustrating that can be, Jane. Delays are never pleasant, especially when they impact your schedule. I apologize for the inconvenience caused by Contoso Airways. Did you have any other issues during your trip?\nCustomer: Yes, when I arrived at the Fabrikam Hotel, my room was not ready even though I had a reservation. I had to wait for an hour before they finally sorted it out.\nAgent: I'm really sorry to hear about the delay with your hotel room, Jane. That must have been frustrating after a long flight. I'll make sure to pass this feedback along to the hotel management. Is there anything else you'd like to share with me?\nCustomer: No, those were the main issues I faced during my trip. I just wanted to express my disappointment and see if there's anything that could be done to prevent similar situations in the future.\nAgent: I completely understand your concerns, Jane. We strive to provide the best possible travel experience for our customers, and feedback like yours helps us improve. I will raise these issues with the respective airlines and hotel to ensure they are aware of the situation. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thank you for your understanding and assistance, Emma.\nAgent: You're welcome, Jane. I apologize again for the inconveniences you experienced. If you have any further concerns or if there's anything else I can do to assist you in the future, please don't hesitate to reach out. Have a great day!\n"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "AgentName": "Ava Miller",
+  "AgentId": "M8Z07C",
+  "Team": "West",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-465-8694",
+  "Conversation": {
+    "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+    "Messages": [
+      {
+        "Id": "6dec2172-ca56-40f8-9efb-9665412d6b5d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-07T01:26:15.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "Thank you for calling Woodgrove Travel Agency. My name is Ava Miller. How can I assist you today?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "660c21f6-2415-4ca6-961f-e767df102e21",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-07T01:27:57.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "Hello, Ava. My name is John Adams. I recently traveled from Los Angeles to New York City and I had a terrible experience with the airline and hotel. I'd like to file a complaint and see if there's anything you can do to help.",
+        "UserId": "999-465-8694",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9a223bd4-7cdd-4604-8bcf-af4d762986fc",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-07T01:28:42.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "I'm sorry to hear about your bad experience, John. Could you please provide me with some more details about what exactly happened?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cc8853a4-1131-431d-99e3-5a13e360c6f0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-07T01:30:32.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "Sure, Ava. Firstly, the flight with Contoso Airways was delayed by 3 hours, causing me to miss an important meeting in New York City. The hotel, Fabrikam Hotel, also had issues with cleanliness, and the staff was rude and unhelpful. I feel like I didn't get the service I paid for.",
+        "UserId": "999-465-8694",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0727bfc5-6307-4bef-a4f9-9251da079641",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-07T01:31:21.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "I understand your frustration, John. Delayed flights and poor hotel experiences can be really frustrating. Let me see what I can do to assist you. I will reach out to Contoso Airways to investigate the delay and address your concerns with Fabrikam Hotel.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ca4d035a-3286-4819-aed7-4cb89757fa01",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-07T01:34:00.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "Thank you, Ava. I appreciate your help in resolving this issue. My flight was Contoso Airways, flight number CT123, departing from Los Angeles on July 30, 2022, at 10:00 AM. The reservation at Fabrikam Hotel was under my name, John Adams, and the reservation number was FH456789, for the dates July 30 to August 2, 2022.",
+        "UserId": "999-465-8694",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4f055dcb-c008-4b4c-8303-3b2dcd9a3e92",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-07T01:36:10.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "Thank you for providing all the necessary details, John. I'll get in touch with Contoso Airways and Fabrikam Hotel right away to investigate and resolve these issues. Please allow me some time to gather all the information and get back to you with a suitable solution.",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2309008a-a8e9-436d-ad27-644351de5c3e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-07T01:37:02.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "Sure, Ava. I appreciate your prompt response. Please let me know as soon as you have any updates. Thank you.",
+        "UserId": "999-465-8694",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "19f2a178-5446-4a60-a867-48d9078c3aa6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-07T01:37:54.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "Absolutely, John. I'll prioritize your case and keep you updated with any progress. Thank you for your patience. We will make sure to address your concerns and find a suitable resolution. Is there anything else I can assist you with today?",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aab0651e-08ed-48a1-8581-59a0afce34ae",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-07T01:40:29.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "No, Ava. That's all for now. I appreciate your assistance. Thank you.",
+        "UserId": "999-465-8694",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "781154f4-e957-4b23-b8e2-c9c4f3a99967",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-07T01:43:09.6712704-07:00",
+        "ConversationId": "cbc2fb8c-806c-4d03-8dbd-7ac6107a69a9",
+        "Value": "You're welcome, John. I'll be in touch with you soon. Have a great day!",
+        "UserId": "M8Z07C",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-07T01:23:58.6712704-07:00",
+    "EndTime": "2024-06-07T01:43:09.6712704-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel Agency. My name is Ava Miller. How can I assist you today?Hello, Ava. My name is John Adams. I recently traveled from Los Angeles to New York City and I had a terrible experience with the airline and hotel. I'd like to file a complaint and see if there's anything you can do to help.I'm sorry to hear about your bad experience, John. Could you please provide me with some more details about what exactly happened?Sure, Ava. Firstly, the flight with Contoso Airways was delayed by 3 hours, causing me to miss an important meeting in New York City. The hotel, Fabrikam Hotel, also had issues with cleanliness, and the staff was rude and unhelpful. I feel like I didn't get the service I paid for.I understand your frustration, John. Delayed flights and poor hotel experiences can be really frustrating. Let me see what I can do to assist you. I will reach out to Contoso Airways to investigate the delay and address your concerns with Fabrikam Hotel.Thank you, Ava. I appreciate your help in resolving this issue. My flight was Contoso Airways, flight number CT123, departing from Los Angeles on July 30, 2022, at 10:00 AM. The reservation at Fabrikam Hotel was under my name, John Adams, and the reservation number was FH456789, for the dates July 30 to August 2, 2022.Thank you for providing all the necessary details, John. I'll get in touch with Contoso Airways and Fabrikam Hotel right away to investigate and resolve these issues. Please allow me some time to gather all the information and get back to you with a suitable solution.Sure, Ava. I appreciate your prompt response. Please let me know as soon as you have any updates. Thank you.Absolutely, John. I'll prioritize your case and keep you updated with any progress. Thank you for your patience. We will make sure to address your concerns and find a suitable resolution. Is there anything else I can assist you with today?No, Ava. That's all for now. I appreciate your assistance. Thank you.You're welcome, John. I'll be in touch with you soon. Have a great day!",
+    "Merged_content_user": "Hello, Ava. My name is John Adams. I recently traveled from Los Angeles to New York City and I had a terrible experience with the airline and hotel. I'd like to file a complaint and see if there's anything you can do to help.Sure, Ava. Firstly, the flight with Contoso Airways was delayed by 3 hours, causing me to miss an important meeting in New York City. The hotel, Fabrikam Hotel, also had issues with cleanliness, and the staff was rude and unhelpful. I feel like I didn't get the service I paid for.Thank you, Ava. I appreciate your help in resolving this issue. My flight was Contoso Airways, flight number CT123, departing from Los Angeles on July 30, 2022, at 10:00 AM. The reservation at Fabrikam Hotel was under my name, John Adams, and the reservation number was FH456789, for the dates July 30 to August 2, 2022.Sure, Ava. I appreciate your prompt response. Please let me know as soon as you have any updates. Thank you.No, Ava. That's all for now. I appreciate your assistance. Thank you.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel Agency. My name is Ava Miller. How can I assist you today?I'm sorry to hear about your bad experience, John. Could you please provide me with some more details about what exactly happened?I understand your frustration, John. Delayed flights and poor hotel experiences can be really frustrating. Let me see what I can do to assist you. I will reach out to Contoso Airways to investigate the delay and address your concerns with Fabrikam Hotel.Thank you for providing all the necessary details, John. I'll get in touch with Contoso Airways and Fabrikam Hotel right away to investigate and resolve these issues. Please allow me some time to gather all the information and get back to you with a suitable solution.Absolutely, John. I'll prioritize your case and keep you updated with any progress. Thank you for your patience. We will make sure to address your concerns and find a suitable resolution. Is there anything else I can assist you with today?You're welcome, John. I'll be in touch with you soon. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel Agency. My name is Ava Miller. How can I assist you today?\nCustomer: Hello, Ava. My name is John Adams. I recently traveled from Los Angeles to New York City and I had a terrible experience with the airline and hotel. I'd like to file a complaint and see if there's anything you can do to help.\nAgent: I'm sorry to hear about your bad experience, John. Could you please provide me with some more details about what exactly happened?\nCustomer: Sure, Ava. Firstly, the flight with Contoso Airways was delayed by 3 hours, causing me to miss an important meeting in New York City. The hotel, Fabrikam Hotel, also had issues with cleanliness, and the staff was rude and unhelpful. I feel like I didn't get the service I paid for.\nAgent: I understand your frustration, John. Delayed flights and poor hotel experiences can be really frustrating. Let me see what I can do to assist you. I will reach out to Contoso Airways to investigate the delay and address your concerns with Fabrikam Hotel.\nCustomer: Thank you, Ava. I appreciate your help in resolving this issue. My flight was Contoso Airways, flight number CT123, departing from Los Angeles on July 30, 2022, at 10:00 AM. The reservation at Fabrikam Hotel was under my name, John Adams, and the reservation number was FH456789, for the dates July 30 to August 2, 2022.\nAgent: Thank you for providing all the necessary details, John. I'll get in touch with Contoso Airways and Fabrikam Hotel right away to investigate and resolve these issues. Please allow me some time to gather all the information and get back to you with a suitable solution.\nCustomer: Sure, Ava. I appreciate your prompt response. Please let me know as soon as you have any updates. Thank you.\nAgent: Absolutely, John. I'll prioritize your case and keep you updated with any progress. Thank you for your patience. We will make sure to address your concerns and find a suitable resolution. Is there anything else I can assist you with today?\nCustomer: No, Ava. That's all for now. I appreciate your assistance. Thank you.\nAgent: You're welcome, John. I'll be in touch with you soon. Have a great day!\n"
+  }
+}

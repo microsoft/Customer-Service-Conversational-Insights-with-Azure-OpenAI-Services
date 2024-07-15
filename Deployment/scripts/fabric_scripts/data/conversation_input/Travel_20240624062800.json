@@ -1,0 +1,214 @@
+{
+  "AgentName": "Benjamin Lee",
+  "AgentId": "2JE9H6",
+  "Team": "Midwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Tech Support",
+  "CallerID": "999-609-5926",
+  "Conversation": {
+    "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+    "Messages": [
+      {
+        "Id": "d6dcca74-5a43-4ef1-9475-6cea0db7a3c6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-24T06:30:28.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "Thank you for calling Woodgrove Travel agency. This is Benjamin Lee. How may I assist you today?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7f0eee4a-0f0b-4f06-8cf5-a243de32ad43",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-24T06:30:59.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "Hi Benjamin, my name is Lisa Thompson. I recently traveled from Chicago to Los Angeles and I had a horrible experience. I wanted to share my feedback and hopefully get some resolution.",
+        "UserId": "999-609-5926",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e2b4db9a-c6f9-4987-92ed-5cc5f4181011",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-24T06:32:29.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "I'm sorry to hear that, Lisa. Could you please provide me with more details about what happened during your trip?",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "596e6311-3e91-453b-ab0a-16ba6826563b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-24T06:33:22.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "First of all, the flight was delayed for over two hours without any proper explanation. It caused me a lot of inconvenience and I missed an important meeting in Los Angeles.",
+        "UserId": "999-609-5926",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "94bf5f92-5a38-46e5-8c2b-ecd15e32d8cb",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-24T06:34:06.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "I understand your frustration, Lisa. I apologize for the inconvenience caused by the flight delay. Let me check the details of your flight and see if there's anything I can do to assist you.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "286de112-68f7-49cb-98fb-2d19fd613007",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-24T06:35:05.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "The flight was with Contoso Airways, flight number CA123, scheduled to depart from Chicago on July 10th at 9:00 AM.",
+        "UserId": "999-609-5926",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a23d7ffa-8c3e-4675-8346-2b9eb008d4cf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-24T06:35:36.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "Thank you for providing the details, Lisa. I apologize for the inconvenience caused by the delay. Let me reach out to Contoso Airways and see if they can offer any compensation or assistance in this situation.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e38f9bd1-376a-42c2-83a6-965f45db331e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-24T06:36:36.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "I hope they can do something about it. It was a frustrating experience and I expect better service from both the airline and the travel agency.",
+        "UserId": "999-609-5926",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "59e18048-9599-445b-b666-46edda7ba30d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-24T06:37:09.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "I completely understand your expectations, Lisa. Rest assured, I'll do my best to address your concerns and find a suitable resolution. Please allow me some time to contact the airline and get back to you.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "06a8e9a5-dd53-4df0-9679-11112b8ad3fc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-24T06:39:40.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "Alright, I'll be waiting to hear from you. Thank you, Benjamin.",
+        "UserId": "999-609-5926",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8cca64b6-4fc2-4920-bfd9-d9f504e9b7a2",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-24T06:40:27.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "You're welcome, Lisa. I'll get back to you as soon as I have more information. Thank you for your patience.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "697640ba-5780-4a6b-97e9-05ea15cc9ce6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-24T06:41:13.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "I appreciate it. Goodbye, Benjamin.",
+        "UserId": "999-609-5926",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2024bb17-11d0-4e94-892e-6c6f3e70034c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-24T06:41:47.3749973-07:00",
+        "ConversationId": "d3451689-2000-4871-a3a7-5e98afe6be88",
+        "Value": "Goodbye, Lisa. I'll be in touch soon. Take care.",
+        "UserId": "2JE9H6",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-24T06:28:00.3749973-07:00",
+    "EndTime": "2024-06-24T06:41:47.3749973-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel agency. This is Benjamin Lee. How may I assist you today?Hi Benjamin, my name is Lisa Thompson. I recently traveled from Chicago to Los Angeles and I had a horrible experience. I wanted to share my feedback and hopefully get some resolution.I'm sorry to hear that, Lisa. Could you please provide me with more details about what happened during your trip?First of all, the flight was delayed for over two hours without any proper explanation. It caused me a lot of inconvenience and I missed an important meeting in Los Angeles.I understand your frustration, Lisa. I apologize for the inconvenience caused by the flight delay. Let me check the details of your flight and see if there's anything I can do to assist you.The flight was with Contoso Airways, flight number CA123, scheduled to depart from Chicago on July 10th at 9:00 AM.Thank you for providing the details, Lisa. I apologize for the inconvenience caused by the delay. Let me reach out to Contoso Airways and see if they can offer any compensation or assistance in this situation.I hope they can do something about it. It was a frustrating experience and I expect better service from both the airline and the travel agency.I completely understand your expectations, Lisa. Rest assured, I'll do my best to address your concerns and find a suitable resolution. Please allow me some time to contact the airline and get back to you.Alright, I'll be waiting to hear from you. Thank you, Benjamin.You're welcome, Lisa. I'll get back to you as soon as I have more information. Thank you for your patience.I appreciate it. Goodbye, Benjamin.Goodbye, Lisa. I'll be in touch soon. Take care.",
+    "Merged_content_user": "Hi Benjamin, my name is Lisa Thompson. I recently traveled from Chicago to Los Angeles and I had a horrible experience. I wanted to share my feedback and hopefully get some resolution.First of all, the flight was delayed for over two hours without any proper explanation. It caused me a lot of inconvenience and I missed an important meeting in Los Angeles.The flight was with Contoso Airways, flight number CA123, scheduled to depart from Chicago on July 10th at 9:00 AM.I hope they can do something about it. It was a frustrating experience and I expect better service from both the airline and the travel agency.Alright, I'll be waiting to hear from you. Thank you, Benjamin.I appreciate it. Goodbye, Benjamin.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel agency. This is Benjamin Lee. How may I assist you today?I'm sorry to hear that, Lisa. Could you please provide me with more details about what happened during your trip?I understand your frustration, Lisa. I apologize for the inconvenience caused by the flight delay. Let me check the details of your flight and see if there's anything I can do to assist you.Thank you for providing the details, Lisa. I apologize for the inconvenience caused by the delay. Let me reach out to Contoso Airways and see if they can offer any compensation or assistance in this situation.I completely understand your expectations, Lisa. Rest assured, I'll do my best to address your concerns and find a suitable resolution. Please allow me some time to contact the airline and get back to you.You're welcome, Lisa. I'll get back to you as soon as I have more information. Thank you for your patience.Goodbye, Lisa. I'll be in touch soon. Take care.",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel agency. This is Benjamin Lee. How may I assist you today?\nCustomer: Hi Benjamin, my name is Lisa Thompson. I recently traveled from Chicago to Los Angeles and I had a horrible experience. I wanted to share my feedback and hopefully get some resolution.\nAgent: I'm sorry to hear that, Lisa. Could you please provide me with more details about what happened during your trip?\nCustomer: First of all, the flight was delayed for over two hours without any proper explanation. It caused me a lot of inconvenience and I missed an important meeting in Los Angeles.\nAgent: I understand your frustration, Lisa. I apologize for the inconvenience caused by the flight delay. Let me check the details of your flight and see if there's anything I can do to assist you.\nCustomer: The flight was with Contoso Airways, flight number CA123, scheduled to depart from Chicago on July 10th at 9:00 AM.\nAgent: Thank you for providing the details, Lisa. I apologize for the inconvenience caused by the delay. Let me reach out to Contoso Airways and see if they can offer any compensation or assistance in this situation.\nCustomer: I hope they can do something about it. It was a frustrating experience and I expect better service from both the airline and the travel agency.\nAgent: I completely understand your expectations, Lisa. Rest assured, I'll do my best to address your concerns and find a suitable resolution. Please allow me some time to contact the airline and get back to you.\nCustomer: Alright, I'll be waiting to hear from you. Thank you, Benjamin.\nAgent: You're welcome, Lisa. I'll get back to you as soon as I have more information. Thank you for your patience.\nCustomer: I appreciate it. Goodbye, Benjamin.\nAgent: Goodbye, Lisa. I'll be in touch soon. Take care.\n"
+  }
+}

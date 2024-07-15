@@ -1,0 +1,124 @@
+{
+  "AgentName": "Aiden Clark",
+  "AgentId": "7J8IBO",
+  "Team": "West",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-150-9800",
+  "Conversation": {
+    "ConversationId": "d2dc7e5c-2696-42da-af1c-bcd740da8fd8",
+    "Messages": [
+      {
+        "Id": "cfe898fa-3215-4844-903d-59427fe2ce24",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:31:08.7431965-07:00",
+        "ConversationId": "d2dc7e5c-2696-42da-af1c-bcd740da8fd8",
+        "Value": "Thank you for calling Woodgrove Travel. My name is Aiden Clark. How can I assist you today?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a448e3ab-576a-46fd-8c87-6c786c5f326c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T16:32:41.7431965-07:00",
+        "ConversationId": "d2dc7e5c-2696-42da-af1c-bcd740da8fd8",
+        "Value": "Hi Aiden, my name is Sarah Johnson and I recently traveled from Los Angeles to New York City. I wanted to give a compliment about my experience with Woodgrove Travel.",
+        "UserId": "999-150-9800",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6021eaae-78ae-421b-a430-f9d0bfd381e6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:35:09.7431965-07:00",
+        "ConversationId": "d2dc7e5c-2696-42da-af1c-bcd740da8fd8",
+        "Value": "Thank you for your kind words, Sarah! We always appreciate hearing positive feedback. Could you please provide me with some specific details about your trip and what made it enjoyable?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "80831026-4179-43a5-885e-da35f704504c",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T16:35:56.7431965-07:00",
+        "ConversationId": "d2dc7e5c-2696-42da-af1c-bcd740da8fd8",
+        "Value": "Sure, I flew with Contoso Airways on flight CA1234 from Los Angeles to New York City on September 25th. The flight was on time and the cabin crew members were very friendly and helpful throughout the journey. The seats were comfortable and the in-flight entertainment options were great. I also stayed at the Fabrikam Hotel in New York City, and the staff there provided excellent service. The room was clean and spacious, and the hotel amenities were top-notch.",
+        "UserId": "999-150-9800",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c22587cb-445a-4db4-8b08-1eeab9b81bb8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:36:30.7431965-07:00",
+        "ConversationId": "d2dc7e5c-2696-42da-af1c-bcd740da8fd8",
+        "Value": "Thank you for sharing those details, Sarah. I'm glad to hear that both Contoso Airways and the Fabrikam Hotel met your expectations. Your positive feedback is valuable to us. As a token of our appreciation, I would like to offer you a complimentary discount of 10% on your next booking with Woodgrove Travel. How does that sound?",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "edc4b616-403e-495d-8129-cefc63696f07",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-19T16:38:05.7431965-07:00",
+        "ConversationId": "d2dc7e5c-2696-42da-af1c-bcd740da8fd8",
+        "Value": "That sounds great, Aiden! Thank you for the discount offer. I'll definitely keep Woodgrove Travel in mind for my future trips.",
+        "UserId": "999-150-9800",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "71ffdc78-3122-4bd5-be55-ec05afca3ebf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-19T16:39:16.7431965-07:00",
+        "ConversationId": "d2dc7e5c-2696-42da-af1c-bcd740da8fd8",
+        "Value": "You're very welcome, Sarah! We look forward to assisting you with your future travel plans. If you have any other questions or need further assistance, feel free to reach out to us. Have a wonderful day!",
+        "UserId": "7J8IBO",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-19T16:28:27.7431965-07:00",
+    "EndTime": "2024-06-19T16:39:16.7431965-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. My name is Aiden Clark. How can I assist you today?Hi Aiden, my name is Sarah Johnson and I recently traveled from Los Angeles to New York City. I wanted to give a compliment about my experience with Woodgrove Travel.Thank you for your kind words, Sarah! We always appreciate hearing positive feedback. Could you please provide me with some specific details about your trip and what made it enjoyable?Sure, I flew with Contoso Airways on flight CA1234 from Los Angeles to New York City on September 25th. The flight was on time and the cabin crew members were very friendly and helpful throughout the journey. The seats were comfortable and the in-flight entertainment options were great. I also stayed at the Fabrikam Hotel in New York City, and the staff there provided excellent service. The room was clean and spacious, and the hotel amenities were top-notch.Thank you for sharing those details, Sarah. I'm glad to hear that both Contoso Airways and the Fabrikam Hotel met your expectations. Your positive feedback is valuable to us. As a token of our appreciation, I would like to offer you a complimentary discount of 10% on your next booking with Woodgrove Travel. How does that sound?That sounds great, Aiden! Thank you for the discount offer. I'll definitely keep Woodgrove Travel in mind for my future trips.You're very welcome, Sarah! We look forward to assisting you with your future travel plans. If you have any other questions or need further assistance, feel free to reach out to us. Have a wonderful day!",
+    "Merged_content_user": "Hi Aiden, my name is Sarah Johnson and I recently traveled from Los Angeles to New York City. I wanted to give a compliment about my experience with Woodgrove Travel.Sure, I flew with Contoso Airways on flight CA1234 from Los Angeles to New York City on September 25th. The flight was on time and the cabin crew members were very friendly and helpful throughout the journey. The seats were comfortable and the in-flight entertainment options were great. I also stayed at the Fabrikam Hotel in New York City, and the staff there provided excellent service. The room was clean and spacious, and the hotel amenities were top-notch.That sounds great, Aiden! Thank you for the discount offer. I'll definitely keep Woodgrove Travel in mind for my future trips.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. My name is Aiden Clark. How can I assist you today?Thank you for your kind words, Sarah! We always appreciate hearing positive feedback. Could you please provide me with some specific details about your trip and what made it enjoyable?Thank you for sharing those details, Sarah. I'm glad to hear that both Contoso Airways and the Fabrikam Hotel met your expectations. Your positive feedback is valuable to us. As a token of our appreciation, I would like to offer you a complimentary discount of 10% on your next booking with Woodgrove Travel. How does that sound?You're very welcome, Sarah! We look forward to assisting you with your future travel plans. If you have any other questions or need further assistance, feel free to reach out to us. Have a wonderful day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. My name is Aiden Clark. How can I assist you today?\nCustomer: Hi Aiden, my name is Sarah Johnson and I recently traveled from Los Angeles to New York City. I wanted to give a compliment about my experience with Woodgrove Travel.\nAgent: Thank you for your kind words, Sarah! We always appreciate hearing positive feedback. Could you please provide me with some specific details about your trip and what made it enjoyable?\nCustomer: Sure, I flew with Contoso Airways on flight CA1234 from Los Angeles to New York City on September 25th. The flight was on time and the cabin crew members were very friendly and helpful throughout the journey. The seats were comfortable and the in-flight entertainment options were great. I also stayed at the Fabrikam Hotel in New York City, and the staff there provided excellent service. The room was clean and spacious, and the hotel amenities were top-notch.\nAgent: Thank you for sharing those details, Sarah. I'm glad to hear that both Contoso Airways and the Fabrikam Hotel met your expectations. Your positive feedback is valuable to us. As a token of our appreciation, I would like to offer you a complimentary discount of 10% on your next booking with Woodgrove Travel. How does that sound?\nCustomer: That sounds great, Aiden! Thank you for the discount offer. I'll definitely keep Woodgrove Travel in mind for my future trips.\nAgent: You're very welcome, Sarah! We look forward to assisting you with your future travel plans. If you have any other questions or need further assistance, feel free to reach out to us. Have a wonderful day!\n"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "AgentName": "Sophia Moore",
+  "AgentId": "6SYKT5",
+  "Team": "Northeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-100-4304",
+  "Conversation": {
+    "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+    "Messages": [
+      {
+        "Id": "03145673-f2dc-4aac-98d4-5f8ab0b61978",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T13:15:01.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Sophia Moore. How may I assist you today?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8e6a7670-5278-48fa-999b-b9e5859970ff",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T13:17:48.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "Hi Sophia, my name is Emily Johnson. I recently had a business trip from New York City to Los Angeles and I had a terrible experience with the airline and hotel. I wanted to discuss it with you.",
+        "UserId": "999-100-4304",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f2cb5885-f549-4b7d-b28a-f0f050a024f5",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T13:20:34.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "I'm sorry to hear about your unpleasant experience, Emily. Can you please provide me with more details about what happened?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3b8ea490-150d-492b-b4cd-bfadb2471279",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T13:22:07.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "Sure, let me start with the flight. I flew with Contoso Airways, flight number CTA123. The flight was delayed for over two hours, causing me to miss an important meeting in LA. It was extremely frustrating.",
+        "UserId": "999-100-4304",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "817689d5-04e9-4db3-9640-5ce24a91237c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T13:24:16.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "That sounds really inconvenient, Emily. I apologize for the delay. Let me check the details of your flight and see if there's anything we can do to address this issue. Please bear with me for a moment.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0e8d0c3f-6660-40e7-b333-e533e8c6352d",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T13:27:01.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "Thank you, Sophia. I appreciate your help.",
+        "UserId": "999-100-4304",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "39922370-9ea5-4f22-a02f-ddbeb4b6dd95",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T13:29:12.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "I have checked the records, Emily. I understand the inconvenience caused by the delay. As a gesture of goodwill, we can offer you a partial refund for the affected flight. Would that be acceptable to you?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7b9e7c60-1250-4fe5-a9d6-6e2f7a703afc",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T13:30:46.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "Yes, that would definitely help. Thank you for your understanding and assistance, Sophia. Now, let me share my experience with the hotel I stayed at in Los Angeles.",
+        "UserId": "999-100-4304",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ff5ca012-5901-4e32-a94f-ce8099cec14c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T13:32:40.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "Of course, I'm here to listen. Which hotel did you stay at in LA?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1f5b67ff-f1e1-423c-9891-81acddd84832",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T13:33:21.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "I stayed at The Lucerne Hotel. The room was not clean, and the staff was not helpful at all. I was highly disappointed with the overall experience.",
+        "UserId": "999-100-4304",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "899b3429-ca4c-4aac-8e54-b2768f55b562",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T13:34:05.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "I'm sorry to hear about your disappointing stay, Emily. Let me investigate the matter further and see what can be done to address this issue. Please give me a moment.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "769ff52e-7060-475e-a51e-d4fe947ffb33",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T13:36:11.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "Thank you, Sophia. I hope something can be done about it.",
+        "UserId": "999-100-4304",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3a0878f9-fa18-48a1-b4a3-85a495fa259d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T13:37:08.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "After reviewing your reservation at The Lucerne Hotel, I have informed the hotel management about the cleanliness and staff issues. They have assured me that they will take immediate action to ensure such incidents do not happen in the future. Additionally, I have arranged for a full refund for your stay at the hotel. You should receive it within 5-7 business days.",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "67d03490-2975-4838-b53e-bfe4c051fadd",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T13:39:57.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "That's great, Sophia. I really appreciate your help in resolving these issues. Thank you for your prompt action and understanding.",
+        "UserId": "999-100-4304",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4db5e52b-1540-4def-baf1-72fa9dbc9d56",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T13:41:00.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "You're welcome, Emily. I understand how important it is to have a smooth and pleasant travel experience. Is there anything else I can assist you with?",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bd0991e1-e376-4795-a5bb-96f0cfb210d5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-30T13:43:21.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "No, that's all for now. Thank you again, Sophia. I really appreciate your excellent customer service.",
+        "UserId": "999-100-4304",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "acf6f078-ca1e-4b44-a1de-7308c7c18342",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-30T13:44:33.5460876-07:00",
+        "ConversationId": "099a0b3b-98b6-4efe-bb8e-3a339407d88a",
+        "Value": "You're very welcome, Emily. It was my pleasure to assist you. If you have any further concerns or require any future assistance, please don't hesitate to reach out. Have a great day!",
+        "UserId": "6SYKT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-30T13:12:56.5460876-07:00",
+    "EndTime": "2024-06-30T13:44:33.5460876-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Sophia Moore. How may I assist you today?Hi Sophia, my name is Emily Johnson. I recently had a business trip from New York City to Los Angeles and I had a terrible experience with the airline and hotel. I wanted to discuss it with you.I'm sorry to hear about your unpleasant experience, Emily. Can you please provide me with more details about what happened?Sure, let me start with the flight. I flew with Contoso Airways, flight number CTA123. The flight was delayed for over two hours, causing me to miss an important meeting in LA. It was extremely frustrating.That sounds really inconvenient, Emily. I apologize for the delay. Let me check the details of your flight and see if there's anything we can do to address this issue. Please bear with me for a moment.Thank you, Sophia. I appreciate your help.I have checked the records, Emily. I understand the inconvenience caused by the delay. As a gesture of goodwill, we can offer you a partial refund for the affected flight. Would that be acceptable to you?Yes, that would definitely help. Thank you for your understanding and assistance, Sophia. Now, let me share my experience with the hotel I stayed at in Los Angeles.Of course, I'm here to listen. Which hotel did you stay at in LA?I stayed at The Lucerne Hotel. The room was not clean, and the staff was not helpful at all. I was highly disappointed with the overall experience.I'm sorry to hear about your disappointing stay, Emily. Let me investigate the matter further and see what can be done to address this issue. Please give me a moment.Thank you, Sophia. I hope something can be done about it.After reviewing your reservation at The Lucerne Hotel, I have informed the hotel management about the cleanliness and staff issues. They have assured me that they will take immediate action to ensure such incidents do not happen in the future. Additionally, I have arranged for a full refund for your stay at the hotel. You should receive it within 5-7 business days.That's great, Sophia. I really appreciate your help in resolving these issues. Thank you for your prompt action and understanding.You're welcome, Emily. I understand how important it is to have a smooth and pleasant travel experience. Is there anything else I can assist you with?No, that's all for now. Thank you again, Sophia. I really appreciate your excellent customer service.You're very welcome, Emily. It was my pleasure to assist you. If you have any further concerns or require any future assistance, please don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Sophia, my name is Emily Johnson. I recently had a business trip from New York City to Los Angeles and I had a terrible experience with the airline and hotel. I wanted to discuss it with you.Sure, let me start with the flight. I flew with Contoso Airways, flight number CTA123. The flight was delayed for over two hours, causing me to miss an important meeting in LA. It was extremely frustrating.Thank you, Sophia. I appreciate your help.Yes, that would definitely help. Thank you for your understanding and assistance, Sophia. Now, let me share my experience with the hotel I stayed at in Los Angeles.I stayed at The Lucerne Hotel. The room was not clean, and the staff was not helpful at all. I was highly disappointed with the overall experience.Thank you, Sophia. I hope something can be done about it.That's great, Sophia. I really appreciate your help in resolving these issues. Thank you for your prompt action and understanding.No, that's all for now. Thank you again, Sophia. I really appreciate your excellent customer service.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Sophia Moore. How may I assist you today?I'm sorry to hear about your unpleasant experience, Emily. Can you please provide me with more details about what happened?That sounds really inconvenient, Emily. I apologize for the delay. Let me check the details of your flight and see if there's anything we can do to address this issue. Please bear with me for a moment.I have checked the records, Emily. I understand the inconvenience caused by the delay. As a gesture of goodwill, we can offer you a partial refund for the affected flight. Would that be acceptable to you?Of course, I'm here to listen. Which hotel did you stay at in LA?I'm sorry to hear about your disappointing stay, Emily. Let me investigate the matter further and see what can be done to address this issue. Please give me a moment.After reviewing your reservation at The Lucerne Hotel, I have informed the hotel management about the cleanliness and staff issues. They have assured me that they will take immediate action to ensure such incidents do not happen in the future. Additionally, I have arranged for a full refund for your stay at the hotel. You should receive it within 5-7 business days.You're welcome, Emily. I understand how important it is to have a smooth and pleasant travel experience. Is there anything else I can assist you with?You're very welcome, Emily. It was my pleasure to assist you. If you have any further concerns or require any future assistance, please don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Sophia Moore. How may I assist you today?\nCustomer: Hi Sophia, my name is Emily Johnson. I recently had a business trip from New York City to Los Angeles and I had a terrible experience with the airline and hotel. I wanted to discuss it with you.\nAgent: I'm sorry to hear about your unpleasant experience, Emily. Can you please provide me with more details about what happened?\nCustomer: Sure, let me start with the flight. I flew with Contoso Airways, flight number CTA123. The flight was delayed for over two hours, causing me to miss an important meeting in LA. It was extremely frustrating.\nAgent: That sounds really inconvenient, Emily. I apologize for the delay. Let me check the details of your flight and see if there's anything we can do to address this issue. Please bear with me for a moment.\nCustomer: Thank you, Sophia. I appreciate your help.\nAgent: I have checked the records, Emily. I understand the inconvenience caused by the delay. As a gesture of goodwill, we can offer you a partial refund for the affected flight. Would that be acceptable to you?\nCustomer: Yes, that would definitely help. Thank you for your understanding and assistance, Sophia. Now, let me share my experience with the hotel I stayed at in Los Angeles.\nAgent: Of course, I'm here to listen. Which hotel did you stay at in LA?\nCustomer: I stayed at The Lucerne Hotel. The room was not clean, and the staff was not helpful at all. I was highly disappointed with the overall experience.\nAgent: I'm sorry to hear about your disappointing stay, Emily. Let me investigate the matter further and see what can be done to address this issue. Please give me a moment.\nCustomer: Thank you, Sophia. I hope something can be done about it.\nAgent: After reviewing your reservation at The Lucerne Hotel, I have informed the hotel management about the cleanliness and staff issues. They have assured me that they will take immediate action to ensure such incidents do not happen in the future. Additionally, I have arranged for a full refund for your stay at the hotel. You should receive it within 5-7 business days.\nCustomer: That's great, Sophia. I really appreciate your help in resolving these issues. Thank you for your prompt action and understanding.\nAgent: You're welcome, Emily. I understand how important it is to have a smooth and pleasant travel experience. Is there anything else I can assist you with?\nCustomer: No, that's all for now. Thank you again, Sophia. I really appreciate your excellent customer service.\nAgent: You're very welcome, Emily. It was my pleasure to assist you. If you have any further concerns or require any future assistance, please don't hesitate to reach out. Have a great day!\n"
+  }
+}

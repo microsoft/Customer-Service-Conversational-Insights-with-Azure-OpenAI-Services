@@ -1,0 +1,154 @@
+{
+  "AgentName": "Isaac Wright",
+  "AgentId": "AFRZLT",
+  "Team": "Southwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-436-8003",
+  "Conversation": {
+    "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+    "Messages": [
+      {
+        "Id": "a7ed7b21-7269-4ad0-adbb-32f0bad6c671",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T18:34:13.4039303-07:00",
+        "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+        "Value": "Thank you for calling Woodgrove Travel Agency. My name is Isaac Wright. How can I assist you today?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cdd8af5c-be88-43cb-9a51-6734fd723281",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-09T18:36:45.4039303-07:00",
+        "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+        "Value": "Hello, Isaac. My name is Emily Thompson. I'm looking to plan a trip from Seattle to New York City. Can you provide me with some options?",
+        "UserId": "999-436-8003",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "20f7b9ac-0b2e-448c-a849-c2a69ba32bb0",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T18:38:15.4039303-07:00",
+        "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+        "Value": "Of course, Emily! I'd be happy to help you with that. When are you planning to travel?",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ebc15ea2-1ea1-4f84-a155-e6d388fb1188",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-09T18:39:39.4039303-07:00",
+        "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+        "Value": "I'm flexible with the dates, but I was thinking of going sometime next month.",
+        "UserId": "999-436-8003",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cd872fec-3119-42c4-b584-44c00ab74f6b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T18:41:17.4039303-07:00",
+        "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+        "Value": "Great! Let me check the available options for you. Please bear with me for a moment.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "98d6c258-5582-41e6-8e51-39648c59bb73",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-09T18:43:31.4039303-07:00",
+        "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+        "Value": "Sure, take your time.",
+        "UserId": "999-436-8003",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "11ebf3f4-619d-48aa-b5a7-393fe7c45f66",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T18:44:47.4039303-07:00",
+        "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+        "Value": "I have a few suggestions for your trip, Emily. For your flights, we have Contoso Airways and Northwind Airlines. Contoso Airways offers a non-stop flight departing from Seattle at 9:00 AM on October 15th, arriving in New York City at 4:00 PM. Northwind Airlines has a connecting flight departing at 8:30 AM with a layover in Chicago, arriving in New York City at 6:00 PM.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2eba62dd-d721-428f-9802-917c80d56a21",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-09T18:45:33.4039303-07:00",
+        "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+        "Value": "For accommodations, we have two options in New York City. The Fabrikam Hotel is a luxurious hotel located in the heart of the city. We have a reservation available for you from October 15th to October 20th. Another option is Adventure Lodge, which offers a cozy and nature-inspired stay. They have availability from October 15th to October 18th.",
+        "UserId": "AFRZLT",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6d42e411-7739-498c-9454-91f4b8cf301e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-09T18:47:11.4039303-07:00",
+        "ConversationId": "acbe3fcc-90e0-4472-af6d-c5840ca9a74b",
+        "Value": "Thank you for the options, Isaac. Let me think about it for a moment.",
+        "UserId": "999-436-8003",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-09T18:31:53.4039303-07:00",
+    "EndTime": "2024-06-09T18:47:11.4039303-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel Agency. My name is Isaac Wright. How can I assist you today?Hello, Isaac. My name is Emily Thompson. I'm looking to plan a trip from Seattle to New York City. Can you provide me with some options?Of course, Emily! I'd be happy to help you with that. When are you planning to travel?I'm flexible with the dates, but I was thinking of going sometime next month.Great! Let me check the available options for you. Please bear with me for a moment.Sure, take your time.I have a few suggestions for your trip, Emily. For your flights, we have Contoso Airways and Northwind Airlines. Contoso Airways offers a non-stop flight departing from Seattle at 9:00 AM on October 15th, arriving in New York City at 4:00 PM. Northwind Airlines has a connecting flight departing at 8:30 AM with a layover in Chicago, arriving in New York City at 6:00 PM.For accommodations, we have two options in New York City. The Fabrikam Hotel is a luxurious hotel located in the heart of the city. We have a reservation available for you from October 15th to October 20th. Another option is Adventure Lodge, which offers a cozy and nature-inspired stay. They have availability from October 15th to October 18th.Thank you for the options, Isaac. Let me think about it for a moment.",
+    "Merged_content_user": "Hello, Isaac. My name is Emily Thompson. I'm looking to plan a trip from Seattle to New York City. Can you provide me with some options?I'm flexible with the dates, but I was thinking of going sometime next month.Sure, take your time.Thank you for the options, Isaac. Let me think about it for a moment.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel Agency. My name is Isaac Wright. How can I assist you today?Of course, Emily! I'd be happy to help you with that. When are you planning to travel?Great! Let me check the available options for you. Please bear with me for a moment.I have a few suggestions for your trip, Emily. For your flights, we have Contoso Airways and Northwind Airlines. Contoso Airways offers a non-stop flight departing from Seattle at 9:00 AM on October 15th, arriving in New York City at 4:00 PM. Northwind Airlines has a connecting flight departing at 8:30 AM with a layover in Chicago, arriving in New York City at 6:00 PM.For accommodations, we have two options in New York City. The Fabrikam Hotel is a luxurious hotel located in the heart of the city. We have a reservation available for you from October 15th to October 20th. Another option is Adventure Lodge, which offers a cozy and nature-inspired stay. They have availability from October 15th to October 18th.",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel Agency. My name is Isaac Wright. How can I assist you today?\nCustomer: Hello, Isaac. My name is Emily Thompson. I'm looking to plan a trip from Seattle to New York City. Can you provide me with some options?\nAgent: Of course, Emily! I'd be happy to help you with that. When are you planning to travel?\nCustomer: I'm flexible with the dates, but I was thinking of going sometime next month.\nAgent: Great! Let me check the available options for you. Please bear with me for a moment.\nCustomer: Sure, take your time.\nAgent: I have a few suggestions for your trip, Emily. For your flights, we have Contoso Airways and Northwind Airlines. Contoso Airways offers a non-stop flight departing from Seattle at 9:00 AM on October 15th, arriving in New York City at 4:00 PM. Northwind Airlines has a connecting flight departing at 8:30 AM with a layover in Chicago, arriving in New York City at 6:00 PM.\nAgent: For accommodations, we have two options in New York City. The Fabrikam Hotel is a luxurious hotel located in the heart of the city. We have a reservation available for you from October 15th to October 20th. Another option is Adventure Lodge, which offers a cozy and nature-inspired stay. They have availability from October 15th to October 18th.\nCustomer: Thank you for the options, Isaac. Let me think about it for a moment.\n"
+  }
+}

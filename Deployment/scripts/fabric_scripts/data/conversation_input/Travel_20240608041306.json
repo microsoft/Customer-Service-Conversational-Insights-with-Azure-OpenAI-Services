@@ -1,0 +1,184 @@
+{
+  "AgentName": "Mason White",
+  "AgentId": "QLUD5I",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-656-6842",
+  "Conversation": {
+    "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+    "Messages": [
+      {
+        "Id": "e5f86071-f4c2-401e-9840-4920ac31a3c8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T04:14:47.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Mason White. How can I assist you today?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "dde5a563-26bb-43e2-bb1d-cfca5538adc6",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T04:15:58.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "Hi Mason, my name is Emily Johnson. I recently traveled from Los Angeles to New York City and I had a terrible experience. I would like to file a complaint.",
+        "UserId": "999-656-6842",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a874f64a-0c1a-4c6c-ba90-084eb7fb0717",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T04:17:11.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "I'm sorry to hear that, Emily. Could you please provide me with the details of your trip and the issue you encountered?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "029a51ab-dad9-44eb-9ed3-f39b15fb3060",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T04:19:45.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "Sure, I flew with Contoso Airways on flight CN1234 from Los Angeles to New York City on July 10th. The flight was delayed for several hours causing me to miss an important meeting.",
+        "UserId": "999-656-6842",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b438a6b5-b655-4b07-bf47-0ba38eb6717a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T04:20:56.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "I'm really sorry to hear about the delay and the missed meeting, Emily. I understand how frustrating that can be. Let me check the details of your flight and see what I can do to assist you.",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9514443e-8fdd-4f52-b633-007c527a4fb1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T04:22:45.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "Thank you, Mason. I appreciate your help.",
+        "UserId": "999-656-6842",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1b85d5cf-957e-4ba1-afed-4904e2bd94be",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T04:24:28.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "I've checked the details of your flight, Emily. I can see that there was a delay due to air traffic congestion. I apologize for the inconvenience caused. As a resolution, I can file a complaint on your behalf and request compensation for the missed meeting. Could you please provide me with your reservation number?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2645a167-63fe-456f-9231-b2e080ddb10a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T04:25:06.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "My reservation number is ABC12345.",
+        "UserId": "999-656-6842",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a9419d9a-5b25-4374-add2-70f4a1ef684b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T04:26:36.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "Thank you, Emily. I have noted down your reservation number and the details of the delay. I will personally follow up on your complaint with Contoso Airways and work towards getting you the compensation you deserve. Is there anything else I can assist you with?",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b0b89fe4-8b37-4b2c-805b-dea37f55b424",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-08T04:28:53.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "No, that's all I needed help with. Thank you for your assistance, Mason.",
+        "UserId": "999-656-6842",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "14f8c988-7878-4b9e-af06-9a217c691b9c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-08T04:30:37.1928092-07:00",
+        "ConversationId": "f4e70a71-66e5-4b02-a030-b8b088af8d85",
+        "Value": "You're welcome, Emily. I'm sorry for the inconvenience you experienced, and I'll do my best to resolve this for you. If you have any further concerns or questions, please don't hesitate to reach out. Have a great day!",
+        "UserId": "QLUD5I",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-08T04:13:06.1928092-07:00",
+    "EndTime": "2024-06-08T04:30:37.1928092-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Mason White. How can I assist you today?Hi Mason, my name is Emily Johnson. I recently traveled from Los Angeles to New York City and I had a terrible experience. I would like to file a complaint.I'm sorry to hear that, Emily. Could you please provide me with the details of your trip and the issue you encountered?Sure, I flew with Contoso Airways on flight CN1234 from Los Angeles to New York City on July 10th. The flight was delayed for several hours causing me to miss an important meeting.I'm really sorry to hear about the delay and the missed meeting, Emily. I understand how frustrating that can be. Let me check the details of your flight and see what I can do to assist you.Thank you, Mason. I appreciate your help.I've checked the details of your flight, Emily. I can see that there was a delay due to air traffic congestion. I apologize for the inconvenience caused. As a resolution, I can file a complaint on your behalf and request compensation for the missed meeting. Could you please provide me with your reservation number?My reservation number is ABC12345.Thank you, Emily. I have noted down your reservation number and the details of the delay. I will personally follow up on your complaint with Contoso Airways and work towards getting you the compensation you deserve. Is there anything else I can assist you with?No, that's all I needed help with. Thank you for your assistance, Mason.You're welcome, Emily. I'm sorry for the inconvenience you experienced, and I'll do my best to resolve this for you. If you have any further concerns or questions, please don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Mason, my name is Emily Johnson. I recently traveled from Los Angeles to New York City and I had a terrible experience. I would like to file a complaint.Sure, I flew with Contoso Airways on flight CN1234 from Los Angeles to New York City on July 10th. The flight was delayed for several hours causing me to miss an important meeting.Thank you, Mason. I appreciate your help.My reservation number is ABC12345.No, that's all I needed help with. Thank you for your assistance, Mason.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Mason White. How can I assist you today?I'm sorry to hear that, Emily. Could you please provide me with the details of your trip and the issue you encountered?I'm really sorry to hear about the delay and the missed meeting, Emily. I understand how frustrating that can be. Let me check the details of your flight and see what I can do to assist you.I've checked the details of your flight, Emily. I can see that there was a delay due to air traffic congestion. I apologize for the inconvenience caused. As a resolution, I can file a complaint on your behalf and request compensation for the missed meeting. Could you please provide me with your reservation number?Thank you, Emily. I have noted down your reservation number and the details of the delay. I will personally follow up on your complaint with Contoso Airways and work towards getting you the compensation you deserve. Is there anything else I can assist you with?You're welcome, Emily. I'm sorry for the inconvenience you experienced, and I'll do my best to resolve this for you. If you have any further concerns or questions, please don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Mason White. How can I assist you today?\nCustomer: Hi Mason, my name is Emily Johnson. I recently traveled from Los Angeles to New York City and I had a terrible experience. I would like to file a complaint.\nAgent: I'm sorry to hear that, Emily. Could you please provide me with the details of your trip and the issue you encountered?\nCustomer: Sure, I flew with Contoso Airways on flight CN1234 from Los Angeles to New York City on July 10th. The flight was delayed for several hours causing me to miss an important meeting.\nAgent: I'm really sorry to hear about the delay and the missed meeting, Emily. I understand how frustrating that can be. Let me check the details of your flight and see what I can do to assist you.\nCustomer: Thank you, Mason. I appreciate your help.\nAgent: I've checked the details of your flight, Emily. I can see that there was a delay due to air traffic congestion. I apologize for the inconvenience caused. As a resolution, I can file a complaint on your behalf and request compensation for the missed meeting. Could you please provide me with your reservation number?\nCustomer: My reservation number is ABC12345.\nAgent: Thank you, Emily. I have noted down your reservation number and the details of the delay. I will personally follow up on your complaint with Contoso Airways and work towards getting you the compensation you deserve. Is there anything else I can assist you with?\nCustomer: No, that's all I needed help with. Thank you for your assistance, Mason.\nAgent: You're welcome, Emily. I'm sorry for the inconvenience you experienced, and I'll do my best to resolve this for you. If you have any further concerns or questions, please don't hesitate to reach out. Have a great day!\n"
+  }
+}

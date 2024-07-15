@@ -1,0 +1,214 @@
+{
+  "AgentName": "Liam Johnson",
+  "AgentId": "YVS2EM",
+  "Team": "Midwest",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-804-3077",
+  "Conversation": {
+    "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+    "Messages": [
+      {
+        "Id": "faf693f2-949c-4736-a2f3-7a3da6dce37b",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T21:34:34.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "Thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "48180b9b-60a7-4364-8f8f-57e817fdfa76",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T21:37:32.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "Hi Liam, my name is Emily Thompson. I recently traveled from Chicago to Los Angeles with Contoso Airways and I had a terrible experience.",
+        "UserId": "999-804-3077",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "d949d717-9115-475c-870c-0c5cc051efea",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T21:38:40.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "I'm sorry to hear that, Emily! Could you please let me know what specifically happened during your trip?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "960bebc0-9454-440e-98da-9081ed05dc4f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T21:40:30.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "First of all, the flight was delayed by two hours without any prior notification. I had important meetings to attend, and this delay caused a lot of inconvenience.",
+        "UserId": "999-804-3077",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6991ceb1-90db-4750-ba07-dc9fc5c8c3c8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T21:41:47.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "I apologize for the inconvenience caused by the delay, Emily. Delayed flights can be frustrating, especially when you have important commitments. I understand how frustrating this must have been for you.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "63839ffa-2d9f-4095-add5-608a5cdd8ac7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T21:42:48.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "That's not all, Liam. When I finally arrived in Los Angeles, the airline lost my luggage. It took them two days to locate it and deliver it to my hotel.",
+        "UserId": "999-804-3077",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "00e00ad4-1b51-4713-9c08-573b50783d5f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T21:45:15.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "I'm really sorry to hear about your lost luggage, Emily. It must have been incredibly frustrating for you to not have your belongings for two days. Have you received your luggage now?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "867ee050-7961-4d32-b9ec-24a55f6c8f9a",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T21:46:19.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "Yes, thankfully I received it eventually. However, the whole experience left a sour taste in my mouth. I expected better service from Contoso Airways.",
+        "UserId": "999-804-3077",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "462dcea7-47a6-43a4-b136-943b4811ba9c",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T21:48:02.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "I completely understand your disappointment, Emily. Losing luggage and experiencing delays is not the experience we want our customers to have. I will make a note of your feedback regarding Contoso Airways and share it with our team.",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8b60c95b-3536-4579-a55e-c1527c60572f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T21:49:50.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "Thank you, Liam. I appreciate your understanding. I hope my feedback helps improve the overall travel experience for others.",
+        "UserId": "999-804-3077",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "41f329c1-829b-4f0b-adaa-94a7c95e774e",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T21:50:20.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "You're welcome, Emily. Your feedback is valuable to us, and we strive to provide the best travel experience possible. Is there anything else I can assist you with?",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2593cdb6-8671-47bf-92ba-3d378ecbc1d0",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-21T21:51:56.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "No, that's all for now, Liam. Thank you for listening to my concerns and for your assistance.",
+        "UserId": "999-804-3077",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b6d27954-1473-4558-99c0-bf836d851289",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-21T21:52:49.4027415-07:00",
+        "ConversationId": "ca8a1487-e37f-4aee-bd0a-7674d79f2885",
+        "Value": "You're welcome, Emily. I'm here to help. If you have any other concerns in the future, please don't hesitate to reach out. Have a great day!",
+        "UserId": "YVS2EM",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-21T21:31:41.4027415-07:00",
+    "EndTime": "2024-06-21T21:52:49.4027415-07:00",
+    "Merged_content": "Thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?Hi Liam, my name is Emily Thompson. I recently traveled from Chicago to Los Angeles with Contoso Airways and I had a terrible experience.I'm sorry to hear that, Emily! Could you please let me know what specifically happened during your trip?First of all, the flight was delayed by two hours without any prior notification. I had important meetings to attend, and this delay caused a lot of inconvenience.I apologize for the inconvenience caused by the delay, Emily. Delayed flights can be frustrating, especially when you have important commitments. I understand how frustrating this must have been for you.That's not all, Liam. When I finally arrived in Los Angeles, the airline lost my luggage. It took them two days to locate it and deliver it to my hotel.I'm really sorry to hear about your lost luggage, Emily. It must have been incredibly frustrating for you to not have your belongings for two days. Have you received your luggage now?Yes, thankfully I received it eventually. However, the whole experience left a sour taste in my mouth. I expected better service from Contoso Airways.I completely understand your disappointment, Emily. Losing luggage and experiencing delays is not the experience we want our customers to have. I will make a note of your feedback regarding Contoso Airways and share it with our team.Thank you, Liam. I appreciate your understanding. I hope my feedback helps improve the overall travel experience for others.You're welcome, Emily. Your feedback is valuable to us, and we strive to provide the best travel experience possible. Is there anything else I can assist you with?No, that's all for now, Liam. Thank you for listening to my concerns and for your assistance.You're welcome, Emily. I'm here to help. If you have any other concerns in the future, please don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Liam, my name is Emily Thompson. I recently traveled from Chicago to Los Angeles with Contoso Airways and I had a terrible experience.First of all, the flight was delayed by two hours without any prior notification. I had important meetings to attend, and this delay caused a lot of inconvenience.That's not all, Liam. When I finally arrived in Los Angeles, the airline lost my luggage. It took them two days to locate it and deliver it to my hotel.Yes, thankfully I received it eventually. However, the whole experience left a sour taste in my mouth. I expected better service from Contoso Airways.Thank you, Liam. I appreciate your understanding. I hope my feedback helps improve the overall travel experience for others.No, that's all for now, Liam. Thank you for listening to my concerns and for your assistance.",
+    "Merged_content_agent": "Thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?I'm sorry to hear that, Emily! Could you please let me know what specifically happened during your trip?I apologize for the inconvenience caused by the delay, Emily. Delayed flights can be frustrating, especially when you have important commitments. I understand how frustrating this must have been for you.I'm really sorry to hear about your lost luggage, Emily. It must have been incredibly frustrating for you to not have your belongings for two days. Have you received your luggage now?I completely understand your disappointment, Emily. Losing luggage and experiencing delays is not the experience we want our customers to have. I will make a note of your feedback regarding Contoso Airways and share it with our team.You're welcome, Emily. Your feedback is valuable to us, and we strive to provide the best travel experience possible. Is there anything else I can assist you with?You're welcome, Emily. I'm here to help. If you have any other concerns in the future, please don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Thank you for calling Woodgrove Travel. My name is Liam Johnson. How can I assist you today?\nCustomer: Hi Liam, my name is Emily Thompson. I recently traveled from Chicago to Los Angeles with Contoso Airways and I had a terrible experience.\nAgent: I'm sorry to hear that, Emily! Could you please let me know what specifically happened during your trip?\nCustomer: First of all, the flight was delayed by two hours without any prior notification. I had important meetings to attend, and this delay caused a lot of inconvenience.\nAgent: I apologize for the inconvenience caused by the delay, Emily. Delayed flights can be frustrating, especially when you have important commitments. I understand how frustrating this must have been for you.\nCustomer: That's not all, Liam. When I finally arrived in Los Angeles, the airline lost my luggage. It took them two days to locate it and deliver it to my hotel.\nAgent: I'm really sorry to hear about your lost luggage, Emily. It must have been incredibly frustrating for you to not have your belongings for two days. Have you received your luggage now?\nCustomer: Yes, thankfully I received it eventually. However, the whole experience left a sour taste in my mouth. I expected better service from Contoso Airways.\nAgent: I completely understand your disappointment, Emily. Losing luggage and experiencing delays is not the experience we want our customers to have. I will make a note of your feedback regarding Contoso Airways and share it with our team.\nCustomer: Thank you, Liam. I appreciate your understanding. I hope my feedback helps improve the overall travel experience for others.\nAgent: You're welcome, Emily. Your feedback is valuable to us, and we strive to provide the best travel experience possible. Is there anything else I can assist you with?\nCustomer: No, that's all for now, Liam. Thank you for listening to my concerns and for your assistance.\nAgent: You're welcome, Emily. I'm here to help. If you have any other concerns in the future, please don't hesitate to reach out. Have a great day!\n"
+  }
+}

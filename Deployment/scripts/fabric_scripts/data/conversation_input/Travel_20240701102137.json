@@ -1,0 +1,214 @@
+{
+  "AgentName": "Noah Wilson",
+  "AgentId": "M9FVT5",
+  "Team": "West",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-405-8911",
+  "Conversation": {
+    "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+    "Messages": [
+      {
+        "Id": "10616263-605e-4fa2-b426-875658d72287",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-07-01T10:22:55.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Noah Wilson. How can I assist you today?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "aacd1344-8cdf-4f19-9023-936b1b437554",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-07-01T10:24:22.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "Hi Noah, my name is Emily Thompson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with the airline and hotel. I need to file a complaint.",
+        "UserId": "999-405-8911",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "2bca0eb9-5872-4c46-9ad2-2861def65cbe",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-07-01T10:26:20.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "I'm sorry to hear about your unpleasant experience, Emily. Can you please provide me with more details about what happened?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6b868bed-2d6c-4e0d-b9a2-05bf7f83fdde",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-07-01T10:27:38.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "Sure, let me start with the flight. I booked a flight with Contoso Airways, flight number CT123, from Chicago to Los Angeles on April 9th. The flight was delayed for several hours without any proper communication from the airline staff. It caused a lot of inconvenience and I missed an important meeting.",
+        "UserId": "999-405-8911",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5af9d603-686c-495f-88a4-1fa2b8b66630",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-07-01T10:30:06.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "I understand how frustrating flight delays can be, Emily. I apologize for the inconvenience caused. Let me check the details of your flight and see what options we have for compensation or any alternate arrangements.",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5d194843-8402-4e63-9425-eecb9b010332",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-07-01T10:31:29.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "Thank you, Noah. I appreciate your assistance.",
+        "UserId": "999-405-8911",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "491a65dc-8594-44d6-b881-537e49e37108",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-07-01T10:32:10.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "Regarding your hotel stay, Emily, can you please provide me with the name of the hotel and the dates of your reservation?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a000e927-c038-4b0e-976d-61b4c9a7a42e",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-07-01T10:34:02.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "I stayed at Fabrikam Hotel in Los Angeles from April 9th to April 11th. The room was not clean, the staff was rude, and the overall experience was below expectations.",
+        "UserId": "999-405-8911",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "6d236698-262a-422b-9146-2fe5ebff59c9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-07-01T10:35:23.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "I'm sorry to hear about your disappointing hotel experience, Emily. I'll make a note of your complaint and pass it on to our customer service team. We'll investigate the matter and take appropriate action.",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0c9e7fbb-1831-47fd-8dc2-3322b7f4bced",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-07-01T10:38:13.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "Thank you, Noah. I hope this issue gets resolved soon. I had high expectations from Woodgrove Travel, but this experience has left me disappointed.",
+        "UserId": "999-405-8911",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "716eb19c-6c9a-41af-a9e5-ee2b87a7f9df",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-07-01T10:39:09.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "I completely understand your frustration, Emily. We value your feedback and will do our best to address your concerns. Is there anything else I can assist you with?",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "dcd1e8e5-4b44-45c3-8c17-e328673c8cc5",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-07-01T10:39:53.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "Noah, for now, that's all. Thank you for your help and attention.",
+        "UserId": "999-405-8911",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f5d2fee0-47f9-4595-9c84-f4429cdb050f",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-07-01T10:40:44.0820874-07:00",
+        "ConversationId": "c211eb9e-a0db-4dfb-a831-b475d01cc9aa",
+        "Value": "You're welcome, Emily. If you have any further questions or if there's anything else we can do to assist you, please don't hesitate to reach out. Have a great day!",
+        "UserId": "M9FVT5",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-07-01T10:21:37.0820874-07:00",
+    "EndTime": "2024-07-01T10:40:44.0820874-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Noah Wilson. How can I assist you today?Hi Noah, my name is Emily Thompson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with the airline and hotel. I need to file a complaint.I'm sorry to hear about your unpleasant experience, Emily. Can you please provide me with more details about what happened?Sure, let me start with the flight. I booked a flight with Contoso Airways, flight number CT123, from Chicago to Los Angeles on April 9th. The flight was delayed for several hours without any proper communication from the airline staff. It caused a lot of inconvenience and I missed an important meeting.I understand how frustrating flight delays can be, Emily. I apologize for the inconvenience caused. Let me check the details of your flight and see what options we have for compensation or any alternate arrangements.Thank you, Noah. I appreciate your assistance.Regarding your hotel stay, Emily, can you please provide me with the name of the hotel and the dates of your reservation?I stayed at Fabrikam Hotel in Los Angeles from April 9th to April 11th. The room was not clean, the staff was rude, and the overall experience was below expectations.I'm sorry to hear about your disappointing hotel experience, Emily. I'll make a note of your complaint and pass it on to our customer service team. We'll investigate the matter and take appropriate action.Thank you, Noah. I hope this issue gets resolved soon. I had high expectations from Woodgrove Travel, but this experience has left me disappointed.I completely understand your frustration, Emily. We value your feedback and will do our best to address your concerns. Is there anything else I can assist you with?Noah, for now, that's all. Thank you for your help and attention.You're welcome, Emily. If you have any further questions or if there's anything else we can do to assist you, please don't hesitate to reach out. Have a great day!",
+    "Merged_content_user": "Hi Noah, my name is Emily Thompson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with the airline and hotel. I need to file a complaint.Sure, let me start with the flight. I booked a flight with Contoso Airways, flight number CT123, from Chicago to Los Angeles on April 9th. The flight was delayed for several hours without any proper communication from the airline staff. It caused a lot of inconvenience and I missed an important meeting.Thank you, Noah. I appreciate your assistance.I stayed at Fabrikam Hotel in Los Angeles from April 9th to April 11th. The room was not clean, the staff was rude, and the overall experience was below expectations.Thank you, Noah. I hope this issue gets resolved soon. I had high expectations from Woodgrove Travel, but this experience has left me disappointed.Noah, for now, that's all. Thank you for your help and attention.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Noah Wilson. How can I assist you today?I'm sorry to hear about your unpleasant experience, Emily. Can you please provide me with more details about what happened?I understand how frustrating flight delays can be, Emily. I apologize for the inconvenience caused. Let me check the details of your flight and see what options we have for compensation or any alternate arrangements.Regarding your hotel stay, Emily, can you please provide me with the name of the hotel and the dates of your reservation?I'm sorry to hear about your disappointing hotel experience, Emily. I'll make a note of your complaint and pass it on to our customer service team. We'll investigate the matter and take appropriate action.I completely understand your frustration, Emily. We value your feedback and will do our best to address your concerns. Is there anything else I can assist you with?You're welcome, Emily. If you have any further questions or if there's anything else we can do to assist you, please don't hesitate to reach out. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Noah Wilson. How can I assist you today?\nCustomer: Hi Noah, my name is Emily Thompson. I recently traveled from Chicago to Los Angeles and I had a terrible experience with the airline and hotel. I need to file a complaint.\nAgent: I'm sorry to hear about your unpleasant experience, Emily. Can you please provide me with more details about what happened?\nCustomer: Sure, let me start with the flight. I booked a flight with Contoso Airways, flight number CT123, from Chicago to Los Angeles on April 9th. The flight was delayed for several hours without any proper communication from the airline staff. It caused a lot of inconvenience and I missed an important meeting.\nAgent: I understand how frustrating flight delays can be, Emily. I apologize for the inconvenience caused. Let me check the details of your flight and see what options we have for compensation or any alternate arrangements.\nCustomer: Thank you, Noah. I appreciate your assistance.\nAgent: Regarding your hotel stay, Emily, can you please provide me with the name of the hotel and the dates of your reservation?\nCustomer: I stayed at Fabrikam Hotel in Los Angeles from April 9th to April 11th. The room was not clean, the staff was rude, and the overall experience was below expectations.\nAgent: I'm sorry to hear about your disappointing hotel experience, Emily. I'll make a note of your complaint and pass it on to our customer service team. We'll investigate the matter and take appropriate action.\nCustomer: Thank you, Noah. I hope this issue gets resolved soon. I had high expectations from Woodgrove Travel, but this experience has left me disappointed.\nAgent: I completely understand your frustration, Emily. We value your feedback and will do our best to address your concerns. Is there anything else I can assist you with?\nCustomer: Noah, for now, that's all. Thank you for your help and attention.\nAgent: You're welcome, Emily. If you have any further questions or if there's anything else we can do to assist you, please don't hesitate to reach out. Have a great day!\n"
+  }
+}

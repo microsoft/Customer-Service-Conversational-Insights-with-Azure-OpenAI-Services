@@ -1,0 +1,154 @@
+{
+  "AgentName": "Isabella Taylor",
+  "AgentId": "1OWZ1U",
+  "Team": "Southeast",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-417-8996",
+  "Conversation": {
+    "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+    "Messages": [
+      {
+        "Id": "271d3933-dd42-454a-b9e7-119bd6808cd8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T20:07:08.7528952-07:00",
+        "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Isabella Taylor. How may I assist you today?",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "7a9e8742-5098-4f73-94d1-b63afc2c3e7f",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T20:09:25.7528952-07:00",
+        "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+        "Value": "Hi Isabella, I'm calling to complain about my recent trip to New York City from Atlanta. The flights were delayed, the hotel was dirty, and the overall experience was terrible.",
+        "UserId": "999-417-8996",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "edc17837-9efd-4b37-810f-3c2dfaed57f8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T20:10:21.7528952-07:00",
+        "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+        "Value": "I'm sorry to hear about your disappointing experience. I understand how frustrating that can be. Let me pull up your reservation and see what I can do to help.",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c676596a-4624-41e9-b8b0-95db6e52f1a1",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T20:12:05.7528952-07:00",
+        "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+        "Value": "Thank you, my reservation number is 123456789 and I stayed at the Fabrikam Hotel from June 10th to June 15th.",
+        "UserId": "999-417-8996",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e6cd328f-5664-4dbc-9487-92bbf6fc9864",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T20:13:41.7528952-07:00",
+        "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+        "Value": "I apologize for the inconveniences you faced. Let me reach out to the hotel management and address the cleanliness issues. Rest assured, we will take appropriate action to ensure this doesn't happen again.",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f75ae989-1dba-4924-8d77-e6b0a46c3538",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T20:14:59.7528952-07:00",
+        "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+        "Value": "Thank you, Isabella. Additionally, the flights were delayed both ways. I traveled with Contoso Airways. The departure from Atlanta was on June 10th at 9:00 AM, and the return flight from New York City was on June 15th at 6:00 PM.",
+        "UserId": "999-417-8996",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "838cc083-7bce-47a2-b3b5-d265682dc685",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T20:15:51.7528952-07:00",
+        "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+        "Value": "I apologize for the inconvenience caused by the flight delays. Let me reach out to Contoso Airways and see what they can do to compensate you for the delays.",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e20cffab-11b7-40fc-99c4-1d53712441a7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-02T20:18:21.7528952-07:00",
+        "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+        "Value": "Thank you, Isabella. I appreciate your help in resolving these issues. I hope this can be resolved satisfactorily.",
+        "UserId": "999-417-8996",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "70d18b64-879b-4433-9b8c-ed8f36fba47d",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-02T20:20:45.7528952-07:00",
+        "ConversationId": "0eb737a2-47dc-4ddc-b80c-9850a3882f0d",
+        "Value": "I understand your frustration, and I'll do my best to advocate for you. I will contact you as soon as I have an update from the hotel and the airline. Thank you for your patience.",
+        "UserId": "1OWZ1U",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-02T20:04:22.7528952-07:00",
+    "EndTime": "2024-06-02T20:20:45.7528952-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Isabella Taylor. How may I assist you today?Hi Isabella, I'm calling to complain about my recent trip to New York City from Atlanta. The flights were delayed, the hotel was dirty, and the overall experience was terrible.I'm sorry to hear about your disappointing experience. I understand how frustrating that can be. Let me pull up your reservation and see what I can do to help.Thank you, my reservation number is 123456789 and I stayed at the Fabrikam Hotel from June 10th to June 15th.I apologize for the inconveniences you faced. Let me reach out to the hotel management and address the cleanliness issues. Rest assured, we will take appropriate action to ensure this doesn't happen again.Thank you, Isabella. Additionally, the flights were delayed both ways. I traveled with Contoso Airways. The departure from Atlanta was on June 10th at 9:00 AM, and the return flight from New York City was on June 15th at 6:00 PM.I apologize for the inconvenience caused by the flight delays. Let me reach out to Contoso Airways and see what they can do to compensate you for the delays.Thank you, Isabella. I appreciate your help in resolving these issues. I hope this can be resolved satisfactorily.I understand your frustration, and I'll do my best to advocate for you. I will contact you as soon as I have an update from the hotel and the airline. Thank you for your patience.",
+    "Merged_content_user": "Hi Isabella, I'm calling to complain about my recent trip to New York City from Atlanta. The flights were delayed, the hotel was dirty, and the overall experience was terrible.Thank you, my reservation number is 123456789 and I stayed at the Fabrikam Hotel from June 10th to June 15th.Thank you, Isabella. Additionally, the flights were delayed both ways. I traveled with Contoso Airways. The departure from Atlanta was on June 10th at 9:00 AM, and the return flight from New York City was on June 15th at 6:00 PM.Thank you, Isabella. I appreciate your help in resolving these issues. I hope this can be resolved satisfactorily.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Isabella Taylor. How may I assist you today?I'm sorry to hear about your disappointing experience. I understand how frustrating that can be. Let me pull up your reservation and see what I can do to help.I apologize for the inconveniences you faced. Let me reach out to the hotel management and address the cleanliness issues. Rest assured, we will take appropriate action to ensure this doesn't happen again.I apologize for the inconvenience caused by the flight delays. Let me reach out to Contoso Airways and see what they can do to compensate you for the delays.I understand your frustration, and I'll do my best to advocate for you. I will contact you as soon as I have an update from the hotel and the airline. Thank you for your patience.",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Isabella Taylor. How may I assist you today?\nCustomer: Hi Isabella, I'm calling to complain about my recent trip to New York City from Atlanta. The flights were delayed, the hotel was dirty, and the overall experience was terrible.\nAgent: I'm sorry to hear about your disappointing experience. I understand how frustrating that can be. Let me pull up your reservation and see what I can do to help.\nCustomer: Thank you, my reservation number is 123456789 and I stayed at the Fabrikam Hotel from June 10th to June 15th.\nAgent: I apologize for the inconveniences you faced. Let me reach out to the hotel management and address the cleanliness issues. Rest assured, we will take appropriate action to ensure this doesn't happen again.\nCustomer: Thank you, Isabella. Additionally, the flights were delayed both ways. I traveled with Contoso Airways. The departure from Atlanta was on June 10th at 9:00 AM, and the return flight from New York City was on June 15th at 6:00 PM.\nAgent: I apologize for the inconvenience caused by the flight delays. Let me reach out to Contoso Airways and see what they can do to compensate you for the delays.\nCustomer: Thank you, Isabella. I appreciate your help in resolving these issues. I hope this can be resolved satisfactorily.\nAgent: I understand your frustration, and I'll do my best to advocate for you. I will contact you as soon as I have an update from the hotel and the airline. Thank you for your patience.\n"
+  }
+}

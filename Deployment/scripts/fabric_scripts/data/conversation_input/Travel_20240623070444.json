@@ -1,0 +1,304 @@
+{
+  "AgentName": "Olivia Brown",
+  "AgentId": "J8BS3X",
+  "Team": "Southeast",
+  "ResolutionStatus": "Unresolved",
+  "CallReason": "Complaints",
+  "CallerID": "999-500-4475",
+  "Conversation": {
+    "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+    "Messages": [
+      {
+        "Id": "0492e6bc-09a9-4b72-9f8e-c42b92923999",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:06:04.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Olivia Brown. How can I assist you today?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b472a636-9442-436e-bb19-d722392afc29",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-23T07:07:19.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Hi Olivia, my name is Sarah Johnson. I recently took a trip from New York City to Los Angeles and I had a few issues that I would like to discuss.",
+        "UserId": "999-500-4475",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0c0adec5-1daa-495c-98d3-e5c1c4f4b8d8",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:09:10.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "I'm sorry to hear that, Sarah. Can you please tell me more about the issues you experienced during your trip?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4ea3cdc3-e5cd-4930-a049-8a9836ac1531",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-23T07:10:11.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Well, first of all, my flight with Contoso Airways was delayed by two hours, causing me to miss an important meeting in Los Angeles.",
+        "UserId": "999-500-4475",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "18074785-8de4-49e2-bb2f-8f263e82fa86",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:11:48.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "I apologize for the inconvenience, Sarah. Flight delays can be frustrating. Do you happen to have the flight number and departure date and time?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9d507985-dfea-4330-b1f7-e5af04d54604",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-23T07:13:26.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Yes, the flight was Contoso Airways Flight 123, scheduled to depart from New York City on October 10th at 9:00 AM.",
+        "UserId": "999-500-4475",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "56c337ea-91a1-40ea-9390-10d123e47538",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:14:06.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Thank you for providing the details, Sarah. I will look into this issue and see what I can do to resolve it. Please hold on for a moment.",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "28463771-dc19-449d-a2e1-5289bfd38c90",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-23T07:15:38.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Sure, take your time.",
+        "UserId": "999-500-4475",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a9302f21-4917-41e0-b2d7-241fc38667f1",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:17:31.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Thank you for waiting, Sarah. I have checked the flight records, and I see that there was indeed a delay of two hours for Flight 123. I apologize for the inconvenience caused.",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5b14ca71-cd33-4046-9f32-8aa5bc761d90",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-23T07:19:37.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Thank you for acknowledging the issue, Olivia. Is there anything that can be done to compensate for the missed meeting?",
+        "UserId": "999-500-4475",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "34098c2f-0bf0-44ee-8b28-6c809738b4be",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:20:27.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "I understand your frustration, Sarah. I will check if there are any alternative options available for compensation. Could you please provide me with your reservation number for the hotel you stayed at in Los Angeles?",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e3c0d7af-89ae-4f84-9623-f44d00bcd6fa",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-23T07:22:23.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Certainly. My reservation number for the Fabrikam Hotel in Los Angeles was 987654321, and I stayed there from October 10th to October 15th.",
+        "UserId": "999-500-4475",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "f6d561c1-fda5-4b4e-aa6e-26613eb56c00",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:24:59.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Thank you for the information, Sarah. Let me check if any compensation can be arranged for your hotel stay as well. Please bear with me.",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "5d86c6a5-8dd2-4aaf-9e6d-ebcbc0907f90",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-23T07:26:57.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Of course, take your time.",
+        "UserId": "999-500-4475",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "0c342d98-a7ac-4f8b-8eb5-9d10c1bb2778",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:27:45.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Thank you for your patience, Sarah. I have spoken with the airline and the hotel regarding your situation. They have expressed their apologies for the inconvenience caused. They are willing to offer you a voucher for a future flight with Contoso Airways and a discounted rate for your next stay at the Fabrikam Hotel.",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "22dff5b7-cb0a-477c-8a2f-05ffe75e9332",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-23T07:29:12.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "That sounds reasonable, Olivia. I appreciate your help in resolving this matter. Could you please provide me with the details of the voucher and the discounted rate?",
+        "UserId": "999-500-4475",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4b33c795-8633-4338-abe9-e169a83ae3cf",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:30:56.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Certainly, Sarah. The voucher for the future flight will be valid for one year and can be used for any destination served by Contoso Airways. The discounted rate for the Fabrikam Hotel will be 25% off the standard room rate for your next stay. I will email you the voucher and the details of the discounted rate shortly.",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "65ce45b3-312e-4357-887d-18b146ca5443",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-23T07:31:58.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "Thank you so much, Olivia. I really appreciate your assistance in resolving this issue. I look forward to receiving the voucher and the details.",
+        "UserId": "999-500-4475",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "a32462db-61f4-4065-a33b-5ab6beeb58c6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-23T07:34:43.4475763-07:00",
+        "ConversationId": "387bb5d7-8928-4d6c-9ae6-bafd7cda88a6",
+        "Value": "You're welcome, Sarah. I'm glad I could help. If you have any other questions or concerns, feel free to reach out to us. Have a great day!",
+        "UserId": "J8BS3X",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-23T07:04:44.4475763-07:00",
+    "EndTime": "2024-06-23T07:34:43.4475763-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Olivia Brown. How can I assist you today?Hi Olivia, my name is Sarah Johnson. I recently took a trip from New York City to Los Angeles and I had a few issues that I would like to discuss.I'm sorry to hear that, Sarah. Can you please tell me more about the issues you experienced during your trip?Well, first of all, my flight with Contoso Airways was delayed by two hours, causing me to miss an important meeting in Los Angeles.I apologize for the inconvenience, Sarah. Flight delays can be frustrating. Do you happen to have the flight number and departure date and time?Yes, the flight was Contoso Airways Flight 123, scheduled to depart from New York City on October 10th at 9:00 AM.Thank you for providing the details, Sarah. I will look into this issue and see what I can do to resolve it. Please hold on for a moment.Sure, take your time.Thank you for waiting, Sarah. I have checked the flight records, and I see that there was indeed a delay of two hours for Flight 123. I apologize for the inconvenience caused.Thank you for acknowledging the issue, Olivia. Is there anything that can be done to compensate for the missed meeting?I understand your frustration, Sarah. I will check if there are any alternative options available for compensation. Could you please provide me with your reservation number for the hotel you stayed at in Los Angeles?Certainly. My reservation number for the Fabrikam Hotel in Los Angeles was 987654321, and I stayed there from October 10th to October 15th.Thank you for the information, Sarah. Let me check if any compensation can be arranged for your hotel stay as well. Please bear with me.Of course, take your time.Thank you for your patience, Sarah. I have spoken with the airline and the hotel regarding your situation. They have expressed their apologies for the inconvenience caused. They are willing to offer you a voucher for a future flight with Contoso Airways and a discounted rate for your next stay at the Fabrikam Hotel.That sounds reasonable, Olivia. I appreciate your help in resolving this matter. Could you please provide me with the details of the voucher and the discounted rate?Certainly, Sarah. The voucher for the future flight will be valid for one year and can be used for any destination served by Contoso Airways. The discounted rate for the Fabrikam Hotel will be 25% off the standard room rate for your next stay. I will email you the voucher and the details of the discounted rate shortly.Thank you so much, Olivia. I really appreciate your assistance in resolving this issue. I look forward to receiving the voucher and the details.You're welcome, Sarah. I'm glad I could help. If you have any other questions or concerns, feel free to reach out to us. Have a great day!",
+    "Merged_content_user": "Hi Olivia, my name is Sarah Johnson. I recently took a trip from New York City to Los Angeles and I had a few issues that I would like to discuss.Well, first of all, my flight with Contoso Airways was delayed by two hours, causing me to miss an important meeting in Los Angeles.Yes, the flight was Contoso Airways Flight 123, scheduled to depart from New York City on October 10th at 9:00 AM.Sure, take your time.Thank you for acknowledging the issue, Olivia. Is there anything that can be done to compensate for the missed meeting?Certainly. My reservation number for the Fabrikam Hotel in Los Angeles was 987654321, and I stayed there from October 10th to October 15th.Of course, take your time.That sounds reasonable, Olivia. I appreciate your help in resolving this matter. Could you please provide me with the details of the voucher and the discounted rate?Thank you so much, Olivia. I really appreciate your assistance in resolving this issue. I look forward to receiving the voucher and the details.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Olivia Brown. How can I assist you today?I'm sorry to hear that, Sarah. Can you please tell me more about the issues you experienced during your trip?I apologize for the inconvenience, Sarah. Flight delays can be frustrating. Do you happen to have the flight number and departure date and time?Thank you for providing the details, Sarah. I will look into this issue and see what I can do to resolve it. Please hold on for a moment.Thank you for waiting, Sarah. I have checked the flight records, and I see that there was indeed a delay of two hours for Flight 123. I apologize for the inconvenience caused.I understand your frustration, Sarah. I will check if there are any alternative options available for compensation. Could you please provide me with your reservation number for the hotel you stayed at in Los Angeles?Thank you for the information, Sarah. Let me check if any compensation can be arranged for your hotel stay as well. Please bear with me.Thank you for your patience, Sarah. I have spoken with the airline and the hotel regarding your situation. They have expressed their apologies for the inconvenience caused. They are willing to offer you a voucher for a future flight with Contoso Airways and a discounted rate for your next stay at the Fabrikam Hotel.Certainly, Sarah. The voucher for the future flight will be valid for one year and can be used for any destination served by Contoso Airways. The discounted rate for the Fabrikam Hotel will be 25% off the standard room rate for your next stay. I will email you the voucher and the details of the discounted rate shortly.You're welcome, Sarah. I'm glad I could help. If you have any other questions or concerns, feel free to reach out to us. Have a great day!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Olivia Brown. How can I assist you today?\nCustomer: Hi Olivia, my name is Sarah Johnson. I recently took a trip from New York City to Los Angeles and I had a few issues that I would like to discuss.\nAgent: I'm sorry to hear that, Sarah. Can you please tell me more about the issues you experienced during your trip?\nCustomer: Well, first of all, my flight with Contoso Airways was delayed by two hours, causing me to miss an important meeting in Los Angeles.\nAgent: I apologize for the inconvenience, Sarah. Flight delays can be frustrating. Do you happen to have the flight number and departure date and time?\nCustomer: Yes, the flight was Contoso Airways Flight 123, scheduled to depart from New York City on October 10th at 9:00 AM.\nAgent: Thank you for providing the details, Sarah. I will look into this issue and see what I can do to resolve it. Please hold on for a moment.\nCustomer: Sure, take your time.\nAgent: Thank you for waiting, Sarah. I have checked the flight records, and I see that there was indeed a delay of two hours for Flight 123. I apologize for the inconvenience caused.\nCustomer: Thank you for acknowledging the issue, Olivia. Is there anything that can be done to compensate for the missed meeting?\nAgent: I understand your frustration, Sarah. I will check if there are any alternative options available for compensation. Could you please provide me with your reservation number for the hotel you stayed at in Los Angeles?\nCustomer: Certainly. My reservation number for the Fabrikam Hotel in Los Angeles was 987654321, and I stayed there from October 10th to October 15th.\nAgent: Thank you for the information, Sarah. Let me check if any compensation can be arranged for your hotel stay as well. Please bear with me.\nCustomer: Of course, take your time.\nAgent: Thank you for your patience, Sarah. I have spoken with the airline and the hotel regarding your situation. They have expressed their apologies for the inconvenience caused. They are willing to offer you a voucher for a future flight with Contoso Airways and a discounted rate for your next stay at the Fabrikam Hotel.\nCustomer: That sounds reasonable, Olivia. I appreciate your help in resolving this matter. Could you please provide me with the details of the voucher and the discounted rate?\nAgent: Certainly, Sarah. The voucher for the future flight will be valid for one year and can be used for any destination served by Contoso Airways. The discounted rate for the Fabrikam Hotel will be 25% off the standard room rate for your next stay. I will email you the voucher and the details of the discounted rate shortly.\nCustomer: Thank you so much, Olivia. I really appreciate your assistance in resolving this issue. I look forward to receiving the voucher and the details.\nAgent: You're welcome, Sarah. I'm glad I could help. If you have any other questions or concerns, feel free to reach out to us. Have a great day!\n"
+  }
+}

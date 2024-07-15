@@ -1,0 +1,424 @@
+{
+  "AgentName": "Grace King",
+  "AgentId": "ETKIYY",
+  "Team": "Midwest",
+  "ResolutionStatus": "Resolved",
+  "CallReason": "Transactions",
+  "CallerID": "999-349-4004",
+  "Conversation": {
+    "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+    "Messages": [
+      {
+        "Id": "6599645a-2141-4da8-98c6-ca3b4743f652",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:22:44.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Hello, thank you for calling Woodgrove Travel. My name is Grace King. How may I assist you today?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "754a900a-4646-4c24-9ff1-5ac89cc2102b",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:25:43.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Hi Grace, my name is Jennifer Thompson. I'm planning a trip from Chicago to Los Angeles and I need some help with my travel arrangements.",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ff394996-a2af-4a99-91d4-fc5c408e25d3",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:27:10.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Of course, Jennifer. I'd be happy to assist you. When are you planning to travel?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ac1b1591-fbf9-4059-abd6-0e08c3f0ac00",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:28:56.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "I'm looking to fly out on August 10th in the morning and return on August 15th in the evening.",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "498ed710-5b84-4383-9886-39bf80d9f045",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:30:38.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Great! Let me check the available options for you. Please give me a moment.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ea83f7a3-27f7-4101-8f21-aa64ca510bb8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:31:51.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Sure, take your time.",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "1a6578f5-8226-4965-b9bf-3ae2156ad75a",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:33:11.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "I have found a few flight options for you, Jennifer. The first option is with Contoso Airways, flight CA123, departing from Chicago O'Hare International Airport at 8:00 AM and arriving at Los Angeles International Airport at 10:30 AM. The return flight is on CA456, departing from Los Angeles at 6:00 PM and arriving in Chicago at 12:30 AM.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "95a021e0-d4fc-4682-9392-fd20db0c2839",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:34:01.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "That sounds good. What's the pricing for that option?",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b533bf6f-54d3-4c00-bea7-ee7e803fb192",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:35:33.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "The total cost for this option is $500, including taxes and fees.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "cfbf7377-63ac-4a17-9999-9aa5d37da5a8",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:36:35.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Hmm, that's a bit higher than I expected. Do you have any other options?",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "54d7d67a-4978-4cd0-b830-8223b5701835",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:38:49.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Certainly, let me check for alternative options.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "15c0763e-15ea-49c2-aafb-7d192f88bb48",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:40:51.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "I found another option for you, Jennifer. Northwind Airlines has a flight NW789 departing from Chicago at 9:30 AM and arriving in Los Angeles at 12:00 PM. The return flight is on NW987, departing from Los Angeles at 8:00 PM and arriving in Chicago at 2:30 AM.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b099afcb-3d39-42c9-9c5e-fa7c9ec09f21",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:43:43.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Okay, what's the price for that option?",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "8cb4f74a-2417-48e6-98a7-d9e4599fe3ec",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:46:00.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "The total cost for this option is $450, including taxes and fees.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "ff8742ad-03f4-4ac2-96eb-3b4d9c4c16a7",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:48:16.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "That's better. Are there any other options available?",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c7435442-1b33-48e7-86ad-6b0425678126",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:50:03.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Let me check for more options for you.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "b51585a1-2994-4183-bfaa-bfa4e0429dc6",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:51:33.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "I found one more option, Jennifer. Adatum Air has a flight AD456 departing from Chicago at 11:00 AM and arriving in Los Angeles at 1:30 PM. The return flight is on AD789, departing from Los Angeles at 9:00 PM and arriving in Chicago at 3:30 AM.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "3bc342cb-03dc-4bfa-85bb-26b9a7b33861",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:53:47.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "What's the price for that option?",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "41ff32ff-7a24-4c0c-a3c3-4e9030944b69",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:55:25.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "The total cost for this option is $480, including taxes and fees.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "c1663ff7-4fcb-406f-8a8a-b7f5b46883c9",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:56:36.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Thank you for providing me with these options, Grace. I think I'll go with the Northwind Airlines option. It has a good schedule and a reasonable price.",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "9c2812ee-6031-49d6-ac08-3df6da1bdebd",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T01:57:47.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "That sounds like a great choice, Jennifer. Let me go ahead and book the flights for you. Can I have your full name as it appears on your ID and your date of birth?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "08384058-a06c-4e45-a568-4740d4728d52",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T01:58:46.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Sure, my full name is Jennifer Thompson and my date of birth is January 10, 1990.",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "4bb64402-98b3-4c15-bcdf-85322b6a4128",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T02:00:25.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Thank you, Jennifer. I will now proceed with the booking process. Please hold on for a moment.",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "43ecc440-1cdc-495b-bdc7-cd2b86640e34",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T02:02:39.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Sure, take your time.",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "e16cdc9e-d3e5-425f-bf1a-cb1fc2fd07c9",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T02:03:43.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "Jennifer, I have successfully booked your flights with Northwind Airlines. Your reservation number is NW123456. Is there anything else I can assist you with?",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "bbefb44e-60f5-497c-84c4-81043c223786",
+        "ReferenceId": null,
+        "EventType": "MessageFromUser",
+        "EventTime": "2024-06-29T02:06:22.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "No, that will be all. Thank you so much for your help, Grace. I appreciate it.",
+        "UserId": "999-349-4004",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      },
+      {
+        "Id": "14de7bff-bdd1-4703-b42e-c0ed6d10e654",
+        "ReferenceId": null,
+        "EventType": "MessageFromBotOrAgent",
+        "EventTime": "2024-06-29T02:08:55.9561278-07:00",
+        "ConversationId": "726192cb-130a-47d8-9328-e4fa49a94cc4",
+        "Value": "You're welcome, Jennifer. It was my pleasure to assist you. Have a wonderful trip!",
+        "UserId": "ETKIYY",
+        "CustomProperties": {
+          "Offset": "",
+          "Duration": "",
+          "OffsetInTicks": 0,
+          "DurationInTicks": 0
+        }
+      }
+    ],
+    "StartTime": "2024-06-29T01:21:07.9561278-07:00",
+    "EndTime": "2024-06-29T02:08:55.9561278-07:00",
+    "Merged_content": "Hello, thank you for calling Woodgrove Travel. My name is Grace King. How may I assist you today?Hi Grace, my name is Jennifer Thompson. I'm planning a trip from Chicago to Los Angeles and I need some help with my travel arrangements.Of course, Jennifer. I'd be happy to assist you. When are you planning to travel?I'm looking to fly out on August 10th in the morning and return on August 15th in the evening.Great! Let me check the available options for you. Please give me a moment.Sure, take your time.I have found a few flight options for you, Jennifer. The first option is with Contoso Airways, flight CA123, departing from Chicago O'Hare International Airport at 8:00 AM and arriving at Los Angeles International Airport at 10:30 AM. The return flight is on CA456, departing from Los Angeles at 6:00 PM and arriving in Chicago at 12:30 AM.That sounds good. What's the pricing for that option?The total cost for this option is $500, including taxes and fees.Hmm, that's a bit higher than I expected. Do you have any other options?Certainly, let me check for alternative options.I found another option for you, Jennifer. Northwind Airlines has a flight NW789 departing from Chicago at 9:30 AM and arriving in Los Angeles at 12:00 PM. The return flight is on NW987, departing from Los Angeles at 8:00 PM and arriving in Chicago at 2:30 AM.Okay, what's the price for that option?The total cost for this option is $450, including taxes and fees.That's better. Are there any other options available?Let me check for more options for you.I found one more option, Jennifer. Adatum Air has a flight AD456 departing from Chicago at 11:00 AM and arriving in Los Angeles at 1:30 PM. The return flight is on AD789, departing from Los Angeles at 9:00 PM and arriving in Chicago at 3:30 AM.What's the price for that option?The total cost for this option is $480, including taxes and fees.Thank you for providing me with these options, Grace. I think I'll go with the Northwind Airlines option. It has a good schedule and a reasonable price.That sounds like a great choice, Jennifer. Let me go ahead and book the flights for you. Can I have your full name as it appears on your ID and your date of birth?Sure, my full name is Jennifer Thompson and my date of birth is January 10, 1990.Thank you, Jennifer. I will now proceed with the booking process. Please hold on for a moment.Sure, take your time.Jennifer, I have successfully booked your flights with Northwind Airlines. Your reservation number is NW123456. Is there anything else I can assist you with?No, that will be all. Thank you so much for your help, Grace. I appreciate it.You're welcome, Jennifer. It was my pleasure to assist you. Have a wonderful trip!",
+    "Merged_content_user": "Hi Grace, my name is Jennifer Thompson. I'm planning a trip from Chicago to Los Angeles and I need some help with my travel arrangements.I'm looking to fly out on August 10th in the morning and return on August 15th in the evening.Sure, take your time.That sounds good. What's the pricing for that option?Hmm, that's a bit higher than I expected. Do you have any other options?Okay, what's the price for that option?That's better. Are there any other options available?What's the price for that option?Thank you for providing me with these options, Grace. I think I'll go with the Northwind Airlines option. It has a good schedule and a reasonable price.Sure, my full name is Jennifer Thompson and my date of birth is January 10, 1990.Sure, take your time.No, that will be all. Thank you so much for your help, Grace. I appreciate it.",
+    "Merged_content_agent": "Hello, thank you for calling Woodgrove Travel. My name is Grace King. How may I assist you today?Of course, Jennifer. I'd be happy to assist you. When are you planning to travel?Great! Let me check the available options for you. Please give me a moment.I have found a few flight options for you, Jennifer. The first option is with Contoso Airways, flight CA123, departing from Chicago O'Hare International Airport at 8:00 AM and arriving at Los Angeles International Airport at 10:30 AM. The return flight is on CA456, departing from Los Angeles at 6:00 PM and arriving in Chicago at 12:30 AM.The total cost for this option is $500, including taxes and fees.Certainly, let me check for alternative options.I found another option for you, Jennifer. Northwind Airlines has a flight NW789 departing from Chicago at 9:30 AM and arriving in Los Angeles at 12:00 PM. The return flight is on NW987, departing from Los Angeles at 8:00 PM and arriving in Chicago at 2:30 AM.The total cost for this option is $450, including taxes and fees.Let me check for more options for you.I found one more option, Jennifer. Adatum Air has a flight AD456 departing from Chicago at 11:00 AM and arriving in Los Angeles at 1:30 PM. The return flight is on AD789, departing from Los Angeles at 9:00 PM and arriving in Chicago at 3:30 AM.The total cost for this option is $480, including taxes and fees.That sounds like a great choice, Jennifer. Let me go ahead and book the flights for you. Can I have your full name as it appears on your ID and your date of birth?Thank you, Jennifer. I will now proceed with the booking process. Please hold on for a moment.Jennifer, I have successfully booked your flights with Northwind Airlines. Your reservation number is NW123456. Is there anything else I can assist you with?You're welcome, Jennifer. It was my pleasure to assist you. Have a wonderful trip!",
+    "Full_conversation": "Agent: Hello, thank you for calling Woodgrove Travel. My name is Grace King. How may I assist you today?\nCustomer: Hi Grace, my name is Jennifer Thompson. I'm planning a trip from Chicago to Los Angeles and I need some help with my travel arrangements.\nAgent: Of course, Jennifer. I'd be happy to assist you. When are you planning to travel?\nCustomer: I'm looking to fly out on August 10th in the morning and return on August 15th in the evening.\nAgent: Great! Let me check the available options for you. Please give me a moment.\nCustomer: Sure, take your time.\nAgent: I have found a few flight options for you, Jennifer. The first option is with Contoso Airways, flight CA123, departing from Chicago O'Hare International Airport at 8:00 AM and arriving at Los Angeles International Airport at 10:30 AM. The return flight is on CA456, departing from Los Angeles at 6:00 PM and arriving in Chicago at 12:30 AM.\nCustomer: That sounds good. What's the pricing for that option?\nAgent: The total cost for this option is $500, including taxes and fees.\nCustomer: Hmm, that's a bit higher than I expected. Do you have any other options?\nAgent: Certainly, let me check for alternative options.\nAgent: I found another option for you, Jennifer. Northwind Airlines has a flight NW789 departing from Chicago at 9:30 AM and arriving in Los Angeles at 12:00 PM. The return flight is on NW987, departing from Los Angeles at 8:00 PM and arriving in Chicago at 2:30 AM.\nCustomer: Okay, what's the price for that option?\nAgent: The total cost for this option is $450, including taxes and fees.\nCustomer: That's better. Are there any other options available?\nAgent: Let me check for more options for you.\nAgent: I found one more option, Jennifer. Adatum Air has a flight AD456 departing from Chicago at 11:00 AM and arriving in Los Angeles at 1:30 PM. The return flight is on AD789, departing from Los Angeles at 9:00 PM and arriving in Chicago at 3:30 AM.\nCustomer: What's the price for that option?\nAgent: The total cost for this option is $480, including taxes and fees.\nCustomer: Thank you for providing me with these options, Grace. I think I'll go with the Northwind Airlines option. It has a good schedule and a reasonable price.\nAgent: That sounds like a great choice, Jennifer. Let me go ahead and book the flights for you. Can I have your full name as it appears on your ID and your date of birth?\nCustomer: Sure, my full name is Jennifer Thompson and my date of birth is January 10, 1990.\nAgent: Thank you, Jennifer. I will now proceed with the booking process. Please hold on for a moment.\nCustomer: Sure, take your time.\nAgent: Jennifer, I have successfully booked your flights with Northwind Airlines. Your reservation number is NW123456. Is there anything else I can assist you with?\nCustomer: No, that will be all. Thank you so much for your help, Grace. I appreciate it.\nAgent: You're welcome, Jennifer. It was my pleasure to assist you. Have a wonderful trip!\n"
+  }
+}
