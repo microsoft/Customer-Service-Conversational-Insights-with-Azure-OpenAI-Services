@@ -96,7 +96,7 @@ These insights show a sample of what could be derived from the content stored in
 
 **Added Functionality** 
 
-The insights shown in the cards include data that has been processed in our HomeController, from a query against an Azure AI Search Index. Our Azure AI Search Index contains all uploaded conversations and have processing applied via Azure OpenAI and Cognitive skills. Shown below is query result displaying attributes for a single processed conversation. ![image](/images/UpdatingUI/searchIndex.png)
+The insights shown in the cards include data that has been processed in our HomeController, from a query against an Azure AI Search Index. Our Azure AI Search Index contains all uploaded conversations and have processing applied via Azure OpenAI and cognitive skills. Shown below is query result displaying attributes for a single processed conversation. ![image](/images/UpdatingUI/searchIndex.png)
 
 Using the Azure AI Search API, the search index is queried within the HomeController. The returned data include Facets that are already available from the index content and these are used to generate insights across the conversations. Each depending on the insight, that is being generated, different facets should be looked to. In our example, aggregated insights around customer sentiment are compared to the positive and negative sentiment that was calculated in that Facet. These calculated values are then passed to the view model that will be displayed on the Search.cshtml view. The model is shown below. ![image](/images/UpdatingUI/model.png)
 
