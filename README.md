@@ -10,7 +10,7 @@ User story
 
 **Solution accelerator overview**
 
-This is a solution accelerator built on top of Azure Cognitive Search
+This is a solution accelerator built on top of Azure AI Search
 Service and Azure OpenAI Service that leverages LLM to synthesize
 post-contact center transcripts for intelligent contact center scenarios. It
 shows how raw transcripts are converted into simplified customer call
@@ -25,7 +25,7 @@ for improvement.
 
 **Key features**
 
-Azure Cognitive Search and Azure OpenAI can enable new and 
+Azure AI Search and Azure OpenAI can enable new and 
 innovative ways to run contact center operations. Post call insights 
 can inform data driven actions to drive decisions around staffing and operations.
 
@@ -58,7 +58,7 @@ These requirements must be met before the solution accelerator is installed.
 
 ### Products used/licenses required
 
--   Azure Cognitive Search
+-   Azure AI Search
 
 -   Azure OpenAI
 
@@ -121,11 +121,11 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 
 
-### Azure Cognitive Search - enabling Semantic Search
+### Azure AI Search - enabling Semantic Search
 
 After deploying the solution accelerator, you can optionally enable the semantic
-search capability on your Azure Cognitive Search Index. In Azure
-Cognitive Search, semantic search measurably improves search relevance
+search capability on your Azure AI Search Index. In Azure
+AI Search, semantic search measurably improves search relevance
 by using language understanding to re-rank search results and can enable
 more relevant and meaningful results while searching the mined insights.\
 \
@@ -139,9 +139,9 @@ Use the following steps to enable and configure semantic search:
 
 -   Enable semantic search by [following these
     steps](https://learn.microsoft.com/en-us/azure/search/semantic-how-to-enable-disable?tabs=enable-portal)
-    on your Azure Cognitive Search resource in Azure.
+    on your Azure AI Search resource in Azure.
 
--   On the same Azure Cognitive Search resource, click "Indexes" in the
+-   On the same Azure AI Search resource, click "Indexes" in the
     left menu and select the "conversational-index" from the list of
     indexes that was created when you deployed.\
     \
@@ -208,7 +208,7 @@ Configuration page to an empty string:
 ### Integrate your OpenAI Prompt
 You can add your Azure OpenAI prompt to extract specific entities in the template parameter OPENAI_PROMPT.
 <br>
-The defined keys have to be added in the OPENAI_PROMPT_KEYS parameter as well, to enable the data Push to the Azure Cognitive Search index.
+The defined keys have to be added in the OPENAI_PROMPT_KEYS parameter as well, to enable the data Push to the Azure AI Search index.
 <br>
 Please be sure to set up both parameters accordingly to your entities name.
 
@@ -219,7 +219,7 @@ Please be sure to set up both parameters accordingly to your entities name.
 
 ### Modify the prompt after deployment
 
-You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure Cognitive Search index.
+You can modify the Azure OpenAI prompt after the deployment by modifying the Azure Function application settings ("OPENAI_PROMPT", "OPENAI_PROMPT_KEYS") and creating the required field in the Azure AI Search index.
 
 <h2><img src="/images/readMe/supportingDocuments.png" width="64">
 <br/>
