@@ -1,7 +1,7 @@
-# Cognitive Search UI Template
+# AI Search UI Template
 This folder contains a basic web front end that can be used to quickly create a view of your search results.  With just a few simple steps, you can configure this template UI to query your newly created search index.
 
-The Cognitive Search Template contains a .NET Core MVC Web app used as a Template UI for querying a search index. This is the focus of this README.
+The AI Search Template contains a .NET Core MVC Web app used as a Template UI for querying a search index. This is the focus of this README.
 
 In just a few steps, you can configure this template UI to query your search index. This template will render a web page similar to the following:
 
@@ -32,10 +32,10 @@ This file contains a mix of required and optional fields described below.
   "IsPathBase64Encoded": true,
 ```
 
-1. **SearchServiceName** - The name of your Azure Cognitive Search service
-2. **SearchApiKey** - The API Key for your Azure Cognitive Search service
-3. **SearchIndexName** - The name of your Azure Cognitive Search index
-4. **SearchIndexerName** - The name of your Azure Cognitive Search indexer
+1. **SearchServiceName** - The name of your Azure AI Search service
+2. **SearchApiKey** - The API Key for your Azure AI Search service
+3. **SearchIndexName** - The name of your Azure AI Search index
+4. **SearchIndexerName** - The name of your Azure AI Search indexer
 5. **StorageAccountName** - The name of your Azure Blob Storage Account
 6. **StorageAccountKey** - The key for your Azure Blob Storage Account
 7. **StorageContainerAddress** - The URL to the storage container where your audio files are stored. This should be in the following format: *https://*storageaccountname*.blob.core.windows.net/*containername**
@@ -88,17 +88,17 @@ If you would like to further customize the UI, you can update the following fiel
 **ResultFields** - Defines which fields will be returned in the results view. Only fields that are used for the UI should be included here to reduce latency caused by larger documents. By default all fields are included.
 
 ## 3. Aggregated Analytics 
-There are two insight cards at the top of the home page search, one called Average Customer Satisfaction and the other called Top Discussed Cities. These cards provide insights & analysis across the various conversations uploaded and stored in Azure Cognitive Search index.
+There are two insight cards at the top of the home page search, one called Average Customer Satisfaction and the other called Top Discussed Cities. These cards provide insights & analysis across the various conversations uploaded and stored in Azure AI Search index.
 
 The Average Customer Satisfaction card provides two percentages, percentage of satisfied customers & percentage of unsatisfied customers, as well as the top 5 negative customer complaint trends. The Top Discussed Cities card provides two fields, the top origin city and the top destination city, as well as the top 5 negative hotel trends. 
 
-These insights show a sample of what could be derived from the content stored in the Azure Cognitive Search index and can be easily customized and extended based on the available data and facets.
+These insights show a sample of what could be derived from the content stored in the Azure AI Search index and can be easily customized and extended based on the available data and facets.
 
 **Added Functionality** 
 
-The insights shown in the cards include data that has been processed in our HomeController, from a query against an Azure Cognitive Search Index. Our Azure Cognitive Search Index contains all uploaded conversations and have processing applied via Azure OpenAI and cognitive skills. Shown below is query result displaying attributes for a single processed conversation. ![image](/images/UpdatingUI/searchIndex.png)
+The insights shown in the cards include data that has been processed in our HomeController, from a query against an Azure AI Search Index. Our Azure AI Search Index contains all uploaded conversations and have processing applied via Azure OpenAI and AI skills. Shown below is query result displaying attributes for a single processed conversation. ![image](/images/UpdatingUI/searchIndex.png)
 
-Using the Azure Cognitive Search API, the search index is queried within the HomeController. The returned data include Facets that are already available from the index content and these are used to generate insights across the conversations. Each depending on the insight, that is being generated, different facets should be looked to. In our example, aggregated insights around customer sentiment are compared to the positive and negative sentiment that was calculated in that Facet. These calculated values are then passed to the view model that will be displayed on the Search.cshtml view. The model is shown below. ![image](/images/UpdatingUI/model.png)
+Using the Azure AI Search API, the search index is queried within the HomeController. The returned data include Facets that are already available from the index content and these are used to generate insights across the conversations. Each depending on the insight, that is being generated, different facets should be looked to. In our example, aggregated insights around customer sentiment are compared to the positive and negative sentiment that was calculated in that Facet. These calculated values are then passed to the view model that will be displayed on the Search.cshtml view. The model is shown below. ![image](/images/UpdatingUI/model.png)
 
 Below is a snippet of the function for retrieving customer satisfaction insights by utilizing the Facets.
 ![image](/images/UpdatingUI/function.png)
@@ -109,7 +109,7 @@ Below is a snippet of the function for retrieving customer satisfaction insights
 
 ## 4. Add additional customization
 
-This template serves as a great baseline for a Cognitive Search solution, however, you may want to make additional updates depending on your use case.
+This template serves as a great baseline for a AI Search solution, however, you may want to make additional updates depending on your use case.
 
 We have a special behavior if you have a field called *translated_text*. The UI will automatically show the original text and the translated text in the UI. This can be handy. If you would like to change this behavior (disable it, or change the name of the field), you can do that at details.js (GetTranscriptHTML method).
 
@@ -139,4 +139,4 @@ Much of the UI is rendered dynamically by javascript. Some important files to kn
 
 2. **wwroot/js/details.js** - contains the code for rending the detail view once a result is selected
 
-3. **Search/DocumentSearchClient.cs** - contains the code for talking with Azure Cognitive Search's APIs. Setting breakpoints in this file is a great way to debug.
+3. **Search/DocumentSearchClient.cs** - contains the code for talking with Azure AI Search's APIs. Setting breakpoints in this file is a great way to debug.
