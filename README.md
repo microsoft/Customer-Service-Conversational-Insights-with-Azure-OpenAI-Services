@@ -92,9 +92,9 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
 
 2.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:
 
-    -   newOrExistingOpenAIResource - Determines whether to create a new Azure Open AI resource or use an existing resource within the deployment. 
-        - **existing**: Select this option if you already have an Azure Open AI resource that you want to use.
-        - **new**:      Choose this option if you want to create a new Azure Open AI resource as part of this deployment. The template will provision a new resource with the specified configuration settings.
+    -   newOrExistingOpenAIResource - Determines whether to create a new Azure OpenAI resource or use an existing resource within the deployment. 
+        - **existing**: Select this option if you already have an Azure OpenAI resource that you want to use.
+        - **new**:      Choose this option if you want to create a new Azure OpenAI resource as part of this deployment. The template will provision a new resource with the specified configuration settings.
   
         **Note:** The default value for this field is **existing**.
         
