@@ -82,7 +82,7 @@ Please check here for detailed parameters explanations: [Getting started with th
 Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-openai-prompt)
 
 ### Solution accelerator architecture
-![image](/images/readMe/image4.png)
+![image](/images/readMe/ckm_v1_architecture.png)
 
 ### **How to install/deploy**
 
