@@ -1,6 +1,6 @@
 ### **Solution Architecture Walkthrough**
 
-![image](/images/readMe/image4.png "Inserting image...")
+![image](/images/readMe/ckm_v1_architecture.png "Inserting image...")
 
 Call and text recordings are uploaded through the web application. Those
 recordings are stored in a storage account and processed and have meta
