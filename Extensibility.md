@@ -16,7 +16,7 @@ are areas for extending: 
     > especially as new versions of GPT are released.  
 
 2.  **Q&A style interface for users to ask questions across all indexed conversations**
-    > In the current accelerator, a keyword search via Azure Cognitive
+    > In the current accelerator, a keyword search via Azure AI
     > Search is the only way to filter and find conversations relevant
     > to their inquiry. Using a Q&A approach would unlock a
     > conversational approach and follow up questions. This could also
