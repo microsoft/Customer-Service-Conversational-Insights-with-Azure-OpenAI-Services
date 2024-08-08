@@ -84,7 +84,7 @@ namespace CognitiveSearch.UI
                 Schema = new SearchSchema().AddFields(_searchIndexClient.GetIndex(IndexName).Value.Fields);
                 Model = new SearchModel(Schema);
 
-                _isPathBase64Encoded = (configuration.GetSection("IsPathBase64Encoded")?.Value == "True");
+                _isPathBase64Encoded = (configuration.GetSection("IsPathBase64Encoded")?.Value.ToLower() == "true");
 
             }
             catch (Exception e)

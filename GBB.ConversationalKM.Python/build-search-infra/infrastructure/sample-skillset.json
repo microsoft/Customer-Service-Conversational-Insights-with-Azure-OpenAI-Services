@@ -8,7 +8,7 @@
             "description": null,
             "context": "/document/merged_content_user",
             "defaultLanguageCode": "en",
-            "maxKeyPhraseCount": null,
+            "maxKeyPhraseCount": 10,
             "inputs": [
                 {
                     "name": "text",
