@@ -312,6 +312,8 @@
       "metadata": {
         "description": "The prompt to use for the OpenAI API"
       }
+
+      /*"comments": "Reference: -For further details and guidance on how to effectively write metaprompt or system prompts, please refer to https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/system-message . Last Updated: 05/28/2024"*/
     },
     "OPENAI_PROMPT_KEYS": {
       "type": "string",
@@ -473,7 +475,7 @@
           "properties": {
               "mode": "Incremental",
               "templateLink": {
-                  "uri": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-speech-sdk/master/samples/ingestion/ingestion-client/Setup/ArmTemplateBatch.json",
+                  "uri": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-speech-sdk/master/samples/ingestion/ingestion-client/infra/main.json",
                   "contentVersion": "1.0.0.0"
               },
               "parameters": {
@@ -527,6 +529,9 @@
                   },
                   "DeploymentId": {
                       "value": "[parameters('speechDeploymentId')]"
+                  },
+                  "CompletedServiceBusConnectionString": {
+                      "value": ""
                   }
               }
           }
@@ -827,8 +832,8 @@
               "openai_function_key": "[variables('clientKey')]",
               "deployment_type": "audio",
               "OPENAI_PROMPT_KEYS": "[parameters('OPENAI_PROMPT_KEYS')]",
-              "audio_user_channel": "[parameters('audio_user_channel')]"
-          }
+              "audio_user_channel": "[parameters('audio_user_channel')]"          
+              }
       },
       {
           "type": "Microsoft.Web/sites",
