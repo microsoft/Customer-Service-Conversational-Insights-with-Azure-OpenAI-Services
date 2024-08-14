@@ -12,7 +12,7 @@ User story
 
 This solution accelerator enables customers with large amounts of conversational data to use generative AI to surface key phrases alongside operational metrics. This enables users to discover valuable insights for targeted business impact.
 
-**Version history:** An updated version of the Conversation Knowledge Mining solution accelerator was published on mm/dd/yyyy. If you deployed the accelerator prior to that date, please see “Version history” in the [Supporting documentation](#supporting-documentation) section.
+**Version history:** An updated version of the Conversation Knowledge Mining solution accelerator was published on 08/15/2024. If you deployed the accelerator prior to that date, please see “Version history” in the [Supporting documentation](#supporting-documentation) section.
 
 ### Technical key features
 
@@ -194,13 +194,13 @@ If you'd like to customize the accelerator, here are some ways you might do that
 -  [Future extensibility documentation](Extensibility.md)
 
 ### Version history
-An updated version of the Conversation Knowledge Mining (CKM) solution accelerator was published on mm/dd/yyyy. If you deployed the accelerator prior to that date, please note that CKM v2 cannot be deployed over CKM v1. Please also note that the CKM v2 .json conversation file format has been revised to include additional metadata, therefore CKM v1 files are no longer compatible. For resources related to CKM v1, please visit our archive (link-to-archive).
+An updated version of the Conversation Knowledge Mining (CKM) solution accelerator was published on 08/15/2024. If you deployed the accelerator prior to that date, please note that CKM v2 cannot be deployed over CKM v1. Please also note that the CKM v2 .json conversation file format has been revised to include additional metadata, therefore CKM v1 files are no longer compatible. For resources related to CKM v1, please visit our archive ([link-to-archive](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/tree/ckm-v1)).
 
 <h2><img src="/images/readMe/customerTruth.png" width="64">
 </br>
 Customer truth
 </h2>
-Customer stories coming soon. For early access, contact: nfelton@microsoft.com
+Customer stories coming soon.
 
 <br/>
 <br/>
