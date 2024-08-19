@@ -771,7 +771,7 @@
                       },
                       {
                           "name": "WEBSITE_RUN_FROM_PACKAGE",
-                          "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/master/infrastructure/deploy/csci-audio-dep.zip"
+                          "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/ckm-v1/infrastructure/deploy/csci-audio-dep.zip"
                       }
                   ]
               },
@@ -825,7 +825,7 @@
               "cognitive_search_knowledge_store_table_keyphrases": "keyphrasestable",
               "FUNCTIONS_EXTENSION_VERSION": "~4",
               "FUNCTIONS_WORKER_RUNTIME": "python",
-              "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/master/infrastructure/deploy/csci-audio-dep.zip",
+              "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/ckm-v1/infrastructure/deploy/csci-audio-dep.zip",
               "function_name": "[parameters('functionName')]",
               "function_key": "[variables('clientKey')]",
               "openai_function_name": "[variables('openAIFunctionName')]",
