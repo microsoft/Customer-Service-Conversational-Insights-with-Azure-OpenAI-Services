@@ -19,7 +19,7 @@
     },
     "openAIFunctionDockerImageReference": {
       "type": "string",
-      "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-acs-oai-async:latest",
+      "defaultValue": "DOCKER|ckmcontainerregistry.azurecr.io/ckm-acs-oai-async:latest",
       "metadata": {
         "description": "The reference to the OpenAI Function Docker image for the Linux App Service Plan"
       }
@@ -771,7 +771,7 @@
                       },
                       {
                           "name": "WEBSITE_RUN_FROM_PACKAGE",
-                          "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/ckm-v1/infrastructure/deploy/csci-audio-dep.zip"
+                          "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/ckmv1-resources/infrastructure/deploy/csci-audio-dep.zip"
                       }
                   ]
               },
