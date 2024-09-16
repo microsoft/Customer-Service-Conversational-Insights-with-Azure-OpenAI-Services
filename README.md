@@ -114,7 +114,14 @@ Learn more on how to configure your [Azure OpenAI prompt here](#integrate-your-o
  
 2.  Click \'review and create\' to start the deployment. The deployment can take up to 15 minutes to complete.
 
-3.   When deployment is complete, launch the application by navigating to
+3. When deployment is complete, **YOU STILL NEED TO** update the system-managed identities to have a successful indexing, follow these steps:
+    - Turn on system managed identity in Azure Search, and give it Resource-group Contributor permission
+    - Turn on system managed identity in both Azure Functions, and give them Resource-group Contributor permission
+    - You also need to update the FunctionKeys inside the Search custom-skillset definition. There 2 Functions used as custom skills: EvaluateConversation and StartProcessing which exist in different FunctionApps.
+        - In each FunctionApp, go to the respective Function, click on it, you will see the new key. Copy it in a Notepad.
+        - Go back to the Azure Search custom skillset definition, navigate to the Azure Function, replace the new FunctionKey instead of the ```code``` request parameter.
+
+4.   When deployment is complete, launch the application by navigating to
     your Azure resource group, choosing the app service resource, and
     clicking on the default domain. You should bookmark this url to have
     quick access to your deployed application.
