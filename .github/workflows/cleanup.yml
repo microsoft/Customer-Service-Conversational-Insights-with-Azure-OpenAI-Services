@@ -2,7 +2,7 @@ name: CleanUp Resources
 on:
   push:
     branches:
-      - PSL-7727
+      - main
   workflow_dispatch:
 jobs:
   az_cleanup:

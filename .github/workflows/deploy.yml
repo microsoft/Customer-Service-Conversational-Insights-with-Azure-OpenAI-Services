@@ -2,7 +2,7 @@ name: Deploy Azure Resources-Updated
 on:
   push:
     branches:
-      - PSL-7727
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
