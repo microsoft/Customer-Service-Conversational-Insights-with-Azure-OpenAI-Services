@@ -2,3 +2,4 @@ msal==1.24.0b1
 azure-identity
 pandas
 azure-storage-file-datalake
+openai==0.27.8
