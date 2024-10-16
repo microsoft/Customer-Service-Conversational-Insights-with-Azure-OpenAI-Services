@@ -771,7 +771,7 @@
                       },
                       {
                           "name": "WEBSITE_RUN_FROM_PACKAGE",
-                          "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/ckm-v1/infrastructure/deploy/csci-audio-dep.zip"
+                          "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/ckm-v1-python/infrastructure/deploy/csci-audio-dep.zip"
                       }
                   ]
               },
