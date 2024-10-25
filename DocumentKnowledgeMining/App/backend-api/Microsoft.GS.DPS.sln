@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.GS.DPS", "Microso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.GS.DPS.Host", "Microsoft.GS.DPS.Host\Microsoft.GS.DPS.Host.csproj", "{3BBCDD67-966B-442A-9A34-FE6D311B4824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.GS.DPS.Playground", "Microsoft.GS.DPS.Playground\Microsoft.GS.DPS.Playground.csproj", "{D3A41803-45E6-4641-A27A-CB86A2337361}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,8 +21,6 @@ Global
 		{3BBCDD67-966B-442A-9A34-FE6D311B4824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BBCDD67-966B-442A-9A34-FE6D311B4824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BBCDD67-966B-442A-9A34-FE6D311B4824}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3A41803-45E6-4641-A27A-CB86A2337361}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{D3A41803-45E6-4641-A27A-CB86A2337361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
