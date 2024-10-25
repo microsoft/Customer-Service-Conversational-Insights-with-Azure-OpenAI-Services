@@ -1,0 +1,21 @@
+﻿[EXTRACT KEYWORDS RULES]
+IT SHOULD BE A LIST OF DICTIONARIES WITH CATEGORY AND KEYWORDS
+KEYWORDS SHOULD BE CATEGORY SPECIFIC
+KEYWORDS SHOULD BE A LIST OF STRINGS
+KEYWORDS COUNT CAN BE UP TO 50
+CATEGORY COUNT CAN BE UP TO 10
+[END RULES]
+
+[EXAMPLE]
+[
+    {
+        "category1": ["keyword1", "keyword2", "keyword3"]
+    },
+    {
+        "category2": ["keyword1", "keyword2", "keyword3"]
+    }
+]
+[END EXAMPLE]
+
+Extract Keywords from this :
+{{$input}}

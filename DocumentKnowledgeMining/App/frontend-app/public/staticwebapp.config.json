@@ -1,0 +1,19 @@
+{
+    "navigationFallback": {
+        "rewrite": "/"
+    },
+    "globalHeaders": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "cache-control": "private, must-revalidate, max-age=1800",
+        "content-security-policy": "default-src 'self'; frame-src 'self' login.microsoftonline.com msit.powerbi.com; object-src 'none'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self'; connect-src 'self' __api_url__/ __app_insights_url__/"
+    },
+    "routes": [
+        {
+            "route": "/*.{svg,png,jpg,woff2,woff,ttf,eot,mp4,webp}",
+            "headers": {
+                "cache-control": "private, must-revalidate, max-age=43200",
+                "content-security-policy": ""
+            }
+        }
+    ] 
+}

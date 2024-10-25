@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RollForward>LatestMajor</RollForward>
+        <AssemblyName>Microsoft.KernelMemory.MemoryDb.Redis</AssemblyName>
+        <RootNamespace>Microsoft.KernelMemory.MemoryDb.Redis</RootNamespace>
+        <NoWarn>$(NoWarn);KMEXP00;KMEXP03;CA1724;CA1308;CA1859;</NoWarn>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\service\Abstractions\Abstractions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="System.Linq.Async" />
+        <PackageReference Include="NRedisStack" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <IsPackable>true</IsPackable>
+        <PackageId>Microsoft.KernelMemory.MemoryDb.Redis</PackageId>
+        <Product>Redis connector for Kernel Memory</Product>
+        <Description>Redis connector for Microsoft Kernel Memory, to store and search memory using Redis vector search and other Redis features.</Description>
+        <PackageTags>Redis Memory, RAG, Kernel Memory, Redis, HNSW, AI, Artificial Intelligence, Embeddings, Vector DB, Vector Search, ETL</PackageTags>
+        <DocumentationFile>bin/$(Configuration)/$(TargetFramework)/$(AssemblyName).xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md" Link="README.md" Pack="true" PackagePath="." Visible="false" />
+    </ItemGroup>
+
+</Project>

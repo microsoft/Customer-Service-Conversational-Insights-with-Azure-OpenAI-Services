@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "7c4cb09e-5449-4890-aba3-043382ffead6",
+		"name": "DPS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2173725",
+		"_collection_link": "https://bold-sunset-4254.postman.co/workspace/Chanel~2157a196-1b4d-49fc-9166-9cb6f4465aa2/collection/2173725-7c4cb09e-5449-4890-aba3-043382ffead6?action=share&source=collection_link&creator=2173725"
+	},
+	"item": [
+		{
+			"name": "ImportDocument",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/donlee/OneDrive - Microsoft/Myfiles/Downloads/eyes_surgery_pre_1_4.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{km-local}}/Documents/ImportDocument",
+					"host": [
+						"{{km-local}}"
+					],
+					"path": [
+						"Documents",
+						"ImportDocument"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CheckReadyStatus",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{km-local}}/Documents/76f0af8b0dbf4419ac70e9a2e7d42fe2202408161024434426294/CheckReadyStatus",
+					"host": [
+						"{{km-local}}"
+					],
+					"path": [
+						"Documents",
+						"76f0af8b0dbf4419ac70e9a2e7d42fe2202408161024434426294",
+						"CheckReadyStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CheckProcessStatus",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{km-local}}/Documents/76f0af8b0dbf4419ac70e9a2e7d42fe2202408161024434426294/CheckProcessStatus",
+					"host": [
+						"{{km-local}}"
+					],
+					"path": [
+						"Documents",
+						"76f0af8b0dbf4419ac70e9a2e7d42fe2202408161024434426294",
+						"CheckProcessStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Imported Document",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/donlee/OneDrive - Microsoft/Myfiles/Downloads/eyes_surgery_pre_1_4.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{km-local}}/Documents/76f0af8b0dbf4419ac70e9a2e7d42fe2202408161024434426294/eyes_surgery_pre_1_4.pdf",
+					"host": [
+						"{{km-local}}"
+					],
+					"path": [
+						"Documents",
+						"76f0af8b0dbf4419ac70e9a2e7d42fe2202408161024434426294",
+						"eyes_surgery_pre_1_4.pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Imported Document Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/donlee/OneDrive - Microsoft/Myfiles/Downloads/eyes_surgery_pre_1_4.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{km-local}}/Documents/76f0af8b0dbf4419ac70e9a2e7d42fe2202408161024434426294",
+					"host": [
+						"{{km-local}}"
+					],
+					"path": [
+						"Documents",
+						"76f0af8b0dbf4419ac70e9a2e7d42fe2202408161024434426294"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\" : \"Analyze Google's 2023 and 2022 earning trend and show me what's the good thing or what's the bad thing to them.\\nAdd your referencing document name and its page number in between your statements.\",\r\n    \"documents\" : []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{dpsapi}}/Documents/Ask",
+					"host": [
+						"{{dpsapi}}"
+					],
+					"path": [
+						"Documents",
+						"Ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Chat",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\" : \"Extract Keyword Entities by this document's content type. Keyword should be categorized. It should organized 1 depth Json type. it shoudn't be markdown format.\",\r\n    \"documents\" : [\"14c203583c514eb29e8aba18dd7fc6e9202408161210075691594\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{km-local}}/Documents/Ask",
+					"host": [
+						"{{km-local}}"
+					],
+					"path": [
+						"Documents",
+						"Ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{km-local}}/Documents/Search",
+					"host": [
+						"{{km-local}}"
+					],
+					"path": [
+						"Documents",
+						"Search"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

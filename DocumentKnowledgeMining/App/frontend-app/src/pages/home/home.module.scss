@@ -1,0 +1,56 @@
+.sidecar-hidden {
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidecar-shown {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* In your CSS file */
+.customDropdown {
+  width: 150px; /* Adjust the dropdown width */
+}
+
+.customDropdownMenu {
+  max-height: 100px; /* Limit the height of the dropdown menu */
+  overflow-y: auto;  /* Enable scrolling if the list is too long */
+}
+
+.results-container {
+  max-block-size: calc(75vh - 80px);
+}
+
+.no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+.error-msg{
+  line-height: 30px;
+  font-size: 1.5rem;
+  font-weight: 350;
+}
+
+
+@media (min-width: 768px) {
+  .filters-panel {
+    width: 15% !important;
+    min-width: 229px;
+  }
+  
+  .documents-panel {
+    width: 34% !important;
+    min-width: 410px;
+  }
+  
+  .chat-panel {
+    width: 51% !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  .dialog-chat-room {
+    max-height: calc(-60px + 70vh) !important;
+  }
+}

@@ -1,0 +1,101 @@
+.options-panel-container {
+    padding-bottom: 20px; /* Add more padding below the toggle */
+    margin-top: 2px;
+}
+
+.options-panel-container.sticky {
+    position: sticky;
+    top: -65px;
+    z-index: 2;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(225, 223, 221, 1);
+    border-radius: 0px;
+    padding-bottom: 16px;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.slider-container {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 9999px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.slider {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #333333;
+    transition: transform 0.3s ease;
+    z-index: 1; /* Increased z-index */
+}
+
+.slider.Indexed\documents {
+    transform: translateX(0);
+}
+
+.slider.Selected {
+    transform: translateX(100%);
+}
+
+.slider-button {
+    z-index: 2; /* Increased z-index */
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 50%;
+    height: 100%;
+    padding: 0 10px;
+    text-align: center;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+/* Divider line */
+.slider-container::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    height: 80%;
+    width: 1px;
+    background-color: #e0e0e0;
+    z-index: 0; /* Behind the slider and buttons */
+}
+
+.slider-button.active {
+    color: white;
+}
+
+.slider-button:not(.active) {
+    color: #333333;
+}
+
+.slider-button:disabled {
+    color: #b0b0b0;
+    cursor: not-allowed;
+}
+
+.slider-button:focus {
+    outline: none;
+}

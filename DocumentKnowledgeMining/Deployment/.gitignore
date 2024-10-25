@@ -1,0 +1,17 @@
+# Ignore Bicep build artifacts
+*.json
+
+# Ignore YAML files
+*.yaml
+*.yml
+
+# Ignore other common files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+appsettings.dev.jsonl
+
+# exception
+!deploy.service.yaml

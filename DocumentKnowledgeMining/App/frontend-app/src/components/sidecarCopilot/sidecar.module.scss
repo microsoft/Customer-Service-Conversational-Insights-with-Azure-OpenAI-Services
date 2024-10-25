@@ -1,0 +1,24 @@
+.new-topic {
+  transition: max-width 1s !important;
+  min-width: 32px !important;
+  max-width: 32px;
+  height: 32px;
+  padding-left: 5px !important;
+  padding-right: 25px !important;
+  justify-content: flex-start !important;
+  text-wrap: nowrap;
+  &:hover {
+      max-width: 180px !important;
+  }
+}
+
+.sidecar {
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.sidecar-shown {
+  transform: translateX(0);
+  visibility: visible;
+}

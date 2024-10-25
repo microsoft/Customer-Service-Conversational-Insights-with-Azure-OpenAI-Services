@@ -1,0 +1,44 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: kmgs-ingress
+  namespace: ns-km
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"  # Adjust this to your ClusterIssuer
+    nginx.ingress.kubernetes.io/proxy-body-size: "0"
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/proxy-connect-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "3600"
+    nginx.ingress.kubernetes.io/send-timeout: "3600"
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+  ingressClassName: webapprouting.kubernetes.azure.com
+  defaultBackend:
+    service:
+      name: frontapp-service
+      port:
+        number: 5900
+  rules:
+  - host: {{ fqdn }}
+    http:
+      paths:
+      - path: /backend(/|$)(.*)
+        pathType: Prefix
+        backend:
+          service:
+            name: aiservice-service
+            port:
+              number: 9001
+      - path: /()(.*)
+        pathType: Prefix
+        backend:
+          service:
+            name: frontapp-service
+            port:
+              number: 5900
+  tls:
+  - hosts:
+    - {{ fqdn }}
+    secretName: secret-kmgs

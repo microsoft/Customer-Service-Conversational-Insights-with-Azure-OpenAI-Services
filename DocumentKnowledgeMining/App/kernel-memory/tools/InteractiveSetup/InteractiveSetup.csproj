@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <AssemblyName>Microsoft.KernelMemory.InteractiveSetup</AssemblyName>
+        <RootNamespace>Microsoft.KernelMemory.InteractiveSetup</RootNamespace>
+        <NoWarn>$(NoWarn);CA1031;CA1303;CA1724;</NoWarn>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\service\Core\Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" />
+        <PackageReference Include="ReadLine" />
+    </ItemGroup>
+
+</Project>

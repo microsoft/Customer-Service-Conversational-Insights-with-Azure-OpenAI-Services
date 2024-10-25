@@ -1,0 +1,14 @@
+.input_wrapper {
+    border-radius: 0px !important;
+    width: 100%;
+    height: 48px;
+}
+/* Focus element */
+.input_wrapper:focus-within::after {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search_box{
+    width: 60%;
+}

@@ -1,9 +1,5 @@
 # Knowledge Mining Solution Accelerator
 
-MENU: [**USER STORY**](#user-story) \| [**SCENARIOS**](#scenarios)  \| [**SUPPORTING DOCUMENTS**](#supporting-documents) \|
-[**CUSTOMER TRUTH**](#customer-truth)
-
-
 <h2><img src="./ConversationKnowledgeMining/images/readMe/userStory.png" width="64">
 <br/>
 User story
@@ -12,8 +8,6 @@ User story
 **Solution accelerator overview**
 
 This solution accelerator is a powerful tool that helps you create your knowledge mining solutions. The accelerator can be used by any customer looking for reusable architecture and code snippets to knowledge mining solutions with their own enterprise data. 
-
-It leverages Azure Open AI Service, Azure AI Search to knowledge mining solutions. 
 
 <h2>
 Scenarios
@@ -37,23 +31,6 @@ Please navigate to [Conversation Knowledge Mining](./ConversationKnowledgeMining
 
 Coming soon
 
-
-<h2><img src="./ConversationKnowledgeMining/images/readMe/supportingDocuments.png" width="64">
-<br/>
-Supporting documents
-</h2>
-
-Supporting documents coming soon.
-
-<br>
-<h2><img src="./ConversationKnowledgeMining/images/readMe/customerTruth.png" width="64">
-</br>
-Customer truth
-</h2>
-Customer stories coming soon.
-
-
-<br/>
 <br/>
 
 ## Disclaimers

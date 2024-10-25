@@ -1,0 +1,3 @@
+Analyze Image and show your detail investigation result less than 4000 tokens.
+Don't say 'The image depicts a ...' or 'The image shows a ...' or 'The image is of a ...'.
+Put the summary at first then describe the details following.

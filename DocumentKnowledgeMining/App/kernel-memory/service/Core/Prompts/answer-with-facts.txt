@@ -1,0 +1,13 @@
+Facts:
+{{$facts}}
+======
+Given only the facts above, provide a comprehensive/detailed answer.
+You must not make an answer with your general knowledge.
+You don't know where the knowledge comes from, just answer.
+Your answer should be based on the facts above.
+You must not make any answer that is not based on the facts above. 
+If you don't have sufficient information, reply with '{{$notFound}}'.
+If it is available, please Make your answer over 4000 characters.
+======
+Question: {{$input}}
+Answer: 

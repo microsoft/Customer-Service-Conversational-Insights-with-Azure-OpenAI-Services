@@ -1,0 +1,42 @@
+trigger:
+  - main
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  # Docker image name
+  imageName: "acrdps.azurecr.io/dps/kernel-memory"
+
+steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: "sdk"
+      version: "8.0.x" # Use the appropriate .NET version
+      installationPath: $(Agent.ToolsDirectory)/dotnet
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: "restore"
+      projects: $(Build.SourcesDirectory)/service/Service/*.csproj
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: "build"
+      projects: $(Build.SourcesDirectory)/service/Service/*.csproj
+      arguments: "--configuration Release"
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: "publish"
+      projects: $(Build.SourcesDirectory)/service/Service/*.csproj
+      arguments: "--configuration Release --output $(Build.ArtifactStagingDirectory)"
+
+  - task: Docker@2
+    inputs:
+      containerRegistry: "dps-acr-connection" # Service connection to your ACR
+      repository: "$(imageName)"
+      command: "buildAndPush"
+      Dockerfile: "$(Build.SourcesDirectory)/service/Service/Dockerfile"
+      tags: |
+        $(Build.BuildId)

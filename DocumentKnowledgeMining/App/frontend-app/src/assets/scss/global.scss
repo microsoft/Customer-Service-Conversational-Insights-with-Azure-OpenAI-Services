@@ -1,0 +1,107 @@
+/* Tailwind customizations */
+$max-content-width: 1600px;
+
+@layer base {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        // Fluent Dialog adds a padding-right of 17x which we disable here
+        padding-right: 0px !important;
+    }
+
+    #root {
+        @apply min-h-screen text-black flex flex-col;
+
+        // Expand vertically the first child - the fui-FluentProvider
+        >div {
+            @apply flex flex-col grow;
+        }
+
+        main {
+            @apply mx-auto grow w-full;
+            max-width: $max-content-width;
+        }
+    }
+
+    // Headers
+    h1 {
+        @apply text-5xl font-semilight text-black mb-3.5;
+    }
+
+    // SubHeaders
+    h2 {
+        @apply text-4xl font-normal text-black;
+    }
+
+    // Asset subtitles
+    h4 {
+        @apply text-2xl font-semibold text-black;
+    }
+
+    // Headerbar left title
+    h5 {
+        @apply text-xl font-semibold text-black;
+    }
+
+    // Asset card title
+    h6 {
+        @apply text-lg font-semibold text-black;
+    }
+
+    a:hover {
+        @apply underline;
+    }
+
+    a[type="button"]:hover {
+        @apply no-underline;
+    }
+
+    svg {
+        vertical-align: unset;
+    }
+}
+
+@layer components {
+    // .btn-primary {
+    //     @apply py-3 px-4 inline-block text-sm font-bold bg-white border border-secondary-500 text-secondary-500 rounded-3xl shadow-sm hover:bg-secondary-500 hover:text-white hover:no-underline focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-opacity-50;
+    // }
+
+    // Clamps a block of text to a certain number of lines,
+    // followed by an ellipsis in Webkit and Blink based browsers
+    // Reference: http://dropshado.ws/post/1015351370/webkit-line-clamp
+    @mixin text-clamp($lines: 2, $line-height: false) {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: $lines;
+
+        // Fallback for non-Webkit browsers
+        // (won't show `…` at the end of the block)
+        @if $line-height {
+            max-height: $line-height * $lines * 1px;
+        }
+    }
+
+    @for $i from 1 through 5 {
+        .text-clamp-#{$i} {
+            @include text-clamp($i)
+        }
+    }
+
+    // Full width within restricted parent
+    // Same as "relative left-1/2 right-1/2 -mx-[50vw] h-[88px] w-screen"
+    ._full-width {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+    }
+
+    ._max-content-width {
+        max-width: $max-content-width;
+    }
+}

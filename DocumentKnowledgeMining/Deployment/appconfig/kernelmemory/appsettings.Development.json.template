@@ -1,0 +1,253 @@
+{
+  "ConnectionStrings": {
+    "AppConfig": "{{ appconfig-url }}"
+  },
+  "KernelMemory": {
+    "Service": {
+      "RunWebService": true,
+      "RunHandlers": true,
+      "OpenApiEnabled": true,
+      "Handlers": {
+        "extract": {
+          "Assembly": "Microsoft.KernelMemory.Core.dll",
+          "Class": "Microsoft.KernelMemory.Handlers.TextExtractionHandler"
+        },
+        "keyword_extract": {
+          "Assembly": "Microsoft.KernelMemory.Core.dll",
+          "Class": "Microsoft.KernelMemory.Handlers.KeywordExtractingHandler"
+        },
+        "partition": {
+          "Assembly": "Microsoft.KernelMemory.Core.dll",
+          "Class": "Microsoft.KernelMemory.Handlers.TextPartitioningHandler"
+        },
+        "gen_embeddings": {
+          "Assembly": "Microsoft.KernelMemory.Core.dll",
+          "Class": "Microsoft.KernelMemory.Handlers.GenerateEmbeddingsHandler"
+        },
+        "save_records": {
+          "Assembly": "Microsoft.KernelMemory.Core.dll",
+          "Class": "Microsoft.KernelMemory.Handlers.SaveRecordsHandler"
+        },
+        "summarize": {
+          "Assembly": "Microsoft.KernelMemory.Core.dll",
+          "Class": "Microsoft.KernelMemory.Handlers.SummarizationHandler"
+        },
+        "delete_generated_files": {
+          "Assembly": "Microsoft.KernelMemory.Core.dll",
+          "Class": "Microsoft.KernelMemory.Handlers.DeleteGeneratedFilesHandler"
+        },
+        "private_delete_document": {
+          "Assembly": "Microsoft.KernelMemory.Core.dll",
+          "Class": "Microsoft.KernelMemory.Handlers.DeleteDocumentHandler"
+        },
+        "private_delete_index": {
+          "Assembly": "Microsoft.KernelMemory.Core.dll",
+          "Class": "Microsoft.KernelMemory.Handlers.DeleteIndexHandler"
+        },
+        "disabled_handler_example": {
+          "Assembly": "",
+          "Class": ""
+        }
+      }
+    },
+    "ContentStorageType": "",
+    "DocumentStorageType": "AzureBlobs",
+    "TextGeneratorType": "AzureOpenAIText",
+    "DefaultIndexName": "default",
+    "ServiceAuthorization": {
+      "Enabled": false,
+      "AuthenticationType": "APIKey",
+      "HttpHeaderName": "Authorization",
+      "AccessKey1": "",
+      "AccessKey2": ""
+    },
+    "DataIngestion": {
+      "OrchestrationType": "Distributed",
+      "DistributedOrchestration": {
+        "QueueType": "AzureQueues"
+      },
+      "EmbeddingGenerationEnabled": true,
+      "EmbeddingGeneratorTypes": [
+        "AzureOpenAIEmbedding"
+      ],
+      "MemoryDbTypes": [
+        "AzureAISearch"
+      ],
+      "MemoryDbUpsertBatchSize": 1,
+      "ImageOcrType": "AzureAIDocIntel",
+      "TextPartitioning": {
+        "MaxTokensPerParagraph": 1000,
+        "MaxTokensPerLine": 300,
+        "OverlappingTokens": 100
+      },
+      "DefaultSteps": []
+    },
+    "Retrieval": {
+      "MemoryDbType": "AzureAISearch",
+      "EmbeddingGeneratorType": "AzureOpenAIEmbedding",
+      "SearchClient": {
+        "MaxAskPromptSize": -1,
+        "MaxMatchesCount": 200,
+        "AnswerTokens": 16384,
+        "EmptyAnswer": "No Information",
+        "FactTemplate": "==== [File:{{$source}};Relevance:{{$relevance}}]:\n{{$content}}",
+        "Temperature": 0.0,
+        "TopP": 0.0,
+        "PresencePenalty": 0.0,
+        "FrequencyPenalty": 0.0,
+        "StopSequences": [],
+        "TokenSelectionBiases": {}
+      }
+    },
+    "Services": {
+      "Anthropic": {
+        "Endpoint": "https://api.anthropic.com",
+        "EndpointVersion": "2023-06-01",
+        "ApiKey": "",
+        "TextModelName": "claude-3-haiku-20240307",
+        "MaxTokenIn": 200000,
+        "MaxTokenOut": 4096,
+        "DefaultSystemPrompt": "You are an assistant that will answer user query based on a context",
+        "HttpClientName": ""
+      },
+      "AWSS3": {
+        "Auth": "AccessKey",
+        "AccessKey": "",
+        "SecretAccessKey": "",
+        "BucketName": ""
+      },
+      "AzureAISearch": {
+        "Auth": "ApiKey",
+        "Endpoint": "",
+        "APIKey": "",
+        "UseHybridSearch": true
+      },
+      "AzureAIDocIntel": {
+        "Auth": "ApiKey",
+        "APIKey": "",
+        "Endpoint": ""
+      },
+      "AzureBlobs": {
+        "Auth": "AzureIdentity",
+        "Account": "",
+        "Container": "",
+        "ConnectionString": "",
+        "EndpointSuffix": "core.windows.net"
+      },
+      "AzureOpenAIEmbedding": {
+        "Auth": "ApiKey",
+        "Endpoint": "",
+        "APIKey": "",
+        "Deployment": "",
+        "MaxTokenTotal": 8191,
+        "EmbeddingDimensions": null,
+        "MaxEmbeddingBatchSize": 1,
+        "MaxRetries": 10,
+        "APIType": "EmbeddingGeneration"
+      },
+      "AzureOpenAIText": {
+        "Auth": "ApiKey",
+        "Endpoint": "",
+        "APIKey": "",
+        "Deployment": "",
+        "MaxTokenTotal": 128000,
+        "APIType": "ChatCompletion",
+        "MaxRetries": 10
+      },
+      "AzureQueues": {
+        "Auth": "AzureIdentity",
+        "Account": "",
+        "ConnectionString": "",
+        "EndpointSuffix": "core.windows.net",
+        "PollDelayMsecs": 100,
+        "FetchBatchSize": 3,
+        "FetchLockSeconds": 300,
+        "MaxRetriesBeforePoisonQueue": 20,
+        "PoisonQueueSuffix": "-poison"
+      },
+      "Elasticsearch": {
+        "CertificateFingerPrint": "",
+        "Endpoint": "",
+        "UserName": "",
+        "Password": "",
+        "IndexPrefix": "",
+        "ShardCount": 1,
+        "Replicas": 0
+      },
+      "LlamaSharp": {
+        "ModelPath": "",
+        "MaxTokenTotal": 4096
+      },
+      "MongoDbAtlas": {
+        "ConnectionString": "mongodb://root:root@localhost:27777/?authSource=admin",
+        "DatabaseName": "KernelMemory",
+        "UseSingleCollectionForVectorSearch": false
+      },
+      "OpenAI": {
+        "TextModel": "gpt-3.5-turbo-16k",
+        "TextModelMaxTokenTotal": 16384,
+        "TextGenerationType": "Auto",
+        "EmbeddingModel": "text-embedding-ada-002",
+        "EmbeddingModelMaxTokenTotal": 8191,
+        "APIKey": "",
+        "OrgId": "",
+        "Endpoint": "",
+        "MaxRetries": 10,
+        "EmbeddingDimensions": null,
+        "MaxEmbeddingBatchSize": 100
+      },
+      "Postgres": {
+        "ConnectionString": "Host=localhost;Port=5432;Username=public;Password=;Database=public",
+        "TableNamePrefix": "km-"
+      },
+      "Qdrant": {
+        "Endpoint": "http://127.0.0.1:6333",
+        "APIKey": ""
+      },
+      "RabbitMQ": {
+        "Host": "127.0.0.1",
+        "Port": "5672",
+        "Username": "user",
+        "Password": "",
+        "VirtualHost": "/",
+        "MessageTTLSecs": 3600,
+        "SslEnabled": false
+      },
+      "Redis": {
+        "ConnectionString": "",
+        "Tags": {
+          "type": ",",
+          "user": ",",
+          "ext": ","
+        }
+      },
+      "SimpleFileStorage": {
+        "StorageType": "Volatile",
+        "Directory": "_files"
+      },
+      "SimpleQueues": {
+        "StorageType": "Volatile",
+        "Directory": "_queues"
+      },
+      "SimpleVectorDb": {
+        "StorageType": "Volatile",
+        "Directory": "_vectors"
+      },
+      "SqlServer": {
+        "ConnectionString": "",
+        "Schema": "dbo",
+        "MemoryCollectionTableName": "KMCollections",
+        "MemoryTableName": "KMMemories",
+        "EmbeddingsTableName": "KMEmbeddings",
+        "TagsTableName": "KMMemoriesTags"
+      }
+    }
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Trace",
+      "ASPNETCore": "Trace"
+    }
+  },
+  "AllowedHosts": "*"
+}

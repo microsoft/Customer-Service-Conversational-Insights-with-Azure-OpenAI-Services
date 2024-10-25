@@ -194,7 +194,9 @@ If you'd like to customize the accelerator, here are some ways you might do that
 -  [Future extensibility documentation](./Extensibility.md)
 
 ### Version history
-**10/28/2024:** An updated folder structure was added to the root of the respository to accommodate two solutions. Conversation Knowledge Mining will be available in the folder ./ConversationKnowledgeMining and any forks or cloans will need to be updated. The root of the repository has changed to 'Knowledge Mining' and the subfolders represent separate solutions for the Knowledge Mining repository.
+**10/28/2024:** The repository has been restructured to establish the Knowledge Mining Solution Accelerator as the root directory, serving as an umbrella for various solutions aligned with the Knowledge Mining pattern. Each subfolder now represents a distinct solution within this  pattern. The existing Conversation Knowledge Mining solution has been relocated to the ./ConversationKnowledgeMining folder.
+ 
+Please ensure that any forks or clones of the repository are updated to reflect this revised structure, as the root directory has been renamed to "Knowledge Mining," with subfolders representing the specific solutions within the repository.
 
 **08/15/2024:**
 An updated version of the Conversation Knowledge Mining (CKM) solution accelerator was published on 08/15/2024. If you deployed the accelerator prior to that date, please note that CKM v2 cannot be deployed over CKM v1. Please also note that the CKM v2 .json conversation file format has been revised to include additional metadata, therefore CKM v1 files are no longer compatible. For resources related to CKM v1, please visit our archive ([link-to-archive](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/tree/ckm-v1)).

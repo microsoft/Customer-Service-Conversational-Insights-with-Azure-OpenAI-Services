@@ -1,0 +1,23 @@
+.switch {
+    @apply relative inline-block align-middle cursor-pointer bg-gray-200 w-24 h-6 rounded-full transition-colors duration-200 ease-in-out;
+  }
+  
+  .switch-input {
+    @apply absolute opacity-0 w-0 h-0;
+  }
+  
+  .switch-slider {
+    @apply absolute top-0.5 left-0.5 bg-white w-5 h-5 rounded-full shadow-md transform transition-transform duration-200 ease-in-out;
+  }
+  
+  .switch-input:checked ~ .switch-slider {
+    @apply transform translate-x-16;
+  }
+  
+  .switch-input:checked ~ .switch-label {
+    @apply text-white;
+  }
+  
+  .switch-label {
+    @apply absolute inset-y-0 left-0 flex items-center pl-4 text-gray-500 transition-colors;
+  }

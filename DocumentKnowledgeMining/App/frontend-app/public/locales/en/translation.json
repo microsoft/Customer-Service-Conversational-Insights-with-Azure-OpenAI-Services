@@ -1,0 +1,142 @@
+{
+    "common": {
+        "title": "Document Search and Knowledge Mining",
+        "loading": "Loading...",
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "save": "Save"
+    },
+    "components": {
+        "header-bar": {
+            "title": "Contoso",
+            "sub-title": "Document Knowledge Mining",
+            "home": "Home",
+            "contribute": "Contribute",
+            "blog": "Blog",
+            "sign-in": "Sign in",
+            "sign-out": "Sign out"
+        },
+        "header-menu": {
+            "selected-documents":"Selected Documents"
+            
+        },
+        "chat": {
+            "suggested-q-title": "Suggested follow up questions:",
+            "no-information": "No additional information",
+            "selected-document": "Selected Document",
+            "Search Results": "Search Results",
+            "selected-documents": "Selected Documents",
+            "fetching-answer": "Fetching answer, please wait...",
+            "test-markdown": "# Dog Breed Comparison: Fluffy Golden Dog vs. Beagle\n\n## Fluffy Golden Dog\n- **Appearance**: Small, light-colored with a fluffy golden coat. Notable features include large brown eyes and prominent ears, one perked and one flopped.\n- **Temperament**: Curious and attentive, suggesting a friendly and engaging personality. The dog's posture indicates comfort and familiarity with its environment.\n- **Collar**: Wears a blue and purple collar with a red identification tag, indicating it is a pet with a caring owner.\n- **Environment**: Typically found in cozy indoor settings, reflecting a strong bond with human companions.\n\n## Beagle\n- **Appearance**: Medium-sized dog with a short, smooth coat that can come in various colors, including tri-color (black, white, and brown). Beagles have long ears and a distinctively expressive face.\n- **Temperament**: Known for being friendly, curious, and energetic. Beagles are often social and enjoy being part of family activities.\n- **Collar**: Commonly wear collars for identification, but styles vary widely.\n- **Environment**: Adaptable to both indoor and outdoor settings, Beagles thrive in active households where they can explore and play.\n\n## Summary\nWhile the fluffy golden dog is characterized by its small size, fluffy coat, and cozy indoor demeanor, the Beagle is a medium-sized, energetic breed known for its short coat and love for outdoor activities. Both breeds exhibit friendly and curious temperaments, making them great companions, but they differ in size, coat type, and typical living environments.",
+            "new-topic": "New Topic",
+            "input-placeholder": "Ask a question or request (ctrl + enter to submit)"
+        },
+        "feedback-form": {
+            "title": "Feedback",
+            "feedback-thank-you": "Hey, thanks for the feedback.",
+            "feedback-info": "We will use this feedback to improve our service.",
+            "required-fields": "Please select all the required fields before submitting the feedback.",
+            "justification-title": "What did you not like?",
+            "why-not": "Why wasn't this helpful?",
+            "leave-comment": "Leave a comment",
+            "advanced-feedback-title": "Advanced Feedback",
+            "ground-truth-title": "Ground Truth Answer",
+            "ground-truth-placeholder": "Your Ground Truth Answer",
+            "text-area-placeholder": "Specified in the metadata tab of the document",
+            "chunk-texts-title": "Chunk Texts",
+            "chunk-texts-placeholder": "Chunks containing useful information to generate the answer",
+            "submit": "Submit",
+            "submitting": "Submitting...",
+            "doc-urls": "Document URLs",
+            "feedback-error": "An error occurred while submitting the feedback. Please try again."
+        },
+        "model-switch": {
+            "gpt35": "Fast, efficient, and versatile",
+            "gpt4": "Precise, intelligent, and sophisticated",
+            "gpt4-0": "Preview (most advanced model)"
+        },
+        "options-panel": {
+            "source-choice": "What do you want to chat with?",
+            "indexed-documents": "All Documents",
+            "selected-document":"Selected Document",
+            "search-results": "Search Results",
+            "selected-documents": "Selected Documents"
+        },
+        "dialog-content": {
+            "extractive-summary": "Extractive Summary",
+            "ai-generated-tag": "AI-generated content may be incorrect",
+            "ai-generated-tag-incorrect": "AI-generated content may be incorrect",
+            "chunk-texts": "Chunk Texts"
+        },
+        "dialog-title-bar": {
+            "document": "Document",
+            "ai-knowledge": "AI Knowledge",
+            "pages": "Pages",
+            "metadata": "Metadata",
+            "page": "Page",
+            "tables": "Tables",
+            "page-metadata": "Page Metadata",
+            "return-to-document": "Return to Document",
+            "download": "Download"
+        },
+        "iframe": {
+            "error": "Error: unable to load content"
+        },
+        "metadata-table": {
+            "key": "Key",
+            "value": "Value"
+        },
+        "pages-tab": {
+            "page": "Page"
+        },
+        "footer": {
+            "contact": "Contact Us",
+            "privacy": "Privacy",
+            "manage-cookies": "Manage cookies",
+            "terms-of-use": "Terms of use",
+            "copyright": "© {{year}}"
+        },
+        "search-box": {
+            "label": "I am looking for",
+            "placeholder": "Enter your search terms here.."
+        },
+        "filter": {
+            "title": "Filter",
+            "selected-filters": "Selected Filters",
+            "clear-all": "Clear All"
+        },
+        "order-by": {
+            "sort-by": "Sort by...",
+            "title": "Title",
+            "creation-date": "Creation Date",
+            "last-modified": "Last Modified",
+            "processing-date": "Processing Date",
+            "source-processing-date": "Source Processing Date", 
+            "source-last-modified": "Source Last Modified"
+        },
+        "personal-documents-center": {
+            "file-name": "File Name",
+            "title": "Title",
+            "upload-date": "Upload Date",
+            "restricted": "Restricted",
+            "actions": "Actions",
+            "upload": "Upload Files",
+            "chat-with-docs": "Chat with selected documents"
+        },
+        "searchResultCard": {
+            "seeMore": "See more",
+            "download": "Download"
+        }
+    },
+    "entities": {},
+    "pages": {
+        "home": {
+            "title": "Knowledge Mining Accelerator",
+            "subtitle": "AI-driven web and data exploration, unstructured data insight extraction.",
+            "url": "",
+            "no-results": "Matching data is not currently available",
+            "no-files": "Upload files to start summarizing, analyzing, comparing, and more."
+        }
+    }
+}
