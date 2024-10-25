@@ -1,6 +1,6 @@
 ## Technical Architecture
 
-Additional details about the technical architecture of the Knowledge Mining solution accelerator. This describes the purpose and additional context of each component in the solution.
+Additional details about the technical architecture of the Document Knowledge Mining solution accelerator. This describes the purpose and additional context of each component in the solution.
 
 ![image](../Images/readme/architecture.png)
 

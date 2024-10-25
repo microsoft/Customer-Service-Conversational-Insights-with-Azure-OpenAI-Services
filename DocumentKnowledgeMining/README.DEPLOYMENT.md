@@ -1,6 +1,6 @@
 # Deployment Guide for Services
 
-> This repository presents a solution and reference architecture for the Knowledge Mining solution accelerator. Please note that the  **provided code serves as a demonstration and is not an officially supported Microsoft offering**.
+> This repository presents a solution and reference architecture for the Document Knowledge Mining solution accelerator. Please note that the  **provided code serves as a demonstration and is not an officially supported Microsoft offering**.
 > 
 > For additional security, please review how to [use Azure API Management with microservices deployed in Azure Kubernetes Service](https://learn.microsoft.com/en-us/azure/api-management/api-management-kubernetes).
 
