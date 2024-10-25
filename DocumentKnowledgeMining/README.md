@@ -4,7 +4,7 @@ MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy)  \| [**
 [**CUSTOMER TRUTH**](#customer-truth)
 
 
-<h2><img src="./images/readme/userStory.png" width="64">
+<h2><img src="./Images/readme/userStory.png" width="64">
 <br/>
 User story
 </h2>
@@ -27,7 +27,7 @@ This solution accelerator helps you ingest, extract, and classify content from a
 
 <br/><br/>
 
-![image](./images/readme/screenshot.png)
+![image](./Images/readme/screenshot.png)
 
 ### Scenario
 
@@ -77,11 +77,11 @@ The accelerator presented here provides several options, for example:
 
 
 ### Solution accelerator architecture
-![image](./images/readme/architecture.png)
+![image](./Images/readme/architecture.png)
 
 
 
-<h2><img src="./images/readme/quickDeploy.png" width="64">
+<h2><img src="./Images/readme/quickDeploy.png" width="64">
 <br/>
 Quick deploy
 </h2>
@@ -107,7 +107,7 @@ For additional training and support, please see:
 Follow the quick deploy steps on the [deployment guide](./README.DEPLOYMENT.md) to deploy this solution to your own Azure subscription.
 
 <br>
-<h2><img src="./images/readme/supportingDocuments.png" width="64">
+<h2><img src="./Images/readme/supportingDocuments.png" width="64">
 <br/>
 Supporting documents
 </h2>
@@ -116,7 +116,7 @@ Supporting documents
 - [Content Processing Workflow](./App/Data_Processing.md)
 
 <br>
-<h2><img src="./images/readme/customerTruth.png" width="64">
+<h2><img src="./Images/readme/customerTruth.png" width="64">
 </br>
 Customer truth
 </h2>
