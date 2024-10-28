@@ -12,14 +12,14 @@
     },
     "webUIDockerImageReference": {
       "type": "string",
-      "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-ui-dev:latest",
+      "defaultValue": "DOCKER|ckmcontainerreg.azurecr.io/csci-ui:latest",
       "metadata": {
         "description": "The reference to the WebUI Docker image for the Linux App Service Plan"
       }
     },
     "openAIFunctionDockerImageReference": {
       "type": "string",
-      "defaultValue": "DOCKER|ckmuicontainer.azurecr.io/ckm-acs-oai-async:latest",
+      "defaultValue": "DOCKER|ckmcontainerreg.azurecr.io/ckm-acs-oai-async:latest",
       "metadata": {
         "description": "The reference to the OpenAI Function Docker image for the Linux App Service Plan"
       }
@@ -1030,7 +1030,7 @@
           ],
           "properties": {
               "azPowerShellVersion": "3.0",
-              "scriptContent": "start-sleep -Seconds 300",
+              "scriptContent": "start-sleep -Seconds 420",
               "cleanupPreference": "Always",
               "retentionInterval": "PT1H"
           }

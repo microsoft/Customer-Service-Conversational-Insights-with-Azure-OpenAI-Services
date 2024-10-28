@@ -3,7 +3,7 @@ name: Docker Image CI
 on:
   push:
     branches:
-    - master
+    - ckm-v1
 
 permissions: # Sets workflow permissions using the least privilege principle
   contents: read # Read access to repo, required by the actions/checkout@v2 action
