@@ -66,7 +66,7 @@ Simple deploy
 1. **Deploy Azure resources**  
    Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
 
-   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FRoopan-Microsoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmain%2FDeployment%2Fbicep%2Fmain.json)
+   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmain%2FDeployment%2Fbicep%2Fmain.json)
 
    1.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:
 
@@ -92,7 +92,7 @@ Simple deploy
     3.   Run the run the following commands:  
          1.   ```az login``` ***Follow instructions in Azure Cloud Shell for login instructions
          2.   ```rm -rf ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
-         3.   ```git clone https://github.com/Roopan-Microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
+         3.   ```git clone https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services```
          4.   ```cd ./Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/Deployment/scripts/fabric_scripts```
          5.   ```sh ./run_fabric_items_scripts.sh keyvault_param workspaceid_param solutionprefix_param```
               1.   keyvault_param - the name of the keyvault that was created in Step 1
