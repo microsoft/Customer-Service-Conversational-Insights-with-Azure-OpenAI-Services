@@ -18,7 +18,7 @@ This solution accelerator enables customers with large amounts of conversational
 
 - **Data processing:** Microsoft Fabric processes both audio and conversation files at scale, leveraging its benefits for efficient and scalable data handling
 - **Summarization and key phrase extraction​:** Azure OpenAI is used to summarize long conversations into concise paragraphs and extract relevant key phrases
-- **Speech transcription and diarization​:** Azure Speech is used to transcribe audio files, including speaker diarization for post-call analytics. Diarization is the process of recognizing and separating individual speakers into mono-channel audio data​
+- **Speech transcription and diarization​:** Azure AI Speech is used to transcribe audio files, including speaker diarization for post-call analytics. Diarization is the process of recognizing and separating individual speakers into mono-channel audio data​
 - **Analytics dashboard​:** Power BI is used to visualize the correlation between operational metrics and AI-generated conversational data​
 
 \
@@ -43,9 +43,9 @@ Company personnel (employees, executives) looking to gain conversational insight
 
 ### Products used/licenses required
 
--   Azure Speech Service
+-   Azure AI Speech Service
 
--   Azure OpenAI
+-   Azure OpenAI Service
 
 -   Microsoft Fabric Capacity
 
@@ -84,7 +84,7 @@ Simple deploy
         2.  Provide Description of Workspace (optional)
         3.  Click Apply
     4.  Open Workspace
-    5.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
+    5.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/fabric/admin/portal-workspace#identify-your-workspace-id))
 
 3.  **Deploy Fabric resources and artifacts**
     1.   Navigate to ([Azure Portal](https://portal.azure.com/))
@@ -184,9 +184,9 @@ If you'd like to customize the accelerator, here are some ways you might do that
 
 ### Additional resources
 
-- [Microsoft Fabric documentation - Microsoft Fabric | Microsoft Learn](https://learn.microsoft.com/en-us/fabric/)
-- [Azure OpenAI Service - Documentation, quickstarts, API reference - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data)
-- [Speech service documentation - Tutorials, API Reference - Azure AI services - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/)
+- [Microsoft Fabric documentation - Microsoft Fabric | Microsoft Learn](https://learn.microsoft.com/fabric/)
+- [Azure OpenAI Service - Documentation, quickstarts, API reference - Azure AI services | Microsoft Learn](https://learn.microsoft.com/azure/ai-services/openai/concepts/use-your-data)
+- [Speech service documentation - Tutorials, API Reference - Azure AI services - Azure AI services | Microsoft Learn](https://learn.microsoft.com/azure/ai-services/speech-service/)
   
 ### More info
 -   [Solution
