@@ -8,7 +8,6 @@ import {
   TableHeaderCell,
   TableCellLayout,
   Caption1,
-  Body1,
   Body1Strong,
 } from "@fluentui/react-components";
 import { colors } from "../configs/Utils";
@@ -39,26 +38,31 @@ const TopicTable: React.FC<TopicTableProps> = ({
             {columns.map((column, index) => (
               <TableHeaderCell
                 key={index}
-                style={{ backgroundColor: "#f4f4f4" }}
+                style={{
+                  ...tableStyles.header,
+                  position: "sticky",
+                  top: 0,
+                  backgroundColor: "#f4f4f4",
+                  zIndex: 1, // Ensures header stays above content
+                }}
               >
                 <Body1Strong>{column}</Body1Strong>
               </TableHeaderCell>
             ))}
           </TableRow>
         </TableHeader>
-        <TableBody>
+        <TableBody style={{ overflowY: "auto",  maxHeight: "calc(91% - 50px)", width: "100%" }}>
           {rows.map((row, index) => (
             <TableRow key={index}>
               {columnKeys.map((columnKey) => (
-                <TableCell key={columnKey}>
+                <TableCell key={columnKey} style={tableStyles.cell}>
                   <TableCellLayout>
                     {columnKey === "average_sentiment" ? (
-                      <div style={{ display: "flex", alignItems: "center", textTransform:"capitalize" }}>
+                      <div style={{ display: "flex", alignItems: "center", textTransform: "capitalize" }}>
                         <div
                           style={{
                             backgroundColor:
-                              colors[row[columnKey] as string] ||
-                              colors.default,
+                              colors[row[columnKey] as string] || colors.default,
                             width: "20px",
                             height: "20px",
                             marginRight: "10px",

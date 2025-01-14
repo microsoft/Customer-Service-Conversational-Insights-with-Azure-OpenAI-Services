@@ -30,13 +30,13 @@ const DonutChart: React.FC<DonutChartProps> = ({
       setCenterText({ label: "No Data", percentage: "0" });
       return;
     }
-  
+
     const total = d3.sum(data, (d) => d.value);
     const positiveData = data.find((d) => d.label.toLowerCase() === "positive");
     const defaultLabel = positiveData?.label || data[0]?.label || "Unknown";
     const defaultValue = positiveData?.value || data[0]?.value || 0;
     const defaultPercentage = ((defaultValue / total) * 100).toFixed(0);
-  
+
     setCenterText({
       label: defaultLabel,
       percentage: defaultPercentage,
@@ -51,13 +51,14 @@ const DonutChart: React.FC<DonutChartProps> = ({
       1.7;
     const width = donutWidthAndHeight; // Set width equal to containerHeight for a square layout
     const radius = width / 2;
-    const svgHeight = donutWidthAndHeight;
+    const svgHeight = donutWidthAndHeight + 40;
+    const svgWidth = width + 40;
     const svg = d3
       .select(chartRef.current)
-      .attr("width", width)
-      .attr("height", svgHeight)
+      .attr("width", svgWidth)
+      .attr("height", svgHeight + 8)
       .append("g")
-      .attr("transform", `translate(${width / 2}, ${svgHeight / 2})`);
+      .attr("transform", `translate(${svgWidth / 2}, ${svgHeight / 2})`);
 
     const pie = d3
       .pie<any>()
@@ -134,6 +135,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    paddingBottom: "20px", // Add padding for the bottom
   },
   container: {
     display: "flex",
@@ -164,7 +166,7 @@ const styles = {
     position: "absolute" as const,
     top: "50%",
     left: "50%",
-    transform: "translate(-50%, -50%)",
+    transform: "translate(-50%, -75%)",
     textAlign: "center" as const,
   },
 };

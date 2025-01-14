@@ -1,21 +1,25 @@
+import json
 import logging
 import os
 import time
 import uuid
-import aiohttp
+from types import SimpleNamespace
+from urllib.parse import quote
+import httpx
+import openai
+# from fastapi.responses import StreamingResponse
 import requests
 from azure.identity.aio import (DefaultAzureCredential,
                                 get_bearer_token_provider)
 from dotenv import load_dotenv
 from openai import AsyncAzureOpenAI
-from quart import Quart, jsonify, request, send_from_directory
+from quart import Quart, jsonify, make_response, request, send_from_directory
 from quart_cors import cors
 
 from backend.auth.auth_utils import get_authenticated_user_details
 from backend.history.cosmosdbservice import CosmosConversationClient
-import openai
-import json
-import re
+from backend.utils import format_as_ndjson, format_stream_response
+
 load_dotenv()
 
 # Configure logging
@@ -24,6 +28,7 @@ logger = logging.getLogger(__name__)
 
 app = Quart(__name__)
 app = cors(app, allow_origin=["http://localhost:3000", "http://127.0.0.1:5000"])
+
 
 # Serve index.html from the React build folder
 @app.route("/")
@@ -115,6 +120,7 @@ def init_cosmosdb_client():
 
     return cosmos_conversation_client
 
+
 # Initialize Azure OpenAI Client
 def init_openai_client():
     azure_openai_client = None
@@ -197,45 +203,42 @@ async def fetch_filter_data():
         return jsonify({"error": "Failed to fetch filter data"}), 500
 
 
-
 def process_rag_response(rag_response, query):
     """
     Parses RAG response dynamically to extract chart data for Chart.js.
     """
-    
+
     try:
         # Fetch API URL and key from environment variables
         AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
         API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
         logger.info(f">>>AZURE_OPENAI_ENDPOINT: {AZURE_OPENAI_ENDPOINT}")
 
-        endpoint = AZURE_OPENAI_ENDPOINT #os.environ.get("AZURE_OPEN_AI_ENDPOINT")
-        api_key = API_KEY  #os.environ.get("AZURE_OPEN_AI_API_KEY")
-        api_version = '2024-05-01-preview' #os.environ.get("OPENAI_API_VERSION")
-        deployment = 'gpt-4o-mini' #os.environ.get("AZURE_OPEN_AI_DEPLOYMENT_MODEL")
+        endpoint = AZURE_OPENAI_ENDPOINT  # os.environ.get("AZURE_OPEN_AI_ENDPOINT")
+        api_key = API_KEY  # os.environ.get("AZURE_OPEN_AI_API_KEY")
+        api_version = "2024-05-01-preview"  # os.environ.get("OPENAI_API_VERSION")
+        deployment = "gpt-4o-mini"  # os.environ.get("AZURE_OPEN_AI_DEPLOYMENT_MODEL")
 
         # "2023-09-01-preview"
         client = openai.AzureOpenAI(
-            azure_endpoint=endpoint,
-            api_key=api_key,
-            api_version="2024-05-01-preview"
+            azure_endpoint=endpoint, api_key=api_key, api_version=api_version
         )
 
-        system_prompt = '''You are an assistant that helps generate formatted data for a chart that can be rendered with React Charts''' 
-
-
-        user_prompt = f'''Format this data for a chart to be shown using chart.js. Pick the best chart type for this data.
-        include chart type and chart options - 
-
+        system_prompt = """You are an assistant that helps generate valid chart data to be shown using chart.js with version 4.4.4 compatible.
+        Include chart type and chart options.
+        Pick the best chart type for given data.
+        Do not generate a chart unless the input contains some numbers. Otherwise return a message that Chart cannot be generated.
+        Only return a valid JSON output and nothing else.
+        Verify that the generated JSON can be parsed using json.loads.
+        Do not include tooltip callbacks in JSON.
+        Always make sure that the generated json can be rendered in chart.js.
+        Always remove any extra trailing commas.
+        Verify and refine that JSON should not have any syntax errors like extra closing brackets."""
+        user_prompt = f"""Generate chart data for -
         {query}
         {rag_response}
-        
-        Only return the JSON output and nothing else.
-        if data not properly generated then generate some meaningful chart from {query} use some limited data from {rag_response}.
-        verify and refine that JSON should not have any syntax errors like extra closing brackets
-        '''
-
-
+        """
+        logger.info(f">>>chart_data: {rag_response}")
         completion = client.chat.completions.create(
             model=deployment,
             messages=[
@@ -245,89 +248,104 @@ def process_rag_response(rag_response, query):
             temperature=0,
         )
         chart_data = completion.choices[0].message.content
-        chart_data = chart_data.replace("```json",'').replace("```",'')
+        chart_data = chart_data.replace("```json", "").replace("```", "")
         logger.info(f">>>chart_data: {chart_data}")
         return json.loads(chart_data)
     except Exception as e:
         logger.error(f"Error dynamically processing RAG response: {e}")
-        return {"error": str(e)}
+        # return {"error": str(e)}
+        return {
+            "error": "Chart could not be generated from this data. Please ask a different question."
+        }
 
 
-    
-async def complete_chat_request(request_body, last_rag_response=None):
-    try:
-        if USE_GRAPHRAG:
-            query_separator = "&"
-        else:
-            query_separator = "?"
-        query = request_body.get("messages")[-1].get("content")
-        logger.info(f"User Query: {query}")
+async def stream_chat_request(request_body, query_separator, query):
+    history_metadata = request_body.get("history_metadata", {})
 
-        # Detect if the query is requesting a chart
-        is_chart_query = any(term in query.lower() for term in ["chart", "graph", "visualize", "plot", "trend"])
-        use_graphrag = os.getenv("USE_GRAPHRAG", "false").lower() == "true"
-        endpoint = GRAPHRAG_URL if use_graphrag else RAG_URL
-        logger.info(f"is_chart_query: {is_chart_query}")
-        logger.info(f">>> endpoint: {endpoint}")
+    async def generate():
+        assistant_content = ""
+        timeout = httpx.Timeout(10.0, read=None)
+        async with httpx.AsyncClient(verify=False, timeout=timeout) as client:
+            query_url = f"{RAG_URL}{query_separator}query={quote(query)}"
+            async with client.stream("GET", query_url) as response:
+                if response.status_code != 200:
+                    error_message = await response.text()
+                    logger.error(f"Error in RAG response: {error_message}")
+                    yield f"{json.dumps({'error': 'An error occurred during processing.'})}\n\n"
+                    return
 
-        if not is_chart_query:
-            # Non-chart queries
-            async with aiohttp.ClientSession() as session:
-                async with session.get(f"{endpoint}{query_separator}query={query}") as response:
-                    logger.info(f"endpoint: {endpoint}")
-                    logger.info(f"query: {query}")
-                    if response.status != 200:
-                        error_message = await response.text()
-                        logger.error(f"RAG/GraphRAG endpoint error: {error_message}")
-                        return jsonify({"error": f"RAG/GraphRAG endpoint error: {error_message}"}), response.status
+                # Stream chunks of data
+                async for chunk in response.aiter_text():
+                    assistant_content += chunk
+                    chat_completion_chunk = {
+                        "id": "",
+                        "model": "",
+                        "created": 0,
+                        "object": "",
+                        "choices": [
+                            {
+                                "messages": [],
+                                "delta": {},
+                            }
+                        ],
+                        "history_metadata": history_metadata,
+                        "apim-request-id": "",
+                    }
 
-                    assistant_content = await response.text()
-                    # assistant_content = re.sub(r'\. ', '.\n', assistant_content)  # Add line break after each sentence
-                    # assistant_content = '\n' + assistant_content
-                    # Dynamically format the content with line breaks for readability
-                    assistant_content = '\n'.join(
-                        line.strip() for line in assistant_content.split('. ') if line.strip()
+                    chat_completion_chunk["id"] = str(uuid.uuid4())
+                    chat_completion_chunk["model"] = "rag-model"
+                    chat_completion_chunk["created"] = int(time.time())
+                    # chat_completion_chunk["object"] = assistant_content
+                    chat_completion_chunk["object"] = "extensions.chat.completion.chunk"
+                    chat_completion_chunk["apim-request-id"] = response.headers.get(
+                        "apim-request-id", ""
+                    )
+                    chat_completion_chunk["choices"][0]["messages"].append(
+                        {"role": "assistant", "content": assistant_content}
+                    )
+                    chat_completion_chunk["choices"][0]["delta"] = {
+                        "role": "assistant",
+                        "content": assistant_content,
+                    }
+
+                    # yield f"{json.dumps(chat_completion_chunk)}\n\n"
+                    completion_chunk_obj = json.loads(
+                        json.dumps(chat_completion_chunk),
+                        object_hook=lambda d: SimpleNamespace(**d),
+                    )
+                    yield format_stream_response(
+                        completion_chunk_obj,
+                        history_metadata,
+                        response.headers.get("apim-request-id", ""),
                     )
 
-                    # Add an additional newline at the end for better clarity (optional)
-                    assistant_content += '\n'
-                    return jsonify({
-                        "id": str(uuid.uuid4()),
-                        "model": "rag-model",
-                        "created": int(time.time()),
-                        "object": "chat.completion",
-                        "choices": [{"messages": [{"role": "assistant", "content": assistant_content.strip()}]}],
-                        "last_rag_response": assistant_content.strip()
-                    })
-        logger.info(f">>> last_rag_response: {last_rag_response}")
-        if is_chart_query:
-            if not last_rag_response:
-                return jsonify({"error": "A previous RAG response is required to generate a chart."}), 400
-            
-              # Process RAG response to generate chart data
-            chart_data = process_rag_response(last_rag_response, query)
-            if not chart_data:
-                return jsonify({"error": "Failed to process RAG response for chart generation."}), 500
-
-            logger.info("Generating chart using Azure OpenAI.")
-           
-            return jsonify({
-                "id": str(uuid.uuid4()),
-                "model": "azure-openai",
-                "created": int(time.time()),
-                "object": chart_data,
-                # "chartType": chart_data.get("type"),
-                # "chartData": chart_data.get("data"),
-                # "chartOptions": chart_data.get("options")
-            })
-
-    except Exception as e:
-        logger.error(f"Error in complete_chat_request: {e}")
-        return jsonify({"error": "An error occurred during processing."}), 500
+    return generate()
 
 
+# Chart-related queries (non-streaming response)
+async def complete_chat_request(query, last_rag_response=None):
+    if not last_rag_response:
+        return {"error": "A previous RAG response is required to generate a chart."}
 
-@app.route('/api/chat', methods=['POST'])
+    # Process RAG response to generate chart data
+    chart_data = process_rag_response(last_rag_response, query)
+    if not chart_data or "error" in chart_data:
+        return {
+            "error": "Chart could not be generated from this data. Please ask a different question.",
+            "error_desc": str(chart_data),
+        }
+
+    logger.info("Successfully generated chart data.")
+    response_data = {
+        "id": str(uuid.uuid4()),
+        "model": "azure-openai",
+        "created": int(time.time()),
+        "object": chart_data,
+    }
+    return response_data
+
+
+@app.route("/api/chat", methods=["POST"])
 async def conversation():
     if not request.is_json:
         return jsonify({"error": "Request must be JSON"}), 415
@@ -338,9 +356,30 @@ async def conversation():
     last_rag_response = request_json.get("last_rag_response")
     logger.info(f"Received last_rag_response: {last_rag_response}")
 
-    # Call complete_chat_request with RAG response
-    return await complete_chat_request(request_json, last_rag_response)
-
+    query_separator = (
+        "&" if os.getenv("USE_GRAPHRAG", "false").lower() == "true" else "?"
+    )
+    query = request_json.get("messages")[-1].get("content")
+    is_chart_query = any(
+        term in query.lower()
+        for term in ["chart", "graph", "visualize", "plot"]
+    )
+    try:
+        if not is_chart_query:
+            result = await stream_chat_request(request_json, query_separator, query)
+            response = await make_response(format_as_ndjson(result))
+            response.timeout = None
+            response.mimetype = "application/json-lines"
+            return response
+        else:
+            result = await complete_chat_request(query, last_rag_response)
+            return jsonify(result)
+    except Exception as ex:
+        logging.exception(ex)
+        if hasattr(ex, "status_code"):
+            return jsonify({"error": str(ex)}), ex.status_code
+        else:
+            return jsonify({"error": str(ex)}), 500
 
 
 @app.route("/api/layout-config", methods=["GET"])

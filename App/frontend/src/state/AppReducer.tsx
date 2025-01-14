@@ -88,7 +88,7 @@ const appReducer = (state: AppState, action: Action): AppState => {
     case actionConstants.NEW_CONVERSATION_START:
       return {
         ...state,
-        chat: { ...state.chat, messages: [] },
+        chat: { ...state.chat, messages: [], lastRagResponse: null },
         selectedConversationId: "",
         generatedConversationId: generateUUIDv4(),
       };
@@ -197,6 +197,57 @@ const appReducer = (state: AppState, action: Action): AppState => {
         chatHistory: {
           ...state.chatHistory,
           isHistoryUpdateAPIPending: action.payload,
+        },
+      };
+    case actionConstants.SET_LAST_RAG_RESPONSE:
+      return {
+        ...state,
+        chat: {
+          ...state.chat,
+          lastRagResponse: action.payload,
+        },
+      };
+    case actionConstants.UPDATE_MESSAGE_BY_ID:
+      const messageID = action.payload.id;
+      const matchIndex = state.chat.messages.findIndex(
+        (obj) => String(obj.id) === String(messageID)
+      );
+      let tempMessages = [...state.chat.messages];
+      if (matchIndex > -1) {
+        tempMessages[matchIndex] = action.payload;
+      } else {
+        tempMessages = [...state.chat.messages, action.payload];
+      }
+      return {
+        ...state,
+        chat: {
+          ...state.chat,
+          messages: tempMessages,
+          isStreamingInProgress: true,
+        },
+      };
+    case actionConstants.UPDATE_STREAMING_FLAG:
+      return {
+        ...state,
+        chat: {
+          ...state.chat,
+          isStreamingInProgress: action.payload,
+        },
+      };
+    case actionConstants.UPDATE_CHARTS_FETCHING_FLAG:
+      return {
+        ...state,
+        dashboards: {
+          ...state.dashboards,
+          fetchingCharts: action.payload,
+        },
+      };
+    case actionConstants.UPDATE_FILTERS_FETCHING_FLAG:
+      return {
+        ...state,
+        dashboards: {
+          ...state.dashboards,
+          fetchingFilters: action.payload,
         },
       };
     default:

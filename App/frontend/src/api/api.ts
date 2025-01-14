@@ -14,13 +14,11 @@ import {
 
 export const fetchChartData = async () => {
   try {
-    console.log("Fetching chart data...");
     const response = await fetch("/api/fetchChartData");
     if (!response.ok) {
       throw new Error(`Error: ${response.status} ${response.statusText}`);
     }
     const data = await response.json();
-    console.log("data", data);
     return data;
   } catch (error) {
     console.error("Failed to fetch chart data:", error);
@@ -50,7 +48,6 @@ export const fetchChartDataWithFilters = async (bodyData: any) => {
 
 export const fetchFilterData = async () => {
   try {
-    console.log("Fetching filter data...");
     const response = await fetch("/api/fetchFilterData");
     if (!response.ok) {
       throw new Error(`Error: ${response.status} ${response.statusText}`);
@@ -216,7 +213,6 @@ export async function getLayoutConfig(): Promise<{
   try {
     if (response.ok) {
       const layoutConfigData = await response.json();
-      console.log("layoutConfigData", layoutConfigData);
       return layoutConfigData;
     }
   } catch {

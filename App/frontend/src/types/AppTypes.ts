@@ -136,3 +136,23 @@ export type HistoryMetaData = {
   title: string;
   date: string;
 };
+
+export type ParsedChunk = {
+  error?: string;
+  id: string;
+  model: string;
+  created: number;
+  object: string;
+  choices: [
+    {
+      messages: [
+        {
+          content: string;
+          role: string;
+        }
+      ];
+      history_metadata: object;
+    }
+  ];
+  "apim-request-id": string;
+};

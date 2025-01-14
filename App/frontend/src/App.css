@@ -9,7 +9,8 @@
 .main-container {
   display: flex;
   flex-direction: row;
-  height: 94vh;
+  height: calc(100vh - 6vh);
+  /* height: 94vh; */
   gap: var(--gap-base);
   margin-inline: var(--margin-base);
 }
@@ -30,6 +31,7 @@ body {
 .header {
   display: flex;
   align-items: center;
+  /* height: 64px; */
   height: 6vh;
   justify-content: space-between;
   background-color: #fff;
@@ -42,14 +44,14 @@ body {
 }
 
 .header-title {
-  font-size: 24px;
+  /* font-size: 24px; */
   color: #242424;
-  font-size: 18px;
+  /* font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI"; */
   margin-left: 0.5rem;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
 }
 
 .header-title span {
@@ -58,7 +60,7 @@ body {
 
 .left-section {
   position: relative;
-  margin-block-end: 0.25% !important;
+  margin-block-end: 0.1% !important;
 }
 
 .header-left-section {
@@ -75,15 +77,15 @@ body {
   gap: 0.25rem;
 }
 
-.header button {
+/* .header button {
   height: var(--button-height) !important;
   font-size: var(--header-btn-font-size) !important;
-}
+} */
 
-.header button > span > svg {
+/* .header button > span > svg {
   width: var(--header-btn-icon-size);
   height: var(--header-btn-icon-size);
-}
+} */
 
 /* .answerDisclaimerContainer {
   margin-top: 3px;
@@ -95,17 +97,7 @@ body {
 }
 
 
-/* .userInfoContainer {
-  flex: 1 1 5%;
-  border-bottom: 1px solid #D9D9D9;
-  justify-content: 'flex-start';
-  align-items: 'center';
-} */
-
 .userNameContainer {
-  /* flex: 1;
-  text-align: 'right'; 
-  justify-content: 'flex-end'; */
   padding-right: .5rem;
 }
 

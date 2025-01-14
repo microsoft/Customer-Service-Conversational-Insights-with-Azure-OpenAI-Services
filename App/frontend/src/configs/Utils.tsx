@@ -19,7 +19,7 @@ export const defaultSelectedFilters = {
   DateRange: ["Year to Date"],
 };
 
-export const widgetsContainerMaxHeight = 82.5; // in vh
+export const widgetsContainerMaxHeight = 81; // in vh
 export const ACCEPT_FILTERS = ["Topic", "Sentiment", "DateRange"];
 export const getEqualWidgetsWidth = (
   noOfWidgets: number,
@@ -169,7 +169,6 @@ export const segregateItems = (items: Conversation[]) => {
 export async function loadConfig() {
   const DEFAULT_CONFIG_PATH = "./config/config.json";
   const configPath = process.env.REACT_APP_CONFIG_PATH || DEFAULT_CONFIG_PATH;
-  console.log("configPath", configPath);
   if (!configPath) {
     throw new Error("Config path is not defined in the environment variables.");
   }
@@ -196,14 +195,24 @@ export const generateUUIDv4 = () => {
 };
 
 
-export function normalize(x : number, originalRange: number[], referenceRange: number[]) {
+export function normalize(
+  x: number,
+  originalRange: number[],
+  referenceRange: number[]
+) {
   // Destructure the ranges into their min and max values
-  
-  const [x1, x2] = originalRange;
+
+  let [x1, x2] = originalRange;
   const [y1, y2] = referenceRange;
+  //orginalrange min and max values are same 
+  if (x1 === x2) {
+    x1 = y1;
+    x2 = y2;
+  }
+
   // Apply the normalization formula
   const y = y1 + ((x - x1) * (y2 - y1)) / (x2 - x1);
-  return y;
+  return y >= y1 ? y : y1;
 }
 
 
@@ -260,4 +269,14 @@ export const parseErrorMessage = (errorMessage: string) => {
   }
 
   return tryGetRaiPrettyError(errorMessage)
+}
+
+export const hideDataSetsLabelConfig = {
+  display: true,
+  labels: {
+    filter: function () {
+      // This will hide all dataset labels from the legend
+      return false;
+    },
+  },
 }

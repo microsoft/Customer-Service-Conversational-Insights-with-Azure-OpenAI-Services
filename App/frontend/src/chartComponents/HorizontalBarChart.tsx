@@ -9,6 +9,12 @@ interface BarChartProps {
   containerID: string;
 }
 
+interface DataWithFullCategoryText {
+  category: string;
+  value: number;
+  fullCategoryText: string; // Added the fullCategoryText property
+}
+
 const BarChart: React.FC<BarChartProps> = ({
   title,
   data,
@@ -23,11 +29,34 @@ const BarChart: React.FC<BarChartProps> = ({
       document?.getElementById(containerID)!.clientWidth || 200;
     const svg = d3.select(chartRef.current);
     svg.selectAll("*").remove(); // Clear previous render
-    containerHeight = containerHeight - 40;
+
+    const modifiedData: DataWithFullCategoryText[] = data.map((ob) => {
+      let truncatedCategory = ob.category;
+  
+      if (containerWidth <= 500 && truncatedCategory.length>20) {
+        truncatedCategory = ob.category.substring(0, 20) + "...";
+      }else if(containerWidth >500 && truncatedCategory.length>30){
+        truncatedCategory = ob.category.substring(0, 30) + "..."; 
+      } else {
+        truncatedCategory = ob.category
+      }
+      return {
+        ...ob,
+        category: truncatedCategory, 
+        fullCategoryText: ob.category, 
+      };
+    });
+
+    const adjustedContainerHeight = containerHeight - 40;
     const widthOffset = 25;
-    const margin = { top: 40, right: 20, bottom: 30, left: 120 };
+    const margin = {
+      top: 40,
+      right: 20,
+      bottom: 30,
+      left: containerWidth > 500 ? 180 : 120,
+    };
     const width = containerWidth - margin.left - margin.right - widthOffset;
-    const height = containerHeight; // Adjusted to match the outer container height
+    const height = adjustedContainerHeight; 
 
     const g = svg
       .attr("width", width + margin.left + margin.right)
@@ -37,18 +66,18 @@ const BarChart: React.FC<BarChartProps> = ({
 
     const x = d3
       .scaleLinear()
-      .domain([0, d3.max(data, (d) => d.value)!])
+      .domain([0, d3.max(modifiedData, (d) => d.value)!])
       .range([0, width]);
 
     const y = d3
       .scaleBand()
-      .domain(data.map((d) => d.category))
-      .range([0, containerHeight - margin.top - margin.bottom])
+      .domain(modifiedData.map((d) => d.category))
+      .range([0, adjustedContainerHeight - margin.top - margin.bottom])
       .padding(0.2);
 
     const colorScale = d3
       .scaleSequential(d3.interpolateBlues)
-      .domain([0, d3.max(data, (d) => d.value)!]);
+      .domain([0, d3.max(modifiedData, (d) => d.value)!]);
 
     g.append("g")
       .attr("class", "x-axis")
@@ -76,7 +105,7 @@ const BarChart: React.FC<BarChartProps> = ({
       .style("display", "none");
 
     g.selectAll(".bar")
-      .data(data)
+      .data(modifiedData)
       .enter()
       .append("rect")
       .attr("class", "bar")
@@ -84,13 +113,13 @@ const BarChart: React.FC<BarChartProps> = ({
       .attr("y", (d) => y(d.category)!)
       .attr("width", (d) => x(d.value))
       .attr("height", y.bandwidth())
-      .attr("fill", (d) => colorScale(d.value)) // Use color scale here
+      .attr("fill", (d) => colorScale(d.value)) 
       .attr("rx", 8)
       .attr("ry", 8)
       .on("mouseover", (event, d) => {
         tooltip
           .style("display", "block")
-          .html(`<strong>${d.category}</strong><br>Value: ${d.value}`);
+          .html(`<strong>${d.fullCategoryText}</strong><br>Value: ${d.value}`);
       })
       .on("mousemove", (event) => {
         tooltip

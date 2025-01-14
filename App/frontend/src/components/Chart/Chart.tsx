@@ -4,7 +4,7 @@ import {
   fetchChartDataWithFilters,
   fetchFilterData,
 } from "../../api/api";
-
+import NoData from "../NoData/NoData";
 import DonutChart from "../../chartComponents/DonutChart";
 import BarChart from "../../chartComponents/HorizontalBarChart";
 import WordCloudChart from "../../chartComponents/WordCloudChart";
@@ -25,8 +25,10 @@ import {
   defaultSelectedFilters,
   getGridStyles,
 } from "../../configs/Utils";
-import { ChartsResponse } from "../../configs/StaticData";
-import { Subtitle2 } from "@fluentui/react-components";
+// import { ChartsResponse } from "../../configs/StaticData";
+import { Subtitle2, Tag } from "@fluentui/react-components";
+import { Spinner, SpinnerSize } from "@fluentui/react";
+// import { ChartsResponse } from "../../configs/StaticData";
 
 type ChartProps = {
   layoutWidthUpdated: boolean;
@@ -34,13 +36,18 @@ type ChartProps = {
 
 const Chart = (props: ChartProps) => {
   const { state, dispatch } = useAppContext();
-  const { charts } = state.dashboards;
+  const {
+    charts,
+    fetchingCharts,
+    fetchingFilters,
+    filtersMetaFetched,
+    initialChartsDataFetched,
+  } = state.dashboards;
   const { config: layoutConfig } = state;
   const { layoutWidthUpdated } = props;
 
-  const [fetchingFilters, setFetchingFilters] = useState<boolean>(false);
-  const [fetchingCharts, setFetchingCharts] = useState<boolean>(false);
   const [widths, setWidths] = useState<Record<string, number>>({});
+  const [appliedFetch, setAppliedFetch] = useState<boolean>(false);
   const [widgetsGapInPercentage, setWidgetsGapInPercentage] =
     useState<number>(1);
 
@@ -75,8 +82,10 @@ const Chart = (props: ChartProps) => {
   }, []);
 
   const getChartData = async (reqBody: any) => {
-    setFetchingCharts(true);
-
+    dispatch({
+      type: actionConstants.UPDATE_CHARTS_FETCHING_FLAG,
+      payload: true,
+    });
     if (String(reqBody?.Sentiment?.[0]).toLowerCase() === "all") {
       reqBody.Sentiment = [];
     }
@@ -106,7 +115,7 @@ const Chart = (props: ChartProps) => {
           );
           const configObj = {
             id: configChart?.id,
-            domId: (configChart?.id.replace(/\s+/g, "_").toUpperCase()),
+            domId: configChart?.id.replace(/\s+/g, "_").toUpperCase(),
             type: configChart?.type,
             title: apiData ? apiData?.chart_name : configChart.name || "",
             data: apiData ? apiData?.chart_value : [],
@@ -126,9 +135,15 @@ const Chart = (props: ChartProps) => {
         type: actionConstants.UPDATE_CHARTS_DATA,
         payload: updatedCharts,
       });
-      setFetchingCharts(false);
+      dispatch({
+        type: actionConstants.UPDATE_CHARTS_FETCHING_FLAG,
+        payload: false,
+      });
     } catch (e) {
-      setFetchingCharts(false);
+      dispatch({
+        type: actionConstants.UPDATE_CHARTS_FETCHING_FLAG,
+        payload: false,
+      });
       console.log("Error while fetching charts data", e);
     }
   };
@@ -137,8 +152,11 @@ const Chart = (props: ChartProps) => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        if (!state.dashboards.filtersMetaFetched) {
-          setFetchingFilters(true);
+        if (!filtersMetaFetched) {
+          dispatch({
+            type: actionConstants.UPDATE_FILTERS_FETCHING_FLAG,
+            payload: true,
+          });
           const filterResponse = await fetchFilterData();
           const acceptedFilters: FilterMetaData = {};
           filterResponse?.forEach((obj: any) => {
@@ -155,10 +173,13 @@ const Chart = (props: ChartProps) => {
             type: actionConstants.UPDATE_FILTERS_FETCHED_FLAG,
             payload: true,
           });
-          setFetchingFilters(false);
+          dispatch({
+            type: actionConstants.UPDATE_FILTERS_FETCHING_FLAG,
+            payload: false,
+          });
         }
-        if (!state.dashboards.initialChartsDataFetched) {
-          await getChartData({...defaultSelectedFilters});
+        if (!initialChartsDataFetched) {
+          await getChartData({ ...defaultSelectedFilters });
           dispatch({
             type: actionConstants.UPDATE_INITIAL_CHARTS_FETCHED_FLAG,
             payload: true,
@@ -167,7 +188,10 @@ const Chart = (props: ChartProps) => {
       } catch (error) {
         console.error("Error loading data:", error);
         dispatch({ type: actionConstants.UPDATE_CHARTS_DATA, payload: [] });
-        setFetchingFilters(false);
+        dispatch({
+          type: actionConstants.UPDATE_FILTERS_FETCHING_FLAG,
+          payload: false,
+        });
       }
     };
     if (state.config.charts.length > 0) {
@@ -176,7 +200,9 @@ const Chart = (props: ChartProps) => {
   }, [state.config.charts]);
 
   const applyFilters = async (updatedFilters: SelectedFilters) => {
+    setAppliedFetch(true);
     await getChartData(updatedFilters);
+    setAppliedFetch(false);
   };
 
   const renderChart = (chart: ChartConfigItem, heightInPixes: number) => {
@@ -192,32 +218,46 @@ const Chart = (props: ChartProps) => {
           return "#ccc"; // Default color
       }
     };
+
+    const hasData = chart.data && chart.data.length > 0;
+
     switch (chart.type) {
       case "card":
-        return (
+        return hasData ? (
           <Card
             value={chart.data?.[0]?.value || "0"}
             description={chart.data?.[0]?.name || ""}
             unit_of_measurement={chart.data?.[0]?.unit_of_measurement || ""}
             containerHeight={heightInPixes}
           />
+        ) : (
+          <NoData />
         );
       case "donutchart":
-        return (
+        return hasData ? (
           <DonutChart
             title={chart.title}
             data={chart.data.map((item) => ({
               label: item.name,
               value: parseInt(item.value) || 0,
-              color: getColorForLabel((item.name).toLowerCase()),
+              color: getColorForLabel(item.name.toLowerCase()),
             }))}
             containerHeight={heightInPixes}
             widthInPixels={document?.getElementById(chart?.domId)!?.clientWidth}
             containerID={chart?.domId}
           />
+        ) : (
+          <div
+            className="outerNoDataContainer"
+            style={{
+              height: `calc(${heightInPixes}px - 40px)`,
+            }}
+          >
+            <NoData />
+          </div>
         );
       case "bar":
-        return (
+        return hasData ? (
           <BarChart
             title={chart.title}
             data={chart.data.map((item) => ({
@@ -227,9 +267,18 @@ const Chart = (props: ChartProps) => {
             containerHeight={heightInPixes}
             containerID={chart?.domId}
           />
+        ) : (
+          <div
+            className="outerNoDataContainer"
+            style={{
+              height: `calc(${heightInPixes}px - 40px)`,
+            }}
+          >
+            <NoData />
+          </div>
         );
       case "table":
-        return (
+        return hasData ? (
           <TopicTable
             columns={["Topic", "Frequency", "Sentiment"]}
             columnKeys={["name", "call_frequency", "average_sentiment"]}
@@ -240,9 +289,18 @@ const Chart = (props: ChartProps) => {
             }))}
             containerHeight={heightInPixes}
           />
+        ) : (
+          <div
+            className="outerNoDataContainer"
+            style={{
+              height: `calc(${heightInPixes}px - 40px)`,
+            }}
+          >
+            <NoData />
+          </div>
         );
       case "wordcloud":
-        return (
+        return hasData ? (
           <WordCloudChart
             title={chart.title}
             data={{
@@ -255,6 +313,15 @@ const Chart = (props: ChartProps) => {
             widthInPixels={document?.getElementById(chart?.domId)!?.clientWidth}
             containerHeight={heightInPixes}
           />
+        ) : (
+          <div
+            className="outerNoDataContainer"
+            style={{
+              height: `calc(${heightInPixes}px - 40px)`,
+            }}
+          >
+            <NoData />
+          </div>
         );
       default:
         console.warn(`Unknown chart type: ${chart.type}`);
@@ -286,13 +353,24 @@ const Chart = (props: ChartProps) => {
     }
     groupedByRows[rowValue].push(obj);
   });
-
+  const showAIGeneratedContentMessage =
+    (!fetchingCharts && !fetchingFilters) || appliedFetch;
   return (
     <>
-      {(fetchingCharts || fetchingFilters) ? (
-        <div>Loading Please wait...</div>
+      {fetchingCharts && !appliedFetch ? (
+        <div className={"chartsLoaderContainer"}>
+          <Spinner size={SpinnerSize.small} aria-label="Fetching Charts data" />
+          <div className="loaderText">Loading Please wait...</div>
+        </div>
       ) : (
-        <div className="all-widgets-container">
+        <div
+          className="all-widgets-container"
+          style={{
+            filter: `blur(${
+              fetchingCharts && appliedFetch ? "1.5px" : "0px"
+            } )`,
+          }}
+        >
           {Object.values(groupedByRows).map((chartsList: any, index) => {
             const gridStyles = getGridStyles(
               [...chartsList],
@@ -311,20 +389,35 @@ const Chart = (props: ChartProps) => {
                 className="chart-container"
                 style={{ ...gridStyles, gridGap: `${widgetsGapInPercentage}%` }}
               >
-                {chartsList.map((chart: any) => (
-                  <div
-                    key={chart.title}
-                    id={chart?.domId}
-                    className={`chart-item ${chart.type}Container`}
-                  >
-                    {/* <div className="chart-title">{chart.title}</div> */}
-                    <Subtitle2 className="chart-title">{chart.title}</Subtitle2>
-                    {renderChart(chart, heightInPixes)}
-                  </div>
-                ))}
+                {chartsList
+                  .sort(
+                    (a: ChartConfigItem, b: ChartConfigItem) =>
+                      a?.layout.col - b?.layout?.col
+                  )
+                  .map((chart: any) => (
+                    <div
+                      key={chart.title}
+                      id={chart?.domId}
+                      className={`chart-item ${chart.type}Container`}
+                    >
+                      {/* <div className="chart-title">{chart.title}</div> */}
+                      <Subtitle2 className="chart-title">
+                        {chart.title}
+                      </Subtitle2>
+                      {renderChart(chart, heightInPixes)}
+                    </div>
+                  ))}
               </div>
             );
           })}
+        </div>
+      )}
+
+      {showAIGeneratedContentMessage && (
+        <div style={{ textAlign: "center", gap: "2px" }}>
+          <Tag size="extra-small" shape="circular">
+            AI-generated content may be incorrect
+          </Tag>
         </div>
       )}
       {!fetchingFilters && (

@@ -21,11 +21,15 @@ export type AppState = {
     filtersMeta: FilterMetaData;
     charts: ChartConfigItem[];
     selectedFilters: SelectedFilters;
+    fetchingFilters: boolean;
+    fetchingCharts: boolean
   };
   chat: {
     generatingResponse: boolean;
     messages: ChatMessage[];
     userMessage: string;
+    lastRagResponse: string | null;
+    isStreamingInProgress: boolean;
   };
   chatHistory: {
     list: Conversation[];
@@ -54,11 +58,15 @@ const initialState: AppState = {
     },
     charts: [],
     selectedFilters: { ...defaultSelectedFilters },
+    fetchingCharts: true,
+    fetchingFilters: true
   },
   chat: {
     generatingResponse: false,
     messages: [],
     userMessage: "",
+    lastRagResponse: null,
+    isStreamingInProgress: false,
   },
   chatHistory: {
     list: [],
@@ -165,6 +173,26 @@ export type Action =
     }
   | {
       type: typeof actionConstants.UPDATE_HISTORY_UPDATE_API_FLAG;
+      payload: boolean;
+    }
+  | {
+      type: typeof actionConstants.SET_LAST_RAG_RESPONSE;
+      payload: string | null;
+    }
+  | {
+      type: typeof actionConstants.UPDATE_MESSAGE_BY_ID;
+      payload: ChatMessage;
+    }
+  | {
+      type: typeof actionConstants.UPDATE_STREAMING_FLAG;
+      payload: boolean;
+    }
+  | {
+      type: typeof actionConstants.UPDATE_CHARTS_FETCHING_FLAG;
+      payload: boolean;
+    }
+  | {
+      type: typeof actionConstants.UPDATE_FILTERS_FETCHING_FLAG;
       payload: boolean;
     };
 

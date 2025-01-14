@@ -8,7 +8,12 @@ header {
   align-items: center;
   padding: 10px;
 }
-
+.outerNoDataContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .chart-container {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -28,6 +33,24 @@ header {
   color: #707070;
   margin-bottom: 0.5rem;
   margin-top: 0px;
+}
+
+.chartsLoaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 8px;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  left: 50%;
+  right: 50%;
+}
+
+.chartsLoaderContainer .loaderText {
+  width: max-content;
 }
 
 .percentage {

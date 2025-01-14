@@ -16,7 +16,11 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  background: radial-gradient(108.78% 108.78% at 50.02% 19.78%, #ffffff 57.29%, #eef6fe 100%);
+  background: radial-gradient(
+    108.78% 108.78% at 50.02% 19.78%,
+    #ffffff 57.29%,
+    #eef6fe 100%
+  );
   overflow-y: auto;
   /* border-bottom-left-radius: 0px;
   border-top-left-radius: 0px; */
@@ -78,9 +82,15 @@
   line-height: var(--Line-height-300, 20px); /* 142.857% */
   align-self: flex-start;
   background-color: #ffffff;
-  word-wrap: break-word;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-x: auto;
+}
+
+.chart-message {
+  width: 100%;
 }
 
 .answerDisclaimerContainer {
@@ -137,8 +147,8 @@
 }
 
 .chat-header {
-  font-size: 1rem;
-  font-weight: 600;
+  /* font-size: 1rem;
+  font-weight: 600; */
   height: 6vh;
   display: flex;
   align-items: center;
@@ -156,21 +166,27 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  row-gap: 1rem;
+  row-gap: 8px;
   width: 73%;
   text-align: center;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 .initial-msg > span:first-of-type {
   color: #707070;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 .initial-msg > span:nth-of-type(2) {
-  color: #737373;
-  font-weight: 400;
-  font-size: 0.875em;
+  color: var(--colorNeutralForeground2);
+  /* font-weight: 400;
+  font-size: 0.875em; */
+}
+
+
+.initial-msg > span:nth-of-type(3) {
+  color: var(--colorNeutralForeground4);
+ 
 }
 
 .typing-indicator {
@@ -235,11 +251,6 @@
   height: var(--btn-create-conv-svg, 2rem);
 }
 
-.hide-chat-history {
-  height: var(--button-height) !important;
-  font-size: var(--header-btn-font-size) !important;
-}
-
 /* Large screens (≥992px) */
 @media (min-width: 992px) {
   .chat-header,
@@ -262,7 +273,7 @@
   .chat-header,
   .initial-msg,
   .chat-input {
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
   }
   :root {
     --msg-block-font: 0.7rem;
@@ -279,7 +290,7 @@
   .chat-header,
   .initial-msg,
   .chat-input {
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
   }
   .chat-input {
     padding: 0.75rem;
@@ -300,7 +311,7 @@
   .chat-header,
   .initial-msg,
   .chat-input {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
   }
   :root {
     --msg-block-font: 1rem;

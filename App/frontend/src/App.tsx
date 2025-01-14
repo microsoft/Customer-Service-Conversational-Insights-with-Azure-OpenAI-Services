@@ -2,13 +2,13 @@ import React, { useEffect, useState, useRef } from "react";
 import Chart from "./components/Chart/Chart";
 import Chat from "./components/Chat/Chat";
 import {
-  Body1,
   Button,
   FluentProvider,
-  Subtitle2Stronger,
+  Subtitle2,
+  Body2,
   webLightTheme,
   Avatar,
-  Tag
+  Tag,
 } from "@fluentui/react-components";
 import { SparkleRegular } from "@fluentui/react-icons";
 import "./App.css";
@@ -25,7 +25,7 @@ import {
 
 import { useAppContext } from "./state/useAppContext";
 import { actionConstants } from "./state/ActionConstants";
-import { Conversation } from "./types/AppTypes";
+import { ChatMessage, Conversation } from "./types/AppTypes";
 import { AppLogo } from "./components/Svg/Svg";
 import CustomSpinner from "./components/CustomSpinner/CustomSpinner";
 const panels = {
@@ -70,7 +70,7 @@ const Dashboard: React.FC = () => {
   const [offset, setOffset] = useState<number>(0);
   const OFFSET_INCREMENT = 25;
   const [hasMoreRecords, setHasMoreRecords] = useState<boolean>(true);
-  const [name, setName] = useState<string>('')
+  const [name, setName] = useState<string>("");
 
   useEffect(() => {
     try {
@@ -98,18 +98,18 @@ const Dashboard: React.FC = () => {
     }
   };
 
-  // useEffect(() => {
-  //   getUserInfoList();
-  // }, []);
+  useEffect(() => {
+    getUserInfoList();
+  }, []);
 
-  // useEffect(() => {
-  //   getUserInfo().then((res) => {
-  //     const name: string = res[0].user_claims.find((claim: any) => claim.typ === 'name')?.val ?? ''
-  //     setName(name)
-  //   }).catch((err) => {
-  //     console.error('Error fetching user info: ', err)
-  //   })
-  // }, [])
+  useEffect(() => {
+    getUserInfo().then((res) => {
+      const name: string = res[0].user_claims.find((claim: any) => claim.typ === 'name')?.val ?? ''
+      setName(name)
+    }).catch((err) => {
+      console.error('Error fetching user info: ', err)
+    })
+  }, [])
 
   const updateLayoutWidths = (newState: Record<string, boolean>) => {
     const noOfWidgetsOpen = Object.values(newState).filter((val) => val).length;
@@ -160,6 +160,12 @@ const Dashboard: React.FC = () => {
       ...panelShowStates,
       [panelName]: !panelShowStates[panelName],
     };
+    const isHiddenBoth = !newState[panels.DASHBOARD] && !newState[panels.CHAT];
+    if (isHiddenBoth && panelName === panels.CHAT) {
+      newState[panels.DASHBOARD] = true;
+    } else if (isHiddenBoth && panelName === panels.DASHBOARD) {
+      newState[panels.CHAT] = true;
+    }
     updateLayoutWidths(newState);
     setPanelShowStates(newState);
   };
@@ -190,7 +196,6 @@ const Dashboard: React.FC = () => {
       payload: false,
     });
   };
-
 
   const onClearAllChatHistory = async () => {
     dispatch({
@@ -224,6 +229,17 @@ const Dashboard: React.FC = () => {
     }
   }, [isInitialAPItriggered]);
 
+  const [ASSISTANT, TOOL, ERROR, USER] = ["assistant", "tool", "error", "user"];
+
+  const getLastRagResponse = (messages: ChatMessage[]) => {
+    const lastAssistantObj = [...messages]
+      .reverse()
+      .find((obj) => obj.role === ASSISTANT && typeof obj.content === "string");
+    if (typeof lastAssistantObj?.content === "string") {
+      return lastAssistantObj.content.trim();
+    }
+    return null;
+  };
 
   const onSelectConversation = async (id: string) => {
     if (!id) {
@@ -238,6 +254,10 @@ const Dashboard: React.FC = () => {
       type: actionConstants.UPDATE_SELECTED_CONV_ID,
       payload: id,
     });
+    dispatch({
+      type: actionConstants.SET_LAST_RAG_RESPONSE,
+      payload: null,
+    });
     try {
       const responseMessages = await historyRead(id);
 
@@ -250,6 +270,11 @@ const Dashboard: React.FC = () => {
           },
         });
       }
+      const lastRagResponse = getLastRagResponse(responseMessages);
+      dispatch({
+        type: actionConstants.SET_LAST_RAG_RESPONSE,
+        payload: lastRagResponse,
+      });
     } catch (error) {
       console.error("Error fetching conversation messages:", error);
     } finally {
@@ -280,9 +305,9 @@ const Dashboard: React.FC = () => {
       <div className="header">
         <div className="header-left-section">
           <AppLogo />
-          <Subtitle2Stronger>Woodgrove <Body1 style={{ gap: "10px" }}>| Call Analysis</Body1></Subtitle2Stronger>
-          <Tag size="extra-small" shape="circular">AI-generated content may be incorrect </Tag>
-        
+          <Subtitle2>
+            Woodgrove <Body2 style={{ gap: "10px" }}>| Call Analysis</Body2>
+          </Subtitle2>
         </div>
         <div className="header-right-section">
           <Button
@@ -301,14 +326,9 @@ const Dashboard: React.FC = () => {
             {`${panelShowStates?.[panels.CHAT] ? "Hide" : "Show"} Chat`}
           </Button>
           <div>
-            <Avatar size={32} style={{ width: '45px', height: '45px' }}
-              name={name}
-            />
-            <Body1>{name}</Body1>
+            <Avatar name={name} title={name} />
           </div>
-         
         </div>
-      
       </div>
       <div className="main-container">
         {/* LEFT PANEL: DASHBOARD */}
@@ -356,9 +376,6 @@ const Dashboard: React.FC = () => {
             useAppContext?.state.isCosmosDBAvailable?.status !== CosmosDBStatus.NotConfigured && <ChatHistoryPanel />} */}
             </div>
           )}
-
-
-
       </div>
     </FluentProvider>
   );

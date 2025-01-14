@@ -28,6 +28,7 @@
 }
 
 .filters-container {
+  padding-top: .3rem;
   justify-content: center;
   position: absolute; /* Updated to fixed positioning */
   height: auto;
