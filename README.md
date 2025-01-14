@@ -53,7 +53,7 @@ To use this solution accelerator, you will need access to an [Azure subscription
 2. **Deploy Azure resources**  
    Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
 
-   <![![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmain%2FDeployment%2Fbicep%2Fmain.json)
+   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmain%2FDeployment%2Fbicep%2Fmain.json)
 
 
 

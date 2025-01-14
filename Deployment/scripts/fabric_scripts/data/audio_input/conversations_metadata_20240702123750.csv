@@ -1,6 +1,0 @@
-ConversationId,StartTime,EndTime,CallerId,CallReason,ResolutionStatus,AgentId,AgentName,Team,FileName
-30cce812-c747-42ea-8412-5145ae9e66c1,6/13/2024 3:36:56 AM, 6/13/2024 4:03:09 AM,999-810-2236,Complaints,Unresolved,M9FVT5,Noah Wilson,Southeast, Travel_20240613033656.wav
-4cedb52e-83a5-458d-97c8-704a27cebd24,6/20/2024 1:37:07 PM, 6/20/2024 2:01:00 PM,999-172-2248,Transactions,Resolved,AOC72V,Evelyn Perez,Southeast, Travel_20240620133707.wav
-b2a84754-e54f-46f4-a720-d256213a6afe,6/21/2024 7:37:21 AM, 6/21/2024 8:00:01 AM,999-615-1191,Tech Support,Resolved,1OWZ1U,Isabella Taylor,Northeast, Travel_20240621073721.wav
-3bd19942-e13b-42dc-a4ce-d2ba3345c04d,6/4/2024 7:37:40 PM, 6/4/2024 8:01:06 PM,999-167-2034,Tech Support,Resolved,2JE9H6,Benjamin Lee,Midwest, Travel_20240604193740.wav
-8f4f91a8-670c-4cb6-b5de-dc2d3c7f3907,6/27/2024 10:37:50 AM, 6/27/2024 10:58:12 AM,999-529-8599,Tech Support,Resolved,Q8BBAU,Amelia Hernandez,Southeast, Travel_20240627103750.wav
