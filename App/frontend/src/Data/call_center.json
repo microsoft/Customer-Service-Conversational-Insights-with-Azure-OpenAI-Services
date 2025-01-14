@@ -1,0 +1,508 @@
+{
+    "call_data": [
+        {
+            "call_id": 1,
+            "start_time": "2021-12-01T08:30:00Z",
+            "end_time": "2021-12-01T08:50:00Z",
+            "satisfaction": 4,
+            "call_duration": 20,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 2,
+            "start_time": "2021-10-01T09:00:00Z",
+            "end_time": "2021-10-01T09:20:00Z",
+            "satisfaction": 3,
+            "call_duration": 20,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 3,
+            "start_time": "2022-10-01T09:30:00Z",
+            "end_time": "2022-10-01T09:55:00Z",
+            "satisfaction": 5,
+            "call_duration": 25,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 4,
+            "start_time": "2023-10-01T10:00:00Z",
+            "end_time": "2023-10-01T10:15:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 5,
+            "start_time": "2023-09-01T10:30:00Z",
+            "end_time": "2023-09-01T10:50:00Z",
+            "satisfaction": 4,
+            "call_duration": 20,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 6,
+            "start_time": "2023-10-01T11:00:00Z",
+            "end_time": "2023-10-01T11:20:00Z",
+            "satisfaction": 2,
+            "call_duration": 20,
+            "sentiment": "negative"
+        },
+        {
+            "call_id": 7,
+            "start_time": "2024-11-12T11:45:00Z",
+            "end_time": "2024-11-12T12:00:00Z",
+            "satisfaction": 5,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 8,
+            "start_time": "2024-10-01T10:15:00Z",
+            "end_time": "2024-10-01T10:30:00Z",
+            "satisfaction": 4,
+            "call_duration": 10,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 9,
+            "start_time": "2024-09-09T09:30:00Z",
+            "end_time": "2024-09-09T09:45:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 10,
+            "start_time": "2023-10-01T12:40:00Z",
+            "end_time": "2023-10-01T12:55:00Z",
+            "satisfaction": 2,
+            "call_duration": 15,
+            "sentiment": "negative"
+        },
+        {
+            "call_id": 11,
+            "start_time": "2023-12-01T13:00:00Z",
+            "end_time": "2023-12-01T13:15:00Z",
+            "satisfaction": 5,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 12,
+            "start_time": "2023-10-01T13:20:00Z",
+            "end_time": "2023-10-01T13:35:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 13,
+            "start_time": "2023-10-01T13:40:00Z",
+            "end_time": "2023-10-01T13:55:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 14,
+            "start_time": "2023-10-01T14:00:00Z",
+            "end_time": "2023-10-01T14:10:00Z",
+            "satisfaction": 4,
+            "call_duration": 10,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 15,
+            "start_time": "2023-10-01T14:20:00Z",
+            "end_time": "2023-10-01T14:35:00Z",
+            "satisfaction": 2,
+            "call_duration": 15,
+            "sentiment": "negative"
+        },
+        {
+            "call_id": 16,
+            "start_time": "2023-10-01T14:40:00Z",
+            "end_time": "2023-10-01T14:50:00Z",
+            "satisfaction": 4,
+            "call_duration": 10,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 17,
+            "start_time": "2023-10-01T15:00:00Z",
+            "end_time": "2023-10-01T15:15:00Z",
+            "satisfaction": 5,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 18,
+            "start_time": "2023-10-01T15:20:00Z",
+            "end_time": "2023-10-01T15:40:00Z",
+            "satisfaction": 3,
+            "call_duration": 20,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 19,
+            "start_time": "2023-10-01T15:45:00Z",
+            "end_time": "2023-10-01T16:05:00Z",
+            "satisfaction": 4,
+            "call_duration": 20,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 20,
+            "start_time": "2023-10-01T16:10:00Z",
+            "end_time": "2023-10-01T16:30:00Z",
+            "satisfaction": 3,
+            "call_duration": 20,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 21,
+            "start_time": "2023-10-01T16:35:00Z",
+            "end_time": "2023-10-01T16:50:00Z",
+            "satisfaction": 2,
+            "call_duration": 15,
+            "sentiment": "negative"
+        },
+        {
+            "call_id": 22,
+            "start_time": "2023-10-01T17:00:00Z",
+            "end_time": "2023-10-01T17:15:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 23,
+            "start_time": "2023-10-01T17:20:00Z",
+            "end_time": "2023-10-01T17:35:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 24,
+            "start_time": "2023-10-01T17:40:00Z",
+            "end_time": "2023-10-01T17:55:00Z",
+            "satisfaction": 5,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 25,
+            "start_time": "2023-10-01T18:00:00Z",
+            "end_time": "2023-10-01T18:15:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 26,
+            "start_time": "2023-10-01T18:20:00Z",
+            "end_time": "2023-10-01T18:35:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 27,
+            "start_time": "2023-10-01T18:40:00Z",
+            "end_time": "2023-10-01T19:00:00Z",
+            "satisfaction": 5,
+            "call_duration": 20,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 28,
+            "start_time": "2023-10-01T19:05:00Z",
+            "end_time": "2023-10-01T19:20:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 29,
+            "start_time": "2023-10-01T19:25:00Z",
+            "end_time": "2023-10-01T19:40:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 30,
+            "start_time": "2023-10-01T19:45:00Z",
+            "end_time": "2023-10-01T20:00:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 31,
+            "start_time": "2023-10-01T20:05:00Z",
+            "end_time": "2023-10-01T20:20:00Z",
+            "satisfaction": 5,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 32,
+            "start_time": "2023-10-01T20:25:00Z",
+            "end_time": "2023-10-01T20:40:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 33,
+            "start_time": "2023-10-01T20:45:00Z",
+            "end_time": "2023-10-01T21:00:00Z",
+            "satisfaction": 2,
+            "call_duration": 15,
+            "sentiment": "negative"
+        },
+        {
+            "call_id": 34,
+            "start_time": "2023-10-01T21:05:00Z",
+            "end_time": "2023-10-01T21:20:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 35,
+            "start_time": "2023-10-01T21:25:00Z",
+            "end_time": "2023-10-01T21:40:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 36,
+            "start_time": "2023-10-01T21:45:00Z",
+            "end_time": "2023-10-01T22:00:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 37,
+            "start_time": "2023-10-01T22:05:00Z",
+            "end_time": "2023-10-01T22:20:00Z",
+            "satisfaction": 5,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 38,
+            "start_time": "2023-10-01T22:25:00Z",
+            "end_time": "2023-10-01T22:40:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 39,
+            "start_time": "2023-10-01T22:45:00Z",
+            "end_time": "2023-10-01T23:00:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 40,
+            "start_time": "2023-10-01T23:05:00Z",
+            "end_time": "2023-10-01T23:20:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 41,
+            "start_time": "2023-10-01T23:25:00Z",
+            "end_time": "2023-10-01T23:40:00Z",
+            "satisfaction": 2,
+            "call_duration": 15,
+            "sentiment": "negative"
+        },
+        {
+            "call_id": 42,
+            "start_time": "2023-10-01T23:45:00Z",
+            "end_time": "2023-10-02T00:00:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 43,
+            "start_time": "2023-10-02T00:05:00Z",
+            "end_time": "2023-10-02T00:20:00Z",
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 44,
+            "start_time": "2023-10-02T00:25:00Z",
+            "end_time": "2023-10-02T00:40:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 45,
+            "start_time": "2023-10-02T00:45:00Z",
+            "end_time": "2023-10-02T01:00:00Z",
+            "satisfaction": 2,
+            "call_duration": 15,
+            "sentiment": "negative"
+        },
+        {
+            "call_id": 46,
+            "start_time": "2023-10-02T01:05:00Z",
+            "end_time": "2023-10-02T01:20:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 47,
+            "start_time": "2023-10-02T01:25:00Z",
+            "end_time": "2023-10-02T01:40:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 48,
+            "start_time": "2023-10-02T01:45:00Z",
+            "end_time": "2023-10-02T02:00:00Z",
+            "satisfaction": 5,
+            "call_duration": 15,
+            "sentiment": "positive"
+        },
+        {
+            "call_id": 49,
+            "start_time": "2023-10-02T02:05:00Z",
+            "end_time": "2023-10-02T02:20:00Z",
+            "satisfaction": 3,
+            "call_duration": 15,
+            "sentiment": "neutral"
+        },
+        {
+            "call_id": 50,
+            "start_time": "2024-02-14T15:00:00Z",
+            "end_time": "2024-02-14T15:30:00Z",
+            "satisfaction": 4,
+            "call_duration": 15,
+            "sentiment": "positive"
+        }
+    ],
+    "topic": [
+        {"call_id": 1, "topic": "Billing Inquiry"},
+        {"call_id": 2, "topic": "Billing Discrepancy"},
+        {"call_id": 3, "topic": "Technical Support"},
+        {"call_id": 4, "topic": "Return Process"},
+        {"call_id": 5, "topic": "Service Upgrade"},
+        {"call_id": 6, "topic": "Service Interruptions"},
+        {"call_id": 7, "topic": "New Services Inquiry"},
+        {"call_id": 8, "topic": "Account Verification"},
+        {"call_id": 9, "topic": "Account Suspension"},
+        {"call_id": 10, "topic": "Account Cancellation"},
+        {"call_id": 11, "topic": "Service Feedback"},
+        {"call_id": 12, "topic": "Product Features Inquiry"},
+        {"call_id": 13, "topic": "Technical Issues"},
+        {"call_id": 14, "topic": "Service Upgrade Inquiry"},
+        {"call_id": 15, "topic": "Service Interruptions"},
+        {"call_id": 16, "topic": "Loyalty Program"},
+        {"call_id": 17, "topic": "Account Update"},
+        {"call_id": 18, "topic": "Payment Issues"},
+        {"call_id": 19, "topic": "Service Package Feedback"},
+        {"call_id": 20, "topic": "Billing Dispute"},
+        {"call_id": 21, "topic": "Account Cancellation"},
+        {"call_id": 22, "topic": "Service Upgrade Issue"},
+        {"call_id": 23, "topic": "Online Account Settings"},
+        {"call_id": 24, "topic": "Loyalty Program Inquiry"},
+        {"call_id": 25, "topic": "Technical Support"},
+        {"call_id": 26, "topic": "Billing Inquiry"},
+        {"call_id": 27, "topic": "Service Feedback"},
+        {"call_id": 28, "topic": "Account Suspension"},
+        {"call_id": 29, "topic": "Product Features Inquiry"},
+        {"call_id": 30, "topic": "Service Package Feedback"},
+        {"call_id": 31, "topic": "Billing Discrepancy"},
+        {"call_id": 32, "topic": "Account Verification"},
+        {"call_id": 33, "topic": "Service Upgrade"},
+        {"call_id": 34, "topic": "Return Process"},
+        {"call_id": 35, "topic": "Technical Issues"},
+        {"call_id": 36, "topic": "New Services Inquiry"},
+        {"call_id": 37, "topic": "Account Update"},
+        {"call_id": 38, "topic": "Billing Dispute"},
+        {"call_id": 39, "topic": "Account Cancellation"},
+        {"call_id": 40, "topic": "Payment Issues"},
+        {"call_id": 41, "topic": "Loyalty Program"},
+        {"call_id": 42, "topic": "Online Account Settings"},
+        {"call_id": 43, "topic": "Service Upgrade Inquiry"},
+        {"call_id": 44, "topic": "Service Interruptions"},
+        {"call_id": 45, "topic": "Account Suspension"},
+        {"call_id": 46, "topic": "Account Cancellation"},
+        {"call_id": 47, "topic": "Service Feedback"},
+        {"call_id": 48, "topic": "New Services Inquiry"},
+        {"call_id": 49, "topic": "Technical Support"},
+        {"call_id": 50, "topic": "Billing Inquiry"}
+    
+    ],
+    "keyphrase_data": [
+        {"call_id": 1, "key_phrases": ["unexpected charges", "billing statement", "account issue"]},
+        {"call_id": 2, "key_phrases": ["billing discrepancy", "quoted price", "previous call"]},
+        {"call_id": 3, "key_phrases": ["connectivity issues", "technical support", "internet service"]},
+        {"call_id": 4, "key_phrases": ["return process", "online purchase", "associated fees"]},
+        {"call_id": 5, "key_phrases": ["service plan upgrade", "additional features", "faster internet"]},
+        {"call_id": 6, "key_phrases": ["service interruptions", "customer dissatisfaction", "issue resolution"]},
+        {"call_id": 7, "key_phrases": ["new services", "customer experience", "feature enhancement"]},
+        {"call_id": 8, "key_phrases": ["account verification", "security purposes", "personal information"]},
+        {"call_id": 9, "key_phrases": ["account suspension", "payment missed", "reinstatement policy"]},
+        {"call_id": 10, "key_phrases": ["account cancellation", "customer dissatisfaction", "exploring alternatives"]},
+        {"call_id": 11, "key_phrases": ["service experience", "customer feedback", "suggestions for improvement"]},
+        {"call_id": 12, "key_phrases": ["product features", "compatibility", "seamless integration"]},
+        {"call_id": 13, "key_phrases": ["technical issues", "troubleshooting steps", "ongoing support"]},
+        {"call_id": 14, "key_phrases": ["service upgrade", "options inquiry", "customer satisfaction"]},
+        {"call_id": 15, "key_phrases": ["service interruptions", "prompt resolution", "connectivity issues"]},
+        {"call_id": 16, "key_phrases": ["loyalty program", "benefits", "participation details"]},
+        {"call_id": 17, "key_phrases": ["account information", "personal details", "communication accuracy"]},
+        {"call_id": 18, "key_phrases": ["payment issues", "guidance needed", "rectifying situation"]},
+        {"call_id": 19, "key_phrases": ["service package", "pricing concerns", "feedback discussion"]},
+        {"call_id": 20, "key_phrases": ["billing statement", "dispute", "immediate resolution"]},
+        {"call_id": 21, "key_phrases": ["account cancellation", "reasons for leaving", "available alternatives"]},
+        {"call_id": 22, "key_phrases": ["service upgrade", "issues reported", "not taking effect"]},
+        {"call_id": 23, "key_phrases": ["online account", "settings navigation", "user experience"]},
+        {"call_id": 24, "key_phrases": ["loyalty program", "eligibility", "benefits inquiry"]},
+        {"call_id": 25, "key_phrases": ["slow internet", "network issues", "service investigation"]},
+        {"call_id": 26, "key_phrases": ["billing breakdown", "understanding charges", "recent usage"]},
+        {"call_id": 27, "key_phrases": ["service upgrade", "options available", "customer interest"]},
+        {"call_id": 28, "key_phrases": ["password reset", "access recovery", "online account"]},
+        {"call_id": 29, "key_phrases": ["streaming issues", "technical support", "ongoing problems"]},
+        {"call_id": 30, "key_phrases": ["privacy settings", "account adjustments", "customer concerns"]},
+        {"call_id": 31, "key_phrases": ["seasonal promotions", "offers", "customer benefits"]},
+        {"call_id": 32, "key_phrases": ["terms of service", "policy changes", "clarification needed"]},
+        {"call_id": 33, "key_phrases": ["provider switch", "termination fees", "available options"]},
+        {"call_id": 34, "key_phrases": ["equipment malfunction", "technical guidance", "issue resolution"]},
+        {"call_id": 35, "key_phrases": ["service area", "coverage verification", "connectivity"]},
+        {"call_id": 36, "key_phrases": ["parental controls", "internet access", "setup guidance"]},
+        {"call_id": 37, "key_phrases": ["service package", "internet usage", "best options"]},
+        {"call_id": 38, "key_phrases": ["smart home devices", "configuration help", "better integration"]},
+        {"call_id": 39, "key_phrases": ["mobile app features", "maximizing use", "user experience"]},
+        {"call_id": 40, "key_phrases": ["data usage", "bill impact", "clarification"]},
+        {"call_id": 41, "key_phrases": ["billing cycle", "due dates", "penalties"]},
+        {"call_id": 42, "key_phrases": ["plan differences", "comparison", "informed decision"]},
+        {"call_id": 43, "key_phrases": ["warranty policies", "filing claims", "product assistance"]},
+        {"call_id": 44, "key_phrases": ["support resources", "troubleshooting", "device issues"]},
+        {"call_id": 45, "key_phrases": ["hidden fees", "bill clarity", "charge breakdown"]},
+        {"call_id": 46, "key_phrases": ["automatic payments", "late fees", "payment setup"]},
+        {"call_id": 47, "key_phrases": ["data caps", "enforcement", "billing periods"]},
+        {"call_id": 48, "key_phrases": ["data packages", "suitable options", "customer needs"]},
+        {"call_id": 49, "key_phrases": ["service activation", "troubleshooting", "help needed"]},
+        {"call_id": 50, "key_phrases": ["referral rewards", "participation", "program details"]}
+    ]
+}

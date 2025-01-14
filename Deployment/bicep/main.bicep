@@ -5,15 +5,17 @@ targetScope = 'resourceGroup'
 @maxLength(6)
 @description('Prefix Name')
 param solutionPrefix string
-param location string = resourceGroup().location
 
-@description('Fabric Workspace Id if you have one, else leave it empty. ')
-//param fabricWorkspaceId string
+@description('other Location')
+param otherLocation string
 
-var resourceGroupLocation = location
+// @description('Fabric Workspace Id if you have one, else leave it empty. ')
+// param fabricWorkspaceId string
+
+var resourceGroupLocation = resourceGroup().location
 
 var solutionLocation = resourceGroupLocation
-
+var baseUrl = 'https://raw.githubusercontent.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/'
 
 // ========== Managed Identity ========== //
 module managedIdentityModule 'deploy_managed_identity.bicep' = {
@@ -25,43 +27,146 @@ module managedIdentityModule 'deploy_managed_identity.bicep' = {
   scope: resourceGroup(resourceGroup().name)
 }
 
-// ========== Azure AI services multi-service account ========== //
-module azAIMultiServiceAccount 'deploy_azure_ai_service.bicep' = {
-  name: 'deploy_azure_ai_service'
+module aifoundry 'deploy_ai_foundry.bicep' = {
+  name: 'deploy_ai_foundry'
   params: {
     solutionName: solutionPrefix
-    solutionLocation: solutionLocation
-  }
-} 
-
-// ========== Azure OpenAI ========== //
-module azOpenAI 'deploy_azure_open_ai.bicep' = {
-  name: 'deploy_azure_open_ai'
-  params: {
-    solutionName: solutionPrefix
-    solutionLocation: solutionLocation
-  }
-}
-
-// ========== Key Vault ========== //
-
-module keyvaultModule 'deploy_keyvault.bicep' = {
-  name: 'deploy_keyvault'
-  params: {
-    solutionName: solutionPrefix
-    solutionLocation: solutionLocation
-    objectId: managedIdentityModule.outputs.managedIdentityOutput.objectId
-    tenantId: subscription().tenantId
-    managedIdentityObjectId:managedIdentityModule.outputs.managedIdentityOutput.objectId   
-    azureOpenAIApiKey:azOpenAI.outputs.openAIOutput.openAPIKey
-    azureOpenAIApiVersion:'2023-07-01-preview'
-    azureOpenAIEndpoint:azOpenAI.outputs.openAIOutput.openAPIEndpoint
-    cogServiceEndpoint:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceEndpoint
-    cogServiceName:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceName
-    cogServiceKey:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceKey
-    cogServiceRegion:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceRegion
-    enableSoftDelete:false
+    solutionLocation: resourceGroupLocation
+    managedIdentityObjectId:managedIdentityModule.outputs.managedIdentityOutput.objectId
   }
   scope: resourceGroup(resourceGroup().name)
-  dependsOn:[azOpenAI,azAIMultiServiceAccount,managedIdentityModule]
+}
+
+
+// ========== Storage Account Module ========== //
+module storageAccount 'deploy_storage_account.bicep' = {
+  name: 'deploy_storage_account'
+  params: {
+    solutionName: solutionPrefix
+    solutionLocation: solutionLocation
+    keyVaultName: aifoundry.outputs.keyvaultName
+    managedIdentityObjectId:managedIdentityModule.outputs.managedIdentityOutput.objectId
+  }
+  scope: resourceGroup(resourceGroup().name)
+}
+
+module cosmosDBModule 'deploy_cosmos_db.bicep' = {
+  name: 'deploy_cosmos_db'
+  params: {
+    solutionName: solutionPrefix
+    solutionLocation: otherLocation
+    keyVaultName: aifoundry.outputs.keyvaultName
+  }
+  scope: resourceGroup(resourceGroup().name)
+}
+
+//========== SQL DB Module ========== //
+module sqlDBModule 'deploy_sql_db.bicep' = {
+  name: 'deploy_sql_db'
+  params: {
+    solutionName: solutionPrefix
+    solutionLocation: otherLocation
+    keyVaultName: aifoundry.outputs.keyvaultName
+  }
+  scope: resourceGroup(resourceGroup().name)
+}
+
+resource keyVault 'Microsoft.KeyVault/vaults@2022-07-01' existing = {
+  name: aifoundry.outputs.keyvaultName
+  scope: resourceGroup(resourceGroup().name)
+}
+
+module uploadFiles 'deploy_upload_files_script.bicep' = {
+  name : 'deploy_upload_files_script'
+  params:{
+    solutionLocation: solutionLocation
+    keyVaultName: aifoundry.outputs.keyvaultName
+    baseUrl: baseUrl
+    storageAccountName: storageAccount.outputs.storageName
+    containerName: storageAccount.outputs.storageContainer
+    storageAccountKey:keyVault.getSecret('ADLS-ACCOUNT-KEY')
+    managedIdentityObjectId:managedIdentityModule.outputs.managedIdentityOutput.id
+  }
+  dependsOn:[storageAccount,keyVault]
+}
+
+module createIndex 'deploy_index_scripts.bicep' = {
+  name : 'deploy_index_scripts'
+  params:{
+    solutionLocation: solutionLocation
+    identity:managedIdentityModule.outputs.managedIdentityOutput.id
+    baseUrl:baseUrl
+    keyVaultName:aifoundry.outputs.keyvaultName
+  }
+  dependsOn:[aifoundry,keyVault,sqlDBModule,uploadFiles]
+}
+
+module azureFunctionsCharts 'deploy_azure_function_charts.bicep' = {
+  name : 'deploy_azure_function_charts'
+  params:{
+    solutionName: solutionPrefix
+    solutionLocation: solutionLocation
+    sqlServerName: sqlDBModule.outputs.sqlServerName
+    sqlDbName: sqlDBModule.outputs.sqlDbName
+    sqlDbUser: sqlDBModule.outputs.sqlDbUser
+    sqlDbPwd:keyVault.getSecret('SQLDB-PASSWORD')
+    managedIdentityObjectId:managedIdentityModule.outputs.managedIdentityOutput.objectId
+  }
+  dependsOn:[sqlDBModule,keyVault]
+}
+
+module azureragFunctionsRag 'deploy_azure_function_rag.bicep' = {
+  name : 'deploy_azure_function_rag'
+  params:{
+    solutionName: solutionPrefix
+    solutionLocation: solutionLocation
+    azureOpenAIApiKey:keyVault.getSecret('AZURE-OPENAI-KEY')
+    azureOpenAIEndpoint:aifoundry.outputs.aiServicesTarget
+    azureSearchAdminKey:keyVault.getSecret('AZURE-SEARCH-KEY')
+    azureSearchServiceEndpoint:aifoundry.outputs.aiSearchTarget
+    azureOpenAIApiVersion:'2024-02-15-preview'
+    azureSearchIndex:'call_transcripts_index'
+    sqlServerName:sqlDBModule.outputs.sqlServerName
+    sqlDbName:sqlDBModule.outputs.sqlDbName
+    sqlDbUser:sqlDBModule.outputs.sqlDbUser
+    sqlDbPwd:keyVault.getSecret('SQLDB-PASSWORD')
+    managedIdentityObjectId:managedIdentityModule.outputs.managedIdentityOutput.objectId
+  }
+  dependsOn:[aifoundry,sqlDBModule,keyVault]
+}
+
+module azureFunctionURL 'deploy_azure_function_urls.bicep' = {
+  name : 'deploy_azure_function_urls'
+  params:{
+    solutionName: solutionPrefix
+    identity:managedIdentityModule.outputs.managedIdentityOutput.id
+  }
+  dependsOn:[azureFunctionsCharts,azureragFunctionsRag]
+}
+
+module appserviceModule 'deploy_app_service.bicep' = {
+  name: 'deploy_app_service'
+  params: {
+    identity:managedIdentityModule.outputs.managedIdentityOutput.id
+    solutionName: solutionPrefix
+    solutionLocation: solutionLocation
+    AzureOpenAIEndpoint:aifoundry.outputs.aiServicesTarget
+    AzureOpenAIModel:'gpt-4o-mini'
+    AzureOpenAIKey:keyVault.getSecret('AZURE-OPENAI-KEY')
+    azureOpenAIApiVersion:'2024-02-15-preview'
+    AZURE_OPENAI_RESOURCE:aifoundry.outputs.aiServicesName
+    CHARTS_URL:azureFunctionURL.outputs.functionURLsOutput.charts_function_url
+    FILTERS_URL:azureFunctionURL.outputs.functionURLsOutput.filters_function_url
+    USE_GRAPHRAG:'False'
+    USE_CHAT_HISTORY_ENABLED:'True'
+    GRAPHRAG_URL:azureFunctionURL.outputs.functionURLsOutput.graphrag_function_url
+    RAG_URL:azureFunctionURL.outputs.functionURLsOutput.rag_function_url
+    AZURE_COSMOSDB_ACCOUNT: cosmosDBModule.outputs.cosmosAccountName
+    AZURE_COSMOSDB_ACCOUNT_KEY: keyVault.getSecret('AZURE-COSMOSDB-ACCOUNT-KEY')
+    AZURE_COSMOSDB_CONVERSATIONS_CONTAINER: cosmosDBModule.outputs.cosmosContainerName
+    AZURE_COSMOSDB_DATABASE: cosmosDBModule.outputs.cosmosDatabaseName
+    AZURE_COSMOSDB_ENABLE_FEEDBACK:'True'
+  }
+  scope: resourceGroup(resourceGroup().name)
+  dependsOn:[aifoundry,cosmosDBModule,sqlDBModule,azureFunctionURL]
 }

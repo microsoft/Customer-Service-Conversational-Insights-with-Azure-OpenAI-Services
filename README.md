@@ -1,72 +1,61 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**USER STORY**](#user-story) \| [**SIMPLE DEPLOY**](#simple-deploy)  \| [**SUPPORTING DOCUMENTATION**](#supporting-documentation) \|
+MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy)  \| [**SUPPORTING DOCUMENTATION**](#supporting-documentation) \|
 [**CUSTOMER TRUTH**](#customer-truth)
 
-<h2><img src="/images/readMe/userStory.png" width="64">
+<h2><img src="./Documents/Images/ReadMe/userStory.png" width="64">
 <br/>
 User story
 </h2>
 
 ### Overview
 
-This solution accelerator enables customers with large amounts of conversational data to use generative AI to surface key phrases alongside operational metrics. This enables users to discover valuable insights for targeted business impact.
+This solution accelerator enables customers with large amounts of conversational data to improve decision-making by leveraging intelligence to uncover insights, relationships, and patterns from customer interactions. It empowers users to gain valuable knowledge and drive targeted business impact. 
 
-**Version history:** An updated version of the Conversation Knowledge Mining solution accelerator was published on 08/15/2024. If you deployed the accelerator prior to that date, please see “Version history” in the [Supporting documentation](#supporting-documentation) section.
+This solution accelerator leverages Azure AI Foundry, Azure OpenAI, Microsoft Fabric, and Azure Search to transform large volumes of conversational data into actionable insights through topic modeling, key phrase extraction, speech-to-text transcription, and interactive chat experiences.
+
+**Version history:** An updated version of the Conversation Knowledge Mining solution accelerator was published on xx/xx/xxxx. If you deployed the accelerator prior to that date, please see “Version history” in the [Supporting documentation](#supporting-documentation) section.
 
 ### Technical key features
 
-- **Data processing:** Microsoft Fabric processes both audio and conversation files at scale, leveraging its benefits for efficient and scalable data handling
-- **Summarization and key phrase extraction​:** Azure OpenAI is used to summarize long conversations into concise paragraphs and extract relevant key phrases
-- **Speech transcription and diarization​:** Azure Speech is used to transcribe audio files, including speaker diarization for post-call analytics. Diarization is the process of recognizing and separating individual speakers into mono-channel audio data​
-- **Analytics dashboard​:** Power BI is used to visualize the correlation between operational metrics and AI-generated conversational data​
+![image](./Documents/Images/ReadMe/techkeyfeatures.png)
 
-\
-![image](/images/readMe/ckm-v2-ui.png)
+Below is an image of the solution accelerator.
+
+![image](./Documents/Images/ReadMe/ckm-ui.png)
 
 ### Use case / scenario
 
-A contact center manager reviews contact center performance to ensure resources are being used efficiently. To identify areas for improvement, they need to understand the correlation between conversational and operational data. ​
+An analyst managing large volumes of conversational data needs a solution to visualize key insights and uncover patterns using natural language. An interactive dashboard enables them to explore rich, actionable insights for faster, and more informed decision-making.
+ 
+This solution empowers analysts with tools to ask questions and receive real-time, contextualized responses. It streamlines problem-solving, enhances collaboration, and fosters innovation by making data-driven insights accessible and shareable.
 
-The contact center manager uses their dashboard to identify how LLM-generated conversational analytics and insights are impacting operations to make an informed decision about how to improve their center’s performance.​
-
-### Target end users
-
-Company personnel (employees, executives) looking to gain conversational insights in correlation with operational Contact Center metrics would leverage this accelerator to find what they need quickly.
-
-### Business value
-- **Conversation analysis​:** Generative AI analyzes call transcripts, summarizes content, identifies and aggregates key phrases for data visualization​
-- **Automated customer satisfaction​:** Generative AI determines the post-call satisfaction rating of a customer’s experience with their agent
-- **Operational clarity​:** Relevant metrics such as call volume, handling time, and call resolution are pulled from the same call logs for operational data visualization​
-- **Unified data:** ​Unstructured (call transcripts) and structured (operational metrics) data are both analyzed and visualized within the same application​
-- **Targeted decision enablement:** Enable agents and managers to achieve glanceable insight recognition, corollary information analysis, and accelerated decision making​
-
-### Products used/licenses required
-
--   Azure Speech Service
-
--   Azure OpenAI
-
--   Microsoft Fabric Capacity
-
--   The user deploying the template must have permission to create
-    resources and resource groups.
+The sample data used in this repository is synthetic and generated using Azure Open AI service. The data is intended for use as sample data only.
 
 ### Solution accelerator architecture
-![image](/images/readMe/ckm-v2-sa.png)
+![image](./Documents/Images/ReadMe/ckm-sol-arch.png)
 
-<h2><img src="/images/readMe/oneClickDeploy.png" width="64">
+
+<h2><img src="./Documents/Images/ReadMe/quickDeploy.png" width="64">
 <br/>
-Simple deploy
+Quick deploy
 </h2>
+
+### **Prerequisites**
+
+To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/) with permission to create resource groups and resources. 
 
 
 ### **How to install/deploy**
 
-1. **Deploy Azure resources**  
+1. Please check the link [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) and choose a region where Azure AI Search, Azure OpenAI services, Azure AI Foundry Services are available. 
+
+2. **Deploy Azure resources**  
    Click the following deployment button to create the required resources for this accelerator directly in your Azure Subscription.
 
-   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmain%2FDeployment%2Fbicep%2Fmain.json)
+   <![![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FCustomer-Service-Conversational-Insights-with-Azure-OpenAI-Services%2Fmain%2FDeployment%2Fbicep%2Fmain.json)
+
+
 
    1.  Most fields will have a default name set already. You will need to update the following Azure OpenAI settings:
 
@@ -74,9 +63,9 @@ Simple deploy
 
        -  Solution Prefix - provide a 6 alphanumeric value that will be used to prefix resources
       
-       -  Location - location of resources, by default it will use the resource group's location
+       -  Other Location - location of resources (required for Azure SQL and CosmoDB resources)
            
-2.  **Create Fabric workspace**
+3.  **Create Fabric workspace**
     1.  Navigate to ([Fabric Workspace](https://app.fabric.microsoft.com/))
     2.  Click on Workspaces from left Navigation
     3.  Click on + New Workspace
@@ -84,9 +73,19 @@ Simple deploy
         2.  Provide Description of Workspace (optional)
         3.  Click Apply
     4.  Open Workspace
-    5.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
+    5.  Create Environment
+        1.  Click ` + New Item ` (in Workspace)
+        2.  Select Environment from list
+        3.  Provide name for Environment and click Create
+        4.  Select Public libraries in left panel
+        5.  Click Add from .yml
+        6.  Upload .yml from [here](./Deployment/scripts/fabric_scripts/ckm_cu_env.yml)
+        7.  Click Publish
+    6.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
 
-3.  **Deploy Fabric resources and artifacts**
+    ***Note: Wait until the Environment is finished publishing prior to proceeding witht the next steps.
+
+4.  **Deploy Fabric resources and artifacts**
     1.   Navigate to ([Azure Portal](https://portal.azure.com/))
     2.   Click on Azure Cloud Shell in the top right of navigation Menu (add image)
     3.   Run the run the following commands:  
@@ -98,66 +97,18 @@ Simple deploy
               1.   keyvault_param - the name of the keyvault that was created in Step 1
               2.   workspaceid_param - the workspaceid created in Step 2
               3.   solutionprefix_param - prefix used to append to lakehouse upon creation
-    4.  Get Fabric Lakehouse connection details:
-    5.   Once deployment is complete, navigate to Fabric Workspace
-    6.   Find Lakehouse in workspace (ex.lakehouse_*solutionprefix_param*)
-    7.   Click on the ```...``` next to the SQL Analytics Endpoint
-    8.   Click on ```Copy SQL connection string```
-    9.   Click Copy button in popup window.
-    10.  Wait 10-15 minutes to allow the data pipelines to finish processing then proceed to next step.
-4.  **Open Power BI report**
-    1.   Download the .pbix file from the [Reports folder](Deployment/Reports/).
-    2.   Open Power BI report in Power BI Dashboard
-    3.   Click on `Transform Data` menu option from the Task Bar
-    4.   Click `Data source settings`
-    5.   Click `Change Source...`
-    6.   Input the Server link (from Fabric Workspace)
-    7.   Input Database name (the lakehouse name from Fabric Workspace)
-    8.   Click `OK`
-    9.   Click `Edit Permissions`
-    10.  If not signed in, sign in your credentials and proceed to click OK
-    11.  Click `Close`
-    12.  Report should refresh with new connection.
-5.  **Publish Power BI**
-    1.  Click `Publish` (from PBI report in Power BI Desktop application)
-    2.  Select Fabric Workspace
-    3.  Click `Select`
-    4.  After publish is complete, navigate to Fabric Workspace
-    5.  Click `...` next to the Semantic model for Power BI report
-    6.  Click on `Settings` 
-    7.  Click on `Edit credentials` (under Data source credentials)
-    8.  Select `OAuth2` for the Authentication method
-    9.  Select option for `Privacy level setting for this data source`
-    10. Click `Sign in`
-    11. Navigate back to Fabric workspace and click on Power BI report
-6.  **Schedule Post-Processing Notebook**  
-    It is essential to update dates daily as they advance based on the current day at the time of deployment. Since the Power BI report relies on the current date, we highly recommend scheduling or running the 03_post_processing notebook daily in the workspace. Please note that this process modifies the original date of the processed data. If you do not wish to run this, do not execute the 03_post_processing notebook.
-    
-    To schedule the notebook, follow these steps:
-    - Navigate to the Workspace
-    - Click on the "..." next to the 03_post_processing notebook
-    - Select "Schedule"
-    - Configure the schedule settings (we **recommend** running the notebook *at least daily*)
+5.  **Add App Authentication**
+   
+    Follow steps in [App Authentication](./Documents/AppAuthentication.md) to configure authenitcation in app service.
 
-
-
-### Process audio files
-Currently, audio files are not processed during deployment. To manually process audio files, follow these steps:
-- Open the `pipeline_notebook`
-- Comment out cell 2 (only if there are zero files in the `conversation_input` data folder waiting for JSON processing)
-- Uncomment cells 3 and 4
-- Run `pipeline_notebook`
 
 
 ### Upload additional files
 
-All files JSON and WAV files can be uploaded in the corresponding Lakehouse in the data/Files folder:
-
-- Conversation (JSON files): 
-  Upload JSON files in the *conversation_input* folder.
+All files WAV files can be uploaded in the corresponding Lakehouse in the data/Files folder:
 
 - Audio (WAV files):
-  Upload Audio files in the *audio_input* folder.
+  Upload Audio files in the *cu_audio_files_all* folder.
 
 
 ### Post-deployment
@@ -172,35 +123,40 @@ Supporting documentation
 
 ### 
 
-### How to customize
+### How to customize 
 
 If you'd like to customize the accelerator, here are some ways you might do that:
-- Modify the Power BI report to use a custom logo
-- Ingest your own [JSON conversation files](ConversationalDataFormat.md) by uploading them into the `conversation_input` lakehouse folder and run the data pipeline
-- Ingest your own [audio conversation files](ConversationalDataFormat.md) by uploading them into the `audio_input` lakehouse folder and run the data pipeline
-
-### Troubleshooting
--   [Troubleshooting documentation](Troubleshooting.md)
+- Ingest your own [audio conversation files](./Documents/ConversationalDataFormat.md) by uploading them into the `cu_audio_files_all` lakehouse folder and run the data pipeline
 
 ### Additional resources
 
 - [Microsoft Fabric documentation - Microsoft Fabric | Microsoft Learn](https://learn.microsoft.com/en-us/fabric/)
 - [Azure OpenAI Service - Documentation, quickstarts, API reference - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data)
+- [Azure AI Content Understanding documentation](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/)
+- [Azure AI Foundry documentation](https://learn.microsoft.com/en-us/azure/ai-studio/)
 - [Speech service documentation - Tutorials, API Reference - Azure AI services - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/)
-  
-### More info
--   [Solution
-    architecture](SolutionArchitecture.md)
--  [Future extensibility documentation](Extensibility.md)
+
 
 ### Version history
-An updated version of the Conversation Knowledge Mining (CKM) solution accelerator was published on 08/15/2024. If you deployed the accelerator prior to that date, please note that CKM v2 cannot be deployed over CKM v1. Please also note that the CKM v2 .json conversation file format has been revised to include additional metadata, therefore CKM v1 files are no longer compatible. For resources related to CKM v1, please visit our archive ([link-to-archive](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/tree/ckm-v1)).
 
-<h2><img src="/images/readMe/customerTruth.png" width="64">
+#### Release 3
+An updated version of the Conversation Knowledge Mining (CKM) solution accelerator was published on 01/15/2025. If you deployed the accelerator prior to that date, please note that CKM Release 3 cannot be deployed over CKM Release 2. Please also note that the CKM Release 3 conversation and audio file formats has been revised therefore files for prior releases are no longer compatible. For resources related to CKM Release 2, please visit our archive ([link-to-archive](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/tree/ckm-v2)).
+
+#### Release 2
+An updated version of the Conversation Knowledge Mining (CKM) solution accelerator was published on 08/15/2024. If you deployed the accelerator prior to that date, please note that CKM v2 cannot be deployed over CKM v1. Please also note that the CKM Release 2 JSON conversation file format has been revised to include additional metadata, therefore CKM v1 files are no longer compatible. For resources related to CKM v1, please visit our archive ([link-to-archive](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/tree/ckm-v1)).
+
+<h2><img src="./Documents/Images/ReadMe/customerTruth.png" width="64">
 </br>
 Customer truth
 </h2>
 Customer stories coming soon.
+
+<h2>
+</br>
+Responsible AI Transparency FAQ 
+</h2>
+
+Please refer to [Transparency FAQ](./TRANSPARENCY_FAQ.md) for responsible AI transparency details of this solution accelerator.
 
 <br/>
 <br/>

@@ -1,0 +1,553 @@
+[
+    {
+      "customerId": "C001",
+      "name": "John Doe",
+      "satisfactionScore": 85,
+      "keywords": ["service", "quality", "support"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1200 },
+        { "product": "Headphones", "quantity": 2, "price": 100 }
+      ]
+    },
+    {
+      "customerId": "C002",
+      "name": "Jane Smith",
+      "satisfactionScore": 78,
+      "keywords": ["delivery", "price", "quality"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 800 },
+        { "product": "Charger", "quantity": 3, "price": 30 }
+      ]
+    },
+    {
+      "customerId": "C003",
+      "name": "Michael Johnson",
+      "satisfactionScore": 90,
+      "keywords": ["service", "speed", "price"],
+      "avgHandlingTime": 4,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 600 },
+        { "product": "Case", "quantity": 2, "price": 40 }
+      ]
+    },
+    {
+      "customerId": "C004",
+      "name": "Emily Davis",
+      "satisfactionScore": 65,
+      "keywords": ["support", "price", "delivery"],
+      "avgHandlingTime": 8,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1000 },
+        { "product": "Mouse", "quantity": 1, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C005",
+      "name": "David Wilson",
+      "satisfactionScore": 95,
+      "keywords": ["quality", "service", "speed"],
+      "avgHandlingTime": 3,
+      "purchaseHistory": [
+        { "product": "Monitor", "quantity": 1, "price": 300 },
+        { "product": "Keyboard", "quantity": 1, "price": 50 }
+      ]
+    },
+    {
+      "customerId": "C006",
+      "name": "Sophia Martinez",
+      "satisfactionScore": 82,
+      "keywords": ["price", "delivery", "quality"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 900 },
+        { "product": "Screen Protector", "quantity": 3, "price": 15 }
+      ]
+    },
+    {
+      "customerId": "C007",
+      "name": "Chris Brown",
+      "satisfactionScore": 70,
+      "keywords": ["support", "quality", "speed"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 2, "price": 1200 },
+        { "product": "Case", "quantity": 2, "price": 40 }
+      ]
+    },
+    {
+      "customerId": "C008",
+      "name": "Olivia Lee",
+      "satisfactionScore": 60,
+      "keywords": ["service", "price", "delivery"],
+      "avgHandlingTime": 9,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1100 },
+        { "product": "Bag", "quantity": 1, "price": 70 }
+      ]
+    },
+    {
+      "customerId": "C009",
+      "name": "William King",
+      "satisfactionScore": 88,
+      "keywords": ["support", "quality", "response"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Smartwatch", "quantity": 1, "price": 300 },
+        { "product": "Charger", "quantity": 1, "price": 25 }
+      ]
+    },
+    {
+      "customerId": "C010",
+      "name": "Emma Thompson",
+      "satisfactionScore": 75,
+      "keywords": ["speed", "delivery", "quality"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 850 },
+        { "product": "Cover", "quantity": 2, "price": 30 }
+      ]
+    },
+    {
+      "customerId": "C011",
+      "name": "Lucas Scott",
+      "satisfactionScore": 92,
+      "keywords": ["quality", "service", "speed"],
+      "avgHandlingTime": 4,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1300 },
+        { "product": "Mouse", "quantity": 1, "price": 25 }
+      ]
+    },
+    {
+      "customerId": "C012",
+      "name": "Mia White",
+      "satisfactionScore": 80,
+      "keywords": ["price", "support", "delivery"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Monitor", "quantity": 1, "price": 400 },
+        { "product": "Keyboard", "quantity": 1, "price": 60 }
+      ]
+    },
+    {
+      "customerId": "C013",
+      "name": "James Green",
+      "satisfactionScore": 68,
+      "keywords": ["support", "delivery", "price"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 700 },
+        { "product": "Cover", "quantity": 1, "price": 25 }
+      ]
+    },
+    {
+      "customerId": "C014",
+      "name": "Ethan Clark",
+      "satisfactionScore": 78,
+      "keywords": ["quality", "response", "price"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Smartwatch", "quantity": 1, "price": 350 },
+        { "product": "Strap", "quantity": 1, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C015",
+      "name": "Chloe Hall",
+      "satisfactionScore": 72,
+      "keywords": ["support", "speed", "service"],
+      "avgHandlingTime": 8,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1400 },
+        { "product": "Mouse", "quantity": 2, "price": 40 }
+      ]
+    },
+    {
+      "customerId": "C016",
+      "name": "Mason Perez",
+      "satisfactionScore": 85,
+      "keywords": ["speed", "service", "quality"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 900 },
+        { "product": "Headphones", "quantity": 1, "price": 150 }
+      ]
+    },
+    {
+      "customerId": "C017",
+      "name": "Charlotte Young",
+      "satisfactionScore": 90,
+      "keywords": ["quality", "service", "delivery"],
+      "avgHandlingTime": 4,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 750 },
+        { "product": "Case", "quantity": 2, "price": 35 }
+      ]
+    },
+    {
+      "customerId": "C018",
+      "name": "Oliver Hernandez",
+      "satisfactionScore": 63,
+      "keywords": ["price", "delivery", "support"],
+      "avgHandlingTime": 9,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1150 },
+        { "product": "Bag", "quantity": 1, "price": 60 }
+      ]
+    },
+    {
+      "customerId": "C019",
+      "name": "Amelia Adams",
+      "satisfactionScore": 77,
+      "keywords": ["service", "quality", "speed"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Monitor", "quantity": 1, "price": 450 },
+        { "product": "Keyboard", "quantity": 1, "price": 70 }
+      ]
+    },
+    {
+      "customerId": "C020",
+      "name": "Liam Walker",
+      "satisfactionScore": 89,
+      "keywords": ["support", "delivery", "service"],
+      "avgHandlingTime": 3,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 950 },
+        { "product": "Screen Protector", "quantity": 3, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C021",
+      "name": "Harper Rivera",
+      "satisfactionScore": 79,
+      "keywords": ["speed", "service", "quality"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 820 },
+        { "product": "Cover", "quantity": 2, "price": 30 }
+      ]
+    },
+    {
+      "customerId": "C022",
+      "name": "Benjamin Lewis",
+      "satisfactionScore": 93,
+      "keywords": ["support", "response", "price"],
+      "avgHandlingTime": 4,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1300 },
+        { "product": "Bag", "quantity": 1, "price": 50 }
+      ]
+    },
+    {
+      "customerId": "C023",
+      "name": "Isabella Brooks",
+      "satisfactionScore": 67,
+      "keywords": ["delivery", "price", "quality"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Monitor", "quantity": 1, "price": 350 },
+        { "product": "Keyboard", "quantity": 1, "price": 55 }
+      ]
+    },
+    {
+      "customerId": "C024",
+      "name": "Henry Turner",
+      "satisfactionScore": 75,
+      "keywords": ["speed", "support", "quality"],
+      "avgHandlingTime": 8,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 600 },
+        { "product": "Case", "quantity": 1, "price": 25 }
+      ]
+    },
+    {
+      "customerId": "C025",
+      "name": "Evelyn Morgan",
+      "satisfactionScore": 88,
+      "keywords": ["service", "response", "speed"],
+      "avgHandlingTime": 4,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1350 },
+        { "product": "Mouse", "quantity": 2, "price": 35 }
+      ]
+    },
+    {
+      "customerId": "C026",
+      "name": "Aiden Diaz",
+      "satisfactionScore": 83,
+      "keywords": ["quality", "support", "delivery"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Smartwatch", "quantity": 1, "price": 400 },
+        { "product": "Strap", "quantity": 1, "price": 25 }
+      ]
+    },
+    {
+      "customerId": "C027",
+      "name": "Grace Moore",
+      "satisfactionScore": 69,
+      "keywords": ["service", "price", "speed"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 900 },
+        { "product": "Charger", "quantity": 2, "price": 30 }
+      ]
+    },
+    {
+      "customerId": "C028",
+      "name": "Elijah Parker",
+      "satisfactionScore": 61,
+      "keywords": ["support", "quality", "response"],
+      "avgHandlingTime": 9,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 600 },
+        { "product": "Case", "quantity": 1, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C029",
+      "name": "Zoe Carter",
+      "satisfactionScore": 91,
+      "keywords": ["delivery", "service", "quality"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1450 },
+        { "product": "Mouse", "quantity": 2, "price": 45 }
+      ]
+    },
+    {
+      "customerId": "C030",
+      "name": "Jack Roberts",
+      "satisfactionScore": 85,
+      "keywords": ["support", "price", "response"],
+      "avgHandlingTime": 4,
+      "purchaseHistory": [
+        { "product": "Monitor", "quantity": 1, "price": 400 },
+        { "product": "Keyboard", "quantity": 1, "price": 65 }
+      ]
+    },
+    {
+      "customerId": "C031",
+      "name": "Lily Martinez",
+      "satisfactionScore": 76,
+      "keywords": ["speed", "service", "quality"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Smartwatch", "quantity": 1, "price": 350 },
+        { "product": "Charger", "quantity": 1, "price": 25 }
+      ]
+    },
+    {
+      "customerId": "C032",
+      "name": "Daniel Gonzalez",
+      "satisfactionScore": 89,
+      "keywords": ["quality", "support", "delivery"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 950 },
+        { "product": "Screen Protector", "quantity": 2, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C033",
+      "name": "Lucy Walker",
+      "satisfactionScore": 74,
+      "keywords": ["price", "service", "speed"],
+      "avgHandlingTime": 8,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 750 },
+        { "product": "Case", "quantity": 1, "price": 30 }
+      ]
+    },
+    {
+      "customerId": "C034",
+      "name": "Alexander Robinson",
+      "satisfactionScore": 92,
+      "keywords": ["support", "quality", "delivery"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1500 },
+        { "product": "Bag", "quantity": 1, "price": 80 }
+      ]
+    },
+    {
+      "customerId": "C035",
+      "name": "Hannah Collins",
+      "satisfactionScore": 66,
+      "keywords": ["service", "price", "speed"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 900 },
+        { "product": "Cover", "quantity": 2, "price": 25 }
+      ]
+    },
+    {
+      "customerId": "C036",
+      "name": "Samuel Edwards",
+      "satisfactionScore": 80,
+      "keywords": ["delivery", "quality", "support"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Monitor", "quantity": 1, "price": 450 },
+        { "product": "Keyboard", "quantity": 1, "price": 70 }
+      ]
+    },
+    {
+      "customerId": "C037",
+      "name": "Ellie Ross",
+      "satisfactionScore": 84,
+      "keywords": ["support", "service", "price"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 800 },
+        { "product": "Case", "quantity": 2, "price": 25 }
+      ]
+    },
+    {
+      "customerId": "C038",
+      "name": "Owen Bailey",
+      "satisfactionScore": 62,
+      "keywords": ["quality", "delivery", "price"],
+      "avgHandlingTime": 8,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1200 },
+        { "product": "Mouse", "quantity": 1, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C039",
+      "name": "Avery Sanders",
+      "satisfactionScore": 79,
+      "keywords": ["speed", "service", "support"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Smartwatch", "quantity": 1, "price": 400 },
+        { "product": "Strap", "quantity": 1, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C040",
+      "name": "Jackson Murphy",
+      "satisfactionScore": 87,
+      "keywords": ["price", "service", "speed"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 850 },
+        { "product": "Screen Protector", "quantity": 2, "price": 15 }
+      ]
+    },
+    {
+      "customerId": "C041",
+      "name": "Scarlett Jenkins",
+      "satisfactionScore": 82,
+      "keywords": ["delivery", "quality", "service"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 800 },
+        { "product": "Cover", "quantity": 1, "price": 30 }
+      ]
+    },
+    {
+      "customerId": "C042",
+      "name": "Wyatt Fisher",
+      "satisfactionScore": 91,
+      "keywords": ["support", "price", "quality"],
+      "avgHandlingTime": 4,
+      "purchaseHistory": [
+        { "product": "Monitor", "quantity": 1, "price": 400 },
+        { "product": "Keyboard", "quantity": 1, "price": 60 }
+      ]
+    },
+    {
+      "customerId": "C043",
+      "name": "Leah Coleman",
+      "satisfactionScore": 77,
+      "keywords": ["service", "speed", "quality"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Smartwatch", "quantity": 1, "price": 350 },
+        { "product": "Charger", "quantity": 1, "price": 30 }
+      ]
+    },
+    {
+      "customerId": "C044",
+      "name": "Ryan Long",
+      "satisfactionScore": 86,
+      "keywords": ["delivery", "service", "response"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1300 },
+        { "product": "Bag", "quantity": 1, "price": 75 }
+      ]
+    },
+    {
+      "customerId": "C045",
+      "name": "Madison Bryant",
+      "satisfactionScore": 72,
+      "keywords": ["support", "quality", "price"],
+      "avgHandlingTime": 8,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 950 },
+        { "product": "Cover", "quantity": 2, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C046",
+      "name": "Sebastian Cox",
+      "satisfactionScore": 68,
+      "keywords": ["price", "service", "delivery"],
+      "avgHandlingTime": 9,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 600 },
+        { "product": "Case", "quantity": 2, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C047",
+      "name": "Natalie Howard",
+      "satisfactionScore": 95,
+      "keywords": ["quality", "support", "speed"],
+      "avgHandlingTime": 3,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1500 },
+        { "product": "Mouse", "quantity": 2, "price": 50 }
+      ]
+    },
+    {
+      "customerId": "C048",
+      "name": "Aaron Bell",
+      "satisfactionScore": 82,
+      "keywords": ["service", "response", "delivery"],
+      "avgHandlingTime": 5,
+      "purchaseHistory": [
+        { "product": "Smartphone", "quantity": 1, "price": 900 },
+        { "product": "Headphones", "quantity": 1, "price": 200 }
+      ]
+    },
+    {
+      "customerId": "C049",
+      "name": "Samantha Barnes",
+      "satisfactionScore": 87,
+      "keywords": ["quality", "price", "support"],
+      "avgHandlingTime": 6,
+      "purchaseHistory": [
+        { "product": "Tablet", "quantity": 1, "price": 850 },
+        { "product": "Charger", "quantity": 1, "price": 20 }
+      ]
+    },
+    {
+      "customerId": "C050",
+      "name": "Carter Hughes",
+      "satisfactionScore": 81,
+      "keywords": ["delivery", "service", "speed"],
+      "avgHandlingTime": 7,
+      "purchaseHistory": [
+        { "product": "Laptop", "quantity": 1, "price": 1450 },
+        { "product": "Bag", "quantity": 1, "price": 65 }
+      ]
+    }
+  ]
+  
