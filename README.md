@@ -14,7 +14,7 @@ This solution accelerator enables customers with large amounts of conversational
 
 This solution accelerator leverages Azure AI Foundry, Azure OpenAI, Microsoft Fabric, and Azure Search to transform large volumes of conversational data into actionable insights through topic modeling, key phrase extraction, speech-to-text transcription, and interactive chat experiences.
 
-**Version history:** An updated version of the Conversation Knowledge Mining solution accelerator was published on xx/xx/xxxx. If you deployed the accelerator prior to that date, please see “Version history” in the [Supporting documentation](#supporting-documentation) section.
+**Version history:** An updated version of the Conversation Knowledge Mining solution accelerator was published on 01/15/2025. If you deployed the accelerator prior to that date, please see “Version history” in the [Supporting documentation](#supporting-documentation) section.
 
 ### Technical key features
 
