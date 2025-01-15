@@ -28,7 +28,7 @@
     "resourceGroupLocation": "[resourceGroup().location]",
     "resourceGroupName": "[resourceGroup().name]",
     "solutionLocation": "[variables('resourceGroupLocation')]",
-    "baseUrl": "https://raw.githubusercontent.com/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Servicest/km-v3-staging/"
+    "baseUrl": "https://raw.githubusercontent.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/km-v3-staging/"
   },
   "resources": [
     {
