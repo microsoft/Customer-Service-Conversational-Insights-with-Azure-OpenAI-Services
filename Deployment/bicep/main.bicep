@@ -15,7 +15,7 @@ param otherLocation string
 var resourceGroupLocation = resourceGroup().location
 
 var solutionLocation = resourceGroupLocation
-var baseUrl = 'https://raw.githubusercontent.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/'
+var baseUrl = 'https://raw.githubusercontent.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/km-v3-staging'
 
 // ========== Managed Identity ========== //
 module managedIdentityModule 'deploy_managed_identity.bicep' = {
