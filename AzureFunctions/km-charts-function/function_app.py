@@ -1,3 +1,4 @@
+from datetime import datetime
 import azure.functions as func
 import logging
 import json
@@ -25,6 +26,33 @@ def get_metrics(req: func.HttpRequest) -> func.HttpResponse:
 
     conn = pymssql.connect(server, username, password, database)
     cursor = conn.cursor()
+
+    # Adjust the dates to the current date
+    today = datetime.today()
+    cursor.execute("SELECT MAX(CAST(StartTime AS DATETIME)) FROM [dbo].[processed_data]")
+    max_start_time = cursor.fetchone()[0]
+    
+    if max_start_time:
+        days_difference = (today - max_start_time).days - 1
+        if days_difference != 0:
+            # Update processed_data table
+            cursor.execute(
+                "UPDATE [dbo].[processed_data] SET StartTime = FORMAT(DATEADD(DAY, %s, StartTime), 'yyyy-MM-dd HH:mm:ss'), EndTime = FORMAT(DATEADD(DAY, %s, EndTime), 'yyyy-MM-dd HH:mm:ss')",
+                (days_difference, days_difference)
+            )
+            # Update km_processed_data table
+            cursor.execute(
+                "UPDATE [dbo].[km_processed_data] SET StartTime = FORMAT(DATEADD(DAY, %s, StartTime), 'yyyy-MM-dd HH:mm:ss'), EndTime = FORMAT(DATEADD(DAY, %s, EndTime), 'yyyy-MM-dd HH:mm:ss')",
+                (days_difference, days_difference)
+            )
+            # Update processed_data_key_phrases table
+            cursor.execute(
+                "UPDATE [dbo].[processed_data_key_phrases] SET StartTime = FORMAT(DATEADD(DAY, %s, StartTime), 'yyyy-MM-dd HH:mm:ss')",
+                (days_difference,)
+            )
+            # Commit the changes
+            conn.commit()
+            
     if data_type == 'filters':
  
         sql_stmt = '''select 'Topic' as filter_name, mined_topic as displayValue, mined_topic as key1 from 

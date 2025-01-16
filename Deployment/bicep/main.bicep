@@ -13,6 +13,7 @@ param otherLocation string
 // param fabricWorkspaceId string
 
 var resourceGroupLocation = resourceGroup().location
+var resourceGroupName = resourceGroup().name
 
 var solutionLocation = resourceGroupLocation
 var baseUrl = 'https://raw.githubusercontent.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/km-v3-staging/'
@@ -84,7 +85,6 @@ module uploadFiles 'deploy_upload_files_script.bicep' = {
     baseUrl: baseUrl
     storageAccountName: storageAccount.outputs.storageName
     containerName: storageAccount.outputs.storageContainer
-    storageAccountKey:keyVault.getSecret('ADLS-ACCOUNT-KEY')
     managedIdentityObjectId:managedIdentityModule.outputs.managedIdentityOutput.id
   }
   dependsOn:[storageAccount,keyVault]

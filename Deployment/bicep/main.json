@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.32.4.45862",
-      "templateHash": "7717305353028371958"
+      "templateHash": "2383153489316953097"
     }
   },
   "parameters": {
@@ -26,6 +26,7 @@
   },
   "variables": {
     "resourceGroupLocation": "[resourceGroup().location]",
+    "resourceGroupName": "[resourceGroup().name]",
     "solutionLocation": "[variables('resourceGroupLocation')]",
     "baseUrl": "https://raw.githubusercontent.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/km-v3-staging/"
   },
@@ -1434,14 +1435,6 @@
           "containerName": {
             "value": "[reference(extensionResourceId(format('/subscriptions/{0}/resourceGroups/{1}', subscription().subscriptionId, resourceGroup().name), 'Microsoft.Resources/deployments', 'deploy_storage_account'), '2022-09-01').outputs.storageContainer.value]"
           },
-          "storageAccountKey": {
-            "reference": {
-              "keyVault": {
-                "id": "[extensionResourceId(format('/subscriptions/{0}/resourceGroups/{1}', subscription().subscriptionId, resourceGroup().name), 'Microsoft.KeyVault/vaults', reference(extensionResourceId(format('/subscriptions/{0}/resourceGroups/{1}', subscription().subscriptionId, resourceGroup().name), 'Microsoft.Resources/deployments', 'deploy_ai_foundry'), '2022-09-01').outputs.keyvaultName.value)]"
-              },
-              "secretName": "ADLS-ACCOUNT-KEY"
-            }
-          },
           "managedIdentityObjectId": {
             "value": "[reference(extensionResourceId(format('/subscriptions/{0}/resourceGroups/{1}', subscription().subscriptionId, resourceGroup().name), 'Microsoft.Resources/deployments', 'deploy_managed_identity'), '2022-09-01').outputs.managedIdentityOutput.value.id]"
           }
@@ -1453,7 +1446,7 @@
             "_generator": {
               "name": "bicep",
               "version": "0.32.4.45862",
-              "templateHash": "2240564084997274937"
+              "templateHash": "16162981464101235300"
             }
           },
           "parameters": {
@@ -1471,9 +1464,6 @@
             },
             "managedIdentityObjectId": {
               "type": "string"
-            },
-            "storageAccountKey": {
-              "type": "securestring"
             },
             "storageAccountName": {
               "type": "string"
@@ -1498,7 +1488,7 @@
               "properties": {
                 "azCliVersion": "2.50.0",
                 "primaryScriptUri": "[format('{0}Deployment/scripts/copy_kb_files.sh', parameters('baseUrl'))]",
-                "arguments": "[format('{0} {1} {2} {3}', parameters('storageAccountName'), parameters('containerName'), parameters('storageAccountKey'), parameters('baseUrl'))]",
+                "arguments": "[format('{0} {1} {2}', parameters('storageAccountName'), parameters('containerName'), parameters('baseUrl'))]",
                 "timeout": "PT1H",
                 "retentionInterval": "PT1H",
                 "cleanupPreference": "OnSuccess"

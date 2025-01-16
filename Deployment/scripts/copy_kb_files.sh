@@ -3,8 +3,7 @@
 # Variables
 storageAccount="$1"
 fileSystem="$2"
-accountKey="$3"
-baseUrl="$4"
+baseUrl="$3"
 # azureOpenAIApiKey="$4"
 # azureOpenAIEndpoint="$5"
 # azureSearchAdminKey="$6"
@@ -85,7 +84,12 @@ echo "Script Started"
 # az storage blob upload-batch --account-name "$storageAccount" --destination data/"$extractedFolder1" --source /mnt/azscripts/azscriptinput/"$extractedFolder1" --auth-mode login --pattern '*'
 # az storage blob upload-batch --account-name "$storageAccount" --destination data/"$extractedFolder2" --source /mnt/azscripts/azscriptinput/"$extractedFolder2" --auth-mode login --pattern '*'
 
-az storage fs directory upload -f "$fileSystem" --account-name "$storageAccount" -s "$extractedFolder1" --account-key "$accountKey" --recursive
+# Authenticate with Azure using managed identity
+az login --identity
+# Using az storage blob upload-batch to upload files with managed identity authentication, as the az storage fs directory upload command is not working with managed identity authentication.
+az storage blob upload-batch --account-name "$storageAccount" --destination data/"$extractedFolder1" --source /mnt/azscripts/azscriptinput/"$extractedFolder1" --auth-mode login --pattern '*'
+
+#az storage fs directory upload -f "$fileSystem" --account-name "$storageAccount" -s "$extractedFolder1" --account-key "$accountKey" --recursive
 
 # az storage blob upload-batch --account-name "$storageAccount" --destination "data/audiofiles" --source /mnt/azscripts/azscriptinput/"$extractedFolder2" --account-key "$accountKey" --pattern '*'
 # az storage blob upload-batch --account-name "$storageAccount" --destination "data/audiofiles" --source /mnt/azscripts/azscriptinput/"$extractedFolder3" --account-key "$accountKey" --pattern '*'
