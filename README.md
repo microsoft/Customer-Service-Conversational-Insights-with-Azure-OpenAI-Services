@@ -67,13 +67,14 @@ To use this solution accelerator, you will need access to an [Azure subscription
            
 3.  **Create Fabric workspace**
     1.  Navigate to ([Fabric Workspace](https://app.fabric.microsoft.com/))
-    2.  Click on Workspaces from left Navigation
-    3.  Click on + New Workspace
+    2.  Click on Data Engineering experience
+    3.  Click on Workspaces from left Navigation
+    4.  Click on + New Workspace
         1.  Provide Name of Workspace 
         2.  Provide Description of Workspace (optional)
         3.  Click Apply
-    4.  Open Workspace
-    5.  Create Environment
+    5.  Open Workspace
+    6.  Create Environment
         1.  Click ` + New Item ` (in Workspace)
         2.  Select Environment from list
         3.  Provide name for Environment and click Create
@@ -81,7 +82,7 @@ To use this solution accelerator, you will need access to an [Azure subscription
         5.  Click Add from .yml
         6.  Upload .yml from [here](./Deployment/scripts/fabric_scripts/ckm_cu_env.yml)
         7.  Click Publish
-    6.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
+    7.  Retrieve Workspace ID from URL, refer to documentation additional assistance ([here](https://learn.microsoft.com/en-us/fabric/admin/portal-workspace#identify-your-workspace-id))
 
     ***Note: Wait until the Environment is finished publishing prior to proceeding witht the next steps.
 
