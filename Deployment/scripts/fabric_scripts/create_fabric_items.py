@@ -5,6 +5,7 @@ import requests
 import pandas as pd
 import os
 from glob import iglob
+import zipfile
 import time
 
 
@@ -22,7 +23,8 @@ workspaceId = "workspaceId_to-be-replaced"
 solutionname = "solutionName_to-be-replaced"
 create_workspace = False
 
-pipeline_notebook_name = 'pipeline_notebook'
+# pipeline_notebook_name = 'pipeline_notebook'
+pipeline_notebook_name = 'cu_pipeline_notebook'
 pipeline_name = 'data_pipeline'
 lakehouse_name = 'lakehouse_' + solutionname
 
@@ -49,8 +51,6 @@ fabric_create_workspace_url = f"https://api.fabric.microsoft.com/v1/workspaces"
 
 #get workspace name
 ws_res = requests.get(fabric_base_url, headers=fabric_headers)
-print("ws_res")
-print(ws_res)
 workspace_name = ws_res.json()['displayName']
 
 #create lakehouse
@@ -60,18 +60,15 @@ lakehouse_data = {
 }
 lakehouse_res = requests.post(fabric_items_url, headers=fabric_headers, json=lakehouse_data)
 
-print("lakehouse name: ", lakehouse_name)
-print("lakehouse res: ", lakehouse_res)
+# print("lakehouse name: ", lakehouse_name)
 
 # copy local files to lakehouse
 from azure.storage.filedatalake import (
-    DataLakeServiceClient,
-    DataLakeDirectoryClient,
-    FileSystemClient
+    DataLakeServiceClient
 )
 
 account_name = "onelake" #always onelake
-data_path = f"{lakehouse_name}.Lakehouse/Files"
+data_path = f"{lakehouse_name}.Lakehouse/Files/"
 folder_path = "/"
 
 account_url = f"https://{account_name}.dfs.fabric.microsoft.com"
@@ -82,10 +79,45 @@ file_system_client = service_client.get_file_system_client(workspace_name)
 
 directory_client = file_system_client.get_directory_client(f"{data_path}/{folder_path}")
 
-local_path = 'data/**/*'
-file_names = [f for f in iglob(local_path, recursive=True) if os.path.isfile(f)]
+print('uploading files')
+# upload audio files
+data_folder_path = os.path.join("..", "..", "data", "audio_data")
+file_names = zip_files = list(iglob(os.path.join(data_folder_path, "audio*.zip")))
 for file_name in file_names:
-  file_client = directory_client.get_file_client(file_name)
+    # Check if the file is a zip file
+    if file_name.endswith('.zip'):
+        # print('checking if filename ends in zip')
+        # Extract files from the zip folder
+        with zipfile.ZipFile(file_name, 'r') as zip_ref:
+            # print('zip file')
+            extract_dir = f"{file_name}_extracted"
+            zip_ref.extractall(extract_dir)
+        
+        local_path = extract_dir
+        # print('ex dir', extract_dir)
+        # upload extracted folder
+        file_names = [f for f in iglob(os.path.join(local_path, "**", "*"), recursive=True) if os.path.isfile(f)]
+        # print('file_names ex', file_names)
+        for file_name in file_names:
+            upload_file_name = os.path.basename(file_name)
+            file_client = directory_client.get_file_client("cu_audio_files_all/" + upload_file_name)
+            # with open(file=os.path.join(extract_dir, file_name), mode="rb") as data:
+            with open(file=file_name, mode="rb") as data:
+                # print('data', data)
+                file_client.upload_data(data, overwrite=True)
+
+
+# upload content understanding json file
+folder_path = '/cu_analyzer_file'
+local_path = os.path.join("..", "cu_scripts", "*.json")
+
+file_names = [f for f in iglob(local_path) if os.path.isfile(f)]
+
+for file_name in file_names:
+  base_name = os.path.basename(file_name)
+  path = f"{folder_path}/{base_name}"
+
+  file_client = directory_client.get_file_client(path)
   with open(file=file_name, mode="rb") as data:
     file_client.upload_data(data, overwrite=True)
 
@@ -99,20 +131,20 @@ except:
   env_res_id = ''
 
 #create notebook items
-notebook_names =['pipeline_notebook','00_process_json_files','01_process_audio_files', '02_enrich_audio_data', '03_post_processing', '04_create_calendar_data']
+# notebook_names =['pipeline_notebook','01_process_data','02_create_calendar_data']
+notebook_names = ['cu_pipeline_notebook', 'create_cu_template', 'process_cu_data']
 # notebook_names =['process_data_new']
 
 # add sleep timer
 time.sleep(120)  # 1 minute
 
 for notebook_name in notebook_names:
-    with open('notebooks/'+ notebook_name +'.ipynb', 'r') as f:
+    with open('notebooks/cu/'+ notebook_name +'.ipynb', 'r') as f:
         notebook_json = json.load(f)
 
     print("lakehouse_res")
     print(lakehouse_res)
     print(lakehouse_res.json())
-    
     
     try:
         notebook_json['metadata']['dependencies']['lakehouse']['default_lakehouse'] = lakehouse_res.json()['id']
