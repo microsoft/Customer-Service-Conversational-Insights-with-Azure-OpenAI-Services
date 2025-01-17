@@ -276,7 +276,6 @@ database = get_secrets_from_kv(key_vault_name,"SQLDB-DATABASE")
 username =  get_secrets_from_kv(key_vault_name,"SQLDB-USERNAME")
 password =  get_secrets_from_kv(key_vault_name,"SQLDB-PASSWORD")
 
-# # print(server, database, username, password)
 conn = pymssql.connect(server, username, password, database)
 cursor = conn.cursor()
 print("Connected to the database")
