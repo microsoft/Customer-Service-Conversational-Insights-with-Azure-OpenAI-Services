@@ -122,6 +122,8 @@ const Explore: React.FC = () => {
   // The chat on screen, read when an answer arrives so it is not shown in a chat the user switched to.
   const currentSessionRef = useRef(sessionId);
   useEffect(() => { currentSessionRef.current = sessionId; }, [sessionId]);
+  // Bumped on every history load and new chat, so an older, slower load cannot overwrite the screen.
+  const loadSeqRef = useRef(0);
   const chatLoading = pendingSessions.has(sessionId);
   const [sessions, setSessions] = useState<any[]>([]);
   const [showHistory, setShowHistory] = useState(false);
@@ -244,6 +246,7 @@ const Explore: React.FC = () => {
     let existingMessages = messages;
 
     if (resetConversation) {
+      loadSeqRef.current++;
       activeSessionId = crypto.randomUUID();
       currentSessionRef.current = activeSessionId;
       existingMessages = [];
@@ -306,7 +309,7 @@ const Explore: React.FC = () => {
   const toggleSource = (idx: number) => {
     setExpandedSources((prev: Set<number>) => { const n = new Set(prev); n.has(idx) ? n.delete(idx) : n.add(idx); return n; });
   };
-  const startNew = () => { const sid = crypto.randomUUID(); currentSessionRef.current = sid; setSessionId(sid); setMessages([]); setExpandedSources(new Set()); };
+  const startNew = () => { loadSeqRef.current++; const sid = crypto.randomUUID(); currentSessionRef.current = sid; setSessionId(sid); setMessages([]); setExpandedSources(new Set()); };
   const openCitation = async (src: any) => {
     const url = src?.url || src?.metadata?.url;
     const label = src?.source_file || src?.doc_id || "Citation";
@@ -330,8 +333,10 @@ const Explore: React.FC = () => {
     }
   };
   const loadSession = async (sid: string) => {
+    const seq = ++loadSeqRef.current;
     try {
       const r = await loadChatHistory(sid);
+      if (seq !== loadSeqRef.current) return;
       currentSessionRef.current = sid;
       setSessionId(sid);
       const rawMsgs = r.data?.messages || r.data;
