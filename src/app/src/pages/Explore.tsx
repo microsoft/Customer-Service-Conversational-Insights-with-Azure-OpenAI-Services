@@ -90,7 +90,7 @@ const dedupeDataSources = (sources: any[]): any[] => {
 
 /* ── Component ── */
 const Explore: React.FC = () => {
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
 
   // Data context
@@ -200,6 +200,11 @@ const Explore: React.FC = () => {
     if (!fromInsights && messages.length > 0) return;
 
     processedAutoQueryRef.current = autoKey;
+    // Drop q/source so a refresh or back/forward doesn't re-ask the question.
+    const next = new URLSearchParams(searchParams);
+    next.delete("q");
+    next.delete("source");
+    setSearchParams(next, { replace: true });
     void handleChat(q, { resetConversation: fromInsights });
   }, [searchParams, messages.length, chatLoading]);
 
