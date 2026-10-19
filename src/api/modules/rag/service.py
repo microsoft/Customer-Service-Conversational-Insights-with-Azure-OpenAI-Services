@@ -102,15 +102,17 @@ def _number_citations(text: str, response: Any, get_urls: list) -> tuple[str, li
             citations.append({"title": labels[key], "url": key[1]})
         return numbers[key]
 
-    # Offsets refer to the final response text. If the streamed text differs, pair the
-    # markers with the annotations in order instead.
+    # Offsets refer to the final response text. If the streamed text differs, match each
+    # marker by its own text (e.g. "【4:0†source】") so a stray marker cannot shift the others.
     by_position = text == full_text
-    ordered = iter(sorted(spans, key=lambda s: s[0]))
+    by_marker: dict = {}
+    for start, end, key in spans:
+        by_marker.setdefault(full_text[start:end], key)
 
     def _replace(match) -> str:
         if not by_position:
-            span = next(ordered, None)
-            return f"[{_number(span[2])}]" if span else ""
+            key = by_marker.get(match.group(0))
+            return f"[{_number(key)}]" if key else ""
         for start, end, key in spans:
             if start < match.end() and match.start() < end:
                 return f"[{_number(key)}]"
