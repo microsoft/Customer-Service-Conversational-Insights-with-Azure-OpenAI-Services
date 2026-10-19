@@ -124,7 +124,7 @@ export const AppStateProvider: React.FC<{ children: ReactNode }> = ({ children }
 
   useEffect(() => {
     try { sessionStorage.setItem("km_explore_session", JSON.stringify(exploreSessionId)); } catch {}
-  }, [exploreSessionId]);
+  }, [exploreSessionId, exploreChatMessages]);
 
   const setExploreData = useCallback((d: { files: any[]; dataSources: any[]; schema: any } | null) => {
     setExploreDataRaw(d);

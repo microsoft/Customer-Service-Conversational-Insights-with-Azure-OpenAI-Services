@@ -341,9 +341,10 @@ const Explore: React.FC = () => {
       if (seq !== loadSeqRef.current) return;
       setSessionId(sid);
       const rawMsgs = r.data?.messages || r.data;
-      // Prefer this tab's latest copy: saved history can lag a pending or just-finished answer.
-      setMessages(chatCacheRef.current.get(sid)
-        ?? (Array.isArray(rawMsgs) ? rawMsgs.map((m: any) => ({ role: m.role, content: m.content, sources: m.sources })) : []));
+      const loaded = Array.isArray(rawMsgs) ? rawMsgs.map((m: any) => ({ role: m.role, content: m.content, sources: m.sources })) : [];
+      // History only grows: a longer cached copy means saved history lags this tab's pending or just-finished answer.
+      const cached = chatCacheRef.current.get(sid);
+      setMessages(cached && cached.length > loaded.length ? cached : loaded);
       setShowHistory(false);
     } catch (e) { /* silently ignore */ }
   };
