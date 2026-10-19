@@ -112,15 +112,16 @@ def _number_citations(text: str, response: Any, get_urls: list) -> tuple[str, li
     def _replace(match) -> str:
         if not by_position:
             key = by_marker.get(match.group(0))
-            return f"[{_number(key)}]" if key else ""
+            return f"\x00{_number(key)}\x00" if key else ""
         for start, end, key in spans:
             if start < match.end() and match.start() < end:
-                return f"[{_number(key)}]"
+                return f"\x00{_number(key)}\x00"
         return ""
 
     out = _RAW_MARKER_RE.sub(_replace, text)
     # Collapse repeats such as "[2][2]" left where several markers cite one document.
-    out = re.sub(r"(\[\d+\])(?:[ \t]*\1)+", r"\1", out)
+    out = re.sub(r"(\x00\d+\x00)(?:[ \t]*\1)+", r"\1", out)
+    out = re.sub(r"\x00(\d+)\x00", r"[\1]", out)
     # Keep cited documents whose marker was not found in the text (listed after numbered ones).
     for key in keys:
         _number(key)

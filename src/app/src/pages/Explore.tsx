@@ -99,7 +99,7 @@ const Explore: React.FC = () => {
     // Chat state kept in app state so it survives leaving Explore.
     exploreSessionId: sessionId, setExploreSessionId: setSessionId, exploreSessionRef: currentSessionRef,
     explorePendingSessions: pendingSessions, setExplorePendingSessions: setPendingSessions,
-    exploreLoadSeqRef: loadSeqRef,
+    exploreLoadSeqRef: loadSeqRef, exploreChatCacheRef: chatCacheRef,
   } = useAppState();
   const [files, setFiles] = useState<any[]>(exploreData?.files ?? []);
   const [dataSources, setDataSources] = useState<any[]>(exploreData?.dataSources ?? []);
@@ -262,6 +262,7 @@ const Explore: React.FC = () => {
       setMessages((prev: any[]) => [...prev, userMsg]);
     }
     setChatInput("");
+    chatCacheRef.current.set(activeSessionId, [...existingMessages, userMsg]);
     setPendingSessions((prev: Set<string>) => new Set(prev).add(activeSessionId));
     try {
       const selectableFiles = files.filter((f: any) => isFileSelectable(f.status));
@@ -284,14 +285,15 @@ const Explore: React.FC = () => {
       const res = await askQuestion(q, 5, filters, scope, docIds, activeSessionId);
       const asstMsg = { role: "assistant" as const, content: res.data.answer, sources: res.data.sources };
       const allMsgs = [...existingMessages, userMsg, asstMsg];
+      chatCacheRef.current.set(activeSessionId, allMsgs);
       // The answer is always saved to its own chat, but shown only if that chat is still on screen.
       if (currentSessionRef.current === activeSessionId) setMessages(allMsgs);
       const title = existingMessages.length === 0 ? q.slice(0, 60) : undefined;
       saveChatHistory(activeSessionId, allMsgs, "default", title).then(() => loadSessions()).catch(() => {});
     } catch (err: unknown) {
-      if (currentSessionRef.current === activeSessionId) {
-        setMessages([...existingMessages, userMsg, { role: "assistant", content: `Error: ${err instanceof Error ? err.message : "Unknown"}` }]);
-      }
+      const errMsgs = [...existingMessages, userMsg, { role: "assistant" as const, content: `Error: ${err instanceof Error ? err.message : "Unknown"}` }];
+      chatCacheRef.current.set(activeSessionId, errMsgs);
+      if (currentSessionRef.current === activeSessionId) setMessages(errMsgs);
     } finally {
       setPendingSessions((prev: Set<string>) => { const n = new Set(prev); n.delete(activeSessionId); return n; });
     }
@@ -339,7 +341,9 @@ const Explore: React.FC = () => {
       if (seq !== loadSeqRef.current) return;
       setSessionId(sid);
       const rawMsgs = r.data?.messages || r.data;
-      setMessages(Array.isArray(rawMsgs) ? rawMsgs.map((m: any) => ({ role: m.role, content: m.content, sources: m.sources })) : []);
+      // Prefer this tab's latest copy: saved history can lag a pending or just-finished answer.
+      setMessages(chatCacheRef.current.get(sid)
+        ?? (Array.isArray(rawMsgs) ? rawMsgs.map((m: any) => ({ role: m.role, content: m.content, sources: m.sources })) : []));
       setShowHistory(false);
     } catch (e) { /* silently ignore */ }
   };

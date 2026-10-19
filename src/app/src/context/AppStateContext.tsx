@@ -27,6 +27,8 @@ interface AppState {
   explorePendingSessions: Set<string>;
   setExplorePendingSessions: React.Dispatch<React.SetStateAction<Set<string>>>;
   exploreLoadSeqRef: React.MutableRefObject<number>;
+  // Latest messages per chat, newer than saved history while an answer is pending or being saved
+  exploreChatCacheRef: React.MutableRefObject<Map<string, ChatMessage[]>>;
 
   // Explore data cache (files, data sources, schema)
   exploreData: { files: any[]; dataSources: any[]; schema: any } | null;
@@ -55,6 +57,7 @@ const AppContext = createContext<AppState>({
   explorePendingSessions: new Set(),
   setExplorePendingSessions: () => {},
   exploreLoadSeqRef: { current: 0 },
+  exploreChatCacheRef: { current: new Map() },
   exploreData: null,
   setExploreData: () => {},
   homeData: null,
@@ -73,6 +76,7 @@ export const AppStateProvider: React.FC<{ children: ReactNode }> = ({ children }
   const exploreSessionRef = useRef(exploreSessionId);
   const [explorePendingSessions, setExplorePendingSessions] = useState<Set<string>>(new Set());
   const exploreLoadSeqRef = useRef(0);
+  const exploreChatCacheRef = useRef<Map<string, ChatMessage[]>>(new Map());
   const [exploreData, setExploreDataRaw] = useState<{ files: any[]; dataSources: any[]; schema: any } | null>(() => loadFromSession("km_explore_data", null));
   const [homeData, setHomeDataRaw] = useState<{ dataSources: any[]; uploadedFiles: any[] } | null>(() => loadFromSession("km_home_data", null));
   const [ingestionSnapshot, setIngestionSnapshot] = useState<{ uploadedFiles: any[]; dataSources: any[]; schema: any; updatedAt: number } | null>(null);
@@ -209,7 +213,7 @@ export const AppStateProvider: React.FC<{ children: ReactNode }> = ({ children }
       chatMessages, setChatMessages,
       exploreChatMessages, setExploreChatMessages,
       exploreSessionId, setExploreSessionId, exploreSessionRef,
-      explorePendingSessions, setExplorePendingSessions, exploreLoadSeqRef,
+      explorePendingSessions, setExplorePendingSessions, exploreLoadSeqRef, exploreChatCacheRef,
       exploreData, setExploreData,
       homeData, setHomeData,
       ingestionSnapshot,
