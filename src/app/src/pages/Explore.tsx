@@ -94,7 +94,13 @@ const Explore: React.FC = () => {
   const navigate = useNavigate();
 
   // Data context
-  const { exploreChatMessages, setExploreChatMessages, exploreData, setExploreData, ingestionSnapshot } = useAppState();
+  const {
+    exploreChatMessages, setExploreChatMessages, exploreData, setExploreData, ingestionSnapshot,
+    // Chat state kept in app state so it survives leaving Explore.
+    exploreSessionId: sessionId, setExploreSessionId: setSessionId, exploreSessionRef: currentSessionRef,
+    explorePendingSessions: pendingSessions, setExplorePendingSessions: setPendingSessions,
+    exploreLoadSeqRef: loadSeqRef,
+  } = useAppState();
   const [files, setFiles] = useState<any[]>(exploreData?.files ?? []);
   const [dataSources, setDataSources] = useState<any[]>(exploreData?.dataSources ?? []);
   const [schema, setSchema] = useState<any>(exploreData?.schema ?? null);
@@ -111,19 +117,12 @@ const Explore: React.FC = () => {
   const messages = exploreChatMessages;
   const setMessages = setExploreChatMessages;
   const [chatInput, setChatInput] = useState("");
-  // Chats waiting for an answer; the typing indicator and Send lock apply only to the chat on screen.
-  const [pendingSessions, setPendingSessions] = useState<Set<string>>(new Set());
   const chatEndRef = useRef<HTMLDivElement>(null);
   const [expandedSources, setExpandedSources] = useState<Set<number>>(new Set());
   const processedAutoQueryRef = useRef<string>("");
 
   // Sessions
-  const [sessionId, setSessionId] = useState<string>(() => crypto.randomUUID());
-  // The chat on screen, read when an answer arrives so it is not shown in a chat the user switched to.
-  const currentSessionRef = useRef(sessionId);
-  useEffect(() => { currentSessionRef.current = sessionId; }, [sessionId]);
-  // Bumped on every history load and new chat, so an older, slower load cannot overwrite the screen.
-  const loadSeqRef = useRef(0);
+  // The typing indicator and Send lock apply only to the chat on screen.
   const chatLoading = pendingSessions.has(sessionId);
   const [sessions, setSessions] = useState<any[]>([]);
   const [showHistory, setShowHistory] = useState(false);
@@ -197,10 +196,12 @@ const Explore: React.FC = () => {
   useEffect(() => {
     const rawQ = searchParams.get("q") || "";
     const q = rawQ.trim();
-    if (!q || chatLoading) return;
+    if (!q) return;
 
     const source = (searchParams.get("source") || "").toLowerCase();
     const fromInsights = source === "insights";
+    // Insights questions start a new chat, so they needn't wait for the current one's answer.
+    if (chatLoading && !fromInsights) return;
     const autoKey = `${source}|${q}`;
 
     if (processedAutoQueryRef.current === autoKey) return;
@@ -239,8 +240,8 @@ const Explore: React.FC = () => {
 
   const handleChat = async (text?: string, options?: { resetConversation?: boolean }) => {
     const q = text || chatInput;
-    if (!q.trim() || chatLoading) return;
     const resetConversation = !!options?.resetConversation;
+    if (!q.trim() || (chatLoading && !resetConversation)) return;
 
     let activeSessionId = sessionId;
     let existingMessages = messages;
@@ -248,7 +249,6 @@ const Explore: React.FC = () => {
     if (resetConversation) {
       loadSeqRef.current++;
       activeSessionId = crypto.randomUUID();
-      currentSessionRef.current = activeSessionId;
       existingMessages = [];
       setSessionId(activeSessionId);
       setMessages([]);
@@ -309,7 +309,7 @@ const Explore: React.FC = () => {
   const toggleSource = (idx: number) => {
     setExpandedSources((prev: Set<number>) => { const n = new Set(prev); n.has(idx) ? n.delete(idx) : n.add(idx); return n; });
   };
-  const startNew = () => { loadSeqRef.current++; const sid = crypto.randomUUID(); currentSessionRef.current = sid; setSessionId(sid); setMessages([]); setExpandedSources(new Set()); };
+  const startNew = () => { loadSeqRef.current++; const sid = crypto.randomUUID(); setSessionId(sid); setMessages([]); setExpandedSources(new Set()); };
   const openCitation = async (src: any) => {
     const url = src?.url || src?.metadata?.url;
     const label = src?.source_file || src?.doc_id || "Citation";
@@ -337,7 +337,6 @@ const Explore: React.FC = () => {
     try {
       const r = await loadChatHistory(sid);
       if (seq !== loadSeqRef.current) return;
-      currentSessionRef.current = sid;
       setSessionId(sid);
       const rawMsgs = r.data?.messages || r.data;
       setMessages(Array.isArray(rawMsgs) ? rawMsgs.map((m: any) => ({ role: m.role, content: m.content, sources: m.sources })) : []);

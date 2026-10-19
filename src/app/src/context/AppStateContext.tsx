@@ -19,6 +19,14 @@ interface AppState {
   // Explore chat cache
   exploreChatMessages: ChatMessage[];
   setExploreChatMessages: (msgs: ChatMessage[] | ((prev: ChatMessage[]) => ChatMessage[])) => void;
+  // Explore chat id, kept with the messages so returning to Explore continues the same chat
+  exploreSessionId: string;
+  setExploreSessionId: (id: string) => void;
+  // Read by in-flight requests, which can outlive the Explore page
+  exploreSessionRef: React.MutableRefObject<string>;
+  explorePendingSessions: Set<string>;
+  setExplorePendingSessions: React.Dispatch<React.SetStateAction<Set<string>>>;
+  exploreLoadSeqRef: React.MutableRefObject<number>;
 
   // Explore data cache (files, data sources, schema)
   exploreData: { files: any[]; dataSources: any[]; schema: any } | null;
@@ -41,6 +49,12 @@ const AppContext = createContext<AppState>({
   setChatMessages: () => {},
   exploreChatMessages: [],
   setExploreChatMessages: () => {},
+  exploreSessionId: "",
+  setExploreSessionId: () => {},
+  exploreSessionRef: { current: "" },
+  explorePendingSessions: new Set(),
+  setExplorePendingSessions: () => {},
+  exploreLoadSeqRef: { current: 0 },
   exploreData: null,
   setExploreData: () => {},
   homeData: null,
@@ -55,6 +69,10 @@ export const AppStateProvider: React.FC<{ children: ReactNode }> = ({ children }
   const [dashboardHeadline, setDashboardHeadline] = useState<string>(() => loadFromSession("km_headline", ""));
   const [chatMessages, setChatMessagesRaw] = useState<ChatMessage[]>(() => loadFromSession("km_chat", []));
   const [exploreChatMessages, setExploreChatMessagesRaw] = useState<ChatMessage[]>(() => loadFromSession("km_explore_chat", []));
+  const [exploreSessionId, setExploreSessionIdRaw] = useState<string>(() => loadFromSession("km_explore_session", "") || crypto.randomUUID());
+  const exploreSessionRef = useRef(exploreSessionId);
+  const [explorePendingSessions, setExplorePendingSessions] = useState<Set<string>>(new Set());
+  const exploreLoadSeqRef = useRef(0);
   const [exploreData, setExploreDataRaw] = useState<{ files: any[]; dataSources: any[]; schema: any } | null>(() => loadFromSession("km_explore_data", null));
   const [homeData, setHomeDataRaw] = useState<{ dataSources: any[]; uploadedFiles: any[] } | null>(() => loadFromSession("km_home_data", null));
   const [ingestionSnapshot, setIngestionSnapshot] = useState<{ uploadedFiles: any[]; dataSources: any[]; schema: any; updatedAt: number } | null>(null);
@@ -94,6 +112,15 @@ export const AppStateProvider: React.FC<{ children: ReactNode }> = ({ children }
       return next;
     });
   };
+
+  const setExploreSessionId = useCallback((id: string) => {
+    exploreSessionRef.current = id;
+    setExploreSessionIdRaw(id);
+  }, []);
+
+  useEffect(() => {
+    try { sessionStorage.setItem("km_explore_session", JSON.stringify(exploreSessionId)); } catch {}
+  }, [exploreSessionId]);
 
   const setExploreData = useCallback((d: { files: any[]; dataSources: any[]; schema: any } | null) => {
     setExploreDataRaw(d);
@@ -181,6 +208,8 @@ export const AppStateProvider: React.FC<{ children: ReactNode }> = ({ children }
       dashboardHeadline, setDashboardHeadline,
       chatMessages, setChatMessages,
       exploreChatMessages, setExploreChatMessages,
+      exploreSessionId, setExploreSessionId, exploreSessionRef,
+      explorePendingSessions, setExplorePendingSessions, exploreLoadSeqRef,
       exploreData, setExploreData,
       homeData, setHomeData,
       ingestionSnapshot,
